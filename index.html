@@ -15,9 +15,7 @@
   --black: #000;
   --text: #fff;
 }
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 body {
   margin: 0;
   background-color: var(--black);
@@ -25,8 +23,6 @@ body {
   font-family: 'Roboto Mono', monospace;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   height: 100vh;
   overflow: hidden;
 }
@@ -39,15 +35,35 @@ header, footer {
   font-size: 1.2em;
   letter-spacing: 2px;
 }
+#content-area {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#alert-panel {
+  width: 180px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.05);
+  border-right: 3px solid var(--gold);
+}
+#alert-panel img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
 #main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 10px;
+  justify-content: center;
   text-align: center;
-  width: 100%;
+  padding: 10px;
 }
 .lcars-box {
   border: 2px solid var(--gold);
@@ -73,14 +89,8 @@ button {
   cursor: pointer;
   transition: background 0.3s;
 }
-button:hover {
-  background-color: var(--green);
-}
-#options {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+button:hover { background-color: var(--green); }
+#options { display: flex; flex-direction: column; align-items: center; }
 #systems {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -95,27 +105,34 @@ button:hover {
   font-weight: bold;
   background-color: rgba(255,255,255,0.05);
 }
-.system-label {
-  font-size: 0.9em;
-  color: var(--gold);
-}
-.system-status {
-  font-size: 1.1em;
-}
+.system-label { font-size: 0.9em; color: var(--gold); }
+.system-status { font-size: 1.1em; }
 .nominal { color: var(--green); }
 .warning { color: var(--yellow); }
 .damaged { color: var(--red); }
+#mission-header {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--blue);
+  margin-bottom: 15px;
+}
 </style>
 </head>
 <body>
 <header>LCARS COMMAND INTERFACE - USS ENTERPRISE-D</header>
-<div id="main">
-  <div class="lcars-box" id="communique"></div>
-  <div class="lcars-box" id="crew"></div>
-  <div class="lcars-box" id="scenario"></div>
-  <div class="lcars-box" id="options"></div>
-  <div class="lcars-box" id="debrief"></div>
-  <div id="systems"></div>
+<div id="content-area">
+  <div id="alert-panel">
+    <img id="alert-image" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif" alt="Alert Status">
+  </div>
+  <div id="main">
+    <div id="mission-header"></div>
+    <div class="lcars-box" id="communique"></div>
+    <div class="lcars-box" id="crew"></div>
+    <div class="lcars-box" id="mission"></div>
+    <div class="lcars-box" id="scenario"></div>
+    <div class="lcars-box" id="options"></div>
+    <div class="lcars-box" id="debrief"></div>
+    <div id="systems"></div>
+  </div>
 </div>
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
@@ -133,6 +150,11 @@ const systems = {
   'Transporters': 'nominal',
   'Structural Integrity': 'nominal'
 }
+const alertImages = {
+  green: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif',
+  yellow: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif',
+  red: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.gif'
+}
 
 async function loadScenarios() {
   try {
@@ -140,7 +162,7 @@ async function loadScenarios() {
     scenarios = await response.json()
     displayScenario(0)
     renderSystems()
-  } catch (err) {
+  } catch {
     document.getElementById('scenario').innerText = 'Error loading scenarios.'
   }
 }
@@ -164,21 +186,29 @@ function randomDamage() {
   renderSystems()
 }
 
+function updateAlert(status) {
+  const alertImg = document.getElementById('alert-image')
+  alertImg.src = alertImages[status]
+}
+
 function displayScenario(index) {
   const s = scenarios[index]
   if (!s) return
   current = index
+  document.getElementById('mission-header').innerHTML = `MISSION ${index + 1} OF ${scenarios.length}`
   document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMAND</h2><p>${s.starfleet_message || ''}</p>`
   document.getElementById('crew').innerHTML = `<h2>CREW REPORT</h2><p>${s.crew_dialogue || ''}</p>`
+  document.getElementById('mission').innerHTML = `<h2>MISSION DESCRIPTION</h2><p>${s.mission_description || ''}</p>`
   document.getElementById('scenario').innerHTML = `<h2>SCENARIO ${s.id}</h2><p>${s.text || ''}</p>`
-  const optBox = document.getElementById('options')
-  optBox.innerHTML = ''
+  document.getElementById('options').innerHTML = ''
+  document.getElementById('debrief').innerHTML = ''
+  updateAlert(['green','yellow','red'][Math.floor(Math.random()*3)])
   if (s.options && s.options.length > 0) {
     s.options.forEach(o => {
       const btn = document.createElement('button')
       btn.innerText = o.label
       btn.onclick = () => { selectOption(o); randomDamage() }
-      optBox.appendChild(btn)
+      document.getElementById('options').appendChild(btn)
     })
   } else {
     showDebrief(s)
@@ -187,18 +217,22 @@ function displayScenario(index) {
 
 function selectOption(option) {
   const nextIndex = scenarios.findIndex(sc => sc.id === option.next.replace(/\D/g,''))
-  if (nextIndex >= 0) {
-    displayScenario(nextIndex)
-  } else {
-    showDebrief(scenarios[current])
-  }
+  if (nextIndex >= 0) displayScenario(nextIndex)
+  else showDebrief(scenarios[current])
 }
 
 function showDebrief(s) {
   const d = s.debriefs ? s.debriefs[Math.floor(Math.random()*s.debriefs.length)] : {text:"Mission concluded."}
-  document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p>`
+  document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`
   document.getElementById('options').innerHTML = ''
   renderSystems()
+  updateAlert('green')
+}
+
+function restart() {
+  Object.keys(systems).forEach(k => systems[k] = 'nominal')
+  renderSystems()
+  displayScenario(0)
 }
 
 loadScenarios()
