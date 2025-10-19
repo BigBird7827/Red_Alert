@@ -48,6 +48,7 @@ header, footer {
   align-items: center;
   padding: 8px;
   justify-content: flex-start;
+  position: relative;
 }
 #alert-panel img {
   width: 150px;
@@ -73,6 +74,18 @@ header, footer {
 }
 .red-btn { background-color: var(--dark-red); }
 .blue-btn { background-color: var(--dark-blue); }
+
+#status-message {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: var(--gold);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
 
 #dialog-area {
   position: relative;
@@ -148,15 +161,16 @@ button:hover {
       <img id="alert-image" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif" alt="Alert Status">
     </div>
     <div id="lcars-buttons">
-      <div class="lcars-btn red-btn">Shields</div>
-      <div class="lcars-btn blue-btn">Weapons</div>
-      <div class="lcars-btn red-btn">Comms</div>
-      <div class="lcars-btn blue-btn">Damage Control</div>
-      <div class="lcars-btn red-btn">Main Computer</div>
-      <div class="lcars-btn blue-btn">Structural Integrity</div>
-      <div class="lcars-btn red-btn">Long Range Scan</div>
-      <div class="lcars-btn blue-btn">Short Range Scan</div>
+      <div class="lcars-btn red-btn" data-key="shields">Shields</div>
+      <div class="lcars-btn blue-btn" data-key="weapons">Weapons</div>
+      <div class="lcars-btn red-btn" data-key="comms">Comms</div>
+      <div class="lcars-btn blue-btn" data-key="damage">Damage Control</div>
+      <div class="lcars-btn red-btn" data-key="computer">Main Computer</div>
+      <div class="lcars-btn blue-btn" data-key="integrity">Structural Integrity</div>
+      <div class="lcars-btn red-btn" data-key="longscan">Long Range Scan</div>
+      <div class="lcars-btn blue-btn" data-key="shortscan">Short Range Scan</div>
     </div>
+    <div id="status-message"></div>
   </div>
   <div id="dialog-area">
     <div id="dialog-box">
@@ -179,6 +193,37 @@ const alertImages = {
   yellow: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif',
   red: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.gif'
 }
+
+const buttonMessages = {
+  shields: ["Shields Up", "Shields Down"],
+  weapons: ["Weapons Locked", "Weapons Disengaged"],
+  comms: ["Hailing Frequencies Open", "Comms Closed"],
+  damage: ["Repair Teams Responding", "Repairs Completed"],
+  computer: ["Computer Online", "Computer Offline"],
+  integrity: ["Structural Integrity Damage", "Structural Integrity Repaired"],
+  longscan: ["Long Range Scan Active", "Long Range Scan Disengaged"],
+  shortscan: ["Short Range Scan Active", "Short Range Scan Disengaged"]
+}
+
+const toggleState = {}
+
+function showMessage(msg) {
+  const el = document.getElementById('status-message')
+  el.textContent = msg
+  el.style.opacity = 1
+  setTimeout(() => { el.style.opacity = 0 }, 5000)
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.lcars-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.getAttribute('data-key')
+      toggleState[key] = !toggleState[key]
+      const message = buttonMessages[key][toggleState[key] ? 0 : 1]
+      showMessage(message)
+    })
+  })
+})
 
 async function loadScenarios() {
   try {
