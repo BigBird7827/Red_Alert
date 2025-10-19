@@ -6,7 +6,7 @@
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Captain, we've arrived at the coordinates. A distress call has been received from a Federation science station orbiting Epsilon IV.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
@@ -27,7 +27,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "A distress call has been received from a Federation science station orbiting Epsilon IV. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Investigate the distress call and ensure the safety of the science team)",
@@ -48,7 +48,7 @@
       },
       {
         "crew": "Lt. Barclay",
-        "line": "A distress call has been received from a Federation science station orbiting Epsilon IV. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
@@ -69,7 +69,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "A distress call has been received from a Federation science station orbiting Epsilon IV. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
@@ -90,7 +90,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "A distress call has been received from a Federation science station orbiting Epsilon IV. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Investigate the distress call and ensure the safety of the science team)",
@@ -123,7 +123,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, we've arrived at the coordinates. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
@@ -144,7 +144,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
@@ -165,7 +165,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
@@ -186,7 +186,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
@@ -207,7 +207,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
@@ -240,7 +240,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Barclay",
-        "line": "Captain, we've arrived at the coordinates. Subspace anomalies are disrupting communications in the Argolis Cluster.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Stabilize subspace channels and identify the cause of interference)",
@@ -261,7 +261,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subspace anomalies are disrupting communications in the Argolis Cluster. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Stabilize subspace channels and identify the cause of interference)",
@@ -282,7 +282,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Subspace anomalies are disrupting communications in the Argolis Cluster. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Stabilize subspace channels and identify the cause of interference)",
@@ -315,7 +315,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, we've arrived at the coordinates. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Determine their intentions and secure the mining operations)",
@@ -336,7 +336,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Determine their intentions and secure the mining operations)",
@@ -357,7 +357,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Determine their intentions and secure the mining operations)",
@@ -378,7 +378,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Determine their intentions and secure the mining operations)",
@@ -411,7 +411,7 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Captain, we've arrived at the coordinates. A damaged Romulan scout ship has crossed into Federation space.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Assist the Romulan vessel while maintaining Federation security protocols)",
@@ -432,7 +432,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "A damaged Romulan scout ship has crossed into Federation space. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Assist the Romulan vessel while maintaining Federation security protocols)",
@@ -453,7 +453,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "A damaged Romulan scout ship has crossed into Federation space. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Assist the Romulan vessel while maintaining Federation security protocols)",
@@ -486,7 +486,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, we've arrived at the coordinates. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Analyze the anomaly without crossing into restricted space)",
@@ -507,7 +507,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor buoys have detected temporal fluctuations near the Neutral Zone. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Analyze the anomaly without crossing into restricted space)",
@@ -528,7 +528,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Sensor buoys have detected temporal fluctuations near the Neutral Zone. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Analyze the anomaly without crossing into restricted space)",
@@ -549,7 +549,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Sensor buoys have detected temporal fluctuations near the Neutral Zone. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Analyze the anomaly without crossing into restricted space)",
@@ -570,7 +570,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Sensor buoys have detected temporal fluctuations near the Neutral Zone. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Analyze the anomaly without crossing into restricted space)",
@@ -603,7 +603,7 @@
     "dialogue_tree": [
       {
         "crew": "Ensign Crusher",
-        "line": "Captain, we've arrived at the coordinates. An ion storm threatens an evacuation effort on New France Colony.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Coordinate evacuation and safeguard civilian transports)",
@@ -624,7 +624,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "An ion storm threatens an evacuation effort on New France Colony. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Coordinate evacuation and safeguard civilian transports)",
@@ -645,7 +645,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "An ion storm threatens an evacuation effort on New France Colony. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Coordinate evacuation and safeguard civilian transports)",
@@ -666,7 +666,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "An ion storm threatens an evacuation effort on New France Colony. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Coordinate evacuation and safeguard civilian transports)",
@@ -687,7 +687,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "An ion storm threatens an evacuation effort on New France Colony. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Coordinate evacuation and safeguard civilian transports)",
@@ -720,7 +720,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Captain, we've arrived at the coordinates. The USS Yosemite has gone missing while studying a plasma filament.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Locate the Yosemite and recover her crew)",
@@ -741,7 +741,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "The USS Yosemite has gone missing while studying a plasma filament. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Locate the Yosemite and recover her crew)",
@@ -762,7 +762,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "The USS Yosemite has gone missing while studying a plasma filament. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Locate the Yosemite and recover her crew)",
@@ -783,7 +783,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "The USS Yosemite has gone missing while studying a plasma filament. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Locate the Yosemite and recover her crew)",
@@ -816,7 +816,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Captain, we've arrived at the coordinates. Reports indicate spatial rifts forming near the Cardassian border.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Study the phenomenon and prevent border conflict)",
@@ -837,7 +837,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Reports indicate spatial rifts forming near the Cardassian border. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Study the phenomenon and prevent border conflict)",
@@ -858,7 +858,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Reports indicate spatial rifts forming near the Cardassian border. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Study the phenomenon and prevent border conflict)",
@@ -891,7 +891,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Captain, we've arrived at the coordinates. An unknown energy signature has been detected within the Mutara Sector.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Investigate the source while maintaining defensive readiness)",
@@ -912,7 +912,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "An unknown energy signature has been detected within the Mutara Sector. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Investigate the source while maintaining defensive readiness)",
@@ -933,7 +933,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "An unknown energy signature has been detected within the Mutara Sector. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Investigate the source while maintaining defensive readiness)",
@@ -954,7 +954,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "An unknown energy signature has been detected within the Mutara Sector. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Investigate the source while maintaining defensive readiness)",
@@ -987,7 +987,7 @@
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Captain, we've arrived at the coordinates. A Federation freighter has failed to report in from the Vega Corridor.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1008,7 +1008,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "A Federation freighter has failed to report in from the Vega Corridor. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1029,7 +1029,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "A Federation freighter has failed to report in from the Vega Corridor. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Find the freighter and determine the cause of its silence)",
@@ -1050,7 +1050,7 @@
       },
       {
         "crew": "Lt. Barclay",
-        "line": "A Federation freighter has failed to report in from the Vega Corridor. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1071,7 +1071,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "A Federation freighter has failed to report in from the Vega Corridor. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1104,7 +1104,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Worf",
-        "line": "Captain, we've arrived at the coordinates. Starfleet Intelligence reports cloaked movement along the Romulan frontier.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Conduct discreet scans and verify Romulan activity)",
@@ -1125,7 +1125,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Starfleet Intelligence reports cloaked movement along the Romulan frontier. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Conduct discreet scans and verify Romulan activity)",
@@ -1146,7 +1146,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Starfleet Intelligence reports cloaked movement along the Romulan frontier. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Conduct discreet scans and verify Romulan activity)",
@@ -1167,7 +1167,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Starfleet Intelligence reports cloaked movement along the Romulan frontier. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Conduct discreet scans and verify Romulan activity)",
@@ -1200,7 +1200,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, we've arrived at the coordinates. A civilian transport is broadcasting a medical emergency from the Archanis Sector.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Render aid and secure the area for medical response)",
@@ -1221,7 +1221,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "A civilian transport is broadcasting a medical emergency from the Archanis Sector. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Render aid and secure the area for medical response)",
@@ -1242,7 +1242,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "A civilian transport is broadcasting a medical emergency from the Archanis Sector. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Render aid and secure the area for medical response)",
@@ -1275,7 +1275,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, we've arrived at the coordinates. A deep-space probe has begun transmitting erratic data near the Tzenkethi border.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Recover the probe and analyze its malfunction)",
@@ -1296,7 +1296,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "A deep-space probe has begun transmitting erratic data near the Tzenkethi border. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Recover the probe and analyze its malfunction)",
@@ -1317,7 +1317,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "A deep-space probe has begun transmitting erratic data near the Tzenkethi border. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Recover the probe and analyze its malfunction)",
@@ -1338,7 +1338,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "A deep-space probe has begun transmitting erratic data near the Tzenkethi border. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Recover the probe and analyze its malfunction)",
@@ -1359,7 +1359,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "A deep-space probe has begun transmitting erratic data near the Tzenkethi border. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Recover the probe and analyze its malfunction)",
@@ -1392,7 +1392,7 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Captain, we've arrived at the coordinates. An uncharted comet is passing dangerously close to a pre-warp civilization on Garros III.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Prevent interference while protecting the population)",
@@ -1413,7 +1413,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "An uncharted comet is passing dangerously close to a pre-warp civilization on Garros III. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Launch a probe (Prevent interference while protecting the population)",
@@ -1434,7 +1434,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "An uncharted comet is passing dangerously close to a pre-warp civilization on Garros III. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Prevent interference while protecting the population)",
@@ -1467,7 +1467,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, we've arrived at the coordinates. A Federation listening post has gone silent near the Breen frontier.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Reestablish communications and assess the cause)",
@@ -1488,7 +1488,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "A Federation listening post has gone silent near the Breen frontier. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Reestablish communications and assess the cause)",
@@ -1509,7 +1509,7 @@
       },
       {
         "crew": "Lt. Barclay",
-        "line": "A Federation listening post has gone silent near the Breen frontier. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Reestablish communications and assess the cause)",
@@ -1530,7 +1530,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "A Federation listening post has gone silent near the Breen frontier. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Reestablish communications and assess the cause)",
@@ -1551,7 +1551,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "A Federation listening post has gone silent near the Breen frontier. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Reestablish communications and assess the cause)",
@@ -1584,7 +1584,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, we've arrived at the coordinates. A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Assist the convoy and guide them safely through the hazard)",
@@ -1605,7 +1605,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Assist the convoy and guide them safely through the hazard)",
@@ -1626,7 +1626,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Assist the convoy and guide them safely through the hazard)",
@@ -1647,7 +1647,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Assist the convoy and guide them safely through the hazard)",
@@ -1668,7 +1668,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Assist the convoy and guide them safely through the hazard)",
@@ -1701,7 +1701,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, we've arrived at the coordinates. An alien derelict has been found drifting in Federation space.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Investigate the vessel and ensure it poses no threat)",
@@ -1722,7 +1722,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "An alien derelict has been found drifting in Federation space. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Investigate the vessel and ensure it poses no threat)",
@@ -1743,7 +1743,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "An alien derelict has been found drifting in Federation space. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the vessel and ensure it poses no threat)",
@@ -1776,7 +1776,7 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Captain, we've arrived at the coordinates. Reports of hostile interference have been received from a Bajoran outpost.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Support the Bajoran authorities and identify the source of interference)",
@@ -1797,7 +1797,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Reports of hostile interference have been received from a Bajoran outpost. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Support the Bajoran authorities and identify the source of interference)",
@@ -1818,7 +1818,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Reports of hostile interference have been received from a Bajoran outpost. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Support the Bajoran authorities and identify the source of interference)",
@@ -1851,7 +1851,7 @@
     "dialogue_tree": [
       {
         "crew": "Ensign Crusher",
-        "line": "Captain, we've arrived at the coordinates. A Federation medical ship has gone off course in the Betazed sector.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Locate and assist the medical ship)",
@@ -1872,7 +1872,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "A Federation medical ship has gone off course in the Betazed sector. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Assemble an away team (Locate and assist the medical ship)",
@@ -1893,7 +1893,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "A Federation medical ship has gone off course in the Betazed sector. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Locate and assist the medical ship)",
@@ -1926,7 +1926,7 @@
     "dialogue_tree": [
       {
         "crew": "Ensign Crusher",
-        "line": "Captain, we've arrived at the coordinates. A Cardassian cargo vessel has requested emergency repairs near Federation space.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Offer aid under treaty conditions and remain vigilant)",
@@ -1947,7 +1947,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "A Cardassian cargo vessel has requested emergency repairs near Federation space. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Offer aid under treaty conditions and remain vigilant)",
@@ -1968,7 +1968,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "A Cardassian cargo vessel has requested emergency repairs near Federation space. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Recalibrate sensors (Offer aid under treaty conditions and remain vigilant)",
@@ -1989,7 +1989,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "A Cardassian cargo vessel has requested emergency repairs near Federation space. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Offer aid under treaty conditions and remain vigilant)",
@@ -2010,7 +2010,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "A Cardassian cargo vessel has requested emergency repairs near Federation space. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Offer aid under treaty conditions and remain vigilant)",
@@ -2043,7 +2043,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Captain, we've arrived at the coordinates. Sensor readings indicate massive power fluctuations near a Dyson sphere remnant.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Survey the structure and collect data while keeping safe distance)",
@@ -2064,7 +2064,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor readings indicate massive power fluctuations near a Dyson sphere remnant. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Survey the structure and collect data while keeping safe distance)",
@@ -2085,7 +2085,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Sensor readings indicate massive power fluctuations near a Dyson sphere remnant. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Survey the structure and collect data while keeping safe distance)",
@@ -2118,7 +2118,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Worf",
-        "line": "Captain, we've arrived at the coordinates. A subspace relay network has gone offline across two sectors.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Repair the relays and restore Starfleet communications)",
@@ -2139,7 +2139,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "A subspace relay network has gone offline across two sectors. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Initiate tractor lock (Repair the relays and restore Starfleet communications)",
@@ -2160,7 +2160,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "A subspace relay network has gone offline across two sectors. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Repair the relays and restore Starfleet communications)",
@@ -2181,7 +2181,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "A subspace relay network has gone offline across two sectors. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Repair the relays and restore Starfleet communications)",
@@ -2202,7 +2202,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "A subspace relay network has gone offline across two sectors. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Repair the relays and restore Starfleet communications)",
@@ -2235,7 +2235,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, we've arrived at the coordinates. A Federation ambassador has requested escort through a volatile region.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Ensure the ambassador\u2019s safety during passage)",
@@ -2256,7 +2256,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "A Federation ambassador has requested escort through a volatile region. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Ensure the ambassador\u2019s safety during passage)",
@@ -2277,7 +2277,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "A Federation ambassador has requested escort through a volatile region. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Ensure the ambassador\u2019s safety during passage)",
@@ -2310,7 +2310,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, we've arrived at the coordinates. An experimental warp core test facility has reported critical instability.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2331,7 +2331,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "An experimental warp core test facility has reported critical instability. Current status report #2: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Divert auxiliary power (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2352,7 +2352,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "An experimental warp core test facility has reported critical instability. Current status report #3: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Reroute through secondary relays (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2373,7 +2373,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "An experimental warp core test facility has reported critical instability. Current status report #4: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Establish tight-beam comms (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2394,7 +2394,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "An experimental warp core test facility has reported critical instability. Current status report #5: systems nominal, but variables remain under observation.",
+        "line": "Systems nominal, but variables remain under observation.",
         "options": [
           {
             "label": "Deploy navigation buoy (Assist in stabilizing the core and evacuate personnel if required)",
