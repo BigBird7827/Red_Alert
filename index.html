@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Red Alert - LCARS Bridge Simulator</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
 :root {
   --red: #d12c2c;
@@ -31,7 +31,7 @@ header, footer {
   text-align: center;
   padding: 6px;
   background: linear-gradient(to right, var(--red), var(--gold));
-  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
   font-size: 1em;
   letter-spacing: 1.5px;
 }
@@ -89,20 +89,18 @@ header, footer {
   gap: 5px;
 }
 .lcars-btn {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.85em;
-  color: var(--white);
+  font-weight: bold;
   padding: 8px;
   text-align: center;
   border-radius: 8px;
   cursor: pointer;
-  text-shadow: 1px 1px 3px #000;
-  font-weight: 700;
 }
-.red-btn { background-color: var(--red); }
-.green-btn { background-color: var(--green); color: #001; text-shadow: 1px 1px 3px #fff; }
-.white-btn { background-color: var(--white); color: #000; text-shadow: 1px 1px 2px #222; }
-.blue-btn { background-color: var(--blue); color: #000; text-shadow: 1px 1px 3px #fff; }
+.red-btn { background-color: var(--red); color: var(--white); }
+.green-btn { background-color: var(--green); color: var(--black); }
+.white-btn { background-color: var(--white); color: var(--black); }
+.blue-btn { background-color: var(--blue); color: var(--gold); }
 
 #dialog-area {
   flex: 1;
@@ -119,37 +117,41 @@ header, footer {
   max-width: 1100px;
   color: var(--white);
   font-size: 0.9em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   text-align: left;
 }
 .dialog-section {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 h2 {
   color: var(--yellow);
   font-size: 1em;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
-button {
-  background-color: var(--blue);
-  border: none;
-  color: var(--black);
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 10px;
-  margin: 6px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-}
-button:hover { background-color: var(--green); transform: scale(1.05); }
 #options {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  margin-top: 10px;
+}
+button {
+  background: linear-gradient(to bottom, #222, #000);
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  padding: 10px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  box-shadow: inset 0 2px 2px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.4);
+}
+button:hover {
+  background: linear-gradient(to bottom, #333, #111);
+  transform: scale(1.05);
 }
 </style>
 </head>
