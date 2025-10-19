@@ -194,23 +194,31 @@ const buttonMessages = {
   comms: ["Hailing Frequencies Open", "Comms Closed"],
   damage: ["Repair Teams Responding", "Repairs Completed"],
   computer: ["Computer Online", "Computer Offline"],
-  integrity: ["Structural Integrity Nominal", "Structural Integrity Damaged"],
+  integrity: ["Structural Integrity Damaged", "Structural Integrity Nominal"],
   longscan: ["Long Range Scan Active", "Long Range Scan Disengaged"],
   shortscan: ["Short Range Scan Active", "Short Range Scan Disengaged"]
 }
-const toggleState = {}
+const toggleState = {
+  shields: true,
+  weapons: true,
+  comms: true,
+  damage: true,
+  computer: true,
+  integrity: false,
+  longscan: true,
+  shortscan: true
+}
 const statusPanel = document.getElementById('status-panel')
 
 function updateStatusPanel() {
   let text = ''
   for (let key in buttonMessages) {
     const state = toggleState[key] ? 1 : 0
-    text += `${buttonMessages[key][state === 0 ? 0 : 1]}\n`
+    text += `${buttonMessages[key][state]}\n`
   }
   statusPanel.textContent = text.trim()
 }
 document.addEventListener('DOMContentLoaded', () => {
-  for (let key in buttonMessages) toggleState[key] = false
   updateStatusPanel()
   document.querySelectorAll('.lcars-btn').forEach(btn => {
     btn.addEventListener('click', () => {
