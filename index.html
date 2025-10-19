@@ -245,9 +245,18 @@ async function loadScenarios(){
   }
   displayScenario(0);
 }
-function fadeTransition(el,newHTML){
-  el.classList.add('fade');
-  setTimeout(()=>{el.innerHTML=newHTML;el.classList.remove('fade');},400);
+function fadeTransition(el, newHTML) {
+  if (el.innerHTML.trim() === newHTML.trim()) return;
+  el.style.transition = 'opacity 0.4s ease';
+  el.style.opacity = '0';
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      if (document.body.contains(el)) {
+        el.innerHTML = newHTML;
+        el.style.opacity = '1';
+      }
+    }, 400);
+  });
 }
 function displayScenario(index){
   currentScenario=index;
@@ -316,3 +325,4 @@ loadScenarios();
 </script>
 </body>
 </html>
+
