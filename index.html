@@ -39,46 +39,72 @@ header, footer {
   display: flex;
   flex: 1;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-#alert-panel {
-  width: 180px;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255,255,255,0.05);
+  overflow: hidden;
+}
+#left-panel {
+  width: 220px;
+  background: rgba(20,20,20,0.9);
   border-right: 3px solid var(--gold);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 #alert-panel img {
   width: 150px;
   height: auto;
   object-fit: contain;
+  margin-bottom: 20px;
 }
+#systems {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+}
+.system {
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.1);
+  position: relative;
+  overflow: hidden;
+}
+.system::before {
+  content: attr(data-label);
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  font-size: 0.75em;
+  color: var(--gold);
+}
+.system.nominal { background-color: var(--green); }
+.system.warning { background-color: var(--yellow); }
+.system.damaged { background-color: var(--red); }
+
 #main {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
-  padding: 10px;
-  position: relative;
+  padding: 15px;
   background: url('https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/LCARS%20Background.png') center center no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .lcars-box {
   border: 2px solid var(--gold);
   border-radius: 20px;
-  padding: 20px;
+  padding: 15px;
   width: 80%;
   background: rgba(0, 0, 0, 0.6);
-  margin-bottom: 15px;
+  margin: 5px 0;
 }
 h2 {
   color: var(--yellow);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 button {
   background-color: var(--blue);
@@ -86,55 +112,37 @@ button {
   color: var(--black);
   font-family: 'Orbitron', sans-serif;
   font-size: 1em;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border-radius: 10px;
-  margin: 5px;
+  margin: 4px;
   cursor: pointer;
   transition: background 0.3s;
 }
 button:hover { background-color: var(--green); }
-#options { display: flex; flex-direction: column; align-items: center; }
-#systems {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  width: 80%;
-  margin-top: 10px;
-}
-.system {
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  font-weight: bold;
-  background-color: rgba(255,255,255,0.05);
-}
-.system-label { font-size: 0.9em; color: var(--gold); }
-.system-status { font-size: 1.1em; }
-.nominal { color: var(--green); }
-.warning { color: var(--yellow); }
-.damaged { color: var(--red); }
-#mission-header {
-  font-family: 'Orbitron', sans-serif;
-  color: var(--blue);
-  margin-bottom: 15px;
+#options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 80%;
 }
 </style>
 </head>
 <body>
 <header>LCARS COMMAND INTERFACE - USS ENTERPRISE-D</header>
 <div id="content-area">
-  <div id="alert-panel">
-    <img id="alert-image" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif" alt="Alert Status">
+  <div id="left-panel">
+    <div id="alert-panel">
+      <img id="alert-image" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif" alt="Alert Status">
+    </div>
+    <div id="systems"></div>
   </div>
   <div id="main">
-    <div id="mission-header"></div>
     <div class="lcars-box" id="communique"></div>
     <div class="lcars-box" id="crew"></div>
     <div class="lcars-box" id="mission"></div>
     <div class="lcars-box" id="scenario"></div>
     <div class="lcars-box" id="options"></div>
     <div class="lcars-box" id="debrief"></div>
-    <div id="systems"></div>
   </div>
 </div>
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
@@ -175,8 +183,8 @@ function renderSystems() {
   sysDiv.innerHTML = ''
   Object.entries(systems).forEach(([key, value]) => {
     const div = document.createElement('div')
-    div.className = 'system'
-    div.innerHTML = `<div class="system-label">${key}</div><div class="system-status ${value}">${value.toUpperCase()}</div>`
+    div.className = `system ${value}`
+    div.dataset.label = key
     sysDiv.appendChild(div)
   })
 }
@@ -198,11 +206,10 @@ function displayScenario(index) {
   const s = scenarios[index]
   if (!s) return
   current = index
-  document.getElementById('mission-header').innerHTML = `MISSION ${index + 1} OF ${scenarios.length}`
   document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMAND</h2><p>${s.starfleet_message || ''}</p>`
   document.getElementById('crew').innerHTML = `<h2>CREW REPORT</h2><p>${s.crew_dialogue || ''}</p>`
   document.getElementById('mission').innerHTML = `<h2>MISSION DESCRIPTION</h2><p>${s.mission_description || ''}</p>`
-  document.getElementById('scenario').innerHTML = `<h2>SCENARIO ${s.id}</h2><p>${s.text || ''}</p>`
+  document.getElementById('scenario').innerHTML = `<h2>SCENARIO</h2><p>${s.text || ''}</p>`
   document.getElementById('options').innerHTML = ''
   document.getElementById('debrief').innerHTML = ''
   updateAlert(['green','yellow','red'][Math.floor(Math.random()*3)])
