@@ -1,1801 +1,1801 @@
 [
   {
     "id": "1",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A distress call has been received from a Federation science station orbiting Epsilon IV.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A distress call has been received from a Federation science station orbiting Epsilon IV.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Picard",
-        "line": "Captain, we're approaching the coordinates of the report. A distress call has been received from a Federation science station orbiting Epsilon IV.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Captain, we're approaching the coordinates. A distress call has been received from a Federation science station orbiting Epsilon IV.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Riker: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Commander Riker: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Data: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Chief O'Brien: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Worf: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Counselor Troi: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Riker",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Commander Riker",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Data: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Chief O'Brien: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Picard: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander La Forge: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Worf: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Counselor Troi: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Chief O'Brien",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Worf: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Counselor Troi: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Picard: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander La Forge: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Riker: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Commander Riker: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a distress call has been received from a federation science station orbiting epsilon iv. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a distress call has been received from a federation science station orbiting epsilon iv. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "2",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Riker",
-        "line": "Captain, we're approaching the coordinates of the report. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+        "crew": "Counselor Troi",
+        "line": "Captain, we're approaching the coordinates. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Data: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Commander Riker: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Worf: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander Data: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "La Forge: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Commander La Forge: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Commander Riker",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Worf: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander Data: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Riker: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Counselor Troi: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "La Forge: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Commander La Forge: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander Data",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "La Forge: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Commander La Forge: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Riker: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Counselor Troi: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Data: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Commander Riker: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a ferengi transport is adrift near the klingon border, transmitting a general distress signal. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a ferengi transport is adrift near the klingon border, transmitting a general distress signal. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "3",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Subspace anomalies are disrupting communications in the Argolis Cluster.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Subspace anomalies are disrupting communications in the Argolis Cluster.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Data",
-        "line": "Captain, we're approaching the coordinates of the report. Subspace anomalies are disrupting communications in the Argolis Cluster.",
+        "crew": "Counselor Troi",
+        "line": "Captain, we're approaching the coordinates. Subspace anomalies are disrupting communications in the Argolis Cluster.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Worf: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Commander Data: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "La Forge: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Chief O'Brien: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Crusher: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Commander La Forge: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Commander Data",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "La Forge: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Chief O'Brien: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Data: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Counselor Troi: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Crusher: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Commander La Forge: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Chief O'Brien",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Crusher: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Commander La Forge: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Data: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Counselor Troi: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Worf: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Commander Data: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the subspace anomalies are disrupting communications in the argolis cluster. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the subspace anomalies are disrupting communications in the argolis cluster. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "4",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Worf",
-        "line": "Captain, we're approaching the coordinates of the report. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
+        "crew": "Counselor Troi",
+        "line": "Captain, we're approaching the coordinates. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "La Forge: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Commander Data: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Crusher: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander La Forge: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Troi: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Barclay: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Commander Data",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Crusher: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander La Forge: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Worf: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Counselor Troi: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Troi: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Barclay: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Crusher",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Troi: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Barclay: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Worf: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Counselor Troi: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "La Forge: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Commander Data: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the unidentified vessels are operating near a federation mining outpost on beta aurigae iv. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the unidentified vessels are operating near a federation mining outpost on beta aurigae iv. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "5",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A damaged Romulan scout ship has crossed into Federation space.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A damaged Romulan scout ship has crossed into Federation space.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "La Forge",
-        "line": "Captain, we're approaching the coordinates of the report. A damaged Romulan scout ship has crossed into Federation space.",
+        "crew": "Lt. Barclay",
+        "line": "Captain, we're approaching the coordinates. A damaged Romulan scout ship has crossed into Federation space.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Crusher: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Worf: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Troi: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander La Forge: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Picard: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Chief O'Brien: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Crusher",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Worf",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Troi: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander La Forge: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "La Forge: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Barclay: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Picard: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Chief O'Brien: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Troi",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Picard: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Chief O'Brien: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "La Forge: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Barclay: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Crusher: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Worf: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a damaged romulan scout ship has crossed into federation space. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a damaged romulan scout ship has crossed into federation space. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "6",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Crusher",
-        "line": "Captain, we're approaching the coordinates of the report. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
+        "crew": "Lt. Worf",
+        "line": "Captain, we're approaching the coordinates. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Troi: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Chief O'Brien: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Picard: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Barclay: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Riker: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Counselor Troi: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Troi",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Chief O'Brien",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Picard: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Barclay: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Crusher: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Worf: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Riker: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Counselor Troi: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Picard",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Barclay",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Riker: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Counselor Troi: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Crusher: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Worf: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Troi: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Chief O'Brien: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the sensor buoys have detected temporal fluctuations near the neutral zone. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the sensor buoys have detected temporal fluctuations near the neutral zone. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "7",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. An ion storm threatens an evacuation effort on New France Colony.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. An ion storm threatens an evacuation effort on New France Colony.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Troi",
-        "line": "Captain, we're approaching the coordinates of the report. An ion storm threatens an evacuation effort on New France Colony.",
+        "crew": "Lt. Worf",
+        "line": "Captain, we're approaching the coordinates. An ion storm threatens an evacuation effort on New France Colony.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Picard: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Barclay: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Riker: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander Data: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Data: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Counselor Troi: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Picard",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Barclay",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Riker: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander Data: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Troi: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Worf: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Data: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Counselor Troi: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Riker",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander Data",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Data: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Counselor Troi: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Troi: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Worf: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Picard: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Barclay: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the an ion storm threatens an evacuation effort on new france colony. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the an ion storm threatens an evacuation effort on new france colony. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "8",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. The USS Yosemite has gone missing while studying a plasma filament.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. The USS Yosemite has gone missing while studying a plasma filament.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Picard",
-        "line": "Captain, we're approaching the coordinates of the report. The USS Yosemite has gone missing while studying a plasma filament.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Captain, we're approaching the coordinates. The USS Yosemite has gone missing while studying a plasma filament.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Riker: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Worf: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Data: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander Data: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Worf: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Ensign Crusher: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Riker",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Worf",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Data: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander Data: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Picard: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander La Forge: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Worf: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Ensign Crusher: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander Data",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Worf: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Ensign Crusher: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Picard: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander La Forge: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Riker: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Worf: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the the uss yosemite has gone missing while studying a plasma filament. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the the uss yosemite has gone missing while studying a plasma filament. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "9",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Reports indicate spatial rifts forming near the Cardassian border.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Reports indicate spatial rifts forming near the Cardassian border.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Riker",
-        "line": "Captain, we're approaching the coordinates of the report. Reports indicate spatial rifts forming near the Cardassian border.",
+        "crew": "Lt. Commander Data",
+        "line": "Captain, we're approaching the coordinates. Reports indicate spatial rifts forming near the Cardassian border.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Data: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Commander La Forge: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Worf: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Worf: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "La Forge: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Barclay: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Worf: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Worf: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Riker: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander Data: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "La Forge: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Barclay: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Worf",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "La Forge: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Barclay: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Riker: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander Data: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Data: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Commander La Forge: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the reports indicate spatial rifts forming near the cardassian border. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the reports indicate spatial rifts forming near the cardassian border. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "10",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. An unknown energy signature has been detected within the Mutara Sector.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. An unknown energy signature has been detected within the Mutara Sector.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Data",
-        "line": "Captain, we're approaching the coordinates of the report. An unknown energy signature has been detected within the Mutara Sector.",
+        "crew": "Lt. Worf",
+        "line": "Captain, we're approaching the coordinates. An unknown energy signature has been detected within the Mutara Sector.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Worf: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Barclay: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "La Forge: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Counselor Troi: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Crusher: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Commander Data: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Barclay",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "La Forge: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Counselor Troi: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Data: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Worf: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Crusher: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Commander Data: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Counselor Troi",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Crusher: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Commander Data: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Data: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Worf: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Worf: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Barclay: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the an unknown energy signature has been detected within the mutara sector. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the an unknown energy signature has been detected within the mutara sector. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "11",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A distress call has been received from a Federation science station orbiting Epsilon IV.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A distress call has been received from a Federation science station orbiting Epsilon IV.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Worf",
-        "line": "Captain, we're approaching the coordinates of the report. A distress call has been received from a Federation science station orbiting Epsilon IV.",
+        "crew": "Ensign Crusher",
+        "line": "Captain, we're approaching the coordinates. A distress call has been received from a Federation science station orbiting Epsilon IV.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "La Forge: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Counselor Troi: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Crusher: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Worf: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Troi: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Commander Data: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Counselor Troi",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Crusher: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Worf: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Worf: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Ensign Crusher: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Troi: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Commander Data: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Crusher",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Worf",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Troi: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Commander Data: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Worf: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Ensign Crusher: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "La Forge: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Counselor Troi: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a distress call has been received from a federation science station orbiting epsilon iv. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a distress call has been received from a federation science station orbiting epsilon iv. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "12",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "La Forge",
-        "line": "Captain, we're approaching the coordinates of the report. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+        "crew": "Commander Riker",
+        "line": "Captain, we're approaching the coordinates. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Crusher: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Counselor Troi: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Troi: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Ensign Crusher: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Picard: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Barclay: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Crusher",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Counselor Troi",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Troi: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Ensign Crusher: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "La Forge: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Commander Riker: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Picard: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Barclay: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Troi",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Ensign Crusher",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Picard: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Barclay: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "La Forge: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Commander Riker: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Crusher: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Counselor Troi: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a ferengi transport is adrift near the klingon border, transmitting a general distress signal. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a ferengi transport is adrift near the klingon border, transmitting a general distress signal. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "13",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Subspace anomalies are disrupting communications in the Argolis Cluster.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Subspace anomalies are disrupting communications in the Argolis Cluster.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Crusher",
-        "line": "Captain, we're approaching the coordinates of the report. Subspace anomalies are disrupting communications in the Argolis Cluster.",
+        "crew": "Lt. Worf",
+        "line": "Captain, we're approaching the coordinates. Subspace anomalies are disrupting communications in the Argolis Cluster.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Troi: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Commander Riker: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Picard: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Ensign Crusher: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Riker: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Commander Data: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Troi",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Commander Riker",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Picard: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Ensign Crusher: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Crusher: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Worf: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Riker: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Commander Data: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Picard",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Ensign Crusher",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Riker: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Commander Data: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Crusher: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Worf: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Troi: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Commander Riker: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the subspace anomalies are disrupting communications in the argolis cluster. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the subspace anomalies are disrupting communications in the argolis cluster. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "14",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Troi",
-        "line": "Captain, we're approaching the coordinates of the report. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
+        "crew": "Counselor Troi",
+        "line": "Captain, we're approaching the coordinates. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Picard: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Commander Data: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Riker: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Commander Riker: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Data: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Ensign Crusher: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Picard",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Commander Data",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Riker: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Commander Riker: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Troi: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Counselor Troi: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Data: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Ensign Crusher: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Riker",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Commander Riker",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Data: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Ensign Crusher: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Troi: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Counselor Troi: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Picard: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Commander Data: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the unidentified vessels are operating near a federation mining outpost on beta aurigae iv. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the unidentified vessels are operating near a federation mining outpost on beta aurigae iv. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "15",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A damaged Romulan scout ship has crossed into Federation space.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A damaged Romulan scout ship has crossed into Federation space.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Picard",
-        "line": "Captain, we're approaching the coordinates of the report. A damaged Romulan scout ship has crossed into Federation space.",
+        "crew": "Lt. Commander Data",
+        "line": "Captain, we're approaching the coordinates. A damaged Romulan scout ship has crossed into Federation space.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Riker: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Commander Riker: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Data: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Counselor Troi: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Worf: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Barclay: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Riker",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Commander Riker",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Data: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Counselor Troi: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Picard: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander Data: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Worf: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Barclay: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Counselor Troi",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Worf: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Barclay: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Picard: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander Data: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Riker: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Commander Riker: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a damaged romulan scout ship has crossed into federation space. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a damaged romulan scout ship has crossed into federation space. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "16",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Riker",
-        "line": "Captain, we're approaching the coordinates of the report. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Captain, we're approaching the coordinates. Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Data: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Ensign Crusher: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Worf: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Commander Riker: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "La Forge: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Barclay: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Ensign Crusher",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Worf: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Commander Riker: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Riker: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander La Forge: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "La Forge: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Barclay: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Commander Riker",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "La Forge: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Barclay: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Riker: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander La Forge: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Data: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Ensign Crusher: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the sensor buoys have detected temporal fluctuations near the neutral zone. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the sensor buoys have detected temporal fluctuations near the neutral zone. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "17",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. An ion storm threatens an evacuation effort on New France Colony.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. An ion storm threatens an evacuation effort on New France Colony.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Data",
-        "line": "Captain, we're approaching the coordinates of the report. An ion storm threatens an evacuation effort on New France Colony.",
+        "crew": "Ensign Crusher",
+        "line": "Captain, we're approaching the coordinates. An ion storm threatens an evacuation effort on New France Colony.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Worf: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Counselor Troi: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "La Forge: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander Data: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Crusher: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Worf: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Counselor Troi",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "La Forge: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander Data: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Data: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Ensign Crusher: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Crusher: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Worf: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander Data",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Crusher: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Worf: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Data: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Ensign Crusher: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Worf: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Counselor Troi: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the an ion storm threatens an evacuation effort on new france colony. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the an ion storm threatens an evacuation effort on new france colony. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "18",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. The USS Yosemite has gone missing while studying a plasma filament.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. The USS Yosemite has gone missing while studying a plasma filament.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Worf",
-        "line": "Captain, we're approaching the coordinates of the report. The USS Yosemite has gone missing while studying a plasma filament.",
+        "crew": "Lt. Commander Data",
+        "line": "Captain, we're approaching the coordinates. The USS Yosemite has gone missing while studying a plasma filament.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "La Forge: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Worf: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Crusher: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Chief O'Brien: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Troi: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Ensign Crusher: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Worf",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Crusher: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Chief O'Brien: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Worf: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander Data: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Troi: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Ensign Crusher: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Crusher",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Chief O'Brien",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Troi: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Ensign Crusher: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Worf: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander Data: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "La Forge: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Worf: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the the uss yosemite has gone missing while studying a plasma filament. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the the uss yosemite has gone missing while studying a plasma filament. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "19",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Reports indicate spatial rifts forming near the Cardassian border.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Reports indicate spatial rifts forming near the Cardassian border.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "La Forge",
-        "line": "Captain, we're approaching the coordinates of the report. Reports indicate spatial rifts forming near the Cardassian border.",
+        "crew": "Commander Riker",
+        "line": "Captain, we're approaching the coordinates. Reports indicate spatial rifts forming near the Cardassian border.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Crusher: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Commander La Forge: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Troi: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander Data: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Picard: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Barclay: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Crusher",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Troi: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander Data: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "La Forge: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Commander Riker: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Picard: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Barclay: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Troi",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander Data",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Picard: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Barclay: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "La Forge: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Commander Riker: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Crusher: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Commander La Forge: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the reports indicate spatial rifts forming near the cardassian border. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the reports indicate spatial rifts forming near the cardassian border. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "20",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. An unknown energy signature has been detected within the Mutara Sector.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. An unknown energy signature has been detected within the Mutara Sector.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Crusher",
-        "line": "Captain, we're approaching the coordinates of the report. An unknown energy signature has been detected within the Mutara Sector.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Captain, we're approaching the coordinates. An unknown energy signature has been detected within the Mutara Sector.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Troi: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Chief O'Brien: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Picard: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Worf: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Riker: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Counselor Troi: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Troi",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Chief O'Brien",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Picard: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Worf: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Crusher: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander La Forge: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Riker: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Counselor Troi: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Picard",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Worf",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Riker: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Counselor Troi: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Crusher: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander La Forge: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Troi: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Chief O'Brien: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the an unknown energy signature has been detected within the mutara sector. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the an unknown energy signature has been detected within the mutara sector. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "21",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A distress call has been received from a Federation science station orbiting Epsilon IV.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A distress call has been received from a Federation science station orbiting Epsilon IV.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Troi",
-        "line": "Captain, we're approaching the coordinates of the report. A distress call has been received from a Federation science station orbiting Epsilon IV.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Captain, we're approaching the coordinates. A distress call has been received from a Federation science station orbiting Epsilon IV.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Picard: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Chief O'Brien: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Riker: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Commander Riker: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Data: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Counselor Troi: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Picard",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Chief O'Brien",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Riker: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Commander Riker: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Troi: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Commander La Forge: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Data: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Counselor Troi: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Riker",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Commander Riker",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Data: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Counselor Troi: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Troi: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Commander La Forge: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Picard: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Chief O'Brien: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a distress call has been received from a federation science station orbiting epsilon iv. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a distress call has been received from a federation science station orbiting epsilon iv. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "22",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Picard",
-        "line": "Captain, we're approaching the coordinates of the report. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+        "crew": "Lt. Barclay",
+        "line": "Captain, we're approaching the coordinates. A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Riker: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Chief O'Brien: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Data: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander Data: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Worf: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Commander Riker: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Riker",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Chief O'Brien",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Data: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander Data: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Picard: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Barclay: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Worf: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Commander Riker: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander Data",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Worf: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Commander Riker: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Picard: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Barclay: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Riker: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Chief O'Brien: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a ferengi transport is adrift near the klingon border, transmitting a general distress signal. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a ferengi transport is adrift near the klingon border, transmitting a general distress signal. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "23",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Subspace anomalies are disrupting communications in the Argolis Cluster.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Subspace anomalies are disrupting communications in the Argolis Cluster.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Riker",
-        "line": "Captain, we're approaching the coordinates of the report. Subspace anomalies are disrupting communications in the Argolis Cluster.",
+        "crew": "Lt. Worf",
+        "line": "Captain, we're approaching the coordinates. Subspace anomalies are disrupting communications in the Argolis Cluster.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Data: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Commander La Forge: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Worf: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Counselor Troi: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "La Forge: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Chief O'Brien: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Data",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Commander La Forge",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Worf: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Counselor Troi: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Riker: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Lt. Worf: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "La Forge: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Chief O'Brien: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Counselor Troi",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "La Forge: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Chief O'Brien: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Riker: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Lt. Worf: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Data: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Commander La Forge: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the subspace anomalies are disrupting communications in the argolis cluster. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the subspace anomalies are disrupting communications in the argolis cluster. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "24",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Data",
-        "line": "Captain, we're approaching the coordinates of the report. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
+        "crew": "Chief O'Brien",
+        "line": "Captain, we're approaching the coordinates. Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "Worf: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Lt. Worf: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "La Forge: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Counselor Troi: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Crusher: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Barclay: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Lt. Worf",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "La Forge: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Counselor Troi: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Data: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Chief O'Brien: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Crusher: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Barclay: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Counselor Troi",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Crusher: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Barclay: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Data: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Chief O'Brien: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "Worf: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Lt. Worf: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the unidentified vessels are operating near a federation mining outpost on beta aurigae iv. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the unidentified vessels are operating near a federation mining outpost on beta aurigae iv. mission with professionalism and precision."
       }
     ]
   },
   {
     "id": "25",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: You are ordered to investigate the following report. A damaged Romulan scout ship has crossed into Federation space.",
-    "mission_description": "The Enterprise-D is to assess and resolve the situation near the affected region. Maintain Federation safety and respond to any distress as appropriate.",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Investigate the following situation. A damaged Romulan scout ship has crossed into Federation space.",
+    "mission_description": "The Enterprise-D is to assess and resolve the situation described. Ensure Federation interests are upheld.",
     "dialogue_tree": [
       {
-        "crew": "Worf",
-        "line": "Captain, we're approaching the coordinates of the report. A damaged Romulan scout ship has crossed into Federation space.",
+        "crew": "Commander Riker",
+        "line": "Captain, we're approaching the coordinates. A damaged Romulan scout ship has crossed into Federation space.",
         "options": [
           {
             "label": "Open hailing frequencies.",
-            "crew_reply": "La Forge: 'Channel open, Captain. Receiving faint telemetry\u2014no visual yet.'",
+            "crew_reply": "Chief O'Brien: 'Channel open, Captain. No response yet, but telemetry is faint.'",
             "next": 1
           },
           {
-            "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Crusher: 'Shields at full, Captain. Weapons systems standing by.'",
+            "label": "Raise shields.",
+            "crew_reply": "Lt. Commander Data: 'Shields up and holding steady, Captain.'",
             "next": 1
           },
           {
-            "label": "Maintain current course.",
-            "crew_reply": "Troi: 'Holding steady. Sensors continuing long-range scans.'",
+            "label": "Hold position.",
+            "crew_reply": "Lt. Commander La Forge: 'Maintaining current course and speed.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "La Forge",
-        "line": "Captain, sensors are detecting instability nearby. The readings are fluctuating rapidly.",
+        "crew": "Chief O'Brien",
+        "line": "Sensors are detecting fluctuations near the target region.",
         "options": [
           {
-            "label": "Divert more power to sensors.",
-            "crew_reply": "Crusher: 'Rerouting auxiliary power. The signal\u2019s clearer now\u2014possible lifesigns detected.'",
+            "label": "Divert auxiliary power to sensors.",
+            "crew_reply": "Lt. Commander Data: 'Aye, Captain. Signal resolution improving.'",
             "next": 2
           },
           {
-            "label": "Send a message of assistance.",
-            "crew_reply": "Worf: 'Understood. Standard rescue transmission initiated.'",
+            "label": "Maintain current scan pattern.",
+            "crew_reply": "Commander Riker: 'No significant change, Captain.'",
             "next": 2
           },
           {
-            "label": "Hold position and continue monitoring.",
-            "crew_reply": "Troi: 'Acknowledged. Maintaining present course and speed.'",
+            "label": "Begin detailed life-sign analysis.",
+            "crew_reply": "Lt. Commander La Forge: 'Multiple faint readings, Captain. Possibly survivors.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Crusher",
-        "line": "Captain, whatever\u2019s causing this seems to be stabilizing. Awaiting your command.",
+        "crew": "Lt. Commander Data",
+        "line": "Whatever caused the anomaly appears to be stabilizing. Awaiting orders.",
         "options": [
           {
             "label": "Dispatch an away team.",
-            "crew_reply": "Troi: 'Away team ready and standing by in transporter room one.'"
+            "crew_reply": "Lt. Commander La Forge: 'Away team ready, Captain.'"
           },
           {
-            "label": "Maintain orbit and observe.",
-            "crew_reply": "Worf: 'Very well. Continue observation until further notice.'"
+            "label": "Maintain orbit.",
+            "crew_reply": "Commander Riker: 'Holding position at safe range.'"
           },
           {
-            "label": "Begin recovery operations.",
-            "crew_reply": "La Forge: 'Aye, Captain. Tractors engaged and recovery procedures underway.'"
+            "label": "Withdraw to a safer distance.",
+            "crew_reply": "Chief O'Brien: 'Understood. Adjusting course accordingly.'"
           }
         ]
       }
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command acknowledges your actions in resolving the a damaged romulan scout ship has crossed into federation space. situation. The Enterprise-D and her crew have performed admirably."
+        "text": "Starfleet Command commends the crew of the Enterprise-D for successfully managing the a damaged romulan scout ship has crossed into federation space. mission with professionalism and precision."
       }
     ]
   }
