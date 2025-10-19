@@ -188,6 +188,39 @@ let scenarios = []
 let currentScenario = 0
 let currentNode = 0
 
+const buttonMessages = {
+  shields: ["Shields Up", "Shields Down"],
+  weapons: ["Weapons Locked", "Weapons Disengaged"],
+  comms: ["Hailing Frequencies Open", "Comms Closed"],
+  damage: ["Repair Teams Responding", "Repairs Completed"],
+  computer: ["Computer Online", "Computer Offline"],
+  integrity: ["Structural Integrity Nominal", "Structural Integrity Damaged"],
+  longscan: ["Long Range Scan Active", "Long Range Scan Disengaged"],
+  shortscan: ["Short Range Scan Active", "Short Range Scan Disengaged"]
+}
+const toggleState = {}
+const statusPanel = document.getElementById('status-panel')
+
+function updateStatusPanel() {
+  let text = ''
+  for (let key in buttonMessages) {
+    const state = toggleState[key] ? 1 : 0
+    text += `${buttonMessages[key][state === 0 ? 0 : 1]}\n`
+  }
+  statusPanel.textContent = text.trim()
+}
+document.addEventListener('DOMContentLoaded', () => {
+  for (let key in buttonMessages) toggleState[key] = false
+  updateStatusPanel()
+  document.querySelectorAll('.lcars-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.getAttribute('data-key')
+      toggleState[key] = !toggleState[key]
+      updateStatusPanel()
+    })
+  })
+})
+
 async function loadScenarios() {
   try {
     const r = await fetch(JSON_URL, { cache: 'no-store' })
@@ -197,11 +230,7 @@ async function loadScenarios() {
     document.getElementById('dialog').innerText = 'Error loading mission data.'
   }
 }
-
-function randomCrewName() {
-  return crewList[Math.floor(Math.random() * crewList.length)]
-}
-
+function randomCrewName() { return crewList[Math.floor(Math.random() * crewList.length)] }
 function displayScenario(index) {
   currentScenario = index
   currentNode = 0
@@ -211,21 +240,15 @@ function displayScenario(index) {
   document.getElementById('debrief').innerHTML = ''
   renderDialogueNode()
 }
-
 function renderDialogueNode() {
   const scenario = scenarios[currentScenario]
   const node = scenario.dialogue_tree[currentNode]
-  if (!node) {
-    showDebrief()
-    return
-  }
-
+  if (!node) { showDebrief(); return }
   const dialogBox = document.getElementById('dialog')
   const optionsBox = document.getElementById('options')
   const speaker = crewList.includes(node.crew) ? node.crew : randomCrewName()
   dialogBox.innerHTML = `<h2>${speaker.toUpperCase()}</h2><p>${node.line}</p>`
   optionsBox.innerHTML = ''
-
   node.options.forEach(opt => {
     const btn = document.createElement('button')
     btn.textContent = opt.label
@@ -235,14 +258,11 @@ function renderDialogueNode() {
       if (opt.next !== undefined && scenario.dialogue_tree[opt.next]) {
         currentNode = opt.next
         setTimeout(() => renderDialogueNode(), 2000)
-      } else {
-        setTimeout(() => showDebrief(), 2500)
-      }
+      } else setTimeout(() => showDebrief(), 2500)
     }
     optionsBox.appendChild(btn)
   })
 }
-
 function showDebrief() {
   const s = scenarios[currentScenario]
   const d = s.debriefs[Math.floor(Math.random() * s.debriefs.length)]
@@ -250,12 +270,10 @@ function showDebrief() {
   document.getElementById('options').innerHTML = ''
   document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`
 }
-
 function restart() {
   const next = (currentScenario + 1) % scenarios.length
   displayScenario(next)
 }
-
 loadScenarios()
 </script>
 </body>
