@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starfleet LCARS Bridge Simulator</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --lcars-bg: #000000;
+  --lcars-orange: #FF9933;
+  --lcars-peach: #FFCC99;
+  --lcars-red: #CC4444;
+  --lcars-lilac: #CC99CC;
+  --lcars-bluegray: #99CCFF;
+  --lcars-gold: #FFCC33;
+  --lcars-text: #F5F6FA;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--lcars-bg);
+  color: var(--lcars-text);
+  font-family: 'Roboto Mono', monospace;
+}
+#frame {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header {
+  background: var(--lcars-orange);
+  padding: 12px 24px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+main {
+  flex: 1;
+  display: flex;
+}
+aside {
+  width: 160px;
+  background: var(--lcars-lilac);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+aside div {
+  height: 80px;
+  margin-bottom: 10px;
+  border-radius: 0 40px 40px 0;
+}
+#display {
+  flex: 1;
+  background: var(--lcars-bluegray);
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: auto;
+  color: var(--lcars-bg);
+}
+#scenario { font-weight: bold; font-size: 1.2em; }
+#dialogue { margin-top: 15px; }
+#options { margin-top: 20px; }
+button {
+  background: var(--lcars-gold);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9em;
+}
+button:hover { background: var(--lcars-orange); }
+#debrief {
+  display: none;
+  background: var(--lcars-peach);
+  color: var(--lcars-bg);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+footer {
+  background: var(--lcars-red);
+  text-align: center;
+  padding: 8px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+</style>
+</head>
+<body>
+<div id="frame">
+  <header>Starfleet Command - Bridge Simulator</header>
+  <main>
+    <aside>
+      <div style="background:var(--lcars-orange)"></div>
+      <div style="background:var(--lcars-gold)"></div>
+      <div style="background:var(--lcars-peach)"></div>
+      <div style="background:var(--lcars-red)"></div>
+    </aside>
+    <section id="display">
+      <div id="scenario"></div>
+      <div id="dialogue"></div>
+      <div id="options"></div>
+      <div id="debrief"></div>
+    </section>
+  </main>
+  <footer>USS Enterprise NCC-1701-D</footer>
+</div>
+
+<script>
+const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json';
+let scenarios = [];
+
+async function loadScenarios() {
+  try {
+    const response = await fetch(JSON_URL, {cache:'no-store'});
+    scenarios = await response.json();
+    startScenario();
+  } catch (e) {
+    document.getElementById('scenario').textContent = 'Error loading scenarios.';
+  }
+}
+
+function startScenario() {
+  const random = Math.floor(Math.random() * scenarios.length);
+  displayScenario(scenarios[random]);
+}
+
+function displayScenario(scene) {
+  const s = document.getElementById('scenario');
+  const d = document.getElementById('dialogue');
+  const o = document.getElementById('options');
+  const b = document.getElementById('debrief');
+  s.textContent = scene.scenario;
+  d.innerHTML = scene.dialogue.map(l => `<p>${l}</p>`).join('');
+  o.innerHTML = '';
+  b.style.display = 'none';
+  scene.options.forEach(option => {
+    const btn = document.createElement('button');
+    btn.textContent = option.label;
+    btn.onclick = () => handleOutcome(option.outcome);
+    o.appendChild(btn);
+  });
+}
+
+function handleOutcome(outcome) {
+  const d = document.getElementById('dialogue');
+  const o = document.getElementById('options');
+  const b = document.getElementById('debrief');
+  d.innerHTML = outcome.dialogue.map(l => `<p>${l}</p>`).join('');
+  o.innerHTML = '';
+  if (outcome.options) {
+    outcome.options.forEach(option => {
+      const btn = document.createElement('button');
+      btn.textContent = option.label;
+      btn.onclick = () => handleOutcome(option.outcome);
+      o.appendChild(btn);
+    });
+  } else if (outcome.debrief) {
+    b.textContent = "Starfleet Command Debrief: " + outcome.debrief;
+    b.style.display = 'block';
+    const btn = document.createElement('button');
+    btn.textContent = "Begin New Scenario";
+    btn.onclick = startScenario;
+    o.appendChild(btn);
+  }
+}
+
+loadScenarios();
+</script>
+</body>
+</html>

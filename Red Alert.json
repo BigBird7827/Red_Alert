@@ -1,0 +1,1977 @@
+[
+  {
+    "scenario": "The USS Enterprise encounters a derelict Ferengi vessel drifting near the Bajoran border. Power readings are erratic, and the ship appears abandoned.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #2: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #3: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #4: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #5: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #6: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #7: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #8: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #9: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #10: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #11: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #12: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #13: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #14: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #15: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #16: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #17: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #18: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #19: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #20: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #21: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #22: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #23: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #24: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unique scenario #25: Randomized deep-space situation involving the Enterprise and nearby alien phenomena.",
+    "dialogue": [
+      "Data: Sensors indicate minimal power output. Life signs are inconsistent\u2014possibly automated systems malfunctioning.",
+      "Worf: This could be a trap. Ferengi rarely abandon profit.",
+      "Riker: Orders, Captain?"
+    ],
+    "options": [
+      {
+        "label": "Send an away team to investigate.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Environmental controls are unstable but survivable.",
+            "Worf: The Ferengi computer core has been wiped clean. Deliberately."
+          ],
+          "options": [
+            {
+              "label": "Recover what logs remain.",
+              "outcome": {
+                "dialogue": [
+                  "Data: Fragmented entries reference a Cardassian vessel before contact ceased."
+                ],
+                "debrief": "Starfleet Command commends your decisive response. Evidence of Cardassian interference will be reviewed by Diplomatic Corps analysts."
+              }
+            },
+            {
+              "label": "Destroy the vessel to prevent intelligence theft.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Photon torpedoes locked.",
+                  "Riker: A clean shot, sir."
+                ],
+                "debrief": "Starfleet notes your caution but expresses concern over the destruction of potential evidence. Command expects a full tactical justification."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Tow the vessel to the nearest Federation starbase.",
+        "outcome": {
+          "dialogue": [
+            "La Forge: Tractor beam engaged. Hull integrity dropping rapidly.",
+            "Troi: I sense... deception. Something aboard doesn\u2019t want to be moved."
+          ],
+          "options": [
+            {
+              "label": "Release immediately.",
+              "outcome": {
+                "dialogue": [
+                  "The Ferengi ship destabilizes and explodes moments later."
+                ],
+                "debrief": "Your quick thinking prevented possible sabotage. Starfleet Engineering will review tractor protocols for unknown derelicts."
+              }
+            },
+            {
+              "label": "Maintain tractor beam and raise shields.",
+              "outcome": {
+                "dialogue": [
+                  "Worf: Multiple detonations across the hull. Shields holding."
+                ],
+                "debrief": "Starfleet praises your composure under pressure. The incident underscores the dangers of towing unstable alien craft."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Ignore and continue on course.",
+        "outcome": {
+          "dialogue": [
+            "Troi: That doesn\u2019t feel right, Captain.",
+            "Picard\u2019s voice echoes in your mind from training: 'There is a difference between prudence and neglect.'"
+          ],
+          "debrief": "Starfleet Command notes your inaction. Future evaluations will assess judgment under uncertain circumstances."
+        }
+      }
+    ]
+  }
+]
