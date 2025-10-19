@@ -72,10 +72,11 @@ header, footer {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid var(--gold);
+  transition: all 0.2s ease;
 }
 .red-btn { background-color: var(--dark-red); }
 .blue-btn { background-color: var(--dark-blue); }
-
+.lcars-btn:hover { transform: scale(1.05); }
 #status-panel {
   margin-top: 15px;
   text-align: center;
@@ -113,6 +114,7 @@ header, footer {
   font-size: 0.9em;
   line-height: 1.5em;
   text-align: left;
+  transition: opacity 0.6s ease;
 }
 .dialog-section {
   margin-bottom: 16px;
@@ -149,6 +151,9 @@ button:hover {
   background: linear-gradient(to bottom, #333, #111);
   transform: scale(1.05);
 }
+.fade {
+  opacity: 0;
+}
 </style>
 </head>
 <body>
@@ -182,104 +187,97 @@ button:hover {
 </div>
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
-const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
-const crewList = ["Commander Riker", "Lt. Commander Data", "Lt. Commander La Forge", "Lt. Worf", "Counselor Troi", "Ensign Crusher", "Lt. Barclay", "Chief O'Brien"]
+const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
+const crewList = ["Commander Riker","Lt. Commander Data","Lt. Commander La Forge","Lt. Worf","Counselor Troi","Ensign Crusher","Lt. Barclay","Chief O'Brien"]
 let scenarios = []
 let currentScenario = 0
 let currentNode = 0
-
 const buttonMessages = {
-  shields: ["Shields Up", "Shields Down"],
-  weapons: ["Weapons Locked", "Weapons Disengaged"],
-  comms: ["Hailing Frequencies Open", "Comms Closed"],
-  damage: ["Repair Teams Responding", "Repairs Completed"],
-  computer: ["Computer Online", "Computer Offline"],
-  integrity: ["Structural Integrity Damaged", "Structural Integrity Nominal"],
-  longscan: ["Long Range Scan Active", "Long Range Scan Disengaged"],
-  shortscan: ["Short Range Scan Active", "Short Range Scan Disengaged"]
+  shields:["Shields Up","Shields Down"],
+  weapons:["Weapons Locked","Weapons Disengaged"],
+  comms:["Hailing Frequencies Open","Comms Closed"],
+  damage:["Repair Teams Responding","Repairs Completed"],
+  computer:["Computer Online","Computer Offline"],
+  integrity:["Structural Integrity Nominal","Structural Integrity Damaged"],
+  longscan:["Long Range Scan Active","Long Range Scan Disengaged"],
+  shortscan:["Short Range Scan Active","Short Range Scan Disengaged"]
 }
 const toggleState = {
-  shields: true,
-  weapons: true,
-  comms: true,
-  damage: true,
-  computer: true,
-  integrity: false,
-  longscan: true,
-  shortscan: true
+  shields:true,weapons:true,comms:true,damage:true,computer:true,integrity:false,longscan:true,shortscan:true
 }
-const statusPanel = document.getElementById('status-panel')
-
-function updateStatusPanel() {
-  let text = ''
-  for (let key in buttonMessages) {
-    const state = toggleState[key] ? 1 : 0
-    text += `${buttonMessages[key][state]}\n`
+const statusPanel=document.getElementById('status-panel')
+function updateStatusPanel(){
+  let text=''
+  for(let key in buttonMessages){
+    const state=toggleState[key]?1:0
+    text+=`${buttonMessages[key][state]}\n`
   }
-  statusPanel.textContent = text.trim()
+  statusPanel.textContent=text.trim()
 }
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded',()=>{
   updateStatusPanel()
-  document.querySelectorAll('.lcars-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const key = btn.getAttribute('data-key')
-      toggleState[key] = !toggleState[key]
+  document.querySelectorAll('.lcars-btn').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const key=btn.getAttribute('data-key')
+      toggleState[key]=!toggleState[key]
       updateStatusPanel()
     })
   })
 })
-
-async function loadScenarios() {
-  try {
-    const r = await fetch(JSON_URL, { cache: 'no-store' })
-    scenarios = await r.json()
-    displayScenario(0)
-  } catch (err) {
-    document.getElementById('dialog').innerText = 'Error loading mission data.'
+async function loadScenarios(){
+  try{
+    const local=await fetch('./Red Alert.json')
+    scenarios=await local.json()
+  }catch{
+    const remote=await fetch(REMOTE_JSON_URL)
+    scenarios=await remote.json()
   }
+  displayScenario(0)
 }
-function randomCrewName() { return crewList[Math.floor(Math.random() * crewList.length)] }
-function displayScenario(index) {
-  currentScenario = index
-  currentNode = 0
-  const s = scenarios[index]
-  document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message}</p>`
-  document.getElementById('mission').innerHTML = `<h2>MISSION DESCRIPTION</h2><p>${s.mission_description}</p>`
-  document.getElementById('debrief').innerHTML = ''
+function fadeTransition(el,newHTML){
+  el.classList.add('fade')
+  setTimeout(()=>{el.innerHTML=newHTML;el.classList.remove('fade')},400)
+}
+function displayScenario(index){
+  currentScenario=index
+  currentNode=0
+  const s=scenarios[index]
+  fadeTransition(document.getElementById('communique'),`<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message}</p>`)
+  fadeTransition(document.getElementById('mission'),`<h2>MISSION DESCRIPTION</h2><p>${s.mission_description}</p>`)
+  document.getElementById('debrief').innerHTML=''
   renderDialogueNode()
 }
-function renderDialogueNode() {
-  const scenario = scenarios[currentScenario]
-  const node = scenario.dialogue_tree[currentNode]
-  if (!node) { showDebrief(); return }
-  const dialogBox = document.getElementById('dialog')
-  const optionsBox = document.getElementById('options')
-  const speaker = crewList.includes(node.crew) ? node.crew : randomCrewName()
-  dialogBox.innerHTML = `<h2>${speaker.toUpperCase()}</h2><p>${node.line}</p>`
-  optionsBox.innerHTML = ''
-  node.options.forEach(opt => {
-    const btn = document.createElement('button')
-    btn.textContent = opt.label
-    btn.onclick = () => {
-      const replySpeaker = randomCrewName()
-      dialogBox.innerHTML += `<p><strong>${replySpeaker}: ${opt.crew_reply.replace(/^.*?: /, '')}</strong></p>`
-      if (opt.next !== undefined && scenario.dialogue_tree[opt.next]) {
-        currentNode = opt.next
-        setTimeout(() => renderDialogueNode(), 2000)
-      } else setTimeout(() => showDebrief(), 2500)
+function renderDialogueNode(){
+  const s=scenarios[currentScenario]
+  const node=s.dialogue_tree[currentNode]
+  if(!node){showDebrief();return}
+  const dialogBox=document.getElementById('dialog')
+  const optionsBox=document.getElementById('options')
+  const speaker=node.crew
+  fadeTransition(dialogBox,`<h2>${speaker.toUpperCase()}</h2><p>${node.line}</p>`)
+  optionsBox.innerHTML=''
+  node.options.forEach(opt=>{
+    const btn=document.createElement('button')
+    btn.textContent=opt.label
+    btn.onclick=()=>{
+      dialogBox.innerHTML+=`<p><strong>${opt.crew_reply}</strong></p>`
+      if(opt.next!==undefined&&s.dialogue_tree[opt.next]){
+        currentNode=opt.next
+        setTimeout(()=>renderDialogueNode(),1600)
+      }else setTimeout(()=>showDebrief(),2000)
     }
     optionsBox.appendChild(btn)
   })
 }
-function showDebrief() {
-  const s = scenarios[currentScenario]
-  const d = s.debriefs[Math.floor(Math.random() * s.debriefs.length)]
-  document.getElementById('dialog').innerHTML = ''
-  document.getElementById('options').innerHTML = ''
-  document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`
+function showDebrief(){
+  const s=scenarios[currentScenario]
+  const d=s.debriefs[Math.floor(Math.random()*s.debriefs.length)]
+  fadeTransition(document.getElementById('dialog'),'')
+  fadeTransition(document.getElementById('options'),'')
+  fadeTransition(document.getElementById('debrief'),`<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`)
 }
-function restart() {
-  const next = (currentScenario + 1) % scenarios.length
+function restart(){
+  const next=(currentScenario+1)%scenarios.length
   displayScenario(next)
 }
 loadScenarios()
