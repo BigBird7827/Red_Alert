@@ -5,7 +5,7 @@
 ## Overview
 
 Players take the role of a Starfleet commanding officer stationed on the bridge of a starship. Each mission begins with a directive from Starfleet Command and a short briefing. As situations unfold, players make rapid tactical, diplomatic, or scientific decisions that affect the outcome of the mission.
-The simulator emphasizes chain-of-command interaction, situational awareness, and moral judgment under pressure—core tenets of Starfleet training. No two runs are exactly alike; each scenario contains multiple branches and outcomes, reflecting the unpredictability of command in deep space.
+The simulator emphasizes chain-of-command interaction, situational awareness, and moral judgment under pressure. No two runs are exactly alike; each scenario contains multiple branches and outcomes, reflecting the unpredictability of command in deep space.
 
 ## Features
 
