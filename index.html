@@ -76,16 +76,14 @@ header, footer {
 .red-btn { background-color: var(--dark-red); }
 .blue-btn { background-color: var(--dark-blue); }
 
-#status-message {
-  position: absolute;
-  width: 100%;
+#status-panel {
+  margin-top: 50px;
   text-align: center;
-  font-weight: bold;
-  font-size: 0.9em;
   color: var(--gold);
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  top: calc(100% + 50px);
+  font-weight: bold;
+  font-size: 0.85em;
+  line-height: 1.4em;
+  white-space: pre-line;
 }
 
 #dialog-area {
@@ -133,7 +131,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 110px;
 }
 button {
   background: linear-gradient(to bottom, #222, #000);
@@ -170,8 +168,8 @@ button:hover {
       <div class="lcars-btn blue-btn" data-key="integrity">Structural Integrity</div>
       <div class="lcars-btn red-btn" data-key="longscan">Long Range Scan</div>
       <div class="lcars-btn blue-btn" data-key="shortscan">Short Range Scan</div>
-      <div id="status-message"></div>
     </div>
+    <div id="status-panel"></div>
   </div>
   <div id="dialog-area">
     <div id="dialog-box">
@@ -201,28 +199,32 @@ const buttonMessages = {
   comms: ["Hailing Frequencies Open", "Comms Closed"],
   damage: ["Repair Teams Responding", "Repairs Completed"],
   computer: ["Computer Online", "Computer Offline"],
-  integrity: ["Structural Integrity Damage", "Structural Integrity Repaired"],
+  integrity: ["Structural Integrity Nominal", "Structural Integrity Damaged"],
   longscan: ["Long Range Scan Active", "Long Range Scan Disengaged"],
   shortscan: ["Short Range Scan Active", "Short Range Scan Disengaged"]
 }
 
 const toggleState = {}
+const statusPanel = document.getElementById('status-panel')
 
-function showMessage(msg) {
-  const el = document.getElementById('status-message')
-  el.textContent = msg
-  el.style.opacity = 1
-  clearTimeout(el.hideTimeout)
-  el.hideTimeout = setTimeout(() => { el.style.opacity = 0 }, 5000)
+function updateStatusPanel() {
+  let text = ''
+  for (let key in buttonMessages) {
+    const state = toggleState[key] ? 1 : 0
+    text += `${buttonMessages[key][state === 0 ? 0 : 1]}\n`
+  }
+  statusPanel.textContent = text.trim()
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  for (let key in buttonMessages) toggleState[key] = false
+  updateStatusPanel()
+
   document.querySelectorAll('.lcars-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const key = btn.getAttribute('data-key')
       toggleState[key] = !toggleState[key]
-      const message = buttonMessages[key][toggleState[key] ? 0 : 1]
-      showMessage(message)
+      updateStatusPanel()
     })
   })
 })
