@@ -100,7 +100,7 @@ header, footer {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/LCARS%20Background.png') center center no-repeat;
+  background: url('./assets/LCARS Background.png') center center no-repeat;
   background-size: cover;
   opacity: 0.5;
   z-index: 0;
@@ -152,6 +152,8 @@ button:hover {
   transform: scale(1.05);
 }
 .fade { opacity: 0; }
+
+/* new box styling */
 .lcars-data-box {
   border: 1px solid #c9a23d;
   background-color: #00051a;
@@ -159,7 +161,7 @@ button:hover {
   padding: 16px 20px;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(201,162,61,0.25);
+  box-shadow: 0 0 10px rgba(201,162,61,0.15);
   font-weight: 500;
   line-height: 1.5em;
 }
@@ -170,7 +172,7 @@ button:hover {
 <div id="content-area">
   <div id="left-panel">
     <div id="alert-panel">
-      <img id="alert-image" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif" alt="Alert Status">
+      <img id="alert-image" src="./assets/Green Alert.gif" alt="Alert Status">
     </div>
     <div id="lcars-buttons">
       <div class="lcars-btn red-btn" data-key="shields">Shields</div>
@@ -197,7 +199,7 @@ button:hover {
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
 const VERSION = '1.0.1';
-const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red_Alert_Corrected.json?v=' + VERSION;
+const REMOTE_JSON_URL = './Red_Alert_Corrected.json?v=' + VERSION;
 const crewList = ["Commander Riker","Lt. Commander Data","Lt. Commander La Forge","Lt. Worf","Counselor Troi","Ensign Crusher","Lt. Barclay","Chief O'Brien"];
 let scenarios = [];
 let currentScenario = 0;
