@@ -175,8 +175,7 @@ button:hover {
     <div id="dialog-box">
       <div class="dialog-section" id="communique"></div>
       <div class="dialog-section" id="mission"></div>
-      <div class="dialog-section" id="scenario"></div>
-      <div class="dialog-section" id="crew"></div>
+      <div class="dialog-section" id="dialog"></div>
       <div class="dialog-section" id="options"></div>
       <div class="dialog-section" id="debrief"></div>
     </div>
@@ -186,108 +185,69 @@ button:hover {
 <script>
 const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
 let scenarios = []
-let current = 0
-const alertImages = {
-  green: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif',
-  yellow: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif',
-  red: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.gif'
-}
-
-const buttonMessages = {
-  shields: ["Shields Up", "Shields Down"],
-  weapons: ["Weapons Locked", "Weapons Disengaged"],
-  comms: ["Hailing Frequencies Open", "Comms Closed"],
-  damage: ["Repair Teams Responding", "Repairs Completed"],
-  computer: ["Computer Online", "Computer Offline"],
-  integrity: ["Structural Integrity Nominal", "Structural Integrity Damaged"],
-  longscan: ["Long Range Scan Active", "Long Range Scan Disengaged"],
-  shortscan: ["Short Range Scan Active", "Short Range Scan Disengaged"]
-}
-
-const toggleState = {}
-const statusPanel = document.getElementById('status-panel')
-
-function updateStatusPanel() {
-  let text = ''
-  for (let key in buttonMessages) {
-    const state = toggleState[key] ? 1 : 0
-    text += `${buttonMessages[key][state === 0 ? 0 : 1]}\n`
-  }
-  statusPanel.textContent = text.trim()
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  for (let key in buttonMessages) toggleState[key] = false
-  toggleState.shields = true
-  toggleState.weapons = true
-  toggleState.comms = true
-  toggleState.computer = true
-  toggleState.longscan = true
-  toggleState.shortscan = true
-  updateStatusPanel()
-
-  document.querySelectorAll('.lcars-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const key = btn.getAttribute('data-key')
-      toggleState[key] = !toggleState[key]
-      updateStatusPanel()
-    })
-  })
-})
+let currentScenario = 0
+let currentNode = 0
 
 async function loadScenarios() {
   try {
-    const response = await fetch(JSON_URL, { cache: 'no-store' })
-    scenarios = await response.json()
+    const r = await fetch(JSON_URL, { cache: 'no-store' })
+    scenarios = await r.json()
     displayScenario(0)
-  } catch {
-    document.getElementById('scenario').innerText = 'Error loading scenarios.'
+  } catch (err) {
+    document.getElementById('dialog').innerText = 'Error loading mission data.'
   }
-}
-
-function updateAlert(status) {
-  const alertImg = document.getElementById('alert-image')
-  alertImg.src = alertImages[status]
 }
 
 function displayScenario(index) {
+  currentScenario = index
+  currentNode = 0
   const s = scenarios[index]
-  if (!s) return
-  current = index
-  document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message || ''}</p>`
-  document.getElementById('mission').innerHTML = `<h2>MISSION DESCRIPTION</h2><p>${s.mission_description || ''}</p>`
-  document.getElementById('scenario').innerHTML = `<h2>SCENARIO</h2><p>${s.text || ''}</p>`
-  document.getElementById('crew').innerHTML = `<h2>CREW REPORT</h2><p>${s.crew_dialogue || ''}</p>`
-  document.getElementById('options').innerHTML = ''
+  document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message}</p>`
+  document.getElementById('mission').innerHTML = `<h2>MISSION DESCRIPTION</h2><p>${s.mission_description}</p>`
   document.getElementById('debrief').innerHTML = ''
-  updateAlert(['green','yellow','red'][Math.floor(Math.random()*3)])
-  if (s.options && s.options.length > 0) {
-    s.options.forEach(o => {
-      const btn = document.createElement('button')
-      btn.innerText = o.label
-      btn.onclick = () => { selectOption(o) }
-      document.getElementById('options').appendChild(btn)
-    })
-  } else {
-    showDebrief(s)
+  renderDialogueNode()
+}
+
+function renderDialogueNode() {
+  const scenario = scenarios[currentScenario]
+  const node = scenario.dialogue_tree[currentNode]
+  if (!node) {
+    showDebrief()
+    return
   }
+
+  const dialogBox = document.getElementById('dialog')
+  const optionsBox = document.getElementById('options')
+  dialogBox.innerHTML = `<h2>${node.crew.toUpperCase()}</h2><p>${node.line}</p>`
+  optionsBox.innerHTML = ''
+
+  node.options.forEach((opt, i) => {
+    const btn = document.createElement('button')
+    btn.textContent = opt.label
+    btn.onclick = () => {
+      dialogBox.innerHTML += `<p><strong>${opt.crew_reply}</strong></p>`
+      if (opt.next !== undefined && scenario.dialogue_tree[opt.next]) {
+        currentNode = opt.next
+        setTimeout(() => renderDialogueNode(), 2000)
+      } else {
+        setTimeout(() => showDebrief(), 2500)
+      }
+    }
+    optionsBox.appendChild(btn)
+  })
 }
 
-function selectOption(option) {
-  const nextIndex = scenarios.findIndex(sc => sc.id === option.next.replace(/\D/g,''))
-  if (nextIndex >= 0) displayScenario(nextIndex)
-  else showDebrief(scenarios[current])
-}
-
-function showDebrief(s) {
-  const d = s.debriefs ? s.debriefs[Math.floor(Math.random()*s.debriefs.length)] : {text:"Mission concluded."}
-  document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`
+function showDebrief() {
+  const s = scenarios[currentScenario]
+  const d = s.debriefs[Math.floor(Math.random() * s.debriefs.length)]
+  document.getElementById('dialog').innerHTML = ''
   document.getElementById('options').innerHTML = ''
-  updateAlert('green')
+  document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`
 }
 
 function restart() {
-  displayScenario(0)
+  const next = (currentScenario + 1) % scenarios.length
+  displayScenario(next)
 }
 
 loadScenarios()
