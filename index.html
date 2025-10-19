@@ -60,6 +60,7 @@ header, footer {
   flex-direction: column;
   width: 100%;
   gap: 6px;
+  position: relative;
 }
 .lcars-btn {
   font-family: 'Roboto Mono', monospace;
@@ -77,7 +78,6 @@ header, footer {
 
 #status-message {
   position: absolute;
-  bottom: -50px;
   width: 100%;
   text-align: center;
   font-weight: bold;
@@ -85,6 +85,7 @@ header, footer {
   color: var(--gold);
   opacity: 0;
   transition: opacity 0.5s ease;
+  top: calc(100% + 50px);
 }
 
 #dialog-area {
@@ -169,8 +170,8 @@ button:hover {
       <div class="lcars-btn blue-btn" data-key="integrity">Structural Integrity</div>
       <div class="lcars-btn red-btn" data-key="longscan">Long Range Scan</div>
       <div class="lcars-btn blue-btn" data-key="shortscan">Short Range Scan</div>
+      <div id="status-message"></div>
     </div>
-    <div id="status-message"></div>
   </div>
   <div id="dialog-area">
     <div id="dialog-box">
@@ -211,7 +212,8 @@ function showMessage(msg) {
   const el = document.getElementById('status-message')
   el.textContent = msg
   el.style.opacity = 1
-  setTimeout(() => { el.style.opacity = 0 }, 5000)
+  clearTimeout(el.hideTimeout)
+  el.hideTimeout = setTimeout(() => { el.style.opacity = 0 }, 5000)
 }
 
 document.addEventListener('DOMContentLoaded', () => {
