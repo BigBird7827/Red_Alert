@@ -45,8 +45,9 @@ header, footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+  width: 100%;
 }
 .lcars-box {
   border: 2px solid var(--gold);
@@ -54,7 +55,7 @@ header, footer {
   padding: 20px;
   width: 80%;
   background: rgba(255, 255, 255, 0.05);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 h2 {
   color: var(--yellow);
@@ -80,6 +81,30 @@ button:hover {
   flex-direction: column;
   align-items: center;
 }
+#systems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 80%;
+  margin-top: 10px;
+}
+.system {
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.05);
+}
+.system-label {
+  font-size: 0.9em;
+  color: var(--gold);
+}
+.system-status {
+  font-size: 1.1em;
+}
+.nominal { color: var(--green); }
+.warning { color: var(--yellow); }
+.damaged { color: var(--red); }
 </style>
 </head>
 <body>
@@ -90,21 +115,53 @@ button:hover {
   <div class="lcars-box" id="scenario"></div>
   <div class="lcars-box" id="options"></div>
   <div class="lcars-box" id="debrief"></div>
+  <div id="systems"></div>
 </div>
-<footer>STARFLEET COMMAND &nbsp;|&nbsp; UNITED FEDERATION OF PLANETS</footer>
+<footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
 const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
 let scenarios = []
 let current = 0
+const systems = {
+  'Warp Drive': 'nominal',
+  'Shields': 'nominal',
+  'Weapons': 'nominal',
+  'Life Support': 'nominal',
+  'Sensors': 'nominal',
+  'Communications': 'nominal',
+  'Deflector': 'nominal',
+  'Transporters': 'nominal',
+  'Structural Integrity': 'nominal'
+}
 
 async function loadScenarios() {
   try {
     const response = await fetch(JSON_URL, { cache: 'no-store' })
     scenarios = await response.json()
     displayScenario(0)
+    renderSystems()
   } catch (err) {
     document.getElementById('scenario').innerText = 'Error loading scenarios.'
   }
+}
+
+function renderSystems() {
+  const sysDiv = document.getElementById('systems')
+  sysDiv.innerHTML = ''
+  Object.entries(systems).forEach(([key, value]) => {
+    const div = document.createElement('div')
+    div.className = 'system'
+    div.innerHTML = `<div class="system-label">${key}</div><div class="system-status ${value}">${value.toUpperCase()}</div>`
+    sysDiv.appendChild(div)
+  })
+}
+
+function randomDamage() {
+  const keys = Object.keys(systems)
+  const sys = keys[Math.floor(Math.random()*keys.length)]
+  const states = ['nominal', 'warning', 'damaged']
+  systems[sys] = states[Math.floor(Math.random()*states.length)]
+  renderSystems()
 }
 
 function displayScenario(index) {
@@ -117,10 +174,10 @@ function displayScenario(index) {
   const optBox = document.getElementById('options')
   optBox.innerHTML = ''
   if (s.options && s.options.length > 0) {
-    s.options.forEach((o, i) => {
+    s.options.forEach(o => {
       const btn = document.createElement('button')
       btn.innerText = o.label
-      btn.onclick = () => selectOption(o)
+      btn.onclick = () => { selectOption(o); randomDamage() }
       optBox.appendChild(btn)
     })
   } else {
@@ -141,6 +198,7 @@ function showDebrief(s) {
   const d = s.debriefs ? s.debriefs[Math.floor(Math.random()*s.debriefs.length)] : {text:"Mission concluded."}
   document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p>`
   document.getElementById('options').innerHTML = ''
+  renderSystems()
 }
 
 loadScenarios()
