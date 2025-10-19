@@ -12,7 +12,7 @@
   --green: #3cd35d;
   --yellow: #e5c542;
   --gold: #c9a23d;
-  --white: #e0e0e0;
+  --white: #f2f2f2;
   --black: #000;
   --text: #fff;
 }
@@ -90,75 +90,66 @@ header, footer {
 }
 .lcars-btn {
   font-family: 'Orbitron', sans-serif;
-  font-size: 0.8em;
-  color: var(--black);
-  padding: 6px;
+  font-size: 0.85em;
+  color: var(--white);
+  padding: 8px;
   text-align: center;
   border-radius: 8px;
   cursor: pointer;
+  text-shadow: 1px 1px 3px #000;
+  font-weight: 700;
 }
 .red-btn { background-color: var(--red); }
-.green-btn { background-color: var(--green); }
-.white-btn { background-color: var(--white); color: var(--black); }
-.blue-btn { background-color: var(--blue); }
+.green-btn { background-color: var(--green); color: #001; text-shadow: 1px 1px 3px #fff; }
+.white-btn { background-color: var(--white); color: #000; text-shadow: 1px 1px 2px #222; }
+.blue-btn { background-color: var(--blue); color: #000; text-shadow: 1px 1px 3px #fff; }
 
 #dialog-area {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 40px;
   background: url('https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/LCARS%20Background.png') center center no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 #dialog-box {
   width: 100%;
   max-width: 1100px;
-  height: 100%;
-  border: 2px solid var(--gold);
-  border-radius: 20px;
-  background: rgba(0,0,0,0.65);
-  display: grid;
-  grid-template-rows: repeat(7, 1fr);
-  gap: 5px;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  padding: 6px 15px;
+  color: var(--white);
+  font-size: 0.9em;
+  line-height: 1.4em;
+  text-align: left;
 }
-.lcars-box {
-  width: 95%;
-  border: 2px solid var(--gold);
-  border-radius: 8px;
-  padding: 5px;
-  background: rgba(0,0,0,0.4);
-  font-size: 0.85em;
-  line-height: 1.3em;
-  overflow: hidden;
+.dialog-section {
+  margin-bottom: 10px;
 }
 h2 {
   color: var(--yellow);
+  font-size: 1em;
   margin-bottom: 4px;
-  font-size: 0.9em;
 }
 button {
   background-color: var(--blue);
   border: none;
   color: var(--black);
   font-family: 'Orbitron', sans-serif;
-  font-size: 0.8em;
-  padding: 6px 12px;
-  border-radius: 8px;
-  margin: 3px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 6px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s;
 }
-button:hover { background-color: var(--green); }
+button:hover { background-color: var(--green); transform: scale(1.05); }
 #options {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  gap: 8px;
 }
 </style>
 </head>
@@ -183,12 +174,12 @@ button:hover { background-color: var(--green); }
   </div>
   <div id="dialog-area">
     <div id="dialog-box">
-      <div class="lcars-box" id="communique"></div>
-      <div class="lcars-box" id="crew"></div>
-      <div class="lcars-box" id="mission"></div>
-      <div class="lcars-box" id="scenario"></div>
-      <div class="lcars-box" id="options"></div>
-      <div class="lcars-box" id="debrief"></div>
+      <div class="dialog-section" id="communique"></div>
+      <div class="dialog-section" id="crew"></div>
+      <div class="dialog-section" id="mission"></div>
+      <div class="dialog-section" id="scenario"></div>
+      <div class="dialog-section" id="options"></div>
+      <div class="dialog-section" id="debrief"></div>
     </div>
   </div>
 </div>
