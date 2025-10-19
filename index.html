@@ -85,7 +85,6 @@ header, footer {
   line-height: 1.4em;
   white-space: pre-line;
 }
-
 #dialog-area {
   position: relative;
   flex: 1;
@@ -184,6 +183,7 @@ button:hover {
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
 const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
+const crewList = ["Commander Riker", "Lt. Commander Data", "Lt. Commander La Forge", "Lt. Worf", "Counselor Troi", "Ensign Crusher", "Lt. Barclay", "Chief O'Brien"]
 let scenarios = []
 let currentScenario = 0
 let currentNode = 0
@@ -196,6 +196,10 @@ async function loadScenarios() {
   } catch (err) {
     document.getElementById('dialog').innerText = 'Error loading mission data.'
   }
+}
+
+function randomCrewName() {
+  return crewList[Math.floor(Math.random() * crewList.length)]
 }
 
 function displayScenario(index) {
@@ -218,14 +222,16 @@ function renderDialogueNode() {
 
   const dialogBox = document.getElementById('dialog')
   const optionsBox = document.getElementById('options')
-  dialogBox.innerHTML = `<h2>${node.crew.toUpperCase()}</h2><p>${node.line}</p>`
+  const speaker = crewList.includes(node.crew) ? node.crew : randomCrewName()
+  dialogBox.innerHTML = `<h2>${speaker.toUpperCase()}</h2><p>${node.line}</p>`
   optionsBox.innerHTML = ''
 
-  node.options.forEach((opt, i) => {
+  node.options.forEach(opt => {
     const btn = document.createElement('button')
     btn.textContent = opt.label
     btn.onclick = () => {
-      dialogBox.innerHTML += `<p><strong>${opt.crew_reply}</strong></p>`
+      const replySpeaker = randomCrewName()
+      dialogBox.innerHTML += `<p><strong>${replySpeaker}: ${opt.crew_reply.replace(/^.*?: /, '')}</strong></p>`
       if (opt.next !== undefined && scenario.dialogue_tree[opt.next]) {
         currentNode = opt.next
         setTimeout(() => renderDialogueNode(), 2000)
