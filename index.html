@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Alert - LCARS Bridge Simulator</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --red: #d12c2c;
+  --blue: #4da6ff;
+  --green: #3cd35d;
+  --yellow: #e5c542;
+  --gold: #c9a23d;
+  --black: #000;
+  --text: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--black);
+  color: var(--text);
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: hidden;
+}
+header, footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, var(--red), var(--gold));
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+#main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.lcars-box {
+  border: 2px solid var(--gold);
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 20px;
+}
+h2 {
+  color: var(--yellow);
+  margin-bottom: 10px;
+}
+button {
+  background-color: var(--blue);
+  border: none;
+  color: var(--black);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: var(--green);
+}
+#options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
+</head>
+<body>
+<header>LCARS COMMAND INTERFACE - USS ENTERPRISE-D</header>
+<div id="main">
+  <div class="lcars-box" id="communique"></div>
+  <div class="lcars-box" id="crew"></div>
+  <div class="lcars-box" id="scenario"></div>
+  <div class="lcars-box" id="options"></div>
+  <div class="lcars-box" id="debrief"></div>
+</div>
+<footer>STARFLEET COMMAND &nbsp;|&nbsp; UNITED FEDERATION OF PLANETS</footer>
+<script>
+const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
+let scenarios = []
+let current = 0
+
+async function loadScenarios() {
+  try {
+    const response = await fetch(JSON_URL, { cache: 'no-store' })
+    scenarios = await response.json()
+    displayScenario(0)
+  } catch (err) {
+    document.getElementById('scenario').innerText = 'Error loading scenarios.'
+  }
+}
+
+function displayScenario(index) {
+  const s = scenarios[index]
+  if (!s) return
+  current = index
+  document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMAND</h2><p>${s.starfleet_message || ''}</p>`
+  document.getElementById('crew').innerHTML = `<h2>CREW REPORT</h2><p>${s.crew_dialogue || ''}</p>`
+  document.getElementById('scenario').innerHTML = `<h2>SCENARIO ${s.id}</h2><p>${s.text || ''}</p>`
+  const optBox = document.getElementById('options')
+  optBox.innerHTML = ''
+  if (s.options && s.options.length > 0) {
+    s.options.forEach((o, i) => {
+      const btn = document.createElement('button')
+      btn.innerText = o.label
+      btn.onclick = () => selectOption(o)
+      optBox.appendChild(btn)
+    })
+  } else {
+    showDebrief(s)
+  }
+}
+
+function selectOption(option) {
+  const nextIndex = scenarios.findIndex(sc => sc.id === option.next.replace(/\D/g,''))
+  if (nextIndex >= 0) {
+    displayScenario(nextIndex)
+  } else {
+    showDebrief(scenarios[current])
+  }
+}
+
+function showDebrief(s) {
+  const d = s.debriefs ? s.debriefs[Math.floor(Math.random()*s.debriefs.length)] : {text:"Mission concluded."}
+  document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p>`
+  document.getElementById('options').innerHTML = ''
+}
+
+loadScenarios()
+</script>
+</body>
+</html>
