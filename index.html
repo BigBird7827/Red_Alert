@@ -57,31 +57,6 @@ header, footer {
   height: auto;
   margin-bottom: 10px;
 }
-#systems {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 5px;
-  margin-bottom: 10px;
-}
-.system {
-  height: 16px;
-  border-radius: 10px;
-  background-color: rgba(255,255,255,0.1);
-  position: relative;
-  overflow: hidden;
-}
-.system::before {
-  content: attr(data-label);
-  position: absolute;
-  left: 8px;
-  top: 1px;
-  font-size: 0.65em;
-  color: var(--gold);
-}
-.system.nominal { background-color: var(--green); }
-.system.warning { background-color: var(--yellow); }
-.system.damaged { background-color: var(--red); }
 #lcars-buttons {
   display: flex;
   flex-direction: column;
@@ -122,11 +97,13 @@ header, footer {
 }
 .dialog-section {
   margin-bottom: 16px;
+  text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
 }
 h2 {
   color: var(--yellow);
   font-size: 1em;
   margin-bottom: 8px;
+  text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
 }
 #options {
   display: flex;
@@ -162,7 +139,6 @@ button:hover {
     <div id="alert-panel">
       <img id="alert-image" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif" alt="Alert Status">
     </div>
-    <div id="systems"></div>
     <div id="lcars-buttons">
       <div class="lcars-btn red-btn">Shields</div>
       <div class="lcars-btn green-btn">Weapons</div>
@@ -177,9 +153,9 @@ button:hover {
   <div id="dialog-area">
     <div id="dialog-box">
       <div class="dialog-section" id="communique"></div>
-      <div class="dialog-section" id="crew"></div>
       <div class="dialog-section" id="mission"></div>
       <div class="dialog-section" id="scenario"></div>
+      <div class="dialog-section" id="crew"></div>
       <div class="dialog-section" id="options"></div>
       <div class="dialog-section" id="debrief"></div>
     </div>
@@ -190,17 +166,7 @@ button:hover {
 const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
 let scenarios = []
 let current = 0
-const systems = {
-  'Warp Drive': 'nominal',
-  'Shields': 'nominal',
-  'Weapons': 'nominal',
-  'Life Support': 'nominal',
-  'Sensors': 'nominal',
-  'Communications': 'nominal',
-  'Deflector': 'nominal',
-  'Transporters': 'nominal',
-  'Structural Integrity': 'nominal'
-}
+
 const alertImages = {
   green: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif',
   yellow: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif',
@@ -212,29 +178,9 @@ async function loadScenarios() {
     const response = await fetch(JSON_URL, { cache: 'no-store' })
     scenarios = await response.json()
     displayScenario(0)
-    renderSystems()
   } catch {
     document.getElementById('scenario').innerText = 'Error loading scenarios.'
   }
-}
-
-function renderSystems() {
-  const sysDiv = document.getElementById('systems')
-  sysDiv.innerHTML = ''
-  Object.entries(systems).forEach(([key, value]) => {
-    const div = document.createElement('div')
-    div.className = `system ${value}`
-    div.dataset.label = key
-    sysDiv.appendChild(div)
-  })
-}
-
-function randomDamage() {
-  const keys = Object.keys(systems)
-  const sys = keys[Math.floor(Math.random()*keys.length)]
-  const states = ['nominal', 'warning', 'damaged']
-  systems[sys] = states[Math.floor(Math.random()*states.length)]
-  renderSystems()
 }
 
 function updateAlert(status) {
@@ -246,10 +192,10 @@ function displayScenario(index) {
   const s = scenarios[index]
   if (!s) return
   current = index
-  document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMAND</h2><p>${s.starfleet_message || ''}</p>`
-  document.getElementById('crew').innerHTML = `<h2>CREW REPORT</h2><p>${s.crew_dialogue || ''}</p>`
+  document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message || ''}</p>`
   document.getElementById('mission').innerHTML = `<h2>MISSION DESCRIPTION</h2><p>${s.mission_description || ''}</p>`
   document.getElementById('scenario').innerHTML = `<h2>SCENARIO</h2><p>${s.text || ''}</p>`
+  document.getElementById('crew').innerHTML = `<h2>CREW REPORT</h2><p>${s.crew_dialogue || ''}</p>`
   document.getElementById('options').innerHTML = ''
   document.getElementById('debrief').innerHTML = ''
   updateAlert(['green','yellow','red'][Math.floor(Math.random()*3)])
@@ -257,7 +203,7 @@ function displayScenario(index) {
     s.options.forEach(o => {
       const btn = document.createElement('button')
       btn.innerText = o.label
-      btn.onclick = () => { selectOption(o); randomDamage() }
+      btn.onclick = () => { selectOption(o) }
       document.getElementById('options').appendChild(btn)
     })
   } else {
@@ -275,13 +221,10 @@ function showDebrief(s) {
   const d = s.debriefs ? s.debriefs[Math.floor(Math.random()*s.debriefs.length)] : {text:"Mission concluded."}
   document.getElementById('debrief').innerHTML = `<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`
   document.getElementById('options').innerHTML = ''
-  renderSystems()
   updateAlert('green')
 }
 
 function restart() {
-  Object.keys(systems).forEach(k => systems[k] = 'nominal')
-  renderSystems()
   displayScenario(0)
 }
 
