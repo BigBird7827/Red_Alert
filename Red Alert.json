@@ -1,9 +1,10 @@
 [
   {
     "id": "001",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 219.",
-    "crew_dialogue": "Worf: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 1: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to investigate an unusual tachyon surge detected near the cardassian border. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Data: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -29,31 +30,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "002",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 734.",
-    "crew_dialogue": "Riker: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 2: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to respond to a civilian transport distress signal in a volatile nebula. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "La Forge: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -79,31 +81,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in success. Further debrief recommended to refine command strategy."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in partial success. Further debrief recommended to refine command strategy."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Crew initiative was commendable despite unanticipated complications."
       }
     ]
   },
   {
     "id": "003",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 996.",
-    "crew_dialogue": "Troi: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 3: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to survey a newly charted m-class world for federation colonization. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "La Forge: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -129,31 +132,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Tactical readiness ensured minimal damage to ship and crew."
       }
     ]
   },
   {
     "id": "004",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 178.",
-    "crew_dialogue": "Troi: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 4: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to deliver diplomatic envoys to the klingon homeworld following political unrest. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Riker: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -179,31 +183,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in commendation. Ethical judgment remained aligned with Federation principles."
       }
     ]
   },
   {
     "id": "005",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 427.",
-    "crew_dialogue": "La Forge: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 5: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to examine an ancient alien probe emitting a cryptic signal. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "La Forge: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -229,31 +234,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in ethical conflict. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in commendation. Tactical readiness ensured minimal damage to ship and crew."
       }
     ]
   },
   {
     "id": "006",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 892.",
-    "crew_dialogue": "La Forge: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 6: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to monitor escalating tensions between two federation trading partners. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Crusher: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -279,31 +285,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in commendation. Tactical readiness ensured minimal damage to ship and crew."
       }
     ]
   },
   {
     "id": "007",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 315.",
-    "crew_dialogue": "Crusher: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 7: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to assist a damaged vulcan science vessel drifting near a gravitational eddy. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Data: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -329,31 +336,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in partial success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in commendation. Crew initiative was commendable despite unanticipated complications."
       }
     ]
   },
   {
     "id": "008",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 159.",
-    "crew_dialogue": "La Forge: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 8: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to respond to reports of pirate activity in the betreka nebula. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Troi: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -379,31 +387,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in partial success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in ethical conflict. Further debrief recommended to refine command strategy."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in commendation. Ethical judgment remained aligned with Federation principles."
       }
     ]
   },
   {
     "id": "009",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 879.",
-    "crew_dialogue": "Data: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 9: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to investigate a subspace rupture affecting long-range communications. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "La Forge: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -429,31 +438,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in partial success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in failure. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in ethical conflict. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Your leadership reflected exemplary Starfleet conduct."
       }
     ]
   },
   {
     "id": "010",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 353.",
-    "crew_dialogue": "Riker: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 10: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to escort a convoy of humanitarian ships through a volatile warzone. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Data: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -479,31 +489,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in failure. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in ethical conflict. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in commendation. Tactical readiness ensured minimal damage to ship and crew."
       }
     ]
   },
   {
     "id": "011",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 699.",
-    "crew_dialogue": "Worf: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 11: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to analyze a dormant borg signal emanating from the beta quadrant. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Troi: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -529,31 +540,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in failure. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in ethical conflict. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "012",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 584.",
-    "crew_dialogue": "Data: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 12: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to observe a binary star collision predicted to occur within hours. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Worf: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -579,31 +591,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in partial success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in ethical conflict. Further debrief recommended to refine command strategy."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "013",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 580.",
-    "crew_dialogue": "Data: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 13: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to rescue a research team stranded on an unstable asteroid. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Troi: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -629,31 +642,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in ethical conflict. Further debrief recommended to refine command strategy."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in commendation. Ethical judgment remained aligned with Federation principles."
       }
     ]
   },
   {
     "id": "014",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 445.",
-    "crew_dialogue": "La Forge: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 14: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to investigate a missing federation relay station near the neutral zone. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Data: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -679,31 +693,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in failure. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in ethical conflict. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "015",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 812.",
-    "crew_dialogue": "Data: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 15: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to deliver critical medical supplies to a plague-stricken outpost. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Worf: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -729,31 +744,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in failure. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in ethical conflict. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in commendation. Ethical judgment remained aligned with Federation principles."
       }
     ]
   },
   {
     "id": "016",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 433.",
-    "crew_dialogue": "Crusher: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 16: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to study an unregistered warp-capable vessel entering federation space. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Crusher: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -779,31 +795,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in failure. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in ethical conflict. Further debrief recommended to refine command strategy."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "017",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 743.",
-    "crew_dialogue": "Riker: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 17: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to negotiate the release of starfleet officers detained by a romulan patrol. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Data: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -829,31 +846,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in partial success. Further debrief recommended to refine command strategy."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in ethical conflict. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in commendation. Ethical judgment remained aligned with Federation principles."
       }
     ]
   },
   {
     "id": "018",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 893.",
-    "crew_dialogue": "Troi: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 18: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to assist an andorian freighter caught in a plasma storm. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Data: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -879,31 +897,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in partial success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in ethical conflict. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in commendation. Ethical judgment remained aligned with Federation principles."
       }
     ]
   },
   {
     "id": "019",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 462.",
-    "crew_dialogue": "Worf: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 19: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to examine a derelict ferengi vessel discovered adrift in deep space. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Data: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -929,31 +948,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in partial success. Further debrief recommended to refine command strategy."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in failure. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "020",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 659.",
-    "crew_dialogue": "Troi: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 20: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to contain a runaway warp core breach at a remote mining facility. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Riker: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -979,31 +999,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in partial success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in failure. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in ethical conflict. Further debrief recommended to refine command strategy."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Tactical readiness ensured minimal damage to ship and crew."
       }
     ]
   },
   {
     "id": "021",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 825.",
-    "crew_dialogue": "Riker: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 21: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to respond to reports of an unprovoked attack on a federation colony. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Troi: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -1029,31 +1050,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in failure. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "022",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 532.",
-    "crew_dialogue": "La Forge: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 22: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to investigate a mysterious transmission originating from within a pulsar. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Crusher: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -1079,31 +1101,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in partial success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in ethical conflict. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   },
   {
     "id": "023",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 490.",
-    "crew_dialogue": "Data: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 23: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to provide escort duty for an archaeological expedition in disputed space. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Crusher: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -1129,31 +1152,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in success. Further debrief recommended to refine command strategy."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in partial success. Further debrief recommended to refine command strategy."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Command decisions demonstrated adaptability in the face of uncertainty."
+        "text": "The mission resulted in failure. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. The outcome underscores the importance of Starfleet\u2019s guiding principles."
+        "text": "The mission resulted in ethical conflict. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Crew initiative was commendable despite unanticipated complications."
       }
     ]
   },
   {
     "id": "024",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 355.",
-    "crew_dialogue": "Riker: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 24: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to respond to a starfleet science station\u2019s sudden power failure. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "La Forge: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -1179,31 +1203,32 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in success. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in partial success. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in failure. Further debrief recommended to refine command strategy."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in ethical conflict. Ethical judgment remained aligned with Federation principles."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Tactical readiness ensured minimal damage to ship and crew."
       }
     ]
   },
   {
     "id": "025",
-    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Situation Report.\nCaptain, Starfleet has received new intelligence requiring your immediate attention in sector 179.",
-    "crew_dialogue": "Troi: 'Captain, sensors indicate a developing situation. I recommend we proceed with caution and evaluate all options before acting.'",
-    "text": "Scenario 25: The Enterprise-D encounters a new and unpredictable situation in deep space. Immediate command decisions are required.",
+    "mission_description": "Starfleet Command has assigned the Enterprise-D to conduct peacekeeping operations near the tzenkethi frontier. The situation demands careful assessment of local conditions, crew readiness, and potential diplomatic consequences. Captain Picard and his senior officers must evaluate risks, maintain Federation principles, and ensure the safety of all involved while preserving stability in the sector.",
+    "starfleet_message": "To: Captain Jean-Luc Picard, USS Enterprise-D.\nFrom: Starfleet Command.\nSubject: Mission Orders.\nCaptain, you are ordered to proceed immediately to the designated coordinates. Further details are enclosed.",
+    "crew_dialogue": "Crusher: 'Captain, sensors confirm the situation is developing rapidly. Awaiting your command.'",
+    "text": "The Enterprise-D has arrived on station. Starfleet has tasked the crew with handling a complex situation requiring immediate command attention.",
     "options": [
       {
         "label": "Initiate diplomatic contact.",
@@ -1229,23 +1254,23 @@
     "debriefs": [
       {
         "type": "success",
-        "text": "The mission resulted in success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in success. Your leadership reflected exemplary Starfleet conduct."
       },
       {
         "type": "partial_success",
-        "text": "The mission resulted in partial success. Further review is advised for tactical and ethical considerations."
+        "text": "The mission resulted in partial success. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "failure",
-        "text": "The mission resulted in failure. Crew performance was exemplary despite unforeseen variables."
+        "text": "The mission resulted in failure. Crew initiative was commendable despite unanticipated complications."
       },
       {
         "type": "ethical_conflict",
-        "text": "The mission resulted in ethical conflict. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in ethical conflict. Tactical readiness ensured minimal damage to ship and crew."
       },
       {
         "type": "commendation",
-        "text": "The mission resulted in commendation. Your decision reflected sound judgment under pressure."
+        "text": "The mission resulted in commendation. Further debrief recommended to refine command strategy."
       }
     ]
   }
