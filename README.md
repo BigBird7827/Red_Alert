@@ -30,30 +30,9 @@ The purpose of *Red Alert* is to provide a bridge simulation that feels authenti
 
 ---
 
-## 🧠 Canon Reference: LCARS Color Logic
-
-| Division | Canonical Color | Use in Interface |
-|-----------|-----------------|------------------|
-| Command | Gold / Amber | Alerts, Mission Headers |
-| Operations | Blue | Systems, Scans, Sensors |
-| Security / Tactical | Red | Shields, Weapons, Damage Control |
-| Science | Cyan | Data, Communications, Research |
-| Engineering | Orange | Diagnostics, Power, Maintenance |
-
----
-
-## ⚙️ Getting Started
-
-1. Clone or download this repository.  
-2. Open `index.html` in your browser — no installation required.  
-3. Missions load automatically from the JSON database (`Red Alert.json`).  
-4. Make command decisions and see how your leadership shapes the outcome.
-
----
-
 ## 🖖 Credits
 
-- **Design & Development:** [Your Name or Alias]  
+- **Design & Development:** Rich Warren  
 - **LCARS Inspiration:** *Star Trek: The Next Generation*  
 - **UI Philosophy:** Michael Okuda (“Okudagrams”)  
 - **Language:** HTML5, CSS3, JavaScript (ES6+)  
@@ -69,6 +48,8 @@ The purpose of *Red Alert* is to provide a bridge simulation that feels authenti
 This project is a **non-commercial fan creation**. *Star Trek* and all related marks are the property of CBS Studios Inc.  
 No copyright infringement intended.
 
+This work is licensed under a [Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 ---
 
-*Live long and simulate.*
+**Ad Astra Per Aspera — To the Stars Through Hardship.**
