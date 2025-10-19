@@ -186,7 +186,6 @@ button:hover { background-color: var(--green); }
       <div class="lcars-box" id="communique"></div>
       <div class="lcars-box" id="crew"></div>
       <div class="lcars-box" id="mission"></div>
-      <div class="lcars-box" id="missiondesc"></div>
       <div class="lcars-box" id="scenario"></div>
       <div class="lcars-box" id="options"></div>
       <div class="lcars-box" id="debrief"></div>
@@ -256,8 +255,7 @@ function displayScenario(index) {
   current = index
   document.getElementById('communique').innerHTML = `<h2>STARFLEET COMMAND</h2><p>${s.starfleet_message || ''}</p>`
   document.getElementById('crew').innerHTML = `<h2>CREW REPORT</h2><p>${s.crew_dialogue || ''}</p>`
-  document.getElementById('mission').innerHTML = `<h2>MISSION SUMMARY</h2><p>${s.mission_description || ''}</p>`
-  document.getElementById('missiondesc').innerHTML = `<h2>MISSION CONTEXT</h2><p>${s.mission_description || ''}</p>`
+  document.getElementById('mission').innerHTML = `<h2>MISSION DESCRIPTION</h2><p>${s.mission_description || ''}</p>`
   document.getElementById('scenario').innerHTML = `<h2>SCENARIO</h2><p>${s.text || ''}</p>`
   document.getElementById('options').innerHTML = ''
   document.getElementById('debrief').innerHTML = ''
