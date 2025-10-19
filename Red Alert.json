@@ -6,7 +6,7 @@
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
@@ -27,7 +27,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Initiate tractor lock (Investigate the distress call and ensure the safety of the science team)",
@@ -48,7 +48,7 @@
       },
       {
         "crew": "Lt. Barclay",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Power distribution stable; auxiliary systems standing by.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
@@ -69,7 +69,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
@@ -90,7 +90,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Establish tight-beam comms (Investigate the distress call and ensure the safety of the science team)",
@@ -112,31 +112,31 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a distress call has been received from a federation science station orbiting epsilon iv. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a distress call has been received from a Federation science station orbiting Epsilon iv. mission. full findings have been forwarded for review."
       }
     ]
   },
   {
     "id": "2",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
-    "mission_description": "Assess the transport\u2019s situation and avoid provoking Klingon forces.",
+    "mission_description": "Assess the transport’s situation and avoid provoking Klingon forces.",
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Launch a probe (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Launch a probe (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Reroute through secondary relays (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Lt. Worf: 'Traffic rerouted; throughput stabilized.'",
             "next": 1
           },
           {
-            "label": "Establish tight-beam comms (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Establish tight-beam comms (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Ensign Crusher: 'Tight-beam established; signal clarity improved.'",
             "next": 1
           }
@@ -144,20 +144,20 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Reroute through secondary relays (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Lt. Worf: 'Traffic rerouted; throughput stabilized.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Initiate tractor lock (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
             "next": 2
           },
           {
-            "label": "Deploy navigation buoy (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Deploy navigation buoy (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Lt. Commander La Forge: 'Buoy deployed; broadcasting advisories.'",
             "next": 2
           }
@@ -165,20 +165,20 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
-            "label": "Recalibrate sensors (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Recalibrate sensors (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
             "next": 3
           },
           {
-            "label": "Assemble an away team (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Assemble an away team (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
             "next": 3
           },
           {
-            "label": "Establish tight-beam comms (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Establish tight-beam comms (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Chief O'Brien: 'Tight-beam established; signal clarity improved.'",
             "next": 3
           }
@@ -186,20 +186,20 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Assemble an away team (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Assemble an away team (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
             "next": 4
           },
           {
-            "label": "Initiate tractor lock (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Initiate tractor lock (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
             "next": 4
           },
           {
-            "label": "Establish tight-beam comms (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Establish tight-beam comms (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Lt. Worf: 'Tight-beam established; signal clarity improved.'",
             "next": 4
           }
@@ -207,20 +207,20 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Launch a probe (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Launch a probe (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Deploy navigation buoy (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Lt. Worf: 'Buoy deployed; broadcasting advisories.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Assess the transport\u2019s situation and avoid provoking Klingon forces)",
+            "label": "Assemble an away team (Assess the transport’s situation and avoid provoking Klingon forces)",
             "crew_reply": "Ensign Crusher: 'Away team forming; awaiting final authorization.'",
             "next": null
           }
@@ -229,7 +229,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a ferengi transport is adrift near the klingon border, transmitting a general distress signal. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -240,7 +240,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Barclay",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Power distribution stable; auxiliary systems standing by.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Stabilize subspace channels and identify the cause of interference)",
@@ -261,7 +261,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Deploy navigation buoy (Stabilize subspace channels and identify the cause of interference)",
@@ -282,7 +282,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Establish tight-beam comms (Stabilize subspace channels and identify the cause of interference)",
@@ -304,7 +304,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the subspace anomalies are disrupting communications in the argolis cluster. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the subspace anomalies are disrupting communications in the Argolis cluster. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -315,7 +315,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Recalibrate sensors (Determine their intentions and secure the mining operations)",
@@ -336,7 +336,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Initiate tractor lock (Determine their intentions and secure the mining operations)",
@@ -357,7 +357,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Recalibrate sensors (Determine their intentions and secure the mining operations)",
@@ -378,7 +378,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Reroute through secondary relays (Determine their intentions and secure the mining operations)",
@@ -400,7 +400,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the unidentified vessels are operating near a federation mining outpost on beta aurigae iv. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the unidentified vessels are operating near a Federation mining outpost on Beta aurigae iv. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -411,7 +411,7 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Initiate tractor lock (Assist the Romulan vessel while maintaining Federation security protocols)",
@@ -432,7 +432,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Establish tight-beam comms (Assist the Romulan vessel while maintaining Federation security protocols)",
@@ -453,7 +453,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Initiate tractor lock (Assist the Romulan vessel while maintaining Federation security protocols)",
@@ -475,7 +475,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a damaged romulan scout ship has crossed into federation space. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a damaged Romulan scout ship has crossed into Federation space. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -486,7 +486,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Recalibrate sensors (Analyze the anomaly without crossing into restricted space)",
@@ -507,7 +507,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Initiate tractor lock (Analyze the anomaly without crossing into restricted space)",
@@ -528,7 +528,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Assemble an away team (Analyze the anomaly without crossing into restricted space)",
@@ -549,7 +549,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Recalibrate sensors (Analyze the anomaly without crossing into restricted space)",
@@ -570,7 +570,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Assemble an away team (Analyze the anomaly without crossing into restricted space)",
@@ -592,7 +592,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the sensor buoys have detected temporal fluctuations near the neutral zone. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the sensor buoys have detected temporal fluctuations near the neutral zone. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -603,7 +603,7 @@
     "dialogue_tree": [
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Assemble an away team (Coordinate evacuation and safeguard civilian transports)",
@@ -624,7 +624,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Initiate tractor lock (Coordinate evacuation and safeguard civilian transports)",
@@ -645,7 +645,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Coordinate evacuation and safeguard civilian transports)",
@@ -666,7 +666,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Reroute through secondary relays (Coordinate evacuation and safeguard civilian transports)",
@@ -687,7 +687,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Recalibrate sensors (Coordinate evacuation and safeguard civilian transports)",
@@ -709,7 +709,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the an ion storm threatens an evacuation effort on new france colony. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an ion storm threatens an evacuation effort on New France colony. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -720,7 +720,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Initiate tractor lock (Locate the Yosemite and recover her crew)",
@@ -741,7 +741,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Initiate tractor lock (Locate the Yosemite and recover her crew)",
@@ -762,7 +762,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Recalibrate sensors (Locate the Yosemite and recover her crew)",
@@ -783,7 +783,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Recalibrate sensors (Locate the Yosemite and recover her crew)",
@@ -805,7 +805,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the the uss yosemite has gone missing while studying a plasma filament. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the uss Yosemite has gone missing while studying a plasma filament. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -816,7 +816,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Launch a probe (Study the phenomenon and prevent border conflict)",
@@ -837,7 +837,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Establish tight-beam comms (Study the phenomenon and prevent border conflict)",
@@ -858,7 +858,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Launch a probe (Study the phenomenon and prevent border conflict)",
@@ -880,7 +880,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the reports indicate spatial rifts forming near the cardassian border. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the reports indicate spatial rifts forming near the Cardassian border. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -891,7 +891,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Establish tight-beam comms (Investigate the source while maintaining defensive readiness)",
@@ -912,7 +912,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Assemble an away team (Investigate the source while maintaining defensive readiness)",
@@ -933,7 +933,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Launch a probe (Investigate the source while maintaining defensive readiness)",
@@ -954,7 +954,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Deploy navigation buoy (Investigate the source while maintaining defensive readiness)",
@@ -976,7 +976,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the an unknown energy signature has been detected within the mutara sector. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an unknown energy signature has been detected within the Mutara sector. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -987,7 +987,7 @@
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1008,7 +1008,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1029,7 +1029,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Find the freighter and determine the cause of its silence)",
@@ -1050,7 +1050,7 @@
       },
       {
         "crew": "Lt. Barclay",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Power distribution stable; auxiliary systems standing by.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1071,7 +1071,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
@@ -1093,7 +1093,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a federation freighter has failed to report in from the vega corridor. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation freighter has failed to report in from the Vega corridor. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1104,7 +1104,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Initiate tractor lock (Conduct discreet scans and verify Romulan activity)",
@@ -1125,7 +1125,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Deploy navigation buoy (Conduct discreet scans and verify Romulan activity)",
@@ -1146,7 +1146,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Reroute through secondary relays (Conduct discreet scans and verify Romulan activity)",
@@ -1167,7 +1167,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Reroute through secondary relays (Conduct discreet scans and verify Romulan activity)",
@@ -1189,7 +1189,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the starfleet intelligence reports cloaked movement along the romulan frontier. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the Starfleet intelligence reports cloaked movement along the Romulan frontier. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1200,7 +1200,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Recalibrate sensors (Render aid and secure the area for medical response)",
@@ -1221,7 +1221,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Render aid and secure the area for medical response)",
@@ -1242,7 +1242,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Launch a probe (Render aid and secure the area for medical response)",
@@ -1264,7 +1264,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a civilian transport is broadcasting a medical emergency from the archanis sector. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a civilian transport is broadcasting a medical emergency from the archanis sector. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1275,7 +1275,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Initiate tractor lock (Recover the probe and analyze its malfunction)",
@@ -1296,7 +1296,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Launch a probe (Recover the probe and analyze its malfunction)",
@@ -1317,7 +1317,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Recalibrate sensors (Recover the probe and analyze its malfunction)",
@@ -1338,7 +1338,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Initiate tractor lock (Recover the probe and analyze its malfunction)",
@@ -1359,7 +1359,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Recover the probe and analyze its malfunction)",
@@ -1381,7 +1381,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a deep-space probe has begun transmitting erratic data near the tzenkethi border. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a deep-space probe has begun transmitting erratic data near the Tzenkethi border. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1392,7 +1392,7 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Assemble an away team (Prevent interference while protecting the population)",
@@ -1413,7 +1413,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Launch a probe (Prevent interference while protecting the population)",
@@ -1434,7 +1434,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Deploy navigation buoy (Prevent interference while protecting the population)",
@@ -1456,7 +1456,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the an uncharted comet is passing dangerously close to a pre-warp civilization on garros iii. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an uncharted comet is passing dangerously close to a pre-warp civilization on Garros iii. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1467,7 +1467,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Deploy navigation buoy (Reestablish communications and assess the cause)",
@@ -1488,7 +1488,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Deploy navigation buoy (Reestablish communications and assess the cause)",
@@ -1509,7 +1509,7 @@
       },
       {
         "crew": "Lt. Barclay",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Power distribution stable; auxiliary systems standing by.",
         "options": [
           {
             "label": "Reroute through secondary relays (Reestablish communications and assess the cause)",
@@ -1530,7 +1530,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Assemble an away team (Reestablish communications and assess the cause)",
@@ -1551,7 +1551,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Establish tight-beam comms (Reestablish communications and assess the cause)",
@@ -1573,7 +1573,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a federation listening post has gone silent near the breen frontier. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation listening post has gone silent near the Breen frontier. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1584,7 +1584,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Recalibrate sensors (Assist the convoy and guide them safely through the hazard)",
@@ -1605,7 +1605,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Initiate tractor lock (Assist the convoy and guide them safely through the hazard)",
@@ -1626,7 +1626,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Assist the convoy and guide them safely through the hazard)",
@@ -1647,7 +1647,7 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Establish tight-beam comms (Assist the convoy and guide them safely through the hazard)",
@@ -1668,7 +1668,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Assemble an away team (Assist the convoy and guide them safely through the hazard)",
@@ -1690,7 +1690,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a starfleet convoy en route to starbase 12 has encountered a navigational hazard. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Starfleet convoy en route to starbase 12 has encountered a navigational hazard. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1701,7 +1701,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Recalibrate sensors (Investigate the vessel and ensure it poses no threat)",
@@ -1722,7 +1722,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Deploy navigation buoy (Investigate the vessel and ensure it poses no threat)",
@@ -1743,7 +1743,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Divert auxiliary power (Investigate the vessel and ensure it poses no threat)",
@@ -1765,7 +1765,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the an alien derelict has been found drifting in federation space. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an alien derelict has been found drifting in Federation space. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1776,7 +1776,7 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Divert auxiliary power (Support the Bajoran authorities and identify the source of interference)",
@@ -1797,7 +1797,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Initiate tractor lock (Support the Bajoran authorities and identify the source of interference)",
@@ -1818,7 +1818,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Initiate tractor lock (Support the Bajoran authorities and identify the source of interference)",
@@ -1840,7 +1840,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the reports of hostile interference have been received from a bajoran outpost. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the reports of hostile interference have been received from a bajoran outpost. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1851,7 +1851,7 @@
     "dialogue_tree": [
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Assemble an away team (Locate and assist the medical ship)",
@@ -1872,7 +1872,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Assemble an away team (Locate and assist the medical ship)",
@@ -1893,7 +1893,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Establish tight-beam comms (Locate and assist the medical ship)",
@@ -1915,7 +1915,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a federation medical ship has gone off course in the betazed sector. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation medical ship has gone off course in the betazed sector. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -1926,7 +1926,7 @@
     "dialogue_tree": [
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Deploy navigation buoy (Offer aid under treaty conditions and remain vigilant)",
@@ -1947,7 +1947,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Initiate tractor lock (Offer aid under treaty conditions and remain vigilant)",
@@ -1968,7 +1968,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Recalibrate sensors (Offer aid under treaty conditions and remain vigilant)",
@@ -1989,7 +1989,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Reroute through secondary relays (Offer aid under treaty conditions and remain vigilant)",
@@ -2010,7 +2010,7 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
             "label": "Divert auxiliary power (Offer aid under treaty conditions and remain vigilant)",
@@ -2032,7 +2032,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a cardassian cargo vessel has requested emergency repairs near federation space. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Cardassian cargo vessel has requested emergency repairs near Federation space. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -2043,7 +2043,7 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Reroute through secondary relays (Survey the structure and collect data while keeping safe distance)",
@@ -2064,7 +2064,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Survey the structure and collect data while keeping safe distance)",
@@ -2085,7 +2085,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Initiate tractor lock (Survey the structure and collect data while keeping safe distance)",
@@ -2107,7 +2107,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the sensor readings indicate massive power fluctuations near a dyson sphere remnant. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the sensor readings indicate massive power fluctuations near a dyson sphere remnant. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -2118,7 +2118,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Initiate tractor lock (Repair the relays and restore Starfleet communications)",
@@ -2139,7 +2139,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Initiate tractor lock (Repair the relays and restore Starfleet communications)",
@@ -2160,7 +2160,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Broadcast Federation assistance protocol (Repair the relays and restore Starfleet communications)",
@@ -2181,7 +2181,7 @@
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
             "label": "Reroute through secondary relays (Repair the relays and restore Starfleet communications)",
@@ -2202,7 +2202,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Establish tight-beam comms (Repair the relays and restore Starfleet communications)",
@@ -2224,31 +2224,31 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a subspace relay network has gone offline across two sectors. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a subspace relay network has gone offline across two sectors. mission. full findings have been forwarded for review."
       }
     ]
   },
   {
     "id": "24",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A Federation ambassador has requested escort through a volatile region.",
-    "mission_description": "Ensure the ambassador\u2019s safety during passage.",
+    "mission_description": "Ensure the ambassador’s safety during passage.",
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Broadcast Federation assistance protocol (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Ensign Crusher: 'Protocol transmitted; awaiting acknowledgment.'",
             "next": 1
           },
           {
-            "label": "Initiate tractor lock (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Initiate tractor lock (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Divert auxiliary power (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Lt. Worf: 'Power rerouted; system response nominal.'",
             "next": 1
           }
@@ -2256,20 +2256,20 @@
       },
       {
         "crew": "Ensign Crusher",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Broadcast Federation assistance protocol (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Chief O'Brien: 'Protocol transmitted; awaiting acknowledgment.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Initiate tractor lock (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
             "next": 2
           },
           {
-            "label": "Reroute through secondary relays (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Reroute through secondary relays (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Lt. Commander Data: 'Traffic rerouted; throughput stabilized.'",
             "next": 2
           }
@@ -2277,20 +2277,20 @@
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Establish tight-beam comms (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Lt. Worf: 'Tight-beam established; signal clarity improved.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Assemble an away team (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Lt. Commander Data: 'Away team forming; awaiting final authorization.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Ensure the ambassador\u2019s safety during passage)",
+            "label": "Initiate tractor lock (Ensure the ambassador’s safety during passage)",
             "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
             "next": null
           }
@@ -2299,7 +2299,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the a federation ambassador has requested escort through a volatile region. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation ambassador has requested escort through a volatile region. mission. full findings have been forwarded for review."
       }
     ]
   },
@@ -2310,7 +2310,7 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Divert auxiliary power (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2331,7 +2331,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Divert auxiliary power (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2352,7 +2352,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Sensor calibration nominal, no anomalies present.",
         "options": [
           {
             "label": "Reroute through secondary relays (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2373,7 +2373,7 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Subsystems report optimal efficiency across all decks.",
         "options": [
           {
             "label": "Establish tight-beam comms (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2394,7 +2394,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Systems nominal, but variables remain under observation.",
+        "line": "Primary systems functioning at peak efficiency.",
         "options": [
           {
             "label": "Deploy navigation buoy (Assist in stabilizing the core and evacuate personnel if required)",
@@ -2416,7 +2416,7 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for its exemplary handling of the an experimental warp core test facility has reported critical instability. mission. Full findings have been forwarded for review."
+        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an experimental warp core test facility has reported critical instability. mission. full findings have been forwarded for review."
       }
     ]
   }
