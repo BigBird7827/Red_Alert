@@ -78,16 +78,27 @@ header, footer {
 .blue-btn { background-color: var(--blue); color: var(--gold); }
 
 #dialog-area {
+  position: relative;
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 20px 40px;
-  background: url('https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/LCARS%20Background.png') center center no-repeat;
-  background-size: cover;
+  background-color: rgba(0,0,0,0.7);
   overflow: hidden;
 }
+#dialog-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/LCARS%20Background.png') center center no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: 0;
+}
 #dialog-box {
+  position: relative;
+  z-index: 1;
   width: 100%;
   max-width: 1100px;
   color: var(--white);
@@ -166,7 +177,6 @@ button:hover {
 const JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
 let scenarios = []
 let current = 0
-
 const alertImages = {
   green: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif',
   yellow: 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif',
