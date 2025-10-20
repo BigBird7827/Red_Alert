@@ -1,136 +1,136 @@
 [
   {
-    "starfleet_message": "A distress call has been received from a Federation science station orbiting Epsilon IV.",
-    "mission_description": "Investigate the distress call and ensure the safety of the science team.",
-    "dialogue_tree": [
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the science station is not responding to hails.",
-        "options": [
-          {
-            "label": "Continue trying to hail Commander.",
-            "crew_reply": "Data: 'Aye, sir. Continuing to hail.'",
-            "next": 1
-          },
-          {
-            "label": "Scan for life sign, Mr. Data.",
-            "crew_reply": "Scans show no life signs sir.'",
-            "next": 1
-          },
-          {
-            "label": "Number One, Data, Worf, You're with me.",
-            "crew_reply": "Riker: 'Report to the transporter room.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Worf",
-        "line": "Captain, perimeter around Epsilon IV is clear.",
-        "options": [
-          {
-            "label": "Extend search grid over Epsilon IV",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
-            "next": 2
-          },
-          {
-            "label": "Maintain alert posture around Epsilon IV",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
-            "next": 2
-          },
-          {
-            "label": "Log security markers for Epsilon IV",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from Epsilon IV.",
-        "options": [
-          {
-            "label": "Balance EPS load for Epsilon IV",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
-            "next": 3
-          },
-          {
-            "label": "Run subsystem diagnostics at Epsilon IV",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
-            "next": 3
-          },
-          {
-            "label": "Open maintenance channel to Epsilon IV",
-            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Captain, operations at Epsilon IV are stable enough to proceed.",
-        "options": [
-          {
-            "label": "Commit operational plan for Epsilon IV",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
-            "next": null
-          },
-          {
-            "label": "Transmit interim report on Epsilon IV",
-            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
-            "next": null
-          },
-          {
-            "label": "Stand down to condition green at Epsilon IV",
-            "crew_reply": "Helm: 'Condition set to green.'",
-            "next": null
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "Mission at Epsilon IV Station completed successfully. Crew performance within parameters."
-      },
-      {
-        "result": "success",
-        "text": "All objectives at Epsilon IV Station achieved with minimal deviation."
-      },
-      {
-        "result": "success",
-        "text": "Stabilization efforts at Epsilon IV Station effective. Station integrity restored."
-      },
-      {
-        "result": "success",
-        "text": "Mission data from Epsilon IV Station transmitted to Starfleet Command."
-      },
-      {
-        "result": "success",
-        "text": "Operations at Epsilon IV Station concluded without incident."
-      },
-      {
-        "result": "failure",
-        "text": "Mission at Epsilon IV Station incomplete. Primary objective not met."
-      },
-      {
-        "result": "failure",
-        "text": "Operational errors encountered during Epsilon IV Station response."
-      },
-      {
-        "result": "failure",
-        "text": "Unstable conditions at Epsilon IV Station forced withdrawal."
-      },
-      {
-        "result": "failure",
-        "text": "Data from Epsilon IV Station only partially recovered."
-      },
-      {
-        "result": "failure",
-        "text": "Communication with Epsilon IV Station lost before completion."
-      }
-    ]
-  },
+  "starfleet_message": "A distress call has been received from a Federation science station orbiting Epsilon IV.",
+  "mission_description": "Investigate the distress call and ensure the safety of the science team.",
+  "dialogue_tree": [
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the science station is not responding to hails.",
+      "options": [
+        {
+          "label": "Continue trying to hail Commander",
+          "crew_reply": "Data: 'Aye sir. Continuing to hail the station.'",
+          "next": 1
+        },
+        {
+          "label": "Scan for life signs Mr. Data",
+          "crew_reply": "Data: 'Scans show no life signs sir.'",
+          "next": 1
+        },
+        {
+          "label": "On screen Mr. Data",
+          "crew_reply": "Data: 'The station is now on the main viewscreen.'",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Worf",
+      "line": "Captain, perimeter around Epsilon IV is clear.",
+      "options": [
+        {
+          "label": "Extend search grid over Epsilon IV",
+          "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+          "next": 2
+        },
+        {
+          "label": "Maintain alert posture around Epsilon IV",
+          "crew_reply": "Riker: 'Yellow alert maintained.'",
+          "next": 2
+        },
+        {
+          "label": "Log security markers for Epsilon IV",
+          "crew_reply": "Worf: 'Markers placed and tracked.'",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander La Forge",
+      "line": "Captain, power and systems checks returning data from Epsilon IV.",
+      "options": [
+        {
+          "label": "Balance EPS load for Epsilon IV",
+          "crew_reply": "La Forge: 'Load balanced across grids.'",
+          "next": 3
+        },
+        {
+          "label": "Run subsystem diagnostics at Epsilon IV",
+          "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+          "next": 3
+        },
+        {
+          "label": "Open maintenance channel to Epsilon IV",
+          "crew_reply": "O'Brien: 'Maintenance channel secured.'",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, operations at Epsilon IV are stable enough to proceed.",
+      "options": [
+        {
+          "label": "Commit operational plan for Epsilon IV",
+          "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+          "next": null
+        },
+        {
+          "label": "Transmit interim report on Epsilon IV",
+          "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
+          "next": null
+        },
+        {
+          "label": "Stand down to condition green at Epsilon IV",
+          "crew_reply": "Helm: 'Condition set to green.'",
+          "next": null
+        }
+      ]
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "Mission at Epsilon IV Station completed successfully. Crew performance within parameters."
+    },
+    {
+      "result": "success",
+      "text": "All objectives at Epsilon IV Station achieved with minimal deviation."
+    },
+    {
+      "result": "success",
+      "text": "Stabilization efforts at Epsilon IV Station effective. Station integrity restored."
+    },
+    {
+      "result": "success",
+      "text": "Mission data from Epsilon IV Station transmitted to Starfleet Command."
+    },
+    {
+      "result": "success",
+      "text": "Operations at Epsilon IV Station concluded without incident."
+    },
+    {
+      "result": "failure",
+      "text": "Mission at Epsilon IV Station incomplete. Primary objective not met."
+    },
+    {
+      "result": "failure",
+      "text": "Operational errors encountered during Epsilon IV Station response."
+    },
+    {
+      "result": "failure",
+      "text": "Unstable conditions at Epsilon IV Station forced withdrawal."
+    },
+    {
+      "result": "failure",
+      "text": "Data from Epsilon IV Station only partially recovered."
+    },
+    {
+      "result": "failure",
+      "text": "Communication with Epsilon IV Station lost before completion."
+    }
+  ]
+},
   {
     "starfleet_message": "To Captain Picard: Starfleet Command reports an unexplained energy field near the Argus Array.",
     "mission_description": "Examine the field and determine its effect on nearby systems.",
