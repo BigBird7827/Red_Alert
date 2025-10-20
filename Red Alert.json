@@ -5,84 +5,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected epsilon iv station activity.",
+        "line": "Captain, status link established to Epsilon IV.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Widen search grid over Epsilon IV",
+            "crew_reply": "Data: 'Grid expanded; coverage at 150%.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Boost emergency channel gain to reach Epsilon IV",
+            "crew_reply": "O'Brien: 'Gain increased; channel stable.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Lock transporter on Epsilon IV life‑sign clustering",
+            "crew_reply": "O'Brien: 'Pattern buffers primed.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Epsilon IV Station are inactive.",
+        "line": "Captain, perimeter around Epsilon IV is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Extend search grid over Epsilon IV",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Epsilon IV",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Epsilon IV",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Epsilon IV Station.",
+        "line": "Captain, power and systems checks returning data from Epsilon IV.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Epsilon IV",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Epsilon IV",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Epsilon IV",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Epsilon IV Station's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Epsilon IV are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Epsilon IV",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Epsilon IV",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Epsilon IV",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -137,84 +137,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected argus array activity.",
+        "line": "Captain, status link established to Argus Array.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Map energy field boundaries around Argus Array",
+            "crew_reply": "Data: 'Perimeter mapped; nodes identified.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Sample harmonic frequencies within Argus Array",
+            "crew_reply": "La Forge: 'Harmonic profile captured.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Recalibrate EPS sensors for Argus Array",
+            "crew_reply": "La Forge: 'Calibration complete; readings clean.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Argus Array are inactive.",
+        "line": "Captain, perimeter around Argus Array is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Confirm energy field boundaries around Argus Array",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Argus Array",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Argus Array",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Argus Array.",
+        "line": "Captain, power and systems checks returning data from Argus Array.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Argus Array",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Argus Array",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Argus Array",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Argus Array's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Argus Array are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Argus Array",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Argus Array",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Argus Array",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -269,84 +269,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected hekaras corridor activity.",
+        "line": "Captain, status link established to Hekaras Corridor.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Establish breadcrumb scan along Hekaras Corridor",
+            "crew_reply": "Data: 'Trace particles detected; path plotted.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Ping transponder frequencies registered to Hekaras Corridor",
+            "crew_reply": "O'Brien: 'No auto-reply; logging attempts.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Deploy navigation buoys to Hekaras Corridor corridor",
+            "crew_reply": "Helm: 'Buoys deployed on designated vectors.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Hekaras Corridor are inactive.",
+        "line": "Captain, perimeter around Hekaras Corridor is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Establish breadcrumb scan along Hekaras Corridor",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Hekaras Corridor",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Hekaras Corridor",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Hekaras Corridor.",
+        "line": "Captain, power and systems checks returning data from Hekaras Corridor.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Hekaras Corridor",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Hekaras Corridor",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Hekaras Corridor",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Hekaras Corridor's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Hekaras Corridor are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Hekaras Corridor",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Hekaras Corridor",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Hekaras Corridor",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -401,84 +401,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected neutral zone perimeter activity.",
+        "line": "Captain, status link established to Neutral Zone.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Execute passive scan at Neutral Zone",
+            "crew_reply": "Data: 'Passive sweep complete; no emissions detected.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Hold distance per treaty zone near Neutral Zone",
+            "crew_reply": "Helm: 'Range preserved within limits.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Mask active emissions during Neutral Zone survey",
+            "crew_reply": "La Forge: 'Emissions reduced below threshold.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Neutral Zone Perimeter are inactive.",
+        "line": "Captain, perimeter around Neutral Zone is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Execute passive scan at Neutral Zone",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Neutral Zone",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Neutral Zone",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Neutral Zone Perimeter.",
+        "line": "Captain, power and systems checks returning data from Neutral Zone.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Neutral Zone",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Neutral Zone",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Neutral Zone",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Neutral Zone Perimeter's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Neutral Zone are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Neutral Zone",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Neutral Zone",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Neutral Zone",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -533,84 +533,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected outpost 42 activity.",
+        "line": "Captain, status link established to Outpost 42.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Sweep subspace bands for phase drift at Outpost 42",
+            "crew_reply": "Data: 'Phase variance isolated.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Realign comm array to Outpost 42 beacon",
+            "crew_reply": "O'Brien: 'Array locked; signal stabilized.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Queue redundancy packets through Outpost 42",
+            "crew_reply": "O'Brien: 'Redundant path operational.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Outpost 42 are inactive.",
+        "line": "Captain, perimeter around Outpost 42 is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Sweep subspace bands for phase drift at Outpost 42",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Outpost 42",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Outpost 42",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Outpost 42.",
+        "line": "Captain, power and systems checks returning data from Outpost 42.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Outpost 42",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Outpost 42",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Outpost 42",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Outpost 42's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Outpost 42 are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Outpost 42",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Outpost 42",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Outpost 42",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -665,84 +665,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected sector 12 convoy activity.",
+        "line": "Captain, status link established to ensure convoy safety..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Project collision avoidance vectors for ensure convoy safety.",
+            "crew_reply": "Helm: 'Vectors uploaded to convoy.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Broadcast navigational advisory to ensure convoy safety.",
+            "crew_reply": "O'Brien: 'Advisory transmitted on all bands.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Calculate debris trajectory dispersion near ensure convoy safety.",
+            "crew_reply": "Data: 'Dispersion model distributed.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Sector 12 Convoy are inactive.",
+        "line": "Captain, perimeter around ensure convoy safety. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Project collision avoidance vectors for ensure convoy safety.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around ensure convoy safety.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for ensure convoy safety.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Sector 12 Convoy.",
+        "line": "Captain, power and systems checks returning data from ensure convoy safety..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for ensure convoy safety.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at ensure convoy safety.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to ensure convoy safety.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Sector 12 Convoy's condition is deteriorating rapidly.",
+        "line": "Captain, operations at ensure convoy safety. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for ensure convoy safety.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on ensure convoy safety.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at ensure convoy safety.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -797,84 +797,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected theta antilles anomaly activity.",
+        "line": "Captain, status link established to disturbing the anomaly..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Time-stamp sensor frames near disturbing the anomaly.",
+            "crew_reply": "Data: 'Frames timestamped to femtosecond precision.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Isolate chroniton signatures within disturbing the anomaly.",
+            "crew_reply": "La Forge: 'Chroniton traces cataloged.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Buffer logs against paradox drift at disturbing the anomaly.",
+            "crew_reply": "Data: 'Causality buffer active.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Theta Antilles Anomaly are inactive.",
+        "line": "Captain, perimeter around disturbing the anomaly. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Time-stamp sensor frames near disturbing the anomaly.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around disturbing the anomaly.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for disturbing the anomaly.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Theta Antilles Anomaly.",
+        "line": "Captain, power and systems checks returning data from disturbing the anomaly..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for disturbing the anomaly.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at disturbing the anomaly.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to disturbing the anomaly.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Theta Antilles Anomaly's condition is deteriorating rapidly.",
+        "line": "Captain, operations at disturbing the anomaly. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for disturbing the anomaly.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on disturbing the anomaly.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at disturbing the anomaly.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -929,84 +929,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected vega ix colony activity.",
+        "line": "Captain, status link established to in mitigation procedures..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Sample atmospheric particulates above in mitigation procedures.",
+            "crew_reply": "Data: 'Samples collected and sequenced.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Deploy orbital scrubbers over in mitigation procedures.",
+            "crew_reply": "La Forge: 'Scrubbers online; counts falling.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Model wind‑shear vectors impacting in mitigation procedures.",
+            "crew_reply": "Data: 'Model compiled; guidance uploaded.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Vega IX Colony are inactive.",
+        "line": "Captain, perimeter around in mitigation procedures. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Sample atmospheric particulates above in mitigation procedures.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around in mitigation procedures.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for in mitigation procedures.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Vega IX Colony.",
+        "line": "Captain, power and systems checks returning data from in mitigation procedures..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for in mitigation procedures.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at in mitigation procedures.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to in mitigation procedures.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Vega IX Colony's condition is deteriorating rapidly.",
+        "line": "Captain, operations at in mitigation procedures. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for in mitigation procedures.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on in mitigation procedures.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at in mitigation procedures.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1061,84 +1061,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected uss fleming activity.",
+        "line": "Captain, status link established to USS Fleming.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Establish breadcrumb scan along USS Fleming",
+            "crew_reply": "Data: 'Trace particles detected; path plotted.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Ping transponder frequencies registered to USS Fleming",
+            "crew_reply": "O'Brien: 'No auto-reply; logging attempts.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Deploy navigation buoys to USS Fleming corridor",
+            "crew_reply": "Helm: 'Buoys deployed on designated vectors.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on USS Fleming are inactive.",
+        "line": "Captain, perimeter around USS Fleming is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Establish breadcrumb scan along USS Fleming",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around USS Fleming",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for USS Fleming",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around USS Fleming.",
+        "line": "Captain, power and systems checks returning data from USS Fleming.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for USS Fleming",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at USS Fleming",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to USS Fleming",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, USS Fleming's condition is deteriorating rapidly.",
+        "line": "Captain, operations at USS Fleming are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for USS Fleming",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on USS Fleming",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at USS Fleming",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1193,84 +1193,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected deep space station k-7 activity.",
+        "line": "Captain, status link established to Deep Space Station K-7.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Graph reactor output curve on Deep Space Station K-7",
+            "crew_reply": "La Forge: 'Curve plotted; spike at 14%.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Purge plasma conduits feeding Deep Space Station K-7",
+            "crew_reply": "La Forge: 'Conduits vented; flow stabilized.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Engage backup coolant pumps at Deep Space Station K-7",
+            "crew_reply": "La Forge: 'Pumps online; temps dropping.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Deep Space Station K-7 are inactive.",
+        "line": "Captain, perimeter around Deep Space Station K-7 is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Graph reactor output curve on Deep Space Station K-7",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Deep Space Station K-7",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Deep Space Station K-7",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Deep Space Station K-7.",
+        "line": "Captain, power and systems checks returning data from Deep Space Station K-7.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Deep Space Station K-7",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Deep Space Station K-7",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Deep Space Station K-7",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Deep Space Station K-7's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Deep Space Station K-7 are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Deep Space Station K-7",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Deep Space Station K-7",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Deep Space Station K-7",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1325,84 +1325,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected bassen rift activity.",
+        "line": "Captain, status link established to Bassen Rift.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Triangulate signal source within Bassen Rift",
+            "crew_reply": "Data: 'Fix obtained; coordinates marked.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Deconvolve noise profile from Bassen Rift",
+            "crew_reply": "La Forge: 'Signal-to-noise improved by 40%.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Record narrow‑band sample of Bassen Rift",
+            "crew_reply": "Data: 'Sample stored for analysis.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Bassen Rift are inactive.",
+        "line": "Captain, perimeter around Bassen Rift is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Triangulate signal source within Bassen Rift",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Bassen Rift",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Bassen Rift",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Bassen Rift.",
+        "line": "Captain, power and systems checks returning data from Bassen Rift.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Bassen Rift",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Bassen Rift",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Bassen Rift",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Bassen Rift's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Bassen Rift are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Bassen Rift",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Bassen Rift",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Bassen Rift",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1457,84 +1457,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected uss yosemite activity.",
+        "line": "Captain, status link established to USS Yosemite.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Backtrack last known vector for USS Yosemite",
+            "crew_reply": "Data: 'Vector reconstructed.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Query navigational beacons along USS Yosemite",
+            "crew_reply": "O'Brien: 'Beacon logs retrieved.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Sweep for residual warp plasma near USS Yosemite",
+            "crew_reply": "La Forge: 'Residual trail detected.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on USS Yosemite are inactive.",
+        "line": "Captain, perimeter around USS Yosemite is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Expand last known vector for USS Yosemite",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around USS Yosemite",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for USS Yosemite",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around USS Yosemite.",
+        "line": "Captain, power and systems checks returning data from USS Yosemite.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for USS Yosemite",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at USS Yosemite",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to USS Yosemite",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, USS Yosemite's condition is deteriorating rapidly.",
+        "line": "Captain, operations at USS Yosemite are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for USS Yosemite",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on USS Yosemite",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at USS Yosemite",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1589,84 +1589,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected cardassian vessel activity.",
+        "line": "Captain, status link established to Cardassian Vessel.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Widen search grid over Cardassian Vessel",
+            "crew_reply": "Data: 'Grid expanded; coverage at 150%.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Boost emergency channel gain to reach Cardassian Vessel",
+            "crew_reply": "O'Brien: 'Gain increased; channel stable.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Lock transporter on Cardassian Vessel life‑sign clustering",
+            "crew_reply": "O'Brien: 'Pattern buffers primed.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Cardassian Vessel are inactive.",
+        "line": "Captain, perimeter around Cardassian Vessel is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Extend search grid over Cardassian Vessel",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Cardassian Vessel",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Cardassian Vessel",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Cardassian Vessel.",
+        "line": "Captain, power and systems checks returning data from Cardassian Vessel.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Cardassian Vessel",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Cardassian Vessel",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Cardassian Vessel",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Cardassian Vessel's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Cardassian Vessel are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Cardassian Vessel",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Cardassian Vessel",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Cardassian Vessel",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1721,84 +1721,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected telara prime activity.",
+        "line": "Captain, status link established to Telara Prime.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Audit terraforming subroutines on Telara Prime",
+            "crew_reply": "Data: 'Fault detected in regulator loop.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Restart atmospheric processors at Telara Prime",
+            "crew_reply": "La Forge: 'Processors rebooted.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Calibrate sensor nets for Telara Prime surface",
+            "crew_reply": "Data: 'Surface grid recalibrated.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Telara Prime are inactive.",
+        "line": "Captain, perimeter around Telara Prime is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Audit terraforming subroutines on Telara Prime",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Telara Prime",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Telara Prime",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Telara Prime.",
+        "line": "Captain, power and systems checks returning data from Telara Prime.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Telara Prime",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Telara Prime",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Telara Prime",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Telara Prime's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Telara Prime are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Telara Prime",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Telara Prime",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Telara Prime",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1853,84 +1853,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected beta-12 mining station activity.",
+        "line": "Captain, status link established to evacuation if required..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Place seismometer buoys around evacuation if required.",
+            "crew_reply": "Helm: 'Buoys deployed on grid.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Run deep-structure scan beneath evacuation if required.",
+            "crew_reply": "Data: 'Fault lines mapped.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Simulate evacuation routes from evacuation if required.",
+            "crew_reply": "Riker: 'Routes planned and distributed.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Beta-12 Mining Station are inactive.",
+        "line": "Captain, perimeter around evacuation if required. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Place seismometer buoys around evacuation if required.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around evacuation if required.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for evacuation if required.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Beta-12 Mining Station.",
+        "line": "Captain, power and systems checks returning data from evacuation if required..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for evacuation if required.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at evacuation if required.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to evacuation if required.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Beta-12 Mining Station's condition is deteriorating rapidly.",
+        "line": "Captain, operations at evacuation if required. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for evacuation if required.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on evacuation if required.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at evacuation if required.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -1985,84 +1985,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected tau ceti v outpost activity.",
+        "line": "Captain, status link established to or security breach..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Poll instrument racks at or security breach.",
+            "crew_reply": "La Forge: 'Rack status collected.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Reimage sensor pallets for or security breach.",
+            "crew_reply": "Data: 'Pallets reimaged.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Sync experiment logs from or security breach.",
+            "crew_reply": "O'Brien: 'Logs synchronized.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Tau Ceti V Outpost are inactive.",
+        "line": "Captain, perimeter around or security breach. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Poll instrument racks at or security breach.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around or security breach.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for or security breach.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Tau Ceti V Outpost.",
+        "line": "Captain, power and systems checks returning data from or security breach..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for or security breach.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at or security breach.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to or security breach.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Tau Ceti V Outpost's condition is deteriorating rapidly.",
+        "line": "Captain, operations at or security breach. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for or security breach.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on or security breach.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at or security breach.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -2117,84 +2117,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected derelict vessel activity.",
+        "line": "Captain, status link established to Derelict Vessel.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Scan for active containment on Derelict Vessel",
+            "crew_reply": "Data: 'Containment inactive.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Map internal topology of Derelict Vessel",
+            "crew_reply": "Data: 'Deck plan reconstructed.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Flag hazardous tech signatures on Derelict Vessel",
+            "crew_reply": "Worf: 'Hazards marked for avoidance.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Derelict Vessel are inactive.",
+        "line": "Captain, perimeter around Derelict Vessel is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Scan for active containment on Derelict Vessel",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Derelict Vessel",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Derelict Vessel",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Derelict Vessel.",
+        "line": "Captain, power and systems checks returning data from Derelict Vessel.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Derelict Vessel",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Derelict Vessel",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Derelict Vessel",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Derelict Vessel's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Derelict Vessel are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Derelict Vessel",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Derelict Vessel",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Derelict Vessel",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -2249,84 +2249,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected runabout mission activity.",
+        "line": "Captain, status link established to shuttle and occupants..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Interrogate transponder on shuttle and occupants.",
+            "crew_reply": "O'Brien: 'Transponder weak but readable.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Compute power budget drift for shuttle and occupants.",
+            "crew_reply": "La Forge: 'Power curve suggests detour.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Project safe intercept for shuttle and occupants.",
+            "crew_reply": "Helm: 'Intercept plotted.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Runabout Mission are inactive.",
+        "line": "Captain, perimeter around shuttle and occupants. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Interrogate transponder on shuttle and occupants.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around shuttle and occupants.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for shuttle and occupants.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Runabout Mission.",
+        "line": "Captain, power and systems checks returning data from shuttle and occupants..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for shuttle and occupants.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at shuttle and occupants.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to shuttle and occupants.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Runabout Mission's condition is deteriorating rapidly.",
+        "line": "Captain, operations at shuttle and occupants. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for shuttle and occupants.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on shuttle and occupants.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at shuttle and occupants.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -2381,84 +2381,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected romulan border sector activity.",
+        "line": "Captain, status link established to violations are occurring..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Sweep for cloaking harmonics near violations are occurring.",
+            "crew_reply": "Data: 'No cloak harmonics detected.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Erect tachyon detection grid at violations are occurring.",
+            "crew_reply": "Riker: 'Grid configured.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Record emission spikes around violations are occurring.",
+            "crew_reply": "Data: 'Spikes logged with timestamps.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Romulan Border Sector are inactive.",
+        "line": "Captain, perimeter around violations are occurring. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Sweep for cloaking harmonics near violations are occurring.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around violations are occurring.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for violations are occurring.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Romulan Border Sector.",
+        "line": "Captain, power and systems checks returning data from violations are occurring..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for violations are occurring.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at violations are occurring.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to violations are occurring.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Romulan Border Sector's condition is deteriorating rapidly.",
+        "line": "Captain, operations at violations are occurring. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for violations are occurring.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on violations are occurring.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at violations are occurring.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -2513,84 +2513,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected ambassadorial escort activity.",
+        "line": "Captain, status link established to for external interference..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Establish breadcrumb scan along for external interference.",
+            "crew_reply": "Data: 'Trace particles detected; path plotted.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Ping transponder frequencies registered to for external interference.",
+            "crew_reply": "O'Brien: 'No auto-reply; logging attempts.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Deploy navigation buoys to for external interference. corridor",
+            "crew_reply": "Helm: 'Buoys deployed on designated vectors.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Ambassadorial Escort are inactive.",
+        "line": "Captain, perimeter around for external interference. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Establish breadcrumb scan along for external interference.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around for external interference.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for for external interference.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Ambassadorial Escort.",
+        "line": "Captain, power and systems checks returning data from for external interference..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for for external interference.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at for external interference.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to for external interference.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Ambassadorial Escort's condition is deteriorating rapidly.",
+        "line": "Captain, operations at for external interference. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for for external interference.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on for external interference.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at for external interference.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -2645,84 +2645,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected relay network activity.",
+        "line": "Captain, status link established to restore communications stability..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Sweep subspace bands for phase drift at restore communications stability.",
+            "crew_reply": "Data: 'Phase variance isolated.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Realign comm array to restore communications stability. beacon",
+            "crew_reply": "O'Brien: 'Array locked; signal stabilized.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Queue redundancy packets through restore communications stability.",
+            "crew_reply": "O'Brien: 'Redundant path operational.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Relay Network are inactive.",
+        "line": "Captain, perimeter around restore communications stability. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Sweep subspace bands for phase drift at restore communications stability.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around restore communications stability.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for restore communications stability.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Relay Network.",
+        "line": "Captain, power and systems checks returning data from restore communications stability..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for restore communications stability.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at restore communications stability.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to restore communications stability.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Relay Network's condition is deteriorating rapidly.",
+        "line": "Captain, operations at restore communications stability. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for restore communications stability.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on restore communications stability.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at restore communications stability.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -2777,84 +2777,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected benzar transport activity.",
+        "line": "Captain, status link established to sabotage or theft..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Establish breadcrumb scan along sabotage or theft.",
+            "crew_reply": "Data: 'Trace particles detected; path plotted.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Ping transponder frequencies registered to sabotage or theft.",
+            "crew_reply": "O'Brien: 'No auto-reply; logging attempts.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Deploy navigation buoys to sabotage or theft. corridor",
+            "crew_reply": "Helm: 'Buoys deployed on designated vectors.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Benzar Transport are inactive.",
+        "line": "Captain, perimeter around sabotage or theft. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Establish breadcrumb scan along sabotage or theft.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around sabotage or theft.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for sabotage or theft.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Benzar Transport.",
+        "line": "Captain, power and systems checks returning data from sabotage or theft..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for sabotage or theft.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at sabotage or theft.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to sabotage or theft.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Benzar Transport's condition is deteriorating rapidly.",
+        "line": "Captain, operations at sabotage or theft. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for sabotage or theft.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on sabotage or theft.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at sabotage or theft.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -2909,84 +2909,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected starbase 324 activity.",
+        "line": "Captain, status link established to Starbase 324.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Model ion load across Starbase 324",
+            "crew_reply": "La Forge: 'Load projections prepared.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Distribute shielded power loops at Starbase 324",
+            "crew_reply": "La Forge: 'Loops balanced for surge.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Stage emergency crews for Starbase 324",
+            "crew_reply": "Riker: 'Crews positioned and ready.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Starbase 324 are inactive.",
+        "line": "Captain, perimeter around Starbase 324 is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Model ion load across Starbase 324",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around Starbase 324",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for Starbase 324",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Starbase 324.",
+        "line": "Captain, power and systems checks returning data from Starbase 324.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for Starbase 324",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at Starbase 324",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to Starbase 324",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Starbase 324's condition is deteriorating rapidly.",
+        "line": "Captain, operations at Starbase 324 are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for Starbase 324",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on Starbase 324",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at Starbase 324",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -3041,84 +3041,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected badlands region activity.",
+        "line": "Captain, status link established to for continued study..",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Capture turbulence frames in for continued study.",
+            "crew_reply": "Data: 'Frames captured at high resolution.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Harden sensor baffles for for continued study.",
+            "crew_reply": "La Forge: 'Baffles configured.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Plot safe corridors through for continued study.",
+            "crew_reply": "Helm: 'Corridors charted.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on Badlands Region are inactive.",
+        "line": "Captain, perimeter around for continued study. is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Capture turbulence frames in for continued study.",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around for continued study.",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for for continued study.",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around Badlands Region.",
+        "line": "Captain, power and systems checks returning data from for continued study..",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for for continued study.",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at for continued study.",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to for continued study.",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, Badlands Region's condition is deteriorating rapidly.",
+        "line": "Captain, operations at for continued study. are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for for continued study.",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on for continued study.",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at for continued study.",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
@@ -3173,84 +3173,84 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, long-range sensors have detected uss tsiolkovsky activity.",
+        "line": "Captain, status link established to USS Tsiolkovsky.",
         "options": [
           {
-            "label": "Analyze transmission source",
-            "crew_reply": "Data: 'Signal origin verified and cataloged.'",
+            "label": "Sample atmospheric particulates above USS Tsiolkovsky",
+            "crew_reply": "Data: 'Samples collected and sequenced.'",
             "next": 1
           },
           {
-            "label": "Attempt initial contact",
-            "crew_reply": "O'Brien: 'No response, Captain.'",
+            "label": "Deploy orbital scrubbers over USS Tsiolkovsky",
+            "crew_reply": "La Forge: 'Scrubbers online; counts falling.'",
             "next": 1
           },
           {
-            "label": "Plot intercept course",
-            "crew_reply": "Helm: 'Course laid in and engaged.'",
+            "label": "Model wind‑shear vectors impacting USS Tsiolkovsky",
+            "crew_reply": "Data: 'Model compiled; guidance uploaded.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Captain, defensive systems on USS Tsiolkovsky are inactive.",
+        "line": "Captain, perimeter around USS Tsiolkovsky is clear.",
         "options": [
           {
-            "label": "Maintain yellow alert",
-            "crew_reply": "Riker: 'All departments standing by.'",
+            "label": "Sample atmospheric particulates above USS Tsiolkovsky",
+            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
             "next": 2
           },
           {
-            "label": "Scan for life signs",
-            "crew_reply": "Data: 'Detecting multiple humanoid signatures.'",
+            "label": "Maintain alert posture around USS Tsiolkovsky",
+            "crew_reply": "Riker: 'Yellow alert maintained.'",
             "next": 2
           },
           {
-            "label": "Hold position",
-            "crew_reply": "Helm: 'Holding at current coordinates.'",
+            "label": "Log security markers for USS Tsiolkovsky",
+            "crew_reply": "Worf: 'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, energy fluctuations detected around USS Tsiolkovsky.",
+        "line": "Captain, power and systems checks returning data from USS Tsiolkovsky.",
         "options": [
           {
-            "label": "Run diagnostic sweep",
-            "crew_reply": "La Forge: 'Diagnostics complete. Systems showing instability.'",
+            "label": "Balance EPS load for USS Tsiolkovsky",
+            "crew_reply": "La Forge: 'Load balanced across grids.'",
             "next": 3
           },
           {
-            "label": "Initiate containment field",
-            "crew_reply": "La Forge: 'Containment field active. Levels stabilizing.'",
+            "label": "Run subsystem diagnostics at USS Tsiolkovsky",
+            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
-            "label": "Transfer auxiliary power",
-            "crew_reply": "La Forge: 'Power rerouted successfully.'",
+            "label": "Open maintenance channel to USS Tsiolkovsky",
+            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, USS Tsiolkovsky's condition is deteriorating rapidly.",
+        "line": "Captain, operations at USS Tsiolkovsky are stable enough to proceed.",
         "options": [
           {
-            "label": "Engage tractor beam",
-            "crew_reply": "Worf: 'Tractor beam locked. Object stabilized.'",
+            "label": "Commit operational plan for USS Tsiolkovsky",
+            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
             "next": null
           },
           {
-            "label": "Dispatch repair team",
-            "crew_reply": "Riker: 'Engineering team ready for transport.'",
+            "label": "Transmit interim report on USS Tsiolkovsky",
+            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
             "next": null
           },
           {
-            "label": "Report to Starfleet Command",
-            "crew_reply": "O'Brien: 'Transmission sent and acknowledged.'",
+            "label": "Stand down to condition green at USS Tsiolkovsky",
+            "crew_reply": "Helm: 'Condition set to green.'",
             "next": null
           }
         ]
