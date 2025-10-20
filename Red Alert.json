@@ -1,25 +1,25 @@
 [
   {
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: A distress call has been received from a Federation science station orbiting Epsilon IV.",
+    "starfleet_message": "A distress call has been received from a Federation science station orbiting Epsilon IV.",
     "mission_description": "Investigate the distress call and ensure the safety of the science team.",
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to Epsilon IV.",
+        "line": "Captain, the science station is not responding to hails.",
         "options": [
           {
-            "label": "Widen search grid over Epsilon IV",
-            "crew_reply": "Data: 'Grid expanded; coverage at 150%.'",
+            "label": "Continue trying to hail Commander.",
+            "crew_reply": "Data: 'Aye, sir. Continuing to hail.'",
             "next": 1
           },
           {
-            "label": "Boost emergency channel gain to reach Epsilon IV",
-            "crew_reply": "O'Brien: 'Gain increased; channel stable.'",
+            "label": "Scan for life sign, Mr. Data.",
+            "crew_reply": "Scans show no life signs sir.'",
             "next": 1
           },
           {
-            "label": "Lock transporter on Epsilon IV life‑sign clustering",
-            "crew_reply": "O'Brien: 'Pattern buffers primed.'",
+            "label": "Number One, Data, Worf, You're with me.",
+            "crew_reply": "Riker: 'Report to the transporter room.'",
             "next": 1
           }
         ]
