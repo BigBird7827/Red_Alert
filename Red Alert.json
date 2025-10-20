@@ -1,227 +1,67 @@
 [
   {
-    "id": "1",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A distress call has been received from a Federation science station orbiting Epsilon IV.",
     "mission_description": "Investigate the distress call and ensure the safety of the science team.",
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: A distress call has been received from a Federation science station orbiting Epsilon IV. Shall we proceed to investigate the distress call and ensure the safety of the science team.?",
         "options": [
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Barclay",
-        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
-        "options": [
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 3
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 3
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with investigate the distress call and ensure the safety of the science team..",
         "options": [
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 4
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 4
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": null
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": null
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": null
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a distress call has been received from a Federation science station orbiting Epsilon iv. mission. full findings have been forwarded for review."
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
-    "mission_description": "Assess the transport’s situation and avoid provoking Klingon forces.",
-    "dialogue_tree": [
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 1
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 1
-          },
-          {
-            "label": "Open tight‑beam channel to Transport",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
             "next": 2
           },
           {
-            "label": "Engage tractor beam on Transport",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
             "next": 2
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 3
-          },
-          {
-            "label": "Open tight‑beam channel to Transport",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 4
-          },
-          {
-            "label": "Engage tractor beam on Transport",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 4
-          },
-          {
-            "label": "Open tight‑beam channel to Transport",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -229,74 +69,201 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "3",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal.",
+    "mission_description": "Assess the transport\u2019s situation and avoid provoking Klingon forces.",
+    "dialogue_tree": [
+      {
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. Shall we proceed to assess the transport\u2019s situation and avoid provoking klingon forces.?",
+        "options": [
+          {
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
+          },
+          {
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
+          },
+          {
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assess the transport\u2019s situation and avoid provoking klingon forces..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "next": null
+          },
+          {
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "next": null
+          },
+          {
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "next": null
+          }
+        ]
+      }
+    ],
+    "debriefs": [
+      {
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
+      }
+    ]
+  },
+  {
     "starfleet_message": "To Captain Picard, USS Enterprise-D: Subspace anomalies are disrupting communications in the Argolis Cluster.",
     "mission_description": "Stabilize subspace channels and identify the cause of interference.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Barclay",
-        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: Subspace anomalies are disrupting communications in the Argolis Cluster. Shall we proceed to stabilize subspace channels and identify the cause of interference.?",
         "options": [
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with stabilize subspace channels and identify the cause of interference..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 2
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -304,95 +271,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the subspace anomalies are disrupting communications in the Argolis cluster. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "4",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV.",
     "mission_description": "Determine their intentions and secure the mining operations.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV. Shall we proceed to determine their intentions and secure the mining operations.?",
         "options": [
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with determine their intentions and secure the mining operations..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
-          },
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -400,74 +372,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the unidentified vessels are operating near a Federation mining outpost on Beta aurigae iv. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "5",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A damaged Romulan scout ship has crossed into Federation space.",
     "mission_description": "Assist the Romulan vessel while maintaining Federation security protocols.",
     "dialogue_tree": [
       {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: A damaged Romulan scout ship has crossed into Federation space. Shall we proceed to assist the romulan vessel while maintaining federation security protocols.?",
         "options": [
           {
-            "label": "Engage tractor beam on Vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to Vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Engage tractor beam on Vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assist the romulan vessel while maintaining federation security protocols..",
         "options": [
           {
-            "label": "Engage tractor beam on Vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -475,116 +473,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a damaged Romulan scout ship has crossed into Federation space. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "6",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: Sensor buoys have detected temporal fluctuations near the Neutral Zone.",
     "mission_description": "Analyze the anomaly without crossing into restricted space.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: Sensor buoys have detected temporal fluctuations near the Neutral Zone. Shall we proceed to analyze the anomaly without crossing into restricted space.?",
         "options": [
           {
-            "label": "Recalibrate sensors to subspace harmonics",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Engage tractor beam on Anomaly",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with analyze the anomaly without crossing into restricted space..",
         "options": [
           {
-            "label": "Engage tractor beam on Anomaly",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
             "next": 2
           },
           {
-            "label": "Launch Class‑IV probe to analyze anomaly",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
             "next": 2
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 3
-          },
-          {
-            "label": "Engage tractor beam on Anomaly",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 3
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Recalibrate sensors to subspace harmonics",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 4
-          },
-          {
-            "label": "Open tight‑beam channel to Anomaly",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          },
-          {
-            "label": "Divert auxiliary power to sensor grid",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Launch Class‑IV probe to analyze anomaly",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on Anomaly",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -592,116 +574,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the sensor buoys have detected temporal fluctuations near the neutral zone. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "7",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: An ion storm threatens an evacuation effort on New France Colony.",
     "mission_description": "Coordinate evacuation and safeguard civilian transports.",
     "dialogue_tree": [
       {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: An ion storm threatens an evacuation effort on New France Colony. Shall we proceed to coordinate evacuation and safeguard civilian transports.?",
         "options": [
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with coordinate evacuation and safeguard civilian transports..",
         "options": [
           {
-            "label": "Engage tractor beam on Transport",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
             "next": 2
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
             "next": 2
           },
           {
-            "label": "Open tight‑beam channel to Transport",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 3
-          },
-          {
-            "label": "Engage tractor beam on Transport",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 4
-          },
-          {
-            "label": "Engage tractor beam on Transport",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 4
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -709,170 +675,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an ion storm threatens an evacuation effort on New France colony. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "8",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: The USS Yosemite has gone missing while studying a plasma filament.",
     "mission_description": "Locate the Yosemite and recover her crew.",
     "dialogue_tree": [
       {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Engage tractor beam on Yosemite",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 1
-          },
-          {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 1
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 1
-          }
-        ]
-      },
-      {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: The USS Yosemite has gone missing while studying a plasma filament. Shall we proceed to locate the yosemite and recover her crew.?",
         "options": [
           {
-            "label": "Engage tractor beam on Yosemite",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Open tight‑beam channel to Yosemite",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": null
-          },
-          {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": null
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": null
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the uss Yosemite has gone missing while studying a plasma filament. mission. full findings have been forwarded for review."
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: Reports indicate spatial rifts forming near the Cardassian border.",
-    "mission_description": "Study the phenomenon and prevent border conflict.",
-    "dialogue_tree": [
-      {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with locate the yosemite and recover her crew..",
         "options": [
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -880,95 +776,201 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the reports indicate spatial rifts forming near the Cardassian border. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "10",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: Reports indicate spatial rifts forming near the Cardassian border.",
+    "mission_description": "Study the phenomenon and prevent border conflict.",
+    "dialogue_tree": [
+      {
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: Reports indicate spatial rifts forming near the Cardassian border. Shall we proceed to study the phenomenon and prevent border conflict.?",
+        "options": [
+          {
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
+          },
+          {
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
+          },
+          {
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with study the phenomenon and prevent border conflict..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "next": null
+          },
+          {
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "next": null
+          },
+          {
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "next": null
+          }
+        ]
+      }
+    ],
+    "debriefs": [
+      {
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
+      }
+    ]
+  },
+  {
     "starfleet_message": "To Captain Picard, USS Enterprise-D: An unknown energy signature has been detected within the Mutara Sector.",
     "mission_description": "Investigate the source while maintaining defensive readiness.",
     "dialogue_tree": [
       {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 1
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 1
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 2
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
-          }
-        ]
-      },
-      {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: An unknown energy signature has been detected within the Mutara Sector. Shall we proceed to investigate the source while maintaining defensive readiness.?",
         "options": [
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 3
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 3
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 3
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
           }
         ]
       },
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with investigate the source while maintaining defensive readiness..",
         "options": [
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -976,116 +978,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an unknown energy signature has been detected within the Mutara sector. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "11",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A Federation freighter has failed to report in from the Vega Corridor.",
     "mission_description": "Find the freighter and determine the cause of its silence.",
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: A Federation freighter has failed to report in from the Vega Corridor. Shall we proceed to find the freighter and determine the cause of its silence.?",
         "options": [
           {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Open tight‑beam channel to Freighter",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with find the freighter and determine the cause of its silence..",
         "options": [
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 3
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 3
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Barclay",
-        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 4
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 4
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on Freighter",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1093,95 +1079,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation freighter has failed to report in from the Vega corridor. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "12",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: Starfleet Intelligence reports cloaked movement along the Romulan frontier.",
     "mission_description": "Conduct discreet scans and verify Romulan activity.",
     "dialogue_tree": [
       {
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: Starfleet Intelligence reports cloaked movement along the Romulan frontier. Shall we proceed to conduct discreet scans and verify romulan activity.?",
+        "options": [
+          {
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
+          },
+          {
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
+          },
+          {
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with conduct discreet scans and verify romulan activity..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Engage tractor beam on Romulan",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 1
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 1
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 2
-          },
-          {
-            "label": "Engage tractor beam on Romulan",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 3
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 3
-          },
-          {
-            "label": "Open tight‑beam channel to Romulan",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1189,74 +1180,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the Starfleet intelligence reports cloaked movement along the Romulan frontier. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "13",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A civilian transport is broadcasting a medical emergency from the Archanis Sector.",
     "mission_description": "Render aid and secure the area for medical response.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 1
-          },
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 1
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          }
-        ]
-      },
-      {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: A civilian transport is broadcasting a medical emergency from the Archanis Sector. Shall we proceed to render aid and secure the area for medical response.?",
         "options": [
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
+          },
+          {
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
+          },
+          {
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with render aid and secure the area for medical response..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1264,116 +1281,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a civilian transport is broadcasting a medical emergency from the archanis sector. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "14",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A deep-space probe has begun transmitting erratic data near the Tzenkethi border.",
     "mission_description": "Recover the probe and analyze its malfunction.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: A deep-space probe has begun transmitting erratic data near the Tzenkethi border. Shall we proceed to recover the probe and analyze its malfunction.?",
         "options": [
           {
-            "label": "Engage tractor beam on Probe",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with recover the probe and analyze its malfunction..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 2
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
-          },
-          {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 3
-          },
-          {
-            "label": "Assemble away team: engineering and science",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Engage tractor beam on Probe",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 4
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Open tight‑beam channel to Probe",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1381,74 +1382,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a deep-space probe has begun transmitting erratic data near the Tzenkethi border. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "15",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: An uncharted comet is passing dangerously close to a pre-warp civilization on Garros III.",
     "mission_description": "Prevent interference while protecting the population.",
     "dialogue_tree": [
       {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: An uncharted comet is passing dangerously close to a pre-warp civilization on Garros III. Shall we proceed to prevent interference while protecting the population.?",
         "options": [
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with prevent interference while protecting the population..",
         "options": [
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
             "next": 2
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
             "next": 2
           },
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1456,116 +1483,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an uncharted comet is passing dangerously close to a pre-warp civilization on Garros iii. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "16",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A Federation listening post has gone silent near the Breen frontier.",
     "mission_description": "Reestablish communications and assess the cause.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: A Federation listening post has gone silent near the Breen frontier. Shall we proceed to reestablish communications and assess the cause.?",
         "options": [
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with reestablish communications and assess the cause..",
         "options": [
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
             "next": 2
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
             "next": 2
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Barclay",
-        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 3
-          },
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 3
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 4
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1573,116 +1584,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation listening post has gone silent near the Breen frontier. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "17",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard.",
     "mission_description": "Assist the convoy and guide them safely through the hazard.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard. Shall we proceed to assist the convoy and guide them safely through the hazard.?",
         "options": [
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
           }
         ]
       },
       {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assist the convoy and guide them safely through the hazard..",
         "options": [
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
             "next": 2
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
             "next": 2
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 3
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 4
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1690,74 +1685,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Starfleet convoy en route to starbase 12 has encountered a navigational hazard. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "18",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: An alien derelict has been found drifting in Federation space.",
     "mission_description": "Investigate the vessel and ensure it poses no threat.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 1
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 1
-          },
-          {
-            "label": "Open tight‑beam channel to Vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 1
-          }
-        ]
-      },
-      {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: An alien derelict has been found drifting in Federation space. Shall we proceed to investigate the vessel and ensure it poses no threat.?",
         "options": [
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 2
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
           },
           {
-            "label": "Engage tractor beam on Vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with investigate the vessel and ensure it poses no threat..",
         "options": [
           {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on Vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1765,74 +1786,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an alien derelict has been found drifting in Federation space. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "19",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: Reports of hostile interference have been received from a Bajoran outpost.",
     "mission_description": "Support the Bajoran authorities and identify the source of interference.",
     "dialogue_tree": [
       {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: Reports of hostile interference have been received from a Bajoran outpost. Shall we proceed to support the bajoran authorities and identify the source of interference.?",
         "options": [
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with support the bajoran authorities and identify the source of interference..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1840,74 +1887,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the reports of hostile interference have been received from a bajoran outpost. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "20",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A Federation medical ship has gone off course in the Betazed sector.",
     "mission_description": "Locate and assist the medical ship.",
     "dialogue_tree": [
       {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: A Federation medical ship has gone off course in the Betazed sector. Shall we proceed to locate and assist the medical ship.?",
         "options": [
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with locate and assist the medical ship..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 2
-          },
-          {
-            "label": "Engage tractor beam on Ship",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to Ship",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power to tractor emitters",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -1915,116 +1988,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation medical ship has gone off course in the betazed sector. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "21",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A Cardassian cargo vessel has requested emergency repairs near Federation space.",
     "mission_description": "Offer aid under treaty conditions and remain vigilant.",
     "dialogue_tree": [
       {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 1
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 1
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
-          },
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          }
-        ]
-      },
-      {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: A Cardassian cargo vessel has requested emergency repairs near Federation space. Shall we proceed to offer aid under treaty conditions and remain vigilant.?",
         "options": [
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 3
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
           },
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with offer aid under treaty conditions and remain vigilant..",
         "options": [
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 4
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 4
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
           },
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -2032,74 +2089,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Cardassian cargo vessel has requested emergency repairs near Federation space. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "22",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: Sensor readings indicate massive power fluctuations near a Dyson sphere remnant.",
     "mission_description": "Survey the structure and collect data while keeping safe distance.",
     "dialogue_tree": [
       {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: Sensor readings indicate massive power fluctuations near a Dyson sphere remnant. Shall we proceed to survey the structure and collect data while keeping safe distance.?",
         "options": [
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
             "next": 1
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
             "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 2
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": 2
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with survey the structure and collect data while keeping safe distance..",
         "options": [
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -2107,191 +2190,100 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.the sensor readings indicate massive power fluctuations near a dyson sphere remnant. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "23",
     "starfleet_message": "To Captain Picard, USS Enterprise-D: A subspace relay network has gone offline across two sectors.",
     "mission_description": "Repair the relays and restore Starfleet communications.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 1
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 1
-          },
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
-        "options": [
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 2
-          },
-          {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 2
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
-          }
-        ]
-      },
-      {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: A subspace relay network has gone offline across two sectors. Shall we proceed to repair the relays and restore starfleet communications.?",
         "options": [
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 3
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 3
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 3
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
           }
         ]
       },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental controls stable; warp field within tolerance.",
-        "options": [
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 4
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 4
-          },
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
-        "options": [
-          {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": null
-          },
-          {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
-            "next": null
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": null
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a subspace relay network has gone offline across two sectors. mission. full findings have been forwarded for review."
-      }
-    ]
-  },
-  {
-    "id": "24",
-    "starfleet_message": "To Captain Picard, USS Enterprise-D: A Federation ambassador has requested escort through a volatile region.",
-    "mission_description": "Ensure the ambassador’s safety during passage.",
-    "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with repair the relays and restore starfleet communications..",
         "options": [
           {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 1
-          },
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 1
-          },
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Ensign Crusher",
-        "line": "All systems operating within Starfleet parameters.",
-        "options": [
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
             "next": 2
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
             "next": 2
           },
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Chief O'Brien",
-        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -2299,116 +2291,201 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.a Federation ambassador has requested escort through a volatile region. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   },
   {
-    "id": "25",
+    "starfleet_message": "To Captain Picard, USS Enterprise-D: A Federation ambassador has requested escort through a volatile region.",
+    "mission_description": "Ensure the ambassador\u2019s safety during passage.",
+    "dialogue_tree": [
+      {
+        "crew": "Commander Riker",
+        "line": "Commander Riker: Captain, Starfleet reports: A Federation ambassador has requested escort through a volatile region. Shall we proceed to ensure the ambassador\u2019s safety during passage.?",
+        "options": [
+          {
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
+          },
+          {
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
+          },
+          {
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with ensure the ambassador\u2019s safety during passage..",
+        "options": [
+          {
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
+          },
+          {
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
+          },
+          {
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "options": [
+          {
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "next": null
+          },
+          {
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "next": null
+          },
+          {
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "next": null
+          }
+        ]
+      }
+    ],
+    "debriefs": [
+      {
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
+      }
+    ]
+  },
+  {
     "starfleet_message": "To Captain Picard, USS Enterprise-D: An experimental warp core test facility has reported critical instability.",
     "mission_description": "Assist in stabilizing the core and evacuate personnel if required.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 1
-          },
-          {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 1
-          },
-          {
-            "label": "Transmit Starfleet assistance protocol",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 1
-          }
-        ]
-      },
-      {
         "crew": "Commander Riker",
-        "line": "Commander Riker: Systems nominal; standing by for orders.",
+        "line": "Commander Riker: Captain, Starfleet reports: An experimental warp core test facility has reported critical instability. Shall we proceed to assist in stabilizing the core and evacuate personnel if required.?",
         "options": [
           {
-            "label": "Divert auxiliary power to shields",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 2
+            "label": "Set course and engage at warp 6",
+            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "next": 1
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 2
+            "label": "Request further data from Starfleet",
+            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "next": 1
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 2
+            "label": "Assemble senior staff for briefing",
+            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "next": 1
           }
         ]
       },
       {
-        "crew": "Counselor Troi",
-        "line": "Counselor Troi: No anomalies detected; sensors ready.",
+        "crew": "Lt. Commander Data",
+        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assist in stabilizing the core and evacuate personnel if required..",
         "options": [
           {
-            "label": "Reroute power via secondary EPS relays",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
-            "next": 3
+            "label": "Proceed cautiously",
+            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "next": 2
           },
           {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 3
+            "label": "Initiate scan of the region",
+            "crew_reply": "Data: 'Scanning... results pending.'",
+            "next": 2
           },
           {
-            "label": "Launch reconnaissance probe on intercept course",
-            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
-            "next": 3
+            "label": "Prepare for possible confrontation",
+            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Lt. Worf: Systems nominal; standing by for orders.",
+        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
         "options": [
           {
-            "label": "Open tight‑beam channel to target vessel",
-            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
-            "next": 4
-          },
-          {
-            "label": "Recalibrate long‑range sensor array",
-            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
-            "next": 4
-          },
-          {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
-        "options": [
-          {
-            "label": "Deploy warning buoy to local traffic lane",
-            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
+            "label": "Maintain defensive posture",
+            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
             "next": null
           },
           {
-            "label": "Assemble away team: standard complement",
-            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
+            "label": "Attempt peaceful communication",
+            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
             "next": null
           },
           {
-            "label": "Engage tractor beam on target vessel",
-            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
+            "label": "Proceed with mission objectives",
+            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
             "next": null
           }
         ]
@@ -2416,7 +2493,34 @@
     ],
     "debriefs": [
       {
-        "text": "Starfleet Command commends the Enterprise-D for exemplary conduct in resolving . Complete findings have been transmitted for review.an experimental warp core test facility has reported critical instability. mission. full findings have been forwarded for review."
+        "text": "Starfleet Command commends your decisive actions in completing the mission with honor."
+      },
+      {
+        "text": "The Enterprise-D\u2019s performance has been exemplary; your leadership ensured mission success."
+      },
+      {
+        "text": "Federation interests are secure, and your actions are noted as a model for future operations."
+      },
+      {
+        "text": "Starfleet has expressed gratitude for your precision and adherence to protocol."
+      },
+      {
+        "text": "Mission accomplished flawlessly. All objectives have been completed without loss."
+      },
+      {
+        "text": "Starfleet regrets to report that mission objectives were only partially achieved."
+      },
+      {
+        "text": "Command expresses concern over the operational delays encountered during the mission."
+      },
+      {
+        "text": "The incident will be reviewed to prevent future procedural lapses."
+      },
+      {
+        "text": "Federation assets sustained avoidable risk; Starfleet will analyze mission conduct."
+      },
+      {
+        "text": "Mission failure acknowledged. Starfleet stresses the importance of improved readiness."
       }
     ]
   }
