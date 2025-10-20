@@ -1,6 +1,6 @@
 [
   {
-  "starfleet_message": "A distress call has been received from a Federation science station orbiting Epsilon IV.",
+  "starfleet_message": "Starfleet Command reports a distress call has been received from a Federation science station orbiting Epsilon IV.",
   "mission_description": "Investigate the distress call and ensure the safety of the science team.",
   "dialogue_tree": [
     {
@@ -153,271 +153,313 @@
 ]
 },
   {
-    "starfleet_message": "To Captain Picard: Starfleet Command reports an unexplained energy field near the Argus Array.",
+    "starfleet_message": "Starfleet Command reports an unexplained energy field near the Argus Array.",
     "mission_description": "Examine the field and determine its effect on nearby systems.",
     "dialogue_tree": [
+  {
+    "crew": "Lt. Commander Data",
+    "line": "Captain, telemetry from the Argus Array indicates an abrupt disruption across its subspace communication relays. Power fluctuations are escalating beyond automated correction thresholds.",
+    "options": [
       {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to Argus Array.",
-        "options": [
-          {
-            "label": "Map energy field boundaries around Argus Array",
-            "crew_reply": "Data: 'Perimeter mapped; nodes identified.'",
-            "next": 1
-          },
-          {
-            "label": "Sample harmonic frequencies within Argus Array",
-            "crew_reply": "La Forge: 'Harmonic profile captured.'",
-            "next": 1
-          },
-          {
-            "label": "Recalibrate EPS sensors for Argus Array",
-            "crew_reply": "La Forge: 'Calibration complete; readings clean.'",
-            "next": 1
-          }
-        ]
+        "label": "Initiate diagnostic sweep across the relay grid",
+        "crew_reply": "Data: 'Diagnostic protocols active. Multiple nodes are offline, likely from internal overloads.'",
+        "next": 1
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Captain, perimeter around Argus Array is clear.",
-        "options": [
-          {
-            "label": "Confirm energy field boundaries around Argus Array",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
-            "next": 2
-          },
-          {
-            "label": "Maintain alert posture around Argus Array",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
-            "next": 2
-          },
-          {
-            "label": "Log security markers for Argus Array",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
-            "next": 2
-          }
-        ]
+        "label": "Bypass primary control and access the backup core",
+        "crew_reply": "La Forge: 'Accessing secondary systems. Response is sluggish but stable enough for remote input.'",
+        "next": 1
       },
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from Argus Array.",
-        "options": [
-          {
-            "label": "Balance EPS load for Argus Array",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
-            "next": 3
-          },
-          {
-            "label": "Run subsystem diagnostics at Argus Array",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
-            "next": 3
-          },
-          {
-            "label": "Open maintenance channel to Argus Array",
-            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Captain, operations at Argus Array are stable enough to proceed.",
-        "options": [
-          {
-            "label": "Commit operational plan for Argus Array",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
-            "next": null
-          },
-          {
-            "label": "Transmit interim report on Argus Array",
-            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
-            "next": null
-          },
-          {
-            "label": "Stand down to condition green at Argus Array",
-            "crew_reply": "Helm: 'Condition set to green.'",
-            "next": null
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "Mission at Argus Array completed successfully. Crew performance within parameters."
-      },
-      {
-        "result": "success",
-        "text": "All objectives at Argus Array achieved with minimal deviation."
-      },
-      {
-        "result": "success",
-        "text": "Stabilization efforts at Argus Array effective. Station integrity restored."
-      },
-      {
-        "result": "success",
-        "text": "Mission data from Argus Array transmitted to Starfleet Command."
-      },
-      {
-        "result": "success",
-        "text": "Operations at Argus Array concluded without incident."
-      },
-      {
-        "result": "failure",
-        "text": "Mission at Argus Array incomplete. Primary objective not met."
-      },
-      {
-        "result": "failure",
-        "text": "Operational errors encountered during Argus Array response."
-      },
-      {
-        "result": "failure",
-        "text": "Unstable conditions at Argus Array forced withdrawal."
-      },
-      {
-        "result": "failure",
-        "text": "Data from Argus Array only partially recovered."
-      },
-      {
-        "result": "failure",
-        "text": "Communication with Argus Array lost before completion."
+        "label": "Alert Starfleet that the Array may have been compromised",
+        "crew_reply": "Riker: 'Subspace channel open. Starfleet Command acknowledges and requests situation updates every fifteen minutes.'",
+        "next": 1
       }
     ]
   },
   {
-    "starfleet_message": "To Captain Picard: A Federation transport has missed its last scheduled report near the Hekaras Corridor.",
+    "crew": "Lt. Worf",
+    "line": "Captain, long-range sensors are detecting faint energy signatures near the outer perimeter of the Array. No vessels are currently visible.",
+    "options": [
+      {
+        "label": "Lock sensors and attempt to determine the source",
+        "crew_reply": "Worf: 'Energy is residual—no active emissions now detected.'",
+        "next": 2
+      },
+      {
+        "label": "Raise shields and assume defensive posture",
+        "crew_reply": "Worf: 'Shields raised. Tactical systems on standby.'",
+        "next": 2
+      },
+      {
+        "label": "Dispatch a shuttle to investigate the perimeter anomalies",
+        "crew_reply": "La Forge: 'Shuttle Galileo preparing for launch; flight path cleared through the debris field.'",
+        "next": 2
+      }
+    ]
+  },
+  {
+    "crew": "Lt. Commander La Forge",
+    "line": "Captain, the Argus Array’s main control matrix is looping commands—it’s transmitting but not processing acknowledgments. It’s possible the command buffer is corrupt.",
+    "options": [
+      {
+        "label": "Purge the control buffer and reinitialize systems manually",
+        "crew_reply": "La Forge: 'Purge complete. Control response improving—stability at seventy percent.'",
+        "next": 3
+      },
+      {
+        "label": "Upload a clean software core from Starfleet archives",
+        "crew_reply": "O'Brien: 'Archive transfer complete. Systems synchronizing to Federation standards.'",
+        "next": 3
+      },
+      {
+        "label": "Suspend all remote input to prevent cascading faults",
+        "crew_reply": "Data: 'All command relays locked down. System integrity holding.'",
+        "next": 3
+      }
+    ]
+  },
+  {
+    "crew": "Counselor Troi",
+    "line": "Captain, I’m sensing tension among the bridge crew. The anomaly’s unpredictability is affecting concentration.",
+    "options": [
+      {
+        "label": "Acknowledge and remind all personnel to focus on procedure",
+        "crew_reply": "Troi: 'Acknowledged, Captain. The crew is refocusing on mission objectives.'",
+        "next": 4
+      },
+      {
+        "label": "Delegate command of technical operations to Commander Riker",
+        "crew_reply": "Riker: 'Understood, Captain. Reallocating priorities to stabilize the relay.'",
+        "next": 4
+      },
+      {
+        "label": "Order all non-essential personnel to stand down from their posts",
+        "crew_reply": "Picard: 'Make it so. Reduce bridge staffing to essential officers only.'",
+        "next": 4
+      }
+    ]
+  },
+  {
+    "crew": "Commander Riker",
+    "line": "Captain, the Array is responding again. Telemetry alignment restored on all major subspace bands. No signs of external interference detected.",
+    "options": [
+      {
+        "label": "Recalibrate the Array for standard observation parameters",
+        "crew_reply": "Riker: 'Calibration complete. Array functions restored to full capacity.'",
+        "next": null
+      },
+      {
+        "label": "Forward all Argus Array data to Starfleet Command",
+        "crew_reply": "Data: 'Transmission underway. Command confirms receipt.'",
+        "next": null
+      },
+      {
+        "label": "Maintain orbit and continue diagnostics until stable",
+        "crew_reply": "La Forge: 'Diagnostics running. All subsystems reading nominal.'",
+        "next": null
+      }
+    ]
+  }
+],
+"debriefs": [
+  {
+    "result": "success",
+    "text": "The Argus Array was restored to full operational status through the Enterprise crew’s coordinated technical effort. Data and La Forge executed synchronized reinitialization protocols that reversed the command-loop corruption before lasting damage could occur. Worf’s defensive posture ensured the mission proceeded without external interference. Starfleet Science has resumed use of the Array and commended the Enterprise for preserving one of the Federation’s most valuable deep-space observation assets."
+  },
+  {
+    "result": "success",
+    "text": "Careful isolation of the Argus Array’s power grid prevented a catastrophic systems collapse. La Forge’s manual override sequence and Data’s recalibration routines stabilized the transmission lattice with seconds to spare. Starfleet Command has noted the operation as an example of exemplary cross-departmental coordination under pressure."
+  },
+  {
+    "result": "success",
+    "text": "By applying precision diagnostic sweeps, the Enterprise identified the root cause of the Argus malfunction—an unshielded plasma feedback through subspace relay sixteen. The repair proceeded flawlessly, restoring communication capacity across twelve sectors. Federation Science Council commended the crew’s composure and professionalism."
+  },
+  {
+    "result": "success",
+    "text": "The Enterprise completed repairs to the Argus Array with no further anomalies detected. The mission underscored the vessel’s dual role as explorer and first responder. All collected data has been preserved and transmitted to Starfleet Intelligence for long-term analysis of the subspace irregularities."
+  },
+  {
+    "result": "success",
+    "text": "Following hours of methodical system recovery, the Argus Array’s central processors came online at one hundred percent capacity. The Enterprise remained on-site to certify the restoration before resuming its charting mission. Command cited Captain Picard’s leadership and crew discipline as instrumental in the flawless outcome."
+  },
+  {
+    "result": "failure",
+    "text": "Restoration of the Argus Array was aborted when a secondary surge collapsed the power matrix. The crew was forced to disengage remotely, leaving the installation dormant. Starfleet Engineering has dispatched a dedicated repair vessel to investigate the failure. The Enterprise’s actions prevented complete destruction, but the mission objective remains unfulfilled."
+  },
+  {
+    "result": "failure",
+    "text": "Attempts to reboot the Argus Array triggered a feedback cascade through the subspace network, disabling its long-range sensors. The Enterprise withdrew to avoid further propagation. Starfleet Command has restricted access to the sector pending full safety review. The mission is logged as incomplete with partial success parameters."
+  },
+  {
+    "result": "failure",
+    "text": "Communication between the Array’s secondary cores collapsed unexpectedly during reinitialization. Data integrity was lost, and remote contact ceased entirely. Despite La Forge’s countermeasures, the Array will require full on-site reconstruction. Starfleet commends the crew for minimizing collateral interference across adjacent sectors."
+  },
+  {
+    "result": "failure",
+    "text": "A chain reaction initiated by decayed subspace coils rendered the Argus Array unstable. The Enterprise maintained a defensive perimeter until Starfleet ordered withdrawal. No lives were lost, but the Array suffered irreparable core damage. The loss has been classified as a major research setback for Federation astrophysics."
+  },
+  {
+    "result": "failure",
+    "text": "An undetected phase variance within the Argus relay grid caused the entire network to power down permanently. Despite multiple intervention attempts, system control could not be re-established. The mission was terminated, and the Enterprise resumed patrol under orders from Starfleet Operations. A full incident review is pending."
+  }
+]
+  },
+  {
+    "starfleet_message": "Starfleet Command reports a Federation transport has missed its last scheduled report near the Hekaras Corridor.",
     "mission_description": "Locate the transport and assess any navigational hazards.",
     "dialogue_tree": [
+  {
+    "crew": "Lt. Commander Data",
+    "line": "Captain, long-range sensors have detected intense verteron emissions along the Hekaras Corridor. The readings exceed safe warp travel parameters for this region.",
+    "options": [
       {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to Hekaras Corridor.",
-        "options": [
-          {
-            "label": "Establish breadcrumb scan along Hekaras Corridor",
-            "crew_reply": "Data: 'Trace particles detected; path plotted.'",
-            "next": 1
-          },
-          {
-            "label": "Ping transponder frequencies registered to Hekaras Corridor",
-            "crew_reply": "O'Brien: 'No auto-reply; logging attempts.'",
-            "next": 1
-          },
-          {
-            "label": "Deploy navigation buoys to Hekaras Corridor corridor",
-            "crew_reply": "Helm: 'Buoys deployed on designated vectors.'",
-            "next": 1
-          }
-        ]
+        "label": "Initiate a detailed sensor sweep of the corridor",
+        "crew_reply": "Data: 'Sensor sweep engaged. Verteron density increasing toward the inner sector.'",
+        "next": 1
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Captain, perimeter around Hekaras Corridor is clear.",
-        "options": [
-          {
-            "label": "Establish breadcrumb scan along Hekaras Corridor",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
-            "next": 2
-          },
-          {
-            "label": "Maintain alert posture around Hekaras Corridor",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
-            "next": 2
-          },
-          {
-            "label": "Log security markers for Hekaras Corridor",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
-            "next": 2
-          }
-        ]
+        "label": "Reduce speed and maintain safe distance from the emissions",
+        "crew_reply": "Helm: 'Dropping to impulse. Maintaining a holding position along the outer corridor.'",
+        "next": 1
       },
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from Hekaras Corridor.",
-        "options": [
-          {
-            "label": "Balance EPS load for Hekaras Corridor",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
-            "next": 3
-          },
-          {
-            "label": "Run subsystem diagnostics at Hekaras Corridor",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
-            "next": 3
-          },
-          {
-            "label": "Open maintenance channel to Hekaras Corridor",
-            "crew_reply": "O'Brien: 'Maintenance channel secured.'",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Captain, operations at Hekaras Corridor are stable enough to proceed.",
-        "options": [
-          {
-            "label": "Commit operational plan for Hekaras Corridor",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
-            "next": null
-          },
-          {
-            "label": "Transmit interim report on Hekaras Corridor",
-            "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
-            "next": null
-          },
-          {
-            "label": "Stand down to condition green at Hekaras Corridor",
-            "crew_reply": "Helm: 'Condition set to green.'",
-            "next": null
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "Mission at Hekaras Corridor completed successfully. Crew performance within parameters."
-      },
-      {
-        "result": "success",
-        "text": "All objectives at Hekaras Corridor achieved with minimal deviation."
-      },
-      {
-        "result": "success",
-        "text": "Stabilization efforts at Hekaras Corridor effective. Station integrity restored."
-      },
-      {
-        "result": "success",
-        "text": "Mission data from Hekaras Corridor transmitted to Starfleet Command."
-      },
-      {
-        "result": "success",
-        "text": "Operations at Hekaras Corridor concluded without incident."
-      },
-      {
-        "result": "failure",
-        "text": "Mission at Hekaras Corridor incomplete. Primary objective not met."
-      },
-      {
-        "result": "failure",
-        "text": "Operational errors encountered during Hekaras Corridor response."
-      },
-      {
-        "result": "failure",
-        "text": "Unstable conditions at Hekaras Corridor forced withdrawal."
-      },
-      {
-        "result": "failure",
-        "text": "Data from Hekaras Corridor only partially recovered."
-      },
-      {
-        "result": "failure",
-        "text": "Communication with Hekaras Corridor lost before completion."
+        "label": "Alert Starfleet Science to the readings",
+        "crew_reply": "Riker: 'Channel open. Data forwarded to Starfleet Science for correlation.'",
+        "next": 1
       }
     ]
   },
   {
-    "starfleet_message": "To Captain Picard: Starfleet Intelligence requests a covert scan of the Neutral Zone boundary.",
+    "crew": "Lt. Worf",
+    "line": "Captain, navigation sensors are being disrupted by verteron interference. Maneuvering thrusters responding at only eighty percent efficiency.",
+    "options": [
+      {
+        "label": "Stabilize inertial dampers manually",
+        "crew_reply": "La Forge: 'Adjustments applied. Helm control nominal.'",
+        "next": 2
+      },
+      {
+        "label": "Activate navigational deflector to compensate",
+        "crew_reply": "Data: 'Deflector harmonics aligned to counter verteron flux.'",
+        "next": 2
+      },
+      {
+        "label": "Withdraw from the corridor until interference subsides",
+        "crew_reply": "Riker: 'Retreating to minimum safe range.'",
+        "next": 2
+      }
+    ]
+  },
+  {
+    "crew": "Lt. Commander La Forge",
+    "line": "Captain, residual warp fields are converging ahead of us. It looks like another vessel recently traveled through the corridor at unsafe warp velocity.",
+    "options": [
+      {
+        "label": "Attempt to trace the vessel’s warp signature",
+        "crew_reply": "La Forge: 'Signature traced. Federation-registered transport—identity pending verification.'",
+        "next": 3
+      },
+      {
+        "label": "Initiate containment field to neutralize residual energy",
+        "crew_reply": "O'Brien: 'Containment field established. Radiation levels decreasing.'",
+        "next": 3
+      },
+      {
+        "label": "Record and isolate the data for Starfleet analysis",
+        "crew_reply": "Data: 'Log complete. Information ready for transmission.'",
+        "next": 3
+      }
+    ]
+  },
+  {
+    "crew": "Counselor Troi",
+    "line": "Captain, I’m sensing anxiety from the nearby transport’s crew. They may be unaware of the danger they’re in.",
+    "options": [
+      {
+        "label": "Open hailing frequencies and issue a safety warning",
+        "crew_reply": "Worf: 'Channel open. Message transmitted on all frequencies.'",
+        "next": 4
+      },
+      {
+        "label": "Instruct the transport to drop from warp immediately",
+        "crew_reply": "Riker: 'Directive sent. Awaiting response from the civilian vessel.'",
+        "next": 4
+      },
+      {
+        "label": "Prepare to render assistance if their engines destabilize",
+        "crew_reply": "La Forge: 'Engineering teams standing by for remote support.'",
+        "next": 4
+      }
+    ]
+  },
+  {
+    "crew": "Commander Riker",
+    "line": "Captain, the transport has exited warp and established orbit outside the corridor. Radiation levels across the sector are returning to normal parameters.",
+    "options": [
+      {
+        "label": "Transmit sensor data to Starfleet Science for review",
+        "crew_reply": "Data: 'Transmission complete. Correlation with previous warp-field tests underway.'",
+        "next": null
+      },
+      {
+        "label": "Stand down to yellow alert and resume patrol",
+        "crew_reply": "Worf: 'Yellow alert set. Weapons and shields secured.'",
+        "next": null
+      },
+      {
+        "label": "Begin a full radiation dispersal scan of the corridor",
+        "crew_reply": "La Forge: 'Scan initiated. Verteron concentrations dropping steadily.'",
+        "next": null
+      }
+    ]
+  }
+],
+"debriefs": [
+  {
+    "result": "success",
+    "text": "The Enterprise successfully mitigated the verteron surge within the Hekaras Corridor, preventing further ecological damage. Coordination between helm, engineering, and science departments allowed safe traversal and the identification of a civilian transport responsible for the disturbance. The prompt intervention preserved the navigational route for future starships. Starfleet Science has classified the incident as an example of effective inter-departmental hazard containment."
+  },
+  {
+    "result": "success",
+    "text": "Through methodical adjustments to the navigational deflector and a coordinated response from engineering, the Enterprise stabilized the corridor and guided a stranded transport to safety. No casualties were reported. Starfleet commended the crew’s precise execution under high-radiation conditions and ordered further study into long-term effects of warp travel through verteron-dense space."
+  },
+  {
+    "result": "success",
+    "text": "Captain Picard’s crew successfully neutralized the residual warp fields threatening the Hekaras Corridor. La Forge’s containment protocols proved instrumental in restoring subspace stability, while Troi’s insight ensured the rescue of the civilian vessel’s crew. Starfleet Command acknowledged the Enterprise’s decisive action as critical in maintaining interstellar traffic safety."
+  },
+  {
+    "result": "success",
+    "text": "The Hekaras Corridor crisis was resolved without structural damage to the surrounding subspace region. By integrating engineering countermeasures and diplomatic contact with the affected transport, the Enterprise restored safe warp capability in record time. Starfleet Operations has re-authorized traffic through the sector under revised speed restrictions."
+  },
+  {
+    "result": "success",
+    "text": "All mission objectives within the Hekaras Corridor were met. Data’s analysis provided key metrics on verteron buildup, forming the basis for new warp-safety guidelines across Federation space. The civilian transport was escorted safely out of the corridor, and the Enterprise remains credited with averting a potential subspace rupture of significant magnitude."
+  },
+  {
+    "result": "failure",
+    "text": "Containment efforts in the Hekaras Corridor were only partially successful. A surge in verteron radiation forced the Enterprise to withdraw before full stabilization could be achieved. The civilian transport escaped with minor damage, but the corridor remains unsafe for warp travel pending Starfleet Engineering’s arrival."
+  },
+  {
+    "result": "failure",
+    "text": "An unanticipated resonance pulse destabilized the Enterprise’s deflector harmonics, causing widespread system strain and forcing an emergency retreat from the Hekaras Corridor. Though the crew sustained no injuries, the mission objective to neutralize the radiation field was left incomplete. Starfleet Command has imposed temporary navigation restrictions in the area."
+  },
+  {
+    "result": "failure",
+    "text": "Attempts to re-establish stability within the Hekaras Corridor failed when a feedback wave overloaded the ship’s containment emitters. The verteron concentration increased beyond tolerance levels, compelling a tactical withdrawal. Starfleet has suspended corridor operations indefinitely until further containment vessels can be deployed."
+  },
+  {
+    "result": "failure",
+    "text": "While the Enterprise successfully warned nearby vessels, containment of the verteron storm proved impossible. The warp fields collapsed into subspace eddies that rendered the corridor impassable. The crew’s response prevented civilian casualties, but Starfleet Science has declared the route closed for all warp-capable craft pending major remediation."
+  },
+  {
+    "result": "failure",
+    "text": "Engineering countermeasures failed to suppress verteron propagation within the Hekaras Corridor, resulting in long-term destabilization of the region. The Enterprise was ordered to retreat under protective warp field containment. Starfleet regards the mission as an honorable failure, emphasizing that the crew’s swift evacuation prevented potential loss of life."
+  }
+]
+  },
+  {
+    "starfleet_message": "Starfleet Intelligence requests a covert scan of the Neutral Zone boundary.",
     "mission_description": "Conduct reconnaissance without violating treaty protocols.",
     "dialogue_tree": [
       {
@@ -549,7 +591,7 @@
     ]
   },
   {
-    "starfleet_message": "To Captain Picard: Subspace communications from Outpost 42 have become erratic.",
+    "starfleet_message": "Starfleet Science reports subspace communications from Outpost 42 have become erratic.",
     "mission_description": "Identify the cause of the transmission anomalies and reestablish stable contact.",
     "dialogue_tree": [
       {
@@ -681,7 +723,7 @@
     ]
   },
   {
-    "starfleet_message": "To Captain Picard: A meteor cluster threatens a civilian freighter convoy in sector 12.",
+    "starfleet_message": "Starfleet Command reports a meteor cluster threatening a civilian freighter convoy in sector 12.",
     "mission_description": "Provide navigational support and ensure convoy safety.",
     "dialogue_tree": [
       {
