@@ -4,64 +4,64 @@
     "mission_description": "Investigate the distress call and ensure the safety of the science team.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A distress call has been received from a Federation science station orbiting Epsilon IV. Shall we proceed to investigate the distress call and ensure the safety of the science team.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: investigate the distress call and ensure the safety of the science team. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with investigate the distress call and ensure the safety of the science team..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -105,64 +105,64 @@
     "mission_description": "Assess the transport\u2019s situation and avoid provoking Klingon forces.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A Ferengi transport is adrift near the Klingon border, transmitting a general distress signal. Shall we proceed to assess the transport\u2019s situation and avoid provoking klingon forces.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: assess the transport\u2019s situation and avoid provoking klingon forces. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assess the transport\u2019s situation and avoid provoking klingon forces..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -206,64 +206,64 @@
     "mission_description": "Stabilize subspace channels and identify the cause of interference.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: Subspace anomalies are disrupting communications in the Argolis Cluster. Shall we proceed to stabilize subspace channels and identify the cause of interference.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: stabilize subspace channels and identify the cause of interference. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with stabilize subspace channels and identify the cause of interference..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -307,64 +307,64 @@
     "mission_description": "Determine their intentions and secure the mining operations.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: Unidentified vessels are operating near a Federation mining outpost on Beta Aurigae IV. Shall we proceed to determine their intentions and secure the mining operations.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: determine their intentions and secure the mining operations. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with determine their intentions and secure the mining operations..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -408,64 +408,64 @@
     "mission_description": "Assist the Romulan vessel while maintaining Federation security protocols.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A damaged Romulan scout ship has crossed into Federation space. Shall we proceed to assist the romulan vessel while maintaining federation security protocols.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: assist the romulan vessel while maintaining federation security protocols. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assist the romulan vessel while maintaining federation security protocols..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -509,64 +509,64 @@
     "mission_description": "Analyze the anomaly without crossing into restricted space.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: Sensor buoys have detected temporal fluctuations near the Neutral Zone. Shall we proceed to analyze the anomaly without crossing into restricted space.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: analyze the anomaly without crossing into restricted space. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with analyze the anomaly without crossing into restricted space..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -610,64 +610,64 @@
     "mission_description": "Coordinate evacuation and safeguard civilian transports.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: An ion storm threatens an evacuation effort on New France Colony. Shall we proceed to coordinate evacuation and safeguard civilian transports.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: coordinate evacuation and safeguard civilian transports. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with coordinate evacuation and safeguard civilian transports..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -711,64 +711,64 @@
     "mission_description": "Locate the Yosemite and recover her crew.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: The USS Yosemite has gone missing while studying a plasma filament. Shall we proceed to locate the yosemite and recover her crew.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: locate the yosemite and recover her crew. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with locate the yosemite and recover her crew..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -812,64 +812,64 @@
     "mission_description": "Study the phenomenon and prevent border conflict.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: Reports indicate spatial rifts forming near the Cardassian border. Shall we proceed to study the phenomenon and prevent border conflict.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: study the phenomenon and prevent border conflict. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with study the phenomenon and prevent border conflict..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -913,64 +913,64 @@
     "mission_description": "Investigate the source while maintaining defensive readiness.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: An unknown energy signature has been detected within the Mutara Sector. Shall we proceed to investigate the source while maintaining defensive readiness.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: investigate the source while maintaining defensive readiness. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with investigate the source while maintaining defensive readiness..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1014,64 +1014,64 @@
     "mission_description": "Find the freighter and determine the cause of its silence.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A Federation freighter has failed to report in from the Vega Corridor. Shall we proceed to find the freighter and determine the cause of its silence.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: find the freighter and determine the cause of its silence. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with find the freighter and determine the cause of its silence..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1115,64 +1115,64 @@
     "mission_description": "Conduct discreet scans and verify Romulan activity.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: Starfleet Intelligence reports cloaked movement along the Romulan frontier. Shall we proceed to conduct discreet scans and verify romulan activity.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: conduct discreet scans and verify romulan activity. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with conduct discreet scans and verify romulan activity..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1216,64 +1216,64 @@
     "mission_description": "Render aid and secure the area for medical response.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A civilian transport is broadcasting a medical emergency from the Archanis Sector. Shall we proceed to render aid and secure the area for medical response.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: render aid and secure the area for medical response. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with render aid and secure the area for medical response..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1317,64 +1317,64 @@
     "mission_description": "Recover the probe and analyze its malfunction.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A deep-space probe has begun transmitting erratic data near the Tzenkethi border. Shall we proceed to recover the probe and analyze its malfunction.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: recover the probe and analyze its malfunction. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with recover the probe and analyze its malfunction..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1418,64 +1418,64 @@
     "mission_description": "Prevent interference while protecting the population.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: An uncharted comet is passing dangerously close to a pre-warp civilization on Garros III. Shall we proceed to prevent interference while protecting the population.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: prevent interference while protecting the population. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with prevent interference while protecting the population..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1519,64 +1519,64 @@
     "mission_description": "Reestablish communications and assess the cause.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A Federation listening post has gone silent near the Breen frontier. Shall we proceed to reestablish communications and assess the cause.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: reestablish communications and assess the cause. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with reestablish communications and assess the cause..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1620,64 +1620,64 @@
     "mission_description": "Assist the convoy and guide them safely through the hazard.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A Starfleet convoy en route to Starbase 12 has encountered a navigational hazard. Shall we proceed to assist the convoy and guide them safely through the hazard.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: assist the convoy and guide them safely through the hazard. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assist the convoy and guide them safely through the hazard..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1721,64 +1721,64 @@
     "mission_description": "Investigate the vessel and ensure it poses no threat.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: An alien derelict has been found drifting in Federation space. Shall we proceed to investigate the vessel and ensure it poses no threat.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: investigate the vessel and ensure it poses no threat. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with investigate the vessel and ensure it poses no threat..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1822,64 +1822,64 @@
     "mission_description": "Support the Bajoran authorities and identify the source of interference.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: Reports of hostile interference have been received from a Bajoran outpost. Shall we proceed to support the bajoran authorities and identify the source of interference.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: support the bajoran authorities and identify the source of interference. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with support the bajoran authorities and identify the source of interference..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -1923,64 +1923,64 @@
     "mission_description": "Locate and assist the medical ship.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A Federation medical ship has gone off course in the Betazed sector. Shall we proceed to locate and assist the medical ship.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: locate and assist the medical ship. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with locate and assist the medical ship..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -2024,64 +2024,64 @@
     "mission_description": "Offer aid under treaty conditions and remain vigilant.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A Cardassian cargo vessel has requested emergency repairs near Federation space. Shall we proceed to offer aid under treaty conditions and remain vigilant.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: offer aid under treaty conditions and remain vigilant. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with offer aid under treaty conditions and remain vigilant..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -2125,64 +2125,64 @@
     "mission_description": "Survey the structure and collect data while keeping safe distance.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: Sensor readings indicate massive power fluctuations near a Dyson sphere remnant. Shall we proceed to survey the structure and collect data while keeping safe distance.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: survey the structure and collect data while keeping safe distance. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with survey the structure and collect data while keeping safe distance..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -2226,64 +2226,64 @@
     "mission_description": "Repair the relays and restore Starfleet communications.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A subspace relay network has gone offline across two sectors. Shall we proceed to repair the relays and restore starfleet communications.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: repair the relays and restore starfleet communications. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with repair the relays and restore starfleet communications..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -2327,64 +2327,64 @@
     "mission_description": "Ensure the ambassador\u2019s safety during passage.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: A Federation ambassador has requested escort through a volatile region. Shall we proceed to ensure the ambassador\u2019s safety during passage.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: ensure the ambassador\u2019s safety during passage. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with ensure the ambassador\u2019s safety during passage..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
@@ -2428,64 +2428,64 @@
     "mission_description": "Assist in stabilizing the core and evacuate personnel if required.",
     "dialogue_tree": [
       {
-        "crew": "Commander Riker",
-        "line": "Commander Riker: Captain, Starfleet reports: An experimental warp core test facility has reported critical instability. Shall we proceed to assist in stabilizing the core and evacuate personnel if required.?",
+        "crew": "Lt. Worf",
+        "line": "Captain, sensors show activity consistent with the situation described: assist in stabilizing the core and evacuate personnel if required. What are your orders?",
         "options": [
           {
-            "label": "Set course and engage at warp 6",
-            "crew_reply": "Helm: 'Course laid in, engaging warp drive.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Worf: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 1
           },
           {
-            "label": "Request further data from Starfleet",
-            "crew_reply": "Lt. Commander Data: 'Additional telemetry incoming, Captain.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Worf: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 1
           },
           {
-            "label": "Assemble senior staff for briefing",
-            "crew_reply": "Riker: 'Aye, sir. Briefing in ten minutes.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Worf: 'Transmitting report to Starfleet, Captain.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Data: I've analyzed the situation, Captain. The optimal course of action aligns with assist in stabilizing the core and evacuate personnel if required..",
+        "line": "Captain, I've analyzed the readings. Would you like me to run a deeper scan or maintain current observation protocols?",
         "options": [
           {
-            "label": "Proceed cautiously",
-            "crew_reply": "Riker: 'Understood, maintain yellow alert.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Lt. Commander Data: 'Acknowledged, Captain. Executing your orders now.'",
             "next": 2
           },
           {
-            "label": "Initiate scan of the region",
-            "crew_reply": "Data: 'Scanning... results pending.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Lt. Commander Data: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": 2
           },
           {
-            "label": "Prepare for possible confrontation",
-            "crew_reply": "Worf: 'Shields at full power, weapons online.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Lt. Commander Data: 'Transmitting report to Starfleet, Captain.'",
             "next": 2
           }
         ]
       },
       {
-        "crew": "Lt. Worf",
-        "line": "Lt. Worf: Captain, our sensors indicate potential complications ahead.",
+        "crew": "Commander Riker",
+        "line": "Captain, shall we proceed according to Starfleet orders or await further confirmation?",
         "options": [
           {
-            "label": "Maintain defensive posture",
-            "crew_reply": "Worf: 'Aye, Captain. Weapons standing by.'",
+            "label": "Proceed with the mission as planned",
+            "crew_reply": "Commander Riker: 'Acknowledged, Captain. Executing your orders now.'",
             "next": null
           },
           {
-            "label": "Attempt peaceful communication",
-            "crew_reply": "O'Brien: 'Channel open, awaiting your command.'",
+            "label": "Hold position and gather more data",
+            "crew_reply": "Commander Riker: 'Understood. We'll continue monitoring and report changes immediately.'",
             "next": null
           },
           {
-            "label": "Proceed with mission objectives",
-            "crew_reply": "Riker: 'Acknowledged. Executing orders.'",
+            "label": "Alert Starfleet Command of developments",
+            "crew_reply": "Commander Riker: 'Transmitting report to Starfleet, Captain.'",
             "next": null
           }
         ]
