@@ -5,84 +5,105 @@
   "dialogue_tree": [
     {
       "crew": "Lt. Commander Data",
-      "line": "Captain, the science station is not responding to hails.",
+      "line": "Captain, the science station remains unresponsive to all hails. Telemetry indicates intermittent power fluctuations across its main grid.",
       "options": [
         {
-          "label": "Continue trying to hail Commander",
-          "crew_reply": "Data: 'Aye sir. Continuing to hail the station.'",
+          "label": "Attempt to establish a tight-beam link through the distortion",
+          "crew_reply": "Data: 'Link attempt initiated. No acknowledgment—carrier wave unstable.'",
           "next": 1
         },
         {
-          "label": "Scan for life signs Mr. Data",
-          "crew_reply": "Data: 'Scans show no life signs sir.'",
+          "label": "Scan for life-sign patterns inside the station",
+          "crew_reply": "Data: 'Multiple faint bio-signs detected. Readings are erratic.'",
           "next": 1
         },
         {
-          "label": "On screen Mr. Data",
-          "crew_reply": "Data: 'The station is now on the main viewscreen.'",
+          "label": "Route hails through subspace relay epsilon-five",
+          "crew_reply": "La Forge: 'Signal routed. Still no response, Captain.'",
           "next": 1
         }
       ]
     },
     {
       "crew": "Lt. Worf",
-      "line": "Captain, perimeter around Epsilon IV is clear.",
+      "line": "Captain, the station’s exterior hull shows minor scoring—possible micro-impacts. No defensive systems active.",
       "options": [
         {
-          "label": "Extend search grid over Epsilon IV",
-          "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+          "label": "Raise shields and hold current position",
+          "crew_reply": "Worf: 'Shields up. We remain outside weapons range.'",
           "next": 2
         },
         {
-          "label": "Maintain alert posture around Epsilon IV",
-          "crew_reply": "Riker: 'Yellow alert maintained.'",
+          "label": "Dispatch security detail via shuttlecraft",
+          "crew_reply": "Worf: 'Security team prepped and awaiting clearance.'",
           "next": 2
         },
         {
-          "label": "Log security markers for Epsilon IV",
-          "crew_reply": "Worf: 'Markers placed and tracked.'",
+          "label": "Maintain red alert and continue monitoring perimeter",
+          "crew_reply": "Riker: 'Red alert maintained. All departments report ready status.'",
           "next": 2
         }
       ]
     },
     {
       "crew": "Lt. Commander La Forge",
-      "line": "Captain, power and systems checks returning data from Epsilon IV.",
+      "line": "Captain, sensor readings show unstable EPS conduits aboard the station—power surges could ignite at any moment.",
       "options": [
         {
-          "label": "Balance EPS load for Epsilon IV",
-          "crew_reply": "La Forge: 'Load balanced across grids.'",
+          "label": "Isolate the station’s reactor field remotely",
+          "crew_reply": "La Forge: 'Remote isolation engaged. Containment holding for now.'",
           "next": 3
         },
         {
-          "label": "Run subsystem diagnostics at Epsilon IV",
-          "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+          "label": "Beam emergency power relays to their control grid",
+          "crew_reply": "O'Brien: 'Pattern established. Power transfer steady at thirty percent.'",
           "next": 3
         },
         {
-          "label": "Open maintenance channel to Epsilon IV",
-          "crew_reply": "O'Brien: 'Maintenance channel secured.'",
+          "label": "Divert auxiliary power to reinforce our shields",
+          "crew_reply": "La Forge: 'Auxiliary diverted. Structural field stable.'",
           "next": 3
         }
       ]
     },
     {
-      "crew": "Commander Riker",
-      "line": "Captain, operations at Epsilon IV are stable enough to proceed.",
+      "crew": "Counselor Troi",
+      "line": "Captain, I’m sensing fear and confusion from the station’s personnel—some are barely conscious.",
       "options": [
         {
-          "label": "Commit operational plan for Epsilon IV",
-          "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+          "label": "Inform Starfleet Medical to prepare for casualties",
+          "crew_reply": "Troi: 'Message relayed. Medical teams are on standby at Starbase 12.'",
+          "next": 4
+        },
+        {
+          "label": "Have Dr. Crusher coordinate triage procedures",
+          "crew_reply": "Crusher: 'Acknowledged. Medical protocols ready for transport.'",
+          "next": 4
+        },
+        {
+          "label": "Advise security to secure transporter rooms for medical evacuation",
+          "crew_reply": "Worf: 'Transporter access secured. Teams in position.'",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, systems aboard the station are stabilizing. The science team is regaining control of life support.",
+      "options": [
+        {
+          "label": "Stand down from red alert and begin recovery operations",
+          "crew_reply": "Riker: 'Standing down. Recovery procedures underway.'",
           "next": null
         },
         {
-          "label": "Transmit interim report on Epsilon IV",
-          "crew_reply": "O'Brien: 'Report sent and acknowledged.'",
+          "label": "Transmit mission data and power logs to Starfleet Command",
+          "crew_reply": "Data: 'Transmission complete. Command confirms receipt.'",
           "next": null
         },
         {
-          "label": "Stand down to condition green at Epsilon IV",
-          "crew_reply": "Helm: 'Condition set to green.'",
+          "label": "Maintain orbit until the station confirms full functionality",
+          "crew_reply": "La Forge: 'Holding orbit. Monitoring until systems normalize.'",
           "next": null
         }
       ]
@@ -91,43 +112,23 @@
   "debriefs": [
     {
       "result": "success",
-      "text": "Mission at Epsilon IV Station completed successfully. Crew performance within parameters."
+      "text": "Epsilon IV Station secured and crew stabilized. Starfleet Medical reports all personnel in recovery."
     },
     {
       "result": "success",
-      "text": "All objectives at Epsilon IV Station achieved with minimal deviation."
+      "text": "Mission accomplished. Power restoration and evacuation completed with minimal damage."
     },
     {
       "result": "success",
-      "text": "Stabilization efforts at Epsilon IV Station effective. Station integrity restored."
-    },
-    {
-      "result": "success",
-      "text": "Mission data from Epsilon IV Station transmitted to Starfleet Command."
-    },
-    {
-      "result": "success",
-      "text": "Operations at Epsilon IV Station concluded without incident."
+      "text": "Science team on Epsilon IV restored to operational status. Data transfer to Command confirmed."
     },
     {
       "result": "failure",
-      "text": "Mission at Epsilon IV Station incomplete. Primary objective not met."
+      "text": "Containment field collapsed before evacuation completed. Station integrity compromised."
     },
     {
       "result": "failure",
-      "text": "Operational errors encountered during Epsilon IV Station response."
-    },
-    {
-      "result": "failure",
-      "text": "Unstable conditions at Epsilon IV Station forced withdrawal."
-    },
-    {
-      "result": "failure",
-      "text": "Data from Epsilon IV Station only partially recovered."
-    },
-    {
-      "result": "failure",
-      "text": "Communication with Epsilon IV Station lost before completion."
+      "text": "Epsilon IV mission aborted due to escalating power surges. Starfleet investigation pending."
     }
   ]
 },
