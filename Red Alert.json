@@ -110,27 +110,47 @@
     }
   ],
   "debriefs": [
-    {
-      "result": "success",
-      "text": "Epsilon IV Station secured and crew stabilized. Starfleet Medical reports all personnel in recovery."
-    },
-    {
-      "result": "success",
-      "text": "Mission accomplished. Power restoration and evacuation completed with minimal damage."
-    },
-    {
-      "result": "success",
-      "text": "Science team on Epsilon IV restored to operational status. Data transfer to Command confirmed."
-    },
-    {
-      "result": "failure",
-      "text": "Containment field collapsed before evacuation completed. Station integrity compromised."
-    },
-    {
-      "result": "failure",
-      "text": "Epsilon IV mission aborted due to escalating power surges. Starfleet investigation pending."
-    }
-  ]
+  {
+    "result": "success",
+    "text": "The crew executed a textbook recovery operation at Epsilon IV. Data’s diagnostics isolated the unstable EPS conduits before a cascade failure could occur, while La Forge’s engineering team contained the surges with precision. Security and medical contingents worked in concert to extract the research staff, and within hours station functions were restored to ninety-seven percent efficiency. Starfleet Command has cited the Enterprise for exceptional response under uncertain field conditions."
+  },
+  {
+    "result": "success",
+    "text": "Following coordinated efforts between the bridge and engineering sections, power stability was re-established aboard the Epsilon IV station. Riker’s quick command decisions minimized risk to the science personnel, and Troi’s assessment of crew distress guided medical triage once transport commenced. By mission’s end, all systems were restored and critical data preserved. The operation has been logged as a model of Federation crisis management."
+  },
+  {
+    "result": "success",
+    "text": "Containment of the reactor field at Epsilon IV was achieved moments before overload. La Forge’s remote isolation protocols and O’Brien’s transport alignment prevented catastrophic loss. The science team, though shaken, resumed limited study within twelve hours. The mission demonstrated exemplary coordination among senior officers and reaffirmed the Enterprise’s standing as Starfleet’s premier response vessel."
+  },
+  {
+    "result": "success",
+    "text": "Initial scans indicated a total systems collapse, yet decisive action from the bridge reversed the trend. Energy redistribution through the Enterprise’s deflector array stabilized the orbital station’s core grid. The distress team was recovered without incident, and Starfleet Science has already resumed experiments. Command has praised the crew’s adaptability in restoring a vital outpost to operational status."
+  },
+  {
+    "result": "success",
+    "text": "All mission parameters at Epsilon IV were met ahead of schedule. Communications were re-established, damaged research modules repaired, and medical assistance rendered efficiently. Captain Picard’s measured approach prevented panic among the station crew and ensured a calm, orderly evacuation. Starfleet’s after-action review classified the incident as successfully resolved with no standing anomalies detected."
+  },
+  {
+    "result": "failure",
+    "text": "Despite repeated attempts to stabilize the Epsilon IV power grid, containment failed moments before full restoration. A cascading energy surge forced immediate evacuation, resulting in the total loss of the primary research array. Starfleet Engineering will initiate a long-term reconstruction effort. The crew’s actions prevented casualties, but the installation itself was deemed unsalvageable."
+  },
+  {
+    "result": "failure",
+    "text": "Communications with Epsilon IV deteriorated beyond recovery after a second wave of energy spikes disabled both the station’s main computer and transporter buffers. The Enterprise was ordered to withdraw for safety. Although a partial data cache was transmitted before loss of contact, the status of several research personnel remains unknown pending Starfleet reconnaissance."
+  },
+  {
+    "result": "failure",
+    "text": "Attempts to reroute power through auxiliary conduits overloaded the containment field, causing critical EPS ruptures aboard the Epsilon IV station. Emergency beam-outs succeeded for only half the science staff before transporter lock was lost. The remaining survivors were later recovered by a Starfleet rescue vessel. A board of inquiry will review command decisions during the event."
+  },
+  {
+    "result": "failure",
+    "text": "The Epsilon IV operation ended prematurely when subspace interference from the planet’s ionosphere severed transporter integrity. Engineering countermeasures proved ineffective, and Starfleet Command ordered disengagement to prevent further loss. The mission is logged as incomplete, with partial telemetry recovered for subsequent analysis by Federation Science Council."
+  },
+  {
+    "result": "failure",
+    "text": "An unanticipated feedback pulse from the station’s damaged core rendered all remote control functions inoperative. With containment decaying rapidly, Captain Picard ordered immediate withdrawal. The science installation was destroyed minutes later. No fatalities among the Enterprise crew were reported, but the loss of Epsilon IV’s research data represents a setback to Federation astrophysics."
+  }
+]
 },
   {
     "starfleet_message": "To Captain Picard: Starfleet Command reports an unexplained energy field near the Argus Array.",
