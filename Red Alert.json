@@ -6,105 +6,105 @@
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Assemble an away team (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Barclay: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 1
           },
           {
-            "label": "Broadcast Federation assistance protocol (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Commander Data: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Initiate tractor lock (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Barclay: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Broadcast Federation assistance protocol (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Commander Data: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Commander Riker: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Barclay",
-        "line": "Power distribution stable; auxiliary systems standing by.",
+        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
         "options": [
           {
-            "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Commander Data: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 3
           },
           {
-            "label": "Launch a probe (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Commander Riker: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 3
           },
           {
-            "label": "Assemble an away team (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Counselor Troi: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Commander Riker: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 4
           },
           {
-            "label": "Deploy navigation buoy (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Counselor Troi: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 4
           },
           {
-            "label": "Broadcast Federation assistance protocol (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Barclay: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Counselor Troi: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Recalibrate sensors (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Barclay: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power (Investigate the distress call and ensure the safety of the science team)",
-            "crew_reply": "Lt. Commander Data: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           }
         ]
@@ -126,60 +126,60 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Launch a probe (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Lt. Worf: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Establish tight-beam comms (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Ensign Crusher: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Transport",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Lt. Worf: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Transport",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Deploy navigation buoy (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Lt. Commander La Forge: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Recalibrate sensors (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           },
           {
-            "label": "Assemble an away team (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 3
           },
           {
-            "label": "Establish tight-beam comms (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Chief O'Brien: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Transport",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           }
         ]
@@ -189,18 +189,18 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Assemble an away team (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 4
           },
           {
-            "label": "Initiate tractor lock (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Transport",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 4
           },
           {
-            "label": "Establish tight-beam comms (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Lt. Worf: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Transport",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           }
         ]
@@ -210,18 +210,18 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Launch a probe (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Lt. Worf: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Assess the transport’s situation and avoid provoking Klingon forces)",
-            "crew_reply": "Ensign Crusher: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           }
         ]
@@ -240,42 +240,42 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Barclay",
-        "line": "Power distribution stable; auxiliary systems standing by.",
+        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Lt. Worf: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           },
           {
-            "label": "Launch a probe (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Ensign Crusher: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 1
           },
           {
-            "label": "Establish tight-beam comms (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Commander Riker: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Ensign Crusher: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Commander Riker: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Lt. Barclay: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
@@ -285,18 +285,18 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Commander Riker: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Launch a probe (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Lt. Barclay: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           },
           {
-            "label": "Recalibrate sensors (Stabilize subspace channels and identify the cause of interference)",
-            "crew_reply": "Lt. Worf: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           }
         ]
@@ -315,42 +315,42 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Recalibrate sensors (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Lt. Worf: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           },
           {
-            "label": "Initiate tractor lock (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Counselor Troi: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Initiate tractor lock (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Divert auxiliary power (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           },
           {
-            "label": "Reroute through secondary relays (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Lt. Commander Data: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           }
         ]
@@ -360,39 +360,39 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Recalibrate sensors (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Counselor Troi: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           },
           {
-            "label": "Establish tight-beam comms (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Lt. Commander Data: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           },
           {
-            "label": "Launch a probe (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Lt. Worf: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Lt. Commander Data: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           },
           {
-            "label": "Establish tight-beam comms (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Lt. Worf: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Broadcast Federation assistance protocol (Determine their intentions and secure the mining operations)",
-            "crew_reply": "Ensign Crusher: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           }
         ]
@@ -411,21 +411,21 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Initiate tractor lock (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Lt. Commander Data: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Broadcast Federation assistance protocol (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Chief O'Brien: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
@@ -435,39 +435,39 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Lt. Commander Data: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Counselor Troi: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Initiate tractor lock (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Counselor Troi: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           },
           {
-            "label": "Launch a probe (Assist the Romulan vessel while maintaining Federation security protocols)",
-            "crew_reply": "Lt. Commander La Forge: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           }
         ]
@@ -489,81 +489,81 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Recalibrate sensors (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Counselor Troi: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate sensors to subspace harmonics",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           },
           {
-            "label": "Initiate tractor lock (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Anomaly",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Chief O'Brien: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Initiate tractor lock (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Anomaly",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
+            "label": "Launch Class‑IV probe to analyze anomaly",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           },
           {
-            "label": "Deploy navigation buoy (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Lt. Commander La Forge: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Assemble an away team (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Chief O'Brien: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 3
           },
           {
-            "label": "Initiate tractor lock (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Anomaly",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 3
           },
           {
-            "label": "Broadcast Federation assistance protocol (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Counselor Troi: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Recalibrate sensors (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Lt. Commander La Forge: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate sensors to subspace harmonics",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 4
           },
           {
-            "label": "Establish tight-beam comms (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Counselor Troi: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Anomaly",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           },
           {
-            "label": "Divert auxiliary power (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Lt. Worf: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to sensor grid",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 4
           }
         ]
@@ -573,18 +573,18 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Assemble an away team (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Counselor Troi: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           },
           {
-            "label": "Launch a probe (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Lt. Worf: 'Probe launched; telemetry incoming.'",
+            "label": "Launch Class‑IV probe to analyze anomaly",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Analyze the anomaly without crossing into restricted space)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Anomaly",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           }
         ]
@@ -606,18 +606,18 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Assemble an away team (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 1
           },
           {
-            "label": "Broadcast Federation assistance protocol (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Worf: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander Data: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           }
         ]
@@ -627,60 +627,60 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Initiate tractor lock (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Transport",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Deploy navigation buoy (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander Data: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 2
           },
           {
-            "label": "Establish tight-beam comms (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Ensign Crusher: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Transport",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander Data: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           },
           {
-            "label": "Reroute through secondary relays (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Ensign Crusher: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 3
           },
           {
-            "label": "Initiate tractor lock (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Transport",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Ensign Crusher: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 4
           },
           {
-            "label": "Initiate tractor lock (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Transport",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 4
           },
           {
-            "label": "Broadcast Federation assistance protocol (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Worf: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           }
         ]
@@ -690,18 +690,18 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Recalibrate sensors (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander La Forge: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           },
           {
-            "label": "Broadcast Federation assistance protocol (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Worf: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Coordinate evacuation and safeguard civilian transports)",
-            "crew_reply": "Lt. Commander Data: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           }
         ]
@@ -720,42 +720,42 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Initiate tractor lock (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Commander Riker: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Yosemite",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Lt. Worf: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Initiate tractor lock (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Yosemite",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Establish tight-beam comms (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Lt. Worf: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Yosemite",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           }
         ]
@@ -765,39 +765,39 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Recalibrate sensors (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Lt. Worf: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           },
           {
-            "label": "Broadcast Federation assistance protocol (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Chief O'Brien: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           },
           {
-            "label": "Assemble an away team (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Commander Riker: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Recalibrate sensors (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Chief O'Brien: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Commander Riker: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Locate the Yosemite and recover her crew)",
-            "crew_reply": "Lt. Commander La Forge: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           }
         ]
@@ -816,63 +816,63 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Launch a probe (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Commander Riker: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Lt. Commander Data: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Recalibrate sensors (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Lt. Barclay: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Lt. Commander Data: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Broadcast Federation assistance protocol (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Lt. Barclay: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Chief O'Brien: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Launch a probe (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Lt. Barclay: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Chief O'Brien: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           },
           {
-            "label": "Recalibrate sensors (Study the phenomenon and prevent border conflict)",
-            "crew_reply": "Commander Riker: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           }
         ]
@@ -891,63 +891,63 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Counselor Troi: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Commander Riker: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Assemble an away team (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Assemble an away team (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Commander Riker: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Lt. Commander La Forge: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Chief O'Brien: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Launch a probe (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Lt. Commander La Forge: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 3
           },
           {
-            "label": "Divert auxiliary power (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Chief O'Brien: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 3
           },
           {
-            "label": "Deploy navigation buoy (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Counselor Troi: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 3
           }
         ]
@@ -957,18 +957,18 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Chief O'Brien: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Counselor Troi: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           },
           {
-            "label": "Reroute through secondary relays (Investigate the source while maintaining defensive readiness)",
-            "crew_reply": "Commander Riker: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           }
         ]
@@ -987,105 +987,105 @@
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Commander Data: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           },
           {
-            "label": "Launch a probe (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Barclay: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Commander Data: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Establish tight-beam comms (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Barclay: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Freighter",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Commander Riker: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Barclay: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           },
           {
-            "label": "Launch a probe (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Commander Riker: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 3
           },
           {
-            "label": "Deploy navigation buoy (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Counselor Troi: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Barclay",
-        "line": "Power distribution stable; auxiliary systems standing by.",
+        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
         "options": [
           {
-            "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Commander Riker: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 4
           },
           {
-            "label": "Recalibrate sensors (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Counselor Troi: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 4
           },
           {
-            "label": "Deploy navigation buoy (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Commander Data: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 4
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Divert auxiliary power (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Commander Data: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Freighter",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Find the freighter and determine the cause of its silence)",
-            "crew_reply": "Lt. Barclay: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           }
         ]
@@ -1104,21 +1104,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Initiate tractor lock (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Romulan",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Launch a probe (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Counselor Troi: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 1
           },
           {
-            "label": "Recalibrate sensors (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Chief O'Brien: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           }
         ]
@@ -1128,60 +1128,60 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Counselor Troi: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Romulan",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Lt. Worf: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Chief O'Brien: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 3
           },
           {
-            "label": "Assemble an away team (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Lt. Worf: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 3
           },
           {
-            "label": "Establish tight-beam comms (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Ensign Crusher: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Romulan",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Lt. Worf: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           },
           {
-            "label": "Recalibrate sensors (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           },
           {
-            "label": "Launch a probe (Conduct discreet scans and verify Romulan activity)",
-            "crew_reply": "Counselor Troi: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           }
         ]
@@ -1203,60 +1203,60 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Recalibrate sensors (Render aid and secure the area for medical response)",
-            "crew_reply": "Counselor Troi: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           },
           {
-            "label": "Initiate tractor lock (Render aid and secure the area for medical response)",
-            "crew_reply": "Commander Riker: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Render aid and secure the area for medical response)",
-            "crew_reply": "Ensign Crusher: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Render aid and secure the area for medical response)",
-            "crew_reply": "Commander Riker: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Establish tight-beam comms (Render aid and secure the area for medical response)",
-            "crew_reply": "Ensign Crusher: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Render aid and secure the area for medical response)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Launch a probe (Render aid and secure the area for medical response)",
-            "crew_reply": "Ensign Crusher: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Render aid and secure the area for medical response)",
-            "crew_reply": "Lt. Commander La Forge: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           },
           {
-            "label": "Broadcast Federation assistance protocol (Render aid and secure the area for medical response)",
-            "crew_reply": "Counselor Troi: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           }
         ]
@@ -1278,60 +1278,60 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Initiate tractor lock (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Probe",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Chief O'Brien: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           },
           {
-            "label": "Broadcast Federation assistance protocol (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Ensign Crusher: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Launch a probe (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           },
           {
-            "label": "Reroute through secondary relays (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Ensign Crusher: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Lt. Commander La Forge: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Recalibrate sensors (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           },
           {
-            "label": "Divert auxiliary power (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 3
           },
           {
-            "label": "Assemble an away team (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Lt. Worf: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: engineering and science",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 3
           }
         ]
@@ -1341,18 +1341,18 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Initiate tractor lock (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Probe",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 4
           },
           {
-            "label": "Broadcast Federation assistance protocol (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Lt. Worf: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           },
           {
-            "label": "Recalibrate sensors (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Chief O'Brien: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 4
           }
         ]
@@ -1362,18 +1362,18 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Lt. Worf: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Establish tight-beam comms (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Chief O'Brien: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Probe",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           },
           {
-            "label": "Reroute through secondary relays (Recover the probe and analyze its malfunction)",
-            "crew_reply": "Ensign Crusher: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           }
         ]
@@ -1392,21 +1392,21 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Assemble an away team (Prevent interference while protecting the population)",
-            "crew_reply": "Ensign Crusher: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Prevent interference while protecting the population)",
-            "crew_reply": "Chief O'Brien: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Prevent interference while protecting the population)",
-            "crew_reply": "Lt. Worf: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           }
         ]
@@ -1416,39 +1416,39 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Launch a probe (Prevent interference while protecting the population)",
-            "crew_reply": "Chief O'Brien: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           },
           {
-            "label": "Assemble an away team (Prevent interference while protecting the population)",
-            "crew_reply": "Lt. Worf: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 2
           },
           {
-            "label": "Establish tight-beam comms (Prevent interference while protecting the population)",
-            "crew_reply": "Counselor Troi: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Prevent interference while protecting the population)",
-            "crew_reply": "Lt. Worf: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           },
           {
-            "label": "Establish tight-beam comms (Prevent interference while protecting the population)",
-            "crew_reply": "Counselor Troi: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Recalibrate sensors (Prevent interference while protecting the population)",
-            "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           }
         ]
@@ -1470,81 +1470,81 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Reestablish communications and assess the cause)",
-            "crew_reply": "Chief O'Brien: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Reestablish communications and assess the cause)",
-            "crew_reply": "Lt. Barclay: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Launch a probe (Reestablish communications and assess the cause)",
-            "crew_reply": "Counselor Troi: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Reestablish communications and assess the cause)",
-            "crew_reply": "Lt. Barclay: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 2
           },
           {
-            "label": "Assemble an away team (Reestablish communications and assess the cause)",
-            "crew_reply": "Counselor Troi: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Reestablish communications and assess the cause)",
-            "crew_reply": "Lt. Commander La Forge: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Barclay",
-        "line": "Power distribution stable; auxiliary systems standing by.",
+        "line": "Lt. Barclay: Power distribution stable; auxiliary capacity available.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Reestablish communications and assess the cause)",
-            "crew_reply": "Counselor Troi: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 3
           },
           {
-            "label": "Initiate tractor lock (Reestablish communications and assess the cause)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 3
           },
           {
-            "label": "Recalibrate sensors (Reestablish communications and assess the cause)",
-            "crew_reply": "Chief O'Brien: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Assemble an away team (Reestablish communications and assess the cause)",
-            "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 4
           },
           {
-            "label": "Broadcast Federation assistance protocol (Reestablish communications and assess the cause)",
-            "crew_reply": "Chief O'Brien: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           },
           {
-            "label": "Deploy navigation buoy (Reestablish communications and assess the cause)",
-            "crew_reply": "Lt. Barclay: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 4
           }
         ]
@@ -1554,18 +1554,18 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Reestablish communications and assess the cause)",
-            "crew_reply": "Chief O'Brien: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Reestablish communications and assess the cause)",
-            "crew_reply": "Lt. Barclay: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power (Reestablish communications and assess the cause)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           }
         ]
@@ -1587,18 +1587,18 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Recalibrate sensors (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           },
           {
-            "label": "Establish tight-beam comms (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Lt. Worf: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Chief O'Brien: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           }
         ]
@@ -1608,60 +1608,60 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Initiate tractor lock (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Divert auxiliary power (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Chief O'Brien: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Lt. Commander La Forge: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Chief O'Brien: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           },
           {
-            "label": "Assemble an away team (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Lt. Commander La Forge: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 3
           },
           {
-            "label": "Recalibrate sensors (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Lt. Commander La Forge: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           },
           {
-            "label": "Divert auxiliary power (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Ensign Crusher: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 4
           },
           {
-            "label": "Deploy navigation buoy (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Lt. Worf: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 4
           }
         ]
@@ -1671,18 +1671,18 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Assemble an away team (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Ensign Crusher: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           },
           {
-            "label": "Recalibrate sensors (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Lt. Worf: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Assist the convoy and guide them safely through the hazard)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           }
         ]
@@ -1704,60 +1704,60 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Recalibrate sensors (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Commander Riker: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           },
           {
-            "label": "Assemble an away team (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Lt. Commander Data: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 1
           },
           {
-            "label": "Establish tight-beam comms (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Lt. Barclay: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Lt. Commander Data: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Lt. Barclay: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Lt. Commander La Forge: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Divert auxiliary power (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Lt. Barclay: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Lt. Commander La Forge: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Investigate the vessel and ensure it poses no threat)",
-            "crew_reply": "Commander Riker: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           }
         ]
@@ -1776,63 +1776,63 @@
     "dialogue_tree": [
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Divert auxiliary power (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Lt. Worf: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Launch a probe (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Commander Riker: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 1
           },
           {
-            "label": "Initiate tractor lock (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Initiate tractor lock (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Commander Riker: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Reroute through secondary relays (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Ensign Crusher: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           },
           {
-            "label": "Divert auxiliary power (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Initiate tractor lock (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Launch a probe (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Counselor Troi: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Support the Bajoran authorities and identify the source of interference)",
-            "crew_reply": "Lt. Worf: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           }
         ]
@@ -1854,60 +1854,60 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Assemble an away team (Locate and assist the medical ship)",
-            "crew_reply": "Lt. Worf: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Locate and assist the medical ship)",
-            "crew_reply": "Commander Riker: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Locate and assist the medical ship)",
-            "crew_reply": "Chief O'Brien: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Assemble an away team (Locate and assist the medical ship)",
-            "crew_reply": "Commander Riker: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Locate and assist the medical ship)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on Ship",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Locate and assist the medical ship)",
-            "crew_reply": "Ensign Crusher: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Locate and assist the medical ship)",
-            "crew_reply": "Chief O'Brien: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to Ship",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Deploy navigation buoy (Locate and assist the medical ship)",
-            "crew_reply": "Ensign Crusher: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power (Locate and assist the medical ship)",
-            "crew_reply": "Lt. Worf: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to tractor emitters",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           }
         ]
@@ -1929,18 +1929,18 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander La Forge: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           },
           {
-            "label": "Recalibrate sensors (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Commander Riker: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander Data: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           }
         ]
@@ -1950,60 +1950,60 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Initiate tractor lock (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Commander Riker: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Divert auxiliary power (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander Data: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           },
           {
-            "label": "Establish tight-beam comms (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Ensign Crusher: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Recalibrate sensors (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander Data: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           },
           {
-            "label": "Divert auxiliary power (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Ensign Crusher: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 3
           },
           {
-            "label": "Broadcast Federation assistance protocol (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander La Forge: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Ensign Crusher: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 4
           },
           {
-            "label": "Launch a probe (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander La Forge: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 4
           },
           {
-            "label": "Establish tight-beam comms (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Commander Riker: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           }
         ]
@@ -2013,18 +2013,18 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Divert auxiliary power (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Commander Riker: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Recalibrate sensors (Offer aid under treaty conditions and remain vigilant)",
-            "crew_reply": "Lt. Commander Data: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": null
           }
         ]
@@ -2043,63 +2043,63 @@
     "dialogue_tree": [
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Counselor Troi: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Recalibrate sensors (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Lt. Commander Data: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Lt. Worf: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Lt. Commander Data: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Assemble an away team (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Lt. Worf: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": 2
           },
           {
-            "label": "Divert auxiliary power (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Chief O'Brien: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Initiate tractor lock (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           },
           {
-            "label": "Divert auxiliary power (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Chief O'Brien: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           },
           {
-            "label": "Launch a probe (Survey the structure and collect data while keeping safe distance)",
-            "crew_reply": "Counselor Troi: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": null
           }
         ]
@@ -2118,63 +2118,63 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Initiate tractor lock (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Counselor Troi: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Deploy navigation buoy (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Commander Riker: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 1
           },
           {
-            "label": "Establish tight-beam comms (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Lt. Commander La Forge: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Initiate tractor lock (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Commander Riker: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Lt. Commander La Forge: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Lt. Worf: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Lt. Commander La Forge: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 3
           },
           {
-            "label": "Initiate tractor lock (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 3
           },
           {
-            "label": "Launch a probe (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Counselor Troi: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 3
           }
         ]
@@ -2184,39 +2184,39 @@
         "line": "Environmental controls stable; warp field within tolerance.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Lt. Worf: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 4
           },
           {
-            "label": "Divert auxiliary power (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 4
           },
           {
-            "label": "Deploy navigation buoy (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Commander Riker: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": 4
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Counselor Troi: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Commander Riker: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           },
           {
-            "label": "Reroute through secondary relays (Repair the relays and restore Starfleet communications)",
-            "crew_reply": "Lt. Commander La Forge: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": null
           }
         ]
@@ -2235,21 +2235,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Ensign Crusher: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           },
           {
-            "label": "Initiate tractor lock (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Chief O'Brien: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 1
           },
           {
-            "label": "Divert auxiliary power (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Lt. Worf: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           }
         ]
@@ -2259,39 +2259,39 @@
         "line": "All systems operating within Starfleet parameters.",
         "options": [
           {
-            "label": "Broadcast Federation assistance protocol (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Chief O'Brien: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 2
           },
           {
-            "label": "Initiate tractor lock (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 2
           },
           {
-            "label": "Reroute through secondary relays (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Lt. Commander Data: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Chief O'Brien",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Chief O'Brien: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Lt. Worf: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Lt. Commander Data: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Ensure the ambassador’s safety during passage)",
-            "crew_reply": "Ensign Crusher: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           }
         ]
@@ -2310,105 +2310,105 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Divert auxiliary power (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Commander Riker: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Reroute through secondary relays (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Counselor Troi: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 1
           },
           {
-            "label": "Broadcast Federation assistance protocol (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Lt. Worf: 'Protocol transmitted; awaiting acknowledgment.'",
+            "label": "Transmit Starfleet assistance protocol",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Commander Riker: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Divert auxiliary power (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Counselor Troi: 'Power rerouted; system response nominal.'",
+            "label": "Divert auxiliary power to shields",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 2
           },
           {
-            "label": "Recalibrate sensors (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Lt. Worf: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 2
           },
           {
-            "label": "Launch a probe (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Lt. Commander Data: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Sensor calibration nominal, no anomalies present.",
+        "line": "Counselor Troi: No anomalies detected; sensors ready.",
         "options": [
           {
-            "label": "Reroute through secondary relays (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Lt. Worf: 'Traffic rerouted; throughput stabilized.'",
+            "label": "Reroute power via secondary EPS relays",
+            "crew_reply": "Lt. Commander La Forge: 'Power rerouted; systems stable.'",
             "next": 3
           },
           {
-            "label": "Recalibrate sensors (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Lt. Commander Data: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 3
           },
           {
-            "label": "Launch a probe (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Commander Riker: 'Probe launched; telemetry incoming.'",
+            "label": "Launch reconnaissance probe on intercept course",
+            "crew_reply": "Lt. Commander La Forge: 'Probe away; telemetry nominal.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Subsystems report optimal efficiency across all decks.",
+        "line": "Lt. Worf: Systems nominal; standing by for orders.",
         "options": [
           {
-            "label": "Establish tight-beam comms (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Lt. Commander Data: 'Tight-beam established; signal clarity improved.'",
+            "label": "Open tight‑beam channel to target vessel",
+            "crew_reply": "Chief O'Brien: 'Link established; signal quality optimal.'",
             "next": 4
           },
           {
-            "label": "Recalibrate sensors (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Commander Riker: 'Sensor array recalibrated; resolution increased.'",
+            "label": "Recalibrate long‑range sensor array",
+            "crew_reply": "Lt. Commander Data: 'Sensor calibration complete; resolution improved.'",
             "next": 4
           },
           {
-            "label": "Initiate tractor lock (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Counselor Troi: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": 4
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Primary systems functioning at peak efficiency.",
+        "line": "Lt. Commander Data: All primary systems stable; no faults detected.",
         "options": [
           {
-            "label": "Deploy navigation buoy (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Commander Riker: 'Buoy deployed; broadcasting advisories.'",
+            "label": "Deploy warning buoy to local traffic lane",
+            "crew_reply": "Ensign Crusher: 'Navigation buoy deployed; beacon active.'",
             "next": null
           },
           {
-            "label": "Assemble an away team (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Counselor Troi: 'Away team forming; awaiting final authorization.'",
+            "label": "Assemble away team: standard complement",
+            "crew_reply": "Commander Riker: 'Away team assembled; awaiting orders.'",
             "next": null
           },
           {
-            "label": "Initiate tractor lock (Assist in stabilizing the core and evacuate personnel if required)",
-            "crew_reply": "Lt. Worf: 'Tractor beam engaged; holding steady.'",
+            "label": "Engage tractor beam on target vessel",
+            "crew_reply": "Lt. Worf: 'Tractor beam locked; maintaining hold.'",
             "next": null
           }
         ]
