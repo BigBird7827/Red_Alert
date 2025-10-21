@@ -20,7 +20,7 @@ At the heart of the interface lies **LCARS (Library Computer Access/Retrieval Sy
 - **Dynamic Scenario System:** Storylines are driven by external JSON data, allowing for new missions, variable outcomes, and replayable exercises.  
 - **Command Decisions:** Choose from multiple dialogue and tactical options that shape your mission’s success—or failure.  
 - **Immersive Atmosphere:** Dialogue, alerts, and interface aesthetics capture the tone and pacing of classic *Star Trek* bridge operations.  
-- **Expanding Library:** Future updates will introduce additional missions, departments, and shipboard challenges.  
+- **Expanding Library:** Future revisions will introduce additional missions, departments, and shipboard challenges.  
 
 ---
 
