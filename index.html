@@ -53,14 +53,9 @@ header, footer {
   cursor: pointer;
   color: var(--white);
   background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.4));
-  box-shadow: inset 0 2px 3px rgba(255,255,255,0.3), inset 0 -2px 3px rgba(0,0,0,0.5), 0 2px 5px rgba(0,0,0,0.6);
-  backdrop-filter: blur(2px);
   transition: all 0.2s ease;
 }
-.alert-btn:hover {
-  transform: scale(1.08);
-  box-shadow: inset 0 2px 4px rgba(255,255,255,0.4), inset 0 -2px 4px rgba(0,0,0,0.6), 0 3px 6px rgba(0,0,0,0.7);
-}
+.alert-btn:hover { transform: scale(1.08); }
 #red-alert { background: linear-gradient(to bottom, #c00000, #4a0000); }
 #yellow-alert { background: linear-gradient(to bottom, #d1b200, #5c4b00); }
 #green-alert { background: linear-gradient(to bottom, #00a65a, #003d24); }
@@ -153,6 +148,13 @@ footer { transition: background 0.5s ease; }
   text-align: left;
   transition: opacity 0.6s ease;
 }
+#fx-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  overflow: hidden;
+}
 .dialog-section {
   margin-bottom: 16px;
   text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
@@ -210,13 +212,8 @@ h2 {
   cursor: pointer;
   transition: all 0.2s ease;
   font-weight: bold;
-  box-shadow: inset 0 2px 2px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.4);
 }
-#options button:hover {
-  background: linear-gradient(to bottom, #555, #222);
-  transform: scale(1.05);
-  box-shadow: 0 0 8px rgba(201,162,61,0.5);
-}
+#options button:hover { transform: scale(1.05); }
 .hidden { display: none !important; }
 #debrief-overlay {
   position: absolute;
@@ -243,40 +240,135 @@ h2 {
   padding: 12px 26px;
   border-radius: 12px;
   cursor: pointer;
-  text-shadow: 0 1px 0 rgba(0,0,0,0.9);
-  box-shadow:
-    inset 0 2px 6px rgba(255,255,255,0.18),
-    inset 0 -4px 10px rgba(0,0,0,0.6),
-    0 6px 14px rgba(0,0,0,0.65),
-    0 0 12px rgba(201,162,61,0.18);
-  backdrop-filter: blur(2px);
-  transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
   margin-top: 50px;
 }
+.alert-btn,
+.lcars-btn,
+#options button,
+.begin-mission-btn {
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    inset 0 2px 3px rgba(255,255,255,0.3),
+    inset 0 -2px 3px rgba(0,0,0,0.5),
+    0 2px 5px rgba(0,0,0,0.6);
+  backdrop-filter: blur(2px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+.alert-btn::before,
+.lcars-btn::before,
+#options button::before,
+.begin-mission-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0));
+  pointer-events: none;
+}
+.alert-btn:hover,
+.lcars-btn:hover,
+#options button:hover,
 .begin-mission-btn:hover {
-  filter: brightness(1.06);
+  filter: brightness(1.03);
   transform: translateY(-1px);
   box-shadow:
-    inset 0 3px 7px rgba(255,255,255,0.22),
-    inset 0 -5px 12px rgba(0,0,0,0.7),
-    0 8px 16px rgba(0,0,0,0.7),
-    0 0 14px rgba(201,162,61,0.28);
+    inset 0 3px 4px rgba(255,255,255,0.35),
+    inset 0 -3px 4px rgba(0,0,0,0.6),
+    0 4px 8px rgba(0,0,0,0.7);
 }
+.alert-btn:active,
+.lcars-btn:active,
+#options button:active,
 .begin-mission-btn:active {
   transform: translateY(1px);
   box-shadow:
-    inset 0 1px 5px rgba(255,255,255,0.15),
-    inset 0 -6px 14px rgba(0,0,0,0.75),
-    0 3px 8px rgba(0,0,0,0.6),
-    0 0 8px rgba(201,162,61,0.25);
+    inset 0 1px 2px rgba(255,255,255,0.22),
+    inset 0 -4px 6px rgba(0,0,0,0.7),
+    0 2px 5px rgba(0,0,0,0.6);
 }
-.begin-mission-btn:focus-visible {
-  outline: none;
-  box-shadow:
-    0 0 0 2px rgba(0,0,0,0.9),
-    0 0 0 4px rgba(201,162,61,0.8),
-    inset 0 2px 6px rgba(255,255,255,0.18),
-    inset 0 -4px 10px rgba(0,0,0,0.6);
+@keyframes doublePulse {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  50% { opacity: 0; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.fx-ripple {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  margin-top: -6px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.12) 35%, rgba(255,255,255,0) 70%);
+  mix-blend-mode: screen;
+  animation: rippleMove 3s linear forwards, doublePulse 3s ease-in-out forwards;
+}
+@keyframes rippleMove {
+  0% { transform: scale(1); }
+  100% { transform: scale(140); }
+}
+.fx-sheen {
+  position: absolute;
+  top: -30%;
+  left: -40%;
+  width: 60%;
+  height: 160%;
+  background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.14) 45%, rgba(255,255,255,0) 90%);
+  transform: rotate(15deg);
+  mix-blend-mode: screen;
+  animation: sheenMove 3s cubic-bezier(0.25,0.1,0.3,1) forwards, doublePulse 3s ease-in-out forwards;
+}
+@keyframes sheenMove {
+  0% { transform: translateX(0) rotate(15deg); }
+  100% { transform: translateX(240%) rotate(15deg); }
+}
+.fx-scanline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.25), rgba(255,255,255,0));
+  animation: scanlineMove 3s linear forwards, doublePulse 3s ease-in-out forwards;
+}
+@keyframes scanlineMove {
+  0% { transform: translateY(-20px); }
+  100% { transform: translateY(110%); }
+}
+.fx-breath {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.18), rgba(255,255,255,0));
+  mix-blend-mode: screen;
+  animation: doublePulse 3s ease-in-out forwards;
+}
+.border-pulse-3s {
+  animation: borderPulse3s 3s ease-in-out forwards;
+}
+@keyframes borderPulse3s {
+  0% { box-shadow: 0 0 0 rgba(201,162,61,0.0); border-width: 1px; }
+  25% { box-shadow: 0 0 12px rgba(201,162,61,0.7); border-width: 2px; }
+  50% { box-shadow: 0 0 0 rgba(201,162,61,0.0); border-width: 1px; }
+  75% { box-shadow: 0 0 12px rgba(201,162,61,0.7); border-width: 2px; }
+  100% { box-shadow: 0 0 0 rgba(201,162,61,0.0); border-width: 1px; }
+}
+.fx-dot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(201,162,61,0.95);
+  filter: drop-shadow(0 0 5px rgba(201,162,61,0.8));
+  animation: dotRun 3s ease-out forwards, doublePulse 3s ease-in-out forwards;
+}
+@keyframes dotRun {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(180px); }
 }
 </style>
 </head>
@@ -308,6 +400,7 @@ h2 {
   </div>
   <div id="dialog-area">
     <div id="dialog-box">
+      <div id="fx-layer"></div>
       <div class="dialog-section" id="communique"></div>
       <div class="dialog-section" id="mission"></div>
       <div class="dialog-section" id="dialog"></div>
@@ -434,6 +527,24 @@ function updateStatusDisplay() {
     .join("");
 }
 updateStatusDisplay();
+const fxLayer=document.getElementById('fx-layer')
+function clearFx(){ fxLayer.innerHTML=''; document.getElementById('dialog').classList.remove('border-pulse-3s') }
+function fxRipple(){ const e=document.createElement('div'); e.className='fx-ripple'; fxLayer.appendChild(e); setTimeout(clearFx, 3000) }
+function fxSheen(){ const e=document.createElement('div'); e.className='fx-sheen'; fxLayer.appendChild(e); setTimeout(clearFx, 3000) }
+function fxScanlines(){ for(let i=0;i<5;i++){ const l=document.createElement('div'); l.className='fx-scanline'; l.style.top=`${i*14}px`; l.style.animationDelay=`${i*60}ms`; fxLayer.appendChild(l)} setTimeout(clearFx, 3000) }
+function fxBreath(){ const e=document.createElement('div'); e.className='fx-breath'; fxLayer.appendChild(e); setTimeout(clearFx, 3000) }
+function fxDots(){ const count=5+Math.floor(Math.random()*3); const h=document.getElementById('dialog').offsetHeight; for(let i=0;i<count;i++){ const dot=document.createElement('div'); dot.className='fx-dot'; dot.style.top=`${10+Math.random()*(Math.max(40, h*0.25))}px`; dot.style.left=`${10+Math.random()*40}px`; dot.style.animationDelay=`${i*120}ms`; fxLayer.appendChild(dot)} setTimeout(clearFx, 3000) }
+function fxBorderPulse(){ const d=document.getElementById('dialog'); d.classList.add('border-pulse-3s'); setTimeout(clearFx, 3000) }
+const effectMap = {
+  shields: fxBorderPulse,
+  weapons: fxRipple,
+  comms: fxSheen,
+  damage: fxScanlines,
+  computer: fxDots,
+  shortscan: fxScanlines,
+  longscan: fxSheen,
+  lifesupport: fxBreath
+}
 document.querySelectorAll("#lcars-buttons .lcars-btn").forEach(btn => {
   const key = btn.dataset.key;
   btn.addEventListener("click", () => {
@@ -441,6 +552,9 @@ document.querySelectorAll("#lcars-buttons .lcars-btn").forEach(btn => {
     if (!sys) return;
     sys.state = !sys.state;
     updateStatusDisplay();
+    clearFx();
+    const fx = effectMap[key];
+    if (typeof fx === 'function') fx();
   });
 });
 const headerEl=document.querySelector("header");
