@@ -10,7 +10,7 @@ Players take the role of a Starfleet commanding officer stationed on the bridge 
 
 The simulator emphasizes chain-of-command interaction, situational awareness, and moral judgment under pressure. No two runs are exactly alike; each scenario contains multiple branches and outcomes, reflecting the unpredictability of command in deep space.
 
-At the heart of the interface lies **LCARS (Library Computer Access/Retrieval System)** — Starfleet’s adaptive computer framework that governs every starship operation from helm control to environmental regulation. The simulation’s layout, color logic, and workflow emulate LCARS’ minimalist, touch-driven design, creating an environment instantly recognizable to *Star Trek* officers and fans alike.
+At the heart of the interface lies **LCARS (Library Computer Access/Retrieval System)** — Starfleet’s adaptive computer framework that governs every starship operation from helm control to food replication. The simulation’s layout, color logic, and workflow emulate LCARS’ minimalist, touch-driven design, creating an environment instantly recognizable to *Star Trek* officers and fans alike.
 
 ---
 
