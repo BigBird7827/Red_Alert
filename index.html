@@ -204,20 +204,21 @@ button:hover {
 .hidden {
   display: none !important;
 }
-#debrief {
+#debrief-overlay {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  inset: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
   text-align: center;
-  width: 80%;
+  padding: 0 60px;
 }
-#debrief h2, #debrief p {
-  margin: 0;
-}
-#debrief button {
-  margin-top: 50px;
-}
+#debrief-overlay.active { display: flex; }
+#debrief-overlay .debrief-content { max-width: 900px; margin: 0 auto; }
+#debrief-overlay h2, #debrief-overlay p { margin: 0; }
+#debrief-overlay button { margin-top: 50px; }
 </style>
 </head>
 <body>
@@ -246,6 +247,9 @@ button:hover {
       <div class="dialog-section" id="dialog"></div>
       <div class="dialog-section" id="options"></div>
       <div class="dialog-section" id="debrief"></div>
+    </div>
+    <div id="debrief-overlay">
+      <div class="debrief-content" id="debrief-content"></div>
     </div>
   </div>
 </div>
@@ -291,6 +295,8 @@ function displayScenario(index){
   options.classList.remove('options-top')
   options.style.top=''
   document.getElementById('debrief').innerHTML=''
+  document.getElementById('debrief-overlay').classList.remove('active')
+  document.getElementById('debrief-content').innerHTML=''
   const s=scenarios[index]
   fadeTransition(document.getElementById('communique'),`<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message}</p>`)
   fadeTransition(document.getElementById('mission'),`<h2>MISSION DESCRIPTION</h2><p>${s.mission_description}</p>`)
@@ -335,8 +341,17 @@ function showDebrief(){
   const d=s.debriefs[Math.floor(Math.random()*s.debriefs.length)]
   document.getElementById('dialog').classList.add('hidden')
   document.getElementById('options').classList.add('hidden')
-  fadeTransition(document.getElementById('debrief'),
-    `<div><h2>DEBRIEF</h2><p>${d.text}</p></div><button onclick="restart()">Begin New Mission</button>`)
+  const overlay=document.getElementById('debrief-overlay')
+  const content=document.getElementById('debrief-content')
+  content.innerHTML=`
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;">
+      <div style="text-align:center;">
+        <h2>DEBRIEF</h2>
+        <p>${d.text}</p>
+      </div>
+      <button style="margin-top:50px;" onclick="restart()">Begin New Mission</button>
+    </div>`
+  overlay.classList.add('active')
 }
 
 function restart(){
