@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Red Alert - LCARS Bridge Simulator</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -32,7 +32,39 @@ header, footer {
   font-weight: bold;
   font-size: 1em;
   letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
+#alert-buttons {
+  position: absolute;
+  left: 12px;
+  display: flex;
+  gap: 8px;
+}
+.alert-btn {
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 6px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 0.85em;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: var(--white);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.4));
+  box-shadow: inset 0 2px 3px rgba(255,255,255,0.3), inset 0 -2px 3px rgba(0,0,0,0.5), 0 2px 5px rgba(0,0,0,0.6);
+  backdrop-filter: blur(2px);
+  transition: all 0.2s ease;
+}
+.alert-btn:hover {
+  transform: scale(1.08);
+  box-shadow: inset 0 2px 4px rgba(255,255,255,0.4), inset 0 -2px 4px rgba(0,0,0,0.6), 0 3px 6px rgba(0,0,0,0.7);
+}
+#red-alert { background: linear-gradient(to bottom, #c00000, #4a0000); }
+#yellow-alert { background: linear-gradient(to bottom, #d1b200, #5c4b00); }
+#green-alert { background: linear-gradient(to bottom, #00a65a, #003d24); }
+footer { transition: background 0.5s ease; }
 #content-area {
   display: flex;
   flex: 1;
@@ -67,6 +99,7 @@ header, footer {
   width: 150px;
   height: auto;
   margin-bottom: 10px;
+  transition: opacity 0.3s ease;
 }
 #lcars-buttons {
   display: flex;
@@ -128,36 +161,6 @@ h2 {
   color: var(--gold);
   font-size: 1em;
   margin-bottom: 8px;
-  text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
-}
-#options {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  transition: all 0.3s ease;
-}
-button {
-  background: linear-gradient(to bottom, #222, #000);
-  border: 1px solid var(--gold);
-  color: var(--gold);
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1em;
-  padding: 10px 22px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-weight: bold;
-  box-shadow: inset 0 2px 2px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.4);
-}
-button:hover {
-  background: linear-gradient(to bottom, #333, #111);
-  transform: scale(1.05);
-}
-.fade {
-  opacity: 0;
-  transition: opacity 0.4s ease;
 }
 #communique,
 #mission {
@@ -187,26 +190,34 @@ button:hover {
   overflow: hidden;
   transition: all 0.3s ease;
 }
-.dialog-top {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: calc(100% - 80px);
-  z-index: 10;
+#options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
 }
-.options-top {
-  position: absolute !important;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: calc(100% - 80px);
-  z-index: 9;
+#options button {
+  background: linear-gradient(to bottom, #333, #111);
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  padding: 10px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  box-shadow: inset 0 2px 2px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.4);
 }
-.hidden {
-  display: none !important;
+#options button:hover {
+  background: linear-gradient(to bottom, #555, #222);
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(201,162,61,0.5);
 }
+.hidden { display: none !important; }
 #debrief-overlay {
   position: absolute;
   inset: 0;
@@ -219,13 +230,65 @@ button:hover {
   padding: 0 60px;
 }
 #debrief-overlay.active { display: flex; }
-#debrief-overlay .debrief-content { max-width: 900px; margin: 0 auto; }
-#debrief-overlay h2, #debrief-overlay p { margin: 0; }
-#debrief-overlay button { margin-top: 50px; }
+.begin-mission-btn {
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,0.22), rgba(255,255,255,0) 40%),
+    linear-gradient(to bottom, #0b1d46 0%, #061334 55%, #0b1c42 100%);
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 1.05em;
+  letter-spacing: 0.5px;
+  padding: 12px 26px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.9);
+  box-shadow:
+    inset 0 2px 6px rgba(255,255,255,0.18),
+    inset 0 -4px 10px rgba(0,0,0,0.6),
+    0 6px 14px rgba(0,0,0,0.65),
+    0 0 12px rgba(201,162,61,0.18);
+  backdrop-filter: blur(2px);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
+  margin-top: 50px;
+}
+.begin-mission-btn:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 3px 7px rgba(255,255,255,0.22),
+    inset 0 -5px 12px rgba(0,0,0,0.7),
+    0 8px 16px rgba(0,0,0,0.7),
+    0 0 14px rgba(201,162,61,0.28);
+}
+.begin-mission-btn:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 0 1px 5px rgba(255,255,255,0.15),
+    inset 0 -6px 14px rgba(0,0,0,0.75),
+    0 3px 8px rgba(0,0,0,0.6),
+    0 0 8px rgba(201,162,61,0.25);
+}
+.begin-mission-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 2px rgba(0,0,0,0.9),
+    0 0 0 4px rgba(201,162,61,0.8),
+    inset 0 2px 6px rgba(255,255,255,0.18),
+    inset 0 -4px 10px rgba(0,0,0,0.6);
+}
 </style>
 </head>
 <body>
-<header>LCARS COMMAND INTERFACE - USS ENTERPRISE-D</header>
+<header>
+  <div id="alert-buttons">
+    <div class="alert-btn" id="green-alert">Green Alert</div>
+    <div class="alert-btn" id="yellow-alert">Yellow Alert</div>
+    <div class="alert-btn" id="red-alert">Red Alert</div>
+  </div>
+  LCARS COMMAND INTERFACE - USS ENTERPRISE-D
+</header>
 <div id="content-area">
   <div id="left-panel">
     <div id="alert-panel">
@@ -237,9 +300,9 @@ button:hover {
       <div class="lcars-btn red-btn" data-key="comms">Comms</div>
       <div class="lcars-btn blue-btn" data-key="damage">Damage Control</div>
       <div class="lcars-btn red-btn" data-key="computer">Main Computer</div>
-      <div class="lcars-btn blue-btn" data-key="integrity">Structural Integrity</div>
-      <div class="lcars-btn red-btn" data-key="longscan">Long Range Scan</div>
       <div class="lcars-btn blue-btn" data-key="shortscan">Short Range Scan</div>
+      <div class="lcars-btn red-btn" data-key="longscan">Long Range Scan</div>
+      <div class="lcars-btn blue-btn" data-key="lifesupport">Life Support</div>
     </div>
     <div id="status-panel"></div>
   </div>
@@ -263,7 +326,6 @@ let scenarios=[]
 let currentScenario=0
 let currentNode=0
 let missionActive=false
-
 async function loadScenarios(){
   try{
     const local=await fetch('./Red Alert.json')
@@ -274,38 +336,25 @@ async function loadScenarios(){
   }
   displayScenario(0)
 }
-
 function fadeTransition(el,newHTML){
   el.classList.add('fade')
   setTimeout(()=>{el.innerHTML=newHTML;el.classList.remove('fade')},400)
 }
-
-function positionOptions(){
-  const dialog=document.getElementById('dialog')
-  const options=document.getElementById('options')
-  const h=dialog.offsetHeight
-  options.style.top=(h+50)+'px'
-}
-
+function positionOptions(){}
 function displayScenario(index){
   currentScenario=index
   currentNode=0
   missionActive=false
-
   const dialog=document.getElementById('dialog')
   const options=document.getElementById('options')
-
-  // FIX: ensure visible again for the next mission
   dialog.classList.remove('hidden')
   options.classList.remove('hidden')
-
   document.getElementById('debrief-overlay').classList.remove('active')
   document.getElementById('debrief-overlay').style.display='none'
   document.getElementById('communique').classList.remove('hidden')
   document.getElementById('mission').classList.remove('hidden')
   dialog.classList.remove('dialog-top')
   options.classList.remove('options-top')
-  options.style.top=''
   document.getElementById('debrief').innerHTML=''
   document.getElementById('debrief-content').innerHTML=''
   const s=scenarios[index]
@@ -313,7 +362,6 @@ function displayScenario(index){
   fadeTransition(document.getElementById('mission'),`<h2>MISSION DESCRIPTION</h2><p>${s.mission_description}</p>`)
   renderDialogueNode()
 }
-
 function renderDialogueNode(){
   const s=scenarios[currentScenario]
   const node=s.dialogue_tree[currentNode]
@@ -346,7 +394,6 @@ function renderDialogueNode(){
     options.appendChild(btn)
   })
 }
-
 function showDebrief(){
   const s=scenarios[currentScenario]
   const d=s.debriefs[Math.floor(Math.random()*s.debriefs.length)]
@@ -360,19 +407,60 @@ function showDebrief(){
         <h2>DEBRIEF</h2>
         <p>${d.text}</p>
       </div>
-      <button style="margin-top:50px;" onclick="restart()">Begin New Mission</button>
+      <button class="begin-mission-btn" onclick="restart()">Begin New Mission</button>
     </div>`
   overlay.style.display='flex'
   overlay.classList.add('active')
 }
-
 function restart(){
   const next=(currentScenario+1)%scenarios.length
   displayScenario(next)
 }
-
 loadScenarios()
+const systems = {
+  shields: { inactive: "Shields Inactive", active: "Shields Up", state: false },
+  weapons: { inactive: "Weapons on Standby", active: "Weapons Systems Ready", state: false },
+  comms: { inactive: "Comms Offline", active: "Hailing Frequencies Open", state: false },
+  damage: { inactive: "Damage Control Idle", active: "Damage Control Teams Dispatched", state: false },
+  computer: { inactive: "Main Computer Offline", active: "Main Computer Ready", state: false },
+  shortscan: { inactive: "Short Range Scans Offline", active: "Short Range Scans Active", state: false },
+  longscan: { inactive: "Long Range Scans Offline", active: "Long Range Scans Active", state: false },
+  lifesupport: { inactive: "Life Support Optimal", active: "Life Support Compromised", state: false }
+}
+const statusPanel = document.getElementById("status-panel");
+function updateStatusDisplay() {
+  statusPanel.innerHTML = Object.entries(systems)
+    .map(([key, sys]) => `<div>${sys.state ? sys.active : sys.inactive}</div>`)
+    .join("");
+}
+updateStatusDisplay();
+document.querySelectorAll("#lcars-buttons .lcars-btn").forEach(btn => {
+  const key = btn.dataset.key;
+  btn.addEventListener("click", () => {
+    const sys = systems[key];
+    if (!sys) return;
+    sys.state = !sys.state;
+    updateStatusDisplay();
+  });
+});
+const headerEl=document.querySelector("header");
+const footerEl=document.querySelector("footer");
+const alertImage=document.getElementById("alert-image");
+document.getElementById("red-alert").addEventListener("click",()=>{
+  headerEl.style.background="linear-gradient(to right,#8b0000,#500000)";
+  footerEl.style.background="linear-gradient(to right,#8b0000,#500000)";
+  alertImage.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.gif";
+});
+document.getElementById("yellow-alert").addEventListener("click",()=>{
+  headerEl.style.background="linear-gradient(to right,#bfa200,#8c7a00)";
+  footerEl.style.background="linear-gradient(to right,#bfa200,#8c7a00)";
+  alertImage.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif";
+});
+document.getElementById("green-alert").addEventListener("click",()=>{
+  headerEl.style.background="linear-gradient(to right,#006b3c,#00a65a)";
+  footerEl.style.background="linear-gradient(to right,#006b3c,#00a65a)";
+  alertImage.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif";
+});
 </script>
 </body>
 </html>
-
