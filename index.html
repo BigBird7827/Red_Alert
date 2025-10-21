@@ -133,7 +133,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  transition: all 0.8s ease;
+  transition: all 0.3s ease;
 }
 button {
   background: linear-gradient(to bottom, #222, #000);
@@ -182,7 +182,7 @@ button:hover {
   line-height: 1.5em;
   box-shadow: inset 0 0 8px rgba(201,162,61,0.25), 0 0 10px rgba(0,100,0,0.3);
   overflow: hidden;
-  transition: all 0.8s ease;
+  transition: all 0.3s ease;
 }
 .dialog-top {
   position: absolute !important;
@@ -262,8 +262,8 @@ function fadeTransition(el,newHTML){
 function positionOptions(){
   const dialog=document.getElementById('dialog')
   const options=document.getElementById('options')
-  const rect=dialog.getBoundingClientRect()
-  options.style.top=rect.height+50+'px'
+  const h=dialog.offsetHeight
+  options.style.top=(h+50)+'px'
 }
 
 function displayScenario(index){
@@ -273,8 +273,13 @@ function displayScenario(index){
   document.getElementById('communique').classList.remove('hidden')
   document.getElementById('mission').classList.remove('hidden')
   document.getElementById('dialog').classList.remove('dialog-top')
-  document.getElementById('options').classList.remove('options-top')
+  const options=document.getElementById('options')
+  options.classList.remove('options-top')
+  options.style.top=''
   document.getElementById('debrief').innerHTML=''
+  const s=scenarios[index]
+  fadeTransition(document.getElementById('communique'),`<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message}</p>`)
+  fadeTransition(document.getElementById('mission'),`<h2>MISSION DESCRIPTION</h2><p>${s.mission_description}</p>`)
   renderDialogueNode()
 }
 
@@ -296,9 +301,10 @@ function renderDialogueNode(){
         document.getElementById('mission').classList.add('hidden')
         dialog.classList.add('dialog-top')
         options.classList.add('options-top')
-        positionOptions()
+        requestAnimationFrame(positionOptions)
       }
       dialog.innerHTML+=`<p><strong>${opt.crew_reply}</strong></p>`
+      requestAnimationFrame(positionOptions)
       if(opt.next!==undefined&&s.dialogue_tree[opt.next]){
         currentNode=opt.next
         renderDialogueNode()
