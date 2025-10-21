@@ -45,8 +45,7 @@ The purpose of *Red Alert* is to provide a bridge simulation that feels authenti
 
 ## 🪐 License
 
-This project is a **non-commercial fan creation**. *Star Trek* and all related marks are the property of CBS Studios Inc.  
-No copyright infringement intended.
+“Star Trek and all related marks, logos, characters, names, designs and underlying elements are the property of CBS Studios Inc. and/or Paramount Pictures Corporation (and their respective licensors). This fan creation is not endorsed by, sponsored by, or affiliated with CBS Studios Inc. or Paramount Pictures Corporation.”
 
 This work is licensed under a [Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
