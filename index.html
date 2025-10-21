@@ -133,10 +133,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-top: 0;
-  margin-bottom: 50px;
-  position: relative;
-  top: 50px;
+  transition: all 0.8s ease;
 }
 button {
   background: linear-gradient(to bottom, #222, #000);
@@ -158,20 +155,6 @@ button:hover {
 .fade {
   opacity: 0;
   transition: opacity 0.4s ease;
-}
-#communique,
-#mission {
-  position: relative;
-  background: rgba(0, 31, 77, 0.85);
-  border: 1px solid var(--gold);
-  color: var(--white);
-  padding: 14px 18px 16px 18px;
-  border-radius: 10px;
-  margin-bottom: 18px;
-  font-size: 0.95em;
-  line-height: 1.5em;
-  box-shadow: inset 0 0 6px rgba(201,162,61,0.25), 0 0 8px rgba(201,162,61,0.15);
-  overflow: hidden;
 }
 #dialog {
   position: relative;
@@ -195,6 +178,16 @@ button:hover {
   margin: 0 auto;
   width: calc(100% - 80px);
   z-index: 10;
+}
+.options-top {
+  position: absolute !important;
+  top: calc(100px + var(--dialog-height, 0px));
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: calc(100% - 80px);
+  z-index: 9;
+  transform: translateY(50px);
 }
 .hidden {
   display: none !important;
@@ -222,8 +215,6 @@ button:hover {
   </div>
   <div id="dialog-area">
     <div id="dialog-box">
-      <div class="dialog-section" id="communique"></div>
-      <div class="dialog-section" id="mission"></div>
       <div class="dialog-section" id="dialog"></div>
       <div class="dialog-section" id="options"></div>
       <div class="dialog-section" id="debrief"></div>
@@ -233,17 +224,17 @@ button:hover {
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
 const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
-let scenarios = []
-let currentScenario = 0
-let currentNode = 0
-let missionActive = false
+let scenarios=[]
+let currentScenario=0
+let currentNode=0
+let missionActive=false
 async function loadScenarios(){
   try{
-    const local = await fetch('./Red Alert.json')
-    scenarios = await local.json()
+    const local=await fetch('./Red Alert.json')
+    scenarios=await local.json()
   }catch{
-    const remote = await fetch(REMOTE_JSON_URL)
-    scenarios = await remote.json()
+    const remote=await fetch(REMOTE_JSON_URL)
+    scenarios=await remote.json()
   }
   displayScenario(0)
 }
@@ -255,11 +246,8 @@ function displayScenario(index){
   currentScenario=index
   currentNode=0
   missionActive=false
-  document.getElementById('communique').classList.remove('hidden')
-  document.getElementById('mission').classList.remove('hidden')
   document.getElementById('dialog').classList.remove('dialog-top')
-  fadeTransition(document.getElementById('communique'),`<h2>STARFLEET COMMUNIQUÉ</h2><p>${scenarios[index].starfleet_message}</p>`)
-  fadeTransition(document.getElementById('mission'),`<h2>MISSION DESCRIPTION</h2><p>${scenarios[index].mission_description}</p>`)
+  document.getElementById('options').classList.remove('options-top')
   document.getElementById('debrief').innerHTML=''
   renderDialogueNode()
 }
@@ -277,9 +265,10 @@ function renderDialogueNode(){
     btn.onclick=()=>{
       if(!missionActive){
         missionActive=true
-        document.getElementById('communique').classList.add('hidden')
-        document.getElementById('mission').classList.add('hidden')
         dialogBox.classList.add('dialog-top')
+        const dialogHeight=dialogBox.offsetHeight
+        document.documentElement.style.setProperty('--dialog-height',dialogHeight+'px')
+        optionsBox.classList.add('options-top')
       }
       dialogBox.innerHTML+=`<p><strong>${opt.crew_reply}</strong></p>`
       if(opt.next!==undefined&&s.dialogue_tree[opt.next]){
