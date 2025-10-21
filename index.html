@@ -288,6 +288,8 @@ function displayScenario(index){
   currentScenario=index
   currentNode=0
   missionActive=false
+  document.getElementById('debrief-overlay').classList.remove('active')
+  document.getElementById('debrief-overlay').style.display='none'
   document.getElementById('communique').classList.remove('hidden')
   document.getElementById('mission').classList.remove('hidden')
   document.getElementById('dialog').classList.remove('dialog-top','hidden')
@@ -295,7 +297,6 @@ function displayScenario(index){
   options.classList.remove('options-top')
   options.style.top=''
   document.getElementById('debrief').innerHTML=''
-  document.getElementById('debrief-overlay').classList.remove('active')
   document.getElementById('debrief-content').innerHTML=''
   const s=scenarios[index]
   fadeTransition(document.getElementById('communique'),`<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message}</p>`)
@@ -351,6 +352,7 @@ function showDebrief(){
       </div>
       <button style="margin-top:50px;" onclick="restart()">Begin New Mission</button>
     </div>`
+  overlay.style.display='flex'
   overlay.classList.add('active')
 }
 
