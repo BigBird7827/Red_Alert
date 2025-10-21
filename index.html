@@ -47,9 +47,21 @@ header, footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8px;
   justify-content: flex-start;
+  padding: 8px;
   position: relative;
+}
+#status-panel {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--gold);
+  font-weight: bold;
+  font-size: 0.85em;
+  line-height: 1.4em;
+  white-space: pre-line;
 }
 #alert-panel img {
   width: 150px;
@@ -78,15 +90,6 @@ header, footer {
 .red-btn { background-color: var(--dark-red); }
 .blue-btn { background-color: var(--dark-blue); }
 .lcars-btn:hover { transform: scale(1.05); }
-#status-panel {
-  margin-top: 15px;
-  text-align: center;
-  color: var(--gold);
-  font-weight: bold;
-  font-size: 0.85em;
-  line-height: 1.4em;
-  white-space: pre-line;
-}
 #dialog-area {
   position: relative;
   flex: 1;
@@ -372,3 +375,4 @@ loadScenarios()
 </script>
 </body>
 </html>
+
