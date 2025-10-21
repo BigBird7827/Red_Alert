@@ -204,6 +204,17 @@ button:hover {
 .hidden {
   display: none !important;
 }
+#debrief {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+#debrief button {
+  margin-top: 50px;
+}
 </style>
 </head>
 <body>
@@ -272,7 +283,7 @@ function displayScenario(index){
   missionActive=false
   document.getElementById('communique').classList.remove('hidden')
   document.getElementById('mission').classList.remove('hidden')
-  document.getElementById('dialog').classList.remove('dialog-top')
+  document.getElementById('dialog').classList.remove('dialog-top','hidden')
   const options=document.getElementById('options')
   options.classList.remove('options-top')
   options.style.top=''
@@ -319,9 +330,10 @@ function renderDialogueNode(){
 function showDebrief(){
   const s=scenarios[currentScenario]
   const d=s.debriefs[Math.floor(Math.random()*s.debriefs.length)]
-  fadeTransition(document.getElementById('dialog'),'')
-  fadeTransition(document.getElementById('options'),'')
-  fadeTransition(document.getElementById('debrief'),`<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`)
+  document.getElementById('dialog').classList.add('hidden')
+  document.getElementById('options').classList.add('hidden')
+  fadeTransition(document.getElementById('debrief'),
+    `<h2>DEBRIEF</h2><p>${d.text}</p><button onclick="restart()">Begin New Mission</button>`)
 }
 
 function restart(){
