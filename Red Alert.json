@@ -577,7 +577,7 @@
           },
           {
             "label": "Doctor Crusher, what\u2019s your medical assessment?",
-            "crew_reply": "Forge: 'I\u2019m reading low-level metabolic function in every missing crew member. Their bodies are alive but their consciousnesses are... displaced. If we collapse the field, we might reconstitute them.'",
+            "crew_reply": "Crusher: 'I\u2019m reading low-level metabolic function in every missing crew member. Their bodies are alive but their consciousnesses are... displaced. If we collapse the field, we might reconstitute them.'",
             "next": 3
           }
         ]
@@ -588,7 +588,7 @@
         "options": [
           {
             "label": "Counselor, maintain contact as best you can. Mr. La Forge, prepare to reverse the neutrino flow.",
-            "crew_reply": "Forge: 'It\u2019s reaching for connection... but losing coherence, Captain.'  La Forge: 'Reversal sequence ready. Activating deflector modulation now.'",
+            "crew_reply": "La Forge: 'It\u2019s reaching for connection... but losing coherence, Captain.'  La Forge: 'Reversal sequence ready. Activating deflector modulation now.'",
             "next": 4
           },
           {
@@ -717,7 +717,7 @@
         "options": [
           {
             "label": "Counselor, keep monitoring. Mr. La Forge, prepare the warp-field synchronization. We\u2019ll attempt to pull them clear.",
-            "crew_reply": "Forge: 'Understood, Captain.'  La Forge: 'Warp-field modulation ready. On your mark, I\u2019ll engage power transfer sequence.'",
+            "crew_reply": "La Forge: 'Understood, Captain.'  La Forge: 'Warp-field modulation ready. On your mark, I\u2019ll engage power transfer sequence.'",
             "next": 4
           },
           {
@@ -809,7 +809,7 @@
           },
           {
             "label": "Doctor Crusher, verify our cargo manifests from Starbase 92 for any discrepancies.",
-            "crew_reply": "Riker: 'Manifests show standard medical and agricultural aid only. There\u2019s no record of surveillance equipment aboard.'",
+            "crew_reply": "Crusher: 'Manifests show standard medical and agricultural aid only. There\u2019s no record of surveillance equipment aboard.'",
             "next": 2
           },
           {
@@ -926,7 +926,7 @@
           },
           {
             "label": "Open hailing frequencies to the colony governor.",
-            "crew_reply": "Riker: 'Channel open, Captain.'",
+            "crew_reply": "La Forge: 'Channel open, Captain.'",
             "next": 1
           }
         ]
@@ -937,7 +937,7 @@
         "options": [
           {
             "label": "Governor, you\u2019ve violated Starfleet protocols and endangered an entire civilization.",
-            "crew_reply": "viewscreen): 'With respect, Captain, survival leaves little room for protocol.'",
+            "crew_reply": "Halden: 'With respect, Captain, survival leaves little room for protocol.'",
             "next": 2
           },
           {
@@ -947,7 +947,7 @@
           },
           {
             "label": "Counselor, assess the governor\u2019s emotional state.",
-            "crew_reply": "viewscreen): 'Fear and justification, Captain. He believes he acted in service to Starfleet values.'",
+            "crew_reply": "Troi: 'Fear and justification, Captain. He believes he acted in service to Starfleet values.'",
             "next": 2
           }
         ]
@@ -958,7 +958,7 @@
         "options": [
           {
             "label": "Geordi, prepare to beam the array aboard for containment.",
-            "crew_reply": "Data: 'Understood, Captain. Adjusting transporter field to compensate for radiation scatter.'",
+            "crew_reply": "La Forge: 'Understood, Captain. Adjusting transporter field to compensate for radiation scatter.'",
             "next": 3
           },
           {
@@ -984,12 +984,12 @@
           },
           {
             "label": "Initiate covert extraction of the prototype and disable the colony\u2019s defenses.",
-            "crew_reply": "Troi: 'That\u2019ll cause confusion on the surface, but could prevent escalation.'",
+            "crew_reply": "Riker: 'That\u2019ll cause confusion on the surface, but could prevent escalation.'",
             "next": 4
           },
           {
             "label": "Order full directive enforcement. Shut down all colony operations and await Starfleet auditors.",
-            "crew_reply": "Troi: 'Security lockdown ready, Captain. Colony command is protesting.'",
+            "crew_reply": "Worf: 'Security lockdown ready, Captain. Colony command is protesting.'",
             "next": 4
           }
         ]
@@ -1000,17 +1000,17 @@
         "options": [
           {
             "label": "Stand down from Red Alert. Signal Starfleet that Velan III is secured.",
-            "crew_reply": "Forge: 'Aye, Captain. The report will read cleaner than the politics behind it.'",
+            "crew_reply": "Riker: 'Aye, Captain. The report will read cleaner than the politics behind it.'",
             "next": null
           },
           {
             "label": "Maintain Red Alert until the colony is verified clear of contamination.",
-            "crew_reply": "Forge: 'Understood, Captain. Continuing scans for unauthorized tech.'",
+            "crew_reply": "Worf: 'Understood, Captain. Continuing scans for unauthorized tech.'",
             "next": null
           },
           {
             "label": "Contact the Cardassian liaison office for diplomatic mediation.",
-            "crew_reply": "Forge: 'A prudent step, Captain. It will help reinforce Federation integrity.'",
+            "crew_reply": "Troi: 'A prudent step, Captain. It will help reinforce Federation integrity.'",
             "next": null
           }
         ]
@@ -1075,7 +1075,7 @@
           },
           {
             "label": "Could we stabilize the radiation output without removing the beacon?",
-            "crew_reply": "Crusher: 'Possible with an atmospheric microburst to disperse emissions. It\u2019d leave no trace, but it\u2019s still interference.'",
+            "crew_reply": "La Forge: 'Possible with an atmospheric microburst to disperse emissions. It\u2019d leave no trace, but it\u2019s still interference.'",
             "next": 2
           },
           {
@@ -1101,7 +1101,7 @@
           },
           {
             "label": "Ignore them for now; our focus remains on Darex IV.",
-            "crew_reply": "Riker: 'Agreed. We will not compromise the Directive for convenience.'",
+            "crew_reply": "Picard\u2019s tone remains even: 'Agreed. We will not compromise the Directive for convenience.'",
             "next": 3
           }
         ]
@@ -1117,12 +1117,12 @@
           },
           {
             "label": "Use atmospheric modulation to neutralize radiation and leave the beacon intact.",
-            "crew_reply": "Forge: 'We can achieve that with minimal detection risk, though it constitutes limited interference.'",
+            "crew_reply": "Data: 'We can achieve that with minimal detection risk, though it constitutes limited interference.'",
             "next": 4
           },
           {
             "label": "Stand down and observe. The Prime Directive must hold, no matter the cost.",
-            "crew_reply": "Forge: 'Captain, that may condemn thousands to die.'",
+            "crew_reply": "Troi: 'Captain, that may condemn thousands to die.'",
             "next": 4
           }
         ]
@@ -1143,7 +1143,7 @@
           },
           {
             "label": "Transmit full findings to Starfleet Command. They must review the moral implications.",
-            "crew_reply": "Riker: 'A decision best faced in the light of accountability.'",
+            "crew_reply": "Picard: 'A decision best faced in the light of accountability.'",
             "next": null
           }
         ]
@@ -1192,7 +1192,7 @@
           },
           {
             "label": "Open a secure channel to Starfleet Command. They\u2019ll want a live report.",
-            "crew_reply": "Data: 'Channel established, Captain. Command requests containment, not engagement.'",
+            "crew_reply": "Riker: 'Channel established, Captain. Command requests containment, not engagement.'",
             "next": 1
           }
         ]
@@ -1224,17 +1224,17 @@
         "options": [
           {
             "label": "Open a comm channel to the derelict. Let\u2019s see if it can respond.",
-            "crew_reply": "Troi: 'Audio only, Captain. Minimal response... modulation patterns match distress tones.'",
+            "crew_reply": "La Forge: 'Audio only, Captain. Minimal response... modulation patterns match distress tones.'",
             "next": 3
           },
           {
             "label": "Maintain silence. Any transmission could alert other Borg units.",
-            "crew_reply": "Troi: 'Understood. We\u2019ll monitor passively only.'",
+            "crew_reply": "Riker: 'Understood. We\u2019ll monitor passively only.'",
             "next": 3
           },
           {
             "label": "Attempt limited neural link through the beacon. Contain it within the holodeck core.",
-            "crew_reply": "Troi: 'A secure simulation environment could buffer the signal and allow communication without direct exposure.'",
+            "crew_reply": "Data: 'A secure simulation environment could buffer the signal and allow communication without direct exposure.'",
             "next": 3
           }
         ]
@@ -1250,12 +1250,12 @@
           },
           {
             "label": "Transmit a controlled response. If it\u2019s sentient, it deserves a voice.",
-            "crew_reply": "Forge: 'It\u2019s responding, Captain. There\u2019s fear... and recognition.'",
+            "crew_reply": "Troi: 'It\u2019s responding, Captain. There\u2019s fear... and recognition.'",
             "next": 4
           },
           {
             "label": "Destroy the beacon and the derelict immediately.",
-            "crew_reply": "Forge: 'Firing torpedoes. Target vaporized, Captain.'",
+            "crew_reply": "Worf: 'Firing torpedoes. Target vaporized, Captain.'",
             "next": 4
           }
         ]
@@ -1271,12 +1271,12 @@
           },
           {
             "label": "Secure the beacon\u2019s remains for research under Section 47 clearance.",
-            "crew_reply": "Riker: 'Material containment in progress, sir. No residual network activity detected.'",
+            "crew_reply": "Data: 'Material containment in progress, sir. No residual network activity detected.'",
             "next": null
           },
           {
             "label": "Purge all records of the encounter. The Collective must not learn what transpired here.",
-            "crew_reply": "Riker: 'Agreed. Some knowledge is best left unshared \u2014 even within Starfleet.'",
+            "crew_reply": "Picard: 'Agreed. Some knowledge is best left unshared \u2014 even within Starfleet.'",
             "next": null
           }
         ]
