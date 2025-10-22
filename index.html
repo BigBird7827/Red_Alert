@@ -160,7 +160,7 @@ h2 {
   margin-bottom: 8px;
 }
 
-#options {
+#options { z-index: 6;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -554,31 +554,75 @@ function displayScenario(index){
   fadeTransition(document.getElementById('mission'),'<h2>MISSION DESCRIPTION</h2><p>'+s.mission_description+'</p>')
   renderDialogueNode()
 }
-function renderDialogueNode(){
-  const s=scenarios[currentScenario]
-  const node=s.dialogue_tree[currentNode]
-  if(!node){showDebrief();return}
-  const dialog=document.getElementById('dialog')
-  const options=document.getElementById('options')
-  fadeTransition(dialog,'<h2>'+node.crew.toUpperCase()+'</h2><p>'+node.line+'</p>')
-  options.innerHTML=''
-  node.options.forEach(opt=>{
-    const btn=document.createElement('button')
-    btn.textContent=opt.label
-    btn.onclick=()=>{
-      if(!missionActive){
-        missionActive=true
-        document.getElementById('communique').classList.add('hidden')
-        document.getElementById('mission').classList.add('hidden')
-        dialog.classList.add('dialog-top')
-        options.classList.add('options-top')
+
+
+function renderDialogueNode() {
+  const s = scenarios[currentScenario];
+  const node = s.dialogue_tree[currentNode];
+  const dialog = document.getElementById("dialog");
+  const options = document.getElementById("options");
+  dialog.innerHTML = '<h2>' + node.crew.toUpperCase() + '</h2><p>' + node.line + '</p>';
+  options.innerHTML = '';
+
+  const medicalKeywords = [
+    "sickbay","medical","doctor","physician","nurse","casualty","casualties",
+    "wounded","injuries","injury","triage","treatment","care","heal","stabilize",
+    "biohazard","pathogen","infection","infected","quarantine","isolation",
+    "containment field in sickbay","decontamination","antidote","vaccine","cure",
+    "contagion","contamination","biological","life signs unstable"
+  ];
+  const nonMedicalExclusions = [
+    "physical structure","physical distortion","physical field","structural integrity",
+    "containment field","biomechanical","material composition","resonance","graviton",
+    "energy field","radiation","power field","hull breach","neutrino","quantum field",
+    "subspace field","magnetic field","feedback loop","analysis","diagnostic",
+    "cortical node","bio-signal","containment failure","power modulation"
+  ];
+
+  node.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.textContent = opt.label;
+    btn.className = 'dialogButton';
+    btn.onclick = function() {
+      // Dr. Crusher filter
+      if (opt.label.toLowerCase().includes('crusher')) {
+        const textToCheck = (opt.label + ' ' + opt.crew_reply).toLowerCase();
+        const hasMedical = medicalKeywords.some(k => textToCheck.includes(k));
+        const isExcluded = nonMedicalExclusions.some(e => textToCheck.includes(e));
+        if (!hasMedical || isExcluded) return;
       }
-      dialog.innerHTML+= '<p><strong>'+opt.crew_reply+'</strong></p>'
-      if(opt.next!==undefined&&s.dialogue_tree[opt.next]){currentNode=opt.next;renderDialogueNode()}else{showDebrief()}
-    }
-    options.appendChild(btn)
-  })
+
+      // Hide unclicked buttons
+      const allButtons = options.querySelectorAll('.dialogButton');
+      allButtons.forEach(b => {
+        if (b !== this) b.style.display = 'none';
+      });
+
+      // Display crew reply
+      const reply = document.createElement('p');
+      reply.innerHTML = '<strong>' + opt.crew_reply + '</strong>';
+      options.appendChild(reply);
+
+      // Add Acknowledged button
+      const ackBtn = document.createElement('button');
+      ackBtn.textContent = 'Acknowledged';
+      ackBtn.className = 'dialogButton';
+      ackBtn.style.marginTop = '10px';
+      ackBtn.onclick = function() {
+        if (opt.next !== undefined && s.dialogue_tree[opt.next]) {
+          currentNode = opt.next;
+          renderDialogueNode();
+        } else {
+          showDebrief();
+        }
+      };
+      options.appendChild(ackBtn);
+    };
+    options.appendChild(btn);
+  });
 }
+
+
 function showDebrief(){
   const s=scenarios[currentScenario]
   const d=s.debriefs[Math.floor(Math.random()*s.debriefs.length)]
