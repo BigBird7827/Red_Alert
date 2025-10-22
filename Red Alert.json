@@ -8,17 +8,17 @@
         "line": "Captain, long-range scans confirm the graviton anomaly. It forms a spherical field nearly two astronomical units in diameter, exhibiting strong reflective distortion across all sensor bands.",
         "options": [
           {
-            "label": "Crusher,identify any consistent harmonics within the distortion field.",
-            "crew_reply": "Crusher: 'Harmonic variance centers near 24.6 terahertz\u2014similar to the containment frequency of 23rd-century warp core fields. The structure may be artificial.'",
+            "label": "Chief O'Brien, identify any consistent harmonics within the distortion field.",
+            "crew_reply": "O'Brien: 'Harmonic variance centers near 24.6 terahertz\u2014similar to the containment frequency of 23rd-century warp core fields. The structure may be artificial.'",
             "next": 1
           },
           {
-            "label": "Forge,adjust our sensors for phased resonance to penetrate the reflection layer.",
-            "crew_reply": "Forge: 'Recalibrating now, Captain. We\u2019ll get a better look at the interior of the anomaly, but there\u2019s heavy feedback interference.'",
+            "label": "Mr. La Forge, adjust our sensors for phased resonance to penetrate the reflection layer.",
+            "crew_reply": "La Forge: 'Recalibrating now, Captain. We\u2019ll get a better look at the interior of the anomaly, but there\u2019s heavy feedback interference.'",
             "next": 1
           },
           {
-            "label": "Riker,set condition yellow and maintain minimal impulse toward the outer perimeter.",
+            "label": "Number One, set condition yellow and maintain minimal impulse toward the outer perimeter.",
             "crew_reply": "Riker: 'Aye, Captain. Yellow alert. Helm, hold one-quarter impulse until further instructions.'",
             "next": 1
           }
@@ -29,18 +29,18 @@
         "line": "Captain, a faint power signature is registering within the graviton field. Federation pattern\u2014but the transponder code is fragmented. For an instant, it matched the Enterprise\u2019s own ID.",
         "options": [
           {
-            "label": "O'Brien,confirm whether that signature originated from within the field or from our own reflection.",
-            "crew_reply": "O'Brien: 'Analysis suggests it originated from a parallel phase resonance. The signal was not reflected\u2014it was transmitted from inside the field.'",
+            "label": "Helm, confirm whether that signature originated from within the field or from our own reflection.",
+            "crew_reply": "Helm: 'Analysis suggests it originated from a parallel phase resonance. The signal was not reflected\u2014it was transmitted from inside the field.'",
             "next": 2
           },
           {
-            "label": "Worf,could our sensor emissions be feeding back into the anomaly?",
-            "crew_reply": "Worf: 'It\u2019s possible. The field seems to mirror our graviton output in real time, like a quantum echo.'",
+            "label": "Data, could our sensor emissions be feeding back into the anomaly?",
+            "crew_reply": "Data: 'It\u2019s possible. The field seems to mirror our graviton output in real time, like a quantum echo.'",
             "next": 2
           },
           {
-            "label": "Troi,bring the ship to a full stop. Let\u2019s determine what we\u2019re dealing with before we move closer.",
-            "crew_reply": "Troi: 'Aye, Captain. Helm, all stop. Holding position outside the anomaly boundary.'",
+            "label": "Mr. Worf, bring the ship to a full stop. Let\u2019s determine what we\u2019re dealing with before we move closer.",
+            "crew_reply": "Worf: 'Aye, Captain. Helm, all stop. Holding position outside the anomaly boundary.'",
             "next": 2
           }
         ]
@@ -50,18 +50,18 @@
         "line": "Captain, a visual echo is forming within the field\u2014a shape consistent with a Galaxy-class starship. It\u2019s reading as the Enterprise, but the energy phase is slightly ahead of our own.",
         "options": [
           {
-            "label": "Data,analyze the phase offset. Are we observing a temporal reflection?",
-            "crew_reply": "Data: 'Affirmative, Captain. The reflected vessel exists approximately 0.47 seconds ahead of our current timeframe. Its signal corresponds precisely with our own emissions.'",
+            "label": "Counselor Troi, analyze the phase offset. Are we observing a temporal reflection?",
+            "crew_reply": "Troi: 'Affirmative, Captain. The reflected vessel exists approximately 0.47 seconds ahead of our current timeframe. Its signal corresponds precisely with our own emissions.'",
             "next": 3
           },
           {
-            "label": "Troi,can we dampen our graviton output to break the resonance?",
-            "crew_reply": "Troi: 'We can try, but if the reflection is feeding from our systems, suppressing it too quickly could destabilize both fields.'",
+            "label": "Dr. Crusher, can we dampen our graviton output to break the resonance?",
+            "crew_reply": "Crusher: 'We can try, but if the reflection is feeding from our systems, suppressing it too quickly could destabilize both fields.'",
             "next": 3
           },
           {
-            "label": "Forge,prepare an away team. If that\u2019s a physical structure, I want confirmation before we take further action.",
-            "crew_reply": "Forge: 'Understood, Captain. Shuttle team standing by, awaiting clearance.'",
+            "label": "Dr. Crusher, prepare an away team. If that\u2019s a physical structure, I want confirmation before we take further action.",
+            "crew_reply": "Crusher: 'Understood, Captain. Shuttle team standing by, awaiting clearance.'",
             "next": 3
           }
         ]
@@ -71,18 +71,18 @@
         "line": "Captain, the anomaly is beginning to pulse in rhythm with our warp field. Power readings on the reflection are climbing\u2014identical to our own output curve.",
         "options": [
           {
-            "label": "Worf,invert the warp field polarity to desynchronize our harmonic signature.",
-            "crew_reply": "Worf: 'Inversion complete. The mirror vessel\u2019s response is lagging\u2014it\u2019s losing coherence, Captain.'",
+            "label": "Data, invert the warp field polarity to desynchronize our harmonic signature.",
+            "crew_reply": "Data: 'Inversion complete. The mirror vessel\u2019s response is lagging\u2014it\u2019s losing coherence, Captain.'",
             "next": 4
           },
           {
-            "label": "O'Brien,back us off to minimum safe distance. Keep shields at maximum.",
-            "crew_reply": "O'Brien: 'Aye, Captain. Reversing course, increasing distance to ten thousand kilometers.'",
+            "label": "Mr. La Forge, back us off to minimum safe distance. Keep shields at maximum.",
+            "crew_reply": "La Forge: 'Aye, Captain. Reversing course, increasing distance to ten thousand kilometers.'",
             "next": 4
           },
           {
-            "label": "Data,monitor the temporal differential between both ships.",
-            "crew_reply": "Data: 'Temporal drift increasing. The reflected vessel\u2019s image is degrading\u2014it will collapse within thirty seconds.'",
+            "label": "Number One, monitor the temporal differential between both ships.",
+            "crew_reply": "Riker: 'Temporal drift increasing. The reflected vessel\u2019s image is degrading\u2014it will collapse within thirty seconds.'",
             "next": 4
           }
         ]
@@ -92,17 +92,17 @@
         "line": "Captain, the graviton veil has collapsed. The reflected Enterprise has vanished. All subspace readings have normalized. The region appears stable.",
         "options": [
           {
-            "label": "Riker,confirm there\u2019s no residual quantum phase interference remaining.",
-            "crew_reply": "Riker: 'Confirmed, Captain. Chroniton and graviton counts have returned to baseline. No evidence of residual echo signatures.'",
+            "label": "Data, confirm there\u2019s no residual quantum phase interference remaining.",
+            "crew_reply": "Data: 'Confirmed, Captain. Chroniton and graviton counts have returned to baseline. No evidence of residual echo signatures.'",
             "next": null
           },
           {
-            "label": "Data,conduct a final systems check for any duplication or feedback anomalies.",
-            "crew_reply": "Data: 'Diagnostics running clean, Captain. No sign of mirrored subsystems or energy divergence.'",
+            "label": "Mr. La Forge, conduct a final systems check for any duplication or feedback anomalies.",
+            "crew_reply": "La Forge: 'Diagnostics running clean, Captain. No sign of mirrored subsystems or energy divergence.'",
             "next": null
           },
           {
-            "label": "Riker,log this mission under temporal classification directive 9-12.",
+            "label": "Number One, log this mission under temporal classification directive 9-12.",
             "crew_reply": "Riker: 'Aye, Captain. Mission log secured and restricted to Starfleet Science and Temporal Investigations.'",
             "next": null
           }
@@ -137,17 +137,17 @@
         "line": "Captain, long-range sensors confirm the presence of a gravitic distortion orbiting Gamma Doradus Prime. The anomaly absorbs all electromagnetic emissions\u2014no reflected energy, no albedo signature of any kind.",
         "options": [
           {
-            "label": "Troi,analyze the object\u2019s gravitational profile. Estimate its mass and stability.",
-            "crew_reply": "Troi: 'Mass equivalent to a small moon, Captain, but density exceeds known matter models. It appears to be composed entirely of non-baryonic particles\u2014likely dark matter.'",
+            "label": "Chief O'Brien, analyze the object\u2019s gravitational profile. Estimate its mass and stability.",
+            "crew_reply": "O'Brien: 'Mass equivalent to a small moon, Captain, but density exceeds known matter models. It appears to be composed entirely of non-baryonic particles\u2014likely dark matter.'",
             "next": 1
           },
           {
-            "label": "O'Brien,adjust our sensor harmonics for deep-graviton scanning.",
-            "crew_reply": "O'Brien: 'Reconfiguring now, Captain. Graviton filters online. Getting partial returns\u2014energy flux inside the anomaly is oscillating irregularly.'",
+            "label": "Mr. La Forge, adjust our sensor harmonics for deep-graviton scanning.",
+            "crew_reply": "La Forge: 'Reconfiguring now, Captain. Graviton filters online. Getting partial returns\u2014energy flux inside the anomaly is oscillating irregularly.'",
             "next": 1
           },
           {
-            "label": "Riker,maintain yellow alert and hold position at five thousand kilometers.",
+            "label": "Number One, maintain yellow alert and hold position at five thousand kilometers.",
             "crew_reply": "Riker: 'Aye, Captain. Yellow alert set. Helm, maintain distance and keep lateral thrusters at standby.'",
             "next": 1
           }
@@ -158,18 +158,18 @@
         "line": "Captain, I am detecting faint subspace pulses originating from within the anomaly. The pattern repeats every 11.6 seconds\u2014encoded, but not in any Federation encryption.",
         "options": [
           {
-            "label": "Crusher,attempt to decode the signal pattern.",
-            "crew_reply": "Crusher: 'Analyzing, Captain... The transmission is structured but non-linguistic\u2014possibly a form of reactive mimicry. It appears to be reproducing our sensor output in reverse phase.'",
+            "label": "Data, attempt to decode the signal pattern.",
+            "crew_reply": "Data: 'Analyzing, Captain... The transmission is structured but non-linguistic\u2014possibly a form of reactive mimicry. It appears to be reproducing our sensor output in reverse phase.'",
             "next": 2
           },
           {
-            "label": "Worf,could our scans be provoking the anomaly?",
+            "label": "Mr. Worf, could our scans be provoking the anomaly?",
             "crew_reply": "Worf: 'That\u2019s possible, sir. Every time we pulse the array, it mirrors us with slightly altered feedback. It\u2019s like the thing is scanning us back.'",
             "next": 2
           },
           {
-            "label": "Data,reduce active sensor output by half and monitor for any response.",
-            "crew_reply": "Data: 'Understood. Reducing emissions. The anomaly\u2019s pulse interval is shortening\u2014response time now nine seconds.'",
+            "label": "Counselor Troi, reduce active sensor output by half and monitor for any response.",
+            "crew_reply": "Troi: 'Understood. Reducing emissions. The anomaly\u2019s pulse interval is shortening\u2014response time now nine seconds.'",
             "next": 2
           }
         ]
@@ -180,17 +180,17 @@
         "options": [
           {
             "label": "Shut down all non-essential systems and reduce warp field output to zero.",
-            "crew_reply": "Forge: 'Aye, Captain. Powering down. Containment field neutral. The resonance effect is decreasing\u2014but not disappearing.'",
+            "crew_reply": "Helm: 'Aye, Captain. Powering down. Containment field neutral. The resonance effect is decreasing\u2014but not disappearing.'",
             "next": 3
           },
           {
-            "label": "Forge,calculate the distance at which field resonance ceases to propagate.",
-            "crew_reply": "Forge: 'Minimum safe distance is twelve thousand kilometers. Current position: nine thousand and closing. Suggest immediate withdrawal.'",
+            "label": "Dr. Crusher, calculate the distance at which field resonance ceases to propagate.",
+            "crew_reply": "Crusher: 'Minimum safe distance is twelve thousand kilometers. Current position: nine thousand and closing. Suggest immediate withdrawal.'",
             "next": 3
           },
           {
-            "label": "Forge,signal the observatory. See if they can confirm similar interference before they lost contact.",
-            "crew_reply": "Forge: 'Channel open\u2014but no response. The outpost\u2019s carrier frequency is present but unmodulated, like a reflection.'",
+            "label": "Dr. Crusher, signal the observatory. See if they can confirm similar interference before they lost contact.",
+            "crew_reply": "Crusher: 'Channel open\u2014but no response. The outpost\u2019s carrier frequency is present but unmodulated, like a reflection.'",
             "next": 3
           }
         ]
@@ -200,18 +200,18 @@
         "line": "Captain, the anomaly is shifting position. It\u2019s aligning directly with our bow. Power loss spreading through the lower decks. Shield modulation offline.",
         "options": [
           {
-            "label": "Worf,initiate full power isolation\u2014disconnect warp core from all external systems.",
-            "crew_reply": "Worf: 'Isolation engaged. Core power is stable and contained. The anomaly\u2019s pull is weakening\u2014but still tracking us.'",
+            "label": "Data, initiate full power isolation\u2014disconnect warp core from all external systems.",
+            "crew_reply": "Data: 'Isolation engaged. Core power is stable and contained. The anomaly\u2019s pull is weakening\u2014but still tracking us.'",
             "next": 4
           },
           {
-            "label": "Worf,full reverse impulse. Move us out of its trajectory immediately.",
-            "crew_reply": "Worf: 'Aye, Captain. Reversing course, but helm response is sluggish. Local space-time distortion increasing.'",
+            "label": "Mr. La Forge, full reverse impulse. Move us out of its trajectory immediately.",
+            "crew_reply": "La Forge: 'Aye, Captain. Reversing course, but helm response is sluggish. Local space-time distortion increasing.'",
             "next": 4
           },
           {
-            "label": "O'Brien,project an inverse subspace harmonic to break the feedback loop.",
-            "crew_reply": "O'Brien: 'Inverse frequency generated. Broadcasting now. The anomaly\u2019s signature is fluctuating\u2014it appears to be destabilizing.'",
+            "label": "Number One, project an inverse subspace harmonic to break the feedback loop.",
+            "crew_reply": "Riker: 'Inverse frequency generated. Broadcasting now. The anomaly\u2019s signature is fluctuating\u2014it appears to be destabilizing.'",
             "next": 4
           }
         ]
@@ -221,18 +221,18 @@
         "line": "Captain, the anomaly has vanished. Sensors show residual graviton eddies, but the field itself is gone. The observatory remains offline, though its orbit has stabilized. Power systems are back to normal.",
         "options": [
           {
-            "label": "Worf,confirm there\u2019s no remaining dark-matter concentration nearby.",
-            "crew_reply": "Worf: 'Confirmed, Captain. The anomaly\u2019s mass signature has dissipated. Only background gravitational residue remains.'",
+            "label": "Data, confirm there\u2019s no remaining dark-matter concentration nearby.",
+            "crew_reply": "Data: 'Confirmed, Captain. The anomaly\u2019s mass signature has dissipated. Only background gravitational residue remains.'",
             "next": null
           },
           {
-            "label": "Troi,run diagnostics on all power systems and confirm no persistent resonance.",
-            "crew_reply": "Troi: 'Diagnostics complete, Captain. No residual harmonic coupling detected. All systems are nominal.'",
+            "label": "Mr. La Forge, run diagnostics on all power systems and confirm no persistent resonance.",
+            "crew_reply": "La Forge: 'Diagnostics complete, Captain. No residual harmonic coupling detected. All systems are nominal.'",
             "next": null
           },
           {
-            "label": "Worf,deploy a warning buoy and record this region as off-limits pending further study.",
-            "crew_reply": "Worf: 'Buoy deployed, Captain. Transmission beacon active and broadcasting a navigational caution to all Federation traffic.'",
+            "label": "Number One, deploy a warning buoy and record this region as off-limits pending further study.",
+            "crew_reply": "Riker: 'Buoy deployed, Captain. Transmission beacon active and broadcasting a navigational caution to all Federation traffic.'",
             "next": null
           }
         ]
@@ -266,18 +266,18 @@
         "line": "Captain, sensors are registering a repeating subspace echo matching the Enterprise\u2019s own warp signature. The signal is displaced by approximately four seconds in temporal phase.",
         "options": [
           {
-            "label": "Troi,confirm the origin point of the signal.",
-            "crew_reply": "Troi: 'The echo is originating from within the distortion boundary, Captain. It appears to be a duplicate of our own energy pattern.'",
+            "label": "Chief O'Brien, confirm the origin point of the signal.",
+            "crew_reply": "O'Brien: 'The echo is originating from within the distortion boundary, Captain. It appears to be a duplicate of our own energy pattern.'",
             "next": 1
           },
           {
-            "label": "Data,could this be a reflection from our own warp field?",
-            "crew_reply": "Data: 'Negative, sir. The feedback curve doesn\u2019t match. This looks like an independent source... maybe even another ship with our signature.'",
+            "label": "Mr. La Forge, could this be a reflection from our own warp field?",
+            "crew_reply": "La Forge: 'Negative, sir. The feedback curve doesn\u2019t match. This looks like an independent source... maybe even another ship with our signature.'",
             "next": 1
           },
           {
-            "label": "Forge,maintain yellow alert and hold position until we know more.",
-            "crew_reply": "Forge: 'Aye, Captain. All stations on standby. No other vessels within range.'",
+            "label": "Number One, maintain yellow alert and hold position until we know more.",
+            "crew_reply": "Riker: 'Aye, Captain. All stations on standby. No other vessels within range.'",
             "next": 1
           }
         ]
@@ -287,18 +287,18 @@
         "line": "Captain, tactical sensors confirm a visual contact\u2014an identical vessel bearing Starfleet markings. It\u2019s the Enterprise. Configuration and energy output are a perfect match.",
         "options": [
           {
-            "label": "Crusher,analyze for structural discrepancies.",
-            "crew_reply": "Crusher: 'No measurable differences, Captain. The other vessel\u2019s power fluctuations are synchronized with our own\u2014offset by 4.2 seconds.'",
+            "label": "Mr. Worf, analyze for structural discrepancies.",
+            "crew_reply": "Worf: 'No measurable differences, Captain. The other vessel\u2019s power fluctuations are synchronized with our own\u2014offset by 4.2 seconds.'",
             "next": 2
           },
           {
-            "label": "O'Brien,open a hailing frequency.",
-            "crew_reply": "O'Brien: 'Channel open, sir. No response. The transmission is echoing our own hail back at us... reversed in polarity.'",
+            "label": "Data, open a hailing frequency.",
+            "crew_reply": "Data: 'Channel open, sir. No response. The transmission is echoing our own hail back at us... reversed in polarity.'",
             "next": 2
           },
           {
-            "label": "Riker,adjust position to maintain safe distance from the duplicate vessel.",
-            "crew_reply": "Riker: 'Aye, Captain. Matching course and speed\u2014distance holding steady at 10,000 kilometers.'",
+            "label": "Counselor Troi, adjust position to maintain safe distance from the duplicate vessel.",
+            "crew_reply": "Troi: 'Aye, Captain. Matching course and speed\u2014distance holding steady at 10,000 kilometers.'",
             "next": 2
           }
         ]
@@ -308,18 +308,18 @@
         "line": "Captain, the distortion field is growing. It\u2019s pulling both vessels toward a convergence point at the center of the expanse. If that field collapses while we\u2019re inside, we could be destroyed\u2014or duplicated again.",
         "options": [
           {
-            "label": "Worf,prepare to emit a warp-field counterpulse to stabilize the anomaly.",
-            "crew_reply": "Worf: 'Understood. Configuring warp-field modulation to 0.73 terahertz\u2014ready on your command.'",
+            "label": "Helm, prepare to emit a warp-field counterpulse to stabilize the anomaly.",
+            "crew_reply": "Helm: 'Understood. Configuring warp-field modulation to 0.73 terahertz\u2014ready on your command.'",
             "next": 3
           },
           {
-            "label": "Crusher,calculate if we can match the other ship\u2019s phase variance to merge the two fields safely.",
+            "label": "Dr. Crusher, calculate if we can match the other ship\u2019s phase variance to merge the two fields safely.",
             "crew_reply": "Crusher: 'It is theoretically possible, Captain, but synchronization must be precise to within nanoseconds. A deviation could destroy both vessels.'",
             "next": 3
           },
           {
-            "label": "Data,ready the crew for emergency separation if we can\u2019t stabilize the distortion.",
-            "crew_reply": "Data: 'All hands on standby. Structural integrity fields at maximum. Emergency teams are manning key stations.'",
+            "label": "Dr. Crusher, ready the crew for emergency separation if we can\u2019t stabilize the distortion.",
+            "crew_reply": "Crusher: 'All hands on standby. Structural integrity fields at maximum. Emergency teams are manning key stations.'",
             "next": 3
           }
         ]
@@ -329,18 +329,18 @@
         "line": "Captain, I\u2019m sensing confusion... fear. It\u2019s coming from the other Enterprise. The emotional patterns are identical to our own, as if they\u2019re experiencing the same situation\u2014seconds behind us.",
         "options": [
           {
-            "label": "Troi,maintain monitoring. If they are us, we need to ensure both ships survive the merge.",
-            "crew_reply": "Troi: 'Understood, Captain. The presence is becoming fainter. It\u2019s as if they know what we\u2019re about to do.'",
+            "label": "Data, maintain monitoring. If they are us, we need to ensure both ships survive the merge.",
+            "crew_reply": "Data: 'Understood, Captain. The presence is becoming fainter. It\u2019s as if they know what we\u2019re about to do.'",
             "next": 4
           },
           {
-            "label": "O'Brien,is there any sign of chronometric instability?",
-            "crew_reply": "O'Brien: 'Yes, Captain. The rift\u2019s temporal shear is increasing exponentially. Synchronization must occur within the next two minutes or both vessels will be lost.'",
+            "label": "Mr. La Forge, is there any sign of chronometric instability?",
+            "crew_reply": "La Forge: 'Yes, Captain. The rift\u2019s temporal shear is increasing exponentially. Synchronization must occur within the next two minutes or both vessels will be lost.'",
             "next": 4
           },
           {
-            "label": "Data,we\u2019ve run out of time. Prepare to execute the warp-field pulse.",
-            "crew_reply": "Data: 'Aye, Captain. Engineering confirms all systems ready. Awaiting your order.'",
+            "label": "Number One, we\u2019ve run out of time. Prepare to execute the warp-field pulse.",
+            "crew_reply": "Riker: 'Aye, Captain. Engineering confirms all systems ready. Awaiting your order.'",
             "next": 4
           }
         ]
@@ -350,18 +350,18 @@
         "line": "Captain, the warp pulse has aligned both ships\u2019 phase signatures. The distortion is collapsing, and the duplicate Enterprise is fading from sensors. All readings returning to normal.",
         "options": [
           {
-            "label": "Forge,confirm we\u2019re the original Enterprise.",
-            "crew_reply": "Forge: 'Unknown, Captain. Our sensor logs contain overlapping timestamps. It is possible that we are the surviving instance.'",
+            "label": "Data, confirm we\u2019re the original Enterprise.",
+            "crew_reply": "Data: 'Unknown, Captain. Our sensor logs contain overlapping timestamps. It is possible that we are the surviving instance.'",
             "next": null
           },
           {
-            "label": "O'Brien,confirm power stability and seal off any residual phase coupling.",
-            "crew_reply": "O'Brien: 'All systems stable, sir. Warp containment field is clean. No remaining temporal residue detected.'",
+            "label": "Mr. La Forge, confirm power stability and seal off any residual phase coupling.",
+            "crew_reply": "La Forge: 'All systems stable, sir. Warp containment field is clean. No remaining temporal residue detected.'",
             "next": null
           },
           {
-            "label": "O'Brien,set a navigational beacon warning all vessels to avoid this sector.",
-            "crew_reply": "O'Brien: 'Beacon deployed, Captain. Starfleet Command will receive automated telemetry within the hour.'",
+            "label": "Number One, set a navigational beacon warning all vessels to avoid this sector.",
+            "crew_reply": "Riker: 'Beacon deployed, Captain. Starfleet Command will receive automated telemetry within the hour.'",
             "next": null
           }
         ]
@@ -395,18 +395,18 @@
         "line": "Captain, we are entering the outer layer of the Berengaria Nebula. Ionic density is interfering with standard sensor resolution, but I am detecting faint tachyon emissions consistent with early 22nd-century Starfleet subspace beacons.",
         "options": [
           {
-            "label": "Forge,attempt to isolate the signal and determine its coordinates.",
-            "crew_reply": "Forge: 'Signal isolated to sector 3-9-Alpha within the nebula core. The source appears stationary, possibly a vessel or probe.'",
+            "label": "Chief O'Brien, attempt to isolate the signal and determine its coordinates.",
+            "crew_reply": "O'Brien: 'Signal isolated to sector 3-9-Alpha within the nebula core. The source appears stationary, possibly a vessel or probe.'",
             "next": 1
           },
           {
-            "label": "Worf,compensate sensor arrays for ion interference.",
-            "crew_reply": "Worf: 'Aye, Captain. Rerouting power to the lateral sensor grid. Resolution improving... I\u2019ve got a silhouette\u2014definitely Starfleet hull geometry.'",
+            "label": "Mr. La Forge, compensate sensor arrays for ion interference.",
+            "crew_reply": "La Forge: 'Aye, Captain. Rerouting power to the lateral sensor grid. Resolution improving... I\u2019ve got a silhouette\u2014definitely Starfleet hull geometry.'",
             "next": 1
           },
           {
-            "label": "Troi,reduce speed to one-quarter impulse. Let\u2019s not disturb the field until we know what we\u2019re facing.",
-            "crew_reply": "Troi: 'Understood, Captain. Helm, bring us down to one-quarter impulse. Holding steady on vector 117 mark four.'",
+            "label": "Number One, reduce speed to one-quarter impulse. Let\u2019s not disturb the field until we know what we\u2019re facing.",
+            "crew_reply": "Riker: 'Understood, Captain. Helm, bring us down to one-quarter impulse. Holding steady on vector 117 mark four.'",
             "next": 1
           }
         ]
@@ -416,18 +416,18 @@
         "line": "Captain, visual confirmation obtained. The vessel appears to be a Daedalus-class starship\u2014heavily damaged, no active power signature. Its registry reads NCC-125: USS Archer.",
         "options": [
           {
-            "label": "O'Brien,confirm the vessel\u2019s age and condition.",
-            "crew_reply": "O'Brien: 'Records indicate the Archer was lost in 2147. Hull composition and decay rate are consistent with a ship adrift for over a century.'",
+            "label": "Helm, confirm the vessel\u2019s age and condition.",
+            "crew_reply": "Helm: 'Records indicate the Archer was lost in 2147. Hull composition and decay rate are consistent with a ship adrift for over a century.'",
             "next": 2
           },
           {
-            "label": "Data,scan for active life signs or weapon signatures.",
+            "label": "Data, scan for active life signs or weapon signatures.",
             "crew_reply": "Data: 'No life signs, no weapons powered. However, there is a chronometric distortion field surrounding the ship\u2019s hull.'",
             "next": 2
           },
           {
-            "label": "Crusher,prepare an away team for investigation.",
-            "crew_reply": "Crusher: 'Acknowledged. Security, Engineering, and Medical teams assembling in Transporter Room Two. Awaiting clearance to beam over.'",
+            "label": "Mr. Worf, prepare an away team for investigation.",
+            "crew_reply": "Worf: 'Acknowledged. Security, Engineering, and Medical teams assembling in Transporter Room Two. Awaiting clearance to beam over.'",
             "next": 2
           }
         ]
@@ -437,18 +437,18 @@
         "line": "Captain, the Daedalus-class ship is encased in a variable chronometric field. Time inside seems to be looping\u2014seconds repeating in cycles. If we transport an away team aboard, they may become trapped in the loop.",
         "options": [
           {
-            "label": "Riker,can we stabilize the field remotely from here?",
-            "crew_reply": "Riker: 'Possibly. I can synchronize our deflector to emit a counter-frequency, but it\u2019ll need constant modulation.'",
+            "label": "Counselor Troi, can we stabilize the field remotely from here?",
+            "crew_reply": "Troi: 'Possibly. I can synchronize our deflector to emit a counter-frequency, but it\u2019ll need constant modulation.'",
             "next": 3
           },
           {
-            "label": "Riker,estimate safe transport window into the field.",
-            "crew_reply": "Riker: 'A three-second interval occurs every 4.7 minutes where field intensity drops below critical threshold. It would be sufficient for beam-in or extraction.'",
+            "label": "Dr. Crusher, estimate safe transport window into the field.",
+            "crew_reply": "Crusher: 'A three-second interval occurs every 4.7 minutes where field intensity drops below critical threshold. It would be sufficient for beam-in or extraction.'",
             "next": 3
           },
           {
-            "label": "Riker,proceed with caution. No one transports until we have stable containment parameters.",
-            "crew_reply": "Riker: 'Understood. Away team holding position, Captain.'",
+            "label": "Dr. Crusher, proceed with caution. No one transports until we have stable containment parameters.",
+            "crew_reply": "Crusher: 'Understood. Away team holding position, Captain.'",
             "next": 3
           }
         ]
@@ -458,18 +458,18 @@
         "line": "Captain, I\u2019m sensing echoes\u2014fragments of emotion. Fear. Duty. It\u2019s as if the crew aboard the Archer are still reliving their final moments over and over.",
         "options": [
           {
-            "label": "Crusher,maintain monitoring. If they\u2019re trapped in a loop, they may still be broadcasting distress signals.",
-            "crew_reply": "Crusher: 'Yes, Captain. The emotional intensity is fading, but there\u2019s still... something there. Like a final message waiting to be delivered.'",
+            "label": "Data, maintain monitoring. If they\u2019re trapped in a loop, they may still be broadcasting distress signals.",
+            "crew_reply": "Data: 'Yes, Captain. The emotional intensity is fading, but there\u2019s still... something there. Like a final message waiting to be delivered.'",
             "next": 4
           },
           {
-            "label": "Riker,synchronize the deflector to their chronometric frequency. Let\u2019s give them a stable link.",
-            "crew_reply": "Riker: 'Aye, Captain. Matching phase variance. The Archer\u2019s computer is powering up\u2014signal integrity increasing.'",
+            "label": "Mr. La Forge, synchronize the deflector to their chronometric frequency. Let\u2019s give them a stable link.",
+            "crew_reply": "La Forge: 'Aye, Captain. Matching phase variance. The Archer\u2019s computer is powering up\u2014signal integrity increasing.'",
             "next": 4
           },
           {
-            "label": "O'Brien,record all telemetry and prepare for full transmission capture.",
-            "crew_reply": "O'Brien: 'Recording all subspace packets. Transmission origin matches the Archer\u2019s main computer core. Message content now forming.'",
+            "label": "Number One, record all telemetry and prepare for full transmission capture.",
+            "crew_reply": "Riker: 'Recording all subspace packets. Transmission origin matches the Archer\u2019s main computer core. Message content now forming.'",
             "next": 4
           }
         ]
@@ -479,17 +479,17 @@
         "line": "Captain, the Archer\u2019s computer is transmitting a coherent signal\u2014voice pattern consistent with its commanding officer. The message reads: 'Crew of the USS Archer... mission complete. Standing down.' The ship\u2019s chronometric field is collapsing.",
         "options": [
           {
-            "label": "O'Brien,confirm the vessel\u2019s status.",
-            "crew_reply": "O'Brien: 'Confirmed, Captain. The Archer has fully dematerialized into subspace. No debris detected. Tachyon readings are subsiding.'",
+            "label": "Data, confirm the vessel\u2019s status.",
+            "crew_reply": "Data: 'Confirmed, Captain. The Archer has fully dematerialized into subspace. No debris detected. Tachyon readings are subsiding.'",
             "next": null
           },
           {
-            "label": "Troi,deploy a navigational beacon to mark the location.",
-            "crew_reply": "Troi: 'Beacon launched, Captain. Coordinates logged for Starfleet records.'",
+            "label": "Mr. La Forge, deploy a navigational beacon to mark the location.",
+            "crew_reply": "La Forge: 'Beacon launched, Captain. Coordinates logged for Starfleet records.'",
             "next": null
           },
           {
-            "label": "Riker,set course for Starbase 23. Warp six.",
+            "label": "Number One, set course for Starbase 23. Warp six.",
             "crew_reply": "Riker: 'Course laid in, Captain. Standing by for warp initiation.'",
             "next": null
           }
@@ -524,18 +524,18 @@
         "line": "Captain, long-range scans confirm the outpost is intact but operating on minimal power. Faint life-sign readings are present, though sensor correlation is inconsistent. I am also detecting elevated neutrino activity emanating from the moon\u2019s surface.",
         "options": [
           {
-            "label": "Data,can you isolate the source of the neutrino surge?",
-            "crew_reply": "Data: 'The emissions appear to originate from a subterranean sensor array installed by the research team. Its energy output has increased exponentially since their last transmission.'",
+            "label": "Chief O'Brien, can you isolate the source of the neutrino surge?",
+            "crew_reply": "O'Brien: 'The emissions appear to originate from a subterranean sensor array installed by the research team. Its energy output has increased exponentially since their last transmission.'",
             "next": 1
           },
           {
-            "label": "O'Brien,adjust sensors to compensate for the interference.",
-            "crew_reply": "O'Brien: 'Aye, Captain. Rerouting through secondary arrays... the neutrino field isn\u2019t random\u2014it\u2019s pulsing in intervals. Almost rhythmic.'",
+            "label": "Mr. La Forge, adjust sensors to compensate for the interference.",
+            "crew_reply": "La Forge: 'Aye, Captain. Rerouting through secondary arrays... the neutrino field isn\u2019t random\u2014it\u2019s pulsing in intervals. Almost rhythmic.'",
             "next": 1
           },
           {
-            "label": "Worf,bring us into synchronous orbit over the outpost coordinates.",
-            "crew_reply": "Worf: 'Orbit established, Captain. We\u2019re holding steady above the research dome.'",
+            "label": "Number One, bring us into synchronous orbit over the outpost coordinates.",
+            "crew_reply": "Riker: 'Orbit established, Captain. We\u2019re holding steady above the research dome.'",
             "next": 1
           }
         ]
@@ -545,18 +545,18 @@
         "line": "Captain, no active defense grids or shuttle traffic detected. However, the surface radiation levels are climbing. Recommend caution before deploying an away team.",
         "options": [
           {
-            "label": "Troi,status on the outpost power grid?",
-            "crew_reply": "Troi: 'Minimal function only\u2014reactor output at four percent, probably running on emergency backup.'",
+            "label": "Mr. Worf, status on the outpost power grid?",
+            "crew_reply": "Worf: 'Minimal function only\u2014reactor output at four percent, probably running on emergency backup.'",
             "next": 2
           },
           {
-            "label": "Crusher,assemble a minimal away team with Engineering and Medical personnel.",
-            "crew_reply": "Crusher: 'Aye, Captain. Team forming in Transporter Room Three. We\u2019ll take atmospheric filters and portable deflector shielding.'",
+            "label": "Data, assemble a minimal away team with Engineering and Medical personnel.",
+            "crew_reply": "Data: 'Aye, Captain. Team forming in Transporter Room Three. We\u2019ll take atmospheric filters and portable deflector shielding.'",
             "next": 2
           },
           {
-            "label": "Forge,confirm if the faint life readings are biological or environmental noise.",
-            "crew_reply": "Forge: 'They are biological, Captain, but severely degraded. Neural activity is registering off phase from normal parameters.'",
+            "label": "Counselor Troi, confirm if the faint life readings are biological or environmental noise.",
+            "crew_reply": "Troi: 'They are biological, Captain, but severely degraded. Neural activity is registering off phase from normal parameters.'",
             "next": 2
           }
         ]
@@ -566,18 +566,18 @@
         "line": "Captain, the away team reports the facility is intact but empty. Tricorders register neural activity throughout the structure, but it\u2019s disembodied\u2014no actual life forms present. The outpost\u2019s sensor array is active, generating the neutrino pulse.",
         "options": [
           {
-            "label": "Riker,what could cause dispersed neural activity without physical bodies present?",
-            "crew_reply": "Riker: 'A resonance between the sensor array\u2019s neutrino field and the mineral substrate could have converted the crew\u2019s neural energy into subspace echoes. Their consciousnesses may be embedded within the emissions.'",
+            "label": "Helm, what could cause dispersed neural activity without physical bodies present?",
+            "crew_reply": "Helm: 'A resonance between the sensor array\u2019s neutrino field and the mineral substrate could have converted the crew\u2019s neural energy into subspace echoes. Their consciousnesses may be embedded within the emissions.'",
             "next": 3
           },
           {
-            "label": "Riker,can you shut down the array remotely?",
-            "crew_reply": "Riker: 'Negative, sir. The system\u2019s feedback loop is self-sustaining\u2014it\u2019s drawing power directly from the planetary core. Any direct shutdown could overload the outpost.'",
+            "label": "Dr. Crusher, can you shut down the array remotely?",
+            "crew_reply": "Crusher: 'Negative, sir. The system\u2019s feedback loop is self-sustaining\u2014it\u2019s drawing power directly from the planetary core. Any direct shutdown could overload the outpost.'",
             "next": 3
           },
           {
-            "label": "Worf,what\u2019s your medical assessment?",
-            "crew_reply": "Worf: 'I\u2019m reading low-level metabolic function in every missing crew member. Their bodies are alive but their consciousnesses are... displaced. If we collapse the field, we might reconstitute them.'",
+            "label": "Dr. Crusher, what\u2019s your medical assessment?",
+            "crew_reply": "Crusher: 'I\u2019m reading low-level metabolic function in every missing crew member. Their bodies are alive but their consciousnesses are... displaced. If we collapse the field, we might reconstitute them.'",
             "next": 3
           }
         ]
@@ -587,18 +587,18 @@
         "line": "Captain, I can sense fragments of thought\u2014fear, confusion, and something else... curiosity. Whatever this field is, it\u2019s aware of us now. It\u2019s trying to communicate.",
         "options": [
           {
-            "label": "Forge,maintain contact as best you can. Mr. La Forge, prepare to reverse the neutrino flow.",
-            "crew_reply": "Forge: 'It\u2019s reaching for connection... but losing coherence, Captain.'  La Forge: 'Reversal sequence ready. Activating deflector modulation now.'",
+            "label": "Data, maintain contact as best you can. Mr. La Forge, prepare to reverse the neutrino flow.",
+            "crew_reply": "Data: 'It\u2019s reaching for connection... but losing coherence, Captain.'  La Forge: 'Reversal sequence ready. Activating deflector modulation now.'",
             "next": 4
           },
           {
-            "label": "Forge,can we translate the emissions into coherent signal patterns?",
-            "crew_reply": "Forge: 'Attempting translation. The modulation forms structured intervals\u2014possibly memory fragments or communication attempts by the displaced crew.'",
+            "label": "Mr. La Forge, can we translate the emissions into coherent signal patterns?",
+            "crew_reply": "La Forge: 'Attempting translation. The modulation forms structured intervals\u2014possibly memory fragments or communication attempts by the displaced crew.'",
             "next": 4
           },
           {
-            "label": "Crusher,recall the away team. We\u2019ll stabilize this from orbit.",
-            "crew_reply": "Crusher: 'Acknowledged. Transporter room reports the away team is safely aboard.'",
+            "label": "Number One, recall the away team. We\u2019ll stabilize this from orbit.",
+            "crew_reply": "Riker: 'Acknowledged. Transporter room reports the away team is safely aboard.'",
             "next": 4
           }
         ]
@@ -608,18 +608,18 @@
         "line": "Captain, the array\u2019s energy output is collapsing. The emissions are dissipating into the planet\u2019s crust. Doctor Crusher reports the science team\u2019s neural patterns are re-synchronizing. They\u2019re alive\u2014comatose, but stable.",
         "options": [
           {
-            "label": "Data,maintain orbital watch until all field activity ceases.",
+            "label": "Data, maintain orbital watch until all field activity ceases.",
             "crew_reply": "Data: 'Aye, Captain. Monitoring planetary energy signatures. Radiation levels declining to background levels.'",
             "next": null
           },
           {
-            "label": "O'Brien,confirm that the field has fully collapsed.",
-            "crew_reply": "O'Brien: 'Confirmed, Captain. Neutrino emissions have ceased. Only residual quantum noise remains.'",
+            "label": "Mr. La Forge, confirm that the field has fully collapsed.",
+            "crew_reply": "La Forge: 'Confirmed, Captain. Neutrino emissions have ceased. Only residual quantum noise remains.'",
             "next": null
           },
           {
-            "label": "Forge,set course for Starbase 23. Warp six.",
-            "crew_reply": "Forge: 'Course laid in, Captain. Ready for warp on your command.'",
+            "label": "Number One, set course for Starbase 23. Warp six.",
+            "crew_reply": "Riker: 'Course laid in, Captain. Ready for warp on your command.'",
             "next": null
           }
         ]
@@ -653,18 +653,18 @@
         "line": "Captain, long-range scans confirm the presence of intense plasma turbulence across the Crimson Divide. I am also detecting intermittent tetryon bursts consistent with Romulan cloaking field emissions.",
         "options": [
           {
-            "label": "O'Brien,can you localize the source of the emissions?",
-            "crew_reply": "O'Brien: 'Triangulating now... The bursts appear to originate from within the rift itself, approximately two hundred thousand kilometers from the divide\u2019s central axis.'",
+            "label": "Data, can you localize the source of the emissions?",
+            "crew_reply": "Data: 'Triangulating now... The bursts appear to originate from within the rift itself, approximately two hundred thousand kilometers from the divide\u2019s central axis.'",
             "next": 1
           },
           {
-            "label": "Riker,adjust our sensor harmonics to compensate for the interference.",
-            "crew_reply": "Riker: 'Aye, Captain. Rerouting power through the secondary array... Sensors clearing. The emissions are fluctuating\u2014whatever\u2019s in there is losing power fast.'",
+            "label": "Mr. La Forge, adjust our sensor harmonics to compensate for the interference.",
+            "crew_reply": "La Forge: 'Aye, Captain. Rerouting power through the secondary array... Sensors clearing. The emissions are fluctuating\u2014whatever\u2019s in there is losing power fast.'",
             "next": 1
           },
           {
-            "label": "Worf,maintain distance until we can confirm what\u2019s inside that rift.",
-            "crew_reply": "Worf: 'Understood. Helm, hold position at thirty thousand kilometers from the leading edge.'",
+            "label": "Number One, maintain distance until we can confirm what\u2019s inside that rift.",
+            "crew_reply": "Riker: 'Understood. Helm, hold position at thirty thousand kilometers from the leading edge.'",
             "next": 1
           }
         ]
@@ -675,17 +675,17 @@
         "options": [
           {
             "label": "Raise shields and go to yellow alert.",
-            "crew_reply": "Troi: 'Aye, Captain. Shields up. Tactical systems standing by.'",
+            "crew_reply": "Worf: 'Aye, Captain. Shields up. Tactical systems standing by.'",
             "next": 2
           },
           {
             "label": "Open a hailing frequency. Let\u2019s see if they\u2019re still alive over there.",
-            "crew_reply": "Forge: 'Channel open, sir. No response. Their comm array is either damaged or nonfunctional.'",
+            "crew_reply": "Troi: 'Channel open, sir. No response. Their comm array is either damaged or nonfunctional.'",
             "next": 2
           },
           {
-            "label": "Data,prepare a rescue plan, but keep us outside the rift for now.",
-            "crew_reply": "Data: 'Aye, Captain. Coordinating with Engineering and Medical for potential recovery ops.'",
+            "label": "Chief O'Brien, prepare a rescue plan, but keep us outside the rift for now.",
+            "crew_reply": "O'Brien: 'Aye, Captain. Coordinating with Engineering and Medical for potential recovery ops.'",
             "next": 2
           }
         ]
@@ -695,18 +695,18 @@
         "line": "Captain, the Warbird\u2019s singularity drive is destabilizing. It\u2019s feeding directly into the plasma rift\u2014if that core collapses, the resulting energy release could vaporize both colonies.",
         "options": [
           {
-            "label": "Crusher,propose a containment strategy.",
-            "crew_reply": "Crusher: 'We could align our warp field with the rift\u2019s harmonic frequency to draw power away from the singularity, but we\u2019d have to get within a few thousand kilometers.'",
+            "label": "Helm, propose a containment strategy.",
+            "crew_reply": "Helm: 'We could align our warp field with the rift\u2019s harmonic frequency to draw power away from the singularity, but we\u2019d have to get within a few thousand kilometers.'",
             "next": 3
           },
           {
-            "label": "O'Brien,calculate the minimum safe distance for intervention.",
-            "crew_reply": "O'Brien: 'Based on current readings, any closer than fifteen thousand kilometers would expose the Enterprise to plasma shear forces exceeding hull tolerance.'",
+            "label": "Dr. Crusher, calculate the minimum safe distance for intervention.",
+            "crew_reply": "Crusher: 'Based on current readings, any closer than fifteen thousand kilometers would expose the Enterprise to plasma shear forces exceeding hull tolerance.'",
             "next": 3
           },
           {
-            "label": "Riker,maintain defensive posture but hold fire. The Romulans may be victims here, not aggressors.",
-            "crew_reply": "Riker: 'Acknowledged. Tactical sensors locked but weapons remain safed.'",
+            "label": "Dr. Crusher, maintain defensive posture but hold fire. The Romulans may be victims here, not aggressors.",
+            "crew_reply": "Crusher: 'Acknowledged. Tactical sensors locked but weapons remain safed.'",
             "next": 3
           }
         ]
@@ -716,18 +716,18 @@
         "line": "Captain, I sense panic and fear from the Romulan vessel\u2014but also restraint. Whoever commands that ship is determined to survive, even at the risk of self-destruction.",
         "options": [
           {
-            "label": "Troi,keep monitoring. Mr. La Forge, prepare the warp-field synchronization. We\u2019ll attempt to pull them clear.",
-            "crew_reply": "Troi: 'Understood, Captain.'  La Forge: 'Warp-field modulation ready. On your mark, I\u2019ll engage power transfer sequence.'",
+            "label": "Data, keep monitoring. Mr. La Forge, prepare the warp-field synchronization. We\u2019ll attempt to pull them clear.",
+            "crew_reply": "Data: 'Understood, Captain.'  La Forge: 'Warp-field modulation ready. On your mark, I\u2019ll engage power transfer sequence.'",
             "next": 4
           },
           {
-            "label": "Forge,open an emergency subspace channel to the Warbird. Advise them we\u2019re attempting a rescue.",
-            "crew_reply": "Forge: 'Aye, Captain. Transmitting now. I\u2019m getting a weak acknowledgment\u2014barely audible, but they understand.'",
+            "label": "Mr. La Forge, open an emergency subspace channel to the Warbird. Advise them we\u2019re attempting a rescue.",
+            "crew_reply": "La Forge: 'Aye, Captain. Transmitting now. I\u2019m getting a weak acknowledgment\u2014barely audible, but they understand.'",
             "next": 4
           },
           {
-            "label": "Troi,model the plasma flux trajectory if the rift collapses prematurely.",
-            "crew_reply": "Troi: 'Projected shockwave would exceed thirty terajoules\u2014sufficient to destroy both colonies and severely damage this ship.'",
+            "label": "Number One, model the plasma flux trajectory if the rift collapses prematurely.",
+            "crew_reply": "Riker: 'Projected shockwave would exceed thirty terajoules\u2014sufficient to destroy both colonies and severely damage this ship.'",
             "next": 4
           }
         ]
@@ -737,18 +737,18 @@
         "line": "Captain, the warp-field link is stable. The Romulan vessel is clear of the rift and regaining limited power. The Crimson Divide has collapsed behind them\u2014plasma activity nominal. All systems aboard the Enterprise remain stable.",
         "options": [
           {
-            "label": "Data,confirm subspace stability throughout the system.",
+            "label": "Data, confirm subspace stability throughout the system.",
             "crew_reply": "Data: 'Confirmed, Captain. No further distortions detected. The rift has sealed itself completely.'",
             "next": null
           },
           {
-            "label": "Data,maintain alert status until the Romulans are safely underway.",
-            "crew_reply": "Data: 'Aye, Captain. Tactical sensors locked on their ship. No signs of hostile intent.'",
+            "label": "Mr. La Forge, maintain alert status until the Romulans are safely underway.",
+            "crew_reply": "La Forge: 'Aye, Captain. Tactical sensors locked on their ship. No signs of hostile intent.'",
             "next": null
           },
           {
-            "label": "Forge,contact Starfleet Command. Inform them the situation has been resolved and the Romulan vessel is en route to its border.",
-            "crew_reply": "Forge: 'Message sent, Captain. Starfleet acknowledges and requests full mission report upon return to Federation space.'",
+            "label": "Number One, contact Starfleet Command. Inform them the situation has been resolved and the Romulan vessel is en route to its border.",
+            "crew_reply": "Riker: 'Message sent, Captain. Starfleet acknowledges and requests full mission report upon return to Federation space.'",
             "next": null
           }
         ]
@@ -782,18 +782,18 @@
         "line": "Captain, sensors confirm multiple Talarian vessels maintaining tractor locks on the convoy. Power levels aboard the relief ships are low, but no life-support failures detected. The Talarians are transmitting encrypted communiqu\u00e9s, content indecipherable.",
         "options": [
           {
-            "label": "Worf,attempt to decrypt their transmissions without alerting their security protocols.",
-            "crew_reply": "Worf: 'Aye, Captain. Decryption underway. Initial fragments suggest internal disagreement among the Talarian officers.'",
+            "label": "Chief O'Brien, attempt to decrypt their transmissions without alerting their security protocols.",
+            "crew_reply": "O'Brien: 'Aye, Captain. Decryption underway. Initial fragments suggest internal disagreement among the Talarian officers.'",
             "next": 1
           },
           {
-            "label": "Troi,open a secure channel to the Talarian flagship.",
-            "crew_reply": "Troi: 'Channel open, Captain. Commander Makor is on visual\u2014he\u2019s demanding an explanation for the alleged contraband.'",
+            "label": "Mr. La Forge, open a secure channel to the Talarian flagship.",
+            "crew_reply": "La Forge: 'Channel open, Captain. Commander Makor is on visual\u2014he\u2019s demanding an explanation for the alleged contraband.'",
             "next": 1
           },
           {
-            "label": "O'Brien,raise shields and hold defensive posture only.",
-            "crew_reply": "O'Brien: 'Shields at full, Captain. No weapons lock detected from the Talarian vessels.'",
+            "label": "Number One, raise shields and hold defensive posture only.",
+            "crew_reply": "Riker: 'Shields at full, Captain. No weapons lock detected from the Talarian vessels.'",
             "next": 1
           }
         ]
@@ -804,17 +804,17 @@
         "options": [
           {
             "label": "Inform Makor that any Federation citizen held without due process violates interstellar treaty law.",
-            "crew_reply": "Riker: 'Message delivered, Captain. He\u2019s unmoved but agreed to a brief negotiation window.'",
+            "crew_reply": "Helm: 'Message delivered, Captain. He\u2019s unmoved but agreed to a brief negotiation window.'",
             "next": 2
           },
           {
-            "label": "Data,verify our cargo manifests from Starbase 92 for any discrepancies.",
+            "label": "Data, verify our cargo manifests from Starbase 92 for any discrepancies.",
             "crew_reply": "Data: 'Manifests show standard medical and agricultural aid only. There\u2019s no record of surveillance equipment aboard.'",
             "next": 2
           },
           {
-            "label": "Crusher,scan the cargo containers for signs of tampering.",
-            "crew_reply": "Crusher: 'Confirmed, Captain. Power coupling imprints don\u2019t match Federation specs. These emitters were added after launch.'",
+            "label": "Mr. Worf, scan the cargo containers for signs of tampering.",
+            "crew_reply": "Worf: 'Confirmed, Captain. Power coupling imprints don\u2019t match Federation specs. These emitters were added after launch.'",
             "next": 2
           }
         ]
@@ -824,18 +824,18 @@
         "line": "Captain, Commander Makor feels cornered but not deceitful. I sense he genuinely believes his own claims. Someone has manipulated both sides.",
         "options": [
           {
-            "label": "Forge,advise Starfleet Command that there may be a third party attempting to sabotage the peace accord.",
-            "crew_reply": "Forge: 'Message transmitted. Command has ordered us to proceed with discretion and avoid escalation.'",
+            "label": "Counselor Troi, advise Starfleet Command that there may be a third party attempting to sabotage the peace accord.",
+            "crew_reply": "Troi: 'Message transmitted. Command has ordered us to proceed with discretion and avoid escalation.'",
             "next": 3
           },
           {
-            "label": "O'Brien,prepare a coded transmission to Medrath Colony leadership for clarification on internal politics.",
-            "crew_reply": "O'Brien: 'Transmission sent. The colony administrator denies involvement and requests Federation presence at the next council session.'",
+            "label": "Dr. Crusher, prepare a coded transmission to Medrath Colony leadership for clarification on internal politics.",
+            "crew_reply": "Crusher: 'Transmission sent. The colony administrator denies involvement and requests Federation presence at the next council session.'",
             "next": 3
           },
           {
-            "label": "Forge,monitor all Talarian comm traffic for evidence of dissent among their ranks.",
-            "crew_reply": "Forge: 'Understood. Two of their patrol ships have broken formation. There may be a schism within their command structure.'",
+            "label": "Dr. Crusher, monitor all Talarian comm traffic for evidence of dissent among their ranks.",
+            "crew_reply": "Crusher: 'Understood. Two of their patrol ships have broken formation. There may be a schism within their command structure.'",
             "next": 3
           }
         ]
@@ -845,18 +845,18 @@
         "line": "Captain, I\u2019ve cross-referenced the false signal emitters. Their energy signatures align with modified Talarian engineering patterns, not Federation.",
         "options": [
           {
-            "label": "Worf,compile the evidence and prepare it for presentation to Commander Makor.",
-            "crew_reply": "Worf: 'Compilation complete. Evidence integrity verified at ninety-nine point nine percent.'",
+            "label": "Data, compile the evidence and prepare it for presentation to Commander Makor.",
+            "crew_reply": "Data: 'Compilation complete. Evidence integrity verified at ninety-nine point nine percent.'",
             "next": 4
           },
           {
-            "label": "Worf,stand ready to beam the evidence directly to their flagship if communications fail.",
-            "crew_reply": "Worf: 'Transporter lock established. Awaiting your order, Captain.'",
+            "label": "Mr. La Forge, stand ready to beam the evidence directly to their flagship if communications fail.",
+            "crew_reply": "La Forge: 'Transporter lock established. Awaiting your order, Captain.'",
             "next": 4
           },
           {
-            "label": "Forge,ready a diplomatic team for possible face-to-face negotiations.",
-            "crew_reply": "Forge: 'Diplomatic party assembled and on standby. Doctor Crusher recommends medical contingency support.'",
+            "label": "Number One, ready a diplomatic team for possible face-to-face negotiations.",
+            "crew_reply": "Riker: 'Diplomatic party assembled and on standby. Doctor Crusher recommends medical contingency support.'",
             "next": 4
           }
         ]
@@ -867,17 +867,17 @@
         "options": [
           {
             "label": "Acknowledge the terms and prepare to beam aboard the Talarian vessel.",
-            "crew_reply": "Crusher: 'Understood, Captain. Transporter room standing by. Worf insists on maintaining a transporter lock on your signal at all times.'",
+            "crew_reply": "Data: 'Understood, Captain. Transporter room standing by. Worf insists on maintaining a transporter lock on your signal at all times.'",
             "next": null
           },
           {
             "label": "Decline the meeting until Starfleet Command authorizes it.",
-            "crew_reply": "Riker: 'Command approval pending. The Talarians may take a refusal as an admission of guilt, sir.'",
+            "crew_reply": "La Forge: 'Command approval pending. The Talarians may take a refusal as an admission of guilt, sir.'",
             "next": null
           },
           {
             "label": "Authorize Data to represent the Enterprise instead.",
-            "crew_reply": "Forge: 'Acknowledged, Captain. I will act in accordance with diplomatic protocol and transparency directives.'",
+            "crew_reply": "Riker: 'Acknowledged, Captain. I will act in accordance with diplomatic protocol and transparency directives.'",
             "next": null
           }
         ]
@@ -915,18 +915,18 @@
         "line": "Captain, sensors confirm surface conflict near the colony perimeter. Energy signatures match phaser dispersal patterns.",
         "options": [
           {
-            "label": "Riker,raise shields and ready security teams for deployment.",
-            "crew_reply": "Riker: 'Aye, Captain. Security teams are standing by. Awaiting transport coordinates.'",
+            "label": "Mr. Worf, raise shields and ready security teams for deployment.",
+            "crew_reply": "Worf: 'Aye, Captain. Security teams are standing by. Awaiting transport coordinates.'",
             "next": 1
           },
           {
-            "label": "Troi,analyze the pattern and confirm the weapon type.",
-            "crew_reply": "Troi: 'Confirmed. Federation issue, hand-modified for increased yield.'",
+            "label": "Number One, analyze the pattern and confirm the weapon type.",
+            "crew_reply": "Riker: 'Confirmed. Federation issue, hand-modified for increased yield.'",
             "next": 1
           },
           {
             "label": "Open hailing frequencies to the colony governor.",
-            "crew_reply": "O'Brien: 'Channel open, Captain.'",
+            "crew_reply": "Data: 'Channel open, Captain.'",
             "next": 1
           }
         ]
@@ -936,18 +936,18 @@
         "line": "Captain Picard, the natives would have slaughtered us without those weapons. We acted to defend Federation citizens.",
         "options": [
           {
-            "label": "Crusher,you\u2019ve violated Starfleet protocols and endangered an entire civilization.",
-            "crew_reply": "Crusher: 'With respect, Captain, survival leaves little room for protocol.'",
+            "label": "Mr. La Forge, you\u2019ve violated Starfleet protocols and endangered an entire civilization.",
+            "crew_reply": "La Forge: 'With respect, Captain, survival leaves little room for protocol.'",
             "next": 2
           },
           {
-            "label": "Data,confirm the governor\u2019s statement with sensor logs.",
-            "crew_reply": "Data: 'Sensor telemetry corroborates sustained assault on the colony prior to weapons transfer.'",
+            "label": "Counselor Troi, confirm the governor\u2019s statement with sensor logs.",
+            "crew_reply": "Troi: 'Sensor telemetry corroborates sustained assault on the colony prior to weapons transfer.'",
             "next": 2
           },
           {
-            "label": "Worf,assess the governor\u2019s emotional state.",
-            "crew_reply": "Worf: 'Fear and justification, Captain. He believes he acted in service to Starfleet values.'",
+            "label": "Chief O'Brien, assess the governor\u2019s emotional state.",
+            "crew_reply": "O'Brien: 'Fear and justification, Captain. He believes he acted in service to Starfleet values.'",
             "next": 2
           }
         ]
@@ -957,18 +957,18 @@
         "line": "Captain, residual isotopes indicate a prototype phaser array remains aboard the colony freighter. It appears unstable.",
         "options": [
           {
-            "label": "Forge,prepare to beam the array aboard for containment.",
-            "crew_reply": "Forge: 'Understood, Captain. Adjusting transporter field to compensate for radiation scatter.'",
+            "label": "Helm, prepare to beam the array aboard for containment.",
+            "crew_reply": "Helm: 'Understood, Captain. Adjusting transporter field to compensate for radiation scatter.'",
             "next": 3
           },
           {
-            "label": "Forge,assemble an away team to secure the freighter directly.",
-            "crew_reply": "Forge: 'On it, Captain. I\u2019ll lead the team myself.'",
+            "label": "Dr. Crusher, assemble an away team to secure the freighter directly.",
+            "crew_reply": "Crusher: 'On it, Captain. I\u2019ll lead the team myself.'",
             "next": 3
           },
           {
-            "label": "Troi,can we remotely disable the array?",
-            "crew_reply": "Troi: 'Possible, but a power surge could destabilize the containment field.'",
+            "label": "Dr. Crusher, can we remotely disable the array?",
+            "crew_reply": "Crusher: 'Possible, but a power surge could destabilize the containment field.'",
             "next": 3
           }
         ]
@@ -979,12 +979,12 @@
         "options": [
           {
             "label": "Transmit an open declaration of neutrality and negotiate mutual disarmament.",
-            "crew_reply": "Worf: 'Acknowledged. This may calm both sides if handled swiftly.'",
+            "crew_reply": "Data: 'Acknowledged. This may calm both sides if handled swiftly.'",
             "next": 4
           },
           {
             "label": "Initiate covert extraction of the prototype and disable the colony\u2019s defenses.",
-            "crew_reply": "Riker: 'That\u2019ll cause confusion on the surface, but could prevent escalation.'",
+            "crew_reply": "La Forge: 'That\u2019ll cause confusion on the surface, but could prevent escalation.'",
             "next": 4
           },
           {
@@ -1000,17 +1000,17 @@
         "options": [
           {
             "label": "Stand down from Red Alert. Signal Starfleet that Velan III is secured.",
-            "crew_reply": "Troi: 'Aye, Captain. The report will read cleaner than the politics behind it.'",
+            "crew_reply": "Data: 'Aye, Captain. The report will read cleaner than the politics behind it.'",
             "next": null
           },
           {
             "label": "Maintain Red Alert until the colony is verified clear of contamination.",
-            "crew_reply": "Riker: 'Understood, Captain. Continuing scans for unauthorized tech.'",
+            "crew_reply": "La Forge: 'Understood, Captain. Continuing scans for unauthorized tech.'",
             "next": null
           },
           {
             "label": "Contact the Cardassian liaison office for diplomatic mediation.",
-            "crew_reply": "Data: 'A prudent step, Captain. It will help reinforce Federation integrity.'",
+            "crew_reply": "Riker: 'A prudent step, Captain. It will help reinforce Federation integrity.'",
             "next": null
           }
         ]
@@ -1049,17 +1049,17 @@
         "options": [
           {
             "label": "Can we isolate the power source without alerting the inhabitants?",
-            "crew_reply": "Worf: 'Difficult, sir. The beacon\u2019s power has been integrated into their public energy grid.'",
+            "crew_reply": "O'Brien: 'Difficult, sir. The beacon\u2019s power has been integrated into their public energy grid.'",
             "next": 1
           },
           {
-            "label": "Crusher,assess the radiation output and its potential danger.",
-            "crew_reply": "Crusher: 'It\u2019s low now, Captain, but the containment field is degrading. Within weeks, it\u2019ll reach lethal levels.'",
+            "label": "Mr. La Forge, assess the radiation output and its potential danger.",
+            "crew_reply": "La Forge: 'It\u2019s low now, Captain, but the containment field is degrading. Within weeks, it\u2019ll reach lethal levels.'",
             "next": 1
           },
           {
-            "label": "O'Brien,prepare an away team to investigate under minimal interference protocols.",
-            "crew_reply": "O'Brien: 'Understood. We\u2019ll go in disguised as survey personnel and maintain visual low exposure.'",
+            "label": "Number One, prepare an away team to investigate under minimal interference protocols.",
+            "crew_reply": "Riker: 'Understood. We\u2019ll go in disguised as survey personnel and maintain visual low exposure.'",
             "next": 1
           }
         ]
@@ -1069,8 +1069,8 @@
         "line": "Captain, local medical data suggests their mortality rate has dropped dramatically since the beacon\u2019s integration. It\u2019s saving lives.",
         "options": [
           {
-            "label": "Riker,remind the team our duty is to preserve natural development, not guide it.",
-            "crew_reply": "Riker: 'Understood, Captain. But it\u2019s difficult to ignore the humanitarian cost.'",
+            "label": "Dr. Crusher, remind the team our duty is to preserve natural development, not guide it.",
+            "crew_reply": "Crusher: 'Understood, Captain. But it\u2019s difficult to ignore the humanitarian cost.'",
             "next": 2
           },
           {
@@ -1079,8 +1079,8 @@
             "next": 2
           },
           {
-            "label": "Troi,your assessment?",
-            "crew_reply": "Troi: 'The Darexians have built their social progress on this technology. Taking it away will cause collapse.'",
+            "label": "Mr. Worf, your assessment?",
+            "crew_reply": "Worf: 'The Darexians have built their social progress on this technology. Taking it away will cause collapse.'",
             "next": 2
           }
         ]
@@ -1090,13 +1090,13 @@
         "line": "Captain, long-range sensors show a Ferengi probe entering orbit. They\u2019re likely tracking the beacon\u2019s signal as well.",
         "options": [
           {
-            "label": "Forge,jam the probe\u2019s transmissions.",
-            "crew_reply": "Forge: 'Aye, Captain. Signal disruption engaged. They\u2019ll assume a malfunction.'",
+            "label": "Helm, jam the probe\u2019s transmissions.",
+            "crew_reply": "Helm: 'Aye, Captain. Signal disruption engaged. They\u2019ll assume a malfunction.'",
             "next": 3
           },
           {
             "label": "Open a channel and warn them off this sector.",
-            "crew_reply": "Worf: 'That might draw attention to the planet\u2019s value, Captain.'",
+            "crew_reply": "Troi: 'That might draw attention to the planet\u2019s value, Captain.'",
             "next": 3
           },
           {
@@ -1112,17 +1112,17 @@
         "options": [
           {
             "label": "Initiate covert recovery of the beacon. No surface contact.",
-            "crew_reply": "Riker: 'Aye, Captain. I\u2019ll synchronize transport with local power fluctuations to mask the beam.'",
+            "crew_reply": "Data: 'Aye, Captain. I\u2019ll synchronize transport with local power fluctuations to mask the beam.'",
             "next": 4
           },
           {
             "label": "Use atmospheric modulation to neutralize radiation and leave the beacon intact.",
-            "crew_reply": "O'Brien: 'We can achieve that with minimal detection risk, though it constitutes limited interference.'",
+            "crew_reply": "La Forge: 'We can achieve that with minimal detection risk, though it constitutes limited interference.'",
             "next": 4
           },
           {
-            "label": "Worf,no matter the cost.",
-            "crew_reply": "Worf: 'Captain, that may condemn thousands to die.'",
+            "label": "Number One, no matter the cost.",
+            "crew_reply": "Riker: 'Captain, that may condemn thousands to die.'",
             "next": 4
           }
         ]
@@ -1133,17 +1133,17 @@
         "options": [
           {
             "label": "Log the event as contained. Inform Starfleet that the Prime Directive remains unbreached.",
-            "crew_reply": "O'Brien: 'Understood, Captain. The report will note minimal interference.'",
+            "crew_reply": "Data: 'Understood, Captain. The report will note minimal interference.'",
             "next": null
           },
           {
             "label": "Classify the data. No record of Starfleet\u2019s involvement should remain.",
-            "crew_reply": "Data: 'A discreet course of action, sir. It preserves operational integrity.'",
+            "crew_reply": "La Forge: 'A discreet course of action, sir. It preserves operational integrity.'",
             "next": null
           },
           {
             "label": "Transmit full findings to Starfleet Command. They must review the moral implications.",
-            "crew_reply": "Data: 'A decision best faced in the light of accountability.'",
+            "crew_reply": "Riker: 'A decision best faced in the light of accountability.'",
             "next": null
           }
         ]
@@ -1181,13 +1181,13 @@
         "line": "Captain, the signal is Borg in origin but predates all known collective transmissions. It appears to be seeking a specific recipient rather than broadcasting system-wide.",
         "options": [
           {
-            "label": "O'Brien,raise shields and bring weapons to standby.",
+            "label": "Chief O'Brien, raise shields and bring weapons to standby.",
             "crew_reply": "O'Brien: 'Aye, Captain. Shields at full. Photon torpedoes armed, but not yet locked.'",
             "next": 1
           },
           {
-            "label": "Crusher,trace the signal\u2019s source. Determine if a vessel or debris field is present.",
-            "crew_reply": "Crusher: 'Affirmative, sir. A derelict transport is adrift 0.3 light-years from the beacon. Faint life signs detected aboard.'",
+            "label": "Mr. La Forge, trace the signal\u2019s source. Determine if a vessel or debris field is present.",
+            "crew_reply": "La Forge: 'Affirmative, sir. A derelict transport is adrift 0.3 light-years from the beacon. Faint life signs detected aboard.'",
             "next": 1
           },
           {
@@ -1203,17 +1203,17 @@
         "options": [
           {
             "label": "Prepare a level-10 isolation field in Sickbay. We\u2019ll bring the drone aboard under containment.",
-            "crew_reply": "Forge: 'Acknowledged. Medical quarantine will be ready on your order.'",
+            "crew_reply": "Helm: 'Acknowledged. Medical quarantine will be ready on your order.'",
             "next": 2
           },
           {
-            "label": "Worf,target the derelict and stand by to fire on my command.",
-            "crew_reply": "Worf: 'Understood. Torpedoes locked. Awaiting your order.'",
+            "label": "Data, target the derelict and stand by to fire on my command.",
+            "crew_reply": "Data: 'Understood. Torpedoes locked. Awaiting your order.'",
             "next": 2
           },
           {
-            "label": "Troi,can we jam the beacon\u2019s carrier frequency?",
-            "crew_reply": "Troi: 'Possible, Captain, but suppression may trigger an automatic response from dormant subroutines.'",
+            "label": "Mr. Worf, can we jam the beacon\u2019s carrier frequency?",
+            "crew_reply": "Worf: 'Possible, Captain, but suppression may trigger an automatic response from dormant subroutines.'",
             "next": 2
           }
         ]
@@ -1224,17 +1224,17 @@
         "options": [
           {
             "label": "Open a comm channel to the derelict. Let\u2019s see if it can respond.",
-            "crew_reply": "Data: 'Audio only, Captain. Minimal response... modulation patterns match distress tones.'",
+            "crew_reply": "Troi: 'Audio only, Captain. Minimal response... modulation patterns match distress tones.'",
             "next": 3
           },
           {
             "label": "Maintain silence. Any transmission could alert other Borg units.",
-            "crew_reply": "Forge: 'Understood. We\u2019ll monitor passively only.'",
+            "crew_reply": "Crusher: 'Understood. We\u2019ll monitor passively only.'",
             "next": 3
           },
           {
             "label": "Attempt limited neural link through the beacon. Contain it within the holodeck core.",
-            "crew_reply": "Data: 'A secure simulation environment could buffer the signal and allow communication without direct exposure.'",
+            "crew_reply": "Crusher: 'A secure simulation environment could buffer the signal and allow communication without direct exposure.'",
             "next": 3
           }
         ]
@@ -1245,17 +1245,17 @@
         "options": [
           {
             "label": "Shut down all external sensor arrays and isolate the system core.",
-            "crew_reply": "Worf: 'Aye, Captain. Cutting power now... signal strength falling to 14%.'",
+            "crew_reply": "Data: 'Aye, Captain. Cutting power now... signal strength falling to 14%.'",
             "next": 4
           },
           {
-            "label": "Troi,it deserves a voice.",
-            "crew_reply": "Troi: 'It\u2019s responding, Captain. There\u2019s fear... and recognition.'",
+            "label": "Mr. La Forge, it deserves a voice.",
+            "crew_reply": "La Forge: 'It\u2019s responding, Captain. There\u2019s fear... and recognition.'",
             "next": 4
           },
           {
             "label": "Destroy the beacon and the derelict immediately.",
-            "crew_reply": "Forge: 'Firing torpedoes. Target vaporized, Captain.'",
+            "crew_reply": "Riker: 'Firing torpedoes. Target vaporized, Captain.'",
             "next": 4
           }
         ]
@@ -1266,12 +1266,12 @@
         "options": [
           {
             "label": "Log the mission as completed. Notify Starfleet that the Borg presence has been neutralized.",
-            "crew_reply": "Crusher: 'Aye, Captain. Report will emphasize containment and minimal exposure.'",
+            "crew_reply": "Data: 'Aye, Captain. Report will emphasize containment and minimal exposure.'",
             "next": null
           },
           {
             "label": "Secure the beacon\u2019s remains for research under Section 47 clearance.",
-            "crew_reply": "Forge: 'Material containment in progress, sir. No residual network activity detected.'",
+            "crew_reply": "La Forge: 'Material containment in progress, sir. No residual network activity detected.'",
             "next": null
           },
           {
