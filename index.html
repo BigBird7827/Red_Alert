@@ -12,23 +12,29 @@
   --gold: #c9a23d;
   --white: #ffffff;
   --black: #000000;
-  --lime: #00ff99;
 }
-* { box-sizing: border-box; margin: 0; padding: 0; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: var(--black);
+  background: var(--black);
   color: var(--white);
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono',monospace;
   display: flex;
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
 }
-header, footer {
+
+header,footer {
   width: 100%;
   text-align: center;
   padding: 6px;
-  background: linear-gradient(to right, var(--dark-red), var(--gold));
+  background: linear-gradient(to right,var(--dark-red),var(--gold));
   font-weight: bold;
   font-size: 1em;
   letter-spacing: 1.5px;
@@ -37,36 +43,394 @@ header, footer {
   justify-content: center;
   position: relative;
 }
+
 #alert-buttons {
   position: absolute;
   left: 12px;
   display: flex;
   gap: 8px;
 }
+
 .alert-btn {
   border: 1px solid rgba(255,255,255,0.4);
   border-radius: 6px;
-  font-family: 'Roboto Mono', monospace;
   font-weight: bold;
-  font-size: 0.85em;
+  font-size: .85em;
   padding: 6px 10px;
   cursor: pointer;
   color: var(--white);
-  background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.4));
-  transition: all 0.2s ease;
+  background: linear-gradient(to bottom,rgba(255,255,255,.25),rgba(0,0,0,.4));
+  transition: all .2s ease;
 }
-.alert-btn:hover { transform: scale(1.08); }
-#red-alert { background: linear-gradient(to bottom, #c00000, #4a0000); }
-#yellow-alert { background: linear-gradient(to bottom, #d1b200, #5c4b00); }
-#green-alert { background: linear-gradient(to bottom, #00a65a, #003d24); }
-footer { transition: background 0.5s ease; }
+
+.alert-btn:hover {
+  transform: scale(1.08);
+}
+
+#red-alert {
+  background: linear-gradient(to bottom,#c00000,#4a0000);
+}
+
+#yellow-alert {
+  background: linear-gradient(to bottom,#d1b200,#5c4b00);
+}
+
+#green-alert {
+  background: linear-gradient(to bottom,#00a65a,#003d24);
+}
+
 #content-area {
   display: flex;
   flex: 1;
   width: 100%;
   overflow: hidden;
-  height: calc(100vh - 80px);
 }
+
+#status-panel {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--gold);
+  font-weight: bold;
+  font-size: .85em;
+  line-height: 1.4em;
+  white-space: pre-line;
+}
+
+.lcars-btn {
+  font-size: .85em;
+  font-weight: bold;
+  color: var(--white);
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid var(--gold);
+  transition: all .2s ease;
+}
+
+.red-btn {
+  background-color: var(--dark-red);
+}
+
+.blue-btn {
+  background-color: var(--dark-blue);
+}
+
+.lcars-btn:hover {
+  transform: scale(1.05);
+}
+
+#dialog-area {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 40px;
+  background: rgba(0,0,0,.7);
+  overflow: hidden;
+}
+
+#dialog-box {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 1100px;
+}
+
+#fx-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.dialog-section {
+  margin-bottom: 16px;
+  text-shadow: -1px -1px 2px #000,1px -1px 2px #000,-1px 1px 2px #000,1px 1px 2px #000;
+}
+
+h2 {
+  color: var(--gold);
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+  z-index: 4;
+}
+
+#options button {
+  background: linear-gradient(to bottom,#333,#111);
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Roboto Mono',monospace;
+  font-size: 1em;
+  padding: 10px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .2s ease;
+  font-weight: bold;
+}
+
+#options button:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none!important;
+}
+
+#debrief-overlay {
+  position: absolute;
+  inset: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  text-align: center;
+  padding: 0 60px;
+}
+
+#debrief-overlay.active {
+  display: flex;
+}
+
+footer {
+  transition: background .5s ease;
+}
+
+@keyframes doublePulse {
+  0%{opacity: 0}25%{opacity:1}50%{opacity:0}75%{opacity:1}100%{opacity:0};
+}
+
+.fx-crosshatch-shield {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(45deg,rgba(255,230,180,.18)0,rgba(255,230,180,.18)2px,transparent 2px,transparent 12px),repeating-linear-gradient(-45deg,rgba(255,230,180,.18)0,rgba(255,230,180,.18)2px,transparent 2px,transparent 12px),radial-gradient(circle at 50% 50%,rgba(255,240,200,.25)0,rgba(255,200,140,.12)60%,rgba(100,70,40,.04)100%);
+  background-size: 200% 200%;
+  mix-blend-mode: screen;
+  border: 1px solid rgba(255,220,160,.35);
+  box-shadow: inset 0 0 40px rgba(255,220,160,.35),0 0 25px rgba(255,200,140,.45);
+  animation: crosshatchFlow 3s ease-in-out forwards,doublePulse 3s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes crosshatchFlow {
+  0%{background-position: 0% 50%;
+  opacity: 0}25%{background-position:25% 75%;
+  opacity: 1}50%{background-position:50% 50%;
+  opacity: .6}75%{background-position:75% 25%;
+  opacity: 1}100%{background-position:100% 50%;
+  opacity: 0};
+}
+
+.fx-plasma-conduit {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(35deg,rgba(255,190,100,.25)0,rgba(200,80,20,.18)8px,transparent 14px,transparent 24px);
+  background-size: 200% 200%;
+  box-shadow: inset 0 0 60px rgba(255,200,140,.35);
+  mix-blend-mode: screen;
+  animation: plasmaFlow 3s ease-in-out forwards,doublePulse 3s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes plasmaFlow {
+  0%{background-position: 0% 50%;
+  opacity: 0}25%{background-position:50% 50%;
+  opacity: 1}50%{background-position:100% 50%;
+  opacity: .5}75%{background-position:50% 50%;
+  opacity: 1}100%{background-position:0% 50%;
+  opacity: 0};
+}
+
+.fx-subspace-resonance {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%,rgba(255,230,190,.35)0,rgba(255,210,140,.2)20%,rgba(255,190,120,.08)40%,transparent 60%);
+  mix-blend-mode: screen;
+  animation: resonanceWave 3s ease-in-out forwards,doublePulse 3s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes resonanceWave {
+  0%{transform: scale(.8);
+  opacity: 0}25%{transform:scale(1);
+  opacity: 1}50%{transform:scale(1.1);
+  opacity: .6}75%{transform:scale(1);
+  opacity: 1}100%{transform:scale(.8);
+  opacity: 0};
+}
+
+.fx-plasma-explosion {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%,rgba(255,240,200,.9)0,rgba(255,180,90,.5)25%,rgba(120,60,20,.1)70%,transparent 100%);
+  mix-blend-mode: screen;
+  animation: explosionFlash 3s ease-in-out forwards,doublePulse 3s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes explosionFlash {
+  0%{transform: scale(.5);
+  opacity: 0}15%{transform:scale(1.2);
+  opacity: 1}50%{transform:scale(1.5);
+  opacity: .6}75%{transform:scale(1.2);
+  opacity: 1}100%{transform:scale(.5);
+  opacity: 0};
+}
+
+.fx-data-network {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: screen;
+  animation: dataNodes 3s ease-in-out forwards,doublePulse 3s ease-in-out forwards;
+}
+
+@keyframes dataNodes {
+  0%,100%{opacity: 0}25%,75%{opacity:1};
+}
+
+.fx-subspace-wave {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg,transparent 35%,rgba(255,230,180,.25)50%,transparent 65%);
+  background-size: 100% 200%;
+  mix-blend-mode: screen;
+  animation: waveTravel 3s ease-in-out forwards,doublePulse 3s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes waveTravel {
+  0%{background-position: 0% 100%;
+  opacity: 0}25%{background-position:0% 50%;
+  opacity: 1}50%{background-position:0% 0%;
+  opacity: .6}75%{background-position:0% 50%;
+  opacity: 1}100%{background-position:0% 100%;
+  opacity: 0};
+}
+
+.fx-subspace-wave-short {
+  position: absolute;
+  top: 33%;
+  height: 34%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg,transparent 35%,rgba(255,230,180,.25)50%,transparent 65%);
+  background-size: 100% 200%;
+  mix-blend-mode: screen;
+  animation: waveTravel 3s ease-in-out forwards,doublePulse 3s ease-in-out forwards;
+  opacity: 0;
+}
+
+.fx-vital-svg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: doublePulse 3s ease-in-out forwards;
+}
+
+.fx-vital-svg svg {
+  width: 120px;
+  height: 260px;
+}
+
+.fx-vital-svg path {
+  fill: none;
+  stroke: rgba(255,240,190,.8);
+  stroke-width: 3;
+  filter: drop-shadow(0 0 10px rgba(255,240,190,.8));
+  animation: svgPulse 3s ease-in-out infinite;
+}
+
+@keyframes svgPulse {
+  0%{stroke-opacity: .4}25%{stroke-opacity:1}50%{stroke-opacity:.6}75%{stroke-opacity:1}100%{stroke-opacity:.4};
+}
+
+.lcars-btn {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.6)), linear-gradient(to top, rgba(255,255,255,0.15), rgba(255,255,255,0));
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.3), inset 0 -2px 3px rgba(0,0,0,0.6), 0 2px 4px rgba(0,0,0,0.5);
+  color: var(--white);
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lcars-btn:hover {
+  transform: scale(1.05);
+  box-shadow: inset 0 1px 3px rgba(255,255,255,0.4), 0 0 8px rgba(255,215,120,0.7);
+}
+
+.red-btn {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.6)), linear-gradient(to top, rgba(255,255,255,0.15), rgba(255,255,255,0)), linear-gradient(to bottom, #c00000, #4a0000);
+}
+
+.blue-btn {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.6)), linear-gradient(to top, rgba(255,255,255,0.15), rgba(255,255,255,0)), linear-gradient(to bottom, #0a2a6b, #001f4d);
+}
+
+.begin-mission-btn {
+  background: linear-gradient(to bottom, #333, #111);
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  padding: 10px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.begin-mission-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to bottom, #444, #222);
+}
+
+#alert-panel {
+  flex: 0 0 auto;
+}
+
+#status-panel {
+  flex: 0 0 auto;
+}
+
+#alert-panel {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#status-panel {
+  position: static;
+  flex: 0 0 auto;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
 #left-panel {
   width: 240px;
   background: rgba(20,20,20,0.9);
@@ -78,24 +442,7 @@ footer { transition: background 0.5s ease; }
   padding: 8px;
   position: relative;
 }
-#status-panel {
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  color: var(--gold);
-  font-weight: bold;
-  font-size: 0.85em;
-  line-height: 1.4em;
-  white-space: pre-line;
-}
-#alert-panel img {
-  width: 150px;
-  height: auto;
-  margin-bottom: 10px;
-  transition: opacity 0.3s ease;
-}
+
 #lcars-buttons {
   display: flex;
   flex-direction: column;
@@ -103,273 +450,31 @@ footer { transition: background 0.5s ease; }
   gap: 6px;
   position: relative;
 }
-.lcars-btn {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 0.85em;
-  font-weight: bold;
-  color: var(--white);
-  padding: 10px;
-  text-align: center;
-  border-radius: 8px;
-  cursor: pointer;
+
+#communique {
+  background: rgba(0, 25, 80, 0.85);
   border: 1px solid var(--gold);
-  transition: all 0.2s ease;
-}
-.red-btn { background-color: var(--dark-red); }
-.blue-btn { background-color: var(--dark-blue); }
-.lcars-btn:hover { transform: scale(1.05); }
-#dialog-area {
-  position: relative;
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 20px 40px;
-  background-color: rgba(0,0,0,0.7);
-  overflow: hidden;
-}
-#dialog-area::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url('https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/LCARS%20Background.png') center center no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  z-index: 0;
-}
-#dialog-box {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 1100px;
   color: var(--white);
-  font-size: 0.9em;
-  line-height: 1.5em;
-  text-align: left;
-  transition: opacity 0.6s ease;
+  padding: 14px 18px;
+  border-radius: 10px;
 }
-#fx-layer {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 2;
-  overflow: hidden;
-}
-.dialog-section {
-  margin-bottom: 16px;
-  text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
-}
-h2 {
-  color: var(--gold);
-  font-size: 1em;
-  margin-bottom: 8px;
-}
-#communique,
+
 #mission {
-  position: relative;
-  background: rgba(0, 31, 77, 0.85);
+  background: rgba(0, 25, 80, 0.85);
   border: 1px solid var(--gold);
   color: var(--white);
-  padding: 14px 18px 16px 18px;
+  padding: 14px 18px;
   border-radius: 10px;
-  margin-bottom: 18px;
-  font-size: 0.95em;
-  line-height: 1.5em;
-  box-shadow: inset 0 0 6px rgba(201,162,61,0.25), 0 0 8px rgba(201,162,61,0.15);
-  overflow: hidden;
 }
+
 #dialog {
-  position: relative;
-  margin-top: 10px;
-  background: rgba(0, 100, 0, 0.7);
+  background: rgba(0, 77, 31, 0.75);
   border: 1px solid var(--gold);
   color: var(--white);
-  padding: 14px 18px 16px 18px;
+  padding: 14px 18px;
   border-radius: 10px;
-  font-size: 0.95em;
-  line-height: 1.5em;
-  box-shadow: inset 0 0 8px rgba(201,162,61,0.25), 0 0 10px rgba(0,100,0,0.3);
-  overflow: hidden;
-  transition: all 0.3s ease;
 }
-#options {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  padding: 10px 0;
-}
-#options button {
-  background: linear-gradient(to bottom, #333, #111);
-  border: 1px solid var(--gold);
-  color: var(--gold);
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1em;
-  padding: 10px 22px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-weight: bold;
-}
-#options button:hover { transform: scale(1.05); }
-.hidden { display: none !important; }
-#debrief-overlay {
-  position: absolute;
-  inset: 0;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 11;
-  text-align: center;
-  padding: 0 60px;
-}
-#debrief-overlay.active { display: flex; }
-.begin-mission-btn {
-  background:
-    linear-gradient(to bottom, rgba(255,255,255,0.22), rgba(255,255,255,0) 40%),
-    linear-gradient(to bottom, #0b1d46 0%, #061334 55%, #0b1c42 100%);
-  border: 1px solid var(--gold);
-  color: var(--gold);
-  font-family: 'Roboto Mono', monospace;
-  font-weight: bold;
-  font-size: 1.05em;
-  letter-spacing: 0.5px;
-  padding: 12px 26px;
-  border-radius: 12px;
-  cursor: pointer;
-  margin-top: 50px;
-}
-.alert-btn,
-.lcars-btn,
-#options button,
-.begin-mission-btn {
-  position: relative;
-  overflow: hidden;
-  box-shadow:
-    inset 0 2px 3px rgba(255,255,255,0.3),
-    inset 0 -2px 3px rgba(0,0,0,0.5),
-    0 2px 5px rgba(0,0,0,0.6);
-  backdrop-filter: blur(2px);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
-}
-.alert-btn::before,
-.lcars-btn::before,
-#options button::before,
-.begin-mission-btn::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 50%;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0));
-  pointer-events: none;
-}
-.alert-btn:hover,
-.lcars-btn:hover,
-#options button:hover,
-.begin-mission-btn:hover {
-  filter: brightness(1.03);
-  transform: translateY(-1px);
-  box-shadow:
-    inset 0 3px 4px rgba(255,255,255,0.35),
-    inset 0 -3px 4px rgba(0,0,0,0.6),
-    0 4px 8px rgba(0,0,0,0.7);
-}
-.alert-btn:active,
-.lcars-btn:active,
-#options button:active,
-.begin-mission-btn:active {
-  transform: translateY(1px);
-  box-shadow:
-    inset 0 1px 2px rgba(255,255,255,0.22),
-    inset 0 -4px 6px rgba(0,0,0,0.7),
-    0 2px 5px rgba(0,0,0,0.6);
-}
-@keyframes doublePulse {
-  0% { opacity: 0; }
-  25% { opacity: 1; }
-  50% { opacity: 0; }
-  75% { opacity: 1; }
-  100% { opacity: 0; }
-}
-.fx-ripple {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 12px;
-  height: 12px;
-  margin-left: -6px;
-  margin-top: -6px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.12) 35%, rgba(255,255,255,0) 70%);
-  mix-blend-mode: screen;
-  animation: rippleMove 3s linear forwards, doublePulse 3s ease-in-out forwards;
-}
-@keyframes rippleMove {
-  0% { transform: scale(1); }
-  100% { transform: scale(140); }
-}
-.fx-sheen {
-  position: absolute;
-  top: -30%;
-  left: -40%;
-  width: 60%;
-  height: 160%;
-  background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.14) 45%, rgba(255,255,255,0) 90%);
-  transform: rotate(15deg);
-  mix-blend-mode: screen;
-  animation: sheenMove 3s cubic-bezier(0.25,0.1,0.3,1) forwards, doublePulse 3s ease-in-out forwards;
-}
-@keyframes sheenMove {
-  0% { transform: translateX(0) rotate(15deg); }
-  100% { transform: translateX(240%) rotate(15deg); }
-}
-.fx-scanline {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.25), rgba(255,255,255,0));
-  animation: scanlineMove 3s linear forwards, doublePulse 3s ease-in-out forwards;
-}
-@keyframes scanlineMove {
-  0% { transform: translateY(-20px); }
-  100% { transform: translateY(110%); }
-}
-.fx-breath {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.18), rgba(255,255,255,0));
-  mix-blend-mode: screen;
-  animation: doublePulse 3s ease-in-out forwards;
-}
-.border-pulse-3s {
-  animation: borderPulse3s 3s ease-in-out forwards;
-}
-@keyframes borderPulse3s {
-  0% { box-shadow: 0 0 0 rgba(201,162,61,0.0); border-width: 1px; }
-  25% { box-shadow: 0 0 12px rgba(201,162,61,0.7); border-width: 2px; }
-  50% { box-shadow: 0 0 0 rgba(201,162,61,0.0); border-width: 1px; }
-  75% { box-shadow: 0 0 12px rgba(201,162,61,0.7); border-width: 2px; }
-  100% { box-shadow: 0 0 0 rgba(201,162,61,0.0); border-width: 1px; }
-}
-.fx-dot {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: rgba(201,162,61,0.95);
-  filter: drop-shadow(0 0 5px rgba(201,162,61,0.8));
-  animation: dotRun 3s ease-out forwards, doublePulse 3s ease-in-out forwards;
-}
-@keyframes dotRun {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(180px); }
-}
+
 </style>
 </head>
 <body>
@@ -383,9 +488,6 @@ h2 {
 </header>
 <div id="content-area">
   <div id="left-panel">
-    <div id="alert-panel">
-      <img id="alert-image" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif" alt="Alert Status">
-    </div>
     <div id="lcars-buttons">
       <div class="lcars-btn red-btn" data-key="shields">Shields</div>
       <div class="lcars-btn blue-btn" data-key="weapons">Weapons</div>
@@ -415,44 +517,35 @@ h2 {
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
 const REMOTE_JSON_URL='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
-let scenarios=[]
-let currentScenario=0
-let currentNode=0
-let missionActive=false
+let scenarios=[],currentScenario=0,currentNode=0,missionActive=false
 async function loadScenarios(){
   try{
-    const local=await fetch('./Red Alert.json')
-    scenarios=await local.json()
-  }catch{
-    const remote=await fetch(REMOTE_JSON_URL)
-    scenarios=await remote.json()
+    const res=await fetch(REMOTE_JSON_URL,{cache:'no-store'})
+    scenarios=await res.json()
+  }catch(e){
+    document.getElementById('communique').innerHTML='<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>'
+    return
   }
   displayScenario(0)
 }
-function fadeTransition(el,newHTML){
-  el.classList.add('fade')
-  setTimeout(()=>{el.innerHTML=newHTML;el.classList.remove('fade')},400)
-}
-function positionOptions(){}
+function fadeTransition(el,newHTML){el.innerHTML=newHTML}
 function displayScenario(index){
-  currentScenario=index
-  currentNode=0
-  missionActive=false
+  currentScenario=index;currentNode=0;missionActive=false
   const dialog=document.getElementById('dialog')
   const options=document.getElementById('options')
-  dialog.classList.remove('hidden')
-  options.classList.remove('hidden')
   document.getElementById('debrief-overlay').classList.remove('active')
   document.getElementById('debrief-overlay').style.display='none'
   document.getElementById('communique').classList.remove('hidden')
   document.getElementById('mission').classList.remove('hidden')
+  dialog.classList.remove('hidden')
+  options.classList.remove('hidden')
   dialog.classList.remove('dialog-top')
   options.classList.remove('options-top')
   document.getElementById('debrief').innerHTML=''
   document.getElementById('debrief-content').innerHTML=''
   const s=scenarios[index]
-  fadeTransition(document.getElementById('communique'),`<h2>STARFLEET COMMUNIQUÉ</h2><p>${s.starfleet_message}</p>`)
-  fadeTransition(document.getElementById('mission'),`<h2>MISSION DESCRIPTION</h2><p>${s.mission_description}</p>`)
+  fadeTransition(document.getElementById('communique'),'<h2>STARFLEET COMMUNIQUÉ</h2><p>'+s.starfleet_message+'</p>')
+  fadeTransition(document.getElementById('mission'),'<h2>MISSION DESCRIPTION</h2><p>'+s.mission_description+'</p>')
   renderDialogueNode()
 }
 function renderDialogueNode(){
@@ -461,7 +554,7 @@ function renderDialogueNode(){
   if(!node){showDebrief();return}
   const dialog=document.getElementById('dialog')
   const options=document.getElementById('options')
-  fadeTransition(dialog,`<h2>${node.crew.toUpperCase()}</h2><p>${node.line}</p>`)
+  fadeTransition(dialog,'<h2>'+node.crew.toUpperCase()+'</h2><p>'+node.line+'</p>')
   options.innerHTML=''
   node.options.forEach(opt=>{
     const btn=document.createElement('button')
@@ -473,16 +566,9 @@ function renderDialogueNode(){
         document.getElementById('mission').classList.add('hidden')
         dialog.classList.add('dialog-top')
         options.classList.add('options-top')
-        requestAnimationFrame(positionOptions)
       }
-      dialog.innerHTML+=`<p><strong>${opt.crew_reply}</strong></p>`
-      requestAnimationFrame(positionOptions)
-      if(opt.next!==undefined&&s.dialogue_tree[opt.next]){
-        currentNode=opt.next
-        renderDialogueNode()
-      }else{
-        showDebrief()
-      }
+      dialog.innerHTML+= '<p><strong>'+opt.crew_reply+'</strong></p>'
+      if(opt.next!==undefined&&s.dialogue_tree[opt.next]){currentNode=opt.next;renderDialogueNode()}else{showDebrief()}
     }
     options.appendChild(btn)
   })
@@ -494,87 +580,86 @@ function showDebrief(){
   document.getElementById('options').classList.add('hidden')
   const overlay=document.getElementById('debrief-overlay')
   const content=document.getElementById('debrief-content')
-  content.innerHTML=`
-    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;">
-      <div style="text-align:center;">
-        <h2>DEBRIEF</h2>
-        <p>${d.text}</p>
-      </div>
-      <button class="begin-mission-btn" onclick="restart()">Begin New Mission</button>
-    </div>`
+  content.innerHTML='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;"><div style="text-align:center;"><h2>DEBRIEF</h2><p>'+d.text+'</p></div><button class="begin-mission-btn" onclick="restart()">Begin New Mission</button></div>'
   overlay.style.display='flex'
   overlay.classList.add('active')
 }
-function restart(){
-  const next=(currentScenario+1)%scenarios.length
-  displayScenario(next)
-}
+function restart(){const next=(currentScenario+1)%scenarios.length;displayScenario(next)}
 loadScenarios()
-const systems = {
-  shields: { inactive: "Shields Inactive", active: "Shields Up", state: false },
-  weapons: { inactive: "Weapons on Standby", active: "Weapons Systems Ready", state: false },
-  comms: { inactive: "Comms Offline", active: "Hailing Frequencies Open", state: false },
-  damage: { inactive: "Damage Control Idle", active: "Damage Control Teams Dispatched", state: false },
-  computer: { inactive: "Main Computer Offline", active: "Main Computer Ready", state: false },
-  shortscan: { inactive: "Short Range Scans Offline", active: "Short Range Scans Active", state: false },
-  longscan: { inactive: "Long Range Scans Offline", active: "Long Range Scans Active", state: false },
-  lifesupport: { inactive: "Life Support Optimal", active: "Life Support Compromised", state: false }
-}
-const statusPanel = document.getElementById("status-panel");
-function updateStatusDisplay() {
-  statusPanel.innerHTML = Object.entries(systems)
-    .map(([key, sys]) => `<div>${sys.state ? sys.active : sys.inactive}</div>`)
-    .join("");
-}
-updateStatusDisplay();
+const systems={shields:{inactive:'Shields Inactive',active:'Shields Up',state:false},weapons:{inactive:'Weapons on Standby',active:'Weapons Systems Ready',state:false},comms:{inactive:'Comms Offline',active:'Hailing Frequencies Open',state:false},damage:{inactive:'Damage Control Idle',active:'Damage Control Teams Dispatched',state:false},computer:{inactive:'Main Computer Offline',active:'Main Computer Ready',state:false},shortscan:{inactive:'Short Range Scans Offline',active:'Short Range Scans Active',state:false},longscan:{inactive:'Long Range Scans Offline',active:'Long Range Scans Active',state:false},lifesupport:{inactive:'Life Support Optimal',active:'Life Support Compromised',state:false}}
+const statusPanel=document.getElementById('status-panel')
+function updateStatusDisplay(){statusPanel.innerHTML=Object.entries(systems).map(([k,sys])=>'<div>'+(sys.state?sys.active:sys.inactive)+'</div>').join('')}
+updateStatusDisplay()
 const fxLayer=document.getElementById('fx-layer')
-function clearFx(){ fxLayer.innerHTML=''; document.getElementById('dialog').classList.remove('border-pulse-3s') }
-function fxRipple(){ const e=document.createElement('div'); e.className='fx-ripple'; fxLayer.appendChild(e); setTimeout(clearFx, 3000) }
-function fxSheen(){ const e=document.createElement('div'); e.className='fx-sheen'; fxLayer.appendChild(e); setTimeout(clearFx, 3000) }
-function fxScanlines(){ for(let i=0;i<5;i++){ const l=document.createElement('div'); l.className='fx-scanline'; l.style.top=`${i*14}px`; l.style.animationDelay=`${i*60}ms`; fxLayer.appendChild(l)} setTimeout(clearFx, 3000) }
-function fxBreath(){ const e=document.createElement('div'); e.className='fx-breath'; fxLayer.appendChild(e); setTimeout(clearFx, 3000) }
-function fxDots(){ const count=5+Math.floor(Math.random()*3); const h=document.getElementById('dialog').offsetHeight; for(let i=0;i<count;i++){ const dot=document.createElement('div'); dot.className='fx-dot'; dot.style.top=`${10+Math.random()*(Math.max(40, h*0.25))}px`; dot.style.left=`${10+Math.random()*40}px`; dot.style.animationDelay=`${i*120}ms`; fxLayer.appendChild(dot)} setTimeout(clearFx, 3000) }
-function fxBorderPulse(){ const d=document.getElementById('dialog'); d.classList.add('border-pulse-3s'); setTimeout(clearFx, 3000) }
-const effectMap = {
-  shields: fxBorderPulse,
-  weapons: fxRipple,
-  comms: fxSheen,
-  damage: fxScanlines,
-  computer: fxDots,
-  shortscan: fxScanlines,
-  longscan: fxSheen,
-  lifesupport: fxBreath
-}
-document.querySelectorAll("#lcars-buttons .lcars-btn").forEach(btn => {
-  const key = btn.dataset.key;
-  btn.addEventListener("click", () => {
-    const sys = systems[key];
-    if (!sys) return;
-    sys.state = !sys.state;
-    updateStatusDisplay();
-    clearFx();
-    const fx = effectMap[key];
-    if (typeof fx === 'function') fx();
-  });
-});
-const headerEl=document.querySelector("header");
-const footerEl=document.querySelector("footer");
-const alertImage=document.getElementById("alert-image");
-document.getElementById("red-alert").addEventListener("click",()=>{
-  headerEl.style.background="linear-gradient(to right,#8b0000,#500000)";
-  footerEl.style.background="linear-gradient(to right,#8b0000,#500000)";
-  alertImage.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.gif";
-});
-document.getElementById("yellow-alert").addEventListener("click",()=>{
-  headerEl.style.background="linear-gradient(to right,#bfa200,#8c7a00)";
-  footerEl.style.background="linear-gradient(to right,#bfa200,#8c7a00)";
-  alertImage.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif";
-});
-document.getElementById("green-alert").addEventListener("click",()=>{
-  headerEl.style.background="linear-gradient(to right,#006b3c,#00a65a)";
-  footerEl.style.background="linear-gradient(to right,#006b3c,#00a65a)";
-  alertImage.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif";
-});
+function clearFx(){fxLayer.innerHTML=''}
+function fxShields(){const e=document.createElement('div');e.className='fx-crosshatch-shield';fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+function fxWeapons(){const e=document.createElement('div');e.className='fx-plasma-conduit';fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+function fxComms(){const e=document.createElement('div');e.className='fx-subspace-resonance';fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+function fxDamage(){const e=document.createElement('div');e.className='fx-plasma-explosion';fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+function fxComputer(){const e=document.createElement('div');e.className='fx-data-network';for(let i=0;i<16;i++){const d=document.createElement('div');d.style.position='absolute';d.style.width='6px';d.style.height='6px';d.style.borderRadius='50%';d.style.background='rgba(255,220,140,0.9)';d.style.top=(Math.random()*90)+'%';d.style.left=(Math.random()*90)+'%';d.style.boxShadow='0 0 10px rgba(255,220,140,0.8)';fxLayer.appendChild(d)};fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+function fxShortScan(){const e=document.createElement('div');e.className='fx-subspace-wave-short';fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+function fxLongScan(){const e=document.createElement('div');e.className='fx-subspace-wave';fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+function fxLifeSupport(){const e=document.createElement('div');e.className='fx-vital-svg';e.innerHTML='<svg viewBox="0 0 120 260"><path d="M60,30 C80,30 90,50 90,70 C90,110 80,130 80,160 C80,180 90,200 60,200 C30,200 40,180 40,160 C40,130 30,110 30,70 C30,50 40,30 60,30 Z" /><circle cx="60" cy="15" r="12" /></svg>';fxLayer.appendChild(e);setTimeout(clearFx,3000)}
+const effectMap={shields:fxShields,weapons:fxWeapons,comms:fxComms,damage:fxDamage,computer:fxComputer,shortscan:fxShortScan,longscan:fxLongScan,lifesupport:fxLifeSupport}
+document.querySelectorAll('#lcars-buttons .lcars-btn').forEach(btn=>{const key=btn.dataset.key;btn.addEventListener('click',()=>{const sys=systems[key];if(sys){sys.state=!sys.state;updateStatusDisplay()}clearFx();const fx=effectMap[key];if(typeof fx==='function')fx()})})
 </script>
+
+<script>
+(function(){
+  const headerEl = document.querySelector("header");
+  const footerEl = document.querySelector("footer");
+  function ensureAlertImage(){
+    let img = document.getElementById("alert-image");
+    if(!img){
+      const left = document.getElementById("left-panel");
+      if(left){
+        let panel = document.getElementById("alert-panel");
+        if(!panel){
+          panel = document.createElement("div");
+          panel.id = "alert-panel";
+          panel.style.display = "flex";
+          panel.style.alignItems = "center";
+          panel.style.justifyContent = "center";
+          panel.style.width = "100%";
+          panel.style.padding = "8px 0";
+          left.insertBefore(panel, left.firstChild);
+        }
+        img = document.createElement("img");
+        img.id = "alert-image";
+        img.alt = "Alert Status";
+        img.style.width = "150px";
+        img.style.height = "auto";
+        panel.appendChild(img);
+      }
+    }
+    return img;
+  }
+  function setAlert(state){
+    const img = ensureAlertImage();
+    if(state === "red"){
+      headerEl.style.background="linear-gradient(to right,#8b0000,#500000)";
+      footerEl.style.background="linear-gradient(to right,#8b0000,#500000)";
+      if(img) img.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.gif";
+    } else if(state === "yellow"){
+      headerEl.style.background="linear-gradient(to right,#bfa200,#8c7a00)";
+      footerEl.style.background="linear-gradient(to right,#bfa200,#8c7a00)";
+      if(img) img.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Yellow%20Alert.gif";
+    } else {
+      headerEl.style.background="linear-gradient(to right,#006b3c,#00a65a)";
+      footerEl.style.background="linear-gradient(to right,#006b3c,#00a65a)";
+      if(img) img.src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Green%20Alert.gif";
+    }
+  }
+  const redBtn = document.getElementById("red-alert");
+  const yellowBtn = document.getElementById("yellow-alert");
+  const greenBtn = document.getElementById("green-alert");
+  if(redBtn) redBtn.addEventListener("click",()=>setAlert("red"));
+  if(yellowBtn) yellowBtn.addEventListener("click",()=>setAlert("yellow"));
+  if(greenBtn) greenBtn.addEventListener("click",()=>setAlert("green"));
+  // Initialize default
+  setAlert("green");
+})();
+</script>
+
 </body>
 </html>
