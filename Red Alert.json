@@ -9,17 +9,17 @@
         "options": [
           {
             "label": "Commander La Forge, identify any consistent harmonics within the distortion field.",
-            "crew_reply": "Commander La Forge, 'Harmonic variance centers near 24.6 terahertz—similar to the containment frequency of 23rd-century warp core fields. The structure may be artificial.'",
+            "crew_reply": "Commander La Forge, : 'Harmonic variance centers near 24.6 terahertz—similar to the containment frequency of 23rd-century warp core fields. The structure may be artificial.'",
             "next": 1
           },
           {
             "label": "Lt. Commander Data, adjust our sensors for phased resonance to penetrate the reflection layer.",
-            "crew_reply": "Data: Yes sir. We will get a better look at the interior of the anomaly, but there’s heavy feedback interference.'",
+            "crew_reply": "Lt. Commander Data We’ll get a better look at the interior of the anomaly, but there’s heavy feedback interference.'",
             "next": 1
           },
           {
             "label": "Commander Riker, set condition yellow and maintain minimal impulse toward the outer perimeter.",
-            "crew_reply": "Commander Riker: Yellow alert. Helm, hold one-quarter impulse until further instructions.'",
+            "crew_reply": "Commander Riker Yellow alert. Helm, hold one-quarter impulse until further instructions.'",
             "next": 1
           }
         ]
@@ -30,12 +30,12 @@
         "options": [
           {
             "label": "Commander La Forge, confirm whether that signature originated from within the field or from our own reflection.",
-            "crew_reply": "La Forge: 'Analysis suggests it originated from a parallel phase resonance. The signal was not reflected—it was transmitted from inside the field.'",
+            "crew_reply": "Commander La Forge, : 'Analysis suggests it originated from a parallel phase resonance. The signal was not reflected—it was transmitted from inside the field.'",
             "next": 2
           },
           {
-            "label": "Data, could our sensor emissions be feeding back into the anomaly?",
-            "crew_reply": "Lt. Commander Data: "Negative, Captain. Sensor emissions are calibrated to a non-reactive frequency relative to the anomaly’s subspace signature. like a quantum echo.'",
+            "label": "Lt. Commander Data, could our sensor emissions be feeding back into the anomaly?",
+            "crew_reply": "Lt. Commander Data, like a quantum echo.'",
             "next": 2
           },
           {
