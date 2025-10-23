@@ -9,7 +9,7 @@
         "options": [
           {
             "label": "Commander La Forge, identify any consistent harmonics within the distortion field.",
-            "crew_reply": "Commander La Forge, : 'Harmonic variance centers near 24.6 terahertz—similar to the containment frequency of 23rd-century warp core fields. The structure may be artificial.'",
+            "crew_reply": "Commander La Forge,:'Harmonic variance centers near 24.6 terahertz—similar to the containment frequency of 23rd-century warp core fields. The structure may be artificial.'",
             "next": 1
           },
           {
@@ -30,7 +30,7 @@
         "options": [
           {
             "label": "Commander La Forge, confirm whether that signature originated from within the field or from our own reflection.",
-            "crew_reply": "Commander La Forge, : 'Analysis suggests it originated from a parallel phase resonance. The signal was not reflected—it was transmitted from inside the field.'",
+            "crew_reply": "Commander La Forge,:'Analysis suggests it originated from a parallel phase resonance. The signal was not reflected—it was transmitted from inside the field.'",
             "next": 2
           },
           {
@@ -82,7 +82,7 @@
           },
           {
             "label": "Lt. Commander Data, monitor the temporal differential between both ships.",
-            "crew_reply": "Lt. Commander Data, : 'Temporal drift increasing. The reflected vessel’s image is degrading—it will collapse within thirty seconds.'",
+            "crew_reply": "Lt. Commander Data,:'Temporal drift increasing. The reflected vessel’s image is degrading—it will collapse within thirty seconds.'",
             "next": 4
           }
         ]
@@ -159,7 +159,7 @@
         "options": [
           {
             "label": "Chief O'Brien, attempt to decode the signal pattern.",
-            "crew_reply": "Chief O'Brien.. The transmission is structured but non-linguistic—possibly a form of reactive mimicry. It appears to be reproducing our sensor output in reverse phase.'",
+            "crew_reply": "Chief O'Brien. The transmission is structured but non-linguistic—possibly a form of reactive mimicry. It appears to be reproducing our sensor output in reverse phase.'",
             "next": 2
           },
           {
@@ -169,7 +169,7 @@
           },
           {
             "label": "Commander La Forge, reduce active sensor output by half and monitor for any response.",
-            "crew_reply": "Commander La Forge, : : 'Understood. Reducing emissions. The anomaly’s pulse interval is shortening—response time now nine seconds.'",
+            "crew_reply": "Commander La Forge,::'Understood. Reducing emissions. The anomaly’s pulse interval is shortening—response time now nine seconds.'",
             "next": 2
           }
         ]
@@ -185,7 +185,7 @@
           },
           {
             "label": "Chief O'Brien, calculate the distance at which field resonance ceases to propagate.",
-            "crew_reply": "Chief O'Brien, : 'Minimum safe distance is twelve thousand kilometers. Current position: nine thousand and closing. Suggest immediate withdrawal.'",
+            "crew_reply": "Chief O'Brien,:'Minimum safe distance is twelve thousand kilometers. Current position: nine thousand and closing. Suggest immediate withdrawal.'",
             "next": 3
           },
           {
@@ -201,7 +201,7 @@
         "options": [
           {
             "label": "Commander La Forge, initiate full power isolation—disconnect warp core from all external systems.",
-            "crew_reply": "Commander La Forge, : : 'Isolation engaged. Core power is stable and contained. The anomaly’s pull is weakening—but still tracking us.'",
+            "crew_reply": "Commander La Forge,::'Isolation engaged. Core power is stable and contained. The anomaly’s pull is weakening—but still tracking us.'",
             "next": 4
           },
           {
@@ -211,7 +211,7 @@
           },
           {
             "label": "Commander Riker, project an inverse subspace harmonic to break the feedback loop.",
-            "crew_reply": "Commander Riker, : 'Inverse frequency generated. Broadcasting now. The anomaly’s signature is fluctuating—it appears to be destabilizing.'",
+            "crew_reply": "Commander Riker,:'Inverse frequency generated. Broadcasting now. The anomaly’s signature is fluctuating—it appears to be destabilizing.'",
             "next": 4
           }
         ]
@@ -272,7 +272,7 @@
           },
           {
             "label": "Commander La Forge, could this be a reflection from our own warp field?",
-            "crew_reply": "Commander La Forge, sir. The feedback curve doesn’t match. This looks like an independent source... maybe even another ship with our signature.'",
+            "crew_reply": "Commander La Forge, sir. The feedback curve doesn’t match. This looks like an independent source.. maybe even another ship with our signature.'",
             "next": 1
           },
           {
@@ -287,13 +287,13 @@
         "line": "Captain, tactical sensors confirm a visual contact—an identical vessel bearing Starfleet markings. It’s the Enterprise. Configuration and energy output are a perfect match.",
         "options": [
           {
-            "label": "Chief O'Brien, On screen. , analyze for structural discrepancies.",
+            "label": "Chief O'Brien, On screen., analyze for structural discrepancies.",
             "crew_reply": "Chief O'Brien The other vessel’s power fluctuations are synchronized with our own—offset by 4.2 seconds.'",
             "next": 2
           },
           {
             "label": "Commander La Forge, open a hailing frequency.",
-            "crew_reply": "Commander La Forge, sir. No response. The transmission is echoing our own hail back at us... reversed in polarity.'",
+            "crew_reply": "Commander La Forge, sir. No response. The transmission is echoing our own hail back at us.. reversed in polarity.'",
             "next": 2
           },
           {
@@ -309,7 +309,7 @@
         "options": [
           {
             "label": "Commander La Forge, prepare to emit a warp-field counterpulse to stabilize the anomaly.",
-            "crew_reply": "Commander La Forge, : 'Understood. Configuring warp-field modulation to 0.73 terahertz—ready on your command.'",
+            "crew_reply": "Commander La Forge,:'Understood. Configuring warp-field modulation to 0.73 terahertz—ready on your command.'",
             "next": 3
           },
           {
@@ -319,14 +319,14 @@
           },
           {
             "label": "Commander Riker, ready the crew for emergency separation if we can’t stabilize the distortion.",
-            "crew_reply": "Commander Riker, : 'All hands on standby. Structural integrity fields at maximum. Emergency teams are manning key stations.'",
+            "crew_reply": "Commander Riker,:'All hands on standby. Structural integrity fields at maximum. Emergency teams are manning key stations.'",
             "next": 3
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, I’m sensing confusion... fear. It’s coming from the other Enterprise. The emotional patterns are identical to our own, as if they’re experiencing the same situation—seconds behind us.",
+        "line": "Captain, I’m sensing confusion.. fear. It’s coming from the other Enterprise. The emotional patterns are identical to our own, as if they’re experiencing the same situation—seconds behind us.",
         "options": [
           {
             "label": "Counselor Troi, Acknowledged. counselor, maintain monitoring. if they are us, we need to ensure both ships survive the merge.",
@@ -401,7 +401,7 @@
           },
           {
             "label": "Lt. Commander Data, compensate sensor arrays for ion interference.",
-            "crew_reply": "Lt. Commander Data Rerouting power to the lateral sensor grid. Resolution improving... I’ve got a silhouette—definitely Starfleet hull geometry.'",
+            "crew_reply": "Lt. Commander Data Rerouting power to the lateral sensor grid. Resolution improving.. I’ve got a silhouette—definitely Starfleet hull geometry.'",
             "next": 1
           },
           {
@@ -417,7 +417,7 @@
         "options": [
           {
             "label": "Chief O'Brien, On screen. data, confirm the vessel’s age and condition.",
-            "crew_reply": "Chief O'Brien, : : 'Records indicate the Archer was lost in 2147. Hull composition and decay rate are consistent with a ship adrift for over a century.'",
+            "crew_reply": "Chief O'Brien,::'Records indicate the Archer was lost in 2147. Hull composition and decay rate are consistent with a ship adrift for over a century.'",
             "next": 2
           },
           {
@@ -443,7 +443,7 @@
           },
           {
             "label": "Chief O'Brien, estimate safe transport window into the field.",
-            "crew_reply": "Chief O'Brien, : 'A three-second interval occurs every 4.7 minutes where field intensity drops below critical threshold. It would be sufficient for beam-in or extraction.'",
+            "crew_reply": "Chief O'Brien,:'A three-second interval occurs every 4.7 minutes where field intensity drops below critical threshold. It would be sufficient for beam-in or extraction.'",
             "next": 3
           },
           {
@@ -459,7 +459,7 @@
         "options": [
           {
             "label": "Counselor Troi, Counselor, maintain monitoring. if they’re trapped in a loop, they may still be broadcasting distress signals.",
-            "crew_reply": "Counselor Troi The emotional intensity is fading, but there’s still... something there. Like a final message waiting to be delivered.'",
+            "crew_reply": "Counselor Troi The emotional intensity is fading, but there’s still.. something there. Like a final message waiting to be delivered.'",
             "next": 4
           },
           {
@@ -469,14 +469,14 @@
           },
           {
             "label": "Commander La Forge, record all telemetry and prepare for full transmission capture.",
-            "crew_reply": "Commander La Forge, : 'Recording all subspace packets. Transmission origin matches the Archer’s main computer core. Message content now forming.'",
+            "crew_reply": "Commander La Forge,:'Recording all subspace packets. Transmission origin matches the Archer’s main computer core. Message content now forming.'",
             "next": 4
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, the Archer’s computer is transmitting a coherent signal—voice pattern consistent with its commanding officer. The message reads: 'Crew of the USS Archer... mission complete. Standing down.' The ship’s chronometric field is collapsing.",
+        "line": "Captain, the Archer’s computer is transmitting a coherent signal—voice pattern consistent with its commanding officer. The message reads:'Crew of the USS Archer.. mission complete. Standing down.' The ship’s chronometric field is collapsing.",
         "options": [
           {
             "label": "Chief O'Brien, confirm the vessel’s status.",
@@ -525,12 +525,12 @@
         "options": [
           {
             "label": "Chief O'Brien, can you isolate the source of the neutrino surge?",
-            "crew_reply": "Chief O'Brien, : 'The emissions appear to originate from a subterranean sensor array installed by the research team. Its energy output has increased exponentially since their last transmission.'",
+            "crew_reply": "Chief O'Brien,:'The emissions appear to originate from a subterranean sensor array installed by the research team. Its energy output has increased exponentially since their last transmission.'",
             "next": 1
           },
           {
             "label": "Lt. Commander Data, adjust sensors to compensate for the interference.",
-            "crew_reply": "Lt. Commander Data Rerouting through secondary arrays... the neutrino field isn’t random—it’s pulsing in intervals. Almost rhythmic.'",
+            "crew_reply": "Lt. Commander Data Rerouting through secondary arrays.. the neutrino field isn’t random—it’s pulsing in intervals. Almost rhythmic.'",
             "next": 1
           },
           {
@@ -545,7 +545,7 @@
         "line": "Captain, no active defense grids or shuttle traffic detected. However, the surface radiation levels are climbing. Recommend caution before deploying an away team.",
         "options": [
           {
-            "label": "Commander La Forge, Acknowledged. , status on the outpost power grid?",
+            "label": "Commander La Forge, Acknowledged., status on the outpost power grid?",
             "crew_reply": "Commander La Forge, probably running on emergency backup.'",
             "next": 2
           },
@@ -567,7 +567,7 @@
         "options": [
           {
             "label": "Commander Riker, what could cause dispersed neural activity without physical bodies present?",
-            "crew_reply": "Commander Riker, : : 'A resonance between the sensor array’s neutrino field and the mineral substrate could have converted the crew’s neural energy into subspace echoes. Their consciousnesses may be embedded within the emissions.'",
+            "crew_reply": "Commander Riker,::'A resonance between the sensor array’s neutrino field and the mineral substrate could have converted the crew’s neural energy into subspace echoes. Their consciousnesses may be embedded within the emissions.'",
             "next": 3
           },
           {
@@ -584,21 +584,21 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, I can sense fragments of thought—fear, confusion, and something else... curiosity. Whatever this field is, it’s aware of us now. It’s trying to communicate.",
+        "line": "Captain, I can sense fragments of thought—fear, confusion, and something else.. curiosity. Whatever this field is, it’s aware of us now. It’s trying to communicate.",
         "options": [
           {
-            "label": "Counselor Troi, Counselor, maintain contact as best you can. , prepare to reverse the neutrino flow.",
-            "crew_reply": "Counselor Troi' : 'Reversal sequence ready. Activating deflector modulation now.'",
+            "label": "Counselor Troi, Counselor, maintain contact as best you can., prepare to reverse the neutrino flow.",
+            "crew_reply": "Counselor Troi':'Reversal sequence ready. Activating deflector modulation now.'",
             "next": 4
           },
           {
             "label": "Chief O'Brien, can we translate the emissions into coherent signal patterns?",
-            "crew_reply": "Chief O'Brien, : : 'Attempting translation. The modulation forms structured intervals—possibly memory fragments or communication attempts by the displaced crew.'",
+            "crew_reply": "Chief O'Brien,::'Attempting translation. The modulation forms structured intervals—possibly memory fragments or communication attempts by the displaced crew.'",
             "next": 4
           },
           {
             "label": "Commander La Forge, recall the away team. we’ll stabilize this from orbit.",
-            "crew_reply": "Commander La Forge, : 'Acknowledged. Transporter room reports the away team is safely aboard.'",
+            "crew_reply": "Commander La Forge,:'Acknowledged. Transporter room reports the away team is safely aboard.'",
             "next": 4
           }
         ]
@@ -659,7 +659,7 @@
           },
           {
             "label": "Lt. Commander Data, adjust our sensor harmonics to compensate for the interference.",
-            "crew_reply": "Lt. Commander Data Rerouting power through the secondary array... Sensors clearing. The emissions are fluctuating—whatever’s in there is losing power fast.'",
+            "crew_reply": "Lt. Commander Data Rerouting power through the secondary array.. Sensors clearing. The emissions are fluctuating—whatever’s in there is losing power fast.'",
             "next": 1
           },
           {
@@ -706,7 +706,7 @@
           },
           {
             "label": "Commander Riker, maintain defensive posture but hold fire. the romulans may be victims here, not aggressors.",
-            "crew_reply": "Commander Riker, : : 'Acknowledged. Tactical sensors locked but weapons remain safed.'",
+            "crew_reply": "Commander Riker,::'Acknowledged. Tactical sensors locked but weapons remain safed.'",
             "next": 3
           }
         ]
@@ -716,8 +716,8 @@
         "line": "Captain, I sense panic and fear from the Romulan vessel—but also restraint. Whoever commands that ship is determined to survive, even at the risk of self-destruction.",
         "options": [
           {
-            "label": "Commander La Forge, Counselor, keep monitoring. , prepare the warp-field synchronization. we’ll attempt to pull them clear.",
-            "crew_reply": "Commander La Forge' : 'Warp-field modulation ready. On your mark, I’ll engage power transfer sequence.'",
+            "label": "Commander La Forge, Counselor, keep monitoring., prepare the warp-field synchronization. we’ll attempt to pull them clear.",
+            "crew_reply": "Commander La Forge':'Warp-field modulation ready. On your mark, I’ll engage power transfer sequence.'",
             "next": 4
           },
           {
@@ -727,7 +727,7 @@
           },
           {
             "label": "Lt. Commander Data, model the plasma flux trajectory if the rift collapses prematurely.",
-            "crew_reply": "Lt. Commander Data, : : 'Projected shockwave would exceed thirty terajoules—sufficient to destroy both colonies and severely damage this ship.'",
+            "crew_reply": "Lt. Commander Data,::'Projected shockwave would exceed thirty terajoules—sufficient to destroy both colonies and severely damage this ship.'",
             "next": 4
           }
         ]
@@ -809,7 +809,7 @@
           },
           {
             "label": "Dr. Crusher, verify our cargo manifests from starbase 92 for any discrepancies.",
-            "crew_reply": "Dr. Crusher, : : 'Manifests show standard medical and agricultural aid only. There’s no record of surveillance equipment aboard.'",
+            "crew_reply": "Dr. Crusher,::'Manifests show standard medical and agricultural aid only. There’s no record of surveillance equipment aboard.'",
             "next": 2
           },
           {
@@ -825,17 +825,17 @@
         "options": [
           {
             "label": "Counselor Troi, Counselor, advise starfleet command that there may be a third party attempting to sabotage the peace accord.",
-            "crew_reply": "Counselor Troi, : : 'Message transmitted. Command has ordered us to proceed with discretion and avoid escalation.'",
+            "crew_reply": "Counselor Troi,::'Message transmitted. Command has ordered us to proceed with discretion and avoid escalation.'",
             "next": 3
           },
           {
             "label": "Commander Riker, prepare a coded transmission to medrath colony leadership for clarification on internal politics.",
-            "crew_reply": "Commander Riker, : 'Transmission sent. The colony administrator denies involvement and requests Federation presence at the next council session.'",
+            "crew_reply": "Commander Riker,:'Transmission sent. The colony administrator denies involvement and requests Federation presence at the next council session.'",
             "next": 3
           },
           {
             "label": "Chief O'Brien, monitor all talarian comm traffic for evidence of dissent among their ranks.",
-            "crew_reply": "Chief O'Brien, : : 'Understood. Two of their patrol ships have broken formation. There may be a schism within their command structure.'",
+            "crew_reply": "Chief O'Brien,::'Understood. Two of their patrol ships have broken formation. There may be a schism within their command structure.'",
             "next": 3
           }
         ]
@@ -846,7 +846,7 @@
         "options": [
           {
             "label": "Chief O'Brien, compile the evidence and prepare it for presentation to Commander Makor.",
-            "crew_reply": "Chief O'Brien, : 'Compilation complete. Evidence integrity verified at ninety-nine point nine percent.'",
+            "crew_reply": "Chief O'Brien,:'Compilation complete. Evidence integrity verified at ninety-nine point nine percent.'",
             "next": 4
           },
           {
@@ -856,7 +856,7 @@
           },
           {
             "label": "Counselor Troi, ready a diplomatic team for possible face-to-face negotiations.",
-            "crew_reply": "Counselor Troi, : 'Diplomatic party assembled and on standby. recommends medical contingency support.'",
+            "crew_reply": "Counselor Troi,:'Diplomatic party assembled and on standby. recommends medical contingency support.'",
             "next": 4
           }
         ]
@@ -942,7 +942,7 @@
           },
           {
             "label": "Lt. Commander Data, confirm the governor’s statement with sensor logs.",
-            "crew_reply": "Lt. Commander Data, : : 'Sensor telemetry corroborates sustained assault on the colony prior to weapons transfer.'",
+            "crew_reply": "Lt. Commander Data,::'Sensor telemetry corroborates sustained assault on the colony prior to weapons transfer.'",
             "next": 2
           },
           {
@@ -979,7 +979,7 @@
         "options": [
           {
             "label": "Commander Riker, Transmit an open declaration of neutrality and negotiate mutual disarmament.",
-            "crew_reply": "Commander Riker, : : 'Acknowledged. This may calm both sides if handled swiftly.'",
+            "crew_reply": "Commander Riker,::'Acknowledged. This may calm both sides if handled swiftly.'",
             "next": 4
           },
           {
@@ -1059,7 +1059,7 @@
           },
           {
             "label": "Commander Riker, prepare an away team to investigate under minimal interference protocols.",
-            "crew_reply": "Commander Riker, : 'Understood. We’ll go in disguised as survey personnel and maintain visual low exposure.'",
+            "crew_reply": "Commander Riker,:'Understood. We’ll go in disguised as survey personnel and maintain visual low exposure.'",
             "next": 1
           }
         ]
@@ -1080,7 +1080,7 @@
           },
           {
             "label": "Counselor Troi, your assessment?",
-            "crew_reply": "Counselor Troi, : 'The Darexians have built their social progress on this technology. Taking it away will cause collapse.'",
+            "crew_reply": "Counselor Troi,:'The Darexians have built their social progress on this technology. Taking it away will cause collapse.'",
             "next": 2
           }
         ]
@@ -1101,7 +1101,7 @@
           },
           {
             "label": "Lt. Commander Data, Ignore them for now; our focus remains on darex iv.",
-            "crew_reply": "Lt. Commander Data, : Picard’s tone remains even: 'Agreed. We will not compromise the Directive for convenience.'",
+            "crew_reply": "Lt. Commander Data,: Picard’s tone remains even:'Agreed. We will not compromise the Directive for convenience.'",
             "next": 3
           }
         ]
@@ -1143,7 +1143,7 @@
           },
           {
             "label": "Commander La Forge, Transmit full findings to starfleet command. they must review the moral implications.",
-            "crew_reply": "Commander La Forge, : 'A decision best faced in the light of accountability.'",
+            "crew_reply": "Commander La Forge,:'A decision best faced in the light of accountability.'",
             "next": null
           }
         ]
@@ -1164,7 +1164,7 @@
       },
       {
         "result": "failure",
-        "text": "During the covert extraction, transporter harmonics destabilized, exposing the beam to Darexian observatories. The resulting sighting sparked a planetary religion centered on 'the Light from the Sky.' Starfleet suspended observation for a century."
+        "text": "During the covert extraction, transporter harmonics destabilized, exposing the beam to Darexian observatories. The resulting sighting sparked a planetary religion centered on'the Light from the Sky.' Starfleet suspended observation for a century."
       },
       {
         "result": "failure",
@@ -1203,12 +1203,12 @@
         "options": [
           {
             "label": "Dr. Crusher, Prepare a level-10 isolation field in sickbay. we’ll bring the drone aboard under containment.",
-            "crew_reply": "Dr. Crusher, : : 'Acknowledged. Medical quarantine will be ready on your order.'",
+            "crew_reply": "Dr. Crusher,::'Acknowledged. Medical quarantine will be ready on your order.'",
             "next": 2
           },
           {
             "label": "Lt. Worf, target the derelict and stand by to fire on my command.",
-            "crew_reply": "Lt. Worf, : : 'Understood. Torpedoes locked. Awaiting your order.'",
+            "crew_reply": "Lt. Worf,::'Understood. Torpedoes locked. Awaiting your order.'",
             "next": 2
           },
           {
@@ -1220,21 +1220,21 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, I sense confusion from the drone. There’s no unity, no collective presence. It’s... alone. It may not even understand where it is.",
+        "line": "Captain, I sense confusion from the drone. There’s no unity, no collective presence. It’s.. alone. It may not even understand where it is.",
         "options": [
           {
             "label": "Chief O'Brien, Open a comm channel to the derelict. let’s see if it can respond.",
-            "crew_reply": "Chief O'Brien Minimal response... modulation patterns match distress tones.'",
+            "crew_reply": "Chief O'Brien Minimal response.. modulation patterns match distress tones.'",
             "next": 3
           },
           {
             "label": "Commander La Forge, Maintain silence. any transmission could alert other borg units.",
-            "crew_reply": "Commander La Forge, : 'Understood. We’ll monitor passively only.'",
+            "crew_reply": "Commander La Forge,:'Understood. We’ll monitor passively only.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Attempt limited neural link through the beacon. contain it within the holodeck core.",
-            "crew_reply": "Commander Riker, : 'A secure simulation environment could buffer the signal and allow communication without direct exposure.'",
+            "crew_reply": "Commander Riker,:'A secure simulation environment could buffer the signal and allow communication without direct exposure.'",
             "next": 3
           }
         ]
@@ -1245,12 +1245,12 @@
         "options": [
           {
             "label": "Commander La Forge, Shut down all external sensor arrays and isolate the system core.",
-            "crew_reply": "Commander La Forge Cutting power now... signal strength falling to 14%.'",
+            "crew_reply": "Commander La Forge Cutting power now.. signal strength falling to 14%.'",
             "next": 4
           },
           {
             "label": "Commander Riker, Transmit a controlled response. if it’s sentient, it deserves a voice.",
-            "crew_reply": "Commander Riker There’s fear... and recognition.'",
+            "crew_reply": "Commander Riker There’s fear.. and recognition.'",
             "next": 4
           },
           {
@@ -1276,7 +1276,7 @@
           },
           {
             "label": "Lt. Commander Data, Purge all records of the encounter. the collective must not learn what transpired here.",
-            "crew_reply": "Lt. Commander Data, : 'Agreed. Some knowledge is best left unshared — even within Starfleet.'",
+            "crew_reply": "Lt. Commander Data,:'Agreed. Some knowledge is best left unshared — even within Starfleet.'",
             "next": null
           }
         ]
@@ -1315,17 +1315,17 @@
         "options": [
           {
             "label": "Commander Riker, Raise shields and bring phasers to full power. target only their weapon array.",
-            "crew_reply": "Worf: 'Aye Tactical systems online. Targeting precision points only.'",
+            "crew_reply": "Worf:'Aye Tactical systems online. Targeting precision points only.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Open hailing frequencies. let’s confirm their intentions before we engage.",
-            "crew_reply": "Riker: 'Channel open No response yet — they’re holding position.'",
+            "crew_reply": "Riker:'Channel open No response yet — they’re holding position.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Move us between the klingon ship and the colony. maximum impulse.",
-            "crew_reply": "La Forge: 'Aye Bringing us into protective orbit. Shields adjusting to planetary gravity well.'",
+            "crew_reply": "La Forge:'Aye Bringing us into protective orbit. Shields adjusting to planetary gravity well.'",
             "next": 1
           }
         ]
@@ -1336,17 +1336,17 @@
         "options": [
           {
             "label": "Commander Riker, Data, open a channel on all frequencies. let’s appeal to their honor.",
-            "crew_reply": "Data: 'Channel open Broadcasting standard Starfleet identification.'",
+            "crew_reply": "Data:'Channel open Broadcasting standard Starfleet identification.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Mr. worf, hail them directly. they may respond better to one of their own.",
-            "crew_reply": "Worf: 'Understood. Speaking now. They identify their commander as K’Tor of the IKS Mok’rath.'",
+            "crew_reply": "Worf:'Understood. Speaking now. They identify their commander as K’Tor of the IKS Mok’rath.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain silence and hold our ground. prepare for incoming fire.",
-            "crew_reply": "Riker: 'Acknowledged. Weapons are hot. Awaiting your signal'",
+            "crew_reply": "Riker:'Acknowledged. Weapons are hot. Awaiting your signal'",
             "next": 2
           }
         ]
@@ -1357,17 +1357,17 @@
         "options": [
           {
             "label": "Commander Riker, Inform him corvan ii lies within federation territory — and that we will defend it.",
-            "crew_reply": "Riker: 'Message sent. He’s not backing off. Shields rising on their end.'",
+            "crew_reply": "Riker:'Message sent. He’s not backing off. Shields rising on their end.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Data, divert power to shield harmonics. prepare for evasive maneuvers.",
-            "crew_reply": "Data: 'Adjusting frequencies to counter Klingon disruptor modulation. Shields at 92% efficiency.'",
+            "crew_reply": "Data:'Adjusting frequencies to counter Klingon disruptor modulation. Shields at 92% efficiency.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Geordi, can we disable their engines without risking detonation?",
-            "crew_reply": "La Forge: 'Possible if we limit phaser yield to 40 percent and strike the aft nacelles.'",
+            "crew_reply": "La Forge:'Possible if we limit phaser yield to 40 percent and strike the aft nacelles.'",
             "next": 3
           }
         ]
@@ -1378,17 +1378,17 @@
         "options": [
           {
             "label": "Commander Riker, Helm, pursue them around the moon. match their vector and fire when they come about.",
-            "crew_reply": "Riker: 'Aye Executing pursuit maneuver. Phasers ready.'",
+            "crew_reply": "Riker:'Aye Executing pursuit maneuver. Phasers ready.'",
             "next": 4
           },
           {
             "label": "Commander Riker, Hold position. let them reveal their intent before we respond.",
-            "crew_reply": "Worf: 'They’ll have the first strike advantage'",
+            "crew_reply": "Worf:'They’ll have the first strike advantage'",
             "next": 4
           },
           {
             "label": "Commander Riker, Signal the colony to evacuate to subterranean shelters. prepare photon torpedoes, spread pattern gamma.",
-            "crew_reply": "La Forge: 'Evacuation underway. Torpedoes configured for wide dispersal.'",
+            "crew_reply": "La Forge:'Evacuation underway. Torpedoes configured for wide dispersal.'",
             "next": 4
           }
         ]
@@ -1399,17 +1399,17 @@
         "options": [
           {
             "label": "Commander Riker, Accept their hail. let’s end this before it costs more lives.",
-            "crew_reply": "Riker: K’Tor (over comm): 'Your precision honors your courage, Picard. We withdraw.'",
+            "crew_reply": "Riker: K’Tor (over comm):'Your precision honors your courage, Picard. We withdraw.'",
             "next": null
           },
           {
             "label": "Commander Riker, Maintain weapons lock until they disengage. no chances.",
-            "crew_reply": "Worf: 'Understood. Tracking them until they clear orbit.'",
+            "crew_reply": "Worf:'Understood. Tracking them until they clear orbit.'",
             "next": null
           },
           {
             "label": "Commander Riker, Order all ships to cease fire. focus on protecting the colony’s shield grid.",
-            "crew_reply": "La Forge: 'Colony shields stabilizing. Radiation from their disruptors dissipating.'",
+            "crew_reply": "La Forge:'Colony shields stabilizing. Radiation from their disruptors dissipating.'",
             "next": null
           }
         ]
@@ -1448,17 +1448,17 @@
         "options": [
           {
             "label": "Commander Riker, Backtrack last known vector for uss yosemite",
-            "crew_reply": "Data: 'Vector reconstructed.'",
+            "crew_reply": "Data:'Vector reconstructed.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Query navigational beacons along uss yosemite",
-            "crew_reply": "Riker: O'Brien: 'Beacon logs retrieved.'",
+            "crew_reply": "Riker: O'Brien:'Beacon logs retrieved.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Sweep for residual warp plasma near uss yosemite",
-            "crew_reply": "La Forge: 'Residual trail detected.'",
+            "crew_reply": "La Forge:'Residual trail detected.'",
             "next": 1
           }
         ]
@@ -1469,17 +1469,17 @@
         "options": [
           {
             "label": "Commander Riker, Expand last known vector for uss yosemite",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around uss yosemite",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for uss yosemite",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
@@ -1490,17 +1490,17 @@
         "options": [
           {
             "label": "Commander Riker, Balance eps load for uss yosemite",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at uss yosemite",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to uss yosemite",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -1511,17 +1511,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for uss yosemite",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on uss yosemite",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at uss yosemite",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -1580,17 +1580,17 @@
         "options": [
           {
             "label": "Commander Riker, Widen search grid over cardassian vessel",
-            "crew_reply": "Data: 'Grid expanded; coverage at 150%.'",
+            "crew_reply": "Data:'Grid expanded; coverage at 150%.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Boost emergency channel gain to reach cardassian vessel",
-            "crew_reply": "Riker: O'Brien: 'Gain increased; channel stable.'",
+            "crew_reply": "Riker: O'Brien:'Gain increased; channel stable.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Lock transporter on cardassian vessel life‑sign clustering",
-            "crew_reply": "Riker: O'Brien: 'Pattern buffers primed.'",
+            "crew_reply": "Riker: O'Brien:'Pattern buffers primed.'",
             "next": 1
           }
         ]
@@ -1601,17 +1601,17 @@
         "options": [
           {
             "label": "Commander Riker, Extend search grid over cardassian vessel",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around cardassian vessel",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for cardassian vessel",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
@@ -1622,17 +1622,17 @@
         "options": [
           {
             "label": "Commander Riker, Balance eps load for cardassian vessel",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at cardassian vessel",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to cardassian vessel",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -1643,17 +1643,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for cardassian vessel",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on cardassian vessel",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at cardassian vessel",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -1712,17 +1712,17 @@
         "options": [
           {
             "label": "Commander Riker, Audit terraforming subroutines on telara prime",
-            "crew_reply": "Data: 'Fault detected in regulator loop.'",
+            "crew_reply": "Data:'Fault detected in regulator loop.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Restart atmospheric processors at telara prime",
-            "crew_reply": "La Forge: 'Processors rebooted.'",
+            "crew_reply": "La Forge:'Processors rebooted.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Calibrate sensor nets for telara prime surface",
-            "crew_reply": "Data: 'Surface grid recalibrated.'",
+            "crew_reply": "Data:'Surface grid recalibrated.'",
             "next": 1
           }
         ]
@@ -1733,17 +1733,17 @@
         "options": [
           {
             "label": "Commander Riker, Audit terraforming subroutines on telara prime",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around telara prime",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for telara prime",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
@@ -1754,17 +1754,17 @@
         "options": [
           {
             "label": "Commander Riker, Balance eps load for telara prime",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at telara prime",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to telara prime",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -1775,17 +1775,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for telara prime",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on telara prime",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at telara prime",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -1840,21 +1840,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to evacuation if required..",
+        "line": "Captain, status link established to evacuation if required.",
         "options": [
           {
             "label": "Commander Riker, Place seismometer buoys around evacuation if required.",
-            "crew_reply": "Helm: 'Buoys deployed on grid.'",
+            "crew_reply": "Helm:'Buoys deployed on grid.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Run deep-structure scan beneath evacuation if required.",
-            "crew_reply": "Data: 'Fault lines mapped.'",
+            "crew_reply": "Data:'Fault lines mapped.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Simulate evacuation routes from evacuation if required.",
-            "crew_reply": "Riker: 'Routes planned and distributed.'",
+            "crew_reply": "Riker:'Routes planned and distributed.'",
             "next": 1
           }
         ]
@@ -1865,38 +1865,38 @@
         "options": [
           {
             "label": "Commander Riker, Place seismometer buoys around evacuation if required.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around evacuation if required.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for evacuation if required.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from evacuation if required..",
+        "line": "Captain, power and systems checks returning data from evacuation if required.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for evacuation if required.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at evacuation if required.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to evacuation if required.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -1907,17 +1907,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for evacuation if required.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on evacuation if required.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at evacuation if required.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -1972,21 +1972,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to or security breach..",
+        "line": "Captain, status link established to or security breach.",
         "options": [
           {
             "label": "Commander Riker, Poll instrument racks at or security breach.",
-            "crew_reply": "La Forge: 'Rack status collected.'",
+            "crew_reply": "La Forge:'Rack status collected.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Reimage sensor pallets for or security breach.",
-            "crew_reply": "Data: 'Pallets reimaged.'",
+            "crew_reply": "Data:'Pallets reimaged.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Sync experiment logs from or security breach.",
-            "crew_reply": "Riker: O'Brien: 'Logs synchronized.'",
+            "crew_reply": "Riker: O'Brien:'Logs synchronized.'",
             "next": 1
           }
         ]
@@ -1997,38 +1997,38 @@
         "options": [
           {
             "label": "Commander Riker, Poll instrument racks at or security breach.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around or security breach.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for or security breach.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from or security breach..",
+        "line": "Captain, power and systems checks returning data from or security breach.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for or security breach.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at or security breach.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to or security breach.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2039,17 +2039,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for or security breach.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on or security breach.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at or security breach.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -2108,17 +2108,17 @@
         "options": [
           {
             "label": "Commander Riker, Scan for active containment on derelict vessel",
-            "crew_reply": "Data: 'Containment inactive.'",
+            "crew_reply": "Data:'Containment inactive.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Map internal topology of derelict vessel",
-            "crew_reply": "Data: 'Deck plan reconstructed.'",
+            "crew_reply": "Data:'Deck plan reconstructed.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Flag hazardous tech signatures on derelict vessel",
-            "crew_reply": "Worf: 'Hazards marked for avoidance.'",
+            "crew_reply": "Worf:'Hazards marked for avoidance.'",
             "next": 1
           }
         ]
@@ -2129,17 +2129,17 @@
         "options": [
           {
             "label": "Commander Riker, Scan for active containment on derelict vessel",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around derelict vessel",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for derelict vessel",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
@@ -2150,17 +2150,17 @@
         "options": [
           {
             "label": "Commander Riker, Balance eps load for derelict vessel",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at derelict vessel",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to derelict vessel",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2171,17 +2171,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for derelict vessel",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on derelict vessel",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at derelict vessel",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -2236,21 +2236,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to shuttle and occupants..",
+        "line": "Captain, status link established to shuttle and occupants.",
         "options": [
           {
             "label": "Commander Riker, Interrogate transponder on shuttle and occupants.",
-            "crew_reply": "Riker: O'Brien: 'Transponder weak but readable.'",
+            "crew_reply": "Riker: O'Brien:'Transponder weak but readable.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Compute power budget drift for shuttle and occupants.",
-            "crew_reply": "La Forge: 'Power curve suggests detour.'",
+            "crew_reply": "La Forge:'Power curve suggests detour.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Project safe intercept for shuttle and occupants.",
-            "crew_reply": "Helm: 'Intercept plotted.'",
+            "crew_reply": "Helm:'Intercept plotted.'",
             "next": 1
           }
         ]
@@ -2261,38 +2261,38 @@
         "options": [
           {
             "label": "Commander Riker, Interrogate transponder on shuttle and occupants.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around shuttle and occupants.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for shuttle and occupants.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from shuttle and occupants..",
+        "line": "Captain, power and systems checks returning data from shuttle and occupants.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for shuttle and occupants.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at shuttle and occupants.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to shuttle and occupants.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2303,17 +2303,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for shuttle and occupants.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on shuttle and occupants.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at shuttle and occupants.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -2368,21 +2368,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to violations are occurring..",
+        "line": "Captain, status link established to violations are occurring.",
         "options": [
           {
             "label": "Commander Riker, Sweep for cloaking harmonics near violations are occurring.",
-            "crew_reply": "Data: 'No cloak harmonics detected.'",
+            "crew_reply": "Data:'No cloak harmonics detected.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Erect tachyon detection grid at violations are occurring.",
-            "crew_reply": "Riker: 'Grid configured.'",
+            "crew_reply": "Riker:'Grid configured.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Record emission spikes around violations are occurring.",
-            "crew_reply": "Data: 'Spikes logged with timestamps.'",
+            "crew_reply": "Data:'Spikes logged with timestamps.'",
             "next": 1
           }
         ]
@@ -2393,38 +2393,38 @@
         "options": [
           {
             "label": "Commander Riker, Sweep for cloaking harmonics near violations are occurring.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around violations are occurring.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for violations are occurring.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from violations are occurring..",
+        "line": "Captain, power and systems checks returning data from violations are occurring.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for violations are occurring.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at violations are occurring.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to violations are occurring.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2435,17 +2435,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for violations are occurring.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on violations are occurring.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at violations are occurring.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -2500,21 +2500,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to for external interference..",
+        "line": "Captain, status link established to for external interference.",
         "options": [
           {
             "label": "Commander Riker, Establish breadcrumb scan along for external interference.",
-            "crew_reply": "Data: 'Trace particles detected; path plotted.'",
+            "crew_reply": "Data:'Trace particles detected; path plotted.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Ping transponder frequencies registered to for external interference.",
-            "crew_reply": "Riker: O'Brien: 'No auto-reply; logging attempts.'",
+            "crew_reply": "Riker: O'Brien:'No auto-reply; logging attempts.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Deploy navigation buoys to for external interference. corridor",
-            "crew_reply": "Helm: 'Buoys deployed on designated vectors.'",
+            "crew_reply": "Helm:'Buoys deployed on designated vectors.'",
             "next": 1
           }
         ]
@@ -2525,38 +2525,38 @@
         "options": [
           {
             "label": "Commander Riker, Establish breadcrumb scan along for external interference.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around for external interference.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for for external interference.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from for external interference..",
+        "line": "Captain, power and systems checks returning data from for external interference.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for for external interference.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at for external interference.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to for external interference.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2567,17 +2567,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for for external interference.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on for external interference.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at for external interference.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -2632,21 +2632,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to restore communications stability..",
+        "line": "Captain, status link established to restore communications stability.",
         "options": [
           {
             "label": "Commander Riker, Sweep subspace bands for phase drift at restore communications stability.",
-            "crew_reply": "Data: 'Phase variance isolated.'",
+            "crew_reply": "Data:'Phase variance isolated.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Realign comm array to restore communications stability. beacon",
-            "crew_reply": "Riker: O'Brien: 'Array locked; signal stabilized.'",
+            "crew_reply": "Riker: O'Brien:'Array locked; signal stabilized.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Queue redundancy packets through restore communications stability.",
-            "crew_reply": "Riker: O'Brien: 'Redundant path operational.'",
+            "crew_reply": "Riker: O'Brien:'Redundant path operational.'",
             "next": 1
           }
         ]
@@ -2657,38 +2657,38 @@
         "options": [
           {
             "label": "Commander Riker, Sweep subspace bands for phase drift at restore communications stability.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around restore communications stability.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for restore communications stability.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from restore communications stability..",
+        "line": "Captain, power and systems checks returning data from restore communications stability.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for restore communications stability.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at restore communications stability.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to restore communications stability.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2699,17 +2699,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for restore communications stability.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on restore communications stability.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at restore communications stability.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -2764,21 +2764,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to sabotage or theft..",
+        "line": "Captain, status link established to sabotage or theft.",
         "options": [
           {
             "label": "Commander Riker, Establish breadcrumb scan along sabotage or theft.",
-            "crew_reply": "Data: 'Trace particles detected; path plotted.'",
+            "crew_reply": "Data:'Trace particles detected; path plotted.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Ping transponder frequencies registered to sabotage or theft.",
-            "crew_reply": "Riker: O'Brien: 'No auto-reply; logging attempts.'",
+            "crew_reply": "Riker: O'Brien:'No auto-reply; logging attempts.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Deploy navigation buoys to sabotage or theft. corridor",
-            "crew_reply": "Helm: 'Buoys deployed on designated vectors.'",
+            "crew_reply": "Helm:'Buoys deployed on designated vectors.'",
             "next": 1
           }
         ]
@@ -2789,38 +2789,38 @@
         "options": [
           {
             "label": "Commander Riker, Establish breadcrumb scan along sabotage or theft.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around sabotage or theft.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for sabotage or theft.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from sabotage or theft..",
+        "line": "Captain, power and systems checks returning data from sabotage or theft.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for sabotage or theft.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at sabotage or theft.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to sabotage or theft.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2831,17 +2831,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for sabotage or theft.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on sabotage or theft.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at sabotage or theft.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -2900,17 +2900,17 @@
         "options": [
           {
             "label": "Commander Riker, Model ion load across starbase 324",
-            "crew_reply": "La Forge: 'Load projections prepared.'",
+            "crew_reply": "La Forge:'Load projections prepared.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Distribute shielded power loops at starbase 324",
-            "crew_reply": "La Forge: 'Loops balanced for surge.'",
+            "crew_reply": "La Forge:'Loops balanced for surge.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Stage emergency crews for starbase 324",
-            "crew_reply": "Riker: 'Crews positioned and ready.'",
+            "crew_reply": "Riker:'Crews positioned and ready.'",
             "next": 1
           }
         ]
@@ -2921,17 +2921,17 @@
         "options": [
           {
             "label": "Commander Riker, Model ion load across starbase 324",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around starbase 324",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for starbase 324",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
@@ -2942,17 +2942,17 @@
         "options": [
           {
             "label": "Commander Riker, Balance eps load for starbase 324",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at starbase 324",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to starbase 324",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -2963,17 +2963,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for starbase 324",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on starbase 324",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at starbase 324",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -3028,21 +3028,21 @@
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, status link established to for continued study..",
+        "line": "Captain, status link established to for continued study.",
         "options": [
           {
             "label": "Commander Riker, Capture turbulence frames in for continued study.",
-            "crew_reply": "Data: 'Frames captured at high resolution.'",
+            "crew_reply": "Data:'Frames captured at high resolution.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Harden sensor baffles for for continued study.",
-            "crew_reply": "La Forge: 'Baffles configured.'",
+            "crew_reply": "La Forge:'Baffles configured.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Plot safe corridors through for continued study.",
-            "crew_reply": "Helm: 'Corridors charted.'",
+            "crew_reply": "Helm:'Corridors charted.'",
             "next": 1
           }
         ]
@@ -3053,38 +3053,38 @@
         "options": [
           {
             "label": "Commander Riker, Capture turbulence frames in for continued study.",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around for continued study.",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for for continued study.",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "Captain, power and systems checks returning data from for continued study..",
+        "line": "Captain, power and systems checks returning data from for continued study.",
         "options": [
           {
             "label": "Commander Riker, Balance eps load for for continued study.",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at for continued study.",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to for continued study.",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -3095,17 +3095,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for for continued study.",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on for continued study.",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at for continued study.",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
@@ -3164,17 +3164,17 @@
         "options": [
           {
             "label": "Commander Riker, Sample atmospheric particulates above uss tsiolkovsky",
-            "crew_reply": "Data: 'Samples collected and sequenced.'",
+            "crew_reply": "Data:'Samples collected and sequenced.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Deploy orbital scrubbers over uss tsiolkovsky",
-            "crew_reply": "La Forge: 'Scrubbers online; counts falling.'",
+            "crew_reply": "La Forge:'Scrubbers online; counts falling.'",
             "next": 1
           },
           {
             "label": "Commander Riker, Model wind‑shear vectors impacting uss tsiolkovsky",
-            "crew_reply": "Data: 'Model compiled; guidance uploaded.'",
+            "crew_reply": "Data:'Model compiled; guidance uploaded.'",
             "next": 1
           }
         ]
@@ -3185,17 +3185,17 @@
         "options": [
           {
             "label": "Commander Riker, Sample atmospheric particulates above uss tsiolkovsky",
-            "crew_reply": "Worf: 'Perimeter confirmation complete.'",
+            "crew_reply": "Worf:'Perimeter confirmation complete.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Maintain alert posture around uss tsiolkovsky",
-            "crew_reply": "Riker: 'Yellow alert maintained.'",
+            "crew_reply": "Riker:'Yellow alert maintained.'",
             "next": 2
           },
           {
             "label": "Commander Riker, Log security markers for uss tsiolkovsky",
-            "crew_reply": "Worf: 'Markers placed and tracked.'",
+            "crew_reply": "Worf:'Markers placed and tracked.'",
             "next": 2
           }
         ]
@@ -3206,17 +3206,17 @@
         "options": [
           {
             "label": "Commander Riker, Balance eps load for uss tsiolkovsky",
-            "crew_reply": "La Forge: 'Load balanced across grids.'",
+            "crew_reply": "La Forge:'Load balanced across grids.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Run subsystem diagnostics at uss tsiolkovsky",
-            "crew_reply": "La Forge: 'Diagnostics complete; anomalies flagged.'",
+            "crew_reply": "La Forge:'Diagnostics complete; anomalies flagged.'",
             "next": 3
           },
           {
             "label": "Commander Riker, Open maintenance channel to uss tsiolkovsky",
-            "crew_reply": "Riker: O'Brien: 'Maintenance channel secured.'",
+            "crew_reply": "Riker: O'Brien:'Maintenance channel secured.'",
             "next": 3
           }
         ]
@@ -3227,17 +3227,17 @@
         "options": [
           {
             "label": "Commander Riker, Commit operational plan for uss tsiolkovsky",
-            "crew_reply": "Riker: 'Plan committed and routed to departments.'",
+            "crew_reply": "Riker:'Plan committed and routed to departments.'",
             "next": null
           },
           {
             "label": "Commander Riker, Transmit interim report on uss tsiolkovsky",
-            "crew_reply": "Riker: O'Brien: 'Report sent and acknowledged.'",
+            "crew_reply": "Riker: O'Brien:'Report sent and acknowledged.'",
             "next": null
           },
           {
             "label": "Commander Riker, Stand down to condition green at uss tsiolkovsky",
-            "crew_reply": "Helm: 'Condition set to green.'",
+            "crew_reply": "Helm:'Condition set to green.'",
             "next": null
           }
         ]
