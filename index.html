@@ -584,7 +584,18 @@ function renderDialogueNode() {
     btn.textContent = opt.label;
     btn.className = 'dialogButton';
     btn.onclick = function() {
-      // Dr. Crusher filter
+      if(!missionActive){
+        missionActive = true;
+        const comm = document.getElementById('communique');
+        const miss = document.getElementById('mission');
+        if(comm) comm.classList.add('hidden');
+        if(miss) miss.classList.add('hidden');
+        const dlg = document.getElementById('dialog');
+        const opts = document.getElementById('options');
+        if(dlg) dlg.classList.add('dialog-top');
+        if(opts) opts.classList.add('options-top');
+      }
+// Dr. Crusher filter
       if (opt.label.toLowerCase().includes('crusher')) {
         const textToCheck = (opt.label + ' ' + opt.crew_reply).toLowerCase();
         const hasMedical = medicalKeywords.some(k => textToCheck.includes(k));
