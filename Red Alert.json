@@ -73,17 +73,17 @@
           {
             "label": "Crusher: Prioritize the damping field—break the link before we lose more crew.",
             "crew_reply": "Dr. Crusher: Increasing amplitude gradually. The synchrony is weakening.",
-            "next": 5
+            "next": 4
           },
           {
             "label": "Data: Send a calm acknowledgment—explain that forced unity harms us.",
             "crew_reply": "Lt. Commander Data: Message transmitted. The resonance is pausing—reassessing.",
-            "next": 5
+            "next": 4
           },
           {
             "label": "Riker: Prepare emergency venting of quarantined sections as last resort.",
             "crew_reply": "Commander Riker: Standing by. Evacuation orders queued.",
-            "next": 5
+            "next": 4
           }
         ]
       },
@@ -242,15 +242,15 @@
           {
             "label": "La Forge: Form a phased energy cradle and guide it free.",
             "crew_reply": "Commander La Forge: Shaping a corridor—steady, gentle… it’s moving away.",
-            "next": 8
+            "next": 7
           },
           {
             "label": "Worf: Drop containment and let it depart on its own.",
             "crew_reply": "Lt. Worf: Containment released. Energy levels normalizing.",
-            "next": 8
+            "next": 7
           },
           {
-            "label": "Emergency power cut: Force separation now.",
+            "label": "Commander La Forge: Emergency power cut: Force separation now.",
             "crew_reply": "Commander La Forge: Initiating hard shutdown. Brace for shock!",
             "next": 7
           }
@@ -430,12 +430,12 @@
         "line": "Their ship has powered down its energy buildup. New message—in apology—and a request for joint investigation. They report internal sabotage.",
         "options": [
           {
-            "label": "Acknowledge: Offer Federation assistance.",
+            "label": "Captain Picard: Acknowledge: Offer Federation assistance.",
             "crew_reply": "Captain Picard: Goodwill today may spare conflict tomorrow.",
             "next": null
           },
           {
-            "label": "Decline: Withdraw to Federation space.",
+            "label": "Captain Picard: Decline: Withdraw to Federation space.",
             "crew_reply": "Captain Picard: Understood. Helm, set course. We’ve averted one crisis.",
             "next": null
           }
