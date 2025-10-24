@@ -81,9 +81,9 @@
             "next": 6
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Lt. Worf Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Worf, continue your report.",
+            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
+            "next": 6
           }
         ]
       },
@@ -102,9 +102,9 @@
             "next": 6
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Dr. Crusher Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Crusher, continue your report.",
+            "crew_reply": "Dr. Crusher Acknowledged, Captain. Monitoring closely.",
+            "next": 6
           }
         ]
       }
@@ -176,9 +176,9 @@
             "next": 3
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Commander La Forge Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Forge, continue your report.",
+            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
+            "next": 3
           }
         ]
       },
@@ -197,9 +197,9 @@
             "next": 4
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Worf Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Worf, continue your report.",
+            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -218,9 +218,9 @@
             "next": 5
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Counselor Troi Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       },
@@ -313,9 +313,9 @@
             "next": 5
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       },
@@ -334,9 +334,9 @@
             "next": 4
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander La Forge Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Forge, continue your report.",
+            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -355,9 +355,9 @@
             "next": 5
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Counselor Troi Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       },
@@ -376,9 +376,9 @@
             "next": 6
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 6
           }
         ]
       }
@@ -450,9 +450,9 @@
             "next": 3
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 3
           }
         ]
       },
@@ -471,9 +471,9 @@
             "next": 4
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Counselor Troi Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -492,9 +492,9 @@
             "next": 5
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Lt. Commander Data Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       },
@@ -513,9 +513,9 @@
             "next": 6
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Dr. Crusher Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Crusher, continue your report.",
+            "crew_reply": "Dr. Crusher Acknowledged, Captain. Monitoring closely.",
+            "next": 6
           }
         ]
       }
@@ -566,9 +566,9 @@
             "next": 2
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander Riker Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Riker, continue your report.",
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
+            "next": 2
           }
         ]
       },
@@ -587,9 +587,9 @@
             "next": 3
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 3
           }
         ]
       },
@@ -608,9 +608,9 @@
             "next": 4
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Counselor Troi Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -629,9 +629,9 @@
             "next": 5
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander Riker Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Riker, continue your report.",
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       },
@@ -650,9 +650,9 @@
             "next": 6
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 6
           }
         ]
       }
@@ -699,9 +699,9 @@
             "next": 2
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Commander Riker Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Riker, continue your report.",
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
+            "next": 2
           }
         ]
       },
@@ -720,9 +720,9 @@
             "next": 4
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Lt. Commander Data Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -741,9 +741,9 @@
             "next": 5
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Counselor Troi Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       },
@@ -762,9 +762,9 @@
             "next": 6
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Worf Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Worf, continue your report.",
+            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
+            "next": 6
           }
         ]
       },
@@ -783,9 +783,9 @@
             "next": 7
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander Riker Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Riker, continue your report.",
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
+            "next": 7
           }
         ]
       }
@@ -832,9 +832,9 @@
             "next": 2
           },
           {
-            "label": "Expand the search parameters to include microbial readings.",
-            "crew_reply": "Commander Riker Adjusting sensors accordingly. Detecting minor fluctuations consistent with low-level life signatures.",
-            "next": null
+            "label": "Riker, continue your report.",
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
+            "next": 2
           }
         ]
       },
@@ -853,9 +853,9 @@
             "next": 3
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Counselor Troi Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 3
           }
         ]
       },
@@ -874,9 +874,9 @@
             "next": 4
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander Riker Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Riker, continue your report.",
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -895,9 +895,9 @@
             "next": 5
           },
           {
-            "label": "Expand the search parameters to include microbial readings.",
-            "crew_reply": "Lt. Commander Data Adjusting sensors accordingly. Detecting minor fluctuations consistent with low-level life signatures.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       },
@@ -916,9 +916,9 @@
             "next": 6
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Counselor Troi Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 6
           }
         ]
       }
@@ -965,9 +965,9 @@
             "next": 1
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander La Forge Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Forge, continue your report.",
+            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
+            "next": 1
           }
         ]
       },
@@ -986,9 +986,9 @@
             "next": 2
           },
           {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Lt. Commander Data Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 2
           }
         ]
       },
@@ -1007,9 +1007,9 @@
             "next": 3
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Dr. Crusher Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Crusher, continue your report.",
+            "crew_reply": "Dr. Crusher Acknowledged, Captain. Monitoring closely.",
+            "next": 3
           }
         ]
       },
@@ -1028,9 +1028,9 @@
             "next": 4
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Major Keller Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Keller, continue your report.",
+            "crew_reply": "Major Keller Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -1049,9 +1049,9 @@
             "next": 5
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Data, continue your report.",
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       }
@@ -1098,9 +1098,9 @@
             "next": 1
           },
           {
-            "label": "Expand the search parameters to include microbial readings.",
-            "crew_reply": "Commander Riker Adjusting sensors accordingly. Detecting minor fluctuations consistent with low-level life signatures.",
-            "next": null
+            "label": "Riker, continue your report.",
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
+            "next": 1
           }
         ]
       },
@@ -1119,9 +1119,9 @@
             "next": 2
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Counselor Troi Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Troi, continue your report.",
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
+            "next": 2
           }
         ]
       },
@@ -1140,9 +1140,9 @@
             "next": 3
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander La Forge Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Forge, continue your report.",
+            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
+            "next": 3
           }
         ]
       },
@@ -1161,9 +1161,9 @@
             "next": 4
           },
           {
-            "label": "Extend the scan range to cover nearby subspace vectors.",
-            "crew_reply": "Commander La Forge Scanning complete. The readings are consistent with your analysis, Captain.",
-            "next": null
+            "label": "Forge, continue your report.",
+            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
+            "next": 4
           }
         ]
       },
@@ -1182,9 +1182,9 @@
             "next": 5
           },
           {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Mara Tallen Understood, Captain. All departments report ready status.",
-            "next": null
+            "label": "Tallen, continue your report.",
+            "crew_reply": "Mara Tallen Acknowledged, Captain. Monitoring closely.",
+            "next": 5
           }
         ]
       }
