@@ -1,157 +1,289 @@
 [
   {
-     "starfleet_message": "Starfleet Command has diverted the Enterprise to investigate the USS Nightingale, a Federation medical vessel found adrift near the H’Varn Nebula. All hands aboard are alive but unresponsive. Determine the cause and prevent any threat to Starfleet assets.",
-    "mission_description": "A contagious neural resonance spreads among the crew after boarding the derelict Nightingale. Identify the source, protect the Enterprise, and decide whether to cure, communicate, or contain.",
+    "starfleet_message": "The medical vessel USS Nightingale has been found adrift near the H’Varn Nebula. Its crew remains unresponsive but alive. Investigate the cause and ensure the phenomenon does not spread to the Enterprise.",
+    "mission_description": "A neural resonance of unknown origin is spreading aboard the Enterprise, linking the crew’s consciousness. Identify its source and restore autonomy before full synchronization occurs.",
     "dialogue_tree": [
       {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the Nightingale’s crew exhibits synchronized neural patterns with no typical biological markers. The signal appears to ride on environmental subspace harmonics.",
+        "crew": "Dr. Crusher",
+        "line": "Captain, the away team reports the Nightingale’s crew is catatonic but stable. Their neural activity is synchronized as if driven by an outside metronome.",
         "options": [
           {
-            "label": "Dr. Crusher, begin a full neurological analysis. Prioritize non-invasive countermeasures.",
-            "crew_reply": "Dr. Crusher Understood. I’ll map the resonance envelope and design a damping field.",
+            "label": "Lt. Commander Data, compare the pattern to known subspace carriers.",
+            "crew_reply": "Lt. Commander Data The frequency resembles a modulated resonance rather than conventional communication.",
             "next": 1
           },
           {
-            "label": "Commander La Forge, isolate environmental systems from external subspace bands.",
-            "crew_reply": "Commander La Forge Rerouting filtration and erecting a subspace firewall on life support.",
+            "label": "Commander La Forge, check the Nightingale’s life support for embedded transmissions.",
+            "crew_reply": "Commander La Forge I’m seeing a carrier hidden in environmental harmonics—bleeding into our systems.",
             "next": 2
           },
           {
-            "label": "Lt. Worf, initiate shipwide quarantine protocols and restrict movement between decks.",
-            "crew_reply": "Lt. Worf Quarantine in effect. Security teams posted at critical junctions.",
+            "label": "Counselor Troi, any impressions from the afflicted?",
+            "crew_reply": "Counselor Troi A sense of unity imposed from outside—fear, confusion, and something trying to ‘join’.",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Captain, the resonance amplitude is rising. It’s propagating over audio and environmental channels shipwide.",
+        "options": [
+          {
+            "label": "La Forge, isolate the frequency and reroute environmental control to auxiliaries.",
+            "crew_reply": "Commander La Forge On it. The signal is adaptive—it’s learning our filters.",
+            "next": 3
+          },
+          {
+            "label": "Crusher, can you craft a counter-resonance without neural damage?",
+            "crew_reply": "Dr. Crusher Yes, with Data’s modeling. I’ll set safe exposure thresholds.",
+            "next": 3
+          },
+          {
+            "label": "Troi, keep monitoring its intent.",
+            "crew_reply": "Counselor Troi It wants connection—doesn’t seem malicious, but it doesn’t understand boundaries.",
             "next": 3
           }
         ]
       },
       {
-        "crew": "Dr. Crusher",
-        "line": "The pattern is not a pathogen; it’s a rhythmic neural driver. If we invert it too aggressively, we could cause cortical trauma.",
+        "crew": "Commander La Forge",
+        "line": "Containment is holding, but we’re getting synchronized oscillations in secondary power relays.",
         "options": [
           {
-            "label": "Commander La Forge, synchronize life-support harmonics to attenuate—not cancel—the driver.",
-            "crew_reply": "Commander La Forge Syncing to a 0.72 phase offset. We should see a gradual reduction in coupling.",
-            "next": 2
-          },
-          {
-            "label": "Counselor Troi, assess for any sentient intent behind the resonance.",
-            "crew_reply": "Counselor Troi I sense fear and urgency, not malice. It feels like a plea for help.",
+            "label": "Worf, seal affected decks and restrict nonessential comms.",
+            "crew_reply": "Lt. Worf Security lockdown engaged. Movement restricted on decks seven through ten.",
             "next": 4
           },
           {
-            "label": "Lt. Worf, prepare for the possibility we must destroy the Nightingale to protect the Enterprise.",
-            "crew_reply": "Lt. Worf Target solutions plotted. Awaiting your order.",
+            "label": "Crusher, begin a low-intensity damping field on medical wards.",
+            "crew_reply": "Dr. Crusher Engaging. Keeping intensity below cortical risk margin.",
+            "next": 4
+          },
+          {
+            "label": "Data, calculate a safe envelope to attempt communication.",
+            "crew_reply": "Lt. Commander Data A narrowband channel at 0.72 phase offset should allow limited exchange.",
+            "next": 4
+          }
+        ]
+      },
+      {
+        "crew": "Counselor Troi",
+        "line": "Captain, it’s trying to ‘speak’ through emotions—like a frightened child seeking warmth.",
+        "options": [
+          {
+            "label": "Crusher, prioritize the damping field—break the link before we lose more crew.",
+            "crew_reply": "Dr. Crusher Increasing amplitude gradually. The synchrony is weakening.",
+            "next": 5
+          },
+          {
+            "label": "Data, send a calm acknowledgment—explain that forced unity harms us.",
+            "crew_reply": "Lt. Commander Data Message transmitted. The resonance is pausing—reassessing.",
+            "next": 5
+          },
+          {
+            "label": "Riker, prepare emergency venting of quarantined sections as last resort.",
+            "crew_reply": "Commander Riker Standing by. Evacuation orders queued.",
             "next": 5
           }
         ]
       },
       {
-        "crew": "Lt. Commander La Forge",
-        "line": "Environmental isolation is holding, but the signal adapts. It’s learning our filters and slipping through secondary pathways.",
+        "crew": "Lt. Commander Data",
+        "line": "The field is collapsing. Neural patterns are desynchronizing. The entity is receding into subspace.",
         "options": [
           {
-            "label": "Lt. Commander Data, model a safe synchronization window to communicate without full exposure.",
-            "crew_reply": "Lt. Commander Data A narrowband interface at reduced amplitude should permit limited exchange.",
+            "label": "Crusher, confirm full neural recovery.",
+            "crew_reply": "Dr. Crusher Confirmed. No residual impairment detected.",
+            "next": null
+          },
+          {
+            "label": "La Forge, verify that the carrier has dissipated.",
+            "crew_reply": "Commander La Forge Clean. No trace on environmental bands.",
+            "next": null
+          }
+        ]
+      }
+    ],
+    "debriefs": [
+      {
+        "result": "success",
+        "text": "The crew restored autonomy without casualties. The resonance is classified as a non-hostile subspace intelligence. Medical protocols updated for neural-field contamination."
+      },
+      {
+        "result": "success",
+        "text": "Through careful counter-harmonic calibration, Crusher’s team preserved both ships’ crews. The phenomenon remains stable in subspace for further study."
+      },
+      {
+        "result": "success",
+        "text": "By engaging in limited communication, the crew taught the resonance entity to respect individuality. Starfleet Science hailed the mission as a landmark in non-verbal contact."
+      },
+      {
+        "result": "failure",
+        "text": "A containment miscalculation severed the resonance violently, causing neural trauma in several crew. Starfleet Medical initiated a full procedural audit."
+      },
+      {
+        "result": "failure",
+        "text": "Attempted harmonic communication backfired, amplifying the resonance until it consumed the Nightingale. The Enterprise barely escaped with partial system loss."
+      },
+      {
+        "result": "failure",
+        "text": "A rushed isolation order overloaded auxiliary relays, forcing an emergency shutdown that destroyed the resonance and destabilized local subspace."
+      }
+    ]
+  },
+  {
+    "starfleet_message": "While performing warp field calibration in the T’lora Expanse, the Enterprise has encountered an unstable quantum filament emitting harmonics identical to a Starfleet warp core. Initial readings suggest the object may be alive. Determine its nature and prevent containment instability.",
+    "mission_description": "A sentient quantum lifeform becomes entangled with the Enterprise’s warp field, rewriting harmonics as part of its physiology. Communicate, contain, or safely separate before the ship phases out of normal space.",
+    "dialogue_tree": [
+      {
+        "crew": "Commander La Forge",
+        "line": "Captain, the filament’s resonance is mirroring our warp field modulation—real-time, precise, like it’s learning from us.",
+        "options": [
+          {
+            "label": "Data, confirm signs of organized cognition.",
+            "crew_reply": "Lt. Commander Data Affirmative. The waveform exhibits structured, repeating sequences consistent with intelligence.",
+            "next": 1
+          },
+          {
+            "label": "Troi, any sense from it?",
+            "crew_reply": "Counselor Troi Childlike curiosity—and fear. It doesn’t grasp the danger.",
+            "next": 2
+          },
+          {
+            "label": "Worf, maintain shields and defensive posture.",
+            "crew_reply": "Lt. Worf Shields at full. Weapons on standby.",
+            "next": 3
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "The entity is synchronizing 0.68 microseconds ahead of our adjustments—predictive rather than reactive.",
+        "options": [
+          {
+            "label": "La Forge, can we stabilize without harming it?",
+            "crew_reply": "Commander La Forge Possible, but we’ll be balancing on a knife-edge. Any misstep collapses both fields.",
             "next": 4
           },
           {
-            "label": "Dr. Crusher, activate a low-intensity damping field over affected wards.",
-            "crew_reply": "Dr. Crusher Activating now—keeping below cortical risk thresholds.",
+            "label": "Crusher, risk to crew neurophysiology?",
+            "crew_reply": "Dr. Crusher None yet, but prolonged exposure could induce sensory echo or cognitive dissonance.",
+            "next": 5
+          },
+          {
+            "label": "Troi, keep monitoring its emotional state.",
+            "crew_reply": "Counselor Troi It perceives us as a source of comfort—maybe even as a parent.",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Counselor Troi",
+        "line": "It’s attempting contact through rhythmic pulses—simple patterns, like a newborn trying sounds.",
+        "options": [
+          {
+            "label": "Data, attempt harmonic translation to structured signals.",
+            "crew_reply": "Lt. Commander Data Translating now. It recognizes us.",
             "next": 6
           },
           {
-            "label": "Commander Riker, maintain yellow alert and hold position off the Nightingale’s bow.",
-            "crew_reply": "Commander Riker Helm steady. Emergency teams on standby.",
+            "label": "La Forge, emit a gentle ‘soothing’ pattern.",
+            "crew_reply": "Commander La Forge We can, but deeper sync risks phasing our systems with its body.",
+            "next": 4
+          },
+          {
+            "label": "Worf, stand ready to drop containment on my order.",
+            "crew_reply": "Lt. Worf Acknowledged. Awaiting command.",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Worf",
-        "line": "Quarantine is stable. However, secondary cases are appearing among engineering staff. The crew is becoming… quiet.",
+        "line": "Containment is stable, but the entity is drawing power directly from the warp core. Shield harmonics weakening.",
         "options": [
           {
-            "label": "Dr. Crusher, triage and expand the damping field shipwide in controlled sectors.",
-            "crew_reply": "Dr. Crusher Acknowledged. Sequencing rollout to avoid neural shock.",
-            "next": 6
-          },
-          {
-            "label": "Commander La Forge, trace any feedback loops through the EPS grid and sever them.",
-            "crew_reply": "Commander La Forge Found three couplings. Cutting them now—expect a brief power dip.",
-            "next": 2
-          },
-          {
-            "label": "Counselor Troi, if this is a mind seeking contact, guide us.",
-            "crew_reply": "Counselor Troi I can anchor the exchange emotionally. It wants to be heard.",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Captain, there is a coherence beneath the noise—like a medical AI reaching for caregivers. It doesn’t understand it’s harming us.",
-        "options": [
-          {
-            "label": "Lt. Commander Data, open a controlled, low-amplitude channel. Minimal exposure.",
-            "crew_reply": "Lt. Commander Data Channel open. Signal stabilizing into structured packets.",
+            "label": "La Forge, sever the link before it drains the core.",
+            "crew_reply": "Commander La Forge Cutting—resistance detected! Surge incoming!",
             "next": 7
           },
           {
-            "label": "Dr. Crusher, proceed with the damping protocol before contact causes more cases.",
-            "crew_reply": "Dr. Crusher Engaging treatment now. Monitoring cortical safety margins.",
+            "label": "Data, redirect power along its frequency to guide it outward.",
+            "crew_reply": "Lt. Commander Data We can modulate a corridor for non-destructive release.",
             "next": 6
           },
           {
-            "label": "Lt. Worf, destroy the Nightingale before the contagion overwhelms the ship.",
-            "crew_reply": "Lt. Worf Weapons ready. Standing by to fire.",
-            "next": 5
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Weapons are locked on the Nightingale. Firing will terminate the resonance at its source.",
-        "options": [
-          {
-            "label": "Belay that order. We’ll not silence a voice we haven’t tried to understand.",
-            "crew_reply": "Commander Riker Standing down. Reverting to containment posture.",
-            "next": 4
-          },
-          {
-            "label": "Fire.",
-            "crew_reply": "Commander Riker Torpedoes away. The Nightingale is destroyed. Resonance collapsing.",
-            "next": null
+            "label": "Troi, project reassurance—urge it to let go.",
+            "crew_reply": "Counselor Troi Trying, Captain. It’s listening.",
+            "next": 6
           }
         ]
       },
       {
         "crew": "Dr. Crusher",
-        "line": "Damping field engaged. Neural synchrony is breaking apart—patients are regaining independent patterns.",
+        "line": "Reports of brief sensory flashes among crew—likely telepathic ‘bleed’ from the entity.",
         "options": [
           {
-            "label": "Maintain the field until all cases stabilize, then step down gradually.",
-            "crew_reply": "Dr. Crusher Copy. We’ll taper in ten-minute intervals to prevent rebound.",
-            "next": null
+            "label": "Data, correlate crew flashes with entity pulses.",
+            "crew_reply": "Lt. Commander Data Correlated. Timing matches within microseconds.",
+            "next": 6
           },
           {
-            "label": "Hold treatment and attempt brief contact first.",
-            "crew_reply": "Dr. Crusher Pausing at safe levels. Proceeding to communication plan.",
-            "next": 7
+            "label": "Troi, instruct mindfulness protocols to reduce panic.",
+            "crew_reply": "Counselor Troi Medical and counseling teams are stabilizing reactions.",
+            "next": 2
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Contact established. The signal self-identifies as a medical archive seeking hosts to preserve knowledge. Upon acknowledgment, it can disengage voluntarily.",
+        "line": "It identifies the Enterprise as a stabilizing ‘parent’. It seeks continued cohabitation within our warp field.",
         "options": [
           {
-            "label": "Acknowledge receipt and request disengagement.",
-            "crew_reply": "Lt. Commander Data The entity is withdrawing. Residual activity near zero.",
+            "label": "La Forge, form a phased energy cradle and guide it free.",
+            "crew_reply": "Commander La Forge Shaping a corridor—steady, gentle… it’s moving away.",
+            "next": 8
+          },
+          {
+            "label": "Worf, drop containment and let it depart on its own.",
+            "crew_reply": "Lt. Worf Containment released. Energy levels normalizing.",
+            "next": 8
+          },
+          {
+            "label": "Emergency power cut—force separation now.",
+            "crew_reply": "Commander La Forge Initiating hard shutdown. Brace for shock!",
+            "next": 7
+          }
+        ]
+      },
+      {
+        "crew": "Commander La Forge",
+        "line": "Emergency shutdown complete. Warp core stable but offline. The entity has dispersed.",
+        "options": [
+          {
+            "label": "Status of the entity?",
+            "crew_reply": "Lt. Commander Data No coherent signature remains. It appears to have dissipated.",
             "next": null
           },
           {
-            "label": "Request a controlled transfer to our data banks under isolation.",
-            "crew_reply": "Lt. Commander Data Transfer complete under sandboxed containment. No adverse effects detected.",
+            "label": "Begin system restart. Damage assessment to the bridge.",
+            "crew_reply": "Commander La Forge Aye, Captain. Engineering teams are on it.",
+            "next": null
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "The entity has disengaged and stabilized nearby in subspace. Signature coherent and self-sustaining.",
+        "options": [
+          {
+            "label": "Transmit a farewell harmonic acknowledging its independence.",
+            "crew_reply": "Lt. Commander Data Sent. It responds with a matched pulse—then departs.",
+            "next": null
+          },
+          {
+            "label": "Record findings and transmit to Starfleet Science.",
+            "crew_reply": "Commander Riker Logs complete. Classifying as first contact.",
             "next": null
           }
         ]
@@ -160,312 +292,151 @@
     "debriefs": [
       {
         "result": "success",
-        "text": "Crusher’s damping protocol restored the crew without neurological injury. The Enterprise transmitted a non-invasive acknowledgment that allowed the entity to withdraw peacefully. Starfleet Medical will study the resonance profile to harden future environmental systems."
+        "text": "The crew nurtured an emergent quantum lifeform to stable independence without damage. Starfleet Science designates the encounter as non-corporeal first contact."
       },
       {
         "result": "success",
-        "text": "Through controlled synchronization, the crew established first contact with a non-corporeal medical archive and safely sandboxed a copy for research. The Enterprise leaves the H’Varn sector with enhanced precautions and a unique addition to Federation knowledge."
+        "text": "Harmonic synchronization enabled safe separation and meaningful exchange. The entity departed peacefully; research into warp-subspace life proceeds."
+      },
+      {
+        "result": "success",
+        "text": "Through calm coordination and compassion, the Enterprise helped a newborn quantum being achieve stability and autonomy, establishing a model for future subspace contact."
       },
       {
         "result": "failure",
-        "text": "Destruction of the Nightingale ended the resonance but erased an irreplaceable medical archive and the last traces of its crew. Though the Enterprise survived, the loss weighs heavily on the record. Starfleet has ordered a review of engagement protocols for non-biological contagions."
+        "text": "Forced power severance destroyed the entity but preserved the ship. Subspace shockwaves damaged local warp stability across several sectors."
+      },
+      {
+        "result": "failure",
+        "text": "An emergency containment collapse led to temporary phase drift. Though the crew survived, the entity’s remains destabilized the region for weeks."
+      },
+      {
+        "result": "failure",
+        "text": "Misaligned field modulation merged the entity with the warp core briefly, resulting in partial system meltdown before it disintegrated."
       }
     ]
   },
   {
-     "starfleet_message": "While performing warp field calibration in the T’lora Expanse, the Enterprise has encountered an unstable quantum filament emitting harmonic energy signatures identical to a Starfleet warp core. Initial analysis suggests the object is alive. Determine its nature and prevent containment instability.",
-  "mission_description": "A sentient quantum lifeform has become entangled with the Enterprise’s warp field, rewriting energy harmonics as part of its physiology. The crew must decide whether to communicate, contain, or sever contact before the ship is phased out of reality.",
-  "dialogue_tree": [
-    {
-      "crew": "Commander La Forge",
-      "line": "Captain, the filament’s resonance matches our warp field modulation exactly. It’s adapting in real time—almost as if it’s mirroring our power signature.",
-      "options": [
-        {
-          "label": "Lt. Commander Data, confirm whether the signal shows organized neural patterning.",
-          "crew_reply": "Lt. Commander Data Confirmed. The waveform contains complex, repeating sequences consistent with cognitive activity.",
-          "next": 1
-        },
-        {
-          "label": "Counselor Troi, do you sense anything from the entity?",
-          "crew_reply": "Counselor Troi Yes… it feels like a child—curious, but frightened. It’s reaching out, not attacking.",
-          "next": 2
-        },
-        {
-          "label": "Lt. Worf, raise shields and prepare defensive posture until we know what we’re facing.",
-          "crew_reply": "Lt. Worf Shields up. Weapons on standby. Containment field holding steady.",
-          "next": 3
-        }
-      ]
-    },
-    {
-      "crew": "Lt. Commander Data",
-      "line": "Captain, the entity’s harmonic emissions are synchronizing with our warp plasma flow. It’s learning from us—modulating at exactly 0.68 microseconds ahead of our adjustments.",
-      "options": [
-        {
-          "label": "Commander La Forge, can we maintain field stability without harming it?",
-          "crew_reply": "Commander La Forge Possible, but it’ll take delicate balancing. One wrong modulation and both fields collapse.",
-          "next": 4
-        },
-        {
-          "label": "Dr. Crusher, could this resonance interfere with crew neural activity?",
-          "crew_reply": "Dr. Crusher No physical symptoms yet, but exposure over time could induce cognitive dissonance or sensory echo.",
-          "next": 5
-        },
-        {
-          "label": "Counselor Troi, continue monitoring emotional resonance.",
-          "crew_reply": "Counselor Troi Its emotions are intensifying. It feels our power as pain—it doesn’t understand why we’re restraining it.",
-          "next": 2
-        }
-      ]
-    },
-    {
-      "crew": "Counselor Troi",
-      "line": "Captain, it’s trying to communicate. Its pulses form emotional patterns—like a child testing sounds. It doesn’t know what’s happening to it.",
-      "options": [
-        {
-          "label": "Lt. Commander Data, attempt harmonic translation into structured signal patterns.",
-          "crew_reply": "Lt. Commander Data Translating now. The entity appears to perceive us as a parent figure.",
-          "next": 6
-        },
-        {
-          "label": "Commander La Forge, can we adjust our warp field to mimic a comforting pattern?",
-          "crew_reply": "Commander La Forge We could, but it risks full synchronization—our systems could phase with the creature.",
-          "next": 4
-        },
-        {
-          "label": "Lt. Worf, prepare to disengage containment field on my command.",
-          "crew_reply": "Lt. Worf Understood. Awaiting your signal.",
-          "next": 3
-        }
-      ]
-    },
-    {
-      "crew": "Lt. Worf",
-      "line": "Containment remains stable, but the filament is drawing power directly from our warp core. Shield harmonics are weakening.",
-      "options": [
-        {
-          "label": "Commander La Forge, sever the harmonic link before it drains the core.",
-          "crew_reply": "Commander La Forge Cutting connection—warning, it’s resisting. Energy spike incoming!",
-          "next": 7
-        },
-        {
-          "label": "Lt. Commander Data, can we redirect power safely to release it without damage?",
-          "crew_reply": "Lt. Commander Data Possible if we gradually modulate power along the creature’s frequency instead of against it.",
-          "next": 6
-        },
-        {
-          "label": "Counselor Troi, tell it we mean no harm—project calm.",
-          "crew_reply": "Counselor Troi Trying, Captain. It’s confused, but it’s listening.",
-          "next": 6
-        }
-      ]
-    },
-    {
-      "crew": "Dr. Crusher",
-      "line": "Captain, minor neural echoes appearing in the crew—people reporting vivid flashes of light and sound inside their minds.",
-      "options": [
-        {
-          "label": "Data, correlate the timing of those flashes with the entity’s pulses.",
-          "crew_reply": "Lt. Commander Data Correlation confirmed. It’s attempting rudimentary telepathic contact.",
-          "next": 6
-        },
-        {
-          "label": "Troi, guide the crew to remain calm and centered.",
-          "crew_reply": "Counselor Troi Understood. I’ll coordinate with medical and maintain a psychic buffer.",
-          "next": 2
-        }
-      ]
-    },
-    {
-      "crew": "Lt. Commander Data",
-      "line": "Captain, the creature identifies the Enterprise as its parent. It seeks synchronization—coexistence within our warp field.",
-      "options": [
-        {
-          "label": "Commander La Forge, create a phased energy cradle to guide it free of our systems.",
-          "crew_reply": "Commander La Forge Channeling the warp resonance outward. Guiding it away gently.",
-          "next": 8
-        },
-        {
-          "label": "Lt. Worf, release containment field. Let it depart under its own power.",
-          "crew_reply": "Lt. Worf Containment field dropping. Energy levels stabilizing.",
-          "next": 8
-        },
-        {
-          "label": "Cut all power and force separation immediately.",
-          "crew_reply": "Commander La Forge Emergency shutdown initiated. It’s breaking away violently!",
-          "next": 7
-        }
-      ]
-    },
-    {
-      "crew": "Commander La Forge",
-      "line": "Containment failed. The entity’s energy surge destabilized the warp core. Emergency shutdown complete, but we’ve lost main power.",
-      "options": [
-        {
-          "label": "Status of the entity?",
-          "crew_reply": "Lt. Commander Data It has dissipated. No residual quantum presence detected.",
-          "next": null
-        },
-        {
-          "label": "Prepare for system restart and damage assessment.",
-          "crew_reply": "Commander La Forge On it, Captain. Engineering teams deployed.",
-          "next": null
-        }
-      ]
-    },
-    {
-      "crew": "Lt. Commander Data",
-      "line": "The entity has disengaged and stabilized in local subspace. Its energy signature is coherent—self-sustaining. It’s alive, Captain.",
-      "options": [
-        {
-          "label": "Transmit a simple harmonic farewell—acknowledge its independence.",
-          "crew_reply": "Lt. Commander Data Message sent. The entity is responding with matched resonance—like a goodbye.",
-          "next": null
-        },
-        {
-          "label": "Record and transmit all sensor data to Starfleet Science.",
-          "crew_reply": "Commander Riker Log entries complete. Mission classified as first contact.",
-          "next": null
-        }
-      ]
-    }
-  ],
-  "debriefs": [
-    {
-      "result": "success",
-      "text": "The Enterprise successfully nurtured the emergent quantum lifeform, guiding it to stable independence. Starfleet Science has designated the encounter as a first contact with noncorporeal life originating in warp subspace."
-    },
-    {
-      "result": "success",
-      "text": "Through harmonic synchronization, the crew established communication and safely separated from the entity without damage to the ship or the lifeform. The creature responded with gratitude before vanishing into subspace."
-    },
-    {
-      "result": "failure",
-      "text": "Forced power severance destroyed the quantum entity, but preserved the Enterprise. Starfleet Science concluded the being was sentient, prompting a full ethics review on handling subspace-intelligent phenomena."
-    }
-  ]
-},
-  {
-     "starfleet_message": "Starfleet Command orders the Enterprise to Vandros III to mediate a scientific exchange with the Tholian Assembly. A Federation probe has violated restricted Tholian space, threatening the agreement. The Tholian ambassador demands immediate explanation.",
+    "starfleet_message": "Starfleet Command orders the Enterprise to Vandros III to mediate a scientific exchange with the Tholian Assembly. A Federation probe has violated restricted Tholian space, threatening the agreement. The Tholian ambassador demands immediate explanation.",
     "mission_description": "While orbiting Vandros III, the Enterprise faces a tense diplomatic crisis when a Starfleet probe appears to have entered Tholian territory. Investigate the source of the breach, protect Federation integrity, and prevent conflict along the border.",
     "dialogue_tree": [
       {
         "crew": "Captain Picard",
-        "line": "We are being hailed by the Tholian delegation, Captain. Ambassador Serath insists that Federation espionage has breached their lattice perimeter.",
+        "line": "We are being hailed by the Tholian delegation. Ambassador Serath alleges that Federation espionage breached their lattice perimeter.",
         "options": [
           {
-            "label": "Commander Riker, open a secure channel. Let's hear their demands.",
+            "label": "Riker, open a secure channel.",
             "crew_reply": "Commander Riker Channel open, Captain. The Tholians await your response.",
             "next": 1
           },
           {
-            "label": "Lt. Commander Data, confirm whether any Starfleet probe could have entered Tholian space under our authority.",
-            "crew_reply": "Lt. Commander Data Negative, Captain. No active mission profiles match the probe’s telemetry.",
+            "label": "Data, verify whether any Starfleet probe could be operating under our authority.",
+            "crew_reply": "Lt. Commander Data Negative. No active mission profile matches the reported telemetry.",
             "next": 2
           },
           {
-            "label": "Counselor Troi, assess the ambassador’s emotional tone.",
-            "crew_reply": "Counselor Troi He’s furious—but also afraid. There’s more here than simple anger.",
+            "label": "Troi, assess the ambassador’s emotional tone.",
+            "crew_reply": "Counselor Troi Anger—mixed with uncertainty. He fears internal repercussions.",
             "next": 3
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Ambassador Serath claims the probe transmitted energy readings from the Tholian lattice before it was destroyed. He demands we surrender the operator responsible.",
+        "line": "Serath claims the probe transmitted lattice readings before being destroyed. He demands we surrender the responsible operator.",
         "options": [
           {
-            "label": "Lt. Worf, initiate a level-one security sweep for unauthorized transmissions.",
-            "crew_reply": "Lt. Worf Underway. Internal sensors scanning for covert devices or trace relays.",
+            "label": "Worf, initiate a level-one security sweep for unauthorized transmissions.",
+            "crew_reply": "Lt. Worf Underway. Internal sensors searching for covert relays.",
             "next": 4
           },
           {
-            "label": "Commander La Forge, examine the probe telemetry for signs of falsification.",
-            "crew_reply": "Commander La Forge The data stream’s checksum has been altered—it looks forged.",
+            "label": "La Forge, inspect the probe telemetry for falsification.",
+            "crew_reply": "Commander La Forge Checksum tampered. The stream looks forged.",
             "next": 5
           },
           {
-            "label": "Counselor Troi, continue observing the ambassador’s emotional state during the exchange.",
-            "crew_reply": "Counselor Troi It’s shifting rapidly. He’s hiding uncertainty—perhaps the Tholians aren’t unified on this.",
+            "label": "Troi, continue monitoring for deception cues.",
+            "crew_reply": "Counselor Troi He’s constrained—like he can’t admit doubt publicly.",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, the probe’s command uplink originated from within the Enterprise’s subspace communications grid. Someone aboard transmitted false instructions.",
+        "line": "Captain, the command uplink for the probe originated inside our subspace grid. Someone aboard spoofed orders.",
         "options": [
           {
-            "label": "Lt. Worf, trace the signal path and isolate the access terminal.",
-            "crew_reply": "Lt. Worf Trace complete. The command originated from Science Lab Two—currently unoccupied.",
+            "label": "Worf, trace the path and isolate the access point.",
+            "crew_reply": "Lt. Worf Trace complete. Origin: Science Lab Two—currently unoccupied.",
             "next": 4
           },
           {
-            "label": "Commander La Forge, could this have been inserted externally through the Tholian resonance field?",
-            "crew_reply": "Commander La Forge Possibly. Their lattice emits phase-locked signals strong enough to ghost our relays.",
+            "label": "La Forge, could Tholian resonance have ghosted our relays?",
+            "crew_reply": "Commander La Forge Possible. Their lattice can generate phase-locked reflections.",
             "next": 5
           },
           {
-            "label": "Counselor Troi, does the ambassador seem aware of this manipulation?",
-            "crew_reply": "Counselor Troi Not entirely. He suspects sabotage, but not necessarily ours.",
+            "label": "Troi, does Serath seem aware of manipulation?",
+            "crew_reply": "Counselor Troi He suspects foul play—just not by us.",
             "next": 3
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, the Tholian ambassador is under pressure from his government. I sense distrust—he believes another faction may be exploiting this incident.",
+        "line": "Serath is under pressure from a faction at home. He fears losing face more than being wrong.",
         "options": [
           {
-            "label": "Commander Riker, recommend diplomatic containment—stall for time while we verify the probe’s origin.",
-            "crew_reply": "Commander Riker Aye, Captain. I’ll keep him engaged without making concessions.",
+            "label": "Riker, stall diplomatically while we verify the origin.",
+            "crew_reply": "Commander Riker Aye. Keeping him engaged without concessions.",
             "next": 5
           },
           {
-            "label": "Lt. Worf, prepare for potential Tholian hostilities. Deflector grid to standby.",
-            "crew_reply": "Lt. Worf Weapons and shields standing by. Tactical sensors locked on the Tholian vessel.",
+            "label": "Worf, keep the deflector grid on standby in case of hostilities.",
+            "crew_reply": "Lt. Worf Shields and weapons standing by.",
             "next": 4
           },
           {
-            "label": "Commander La Forge, continue cross-checking signal harmonics against Tholian lattice emissions.",
-            "crew_reply": "Commander La Forge Interesting… the pattern looks Tholian—but inverted. Someone’s mimicking them.",
+            "label": "La Forge, cross-check harmonics against lattice emissions.",
+            "crew_reply": "Commander La Forge Pattern looks Tholian—but inverted. Someone is mimicking them.",
             "next": 5
           }
         ]
       },
       {
         "crew": "Commander La Forge",
-        "line": "Captain, I’ve confirmed it. The false probe signal was generated by an encoded Tholian lattice reflection. They’re testing us—gauging our reaction time.",
+        "line": "Confirmed: the false signal was generated by an encoded lattice reflection. It’s a test—measuring our reaction.",
         "options": [
           {
-            "label": "Lt. Commander Data, broadcast our sensor logs openly to the Tholian vessel.",
-            "crew_reply": "Lt. Commander Data Data transmitted, Captain. The Tholians acknowledge receipt.",
+            "label": "Data, broadcast our sensor logs openly to the Tholians.",
+            "crew_reply": "Lt. Commander Data Transmitting. Acknowledgment received.",
             "next": 6
           },
           {
-            "label": "Commander Riker, hail the Tholian ambassador—demand an explanation for the falsified signal.",
-            "crew_reply": "Commander Riker Channel open. The ambassador is... stunned, Captain. He denies any knowledge.",
+            "label": "Riker, demand an explanation for the falsified signal.",
+            "crew_reply": "Commander Riker Channel open. Serath is… surprised. Denies involvement.",
             "next": 6
           },
           {
-            "label": "Lt. Worf, maintain defensive posture until they respond.",
-            "crew_reply": "Lt. Worf Shields up and weapons ready, Captain.",
+            "label": "Worf, maintain defensive posture.",
+            "crew_reply": "Lt. Worf Aye. Holding tactical readiness.",
             "next": 6
           }
         ]
       },
       {
         "crew": "Captain Picard",
-        "line": "The Tholian vessel has ceased its energy buildup. They’re transmitting a new message—an apology and a request for joint investigation. It seems they’ve uncovered internal sabotage.",
+        "line": "Their ship has powered down its energy buildup. New message—in apology—and a request for joint investigation. They report internal sabotage.",
         "options": [
           {
-            "label": "Acknowledge their transmission and offer Federation assistance.",
-            "crew_reply": "Captain Picard A gesture of goodwill, and perhaps the beginning of mutual trust.",
+            "label": "Acknowledge and offer Federation assistance.",
+            "crew_reply": "Captain Picard Goodwill today may spare conflict tomorrow.",
             "next": null
           },
           {
-            "label": "Decline politely and withdraw to Federation space before tensions reignite.",
-            "crew_reply": "Captain Picard Agreed. Set course for Federation space. We’ve diffused one crisis today.",
+            "label": "Decline politely; withdraw to Federation space.",
+            "crew_reply": "Captain Picard Understood. Helm, set course. We’ve averted one crisis.",
             "next": null
           }
         ]
@@ -474,17 +445,28 @@
     "debriefs": [
       {
         "result": "success",
-        "text": "By exposing the falsified telemetry and revealing Tholian internal sabotage, the Enterprise prevented a border conflict and opened new channels for cooperation. Starfleet Command commended the crew for restraint under diplomatic pressure."
+        "text": "By exposing falsified telemetry and revealing internal sabotage, the Enterprise prevented a border incident and opened a path to scientific cooperation."
       },
       {
         "result": "success",
-        "text": "Through transparency and quick analysis, the crew restored trust with the Tholian Assembly. Joint investigations are now underway on Vandros III, marking the first collaborative mission between Tholian and Federation scientists."
+        "text": "Transparent data-sharing restored trust with the Tholian Assembly. Joint teams begin analysis on Vandros III—an unprecedented collaboration."
+      },
+      {
+        "result": "success",
+        "text": "Through precision diplomacy and calm leadership, Picard preserved the treaty and earned Serath’s respect—perhaps the first seed of long-term alliance."
       },
       {
         "result": "failure",
-        "text": "Premature withdrawal from Vandros III left the Tholian delegation unconvinced. Although conflict was avoided, Starfleet’s reputation suffered, and future negotiations with the Assembly will proceed under strained conditions."
+        "text": "An aggressive data demand was perceived as an accusation, reigniting Tholian hostility. The Assembly withdrew from talks, straining relations."
+      },
+      {
+        "result": "failure",
+        "text": "Sensor logs were transmitted too late to prevent Tholian retaliation. Though the Enterprise escaped, Vandros negotiations collapsed."
+      },
+      {
+        "result": "failure",
+        "text": "A misinterpreted transmission triggered defensive lattice fire. The Enterprise suffered shield damage before retreating from orbit."
       }
     ]
   }
 ]
-  
