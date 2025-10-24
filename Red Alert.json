@@ -107,48 +107,6 @@
             "next": null
           }
         ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the lattice is transmitting a repeating pattern\u2014an encoded variant of our own sensor call sign.",
-        "options": [
-          {
-            "label": "La Forge, broadcast a reciprocal harmonic to acknowledge the signal.",
-            "crew_reply": "Commander La Forge Response sent.  The lattice is dimming... it\u2019s letting us go.",
-            "next": 7
-          },
-          {
-            "label": "Riker, log the event and prepare to clear orbit.",
-            "crew_reply": "Commander Riker Aye, Captain.  Helm plotting departure vector.",
-            "next": 7
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "The resonance field is dispersing.  A faint subspace beacon remains, repeating our signal on a continuous loop.",
-        "options": [
-          {
-            "label": "Data, record the beacon\u2019s frequency and forward to Starfleet Science.",
-            "crew_reply": "Lt. Commander Data Logged and transmitted.  The entity appears to have learned from our interaction.",
-            "next": null
-          },
-          {
-            "label": "La Forge, verify all systems nominal before we resume course.",
-            "crew_reply": "Commander La Forge All green, Captain.  Engineering reports stable warp containment.",
-            "next": null
-          },
-          {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Captain Picard Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
-          }
-        ]
       }
     ],
     "debriefs": [
@@ -286,48 +244,6 @@
             "next": 6
           }
         ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, a voice is breaking through the carrier wave\u2014Romulan, female. She says, 'End the experiment. Let us rest.'",
-        "options": [
-          {
-            "label": "La Forge, configure the deflector to emit an inverse harmonic pulse.",
-            "crew_reply": "Commander La Forge Calibrating. It might collapse the station entirely.",
-            "next": 7
-          },
-          {
-            "label": "Worf, maintain alert status and prepare for structural backlash.",
-            "crew_reply": "Lt. Worf Acknowledged. Defensive systems at maximum readiness.",
-            "next": 7
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "Deflector pulse initiated. The temporal field is collapsing. The station is stabilizing\u2014only for a moment\u2014then\u2026 gone.",
-        "options": [
-          {
-            "label": "Data, confirm all temporal readings.",
-            "crew_reply": "Lt. Commander Data The loop has ended. The signal is silent.",
-            "next": null
-          },
-          {
-            "label": "Riker, log the coordinates and prepare a full report for Starfleet and Romulan Command.",
-            "crew_reply": "Commander Riker Aye, Captain. The Neutral Zone is quiet once more.",
-            "next": null
-          },
-          {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Captain Picard Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
-          }
-        ]
       }
     ],
     "debriefs": [
@@ -462,27 +378,6 @@
           {
             "label": "Proceed with caution and continue monitoring, Number One.",
             "crew_reply": "Lt. Commander Data Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Dr. Crusher",
-        "line": "Captain, the organism is destabilizing. The filaments are fading from the infected. I believe it\u2019s withdrawing voluntarily.",
-        "options": [
-          {
-            "label": "Data, track the organism\u2019s energy signature.",
-            "crew_reply": "Lt. Commander Data It\u2019s transitioning into subspace\u2014coherent, but non-hostile.",
-            "next": null
-          },
-          {
-            "label": "Riker, secure the colony and prepare status report for Starfleet Medical.",
-            "crew_reply": "Commander Riker Understood, Captain. Quarantine lifted pending decontamination.",
-            "next": null
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Dr. Crusher Understood, Captain. All departments report ready status.",
             "next": null
           }
         ]
@@ -623,27 +518,6 @@
             "next": null
           }
         ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "The inverse pulse is holding. The singularity is shrinking. The Vallis Prime has reappeared\u2014crew alive but disoriented.",
-        "options": [
-          {
-            "label": "Data, report on the anomaly\u2019s final status.",
-            "crew_reply": "Lt. Commander Data The singularity imploded. A residual gravimetric echo persists\u2014broadcasting rhythmic pulses.",
-            "next": null
-          },
-          {
-            "label": "Riker, secure the convoy and prepare a full report for Starfleet Science.",
-            "crew_reply": "Commander Riker Understood, Captain. All ships accounted for. Subspace field stable.",
-            "next": null
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Captain Picard Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
       }
     ],
     "debriefs": [
@@ -781,27 +655,6 @@
             "next": null
           }
         ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "Deflector pulse engaged. The quantum echo is collapsing. The Callisto is fading from sensors... completely gone.",
-        "options": [
-          {
-            "label": "Data, confirm residual quantum traces.",
-            "crew_reply": "Lt. Commander Data Minimal readings. The echo has dissipated. The ship may have returned to its original time stream\u2014or ceased to exist entirely.",
-            "next": null
-          },
-          {
-            "label": "Riker, log the event and transmit findings to Starfleet Science.",
-            "crew_reply": "Commander Riker Aye, Captain. The Callisto\u2019s mystery may finally rest.",
-            "next": null
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Captain Picard Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
       }
     ],
     "debriefs": [
@@ -932,27 +785,6 @@
           {
             "label": "Proceed with caution and continue monitoring, Number One.",
             "crew_reply": "Commander Riker Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "The duplicate requests asylum aboard the Enterprise. He claims that once the Gate deactivates, his existence will end.",
-        "options": [
-          {
-            "label": "La Forge, can we preserve his energy matrix in the transporter pattern buffer?",
-            "crew_reply": "Commander La Forge Possibly \u2014 but we\u2019d risk contamination between realities.",
-            "next": null
-          },
-          {
-            "label": "Worf, maintain containment and prepare to deactivate the Gate manually.",
-            "crew_reply": "Lt. Worf Understood. Security ready on your command.",
-            "next": null
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Captain Picard Understood, Captain. All departments report ready status.",
             "next": null
           }
         ]
@@ -1089,48 +921,6 @@
             "next": null
           }
         ]
-      },
-      {
-        "crew": "Commander La Forge",
-        "line": "Captain, the Central Guardian is venting exterior pressure to \u2018purge contamination.\u2019 We have minutes before the system collapses.",
-        "options": [
-          {
-            "label": "Data, disable the Guardian\u2019s control network.",
-            "crew_reply": "Lt. Commander Data Attempting manual override... success! The reactor is stable, but the AI is offline.",
-            "next": 7
-          },
-          {
-            "label": "Troi, convince Thalen to shut it down himself.",
-            "crew_reply": "Counselor Troi Understood. He must see this as his choice, not ours.",
-            "next": 7
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander La Forge Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "The dome\u2019s barrier is falling. The children are stepping into open sunlight for the first time in generations.",
-        "options": [
-          {
-            "label": "Data, confirm planetary stability.",
-            "crew_reply": "Lt. Commander Data Atmospheric composition is ideal, Captain. Calderis IV is entirely habitable.",
-            "next": null
-          },
-          {
-            "label": "Riker, begin preparations to transport survivors aboard the Enterprise.",
-            "crew_reply": "Commander Riker Understood. Medical and counseling teams standing by.",
-            "next": null
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Captain Picard Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
       }
     ],
     "debriefs": [
@@ -1264,69 +1054,6 @@
             "next": null
           }
         ]
-      },
-      {
-        "crew": "Major Keller",
-        "line": "I can give you that data. I flew recon over this orbit. I know our satellites\u2019 vectors by heart. But... who are you people really?",
-        "options": [
-          {
-            "label": "Picard: 'Someone who believes your world still has a future worth saving.'",
-            "crew_reply": "Major Keller Then let\u2019s make sure it gets one.",
-            "next": 6
-          },
-          {
-            "label": "Troi: 'We can\u2019t answer that. But trust that what you do now matters.'",
-            "crew_reply": "Major Keller That\u2019s good enough for me.",
-            "next": 6
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Major Keller Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Commander La Forge",
-        "line": "Probe orbit stabilized! Redirecting the energy pulse through the deflector grid\u2014temporal field collapsing!",
-        "options": [
-          {
-            "label": "Data, prepare to return us to our own time.",
-            "crew_reply": "Lt. Commander Data Course set. Reversing temporal phase alignment now.",
-            "next": 7
-          },
-          {
-            "label": "Crusher, confirm Keller\u2019s condition.",
-            "crew_reply": "Dr. Crusher Stable, Captain. He\u2019s ready for transport back to his century.",
-            "next": 7
-          },
-          {
-            "label": "Run a secondary scan for any subspace interference.",
-            "crew_reply": "Commander La Forge Secondary scan initiated. No unexpected patterns detected, Captain.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "We\u2019ve re-established normal temporal parameters. Major Keller has been returned to his craft moments before his disappearance. He will remember fragments\u2014feelings\u2014but no details.",
-        "options": [
-          {
-            "label": "Data, confirm that no historical anomalies remain.",
-            "crew_reply": "Lt. Commander Data Confirmed. Timeline integrity restored. No record of our incursion appears in Earth\u2019s archives.",
-            "next": null
-          },
-          {
-            "label": "Riker, log the event for Temporal Affairs and set course for the Argolis Drift.",
-            "crew_reply": "Commander Riker Aye, Captain. Helm ready on your command.",
-            "next": null
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Captain Picard Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
       }
     ],
     "debriefs": [
@@ -1457,69 +1184,6 @@
           {
             "label": "Proceed with caution and continue monitoring, Number One.",
             "crew_reply": "Mara Tallen Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Commander La Forge",
-        "line": "Captain, I can vent the pressure underground\u2014quietly. Phaser tunneling through the ridge east of the capital. No visible discharge, no sound, no trace.",
-        "options": [
-          {
-            "label": "Data, confirm stealth parameters.",
-            "crew_reply": "Lt. Commander Data Confirmed. The venting can be masked as minor seismic activity. The Velarans will perceive a small quake, nothing more.",
-            "next": 6
-          },
-          {
-            "label": "Troi, moral implications?",
-            "crew_reply": "Counselor Troi They\u2019ll never know we intervened\u2014but it\u2019s still interference, Captain. We\u2019ll carry it, even if they can\u2019t.",
-            "next": 6
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Commander La Forge Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "Proceed. No light, no sound, no trace. Let them believe the world saved itself.",
-        "options": [
-          {
-            "label": "La Forge, begin phaser tunneling sequence.",
-            "crew_reply": "Commander La Forge Venting pressure now... the plasma field is dispersing. Eruption averted.",
-            "next": 7
-          },
-          {
-            "label": "Data, monitor for aftershocks or energy leaks.",
-            "crew_reply": "Lt. Commander Data Geological activity stabilizing. No indication of secondary ignition.",
-            "next": 7
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Captain Picard Understood, Captain. All departments report ready status.",
-            "next": null
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "The Prospero\u2019s descendants are aboard and stable. The Velarans never saw us. The capital sleeps peacefully below.",
-        "options": [
-          {
-            "label": "Riker, set course for Starbase 12. We\u2019ll report to Temporal and Cultural Oversight.",
-            "crew_reply": "Commander Riker Aye, Captain. Helm standing by.",
-            "next": null
-          },
-          {
-            "label": "Troi, your thoughts?",
-            "crew_reply": "Counselor Troi Mercy can exist in silence, Captain. But it never feels clean.",
-            "next": null
-          },
-          {
-            "label": "Proceed with caution and continue monitoring, Number One.",
-            "crew_reply": "Captain Picard Understood, Captain. All departments report ready status.",
             "next": null
           }
         ]
