@@ -481,6 +481,30 @@ footer {
   50% { opacity: 1; transform: scale(1.3); }
 }
 
+
+.crew-image-container {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  width: 2in;
+  height: 2in;
+  flex-shrink: 0;
+}
+.crew-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(255, 215, 120, 0.6);
+}
+.reply-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
 </style>
 </head>
 <body>
@@ -611,7 +635,43 @@ function renderDialogueNode() {
 
       // Display crew reply
       const reply = document.createElement('p');
-      reply.innerHTML = '<strong>' + opt.crew_reply + '</strong>';
+      reply.className = 'reply-wrapper';
+      const replyText = document.createElement('div');
+      replyText.innerHTML = '<strong>' + opt.crew_reply + '</strong>';
+      const imageContainer = document.createElement('div'); imageContainer.className = 'crew-image-container';
+      const img = document.createElement('img');
+      
+const crewImages = {
+  "Picard": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Picard.png",
+  "Riker": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Riker.png",
+  "Data": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Data.png",
+  "Troi": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Troi.png",
+  "Crusher": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Crusher.png",
+  "O'Brien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
+  "Obrien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
+  "Worf": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Worf.png",
+  "La Forge": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/La%20Forge.png",
+  "Default": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Default.png"
+};
+
+function findCrewNameFromText(text) {
+  const crewList = ["Picard", "Riker", "Data", "Crusher", "Troi", "Worf", "La Forge", "O'Brien", "Obrien", "Chief O'Brien", "Chief Obrien"];
+  const lowerText = text.toLowerCase();
+  for (const name of crewList) {
+    const simple = name.toLowerCase().replace(/[^a-z]/g, '');
+    if (lowerText.includes(name.toLowerCase()) || lowerText.includes(simple)) {
+      return name;
+    }
+  }
+  return "Default";
+}
+
+      const crewName = findCrewNameFromText(this.textContent);
+      img.src = crewImages[crewName] || crewImages["Default"];
+      imageContainer.appendChild(img);
+      imageContainer.style.display = 'flex';
+      reply.appendChild(replyText);
+      reply.appendChild(imageContainer);
       options.appendChild(reply);
 
       // Add Acknowledged button
