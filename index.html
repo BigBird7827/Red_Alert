@@ -536,7 +536,12 @@ footer {
       <div class="dialog-section" id="communique"></div>
       <div class="dialog-section" id="mission"></div>
       <div class="dialog-section" id="dialog"></div>
-      <div class="dialog-section" id="options"></div>
+      <div class="dialog-section" style="display:flex; align-items:flex-start; gap:50px;">
+    <div class="dialog-section" id="options"></div>
+    <div id="crew-portrait" class="crew-image-container" style="display:flex;">
+      <img id="crew-portrait-img" src="https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Picard.png" alt="Crew Portrait"/>
+    </div>
+  </div>
       <div class="dialog-section" id="debrief"></div>
     </div>
     <div id="debrief-overlay">
@@ -548,6 +553,26 @@ footer {
 <script>
 const REMOTE_JSON_URL='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
 let scenarios=[],currentScenario=0,currentNode=0,missionActive=false
+
+// Crew portrait map and controller
+const crewImages = {
+  "Picard": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Picard.png",
+  "Riker": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Riker.png",
+  "Data": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Data.png",
+  "Troi": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Troi.png",
+  "Crusher": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Crusher.png",
+  "O'Brien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
+  "Obrien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
+  "Worf": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Worf.png",
+  "La Forge": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/La%20Forge.png",
+  "Default": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Default.png"
+};
+
+function setPortrait(name) {
+  const portrait = document.getElementById('crew-portrait-img');
+  if (!portrait) return;
+  portrait.src = crewImages[name] || crewImages["Default"];
+}
 async function loadScenarios(){
   try{
     const res=await fetch(REMOTE_JSON_URL,{cache:'no-store'})
@@ -560,6 +585,7 @@ async function loadScenarios(){
 }
 function fadeTransition(el,newHTML){el.innerHTML=newHTML}
 function displayScenario(index){
+  setPortrait('Picard');
   currentScenario=index;currentNode=0;missionActive=false
   const dialog=document.getElementById('dialog')
   const options=document.getElementById('options')
@@ -667,9 +693,7 @@ function findCrewNameFromText(text) {
 }
 
       const crewName = findCrewNameFromText(this.textContent);
-      img.src = crewImages[crewName] || crewImages["Default"];
-      imageContainer.appendChild(img);
-      imageContainer.style.display = 'flex';
+      setPortrait(crewName);
       reply.appendChild(replyText);
       reply.appendChild(imageContainer);
       options.appendChild(reply);
@@ -680,6 +704,7 @@ function findCrewNameFromText(text) {
       ackBtn.className = 'dialogButton';
       ackBtn.style.marginTop = '10px';
       ackBtn.onclick = function() {
+        setPortrait('Picard');
         if (opt.next !== undefined && s.dialogue_tree[opt.next]) {
           currentNode = opt.next;
           renderDialogueNode();
@@ -695,6 +720,8 @@ function findCrewNameFromText(text) {
 
 
 function showDebrief(){
+  const portrait = document.getElementById('crew-portrait');
+  if (portrait) portrait.style.display = 'none';
   const s=scenarios[currentScenario]
   const d=s.debriefs[Math.floor(Math.random()*s.debriefs.length)]
   document.getElementById('dialog').classList.add('hidden')
@@ -705,7 +732,9 @@ function showDebrief(){
   overlay.style.display='flex'
   overlay.classList.add('active')
 }
-function restart(){const next=(currentScenario+1)%scenarios.length;displayScenario(next)}
+function restart(){
+  const portrait = document.getElementById('crew-portrait');
+  if (portrait) portrait.style.display = 'flex';const next=(currentScenario+1)%scenarios.length;displayScenario(next)}
 loadScenarios()
 const systems={shields:{inactive:'Shields Inactive',active:'Shields Up',state:false},weapons:{inactive:'Weapons on Standby',active:'Weapons Systems Ready',state:false},comms:{inactive:'Comms Offline',active:'Hailing Frequencies Open',state:false},damage:{inactive:'Damage Control Idle',active:'Damage Control Teams Dispatched',state:false},computer:{inactive:'Main Computer Offline',active:'Main Computer Ready',state:false},shortscan:{inactive:'Short Range Scans Offline',active:'Short Range Scans Active',state:false},longscan:{inactive:'Long Range Scans Offline',active:'Long Range Scans Active',state:false},lifesupport:{inactive:'Life Support Optimal',active:'Life Support Compromised',state:false}}
 const statusPanel=document.getElementById('status-panel')
