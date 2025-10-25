@@ -173,7 +173,7 @@
             "next": 2
           },
           {
-            "label": "Forge, continue your report.",
+            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
             "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -328,7 +328,7 @@
             "next": 3
           },
           {
-            "label": "Forge, continue your report.",
+            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
             "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -944,7 +944,7 @@
             "next": 1
           },
           {
-            "label": "Forge, continue your report.",
+            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
             "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -1007,7 +1007,7 @@
             "next": 4
           },
           {
-            "label": "Keller, continue your report.",
+            "label": "Execute follow-up diagnostic procedures and report immediately.",
             "crew_reply": "Major Keller Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -1116,7 +1116,7 @@
             "next": 3
           },
           {
-            "label": "Forge, continue your report.",
+            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
             "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -1137,7 +1137,7 @@
             "next": 4
           },
           {
-            "label": "Forge, continue your report.",
+            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
             "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
