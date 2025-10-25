@@ -714,7 +714,7 @@
       "text": "A decision to withdraw early left the Callisto trapped. The haunting signal still broadcasts faintly across the sector—unchanged, timeless, unanswered."
     }
   ]
-},
+}
   {
     "starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
     "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby — reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
@@ -1512,5 +1512,145 @@
         "text": "Transporter phase interference collapsed mid-transfer. The device exploded on-site, exposing Federation alloys. The surviving Elyndrans salvaged fragments, altering their scientific trajectory for centuries."
       }
     ]
-  }
+  },
+  {
+  "starfleet_message": "Captain’s Log, Stardate 47691.4 — En route to the Deneb sector, the Enterprise has detected an anomalous warp signature emanating from an uncharted M-class world. Sensor analysis confirms the civilization below is pre-warp. Yet their atmosphere now contains traces of warp plasma isotopes — the unmistakable residue of a dilithium reaction. Starfleet Science believes the planet may have observed a previous warp transit and attempted to recreate it.",
+  "mission_description": "The crew must determine how a pre-warp civilization acquired knowledge of faster-than-light propulsion and whether their experiments threaten planetary stability. The society, divided between factions of 'The Ascended' who worship the sky-fire and 'The Engineers' who attempt to harness it, stands on the brink of civil war. When the Enterprise detects a subspace surge building within their upper atmosphere, Captain Picard must decide whether to intervene or let them learn the cost of imitation.",
+  "dialogue_tree": [
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the planetary surface exhibits multiple industrial complexes centered around dilithium refinement. Their primary reactor design is inefficient, but it generates a harmonic similar to a warp core ignition sequence.",
+      "options": [
+        {
+          "label": "Data, estimate the danger if they attempt ignition.",
+          "crew_reply": "Lt. Commander Data: Catastrophic, Captain. The reaction would likely destabilize their magnetosphere and render the planet uninhabitable within hours.",
+          "next": 1
+        },
+        {
+          "label": "Troi, assess the sociological impact of their discovery.",
+          "crew_reply": "Counselor Troi: The population is deeply divided. Some view warp energy as divine, others as forbidden knowledge stolen from the heavens.",
+          "next": 1
+        },
+        {
+          "label": "Worf, raise shields and maintain orbit at a safe distance.",
+          "crew_reply": "Lt. Worf: Aye, Captain. Defensive systems active. Planetary scans continue.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, one of their orbital test platforms is powering up. It looks like a weapon built around a warp containment field.",
+      "options": [
+        {
+          "label": "La Forge, can we disable the platform remotely without revealing ourselves?",
+          "crew_reply": "Commander La Forge: Negative, Captain. Any interference from us will register as an energy anomaly. They'll know they're being observed.",
+          "next": 2
+        },
+        {
+          "label": "Data, analyze the containment matrix for instability.",
+          "crew_reply": "Lt. Commander Data: The matrix will fail on ignition. Probability of a planetary-scale plasma event is ninety-one percent.",
+          "next": 2
+        },
+        {
+          "label": "Troi, could we warn them without exposing Starfleet’s presence?",
+          "crew_reply": "Counselor Troi: I could attempt an empathic broadcast, Captain, but it would only reach a fraction of the population.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "General Order One forbids direct contact. Yet to remain silent while billions die would be an abandonment of every moral principle the Federation was founded upon.",
+      "options": [
+        {
+          "label": "Riker, prepare a diplomatic transmission using universal translator algorithms. No visual, just a warning.",
+          "crew_reply": "Commander Riker: Understood, Captain. Message encoded for subspace relay — tone neutral, content advisory.",
+          "next": 3
+        },
+        {
+          "label": "Data, simulate the blast radius. I want every possible outcome before we act.",
+          "crew_reply": "Lt. Commander Data: Modeling complete, Captain. Even a partial ignition will devastate their biosphere.",
+          "next": 3
+        },
+        {
+          "label": "La Forge, prepare to neutralize the warp field the instant it reaches instability.",
+          "crew_reply": "Commander La Forge: Aye, sir. Power routing to the deflector array.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the platform’s reactor has reached ignition threshold. Their scientists appear unaware of the containment failure.",
+      "options": [
+        {
+          "label": "La Forge, fire the deflector pulse now.",
+          "crew_reply": "Commander La Forge: Pulse fired. Containment field dissipating. Reactor offline — they’ll never know how close they came.",
+          "next": 4
+        },
+        {
+          "label": "Riker, open a narrow-band channel to their leadership. Tell them the heavens have answered.",
+          "crew_reply": "Commander Riker: Channel open, Captain. Transmission complete. They're standing down.",
+          "next": 4
+        },
+        {
+          "label": "Data, monitor for atmospheric reactions and power fluctuations.",
+          "crew_reply": "Lt. Commander Data: All readings nominal. The crisis has been averted.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "The surface population is in turmoil. Some believe the event was divine intervention. Others have renounced the pursuit of warp technology entirely.",
+      "options": [
+        {
+          "label": "Riker, log our interference and prepare a full report for Temporal and Cultural Affairs.",
+          "crew_reply": "Commander Riker: Aye, Captain. Report will include all communications and energy output data."
+        },
+        {
+          "label": "Data, archive all sensor records and erase our telemetry from their subspace bands.",
+          "crew_reply": "Lt. Commander Data: Confirmed, Captain. No detectable trace of our presence remains."
+        },
+        {
+          "label": "Troi, monitor surface emotions for signs of long-term cultural trauma.",
+          "crew_reply": "Counselor Troi: Understood, Captain. Fear is fading, but awe remains. Perhaps that will be enough."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Commander Riker",
+      "line": "We stopped a war, Captain, but the question remains — did we change their destiny, or just delay it?"
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps destiny was never the question, Number One. The measure of our interference is not what they see in us, but what they learn of themselves."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Enterprise prevented the detonation of a warp-based weapon, saving the pre-warp civilization from annihilation. The event was later interpreted as a divine sign, unifying the world under peaceful reform."
+    },
+    {
+      "result": "success",
+      "text": "Through discreet intervention, the crew disabled the experimental reactor without revealing Starfleet’s presence. The society abandoned its experiments and redirected efforts toward planetary restoration."
+    },
+    {
+      "result": "failure",
+      "text": "Interference was detected. Believing the 'sky-fire' to be an act of alien hostility, the civilization declared global martial law. Warp research accelerated under military control."
+    },
+    {
+      "result": "failure",
+      "text": "The deflector pulse destabilized the atmosphere, causing widespread devastation. Starfleet Science has classified the incident under restricted access pending further review."
+    },
+    {
+      "result": "failure",
+      "text": "By choosing not to interfere, the civilization’s experiment detonated. The planet was rendered uninhabitable, and its signal now drifts endlessly through subspace — a silent warning."
+    }
+  ]
+}
 ]
