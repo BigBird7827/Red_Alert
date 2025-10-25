@@ -1647,10 +1647,11 @@
       "result": "failure",
       "text": "The deflector pulse destabilized the atmosphere, causing widespread devastation. Starfleet Science has classified the incident under restricted access pending further review."
     },
-    {
-      "result": "failure",
-      "text": "By choosing not to interfere, the civilization’s experiment detonated. The planet was rendered uninhabitable, and its signal now drifts endlessly through subspace — a silent warning."
-    }
+          {
+        "result": "failure",
+        "text": "By choosing not to interfere, the civilization’s experiment detonated. The planet was rendered uninhabitable, and its signal now drifts endlessly through subspace — a silent warning."
+      }
+    ]
   ]
-}
-]
+
+
