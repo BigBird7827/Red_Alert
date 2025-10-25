@@ -681,16 +681,68 @@ const crewImages = {
 };
 
 function findCrewNameFromText(text) {
-  const crewList = ["Picard", "Riker", "Data", "Crusher", "Troi", "Worf", "La Forge", "O'Brien", "Obrien", "Chief O'Brien", "Chief Obrien"];
-  const lowerText = text.toLowerCase();
-  for (const name of crewList) {
-    const simple = name.toLowerCase().replace(/[^a-z]/g, '');
-    if (lowerText.includes(name.toLowerCase()) || lowerText.includes(simple)) {
-      return name;
-    }
-  }
+  const lower = text.toLowerCase();
+
+  if (
+    lower.includes("picard") ||
+    lower.includes("captain picard") ||
+    lower.startsWith("captain,")
+  ) return "Picard";
+
+  if (
+    lower.includes("riker") ||
+    lower.includes("number one") ||
+    lower.includes("commander riker")
+  ) return "Riker";
+
+  if (
+    lower.includes("data") ||
+    lower.includes("lt. commander data") ||
+    lower.includes("lieutenant commander data") ||
+    lower.includes("mr. data")
+  ) return "Data";
+
+  if (
+    lower.includes("la forge") ||
+    lower.includes("geordi") ||
+    lower.includes("lt. commander la forge") ||
+    lower.includes("lieutenant commander la forge") ||
+    lower.includes("commander la forge")
+  ) return "La Forge";
+
+  if (
+    lower.includes("crusher") ||
+    lower.includes("doctor crusher") ||
+    lower.includes("dr. crusher") ||
+    lower.includes("beverly") ||
+    lower.includes("doctor")
+  ) return "Crusher";
+
+  if (
+    lower.includes("troi") ||
+    lower.includes("counselor troi") ||
+    lower.includes("counselor") ||
+    lower.includes("counsellor")
+  ) return "Troi";
+
+  if (
+    lower.includes("worf") ||
+    lower.includes("mr. worf") ||
+    lower.includes("lt. worf") ||
+    lower.includes("lieutenant worf")
+  ) return "Worf";
+
+  if (
+    lower.includes("o'brien") ||
+    lower.includes("obrien") ||
+    lower.includes("chief o'brien") ||
+    lower.includes("chief obrien") ||
+    lower.includes("chief")
+  ) return "O'Brien";
+
   return "Default";
 }
+
 
       const crewName = findCrewNameFromText(this.textContent);
       setPortrait(crewName);
