@@ -81,7 +81,7 @@
             "next": 4
           },
           {
-            "label": "Worf, assess potential threats and report immediately.",
+            "label": "Worf, maintain tactical standby — if it fails, we’ll need quick response.",
             "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -100,7 +100,7 @@
             "crew_reply": "Counselor Troi I’m projecting calm.  The resonance is softening."
           },
           {
-            "label": "Data, project possible outcomes based on current variables.",
+            "label": "Data, compute safe parameters for containment field variance.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -194,7 +194,7 @@
             "next": 3
           },
           {
-            "label": "Worf, assess potential threats and report immediately.",
+            "label": "Worf, stay alert — even a passive field can turn volatile.",
             "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -215,7 +215,7 @@
             "next": 4
           },
           {
-            "label": "Troi, continue your assessment of its intent.",
+            "label": "Troi, stay with it — if it’s aware, let’s guide its response carefully.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -307,7 +307,7 @@
             "next": 2
           },
           {
-            "label": "Data, project possible outcomes based on current variables.",
+            "label": "Data, simulate possible containment outcomes.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -349,7 +349,7 @@
             "next": 4
           },
           {
-            "label": "Troi, elaborate on the emotional impressions you’re receiving.",
+            "label": "Troi, steady the colonists’ emotions — panic will make this worse.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -368,7 +368,7 @@
             "crew_reply": "Lt. Worf Ready, Captain. Awaiting authorization to fire."
           },
           {
-            "label": "Data, continue your analysis of the phenomenon.",
+            "label": "Data, simulate possible containment outcomes.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -441,7 +441,7 @@
             "next": 2
           },
           {
-            "label": "Data, continue your analysis of the phenomenon.",
+            "label": "Data, track enemy maneuvers and anticipate intent.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -462,7 +462,7 @@
             "next": 3
           },
           {
-            "label": "Troi, maintain your empathic link and keep me informed.",
+            "label": "Troi, stay alert for deceit — they may not be what they seem.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -483,7 +483,7 @@
             "next": 4
           },
           {
-            "label": "Data, extrapolate those readings.",
+            "label": "Data, correlate movement with past hostile patterns.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -502,7 +502,7 @@
             "crew_reply": "Commander La Forge Calibrating. If it works, the field should collapse safely."
           },
           {
-            "label": "Data, continue your analysis of the phenomenon.",
+            "label": "Data, track enemy maneuvers and anticipate intent.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -554,7 +554,7 @@
             "next": 1
           },
           {
-            "label": "Riker, coordinate bridge responses as needed.",
+            "label": "Riker, continue your report.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -575,7 +575,7 @@
             "next": 2
           },
           {
-            "label": "Data, extrapolate those readings.",
+            "label": "Data, correlate those resonance patterns before they destabilize.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -596,7 +596,7 @@
             "next": 3
           },
           {
-            "label": "Troi, maintain your empathic link and keep me informed.",
+            "label": "Troi, continue empathic contact — we need clarity, not confusion.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -617,7 +617,7 @@
             "next": 4
           },
           {
-            "label": "Riker, continue overseeing ship status.",
+            "label": "Riker, continue your report.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -636,7 +636,7 @@
             "crew_reply": "Counselor Troi A final wave of peace... acceptance. They’re ready to rest, Captain."
           },
           {
-            "label": "Data, continue your analysis of the phenomenon.",
+            "label": "Data, continue refining your analysis of the anomaly’s harmonic structure.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -684,7 +684,7 @@
             "next": 1
           },
           {
-            "label": "Riker, maintain situational awareness and report any changes.",
+            "label": "Riker, continue your report.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -705,7 +705,7 @@
             "next": 2
           },
           {
-            "label": "Data, extrapolate those readings.",
+            "label": "Data, continue refining your analysis of the anomaly’s harmonic structure.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -726,7 +726,7 @@
             "next": 3
           },
           {
-            "label": "Troi, elaborate on the emotional impressions you’re receiving.",
+            "label": "Troi, stay with it — if it’s aware, let’s guide its response carefully.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -747,7 +747,7 @@
             "next": 4
           },
           {
-            "label": "Worf, continue monitoring defensive readiness.",
+            "label": "Worf, maintain defensive readiness until we understand it.",
             "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -766,7 +766,7 @@
             "crew_reply": "Lt. Commander Data Negative. Its energy output is degrading — he will destabilize when the resonance collapses."
           },
           {
-            "label": "Riker, continue overseeing ship status.",
+            "label": "Riker, continue your report.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -814,7 +814,7 @@
             "next": 1
           },
           {
-            "label": "Riker, continue overseeing ship status.",
+            "label": "Riker, continue your report.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -835,7 +835,7 @@
             "next": 2
           },
           {
-            "label": "Troi, elaborate on the emotional impressions you’re receiving.",
+            "label": "Troi, steady morale — the team’s under immense pressure.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -856,7 +856,7 @@
             "next": 3
           },
           {
-            "label": "Riker, coordinate bridge responses as needed.",
+            "label": "Riker, continue your report.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -877,7 +877,7 @@
             "next": 4
           },
           {
-            "label": "Data, extrapolate those readings.",
+            "label": "Data, analyze structural impact if the system destabilizes.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -896,7 +896,7 @@
             "crew_reply": "Lt. Commander Data Display ready, Captain. Atmospheric readings show clear skies and breathable air."
           },
           {
-            "label": "Troi, continue your assessment of its intent.",
+            "label": "Troi, keep the bridge calm — panic is the enemy right now.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -965,7 +965,7 @@
             "next": 2
           },
           {
-            "label": "Data, continue your analysis of the phenomenon.",
+            "label": "Data, model how the graviton output might cascade.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -986,7 +986,7 @@
             "next": 3
           },
           {
-            "label": "Data, project possible outcomes based on current variables.",
+            "label": "Data, compute safe parameters for containment field variance.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -1026,7 +1026,7 @@
             "crew_reply": "Lt. Commander Data Limited. We could redirect its energy output—but we need precise 21st-century orbital data to do it."
           },
           {
-            "label": "Data, project possible outcomes based on current variables.",
+            "label": "Data, analyze structural impact if the system destabilizes.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -1074,7 +1074,7 @@
             "next": 1
           },
           {
-            "label": "Riker, maintain situational awareness and report any changes.",
+            "label": "Riker, prepare to coordinate evasive maneuvers.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -1095,7 +1095,7 @@
             "next": 2
           },
           {
-            "label": "Troi, maintain your empathic link and keep me informed.",
+            "label": "Troi, any sign of hesitation — anything we can use?",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
