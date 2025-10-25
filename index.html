@@ -719,18 +719,38 @@ function findCrewNameFromText(text) {
 }
 
 
-function showDebrief(){
+function showDebrief() {
   const portrait = document.getElementById('crew-portrait');
   if (portrait) portrait.style.display = 'none';
-  const s=scenarios[currentScenario]
-  const d=s.debriefs[Math.floor(Math.random()*s.debriefs.length)]
-  document.getElementById('dialog').classList.add('hidden')
-  document.getElementById('options').classList.add('hidden')
-  const overlay=document.getElementById('debrief-overlay')
-  const content=document.getElementById('debrief-content')
-  content.innerHTML='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;"><div style="text-align:center;"><h2>DEBRIEF</h2><p>'+d.text+'</p></div><button class="begin-mission-btn" onclick="restart()">Begin New Mission</button></div>'
-  overlay.style.display='flex'
-  overlay.classList.add('active')
+  const s = scenarios[currentScenario];
+  const d = s.debriefs[Math.floor(Math.random() * s.debriefs.length)];
+  const reflection = s.reflection || [];
+
+  document.getElementById('dialog').classList.add('hidden');
+  document.getElementById('options').classList.add('hidden');
+  const overlay = document.getElementById('debrief-overlay');
+  const content = document.getElementById('debrief-content');
+
+  let reflectionHTML = '';
+  if (reflection.length > 0) {
+    reflectionHTML = `
+      <div id="reflection-block" style="margin-top:50px; text-align:center;">
+        ${reflection.map(r => `<p><strong>${r.crew}:</strong> ${r.line}</p>`).join('')}
+      </div>`;
+  }
+
+  content.innerHTML = `
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;">
+      <div style="text-align:center;">
+        <h2>DEBRIEF</h2>
+        <p>${d.text}</p>
+      </div>
+      <button class="begin-mission-btn" onclick="restart()">Begin New Mission</button>
+      ${reflectionHTML}
+    </div>`;
+  
+  overlay.style.display = 'flex';
+  overlay.classList.add('active');
 }
 function restart(){
   const portrait = document.getElementById('crew-portrait');
