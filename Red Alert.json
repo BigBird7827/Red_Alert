@@ -1,113 +1,142 @@
 [
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47457.2 \u2014 While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
-    "mission_description": "While charting Andiron III, the Enterprise encounters a crystalline lattice emitting predictive gravimetric echoes that mirror the ship\u2019s own systems. Investigate the phenomenon, determine if it represents an intelligence, and prevent resonance feedback from destabilizing the warp core.",
-    "dialogue_tree": [
-      {
-        "crew": "Commander La Forge",
-        "line": "Captain, the gravimetric reflections from Andiron III are duplicating our sensor patterns in real time\u2014down to nanosecond precision.",
-        "options": [
-          {
-            "label": "Data, confirm whether the reflections are predictive or reactive.",
-            "crew_reply": "Lt. Commander Data Predictive, Captain.  The field is anticipating our scans before we transmit them.",
-            "next": 1
-          },
-          {
-            "label": "Troi, any indications of sentience?",
-            "crew_reply": "Counselor Troi Confusion and curiosity\u2014something aware, but still forming coherent thought.",
-            "next": 2
-          },
-          {
-            "label": "Worf, maintain shields and a low-level defensive posture.",
-            "crew_reply": "Lt. Worf Shields at full, weapons on standby.  The source is passive for now.",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the echo field now mirrors our warp harmonics.  It is modifying its own frequency to match the Enterprise\u2019s core signature.",
-        "options": [
-          {
-            "label": "La Forge, decouple the primary coils and monitor for energy recursion.",
-            "crew_reply": "Commander La Forge Decoupling.  Feedback rising\u2014but stable.  It\u2019s learning from us.",
-            "next": 4
-          },
-          {
-            "label": "Crusher, confirm there\u2019s no biological component to the lattice.",
-            "crew_reply": "Dr. Crusher Negative life-signs, but measurable bio-energy traces throughout the crystal structure.",
-            "next": 5
-          },
-          {
-            "label": "Troi, maintain contact with whatever consciousness you sense.",
-            "crew_reply": "Counselor Troi It\u2019s trying to imitate us\u2014like a child repeating a parent\u2019s words.",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Captain, the presence is mirroring our emotions\u2014anticipation, curiosity, even caution.  It wants to communicate but doesn\u2019t understand language.",
-        "options": [
-          {
-            "label": "Data, attempt harmonic translation using subspace resonance mapping.",
-            "crew_reply": "Lt. Commander Data Translation underway.  It recognizes the attempt and is modulating in response.",
-            "next": 6
-          },
-          {
-            "label": "La Forge, emit a low-energy signal matching its rhythm.  Let\u2019s see if it responds in kind.",
-            "crew_reply": "Commander La Forge Sending pulse...  It\u2019s echoing our signature back with amplitude variation.",
-            "next": 6
-          },
-          {
-            "label": "Worf, stand by to disrupt the lattice if resonance exceeds safety limits.",
-            "crew_reply": "Lt. Worf Acknowledged.  Phaser arrays locked but inactive.",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Worf",
-        "line": "Containment fields holding, Captain, but the echo intensity is rising.  Warp stability at eighty-six percent.",
-        "options": [
-          {
-            "label": "La Forge, create a phase offset to bleed excess energy.",
-            "crew_reply": "Commander La Forge Adjusting harmonic envelope...  Power returning to normal levels.",
-            "next": 6
-          },
-          {
-            "label": "Data, redirect the reflection into a controlled feedback loop.",
-            "crew_reply": "Lt. Commander Data Loop established.  The entity seems to be observing its own image through us.",
-            "next": 6
-          },
-          {
-            "label": "Worf, continue your report.",
-            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
-            "next": 6
-          }
-        ]
-      },
-      {
-        "crew": "Dr. Crusher",
-        "line": "Captain, crew EEGs show sympathetic synchronization with the resonance field\u2014no danger yet, but it\u2019s mimicking neural rhythms.",
-        "options": [
-          {
-            "label": "Crusher, prepare a damping field in case synchronization intensifies.",
-            "crew_reply": "Dr. Crusher Field standing by.  I can neutralize overlap within seconds if required.",
-            "next": 6
-          },
-          {
-            "label": "Troi, reassure the entity\u2014it may be reacting to our tension.",
-            "crew_reply": "Counselor Troi I\u2019m projecting calm.  The resonance is softening.",
-            "next": 6
-          },
-          {
-            "label": "Crusher, continue your report.",
-            "crew_reply": "Dr. Crusher Acknowledged, Captain. Monitoring closely.",
-            "next": 6
-          }
-        ]
-      }
+  "starfleet_message": "Captain’s Log, Stardate 47457.2 — While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
+  "mission_description": "While charting Andiron III, the Enterprise encounters a crystalline lattice emitting predictive gravimetric echoes that mirror the ship’s own systems. Investigate the phenomenon, determine if it represents an intelligence, and prevent resonance feedback from destabilizing the warp core.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander La Forge",
+      "line": "Captain, the gravimetric reflections from Andiron III are duplicating our sensor patterns in real time—down to nanosecond precision.",
+      "options": [
+        {
+          "label": "Data, confirm whether the reflections are predictive or reactive.",
+          "crew_reply": "Lt. Commander Data Predictive, Captain.  The field is anticipating our scans before we transmit them.",
+          "next": 1
+        },
+        {
+          "label": "Troi, any indications of sentience?",
+          "crew_reply": "Counselor Troi Confusion and curiosity—something aware, but still forming coherent thought.",
+          "next": 2
+        },
+        {
+          "label": "Worf, maintain shields and a low-level defensive posture.",
+          "crew_reply": "Lt. Worf Shields at full, weapons on standby.  The source is passive for now.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the echo field now mirrors our warp harmonics.  It is modifying its own frequency to match the Enterprise’s core signature.",
+      "options": [
+        {
+          "label": "La Forge, decouple the primary coils and monitor for energy recursion.",
+          "crew_reply": "Commander La Forge Decoupling.  Feedback rising—but stable.  It’s learning from us.",
+          "next": 4
+        },
+        {
+          "label": "Data, confirm there’s no biological component to the lattice.",
+          "crew_reply": "Lt. Commander Data Negative life-signs detected, Captain, though trace bio-energy signatures are present throughout the crystalline matrix.",
+          "next": 5
+        },
+        {
+          "label": "Troi, maintain contact with whatever consciousness you sense.",
+          "crew_reply": "Counselor Troi It’s trying to imitate us—like a child repeating a parent’s words.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, the presence is mirroring our emotions—anticipation, curiosity, even caution.  It wants to communicate but doesn’t understand language.",
+      "options": [
+        {
+          "label": "Data, attempt harmonic translation using subspace resonance mapping.",
+          "crew_reply": "Lt. Commander Data Translation underway.  It recognizes the attempt and is modulating in response.",
+          "next": 6
+        },
+        {
+          "label": "La Forge, emit a low-energy signal matching its rhythm.  Let’s see if it responds in kind.",
+          "crew_reply": "Commander La Forge Sending pulse…  It’s echoing our signature back with amplitude variation.",
+          "next": 6
+        },
+        {
+          "label": "Worf, stand by to disrupt the lattice if resonance exceeds safety limits.",
+          "crew_reply": "Lt. Worf Acknowledged.  Phaser arrays locked but inactive.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Worf",
+      "line": "Containment fields holding, Captain, but the echo intensity is rising.  Warp stability at eighty-six percent.",
+      "options": [
+        {
+          "label": "La Forge, create a phase offset to bleed excess energy.",
+          "crew_reply": "Commander La Forge Adjusting harmonic envelope…  Power returning to normal levels.",
+          "next": 6
+        },
+        {
+          "label": "Data, redirect the reflection into a controlled feedback loop.",
+          "crew_reply": "Lt. Commander Data Loop established.  The entity seems to be observing its own image through us.",
+          "next": 6
+        },
+        {
+          "label": "Worf, continue your report.",
+          "crew_reply": "Lt. Worf Acknowledged, Captain.  Monitoring closely.",
+          "next": 6
+        }
+      ]
+    },
+    {
+      "crew": "Dr. Crusher",
+      "line": "Captain, crew EEGs show sympathetic synchronization with the resonance field—no danger yet, but it’s mimicking neural rhythms.",
+      "options": [
+        {
+          "label": "Crusher, prepare a damping field in case synchronization intensifies.",
+          "crew_reply": "Dr. Crusher Field standing by.  I can neutralize overlap within seconds if required.",
+          "next": 6
+        },
+        {
+          "label": "Troi, reassure the entity—it may be reacting to our tension.",
+          "crew_reply": "Counselor Troi I’m projecting calm.  The resonance is softening.",
+          "next": 6
+        },
+        {
+          "label": "Crusher, continue your report.",
+          "crew_reply": "Dr. Crusher Acknowledged, Captain.  Monitoring closely.",
+          "next": 6
+        }
+      ]
+    },
+  ]
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The crew established non-verbal contact with a crystalline intelligence and avoided destabilizing the warp core.  Starfleet Science classifies the Andiron resonance as a unique form of reflective sentience."
+    },
+    {
+      "result": "success",
+      "text": "Through coordinated harmonic translation, the Enterprise taught the entity to recognize independent thought.  Communication achieved without loss of system integrity."
+    },
+    {
+      "result": "success",
+      "text": "By choosing patience over force, the crew transformed a dangerous feedback into a moment of understanding.  The beacon left behind continues to broadcast a peaceful echo."
+    },
+    {
+      "result": "failure",
+      "text": "Premature modulation ruptured the lattice, releasing uncontrolled gravimetric waves.  The Enterprise escaped with minor damage; the crystalline matrix was destroyed."
+    },
+    {
+      "result": "failure",
+      "text": "Security overrode engineering safeguards and fired on the lattice.  The resonance collapsed violently, leaving a debris field of shattered crystal and lingering subspace distortion."
+    },
+    {
+      "result": "failure",
+      "text": "A miscalculated counter-frequency merged the echo field with the ship’s warp harmonics, forcing emergency shutdown and temporary loss of warp capability."
+    }
+  ]
+}
+
     ],
     "debriefs": [
       {
