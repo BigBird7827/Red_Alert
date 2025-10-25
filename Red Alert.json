@@ -71,7 +71,7 @@
       "line": "Containment fields holding, Captain, but the echo intensity is rising. Warp stability at eighty-six percent.",
       "options": [
         {
-          "label": "La Forge, create a phase offset to bleed excess energy.",
+          "label": "Geordi, create a phase offset to bleed excess energy.",
           "crew_reply": "Commander La Forge: Adjusting harmonic envelope... Power returning to normal levels.",
           "next": 4
         },
@@ -96,7 +96,7 @@
           "crew_reply": "Commander Riker: Aye, Captain. Course laid in. Helm responding."
         },
         {
-          "label": "La Forge, run post-event diagnostics on warp systems and structural integrity fields.",
+          "label": "Lt. Commander La Forge, run post-event diagnostics on warp systems and structural integrity fields.",
           "crew_reply": "Commander La Forge: Diagnostics running—warp containment stable, minor phase residue dissipating."
         },
         {
@@ -144,273 +144,293 @@
   ]
 },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
-    "mission_description": "Upon entering the Neutral Zone, the Enterprise discovers the phased remains of a long-lost Romulan-Klingon outpost trapped within a temporal distortion. Determine the nature of the anomaly, free any surviving consciousness, and avoid diplomatic escalation.",
-    "dialogue_tree": [
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the distress signal originates from multiple phase-states of the same location. It appears to be a structure existing in fragmented time.",
-        "options": [
-          {
-            "label": "La Forge, can we synchronize our sensors to a stable frequency?",
-            "crew_reply": "Commander La Forge Working on it. The returns keep splitting—like echoes out of sync with reality.",
-            "next": 1
-          },
-          {
-            "label": "Worf, maintain defensive posture. The Romulans may interpret our presence as provocation.",
-            "crew_reply": "Lt. Worf Aye, Captain. Shields up, weapons on standby.",
-            "next": 1
-          },
-          {
-            "label": "Troi, any sense of life from the signal source?",
-            "crew_reply": "Counselor Troi I sense confusion… fear repeating itself. It’s as if they relive the same moment endlessly.",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Commander La Forge",
-        "line": "I’ve isolated the reflection field. It’s a derelict outpost—Romulan in design, but with Klingon technology integrated into its power matrix.",
-        "options": [
-          {
-            "label": "Data, estimate the station’s age.",
-            "crew_reply": "Lt. Commander Data Structural decay indicates at least four decades. The reactor core is still in flux.",
-            "next": 2
-          },
-          {
-            "label": "Data, can life exist in such conditions?",
-            "crew_reply": "Lt. Commander Data Possibly, if temporally displaced. But what I’m reading isn’t normal physiology—it’s repetition.",
-            "next": 2
-          },
-          {
-            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
-            "crew_reply": "Commander La Forge Acknowledged, Captain",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Worf",
-        "line": "Captain, Klingon data buoys in the vicinity identify this sector as abandoned since the Tomed Incident. Entering further could violate treaty protocols.",
-        "options": [
-          {
-            "label": "Riker, open a secure channel to Romulan Command—inform them we are responding to a distress signal, not intruding.",
-            "crew_reply": "Commander Riker Message sent. No reply, but they’re listening.",
-            "next": 3
-          },
-          {
-            "label": "Maintain position on our side of the boundary until we confirm the threat level.",
-            "crew_reply": "Lt. Worf Holding steady at treaty limit.",
-            "next": 3
-          },
-          {
-            "label": "Worf, coordinate security teams and keep tactical sensors active.",
-            "crew_reply": "Lt. Worf Acknowledged, Captain",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "The emotional field is growing stronger. They’re aware of us—pleading for release. The pain is constant but trapped in time.",
-        "options": [
-          {
-            "label": "La Forge, prepare a phased away team transport. Match to their time signature.",
-            "crew_reply": "Commander La Forge I can stabilize a corridor for about five minutes. Beyond that, we risk temporal bleed.",
-            "next": 4
-          },
-          {
-            "label": "Data, standby medical containment in case something comes back with the team.",
-            "crew_reply": "Lt. Commander Data Containment fields ready. Biofilters set to adaptive mode.",
-            "next": 4
-          },
-          {
-            "label": "Troi, monitor emotional patterns among the crew and alert me to distress.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Away team reports the station phasing between states—some sections look pristine, others centuries old. Logs alternate between Klingon and Romulan languages.",
-        "options": [
-          {
-            "label": "Riker, log our actions and prepare a diplomatic summary for Starfleet Command.",
-            "crew_reply": "Commander Riker Understood. The Romulan signal has ceased—records secured."
-          },
-          {
-            "label": "La Forge, secure the warp core and conduct structural scans for temporal residue.",
-            "crew_reply": "Commander La Forge Scans complete—no residual flux. Systems stable."
-          },
-          {
-            "label": "Troi, monitor the crew for any lingering temporal disorientation.",
-            "crew_reply": "Counselor Troi Emotional stability returning to baseline, Captain."
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "By coordinating precise harmonic inversion, the Enterprise released the trapped outpost and ended its four-decade time loop. Starfleet commended the crew for averting a potential Neutral Zone conflict."
-      },
-      {
-        "result": "success",
-        "text": "The crew responded to a distress call across time, offering mercy to those caught in an endless loop. The Neutral Zone remains silent, but the memory of the signal endures."
-      },
-      {
-        "result": "success",
-        "text": "Through restraint and compassion, the Enterprise resolved a lingering tragedy without sparking confrontation. Romulan Command later confirmed the outpost had been listed 'missing' for forty-three years."
-      },
-      {
-        "result": "failure",
-        "text": "An unstable deflector pulse ruptured the temporal field, scattering fragments of the outpost through subspace. Starfleet reprimanded the crew for unauthorized interference in the Neutral Zone."
-      },
-      {
-        "result": "failure",
-        "text": "A premature withdrawal left the anomaly intact. Weeks later, the same distress signal reappeared—unchanged, endlessly repeating."
-      },
-      {
-        "result": "failure",
-        "text": "Romulan forces arrived during the operation, misinterpreting the Enterprise’s actions as aggression. Diplomatic relations deteriorated sharply."
-      }
-    ]
-  },
+  "starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
+  "mission_description": "Upon entering the Neutral Zone, the Enterprise discovers the phased remains of a long-lost Romulan-Klingon outpost trapped within a temporal distortion. Determine the nature of the anomaly, free any surviving consciousness, and avoid diplomatic escalation.",
+  "dialogue_tree": [
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the distress signal originates from multiple phase-states of the same location. It appears to be a structure existing in fragmented time.",
+      "options": [
+        {
+          "label": "Geordi, can we synchronize our sensors to a stable frequency?",
+          "crew_reply": "Commander La Forge: Working on it, sir. The returns keep splitting—like echoes out of sync with reality.",
+          "next": 1
+        },
+        {
+          "label": "Worf, maintain defensive posture. The Romulans may interpret our presence as provocation.",
+          "crew_reply": "Lt. Worf: Aye, Captain. Shields up, weapons on standby.",
+          "next": 1
+        },
+        {
+          "label": "Counselor, do you sense that there's a sentience from the signal source?",
+          "crew_reply": "Counselor Troi: I sense confusion… fear repeating itself. It’s as if they relive the same moment endlessly.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Commander La Forge",
+      "line": "I’ve isolated the reflection field. It’s a derelict outpost—Romulan in design, but with Klingon technology integrated into its power matrix.",
+      "options": [
+        {
+          "label": "Data, estimate the station’s age.",
+          "crew_reply": "Lt. Commander Data: Yes, sir. Structural decay indicates at least four decades. The reactor core is still in flux.",
+          "next": 2
+        },
+        {
+          "label": "Data, can life exist in such conditions?",
+          "crew_reply": "Lt. Commander Data: Possibly, Captain, if temporally displaced. But what I’m reading isn’t normal physiology, it’s repetition.",
+          "next": 2
+        },
+        {
+          "label": "Commander La Forge, reroute auxiliary power and stabilize the plasma flow.",
+          "crew_reply": "Commander La Forge: Acknowledged, Captain. Rerouting auxiliary power.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Worf",
+      "line": "Captain, Klingon data buoys in the vicinity identify this sector as abandoned since the Tomed Incident. Entering further could violate treaty protocols.",
+      "options": [
+        {
+          "label": "Number One, open a secure channel to Romulan Command. Inform them we are responding to a distress signal.",
+          "crew_reply": "Commander Riker: Message sent, sir. No reply, but they’re listening.",
+          "next": 3
+        },
+        {
+          "label": "Lt. Worf, maintain position on our side of the boundary until we confirm the threat level.",
+          "crew_reply": "Lt. Worf: Holding steady at treaty limit, Captain.",
+          "next": 3
+        },
+        {
+          "label": "Mr. Worf, coordinate security teams and keep tactical sensors active.",
+          "crew_reply": "Lt. Worf: Acknowledged, Captain. Security teams are in place.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "The emotional field is growing stronger. They’re aware of us, pleading for release. The pain is constant, but trapped in time.",
+      "options": [
+        {
+          "label": "Mr. La Forge, prepare a phased away team transport. Match to their time signature.",
+          "crew_reply": "Commander La Forge: I can stabilize a corridor for about five minutes, sir. Beyond that, we risk temporal bleed.",
+          "next": 4
+        },
+        {
+          "label": "Doctor, standby medical containment in case something comes back with the team.",
+          "crew_reply": "Dr. Crusher: Containment fields are ready, sir. Biofilters set to adaptive mode.",
+          "next": 4
+        },
+        {
+          "label": "Counselor, monitor emotional patterns among the crew and alert me to distress.",
+          "crew_reply": "Counselor Troi: Acknowledged, Captain.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Away team reports the station phasing between states—some sections look pristine, others centuries old. Logs alternate between Klingon and Romulan languages.",
+      "options": [
+        {
+          "label": "Commander Riker, log our actions and prepare a diplomatic summary for Starfleet Command.",
+          "crew_reply": "Commander Riker: Understood, Captain. The Romulan signal has ceased; records secured."
+        },
+        {
+          "label": "Lt. Commander La Forge, secure the warp core and conduct structural scans for temporal residue.",
+          "crew_reply": "Commander La Forge: Scans complete. No residual flux. Systems stable."
+        },
+        {
+          "label": "Counselor Troi, monitor the crew for any lingering temporal disorientation.",
+          "crew_reply": "Counselor Troi: Emotional stability returning to baseline, Captain."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Commander Riker",
+      "line": "We answered a distress call from across time itself. Hard to know if they ever realized they were saved."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps mercy needs no acknowledgment, Number One. Sometimes, it is enough that the echo of suffering finally fades."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "By coordinating precise harmonic inversion, the Enterprise released the trapped outpost and ended its four-decade time loop. Starfleet commended the crew for averting a potential Neutral Zone conflict."
+    },
+    {
+      "result": "success",
+      "text": "The crew responded to a distress call across time, offering mercy to those caught in an endless loop. The Neutral Zone remains silent, but the memory of the signal endures."
+    },
+    {
+      "result": "success",
+      "text": "Through restraint and compassion, the Enterprise resolved a lingering tragedy without sparking confrontation. Romulan Command later confirmed the outpost had been listed 'missing' for forty-three years."
+    },
+    {
+      "result": "failure",
+      "text": "An unstable deflector pulse ruptured the temporal field, scattering fragments of the outpost through subspace. Starfleet reprimanded the crew for unauthorized interference in the Neutral Zone."
+    },
+    {
+      "result": "failure",
+      "text": "A premature withdrawal left the anomaly intact. Weeks later, the same distress signal reappeared—unchanged, endlessly repeating."
+    },
+    {
+      "result": "failure",
+      "text": "Romulan forces arrived during the operation, misinterpreting the Enterprise’s actions as aggression. Diplomatic relations deteriorated sharply."
+    }
+  ]
+},
   {
-    "starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
-    "mission_description": "The Enterprise arrives at Veridian IV, where a subspace-reactive organism has infected the colony’s population. The pathogen adapts to every treatment and displays patterns of intelligence. Determine its origin, contain the outbreak, and decide whether the lifeform can or should be preserved.",
-    "dialogue_tree": [
-      {
-        "crew": "Dr. Crusher",
-        "line": "Captain, the infection on Veridian IV exhibits polaric resonance—part biological, part energy-based. It’s evolving faster than we can analyze.",
-        "options": [
-          {
-            "label": "Data, identify the source of the resonance.",
-            "crew_reply": "Lt. Commander Data The signal originates from mineral deposits beneath the outpost—rich in polaric crystals used in transporter research.",
-            "next": 1
-          },
-          {
-            "label": "La Forge, analyze the outpost’s power grid for containment failure.",
-            "crew_reply": "Commander La Forge Confirmed. Transporter logs show a phase transition event minutes before first exposure.",
-            "next": 1
-          },
-          {
-            "label": "Troi, monitor emotional patterns among the crew and alert me to distress.",
-            "crew_reply": "Counselor Troi Overwhelming fear, but also connection—they’re sensing each other’s thoughts involuntarily.",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the pathogen’s genome reorganizes every 43 seconds. It seems to anticipate medical countermeasures.",
-        "options": [
-          {
-            "label": "Data, can we create a damping field to slow the adaptation?",
-            "crew_reply": "Lt. Commander Data Possible, but risky. If the organism’s energy matrix collapses too fast, it could kill the hosts.",
-            "next": 2
-          },
-          {
-            "label": "La Forge, can you isolate the subspace frequency it uses to communicate?",
-            "crew_reply": "Commander La Forge Working on it. The pattern looks deliberate—almost linguistic.",
-            "next": 2
-          },
-          {
-            "label": "Data, correlate the subspace harmonics and display the projection.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Commander La Forge",
-        "line": "We’ve traced the original contamination to a test transporter pad. Polaric crystals destabilized mid-phase, creating an interdimensional breach.",
-        "options": [
-          {
-            "label": "Data, determine whether the organism is native to our dimension.",
-            "crew_reply": "Lt. Commander Data Negative. Its resonance suggests subspace origin—possibly a byproduct of the breach.",
-            "next": 3
-          },
-          {
-            "label": "Worf, secure the outpost perimeter and enforce full quarantine.",
-            "crew_reply": "Lt. Worf Security lockdown in effect. No movement without authorization.",
-            "next": 3
-          },
-          {
-            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
-            "crew_reply": "Commander La Forge Acknowledged, Captain",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Captain, I’m sensing intent. The organism is reaching out—it’s not predatory. It wants to connect, to merge consciousness.",
-        "options": [
-          {
-            "label": "Data, can communication harm the hosts?",
-            "crew_reply": "Lt. Commander Data Potentially, yes. The neural load could cause synaptic burnout.",
-            "next": 4
-          },
-          {
-            "label": "Data, model a way to communicate safely through harmonic translation.",
-            "crew_reply": "Lt. Commander Data A low-band subspace harmonic might allow limited response without neural risk.",
-            "next": 4
-          },
-          {
-            "label": "Troi, monitor emotional patterns among the crew and alert me to distress.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "The organism is now interfacing with our biofilters. If we don’t act soon, it will adapt to the Enterprise itself.",
-        "options": [
-          {
-            "label": "Crusher, verify all infected colonists remain stable post-neutralization.",
-            "crew_reply": "Dr. Crusher All readings nominal, Captain. The organism is dormant."
-          },
-          {
-            "label": "Data, archive biological telemetry for Starfleet Medical review.",
-            "crew_reply": "Lt. Commander Data Archive complete. Pathogen behavior logged for analysis."
-          },
-          {
-            "label": "La Forge, run a full biofilter recalibration and secure transporter systems.",
-            "crew_reply": "Commander La Forge Recalibration complete—systems sanitized and operational."
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "Through precise coordination between medical and engineering teams, the Enterprise neutralized the pathogen without destroying it. The organism now exists harmlessly in subspace, its attempt at communication preserved for study."
-      },
-      {
-        "result": "success",
-        "text": "Dr. Crusher and La Forge’s counter-resonance field restored the infected without loss of life. The organism faded peacefully, leaving behind no trace except a steady polaric pulse in orbit."
-      },
-      {
-        "result": "success",
-        "text": "The crew’s restraint prevented a tragedy. The subspace entity retreated unharmed, its final transmission interpreted as gratitude."
-      },
-      {
-        "result": "failure",
-        "text": "A premature field inversion collapsed the organism violently, resulting in casualties among the infected colonists. Starfleet Medical imposed a full moratorium on polaric research."
-      },
-      {
-        "result": "failure",
-        "text": "Containment failed aboard the Enterprise. The pathogen adapted to the warp field and had to be eradicated through high-energy sterilization. Several decks were quarantined for weeks."
-      },
-      {
-        "result": "failure",
-        "text": "Security measures destroyed the crystal matrix before communication could be attempted. The organism died in silence, its nature forever uncertain."
-      }
-    ]
-  },
+  "starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
+  "mission_description": "The Enterprise arrives at Veridian IV, where a subspace-reactive organism has infected the colony’s population. The pathogen adapts to every treatment and displays patterns of intelligence. Determine its origin, contain the outbreak, and decide whether the lifeform can or should be preserved.",
+  "dialogue_tree": [
+    {
+      "crew": "Dr. Crusher",
+      "line": "Captain, the infection on Veridian IV exhibits polaric resonance—part biological, part energy-based. It’s evolving faster than we can analyze.",
+      "options": [
+        {
+          "label": "Data, identify the source of the resonance.",
+          "crew_reply": "Lt. Commander Data: The signal originates from mineral deposits beneath the outpost; rich in polaric crystals used in transporter research.",
+          "next": 1
+        },
+        {
+          "label": "Commander La Forge, analyze the outpost’s power grid for containment failure.",
+          "crew_reply": "Commander La Forge: Confirmed, sir. Transporter logs show a phase transition event minutes before first exposure.",
+          "next": 1
+        },
+        {
+          "label": "Counselor Troi, is this organism having an effect on the emotional patterns of the crew?",
+          "crew_reply": "Counselor Troi: Yes, sir. I sense overwhelming fear, but also connection. They’re sensing each other’s thoughts involuntarily.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the pathogen’s genome reorganizes every 43 seconds. It seems to anticipate medical countermeasures.",
+      "options": [
+        {
+          "label": "Data, can we create a damping field to slow the adaptation?",
+          "crew_reply": "Lt. Commander Data: Possible, sir, but risky. If the organism’s energy matrix collapses too fast, it could kill the hosts.",
+          "next": 2
+        },
+        {
+          "label": "Commander La Forge, can you isolate the subspace frequency it uses to communicate?",
+          "crew_reply": "Commander La Forge: Working on it, sir. The pattern looks deliberate; almost linguistic.",
+          "next": 2
+        },
+        {
+          "label": "Data, correlate the subspace harmonics and display the projection.",
+          "crew_reply": "Lt. Commander Data: I'm putting it on the main viewscreen now, Captain.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Commander La Forge",
+      "line": "We’ve traced the original contamination to a test transporter pad. Polaric crystals destabilized mid-phase, creating an interdimensional breach.",
+      "options": [
+        {
+          "label": "Data, determine whether the organism is native to our dimension.",
+          "crew_reply": "Lt. Commander Data: Negative, sir. Its resonance suggests subspace origin; possibly a byproduct of the breach.",
+          "next": 3
+        },
+        {
+          "label": "Mr. Worf, secure the outpost perimeter and enforce full quarantine.",
+          "crew_reply": "Lt. Worf: Security lockdown in effect. No movement without authorization.",
+          "next": 3
+        },
+        {
+          "label": "Mr. La Forge, reroute auxiliary power and stabilize the plasma flow.",
+          "crew_reply": "Commander La Forge: Acknowledged, Captain. Rerouting auxiliary power now.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, I’m sensing intent. The organism is reaching out. It doesn't seem predatory. It wants to connect; to merge consciousness.",
+      "options": [
+        {
+          "label": "Data, can communication harm the hosts?",
+          "crew_reply": "Lt. Commander Data: Potentially, sir. The neural load could cause synaptic burnout.",
+          "next": 4
+        },
+        {
+          "label": "Data, model a way to communicate safely through harmonic translation.",
+          "crew_reply": "Lt. Commander Data: I'm applying a low-band subspace harmonic that I believe will allow limited response without neural risk.",
+          "next": 4
+        },
+        {
+          "label": "Counselor, monitor emotional patterns among the crew and alert me to distress.",
+          "crew_reply": "Counselor Troi: Acknowledged, Captain.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "The organism is now interfacing with our biofilters. If we don’t act soon, it will adapt to the Enterprise itself.",
+      "options": [
+        {
+          "label": "Doctor Crusher, verify all infected colonists remain stable post-neutralization.",
+          "crew_reply": "Dr. Crusher: All readings nominal, Captain. The organism is dormant."
+        },
+        {
+          "label": "Data, archive biological telemetry for Starfleet Medical review.",
+          "crew_reply": "Lt. Commander Data: Archive complete, Captain. Pathogen behavior logged for analysis."
+        },
+        {
+          "label": "Geordi, run a full biofilter recalibration and secure transporter systems.",
+          "crew_reply": "Commander La Forge: Recalibration complete, Captain. Transporter system are sanitized and operational."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Dr. Crusher",
+      "line": "We nearly destroyed a lifeform simply because we didn’t understand it. Sometimes science feels too much like war."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "And yet, Beverly, understanding is the only weapon worth carrying. Today, compassion proved the stronger cure."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "Through precise coordination between medical and engineering teams, the Enterprise neutralized the pathogen without destroying it. The organism now exists harmlessly in subspace, its attempt at communication preserved for study."
+    },
+    {
+      "result": "success",
+      "text": "Dr. Crusher and La Forge’s counter-resonance field restored the infected without loss of life. The organism faded peacefully, leaving behind no trace except a steady polaric pulse in orbit."
+    },
+    {
+      "result": "success",
+      "text": "The crew’s restraint prevented a tragedy. The subspace entity retreated unharmed, its final transmission interpreted as gratitude."
+    },
+    {
+      "result": "failure",
+      "text": "A premature field inversion collapsed the organism violently, resulting in casualties among the infected colonists. Starfleet Medical imposed a full moratorium on polaric research."
+    },
+    {
+      "result": "failure",
+      "text": "Containment failed aboard the Enterprise. The pathogen adapted to the warp field and had to be eradicated through high-energy sterilization. Several decks were quarantined for weeks."
+    },
+    {
+      "result": "failure",
+      "text": "Security measures destroyed the crystal matrix before communication could be attempted. The organism died in silence, its nature forever uncertain."
+    }
+  ]
+},
   {
     "starfleet_message": "Captain’s Log, Stardate 47459.3 — While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
     "mission_description": "An experimental graviton-harvesting operation has triggered the birth of a micro-singularity. The phenomenon is expanding unpredictably, threatening both the mining convoy and nearby subspace lanes. Establish the source, stabilize the field, and decide whether the entity forming within can be reasoned with.",
