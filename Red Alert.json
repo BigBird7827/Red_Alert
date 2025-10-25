@@ -1,11 +1,11 @@
 [
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47457.2 \u2014 While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
-    "mission_description": "While charting Andiron III, the Enterprise encounters a crystalline lattice emitting predictive gravimetric echoes that mirror the ship\u2019s own systems. Investigate the phenomenon, determine if it represents an intelligence, and prevent resonance feedback from destabilizing the warp core.",
+    "starfleet_message": "Captain’s Log, Stardate 47457.2 — While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
+    "mission_description": "While charting Andiron III, the Enterprise encounters a crystalline lattice emitting predictive gravimetric echoes that mirror the ship’s own systems. Investigate the phenomenon, determine if it represents an intelligence, and prevent resonance feedback from destabilizing the warp core.",
     "dialogue_tree": [
       {
         "crew": "Commander La Forge",
-        "line": "Captain, the gravimetric reflections from Andiron III are duplicating our sensor patterns in real time\u2014down to nanosecond precision.",
+        "line": "Captain, the gravimetric reflections from Andiron III are duplicating our sensor patterns in real time—down to nanosecond precision.",
         "options": [
           {
             "label": "Data, confirm whether the reflections are predictive or reactive.",
@@ -14,7 +14,7 @@
           },
           {
             "label": "Troi, any indications of sentience?",
-            "crew_reply": "Counselor Troi Confusion and curiosity\u2014something aware, but still forming coherent thought.",
+            "crew_reply": "Counselor Troi Confusion and curiosity—something aware, but still forming coherent thought.",
             "next": 1
           },
           {
@@ -26,28 +26,28 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, the echo field now mirrors our warp harmonics.  It is modifying its own frequency to match the Enterprise\u2019s core signature.",
+        "line": "Captain, the echo field now mirrors our warp harmonics.  It is modifying its own frequency to match the Enterprise’s core signature.",
         "options": [
           {
             "label": "La Forge, compensate for plasma surges and hold containment steady.",
-            "crew_reply": "Commander La Forge Decoupling.  Feedback rising\u2014but stable.  It\u2019s learning from us.",
+            "crew_reply": "Commander La Forge Decoupling.  Feedback rising—but stable.  It’s learning from us.",
             "next": 2
           },
           {
-            "label": "Crusher, confirm there\u2019s no biological component to the lattice.",
+            "label": "Crusher, confirm there’s no biological component to the lattice.",
             "crew_reply": "Dr. Crusher Negative life-signs, but measurable bio-energy traces throughout the crystal structure.",
             "next": 2
           },
           {
             "label": "Troi, maintain contact with whatever consciousness you sense.",
-            "crew_reply": "Counselor Troi It\u2019s trying to imitate us\u2014like a child repeating a parent\u2019s words.",
+            "crew_reply": "Counselor Troi It’s trying to imitate us—like a child repeating a parent’s words.",
             "next": 2
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, the presence is mirroring our emotions\u2014anticipation, curiosity, even caution.  It wants to communicate but doesn\u2019t understand language.",
+        "line": "Captain, the presence is mirroring our emotions—anticipation, curiosity, even caution.  It wants to communicate but doesn’t understand language.",
         "options": [
           {
             "label": "Data, attempt harmonic translation using subspace resonance mapping.",
@@ -55,8 +55,8 @@
             "next": 3
           },
           {
-            "label": "La Forge, emit a low-energy signal matching its rhythm.  Let\u2019s see if it responds in kind.",
-            "crew_reply": "Commander La Forge Sending pulse...  It\u2019s echoing our signature back with amplitude variation.",
+            "label": "La Forge, emit a low-energy signal matching its rhythm.  Let’s see if it responds in kind.",
+            "crew_reply": "Commander La Forge Sending pulse...  It’s echoing our signature back with amplitude variation.",
             "next": 3
           },
           {
@@ -89,19 +89,19 @@
       },
       {
         "crew": "Dr. Crusher",
-        "line": "Captain, crew EEGs show sympathetic synchronization with the resonance field\u2014no danger yet, but it\u2019s mimicking neural rhythms.",
+        "line": "Captain, crew EEGs show sympathetic synchronization with the resonance field—no danger yet, but it’s mimicking neural rhythms.",
         "options": [
           {
-            "label": "Riker, stand down from red alert. Helm, set course back to Federation space, warp six.",
-            "crew_reply": "Lt. Commander Data Field standing by.  I can neutralize overlap within seconds if required."
+            "label": "Riker, stand down from red alert and set course back to Federation space, warp six.",
+            "crew_reply": "Commander Riker Aye, Captain. Helm responding. Standing down from red alert."
           },
           {
-            "label": "Riker, stand down from red alert. Helm, set course back to Federation space, warp six.",
-            "crew_reply": "Counselor Troi I\u2019m projecting calm.  The resonance is softening."
+            "label": "La Forge, run post-event diagnostics on warp systems and structural integrity fields.",
+            "crew_reply": "Commander La Forge Diagnostics running—warp containment stable, minor phase residue dissipating."
           },
           {
-            "label": "Riker, stand down from red alert. Helm, set course back to Federation space, warp six.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
+            "label": "Data, compile harmonic telemetry for Starfleet Science and close the resonance channel.",
+            "crew_reply": "Lt. Commander Data Transmission complete, Captain. The entity is entering a quiescent phase."
           }
         ]
       }
@@ -129,12 +129,12 @@
       },
       {
         "result": "failure",
-        "text": "A miscalculated counter-frequency merged the echo field with the ship\u2019s warp harmonics, forcing emergency shutdown and temporary loss of warp capability."
+        "text": "A miscalculated counter-frequency merged the echo field with the ship’s warp harmonics, forcing emergency shutdown and temporary loss of warp capability."
       }
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47458.0 \u2014 While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal\u2019s origin appears to exist outside normal space-time.",
+    "starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
     "mission_description": "Upon entering the Neutral Zone, the Enterprise discovers the phased remains of a long-lost Romulan-Klingon outpost trapped within a temporal distortion. Determine the nature of the anomaly, free any surviving consciousness, and avoid diplomatic escalation.",
     "dialogue_tree": [
       {
@@ -143,7 +143,7 @@
         "options": [
           {
             "label": "La Forge, can we synchronize our sensors to a stable frequency?",
-            "crew_reply": "Commander La Forge Working on it. The returns keep splitting\u2014like echoes out of sync with reality.",
+            "crew_reply": "Commander La Forge Working on it. The returns keep splitting—like echoes out of sync with reality.",
             "next": 1
           },
           {
@@ -153,23 +153,23 @@
           },
           {
             "label": "Troi, any sense of life from the signal source?",
-            "crew_reply": "Counselor Troi I sense confusion\u2026 fear repeating itself. It\u2019s as if they relive the same moment endlessly.",
+            "crew_reply": "Counselor Troi I sense confusion… fear repeating itself. It’s as if they relive the same moment endlessly.",
             "next": 1
           }
         ]
       },
       {
         "crew": "Commander La Forge",
-        "line": "I\u2019ve isolated the reflection field. It\u2019s a derelict outpost\u2014Romulan in design, but with Klingon technology integrated into its power matrix.",
+        "line": "I’ve isolated the reflection field. It’s a derelict outpost—Romulan in design, but with Klingon technology integrated into its power matrix.",
         "options": [
           {
-            "label": "Data, estimate the station\u2019s age.",
+            "label": "Data, estimate the station’s age.",
             "crew_reply": "Lt. Commander Data Structural decay indicates at least four decades. The reactor core is still in flux.",
             "next": 2
           },
           {
             "label": "Data, can life exist in such conditions?",
-            "crew_reply": "Lt. Commander Data Possibly, if temporally displaced. But what I\u2019m reading isn\u2019t normal physiology\u2014it\u2019s repetition.",
+            "crew_reply": "Lt. Commander Data Possibly, if temporally displaced. But what I’m reading isn’t normal physiology—it’s repetition.",
             "next": 2
           },
           {
@@ -184,8 +184,8 @@
         "line": "Captain, Klingon data buoys in the vicinity identify this sector as abandoned since the Tomed Incident. Entering further could violate treaty protocols.",
         "options": [
           {
-            "label": "Riker, open a secure channel to Romulan Command\u2014inform them we are responding to a distress signal, not intruding.",
-            "crew_reply": "Commander Riker Message sent. No reply, but they\u2019re listening.",
+            "label": "Riker, open a secure channel to Romulan Command—inform them we are responding to a distress signal, not intruding.",
+            "crew_reply": "Commander Riker Message sent. No reply, but they’re listening.",
             "next": 3
           },
           {
@@ -202,7 +202,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "The emotional field is growing stronger. They\u2019re aware of us\u2014pleading for release. The pain is constant but trapped in time.",
+        "line": "The emotional field is growing stronger. They’re aware of us—pleading for release. The pain is constant but trapped in time.",
         "options": [
           {
             "label": "La Forge, prepare a phased away team transport. Match to their time signature.",
@@ -223,19 +223,19 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Away team reports the station phasing between states\u2014some sections look pristine, others centuries old. Logs alternate between Klingon and Romulan languages.",
+        "line": "Away team reports the station phasing between states—some sections look pristine, others centuries old. Logs alternate between Klingon and Romulan languages.",
         "options": [
           {
-            "label": "Data, compile all mission telemetry and forward to Starfleet Command.",
-            "crew_reply": "Lt. Commander Data It\u2019s a stabilized wormhole generator frozen mid-collapse."
+            "label": "Riker, log our actions and prepare a diplomatic summary for Starfleet Command.",
+            "crew_reply": "Commander Riker Understood. The Romulan signal has ceased—records secured."
           },
           {
-            "label": "Data, compile all mission telemetry and forward to Starfleet Command.",
-            "crew_reply": "Commander La Forge Not safely. One wrong modulation and the entire field implodes."
+            "label": "La Forge, secure the warp core and conduct structural scans for temporal residue.",
+            "crew_reply": "Commander La Forge Scans complete—no residual flux. Systems stable."
           },
           {
-            "label": "Data, compile all mission telemetry and forward to Starfleet Command.",
-            "crew_reply": "Counselor Troi The same presences, fading and returning\u2014like echoes trapped between seconds."
+            "label": "Troi, monitor the crew for any lingering temporal disorientation.",
+            "crew_reply": "Counselor Troi Emotional stability returning to baseline, Captain."
           }
         ]
       }
@@ -259,51 +259,51 @@
       },
       {
         "result": "failure",
-        "text": "A premature withdrawal left the anomaly intact. Weeks later, the same distress signal reappeared\u2014unchanged, endlessly repeating."
+        "text": "A premature withdrawal left the anomaly intact. Weeks later, the same distress signal reappeared—unchanged, endlessly repeating."
       },
       {
         "result": "failure",
-        "text": "Romulan forces arrived during the operation, misinterpreting the Enterprise\u2019s actions as aggression. Diplomatic relations deteriorated sharply."
+        "text": "Romulan forces arrived during the operation, misinterpreting the Enterprise’s actions as aggression. Diplomatic relations deteriorated sharply."
       }
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47458.7 \u2014 We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance\u2014an unsettling indication that the disease itself could be alive.",
-    "mission_description": "The Enterprise arrives at Veridian IV, where a subspace-reactive organism has infected the colony\u2019s population. The pathogen adapts to every treatment and displays patterns of intelligence. Determine its origin, contain the outbreak, and decide whether the lifeform can or should be preserved.",
+    "starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
+    "mission_description": "The Enterprise arrives at Veridian IV, where a subspace-reactive organism has infected the colony’s population. The pathogen adapts to every treatment and displays patterns of intelligence. Determine its origin, contain the outbreak, and decide whether the lifeform can or should be preserved.",
     "dialogue_tree": [
       {
         "crew": "Dr. Crusher",
-        "line": "Captain, the infection on Veridian IV exhibits polaric resonance\u2014part biological, part energy-based. It\u2019s evolving faster than we can analyze.",
+        "line": "Captain, the infection on Veridian IV exhibits polaric resonance—part biological, part energy-based. It’s evolving faster than we can analyze.",
         "options": [
           {
             "label": "Data, identify the source of the resonance.",
-            "crew_reply": "Lt. Commander Data The signal originates from mineral deposits beneath the outpost\u2014rich in polaric crystals used in transporter research.",
+            "crew_reply": "Lt. Commander Data The signal originates from mineral deposits beneath the outpost—rich in polaric crystals used in transporter research.",
             "next": 1
           },
           {
-            "label": "La Forge, analyze the outpost\u2019s power grid for containment failure.",
+            "label": "La Forge, analyze the outpost’s power grid for containment failure.",
             "crew_reply": "Commander La Forge Confirmed. Transporter logs show a phase transition event minutes before first exposure.",
             "next": 1
           },
           {
             "label": "Troi, monitor emotional patterns among the crew and alert me to distress.",
-            "crew_reply": "Counselor Troi Overwhelming fear, but also connection\u2014they\u2019re sensing each other\u2019s thoughts involuntarily.",
+            "crew_reply": "Counselor Troi Overwhelming fear, but also connection—they’re sensing each other’s thoughts involuntarily.",
             "next": 1
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, the pathogen\u2019s genome reorganizes every 43 seconds. It seems to anticipate medical countermeasures.",
+        "line": "Captain, the pathogen’s genome reorganizes every 43 seconds. It seems to anticipate medical countermeasures.",
         "options": [
           {
             "label": "Data, can we create a damping field to slow the adaptation?",
-            "crew_reply": "Lt. Commander Data Possible, but risky. If the organism\u2019s energy matrix collapses too fast, it could kill the hosts.",
+            "crew_reply": "Lt. Commander Data Possible, but risky. If the organism’s energy matrix collapses too fast, it could kill the hosts.",
             "next": 2
           },
           {
             "label": "La Forge, can you isolate the subspace frequency it uses to communicate?",
-            "crew_reply": "Commander La Forge Working on it. The pattern looks deliberate\u2014almost linguistic.",
+            "crew_reply": "Commander La Forge Working on it. The pattern looks deliberate—almost linguistic.",
             "next": 2
           },
           {
@@ -315,11 +315,11 @@
       },
       {
         "crew": "Commander La Forge",
-        "line": "We\u2019ve traced the original contamination to a test transporter pad. Polaric crystals destabilized mid-phase, creating an interdimensional breach.",
+        "line": "We’ve traced the original contamination to a test transporter pad. Polaric crystals destabilized mid-phase, creating an interdimensional breach.",
         "options": [
           {
             "label": "Data, determine whether the organism is native to our dimension.",
-            "crew_reply": "Lt. Commander Data Negative. Its resonance suggests subspace origin\u2014possibly a byproduct of the breach.",
+            "crew_reply": "Lt. Commander Data Negative. Its resonance suggests subspace origin—possibly a byproduct of the breach.",
             "next": 3
           },
           {
@@ -336,7 +336,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, I\u2019m sensing intent. The organism is reaching out\u2014it\u2019s not predatory. It wants to connect, to merge consciousness.",
+        "line": "Captain, I’m sensing intent. The organism is reaching out—it’s not predatory. It wants to connect, to merge consciousness.",
         "options": [
           {
             "label": "Data, can communication harm the hosts?",
@@ -357,19 +357,19 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "The organism is now interfacing with our biofilters. If we don\u2019t act soon, it will adapt to the Enterprise itself.",
+        "line": "The organism is now interfacing with our biofilters. If we don’t act soon, it will adapt to the Enterprise itself.",
         "options": [
           {
-            "label": "La Forge, secure the warp core and initiate post-mission diagnostics.",
-            "crew_reply": "Commander La Forge and Lt. Commander Data Counterwave forming... The energy field is dispersing. Infected vital signs stabilizing."
+            "label": "Crusher, verify all infected colonists remain stable post-neutralization.",
+            "crew_reply": "Dr. Crusher All readings nominal, Captain. The organism is dormant."
           },
           {
-            "label": "La Forge, secure the warp core and initiate post-mission diagnostics.",
-            "crew_reply": "Lt. Worf Ready, Captain. Awaiting authorization to fire."
+            "label": "Data, archive biological telemetry for Starfleet Medical review.",
+            "crew_reply": "Lt. Commander Data Archive complete. Pathogen behavior logged for analysis."
           },
           {
-            "label": "La Forge, secure the warp core and initiate post-mission diagnostics.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
+            "label": "La Forge, run a full biofilter recalibration and secure transporter systems.",
+            "crew_reply": "Commander La Forge Recalibration complete—systems sanitized and operational."
           }
         ]
       }
@@ -381,11 +381,11 @@
       },
       {
         "result": "success",
-        "text": "Dr. Crusher and La Forge\u2019s counter-resonance field restored the infected without loss of life. The organism faded peacefully, leaving behind no trace except a steady polaric pulse in orbit."
+        "text": "Dr. Crusher and La Forge’s counter-resonance field restored the infected without loss of life. The organism faded peacefully, leaving behind no trace except a steady polaric pulse in orbit."
       },
       {
         "result": "success",
-        "text": "The crew\u2019s restraint prevented a tragedy. The subspace entity retreated unharmed, its final transmission interpreted as gratitude."
+        "text": "The crew’s restraint prevented a tragedy. The subspace entity retreated unharmed, its final transmission interpreted as gratitude."
       },
       {
         "result": "failure",
@@ -402,12 +402,12 @@
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47459.3 \u2014 While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
+    "starfleet_message": "Captain’s Log, Stardate 47459.3 — While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
     "mission_description": "An experimental graviton-harvesting operation has triggered the birth of a micro-singularity. The phenomenon is expanding unpredictably, threatening both the mining convoy and nearby subspace lanes. Establish the source, stabilize the field, and decide whether the entity forming within can be reasoned with.",
     "dialogue_tree": [
       {
         "crew": "Commander La Forge",
-        "line": "Captain, sensors confirm a graviton storm centered around the Vallis Prime\u2019s last known coordinates. There\u2019s a massive energy surge\u2014pattern matches an artificial singularity.",
+        "line": "Captain, sensors confirm a graviton storm centered around the Vallis Prime’s last known coordinates. There’s a massive energy surge—pattern matches an artificial singularity.",
         "options": [
           {
             "label": "Data, verify the origin of the singularity.",
@@ -420,8 +420,8 @@
             "next": 1
           },
           {
-            "label": "Troi, can you sense the Vallis Prime\u2019s crew?",
-            "crew_reply": "Counselor Troi Fear\u2014followed by calm, as if their consciousnesses were suddenly\u2026 somewhere else.",
+            "label": "Troi, can you sense the Vallis Prime’s crew?",
+            "crew_reply": "Counselor Troi Fear—followed by calm, as if their consciousnesses were suddenly… somewhere else.",
             "next": 1
           }
         ]
@@ -436,7 +436,7 @@
             "next": 2
           },
           {
-            "label": "Data, any sign of the Vallis Prime crew\u2019s life readings?",
+            "label": "Data, any sign of the Vallis Prime crew’s life readings?",
             "crew_reply": "Lt. Commander Data None in realspace, but faint neural signatures are embedded in the gravimetric field.",
             "next": 2
           },
@@ -449,7 +449,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, the consciousness I sensed isn\u2019t just the Vallis Prime crew\u2014it\u2019s something else. A new awareness forming within the singularity.",
+        "line": "Captain, the consciousness I sensed isn’t just the Vallis Prime crew—it’s something else. A new awareness forming within the singularity.",
         "options": [
           {
             "label": "Data, confirm signs of patterned intelligence in the graviton flux.",
@@ -458,7 +458,7 @@
           },
           {
             "label": "La Forge, can we communicate through harmonic resonance?",
-            "crew_reply": "Commander La Forge Possibly. We\u2019d need to use the deflector as a subspace modulator.",
+            "crew_reply": "Commander La Forge Possibly. We’d need to use the deflector as a subspace modulator.",
             "next": 3
           },
           {
@@ -470,10 +470,10 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "The singularity is reacting to our presence\u2014energy output rising by forty percent. It may be trying to communicate through graviton bursts.",
+        "line": "The singularity is reacting to our presence—energy output rising by forty percent. It may be trying to communicate through graviton bursts.",
         "options": [
           {
-            "label": "La Forge, encode a simple harmonic pattern\u2014an introduction.",
+            "label": "La Forge, encode a simple harmonic pattern—an introduction.",
             "crew_reply": "Commander La Forge Pattern transmitted. The singularity is responding in kind.",
             "next": 4
           },
@@ -491,19 +491,19 @@
       },
       {
         "crew": "Dr. Crusher",
-        "line": "Captain, I\u2019m detecting bio-neural signatures within the graviton field\u2014traces of the Vallis Prime crew. They may be alive inside the anomaly.",
+        "line": "Captain, I’m detecting bio-neural signatures within the graviton field—traces of the Vallis Prime crew. They may be alive inside the anomaly.",
         "options": [
           {
-            "label": "Worf, disengage tactical systems and reconfigure sensors for standard patrol.",
-            "crew_reply": "Lt. Commander Data Low, but not impossible. The event horizon is momentarily stable."
+            "label": "Riker, confirm the convoy’s safe distance and signal mission completion.",
+            "crew_reply": "Commander Riker The convoy is clear and stable, Captain. All ships report green."
           },
           {
-            "label": "Worf, disengage tactical systems and reconfigure sensors for standard patrol.",
-            "crew_reply": "Commander La Forge Calibrating. If it works, the field should collapse safely."
+            "label": "La Forge, initiate graviton dispersal sweep and restore power to deflector control.",
+            "crew_reply": "Commander La Forge Dispersal complete. Field collapse successful."
           },
           {
-            "label": "Worf, disengage tactical systems and reconfigure sensors for standard patrol.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
+            "label": "Data, compile all telemetry on the singularity’s harmonic pattern for Starfleet Science.",
+            "crew_reply": "Lt. Commander Data Data transmission underway. Graviton flux readings archived."
           }
         ]
       }
@@ -511,7 +511,7 @@
     "debriefs": [
       {
         "result": "success",
-        "text": "The Enterprise stabilized the graviton storm and rescued the Vallis Prime. The residual pulse was later confirmed to contain structured data\u2014evidence of a newly born subspace intelligence."
+        "text": "The Enterprise stabilized the graviton storm and rescued the Vallis Prime. The residual pulse was later confirmed to contain structured data—evidence of a newly born subspace intelligence."
       },
       {
         "result": "success",
@@ -519,7 +519,7 @@
       },
       {
         "result": "success",
-        "text": "Communication with the emergent being allowed the Vallis Prime to return safely. The singularity dissipated peacefully, leaving behind a repeating message\u2014'We remember.'"
+        "text": "Communication with the emergent being allowed the Vallis Prime to return safely. The singularity dissipated peacefully, leaving behind a repeating message—'We remember.'"
       },
       {
         "result": "failure",
@@ -531,20 +531,20 @@
       },
       {
         "result": "failure",
-        "text": "Attempts to destroy the singularity ruptured the deflector grid, causing widespread damage aboard the Enterprise. The entity\u2019s fate remains unknown."
+        "text": "Attempts to destroy the singularity ruptured the deflector grid, causing widespread damage aboard the Enterprise. The entity’s fate remains unknown."
       }
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47460.1 \u2014 En route to Starbase 212 for resupply, the Enterprise has intercepted a faint subspace distress beacon of Federation origin. The signal is decades old, yet appears newly transmitted. We are diverting to investigate.",
-    "mission_description": "The Enterprise locates the source of the mysterious beacon\u2014an Oberth-class survey vessel, the USS Callisto, missing for over fifty years. The ship drifts intact, its hull pristine but devoid of any life signs. As the crew investigates, they uncover evidence that the Callisto is trapped within a quantum echo of itself, repeating its final moments in silence.",
+    "starfleet_message": "Captain’s Log, Stardate 47460.1 — En route to Starbase 212 for resupply, the Enterprise has intercepted a faint subspace distress beacon of Federation origin. The signal is decades old, yet appears newly transmitted. We are diverting to investigate.",
+    "mission_description": "The Enterprise locates the source of the mysterious beacon—an Oberth-class survey vessel, the USS Callisto, missing for over fifty years. The ship drifts intact, its hull pristine but devoid of any life signs. As the crew investigates, they uncover evidence that the Callisto is trapped within a quantum echo of itself, repeating its final moments in silence.",
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Captain, the Callisto\u2019s hull shows no sign of decay. Power signatures are active, but no crew detected.",
+        "line": "Captain, the Callisto’s hull shows no sign of decay. Power signatures are active, but no crew detected.",
         "options": [
           {
-            "label": "Data, verify the vessel\u2019s registry and mission history.",
+            "label": "Data, verify the vessel’s registry and mission history.",
             "crew_reply": "Lt. Commander Data Confirmed. The Callisto disappeared in 2321 while mapping subspace filament activity. No further records found.",
             "next": 1
           },
@@ -562,11 +562,11 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, the ship\u2019s systems are operational, but the internal chronometers read inconsistent temporal cycles. Different sections are existing in separate time frames.",
+        "line": "Captain, the ship’s systems are operational, but the internal chronometers read inconsistent temporal cycles. Different sections are existing in separate time frames.",
         "options": [
           {
             "label": "La Forge, can we stabilize the temporal variance for boarding?",
-            "crew_reply": "Commander La Forge I can synchronize a transporter window for about three minutes\u2014long enough for a survey.",
+            "crew_reply": "Commander La Forge I can synchronize a transporter window for about three minutes—long enough for a survey.",
             "next": 2
           },
           {
@@ -583,7 +583,7 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, I\u2019m sensing faint consciousness\u2014echoes of fear and confusion, but no living minds. It\u2019s as though the crew is still there, but displaced.",
+        "line": "Captain, I’m sensing faint consciousness—echoes of fear and confusion, but no living minds. It’s as though the crew is still there, but displaced.",
         "options": [
           {
             "label": "Data, confirm if residual neural energy could persist in subspace.",
@@ -592,7 +592,7 @@
           },
           {
             "label": "La Forge, could the Callisto itself be the source of the beacon?",
-            "crew_reply": "Commander La Forge Yes. The signal\u2019s origin aligns with its main computer core.",
+            "crew_reply": "Commander La Forge Yes. The signal’s origin aligns with its main computer core.",
             "next": 3
           },
           {
@@ -604,7 +604,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Away team reports multiple decks phasing in and out of sync. They can hear voices on open comms\u2014recordings repeating the crew\u2019s last transmissions.",
+        "line": "Away team reports multiple decks phasing in and out of sync. They can hear voices on open comms—recordings repeating the crew’s last transmissions.",
         "options": [
           {
             "label": "Data, confirm if these echoes could harm the team neurologically.",
@@ -612,7 +612,7 @@
             "next": 4
           },
           {
-            "label": "Data, attempt to interface with the Callisto\u2019s main computer.",
+            "label": "Data, attempt to interface with the Callisto’s main computer.",
             "crew_reply": "Lt. Commander Data Access granted. Log fragment reads: 'We crossed the veil... it answered.'",
             "next": 4
           },
@@ -625,19 +625,19 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "The beacon is maintaining the quantum echo\u2014effectively keeping the ship trapped in temporal recursion.",
+        "line": "The beacon is maintaining the quantum echo—effectively keeping the ship trapped in temporal recursion.",
         "options": [
           {
-            "label": "Crusher, complete your medical evaluations and stand down emergency protocols.",
-            "crew_reply": "Commander La Forge Calibrating. We\u2019ll need precise phasing to avoid destabilizing the ship."
+            "label": "Riker, ensure all away teams are recovered and the Callisto’s beacon is deactivated.",
+            "crew_reply": "Commander Riker All teams aboard. The beacon’s gone dark, Captain."
           },
           {
-            "label": "Crusher, complete your medical evaluations and stand down emergency protocols.",
-            "crew_reply": "Counselor Troi A final wave of peace... acceptance. They\u2019re ready to rest, Captain."
+            "label": "La Forge, seal the temporal containment field and secure ship systems.",
+            "crew_reply": "Commander La Forge Containment field sealed—temporal drift stable."
           },
           {
-            "label": "Crusher, complete your medical evaluations and stand down emergency protocols.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
+            "label": "Data, forward the recovered data to Temporal Affairs for analysis.",
+            "crew_reply": "Lt. Commander Data Transmission complete, Captain. No anomalies detected."
           }
         ]
       }
@@ -649,7 +649,7 @@
       },
       {
         "result": "success",
-        "text": "Through careful deflector modulation, the crew resolved a half-century-old disappearance and freed the Callisto from an endless loop. The mission stands as a reminder of exploration\u2019s risks."
+        "text": "Through careful deflector modulation, the crew resolved a half-century-old disappearance and freed the Callisto from an endless loop. The mission stands as a reminder of exploration’s risks."
       },
       {
         "result": "failure",
@@ -661,13 +661,13 @@
       },
       {
         "result": "failure",
-        "text": "A decision to withdraw early left the Callisto trapped. The haunting signal still broadcasts faintly across the sector\u2014unchanged, timeless, unanswered."
+        "text": "A decision to withdraw early left the Callisto trapped. The haunting signal still broadcasts faintly across the sector—unchanged, timeless, unanswered."
       }
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47461.7 \u2014 The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure \u2014 a phenomenon the archaeological team has named 'The Gate.'",
-    "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby \u2014 reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
+    "starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
+    "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby — reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
@@ -680,7 +680,7 @@
           },
           {
             "label": "La Forge, confirm whether the field poses a danger to the excavation team.",
-            "crew_reply": "Commander La Forge Not yet, but readings are climbing. Whatever it\u2019s doing, it\u2019s building toward something.",
+            "crew_reply": "Commander La Forge Not yet, but readings are climbing. Whatever it’s doing, it’s building toward something.",
             "next": 1
           },
           {
@@ -692,11 +692,11 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, the field intensity is now projecting visual forms \u2014 humanoid silhouettes resembling our own crew.",
+        "line": "Captain, the field intensity is now projecting visual forms — humanoid silhouettes resembling our own crew.",
         "options": [
           {
             "label": "Troi, can you sense anything from these apparitions?",
-            "crew_reply": "Counselor Troi Confusion, awareness, and something else \u2014 recognition. They know us, or think they do.",
+            "crew_reply": "Counselor Troi Confusion, awareness, and something else — recognition. They know us, or think they do.",
             "next": 2
           },
           {
@@ -713,16 +713,16 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, each apparition mirrors one of us \u2014 emotionally and mentally, but inverted. Their sense of self feels fractured, as if drawn from memory rather than matter.",
+        "line": "Captain, each apparition mirrors one of us — emotionally and mentally, but inverted. Their sense of self feels fractured, as if drawn from memory rather than matter.",
         "options": [
           {
             "label": "Data, analyze the photonic density of the projections.",
-            "crew_reply": "Lt. Commander Data They are composed of phased energy similar to transporter buffers \u2014 but encoded with neural patterns.",
+            "crew_reply": "Lt. Commander Data They are composed of phased energy similar to transporter buffers — but encoded with neural patterns.",
             "next": 3
           },
           {
             "label": "Crusher, could this represent a form of cellular duplication?",
-            "crew_reply": "Dr. Crusher Unlikely. There\u2019s no biological matrix \u2014 just light and thought.",
+            "crew_reply": "Dr. Crusher Unlikely. There’s no biological matrix — just light and thought.",
             "next": 3
           },
           {
@@ -734,16 +734,16 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "One of the reflections \u2014 yours, Captain \u2014 has stepped through the barrier. It\u2019s\u2026 solidifying.",
+        "line": "One of the reflections — yours, Captain — has stepped through the barrier. It’s… solidifying.",
         "options": [
           {
             "label": "Riker, coordinate with security to contain it without aggression.",
-            "crew_reply": "Commander Riker Aye. The reflection seems calm \u2014 even curious.",
+            "crew_reply": "Commander Riker Aye. The reflection seems calm — even curious.",
             "next": 4
           },
           {
             "label": "Data, scan for differences between myself and the duplicate.",
-            "crew_reply": "Lt. Commander Data Physiologically identical. Neural signatures diverge \u2014 his memory path diverged decades ago.",
+            "crew_reply": "Lt. Commander Data Physiologically identical. Neural signatures diverge — his memory path diverged decades ago.",
             "next": 4
           },
           {
@@ -755,19 +755,19 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, the duplicate claims to be you \u2014 but from a universe where the Federation fell to war with the Romulans. He says the Gate preserved his consciousness when his world died.",
+        "line": "Captain, the duplicate claims to be you — but from a universe where the Federation fell to war with the Romulans. He says the Gate preserved his consciousness when his world died.",
         "options": [
           {
-            "label": "Troi, ensure the away team receives full psychological evaluation.",
-            "crew_reply": "Counselor Troi He believes every word. He\u2019s not lying, Captain \u2014 he\u2019s remembering."
+            "label": "Riker, oversee shutdown of all containment fields around the Acheron Gate site.",
+            "crew_reply": "Commander Riker Site secure, Captain. Energy readings dropping to zero."
           },
           {
-            "label": "Troi, ensure the away team receives full psychological evaluation.",
-            "crew_reply": "Lt. Commander Data Negative. Its energy output is degrading \u2014 he will destabilize when the resonance collapses."
+            "label": "Data, record final phase variance of the Gate structure for Starfleet archives.",
+            "crew_reply": "Lt. Commander Data Variance logged. No further photonic activity detected."
           },
           {
-            "label": "Troi, ensure the away team receives full psychological evaluation.",
-            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely."
+            "label": "Troi, check in with the archaeological team and assess their psychological condition.",
+            "crew_reply": "Counselor Troi They’re shaken but unharmed. Processing what they witnessed."
           }
         ]
       }
@@ -779,7 +779,7 @@
       },
       {
         "result": "success",
-        "text": "A stabilized energy field preserved the duplicate long enough for study before the Gate dissolved. Starfleet confirmed his genetic match to Captain Picard \u2014 from an alternate timeline."
+        "text": "A stabilized energy field preserved the duplicate long enough for study before the Gate dissolved. Starfleet confirmed his genetic match to Captain Picard — from an alternate timeline."
       },
       {
         "result": "failure",
@@ -787,7 +787,7 @@
       },
       {
         "result": "failure",
-        "text": "An attempt to preserve the duplicate\u2019s pattern corrupted transporter buffers, forcing a full system purge. The entity disintegrated in a burst of coherent light."
+        "text": "An attempt to preserve the duplicate’s pattern corrupted transporter buffers, forcing a full system purge. The entity disintegrated in a burst of coherent light."
       },
       {
         "result": "failure",
@@ -796,20 +796,20 @@
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47462.4 \u2014 The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions\u2014and dozens of human life-signs within a sealed structure.",
-    "mission_description": "The Enterprise discovers a surviving human enclave beneath a massive containment dome on Calderis IV. The inhabitants\u2014children and adolescents\u2014have lived for generations under the control of an autonomous environmental computer, worshiping its maintenance drones as divine beings. The crew must navigate faith, fear, and failing systems to free them before the dome collapses.",
+    "starfleet_message": "Captain’s Log, Stardate 47462.4 — The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions—and dozens of human life-signs within a sealed structure.",
+    "mission_description": "The Enterprise discovers a surviving human enclave beneath a massive containment dome on Calderis IV. The inhabitants—children and adolescents—have lived for generations under the control of an autonomous environmental computer, worshiping its maintenance drones as divine beings. The crew must navigate faith, fear, and failing systems to free them before the dome collapses.",
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Captain, visual scans confirm a transparent dome nearly two kilometers wide. Life signs concentrated inside. The rest of the planet\u2019s surface appears barren but stable.",
+        "line": "Captain, visual scans confirm a transparent dome nearly two kilometers wide. Life signs concentrated inside. The rest of the planet’s surface appears barren but stable.",
         "options": [
           {
-            "label": "Data, analyze the dome\u2019s energy source.",
+            "label": "Data, analyze the dome’s energy source.",
             "crew_reply": "Lt. Commander Data The containment field is powered by an underground fusion reactor, operating at minimal output for one hundred forty-seven years.",
             "next": 1
           },
           {
-            "label": "La Forge, confirm if it\u2019s safe to transport inside.",
+            "label": "La Forge, confirm if it’s safe to transport inside.",
             "crew_reply": "Commander La Forge Atmospheric conditions inside the dome are Earth-normal, Captain. Transporters will be accurate to within half a meter.",
             "next": 1
           },
@@ -822,11 +822,11 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, I\u2019m sensing apprehension and reverence from within. Whoever they are, they believe this place is sacred.",
+        "line": "Captain, I’m sensing apprehension and reverence from within. Whoever they are, they believe this place is sacred.",
         "options": [
           {
             "label": "Riker, lead an away team with Data and Data.",
-            "crew_reply": "Commander Riker Understood. We\u2019ll maintain low posture\u2014no phasers drawn.",
+            "crew_reply": "Commander Riker Understood. We’ll maintain low posture—no phasers drawn.",
             "next": 2
           },
           {
@@ -835,7 +835,7 @@
             "next": 2
           },
           {
-            "label": "Troi, focus on the alien vessel\u2019s command presence and report any instability.",
+            "label": "Troi, focus on the alien vessel’s command presence and report any instability.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -843,15 +843,15 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, we\u2019ve made contact. The inhabitants are all children\u2014none older than their mid-teens. They refer to themselves as the 'Heirs of the First Light.'",
+        "line": "Captain, we’ve made contact. The inhabitants are all children—none older than their mid-teens. They refer to themselves as the 'Heirs of the First Light.'",
         "options": [
           {
             "label": "Troi, maintain empathic contact with the envoy and warn me of any aggression.",
-            "crew_reply": "Counselor Troi Fear mixed with awe. They think we\u2019re the return of mythic ancestors.",
+            "crew_reply": "Counselor Troi Fear mixed with awe. They think we’re the return of mythic ancestors.",
             "next": 3
           },
           {
-            "label": "Data, access the dome\u2019s computer network discreetly.",
+            "label": "Data, access the dome’s computer network discreetly.",
             "crew_reply": "Lt. Commander Data Access granted. The environmental computer controls all functions, including population management.",
             "next": 3
           },
@@ -868,12 +868,12 @@
         "options": [
           {
             "label": "La Forge, determine if the directive can be overridden.",
-            "crew_reply": "Commander La Forge Maybe, but there\u2019s a problem. The system\u2019s failing logic core interprets us as contaminants. It\u2019s sealing the dome.",
+            "crew_reply": "Commander La Forge Maybe, but there’s a problem. The system’s failing logic core interprets us as contaminants. It’s sealing the dome.",
             "next": 4
           },
           {
-            "label": "Data, what happens if the dome\u2019s power fails?",
-            "crew_reply": "Lt. Commander Data The children\u2019s habitat would collapse. Temperature and pressure would drop below survivable levels within minutes.",
+            "label": "Data, what happens if the dome’s power fails?",
+            "crew_reply": "Lt. Commander Data The children’s habitat would collapse. Temperature and pressure would drop below survivable levels within minutes.",
             "next": 4
           },
           {
@@ -885,19 +885,19 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "The oldest child, Thalen, believes the 'Voice of the Sky'\u2014their computer\u2014protects them from a poisonous world. He\u2019s terrified of our interference.",
+        "line": "The oldest child, Thalen, believes the 'Voice of the Sky'—their computer—protects them from a poisonous world. He’s terrified of our interference.",
         "options": [
           {
-            "label": "Riker, coordinate repairs and restore power distribution shipwide.",
-            "crew_reply": "Thalen (via comm) You speak as the Founders did! You\u2019ll bring the fire back!"
+            "label": "Riker, coordinate evacuation and relocate the Calderis survivors to the surface.",
+            "crew_reply": "Commander Riker Evacuation complete, Captain. All survivors accounted for."
           },
           {
-            "label": "Riker, coordinate repairs and restore power distribution shipwide.",
-            "crew_reply": "Lt. Commander Data Display ready, Captain. Atmospheric readings show clear skies and breathable air."
+            "label": "La Forge, disable the Guardian’s remaining control nodes and stabilize the reactor core.",
+            "crew_reply": "Commander La Forge Nodes offline—core stable and cooling."
           },
           {
-            "label": "Riker, coordinate repairs and restore power distribution shipwide.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
+            "label": "Troi, maintain contact with Thalen and ensure transition proceeds calmly.",
+            "crew_reply": "Counselor Troi The children are safe and cooperative, Captain."
           }
         ]
       }
@@ -905,7 +905,7 @@
     "debriefs": [
       {
         "result": "success",
-        "text": "The crew successfully shut down the Central Guardian and freed the survivors. The children of Calderis IV were relocated to the planet\u2019s surface under Federation supervision. The site will remain a monument to endurance and rediscovery."
+        "text": "The crew successfully shut down the Central Guardian and freed the survivors. The children of Calderis IV were relocated to the planet’s surface under Federation supervision. The site will remain a monument to endurance and rediscovery."
       },
       {
         "result": "success",
@@ -913,7 +913,7 @@
       },
       {
         "result": "failure",
-        "text": "The Guardian\u2019s defense systems activated prematurely, venting the dome and killing most inhabitants. The few survivors were rescued, but the loss weighed heavily upon the crew."
+        "text": "The Guardian’s defense systems activated prematurely, venting the dome and killing most inhabitants. The few survivors were rescued, but the loss weighed heavily upon the crew."
       },
       {
         "result": "failure",
@@ -926,21 +926,21 @@
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47464.9 \u2014 While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself\u2014centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
-    "mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s\u2014Earth\u2019s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man\u2019s humanity.",
+    "starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
+    "mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
     "dialogue_tree": [
       {
         "crew": "Commander La Forge",
-        "line": "Captain, the probe is definitely from the future\u201429th century. Its temporal matrix is leaking chroniton radiation into subspace, creating an echo that intersects 21st-century Earth.",
+        "line": "Captain, the probe is definitely from the future—29th century. Its temporal matrix is leaking chroniton radiation into subspace, creating an echo that intersects 21st-century Earth.",
         "options": [
           {
-            "label": "Data, can we isolate the echo\u2019s frequency without destabilizing the probe?",
+            "label": "Data, can we isolate the echo’s frequency without destabilizing the probe?",
             "crew_reply": "Lt. Commander Data Possibly, but any interference could trigger a temporal feedback loop.",
             "next": 1
           },
           {
             "label": "Riker, set up a Level-1 temporal containment field around the ship.",
-            "crew_reply": "Commander Riker Understood. We\u2019ll keep the anomaly at a safe distance, for now.",
+            "crew_reply": "Commander Riker Understood. We’ll keep the anomaly at a safe distance, for now.",
             "next": 1
           },
           {
@@ -952,7 +952,7 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, an object from the 21st century is approaching\u2014an atmospheric fighter jet. Its trajectory intersects the probe\u2019s distortion field.",
+        "line": "Captain, an object from the 21st century is approaching—an atmospheric fighter jet. Its trajectory intersects the probe’s distortion field.",
         "options": [
           {
             "label": "Worf, prepare to engage tractor beam to prevent collision.",
@@ -961,7 +961,7 @@
           },
           {
             "label": "La Forge, can we compensate for the distortion?",
-            "crew_reply": "Commander La Forge Trying... the pilot\u2019s ejecting\u2014he\u2019s caught in the field!",
+            "crew_reply": "Commander La Forge Trying... the pilot’s ejecting—he’s caught in the field!",
             "next": 2
           },
           {
@@ -973,11 +973,11 @@
       },
       {
         "crew": "Dr. Crusher",
-        "line": "We\u2019ve beamed him aboard. He\u2019s unconscious, early 30s, wearing 21st-century flight gear. Pulse strong. He\u2019s human.",
+        "line": "We’ve beamed him aboard. He’s unconscious, early 30s, wearing 21st-century flight gear. Pulse strong. He’s human.",
         "options": [
           {
-            "label": "Troi, prepare to counsel him when he awakens. He\u2019ll be frightened.",
-            "crew_reply": "Counselor Troi Understood. He\u2019ll need a calm explanation\u2014and careful omissions.",
+            "label": "Troi, prepare to counsel him when he awakens. He’ll be frightened.",
+            "crew_reply": "Counselor Troi Understood. He’ll need a calm explanation—and careful omissions.",
             "next": 3
           },
           {
@@ -998,12 +998,12 @@
         "options": [
           {
             "label": "Picard: 'You are safe aboard a scientific vessel. We mean you no harm.'",
-            "crew_reply": "Major Keller Scientific? You don\u2019t look like any country\u2019s scientists I know.",
+            "crew_reply": "Major Keller Scientific? You don’t look like any country’s scientists I know.",
             "next": 4
           },
           {
             "label": "Troi: 'You were caught in an experimental energy field. Try to stay calm.'",
-            "crew_reply": "Major Keller I\u2019ve seen storms, ma\u2019am. None that put me in orbit.",
+            "crew_reply": "Major Keller I’ve seen storms, ma’am. None that put me in orbit.",
             "next": 4
           },
           {
@@ -1015,19 +1015,19 @@
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, the probe\u2019s containment matrix is collapsing. It will trigger a chronometric implosion that could annihilate this version of Earth.",
+        "line": "Captain, the probe’s containment matrix is collapsing. It will trigger a chronometric implosion that could annihilate this version of Earth.",
         "options": [
           {
-            "label": "Data, archive all scientific findings for Command review.",
-            "crew_reply": "Commander La Forge Only if we anchor the ship here. We\u2019d never escape the temporal phase."
+            "label": "Riker, document all temporal interactions and file a classified report for Temporal Affairs.",
+            "crew_reply": "Commander Riker Report prepared, Captain. No paradox signatures detected."
           },
           {
-            "label": "Data, archive all scientific findings for Command review.",
-            "crew_reply": "Lt. Commander Data Limited. We could redirect its energy output\u2014but we need precise 21st-century orbital data to do it."
+            "label": "La Forge, verify probe containment integrity and purge residual chroniton buildup.",
+            "crew_reply": "Commander La Forge Containment sealed. Chroniton residue cleared."
           },
           {
-            "label": "Data, archive all scientific findings for Command review.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
+            "label": "Data, archive the mission data under Temporal Security classification Alpha-One.",
+            "crew_reply": "Lt. Commander Data Archive complete. Temporal record secured."
           }
         ]
       }
@@ -1035,7 +1035,7 @@
     "debriefs": [
       {
         "result": "success",
-        "text": "The Enterprise stabilized the 29th-century probe and returned Major Keller safely to his own time. No measurable temporal disruption was detected. His brief contact may become the seed of humanity\u2019s renewed faith in the stars."
+        "text": "The Enterprise stabilized the 29th-century probe and returned Major Keller safely to his own time. No measurable temporal disruption was detected. His brief contact may become the seed of humanity’s renewed faith in the stars."
       },
       {
         "result": "success",
@@ -1043,7 +1043,7 @@
       },
       {
         "result": "failure",
-        "text": "The probe\u2019s collapse created a minor paradox. Major Keller\u2019s craft vanished permanently, leaving only his flight recorder. His last transmission\u2014'I saw the future'\u2014became one of history\u2019s unsolved mysteries."
+        "text": "The probe’s collapse created a minor paradox. Major Keller’s craft vanished permanently, leaving only his flight recorder. His last transmission—'I saw the future'—became one of history’s unsolved mysteries."
       },
       {
         "result": "failure",
@@ -1056,21 +1056,21 @@
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47466.2 \u2014 The Enterprise has entered orbit of Velara III, a pre-warp world roughly comparable to Earth\u2019s mid-19th century. Industrialization, nation-states, and primitive aviation are emerging, but no warp capability exists. Long-range sensors have detected a small group of humanoid biosignatures whose biochemical profiles are nearly identical to Federation human norms. Traces of 23rd-century alloy and residual energy suggest they may be descendants of a lost Starfleet crew. Starfleet Command has ordered strict adherence to the Prime Directive.",
-    "mission_description": "Velara III faces a coming geological disaster that threatens millions of pre-warp inhabitants. Descendants of a lost 23rd-century science vessel have lived among them for generations, accelerating their progress and creating a mythology around the 'Sky Born.' The Enterprise must decide whether to act and save them or preserve the Prime Directive\u2014even at the cost of countless lives.",
+    "starfleet_message": "Captain’s Log, Stardate 47466.2 — The Enterprise has entered orbit of Velara III, a pre-warp world roughly comparable to Earth’s mid-19th century. Industrialization, nation-states, and primitive aviation are emerging, but no warp capability exists. Long-range sensors have detected a small group of humanoid biosignatures whose biochemical profiles are nearly identical to Federation human norms. Traces of 23rd-century alloy and residual energy suggest they may be descendants of a lost Starfleet crew. Starfleet Command has ordered strict adherence to the Prime Directive.",
+    "mission_description": "Velara III faces a coming geological disaster that threatens millions of pre-warp inhabitants. Descendants of a lost 23rd-century science vessel have lived among them for generations, accelerating their progress and creating a mythology around the 'Sky Born.' The Enterprise must decide whether to act and save them or preserve the Prime Directive—even at the cost of countless lives.",
     "dialogue_tree": [
       {
         "crew": "Commander Riker",
-        "line": "Captain, we\u2019ve confirmed humanoid life readings in the northern highlands. Their genetic makeup is almost identical to ours, with only minor isotopic differences.",
+        "line": "Captain, we’ve confirmed humanoid life readings in the northern highlands. Their genetic makeup is almost identical to ours, with only minor isotopic differences.",
         "options": [
           {
             "label": "Data, analyze local culture and development stage.",
-            "crew_reply": "Lt. Commander Data Industrial age, approximately equivalent to Earth\u2019s 1860s. Steam infrastructure and limited chemical refinement. No sign of warp theory or subspace technology.",
+            "crew_reply": "Lt. Commander Data Industrial age, approximately equivalent to Earth’s 1860s. Steam infrastructure and limited chemical refinement. No sign of warp theory or subspace technology.",
             "next": 1
           },
           {
             "label": "La Forge, check for any artificial energy sources.",
-            "crew_reply": "Commander La Forge There\u2019s an energy field consistent with old Starfleet composites\u2014radiation decay matches materials from the early 23rd century.",
+            "crew_reply": "Commander La Forge There’s an energy field consistent with old Starfleet composites—radiation decay matches materials from the early 23rd century.",
             "next": 1
           },
           {
@@ -1082,11 +1082,11 @@
       },
       {
         "crew": "Counselor Troi",
-        "line": "Captain, I\u2019m sensing strong emotions from the highlands\u2014guilt, grief, and resignation. Not from the natives. From the near-humanoids.",
+        "line": "Captain, I’m sensing strong emotions from the highlands—guilt, grief, and resignation. Not from the natives. From the near-humanoids.",
         "options": [
           {
             "label": "Data, correlate the subspace harmonics and display the projection.",
-            "crew_reply": "Lt. Commander Data Radiation exposure and chronic malnutrition. Without help, they won\u2019t last much longer.",
+            "crew_reply": "Lt. Commander Data Radiation exposure and chronic malnutrition. Without help, they won’t last much longer.",
             "next": 2
           },
           {
@@ -1095,7 +1095,7 @@
             "next": 2
           },
           {
-            "label": "Troi, focus on the alien vessel\u2019s command presence and report any instability.",
+            "label": "Troi, focus on the alien vessel’s command presence and report any instability.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -1103,7 +1103,7 @@
       },
       {
         "crew": "Commander La Forge",
-        "line": "Captain, there\u2019s something else. The Prospero\u2019s descendants have altered local culture. The Velarans call them 'the Sky Born'\u2014they\u2019ve been teaching medicine and irrigation for generations.",
+        "line": "Captain, there’s something else. The Prospero’s descendants have altered local culture. The Velarans call them 'the Sky Born'—they’ve been teaching medicine and irrigation for generations.",
         "options": [
           {
             "label": "Worf, remind us of the Prime Directive implications.",
@@ -1111,7 +1111,7 @@
             "next": 3
           },
           {
-            "label": "Troi, what\u2019s the emotional tone of the Velarans toward these Sky Born?",
+            "label": "Troi, what’s the emotional tone of the Velarans toward these Sky Born?",
             "crew_reply": "Counselor Troi Reverence. Devotion. They see them as divine protectors.",
             "next": 3
           },
@@ -1124,7 +1124,7 @@
       },
       {
         "crew": "Commander La Forge",
-        "line": "Captain, seismic scans show pressure building under the Velaran capital. It\u2019s not volcanic\u2014it\u2019s plasma gas venting through tectonic fractures. When it ignites, the whole valley goes up.",
+        "line": "Captain, seismic scans show pressure building under the Velaran capital. It’s not volcanic—it’s plasma gas venting through tectonic fractures. When it ignites, the whole valley goes up.",
         "options": [
           {
             "label": "Data, estimate casualties if the eruption occurs.",
@@ -1132,8 +1132,8 @@
             "next": 4
           },
           {
-            "label": "Crusher, what\u2019s our medical capacity for an event like that?",
-            "crew_reply": "Dr. Crusher It wouldn\u2019t matter. We can\u2019t expose ourselves to beam up thousands without rewriting their entire history.",
+            "label": "Crusher, what’s our medical capacity for an event like that?",
+            "crew_reply": "Dr. Crusher It wouldn’t matter. We can’t expose ourselves to beam up thousands without rewriting their entire history.",
             "next": 4
           },
           {
@@ -1145,19 +1145,19 @@
       },
       {
         "crew": "Mara Tallen",
-        "line": "This is Mara Tallen, lineage of the USS Prospero. To any Federation vessel receiving this\u2014do not interfere. You may recover us, but leave the Velarans to their fate.",
+        "line": "This is Mara Tallen, lineage of the USS Prospero. To any Federation vessel receiving this—do not interfere. You may recover us, but leave the Velarans to their fate.",
         "options": [
           {
-            "label": "Worf, signal the Klingon vessel our thanks and terminate red alert.",
-            "crew_reply": "Mara Tallen Every time we saved them, progress stopped. They no longer ask questions\u2014they wait for miracles. Don\u2019t make it worse."
+            "label": "Riker, record our encounter and confirm the Enterprise’s reintegration into present time.",
+            "crew_reply": "Commander Riker Chronometers synchronized. We’re back where we belong, Captain."
           },
           {
-            "label": "Worf, signal the Klingon vessel our thanks and terminate red alert.",
-            "crew_reply": "Counselor Troi She believes she\u2019s protecting them from dependence. But she\u2019s terrified of what comes next."
+            "label": "Data, verify no contamination of Klingon historical record.",
+            "crew_reply": "Lt. Commander Data Historical alignment preserved. No temporal anomalies detected."
           },
           {
-            "label": "Worf, signal the Klingon vessel our thanks and terminate red alert.",
-            "crew_reply": "Mara Tallen Acknowledged, Captain. Monitoring closely."
+            "label": "Worf, transmit a silent honor code to commemorate the Klingon captain’s final battle.",
+            "crew_reply": "Lt. Worf Signal sent. His name will be sung among the stars, Captain."
           }
         ]
       }
@@ -1169,7 +1169,7 @@
       },
       {
         "result": "success",
-        "text": "Picard\u2019s decision to act without revealing the Enterprise preserved both life and cultural integrity. Starfleet Command later classified the incident as a 'silent containment'\u2014a Prime Directive exception performed without trace."
+        "text": "Picard’s decision to act without revealing the Enterprise preserved both life and cultural integrity. Starfleet Command later classified the incident as a 'silent containment'—a Prime Directive exception performed without trace."
       },
       {
         "result": "failure",
@@ -1186,7 +1186,7 @@
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47632.4 \u2014 While surveying subspace fracture lines near the Khitomer Expanse, the Enterprise was struck by a concentrated tachyon shear and forced through an unstable temporal fold. We have emerged in what appears to be the mid-22nd century \u2014 over a century before the Federation-Klingon d\u00e9tente. Long-range sensors detect a heavily damaged Klingon D5-class battlecruiser adrift on minimal power. Its captain believes we are spirits from Sto\u2019Vo\u2019Kor and demands we witness his final battle. I must decide how to respond without altering history itself.",
+    "starfleet_message": "Captain’s Log, Stardate 47632.4 — While surveying subspace fracture lines near the Khitomer Expanse, the Enterprise was struck by a concentrated tachyon shear and forced through an unstable temporal fold. We have emerged in what appears to be the mid-22nd century — over a century before the Federation-Klingon détente. Long-range sensors detect a heavily damaged Klingon D5-class battlecruiser adrift on minimal power. Its captain believes we are spirits from Sto’Vo’Kor and demands we witness his final battle. I must decide how to respond without altering history itself.",
     "mission_description": "The Enterprise-D is thrown backward in time and encounters a mortally wounded 22nd-century Klingon warship. The crew must balance temporal non-interference against Klingon honor, stabilize the situation just long enough to escape, and prevent timeline contamination.",
     "dialogue_tree": [
       {
@@ -1200,19 +1200,19 @@
           },
           {
             "label": "La Forge, analyze the temporal fold that brought us here.",
-            "crew_reply": "Commander La Forge It\u2019s a collapsing tachyon filament. It pulled us through and sealed behind us \u2014 reopening it won\u2019t be easy.",
+            "crew_reply": "Commander La Forge It’s a collapsing tachyon filament. It pulled us through and sealed behind us — reopening it won’t be easy.",
             "next": 1
           },
           {
-            "label": "Worf, identify that vessel\u2019s condition.",
-            "crew_reply": "Lt. Worf Their core is unstable. Life-signs show heavy radiation exposure. Their captain lives \u2014 barely \u2014 and broadcasts to 'the watchers of Sto\u2019Vo\u2019Kor.'",
+            "label": "Worf, identify that vessel’s condition.",
+            "crew_reply": "Lt. Worf Their core is unstable. Life-signs show heavy radiation exposure. Their captain lives — barely — and broadcasts to 'the watchers of Sto’Vo’Kor.'",
             "next": 1
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, the Klingon ship is insisting on a response. Their commander demands that we acknowledge his last stand. He believes we\u2019re not\u2026 alive.",
+        "line": "Captain, the Klingon ship is insisting on a response. Their commander demands that we acknowledge his last stand. He believes we’re not… alive.",
         "options": [
           {
             "label": "On screen.",
@@ -1226,7 +1226,7 @@
           },
           {
             "label": "Hold position. Observe before responding.",
-            "crew_reply": "Lt. Worf Captain, to ignore a dying Klingon\u2019s challenge is to deny him honor.",
+            "crew_reply": "Lt. Worf Captain, to ignore a dying Klingon’s challenge is to deny him honor.",
             "next": 2
           }
         ]
@@ -1237,7 +1237,7 @@
         "options": [
           {
             "label": "Worf, suggest an honorable course.",
-            "crew_reply": "Lt. Worf If we stabilize their core long enough for one last volley, they die as warriors \u2014 not as victims.",
+            "crew_reply": "Lt. Worf If we stabilize their core long enough for one last volley, they die as warriors — not as victims.",
             "next": 3
           },
           {
@@ -1247,18 +1247,18 @@
           },
           {
             "label": "Crusher, humanitarian alternatives?",
-            "crew_reply": "Dr. Crusher Their cells are saturated with theta radiation. Even if transported, they\u2019d survive minutes \u2014 and know they were aboard an impossible ship.",
+            "crew_reply": "Dr. Crusher Their cells are saturated with theta radiation. Even if transported, they’d survive minutes — and know they were aboard an impossible ship.",
             "next": 3
           }
         ]
       },
       {
         "crew": "Lt. Commander Data",
-        "line": "Captain, the Klingon warp core will breach in seventy-eight seconds. The shockwave will destabilize the tachyon filament. If it collapses while we remain displaced, we may be stranded \u2014 or erased.",
+        "line": "Captain, the Klingon warp core will breach in seventy-eight seconds. The shockwave will destabilize the tachyon filament. If it collapses while we remain displaced, we may be stranded — or erased.",
         "options": [
           {
-            "label": "La Forge, initiate the remote power transfer \u2014 hold them together long enough to complete their last volley.",
-            "crew_reply": "Commander La Forge Channel open. Feeding energy into their core\u2026 containment stabilizing at minimal tolerance.",
+            "label": "La Forge, initiate the remote power transfer — hold them together long enough to complete their last volley.",
+            "crew_reply": "Commander La Forge Channel open. Feeding energy into their core… containment stabilizing at minimal tolerance.",
             "next": 4
           },
           {
@@ -1267,7 +1267,7 @@
             "next": 4
           },
           {
-            "label": "Data, prepare to synchronize the detonation vector \u2014 we\u2019ll ride the shockwave back.",
+            "label": "Data, prepare to synchronize the detonation vector — we’ll ride the shockwave back.",
             "crew_reply": "Lt. Commander Data Adjusting harmonic phase to our quantum signature. Probability of return: sixty-three percent.",
             "next": 4
           }
@@ -1275,19 +1275,19 @@
       },
       {
         "crew": "Lt. Worf",
-        "line": "The Klingon captain transmits his final words: 'We die as warriors \u2014 our deeds remembered!' Their core is reaching overload.",
+        "line": "The Klingon captain transmits his final words: 'We die as warriors — our deeds remembered!' Their core is reaching overload.",
         "options": [
           {
-            "label": "La Forge, stabilize the temporal drive field and set course for home.",
-            "crew_reply": "Lt. Worf The Klingon ship fires one last volley into the void before erupting in light. The shockwave folds space around us \u2014 time fractures and reforms."
+            "label": "Riker, confirm atmospheric stabilization and disengage cloaking measures.",
+            "crew_reply": "Commander Riker Atmospheric readings normal. Our presence undetected, Captain."
           },
           {
-            "label": "La Forge, stabilize the temporal drive field and set course for home.",
-            "crew_reply": "Commander La Forge Re-channeling the blast vector \u2014 the filament\u2019s reopening! The Enterprise is being pulled forward in time!"
+            "label": "La Forge, secure the transporter systems and isolate residual radiation traces.",
+            "crew_reply": "Commander La Forge Containment complete—grid balance restored."
           },
           {
-            "label": "La Forge, stabilize the temporal drive field and set course for home.",
-            "crew_reply": "Commander Riker The ship bucks against the distortion \u2014 then the stars realign. Chronometers re-synchronize to present day, Captain."
+            "label": "Troi, monitor for emotional aftereffects among crew following the Prime Directive decision.",
+            "crew_reply": "Counselor Troi The crew remains contemplative but composed, Captain."
           }
         ]
       }
@@ -1295,19 +1295,19 @@
     "debriefs": [
       {
         "result": "success",
-        "text": "The Enterprise returned to its own century with minimal damage. Klingon records from this era still describe a D5 cruiser whose final stand was \u2018witnessed by warriors beyond death,\u2019 confirming the timeline remains intact."
+        "text": "The Enterprise returned to its own century with minimal damage. Klingon records from this era still describe a D5 cruiser whose final stand was ‘witnessed by warriors beyond death,’ confirming the timeline remains intact."
       },
       {
         "result": "success",
-        "text": "Stabilizing the Klingon warp core long enough for their captain\u2019s final volley preserved both his honor and the Prime Directive. The tachyon fold collapsed, propelling the Enterprise home with no measurable paradox."
+        "text": "Stabilizing the Klingon warp core long enough for their captain’s final volley preserved both his honor and the Prime Directive. The tachyon fold collapsed, propelling the Enterprise home with no measurable paradox."
       },
       {
         "result": "success",
-        "text": "Using the detonation to re-open the filament succeeded. Worf later confirmed that ancient Klingon songs mention \u2018the Silent Witnesses,\u2019 implying history always included the Enterprise\u2019s unseen presence."
+        "text": "Using the detonation to re-open the filament succeeded. Worf later confirmed that ancient Klingon songs mention ‘the Silent Witnesses,’ implying history always included the Enterprise’s unseen presence."
       },
       {
         "result": "failure",
-        "text": "Attempting to transport survivors created timeline contamination. Klingon survivors reported meeting humans claiming to be from a \u2018Federation,\u2019 provoking hostility centuries early."
+        "text": "Attempting to transport survivors created timeline contamination. Klingon survivors reported meeting humans claiming to be from a ‘Federation,’ provoking hostility centuries early."
       },
       {
         "result": "failure",
@@ -1315,47 +1315,47 @@
       },
       {
         "result": "failure",
-        "text": "Redirecting the shockwave overstressed the Enterprise\u2019s deflector. Though the crew survived, the fold sealed without recapturing the ship\u2019s quantum signature \u2014 marooning them outside their own time."
+        "text": "Redirecting the shockwave overstressed the Enterprise’s deflector. Though the crew survived, the fold sealed without recapturing the ship’s quantum signature — marooning them outside their own time."
       }
     ]
   },
   {
-    "starfleet_message": "Captain\u2019s Log, Stardate 47711.9 \u2014 While charting the decaying star at the edge of Sector 402, the Enterprise detected faint distress telemetry matching 22nd-century Starfleet coding. The signal emanates from Elyndra III \u2014 a pre-warp civilization whose atmosphere is collapsing under stellar radiation. Initial scans reveal the beacon originates from an ancient escape pod. The Prime Directive forbids interference, yet the device\u2019s energy output appears to be accelerating the planet\u2019s destruction. To act would violate law. To stand idle would condemn an entire species.",
-    "mission_description": "A centuries-old Starfleet escape pod has been integrated into Elyndran technology, destabilizing the planet\u2019s atmosphere. Removing it will expose Starfleet to a pre-warp culture; leaving it ensures extinction. The captain must decide whether compassion outweighs the Prime Directive.",
+    "starfleet_message": "Captain’s Log, Stardate 47711.9 — While charting the decaying star at the edge of Sector 402, the Enterprise detected faint distress telemetry matching 22nd-century Starfleet coding. The signal emanates from Elyndra III — a pre-warp civilization whose atmosphere is collapsing under stellar radiation. Initial scans reveal the beacon originates from an ancient escape pod. The Prime Directive forbids interference, yet the device’s energy output appears to be accelerating the planet’s destruction. To act would violate law. To stand idle would condemn an entire species.",
+    "mission_description": "A centuries-old Starfleet escape pod has been integrated into Elyndran technology, destabilizing the planet’s atmosphere. Removing it will expose Starfleet to a pre-warp culture; leaving it ensures extinction. The captain must decide whether compassion outweighs the Prime Directive.",
     "dialogue_tree": [
       {
         "crew": "Lt. Commander Data",
         "line": "Captain, the Elyndran transmission matches a Starfleet distress code from the 22nd century. Source: a crashed escape pod located near one of their primary research settlements.",
         "options": [
           {
-            "label": "Data, confirm the device\u2019s current integration with their infrastructure.",
+            "label": "Data, confirm the device’s current integration with their infrastructure.",
             "crew_reply": "Lt. Commander Data The Elyndrans appear to have adapted its power cell to augment their planetary energy grid. Its radiation output has risen exponentially over the past decade.",
             "next": 1
           },
           {
             "label": "La Forge, estimate how long before critical failure.",
-            "crew_reply": "Commander La Forge At current load, maybe three weeks before the magnetosphere collapses. After that \u2014 global extinction within days.",
+            "crew_reply": "Commander La Forge At current load, maybe three weeks before the magnetosphere collapses. After that — global extinction within days.",
             "next": 1
           },
           {
-            "label": "Troi, any indication the population understands what\u2019s happening?",
-            "crew_reply": "Counselor Troi I sense fear and denial, Captain. They know their world is dying but can\u2019t comprehend why.",
+            "label": "Troi, any indication the population understands what’s happening?",
+            "crew_reply": "Counselor Troi I sense fear and denial, Captain. They know their world is dying but can’t comprehend why.",
             "next": 1
           }
         ]
       },
       {
         "crew": "Captain Picard",
-        "line": "Starfleet Command\u2019s standing order is non-interference. Yet our own technology is the root cause of their destruction.",
+        "line": "Starfleet Command’s standing order is non-interference. Yet our own technology is the root cause of their destruction.",
         "options": [
           {
             "label": "Data, could we disable the device remotely without alerting them?",
-            "crew_reply": "Lt. Commander Data Possible, sir \u2014 if we synchronize a low-band neutrino pulse with their local grid. Detection risk: thirty-eight percent.",
+            "crew_reply": "Lt. Commander Data Possible, sir — if we synchronize a low-band neutrino pulse with their local grid. Detection risk: thirty-eight percent.",
             "next": 2
           },
           {
             "label": "La Forge, can we beam it out quietly?",
-            "crew_reply": "Commander La Forge Transporters can lock onto the pod\u2019s alloy, but the moment it vanishes their power network crashes. They\u2019ll notice immediately.",
+            "crew_reply": "Commander La Forge Transporters can lock onto the pod’s alloy, but the moment it vanishes their power network crashes. They’ll notice immediately.",
             "next": 2
           },
           {
@@ -1381,14 +1381,14 @@
           },
           {
             "label": "La Forge, prepare a covert extraction plan.",
-            "crew_reply": "Commander La Forge Aye, Captain. I\u2019ll recalibrate transporters for silent lock \u2014 no visible beam, minimal energy spike.",
+            "crew_reply": "Commander La Forge Aye, Captain. I’ll recalibrate transporters for silent lock — no visible beam, minimal energy spike.",
             "next": 3
           }
         ]
       },
       {
         "crew": "Captain Picard",
-        "line": "If we act, we betray Starfleet\u2019s highest law. If we don\u2019t, we betray everything it stands for.",
+        "line": "If we act, we betray Starfleet’s highest law. If we don’t, we betray everything it stands for.",
         "options": [
           {
             "label": "Authorize the covert beam-out. Full responsibility on my record.",
@@ -1401,27 +1401,27 @@
             "next": 4
           },
           {
-            "label": "Delay action \u2014 attempt communication via subspace carrier wave.",
-            "crew_reply": "Counselor Troi They won\u2019t comprehend the message, Captain. But\u2026 perhaps they\u2019ll feel hope in the warning tone.",
+            "label": "Delay action — attempt communication via subspace carrier wave.",
+            "crew_reply": "Counselor Troi They won’t comprehend the message, Captain. But… perhaps they’ll feel hope in the warning tone.",
             "next": 4
           }
         ]
       },
       {
         "crew": "Lt. Commander La Forge",
-        "line": "The operation\u2019s complete, sir. The energy signature\u2019s gone. Elyndra III\u2019s atmosphere is stabilizing \u2014 but some of their sensors registered the event.",
+        "line": "The operation’s complete, sir. The energy signature’s gone. Elyndra III’s atmosphere is stabilizing — but some of their sensors registered the event.",
         "options": [
           {
-            "label": "Troi, prepare the crew for debrief and resume standard ship operations.",
-            "crew_reply": "Commander Riker Aye, Captain. Radiation levels dropping \u2014 they\u2019ll never know how close they came."
+            "label": "Riker, plot course for the nearest Starbase and prepare full temporal incident debrief.",
+            "crew_reply": "Commander Riker Course laid in, Captain. Engaging warp as soon as systems stabilize."
           },
           {
-            "label": "Troi, prepare the crew for debrief and resume standard ship operations.",
-            "crew_reply": "Captain Picard Agreed. We stay off their scopes and out of their folklore."
+            "label": "La Forge, verify warp field harmonics and purge any residual tachyon interference.",
+            "crew_reply": "Commander La Forge Warp field nominal. Temporal fold residue dissipating."
           },
           {
-            "label": "Troi, prepare the crew for debrief and resume standard ship operations.",
-            "crew_reply": "Lt. Commander Data Plotting a departure vector that avoids additional gravitational disruption to their upper atmosphere, Captain."
+            "label": "Data, archive the encounter record under Starfleet Historical Analysis.",
+            "crew_reply": "Lt. Commander Data Record sealed and transmitted, Captain. Timeline integrity confirmed."
           }
         ]
       }
@@ -1429,11 +1429,11 @@
     "debriefs": [
       {
         "result": "success",
-        "text": "The covert extraction succeeded. Elyndra III\u2019s atmosphere stabilized within hours. The civilization never identified the source of their \u2018miracle,\u2019 preserving their natural development while averting extinction."
+        "text": "The covert extraction succeeded. Elyndra III’s atmosphere stabilized within hours. The civilization never identified the source of their ‘miracle,’ preserving their natural development while averting extinction."
       },
       {
         "result": "success",
-        "text": "Data\u2019s simulated grid overload erased all traces of Federation interference. The Prime Directive was technically broken \u2014 but the Elyndrans survived none the wiser. Starfleet Command quietly sealed the record."
+        "text": "Data’s simulated grid overload erased all traces of Federation interference. The Prime Directive was technically broken — but the Elyndrans survived none the wiser. Starfleet Command quietly sealed the record."
       },
       {
         "result": "success",
@@ -1441,11 +1441,11 @@
       },
       {
         "result": "failure",
-        "text": "The extraction was detected by Elyndran observers, who now worship the \u2018Sky Sentinels\u2019 that saved their world. Cultural contamination is irreversible; future contact is inevitable."
+        "text": "The extraction was detected by Elyndran observers, who now worship the ‘Sky Sentinels’ that saved their world. Cultural contamination is irreversible; future contact is inevitable."
       },
       {
         "result": "failure",
-        "text": "The remote pulse destabilized the pod prematurely. A chain reaction ignited atmospheric plasma, killing millions before the planet recovered. The Prime Directive remains intact \u2014 at a terrible price."
+        "text": "The remote pulse destabilized the pod prematurely. A chain reaction ignited atmospheric plasma, killing millions before the planet recovered. The Prime Directive remains intact — at a terrible price."
       },
       {
         "result": "failure",
