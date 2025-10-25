@@ -575,13 +575,19 @@ function setPortrait(name) {
 }
 async function loadScenarios(){
   try{
-    const res=await fetch(REMOTE_JSON_URL,{cache:'no-store'})
-    scenarios=await res.json()
-  }catch(e){
-    document.getElementById('communique').innerHTML='<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>'
-    return
+    const res = await fetch(REMOTE_JSON_URL, { cache: 'no-store' });
+    scenarios = await res.json();
+
+    for (let i = scenarios.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [scenarios[i], scenarios[j]] = [scenarios[j], scenarios[i]];
+    }
+  } catch (e) {
+    document.getElementById('communique').innerHTML =
+      '<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>';
+    return;
   }
-  displayScenario(0)
+  displayScenario(0);
 }
 function fadeTransition(el,newHTML){el.innerHTML=newHTML}
 function displayScenario(index){
@@ -645,7 +651,6 @@ function renderDialogueNode() {
         if(dlg) dlg.classList.add('dialog-top');
         if(opts) opts.classList.add('options-top');
       }
-// Dr. Crusher filter
       if (opt.label.toLowerCase().includes('crusher')) {
         const textToCheck = (opt.label + ' ' + opt.crew_reply).toLowerCase();
         const hasMedical = medicalKeywords.some(k => textToCheck.includes(k));
@@ -653,13 +658,11 @@ function renderDialogueNode() {
         if (!hasMedical || isExcluded) return;
       }
 
-      // Hide unclicked buttons
       const allButtons = options.querySelectorAll('.dialogButton');
       allButtons.forEach(b => {
         if (b !== this) b.style.display = 'none';
       });
 
-      // Display crew reply
       const reply = document.createElement('p');
       reply.className = 'reply-wrapper';
       const replyText = document.createElement('div');
@@ -750,7 +753,6 @@ function findCrewNameFromText(text) {
       reply.appendChild(imageContainer);
       options.appendChild(reply);
 
-      // Add Acknowledged button
       const ackBtn = document.createElement('button');
       ackBtn.textContent = 'Acknowledged';
       ackBtn.className = 'dialogButton';
@@ -784,12 +786,20 @@ function showDebrief() {
   const content = document.getElementById('debrief-content');
 
   let reflectionHTML = '';
-  if (reflection.length > 0) {
-    reflectionHTML = `
-      <div id="reflection-block" style="margin-top:50px; text-align:center;">
-        ${reflection.map(r => `<p><strong>${r.crew}:</strong> ${r.line}</p>`).join('')}
-      </div>`;
-  }
+if (reflection.length > 0) {
+  reflectionHTML = `
+    <div id="reflection-block" style="margin-top:50px; text-align:left; display:flex; flex-direction:column; align-items:flex-start; gap:10px;">
+      ${reflection.map(r => {
+        const imgSrc = crewImages[r.crew.replace("Commander ", "").replace("Captain ", "")] || crewImages["Default"];
+        return `
+          <div style="display:flex; align-items:center; gap:10px;">
+            <img src="${imgSrc}" alt="${r.crew}" style="width:50px; height:50px; border-radius:8px; box-shadow:0 0 8px rgba(255,215,120,0.5);" />
+            <p style="margin:0;"><strong>${r.crew}:</strong> ${r.line}</p>
+          </div>
+        `;
+      }).join('')}
+    </div>`;
+}
 
   content.innerHTML = `
     <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;">
