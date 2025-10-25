@@ -30,13 +30,11 @@
         "options": [
           {
             "label": "La Forge, decouple the primary coils and monitor for energy recursion.",
-            "crew_reply": "Commander La Forge Decoupling.  Feedback rising—but stable.  It’s learning from us.",
-            "next": 4
+            "crew_reply": "Commander La Forge Decoupling.  Feedback rising—but stable.  It’s learning from us."
           },
           {
             "label": "Crusher, confirm there’s no biological component to the lattice.",
-            "crew_reply": "Dr. Crusher Negative life-signs, but measurable bio-energy traces throughout the crystal structure.",
-            "next": 4
+            "crew_reply": "Dr. Crusher Negative life-signs, but measurable bio-energy traces throughout the crystal structure."
           },
           {
             "label": "Troi, maintain contact with whatever consciousness you sense.",
@@ -51,13 +49,11 @@
         "options": [
           {
             "label": "Data, attempt harmonic translation using subspace resonance mapping.",
-            "crew_reply": "Lt. Commander Data Translation underway.  It recognizes the attempt and is modulating in response.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Translation underway.  It recognizes the attempt and is modulating in response."
           },
           {
             "label": "La Forge, emit a low-energy signal matching its rhythm.  Let’s see if it responds in kind.",
-            "crew_reply": "Commander La Forge Sending pulse...  It’s echoing our signature back with amplitude variation.",
-            "next": 4
+            "crew_reply": "Commander La Forge Sending pulse...  It’s echoing our signature back with amplitude variation."
           },
           {
             "label": "Worf, stand by to disrupt the lattice if resonance exceeds safety limits.",
@@ -72,18 +68,15 @@
         "options": [
           {
             "label": "La Forge, create a phase offset to bleed excess energy.",
-            "crew_reply": "Commander La Forge Adjusting harmonic envelope...  Power returning to normal levels.",
-            "next": 4
+            "crew_reply": "Commander La Forge Adjusting harmonic envelope...  Power returning to normal levels."
           },
           {
             "label": "Data, redirect the reflection into a controlled feedback loop.",
-            "crew_reply": "Lt. Commander Data Loop established.  The entity seems to be observing its own image through us.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Loop established.  The entity seems to be observing its own image through us."
           },
           {
             "label": "Worf, continue your report.",
-            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -93,18 +86,15 @@
         "options": [
           {
             "label": "Data, prepare a damping field in case synchronization intensifies.",
-            "crew_reply": "Lt. Commander Data Field standing by.  I can neutralize overlap within seconds if required.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Field standing by.  I can neutralize overlap within seconds if required."
           },
           {
             "label": "Troi, reassure the entity—it may be reacting to our tension.",
-            "crew_reply": "Counselor Troi I’m projecting calm.  The resonance is softening.",
-            "next": 4
+            "crew_reply": "Counselor Troi I’m projecting calm.  The resonance is softening."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
@@ -167,8 +157,7 @@
         "options": [
           {
             "label": "Data, estimate the station’s age.",
-            "crew_reply": "Lt. Commander Data Structural decay indicates at least four decades. The reactor core is still in flux.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Structural decay indicates at least four decades. The reactor core is still in flux."
           },
           {
             "label": "Data, can life exist in such conditions?",
@@ -188,18 +177,15 @@
         "options": [
           {
             "label": "Riker, open a secure channel to Romulan Command—inform them we are responding to a distress signal, not intruding.",
-            "crew_reply": "Commander Riker Message sent. No reply, but they’re listening.",
-            "next": 4
+            "crew_reply": "Commander Riker Message sent. No reply, but they’re listening."
           },
           {
             "label": "Maintain position on our side of the boundary until we confirm the threat level.",
-            "crew_reply": "Lt. Worf Holding steady at treaty limit.",
-            "next": 4
+            "crew_reply": "Lt. Worf Holding steady at treaty limit."
           },
           {
             "label": "Worf, continue your report.",
-            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -209,18 +195,15 @@
         "options": [
           {
             "label": "La Forge, prepare a phased away team transport. Match to their time signature.",
-            "crew_reply": "Commander La Forge I can stabilize a corridor for about five minutes. Beyond that, we risk temporal bleed.",
-            "next": 4
+            "crew_reply": "Commander La Forge I can stabilize a corridor for about five minutes. Beyond that, we risk temporal bleed."
           },
           {
             "label": "Data, standby medical containment in case something comes back with the team.",
-            "crew_reply": "Lt. Commander Data Containment fields ready. Biofilters set to adaptive mode.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Containment fields ready. Biofilters set to adaptive mode."
           },
           {
             "label": "Troi, continue your report.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -230,18 +213,15 @@
         "options": [
           {
             "label": "Data, analyze the energy source sustaining the loop.",
-            "crew_reply": "Lt. Commander Data It’s a stabilized wormhole generator frozen mid-collapse.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data It’s a stabilized wormhole generator frozen mid-collapse."
           },
           {
             "label": "La Forge, can we neutralize the generator safely?",
-            "crew_reply": "Commander La Forge Not safely. One wrong modulation and the entire field implodes.",
-            "next": 4
+            "crew_reply": "Commander La Forge Not safely. One wrong modulation and the entire field implodes."
           },
           {
             "label": "Troi, confirm the life readings one more time.",
-            "crew_reply": "Counselor Troi The same presences, fading and returning—like echoes trapped between seconds.",
-            "next": 4
+            "crew_reply": "Counselor Troi The same presences, fading and returning—like echoes trapped between seconds."
           }
         ]
       }
@@ -304,18 +284,15 @@
         "options": [
           {
             "label": "Data, can we create a damping field to slow the adaptation?",
-            "crew_reply": "Lt. Commander Data Possible, but risky. If the organism’s energy matrix collapses too fast, it could kill the hosts.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Possible, but risky. If the organism’s energy matrix collapses too fast, it could kill the hosts."
           },
           {
             "label": "La Forge, can you isolate the subspace frequency it uses to communicate?",
-            "crew_reply": "Commander La Forge Working on it. The pattern looks deliberate—almost linguistic.",
-            "next": 4
+            "crew_reply": "Commander La Forge Working on it. The pattern looks deliberate—almost linguistic."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -325,18 +302,15 @@
         "options": [
           {
             "label": "Data, determine whether the organism is native to our dimension.",
-            "crew_reply": "Lt. Commander Data Negative. Its resonance suggests subspace origin—possibly a byproduct of the breach.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Negative. Its resonance suggests subspace origin—possibly a byproduct of the breach."
           },
           {
             "label": "Worf, secure the outpost perimeter and enforce full quarantine.",
-            "crew_reply": "Lt. Worf Security lockdown in effect. No movement without authorization.",
-            "next": 4
+            "crew_reply": "Lt. Worf Security lockdown in effect. No movement without authorization."
           },
           {
             "label": "Forge, continue your report.",
-            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -346,18 +320,15 @@
         "options": [
           {
             "label": "Data, can communication harm the hosts?",
-            "crew_reply": "Lt. Commander Data Potentially, yes. The neural load could cause synaptic burnout.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Potentially, yes. The neural load could cause synaptic burnout."
           },
           {
             "label": "Data, model a way to communicate safely through harmonic translation.",
-            "crew_reply": "Lt. Commander Data A low-band subspace harmonic might allow limited response without neural risk.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data A low-band subspace harmonic might allow limited response without neural risk."
           },
           {
             "label": "Troi, continue your report.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -367,18 +338,15 @@
         "options": [
           {
             "label": "La Forge, coordinate with Data to emit a counter-resonance—gentle enough to preserve life.",
-            "crew_reply": "Commander La Forge and Lt. Commander Data Counterwave forming... The energy field is dispersing. Infected vital signs stabilizing.",
-            "next": 4
+            "crew_reply": "Commander La Forge and Lt. Commander Data Counterwave forming... The energy field is dispersing. Infected vital signs stabilizing."
           },
           {
             "label": "Worf, prepare to destroy the polaric crystal field if containment fails.",
-            "crew_reply": "Lt. Worf Ready, Captain. Awaiting authorization to fire.",
-            "next": 4
+            "crew_reply": "Lt. Worf Ready, Captain. Awaiting authorization to fire."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
@@ -441,8 +409,7 @@
         "options": [
           {
             "label": "La Forge, recommend containment options.",
-            "crew_reply": "Commander La Forge We can attempt to anchor it with a graviton beam, but that risks destabilizing the deflector grid.",
-            "next": 4
+            "crew_reply": "Commander La Forge We can attempt to anchor it with a graviton beam, but that risks destabilizing the deflector grid."
           },
           {
             "label": "Data, any sign of the Vallis Prime crew’s life readings?",
@@ -462,18 +429,15 @@
         "options": [
           {
             "label": "Data, confirm signs of patterned intelligence in the graviton flux.",
-            "crew_reply": "Lt. Commander Data Confirmed. The energy oscillations exhibit non-random rhythmic modulation.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Confirmed. The energy oscillations exhibit non-random rhythmic modulation."
           },
           {
             "label": "La Forge, can we communicate through harmonic resonance?",
-            "crew_reply": "Commander La Forge Possibly. We’d need to use the deflector as a subspace modulator.",
-            "next": 4
+            "crew_reply": "Commander La Forge Possibly. We’d need to use the deflector as a subspace modulator."
           },
           {
             "label": "Troi, continue your report.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -483,18 +447,15 @@
         "options": [
           {
             "label": "La Forge, encode a simple harmonic pattern—an introduction.",
-            "crew_reply": "Commander La Forge Pattern transmitted. The singularity is responding in kind.",
-            "next": 4
+            "crew_reply": "Commander La Forge Pattern transmitted. The singularity is responding in kind."
           },
           {
             "label": "Worf, keep phasers on standby but hold fire unless the core destabilizes.",
-            "crew_reply": "Lt. Worf Acknowledged, Captain. Tactical systems ready.",
-            "next": 4
+            "crew_reply": "Lt. Worf Acknowledged, Captain. Tactical systems ready."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -504,18 +465,15 @@
         "options": [
           {
             "label": "Data, estimate the probability of extraction.",
-            "crew_reply": "Lt. Commander Data Low, but not impossible. The event horizon is momentarily stable.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Low, but not impossible. The event horizon is momentarily stable."
           },
           {
             "label": "La Forge, prepare the deflector to project a synchronized inverse pulse.",
-            "crew_reply": "Commander La Forge Calibrating. If it works, the field should collapse safely.",
-            "next": 4
+            "crew_reply": "Commander La Forge Calibrating. If it works, the field should collapse safely."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
@@ -599,18 +557,15 @@
         "options": [
           {
             "label": "Data, confirm if residual neural energy could persist in subspace.",
-            "crew_reply": "Lt. Commander Data Possible. Temporal compression may have captured their neural patterns.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Possible. Temporal compression may have captured their neural patterns."
           },
           {
             "label": "La Forge, could the Callisto itself be the source of the beacon?",
-            "crew_reply": "Commander La Forge Yes. The signal’s origin aligns with its main computer core.",
-            "next": 4
+            "crew_reply": "Commander La Forge Yes. The signal’s origin aligns with its main computer core."
           },
           {
             "label": "Troi, continue your report.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -620,18 +575,15 @@
         "options": [
           {
             "label": "Data, confirm if these echoes could harm the team neurologically.",
-            "crew_reply": "Lt. Commander Data Mild disorientation only, Captain. So far, exposure is non-lethal.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Mild disorientation only, Captain. So far, exposure is non-lethal."
           },
           {
             "label": "Data, attempt to interface with the Callisto’s main computer.",
-            "crew_reply": "Lt. Commander Data Access granted. Log fragment reads: 'We crossed the veil... it answered.'",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Access granted. Log fragment reads: 'We crossed the veil... it answered.'"
           },
           {
             "label": "Riker, continue your report.",
-            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -641,18 +593,15 @@
         "options": [
           {
             "label": "La Forge, prepare a deflector pulse to collapse the echo safely.",
-            "crew_reply": "Commander La Forge Calibrating. We’ll need precise phasing to avoid destabilizing the ship.",
-            "next": 4
+            "crew_reply": "Commander La Forge Calibrating. We’ll need precise phasing to avoid destabilizing the ship."
           },
           {
             "label": "Troi, any remaining presence aboard?",
-            "crew_reply": "Counselor Troi A final wave of peace... acceptance. They’re ready to rest, Captain.",
-            "next": 4
+            "crew_reply": "Counselor Troi A final wave of peace... acceptance. They’re ready to rest, Captain."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
@@ -716,13 +665,11 @@
           },
           {
             "label": "Worf, maintain a defensive posture and prepare for containment protocols.",
-            "crew_reply": "Lt. Worf Aye, Captain. Security teams standing by.",
-            "next": 4
+            "crew_reply": "Lt. Worf Aye, Captain. Security teams standing by."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -732,18 +679,15 @@
         "options": [
           {
             "label": "Data, analyze the photonic density of the projections.",
-            "crew_reply": "Lt. Commander Data They are composed of phased energy similar to transporter buffers — but encoded with neural patterns.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data They are composed of phased energy similar to transporter buffers — but encoded with neural patterns."
           },
           {
             "label": "Crusher, could this represent a form of cellular duplication?",
-            "crew_reply": "Dr. Crusher Unlikely. There’s no biological matrix — just light and thought.",
-            "next": 4
+            "crew_reply": "Dr. Crusher Unlikely. There’s no biological matrix — just light and thought."
           },
           {
             "label": "Troi, continue your report.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -753,18 +697,15 @@
         "options": [
           {
             "label": "Riker, coordinate with security to contain it without aggression.",
-            "crew_reply": "Commander Riker Aye. The reflection seems calm — even curious.",
-            "next": 4
+            "crew_reply": "Commander Riker Aye. The reflection seems calm — even curious."
           },
           {
             "label": "Data, scan for differences between myself and the duplicate.",
-            "crew_reply": "Lt. Commander Data Physiologically identical. Neural signatures diverge — his memory path diverged decades ago.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Physiologically identical. Neural signatures diverge — his memory path diverged decades ago."
           },
           {
             "label": "Worf, continue your report.",
-            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -774,18 +715,15 @@
         "options": [
           {
             "label": "Troi, assess his sincerity.",
-            "crew_reply": "Counselor Troi He believes every word. He’s not lying, Captain — he’s remembering.",
-            "next": 4
+            "crew_reply": "Counselor Troi He believes every word. He’s not lying, Captain — he’s remembering."
           },
           {
             "label": "Data, determine if the Gate’s field can sustain such an entity indefinitely.",
-            "crew_reply": "Lt. Commander Data Negative. Its energy output is degrading — he will destabilize when the resonance collapses.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Negative. Its energy output is degrading — he will destabilize when the resonance collapses."
           },
           {
             "label": "Riker, continue your report.",
-            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
@@ -865,18 +803,15 @@
         "options": [
           {
             "label": "Troi, assess their mental state.",
-            "crew_reply": "Counselor Troi Fear mixed with awe. They think we’re the return of mythic ancestors.",
-            "next": 4
+            "crew_reply": "Counselor Troi Fear mixed with awe. They think we’re the return of mythic ancestors."
           },
           {
             "label": "Data, access the dome’s computer network discreetly.",
-            "crew_reply": "Lt. Commander Data Access granted. The environmental computer controls all functions, including population management.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Access granted. The environmental computer controls all functions, including population management."
           },
           {
             "label": "Riker, continue your report.",
-            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -886,18 +821,15 @@
         "options": [
           {
             "label": "La Forge, determine if the directive can be overridden.",
-            "crew_reply": "Commander La Forge Maybe, but there’s a problem. The system’s failing logic core interprets us as contaminants. It’s sealing the dome.",
-            "next": 4
+            "crew_reply": "Commander La Forge Maybe, but there’s a problem. The system’s failing logic core interprets us as contaminants. It’s sealing the dome."
           },
           {
             "label": "Data, what happens if the dome’s power fails?",
-            "crew_reply": "Lt. Commander Data The children’s habitat would collapse. Temperature and pressure would drop below survivable levels within minutes.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data The children’s habitat would collapse. Temperature and pressure would drop below survivable levels within minutes."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -907,18 +839,15 @@
         "options": [
           {
             "label": "Picard to Thalen: 'Your world was never cursed. Let us show you the truth.'",
-            "crew_reply": "Thalen (via comm) You speak as the Founders did! You’ll bring the fire back!",
-            "next": 4
+            "crew_reply": "Thalen (via comm) You speak as the Founders did! You’ll bring the fire back!"
           },
           {
             "label": "Data, prepare a visual simulation to show the true state of the planet outside.",
-            "crew_reply": "Lt. Commander Data Display ready, Captain. Atmospheric readings show clear skies and breathable air.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Display ready, Captain. Atmospheric readings show clear skies and breathable air."
           },
           {
             "label": "Troi, continue your report.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
@@ -1019,18 +948,15 @@
         "options": [
           {
             "label": "Picard: 'You are safe aboard a scientific vessel. We mean you no harm.'",
-            "crew_reply": "Major Keller Scientific? You don’t look like any country’s scientists I know.",
-            "next": 4
+            "crew_reply": "Major Keller Scientific? You don’t look like any country’s scientists I know."
           },
           {
             "label": "Troi: 'You were caught in an experimental energy field. Try to stay calm.'",
-            "crew_reply": "Major Keller I’ve seen storms, ma’am. None that put me in orbit.",
-            "next": 4
+            "crew_reply": "Major Keller I’ve seen storms, ma’am. None that put me in orbit."
           },
           {
             "label": "Keller, continue your report.",
-            "crew_reply": "Major Keller Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Major Keller Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -1040,18 +966,15 @@
         "options": [
           {
             "label": "La Forge, can we absorb the energy into our warp field?",
-            "crew_reply": "Commander La Forge Only if we anchor the ship here. We’d never escape the temporal phase.",
-            "next": 4
+            "crew_reply": "Commander La Forge Only if we anchor the ship here. We’d never escape the temporal phase."
           },
           {
             "label": "Data, options to neutralize the probe safely?",
-            "crew_reply": "Lt. Commander Data Limited. We could redirect its energy output—but we need precise 21st-century orbital data to do it.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Limited. We could redirect its energy output—but we need precise 21st-century orbital data to do it."
           },
           {
             "label": "Data, continue your report.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
@@ -1152,18 +1075,15 @@
         "options": [
           {
             "label": "Data, estimate casualties if the eruption occurs.",
-            "crew_reply": "Lt. Commander Data Over two million fatalities within the first hour. Secondary fires could destroy nearby settlements.",
-            "next": 4
+            "crew_reply": "Lt. Commander Data Over two million fatalities within the first hour. Secondary fires could destroy nearby settlements."
           },
           {
             "label": "Crusher, what’s our medical capacity for an event like that?",
-            "crew_reply": "Dr. Crusher It wouldn’t matter. We can’t expose ourselves to beam up thousands without rewriting their entire history.",
-            "next": 4
+            "crew_reply": "Dr. Crusher It wouldn’t matter. We can’t expose ourselves to beam up thousands without rewriting their entire history."
           },
           {
             "label": "Forge, continue your report.",
-            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Commander La Forge Acknowledged, Captain. Monitoring closely."
           }
         ]
       },
@@ -1173,18 +1093,15 @@
         "options": [
           {
             "label": "Picard: 'Mara, why would you ask that? You’re condemning millions to die.'",
-            "crew_reply": "Mara Tallen Every time we saved them, progress stopped. They no longer ask questions—they wait for miracles. Don’t make it worse.",
-            "next": 4
+            "crew_reply": "Mara Tallen Every time we saved them, progress stopped. They no longer ask questions—they wait for miracles. Don’t make it worse."
           },
           {
             "label": "Troi, assess her intent.",
-            "crew_reply": "Counselor Troi She believes she’s protecting them from dependence. But she’s terrified of what comes next.",
-            "next": 4
+            "crew_reply": "Counselor Troi She believes she’s protecting them from dependence. But she’s terrified of what comes next."
           },
           {
             "label": "Tallen, continue your report.",
-            "crew_reply": "Mara Tallen Acknowledged, Captain. Monitoring closely.",
-            "next": 4
+            "crew_reply": "Mara Tallen Acknowledged, Captain. Monitoring closely."
           }
         ]
       }
