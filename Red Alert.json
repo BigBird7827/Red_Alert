@@ -29,7 +29,7 @@
         "line": "Captain, the echo field now mirrors our warp harmonics.  It is modifying its own frequency to match the Enterprise\u2019s core signature.",
         "options": [
           {
-            "label": "La Forge, decouple the primary coils and monitor for energy recursion.",
+            "label": "La Forge, compensate for plasma surges and hold containment steady.",
             "crew_reply": "Commander La Forge Decoupling.  Feedback rising\u2014but stable.  It\u2019s learning from us.",
             "next": 2
           },
@@ -81,7 +81,7 @@
             "next": 4
           },
           {
-            "label": "Worf, maintain tactical readiness and monitor for hostiles.",
+            "label": "Worf, arm forward phasers and hold lock on the target until ordered.",
             "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -92,15 +92,15 @@
         "line": "Captain, crew EEGs show sympathetic synchronization with the resonance field\u2014no danger yet, but it\u2019s mimicking neural rhythms.",
         "options": [
           {
-            "label": "Data, prepare a damping field in case synchronization intensifies.",
+            "label": "Riker, stand down from red alert. Helm, set course back to Federation space, warp six.",
             "crew_reply": "Lt. Commander Data Field standing by.  I can neutralize overlap within seconds if required."
           },
           {
-            "label": "Troi, reassure the entity\u2014it may be reacting to our tension.",
+            "label": "Riker, stand down from red alert. Helm, set course back to Federation space, warp six.",
             "crew_reply": "Counselor Troi I\u2019m projecting calm.  The resonance is softening."
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Riker, stand down from red alert. Helm, set course back to Federation space, warp six.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -194,7 +194,7 @@
             "next": 3
           },
           {
-            "label": "Worf, maintain tactical readiness and monitor for hostiles.",
+            "label": "Worf, coordinate security teams and keep tactical sensors active.",
             "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -215,7 +215,7 @@
             "next": 4
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Troi, monitor emotional patterns among the crew and alert me to distress.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -226,15 +226,15 @@
         "line": "Away team reports the station phasing between states\u2014some sections look pristine, others centuries old. Logs alternate between Klingon and Romulan languages.",
         "options": [
           {
-            "label": "Data, analyze the energy source sustaining the loop.",
+            "label": "Data, compile all mission telemetry and forward to Starfleet Command.",
             "crew_reply": "Lt. Commander Data It\u2019s a stabilized wormhole generator frozen mid-collapse."
           },
           {
-            "label": "La Forge, can we neutralize the generator safely?",
+            "label": "Data, compile all mission telemetry and forward to Starfleet Command.",
             "crew_reply": "Commander La Forge Not safely. One wrong modulation and the entire field implodes."
           },
           {
-            "label": "Troi, confirm the life readings one more time.",
+            "label": "Data, compile all mission telemetry and forward to Starfleet Command.",
             "crew_reply": "Counselor Troi The same presences, fading and returning\u2014like echoes trapped between seconds."
           }
         ]
@@ -286,7 +286,7 @@
             "next": 1
           },
           {
-            "label": "Troi, assess the emotional state of the colonists.",
+            "label": "Troi, monitor emotional patterns among the crew and alert me to distress.",
             "crew_reply": "Counselor Troi Overwhelming fear, but also connection\u2014they\u2019re sensing each other\u2019s thoughts involuntarily.",
             "next": 1
           }
@@ -307,7 +307,7 @@
             "next": 2
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, correlate the subspace harmonics and display the projection.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -349,7 +349,7 @@
             "next": 4
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Troi, monitor emotional patterns among the crew and alert me to distress.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -360,15 +360,15 @@
         "line": "The organism is now interfacing with our biofilters. If we don\u2019t act soon, it will adapt to the Enterprise itself.",
         "options": [
           {
-            "label": "La Forge, coordinate with Data to emit a counter-resonance\u2014gentle enough to preserve life.",
+            "label": "La Forge, secure the warp core and initiate post-mission diagnostics.",
             "crew_reply": "Commander La Forge and Lt. Commander Data Counterwave forming... The energy field is dispersing. Infected vital signs stabilizing."
           },
           {
-            "label": "Worf, prepare to destroy the polaric crystal field if containment fails.",
+            "label": "La Forge, secure the warp core and initiate post-mission diagnostics.",
             "crew_reply": "Lt. Worf Ready, Captain. Awaiting authorization to fire."
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "La Forge, secure the warp core and initiate post-mission diagnostics.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -441,7 +441,7 @@
             "next": 2
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, correlate the subspace harmonics and display the projection.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -462,7 +462,7 @@
             "next": 3
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Troi, maintain empathic contact with the envoy and warn me of any aggression.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -483,7 +483,7 @@
             "next": 4
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, isolate the radiation pattern and trace it to its origin.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -494,15 +494,15 @@
         "line": "Captain, I\u2019m detecting bio-neural signatures within the graviton field\u2014traces of the Vallis Prime crew. They may be alive inside the anomaly.",
         "options": [
           {
-            "label": "Data, estimate the probability of extraction.",
+            "label": "Worf, disengage tactical systems and reconfigure sensors for standard patrol.",
             "crew_reply": "Lt. Commander Data Low, but not impossible. The event horizon is momentarily stable."
           },
           {
-            "label": "La Forge, prepare the deflector to project a synchronized inverse pulse.",
+            "label": "Worf, disengage tactical systems and reconfigure sensors for standard patrol.",
             "crew_reply": "Commander La Forge Calibrating. If it works, the field should collapse safely."
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Worf, disengage tactical systems and reconfigure sensors for standard patrol.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -554,7 +554,7 @@
             "next": 1
           },
           {
-            "label": "Riker, coordinate bridge operations and maintain command readiness.",
+            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -575,7 +575,7 @@
             "next": 2
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, correlate the subspace harmonics and display the projection.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -596,7 +596,7 @@
             "next": 3
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Troi, maintain empathic contact with the envoy and warn me of any aggression.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -617,7 +617,7 @@
             "next": 4
           },
           {
-            "label": "Riker, coordinate bridge operations and maintain command readiness.",
+            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -628,15 +628,15 @@
         "line": "The beacon is maintaining the quantum echo\u2014effectively keeping the ship trapped in temporal recursion.",
         "options": [
           {
-            "label": "La Forge, prepare a deflector pulse to collapse the echo safely.",
+            "label": "Crusher, complete your medical evaluations and stand down emergency protocols.",
             "crew_reply": "Commander La Forge Calibrating. We\u2019ll need precise phasing to avoid destabilizing the ship."
           },
           {
-            "label": "Troi, any remaining presence aboard?",
+            "label": "Crusher, complete your medical evaluations and stand down emergency protocols.",
             "crew_reply": "Counselor Troi A final wave of peace... acceptance. They\u2019re ready to rest, Captain."
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Crusher, complete your medical evaluations and stand down emergency protocols.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -684,7 +684,7 @@
             "next": 1
           },
           {
-            "label": "Riker, coordinate bridge operations and maintain command readiness.",
+            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -705,7 +705,7 @@
             "next": 2
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, correlate the subspace harmonics and display the projection.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -726,7 +726,7 @@
             "next": 3
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Troi, maintain empathic contact with the envoy and warn me of any aggression.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -747,7 +747,7 @@
             "next": 4
           },
           {
-            "label": "Worf, maintain tactical readiness and monitor for hostiles.",
+            "label": "Worf, arm forward phasers and hold lock on the target until ordered.",
             "crew_reply": "Lt. Worf Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -758,15 +758,15 @@
         "line": "Captain, the duplicate claims to be you \u2014 but from a universe where the Federation fell to war with the Romulans. He says the Gate preserved his consciousness when his world died.",
         "options": [
           {
-            "label": "Troi, assess his sincerity.",
+            "label": "Troi, ensure the away team receives full psychological evaluation.",
             "crew_reply": "Counselor Troi He believes every word. He\u2019s not lying, Captain \u2014 he\u2019s remembering."
           },
           {
-            "label": "Data, determine if the Gate\u2019s field can sustain such an entity indefinitely.",
+            "label": "Troi, ensure the away team receives full psychological evaluation.",
             "crew_reply": "Lt. Commander Data Negative. Its energy output is degrading \u2014 he will destabilize when the resonance collapses."
           },
           {
-            "label": "Riker, coordinate bridge operations and maintain command readiness.",
+            "label": "Troi, ensure the away team receives full psychological evaluation.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -814,7 +814,7 @@
             "next": 1
           },
           {
-            "label": "Riker, coordinate bridge operations and maintain command readiness.",
+            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -835,7 +835,7 @@
             "next": 2
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Troi, focus on the alien vessel\u2019s command presence and report any instability.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -846,7 +846,7 @@
         "line": "Captain, we\u2019ve made contact. The inhabitants are all children\u2014none older than their mid-teens. They refer to themselves as the 'Heirs of the First Light.'",
         "options": [
           {
-            "label": "Troi, assess their mental state.",
+            "label": "Troi, maintain empathic contact with the envoy and warn me of any aggression.",
             "crew_reply": "Counselor Troi Fear mixed with awe. They think we\u2019re the return of mythic ancestors.",
             "next": 3
           },
@@ -856,7 +856,7 @@
             "next": 3
           },
           {
-            "label": "Riker, coordinate bridge operations and maintain command readiness.",
+            "label": "Riker, manage bridge readiness and oversee all departmental reports.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -877,7 +877,7 @@
             "next": 4
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, isolate the radiation pattern and trace it to its origin.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 4
           }
@@ -888,15 +888,15 @@
         "line": "The oldest child, Thalen, believes the 'Voice of the Sky'\u2014their computer\u2014protects them from a poisonous world. He\u2019s terrified of our interference.",
         "options": [
           {
-            "label": "Picard to Thalen: 'Your world was never cursed. Let us show you the truth.'",
+            "label": "Riker, coordinate repairs and restore power distribution shipwide.",
             "crew_reply": "Thalen (via comm) You speak as the Founders did! You\u2019ll bring the fire back!"
           },
           {
-            "label": "Data, prepare a visual simulation to show the true state of the planet outside.",
+            "label": "Riker, coordinate repairs and restore power distribution shipwide.",
             "crew_reply": "Lt. Commander Data Display ready, Captain. Atmospheric readings show clear skies and breathable air."
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Riker, coordinate repairs and restore power distribution shipwide.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -965,7 +965,7 @@
             "next": 2
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, correlate the subspace harmonics and display the projection.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -986,7 +986,7 @@
             "next": 3
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, analyze all sensor telemetry and confirm the energy signature.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely.",
             "next": 3
           }
@@ -1002,7 +1002,7 @@
             "next": 4
           },
           {
-            "label": "Troi, Troi: 'You were caught in an experimental energy field. Try to stay calm.'",
+            "label": "Troi: 'You were caught in an experimental energy field. Try to stay calm.'",
             "crew_reply": "Major Keller I\u2019ve seen storms, ma\u2019am. None that put me in orbit.",
             "next": 4
           },
@@ -1018,15 +1018,15 @@
         "line": "Captain, the probe\u2019s containment matrix is collapsing. It will trigger a chronometric implosion that could annihilate this version of Earth.",
         "options": [
           {
-            "label": "La Forge, can we absorb the energy into our warp field?",
+            "label": "Data, archive all scientific findings for Command review.",
             "crew_reply": "Commander La Forge Only if we anchor the ship here. We\u2019d never escape the temporal phase."
           },
           {
-            "label": "Data, options to neutralize the probe safely?",
+            "label": "Data, archive all scientific findings for Command review.",
             "crew_reply": "Lt. Commander Data Limited. We could redirect its energy output\u2014but we need precise 21st-century orbital data to do it."
           },
           {
-            "label": "Data, analyze the readings and identify the anomaly.",
+            "label": "Data, archive all scientific findings for Command review.",
             "crew_reply": "Lt. Commander Data Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -1074,7 +1074,7 @@
             "next": 1
           },
           {
-            "label": "Riker, coordinate bridge operations and maintain command readiness.",
+            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
             "crew_reply": "Commander Riker Acknowledged, Captain. Monitoring closely.",
             "next": 1
           }
@@ -1085,7 +1085,7 @@
         "line": "Captain, I\u2019m sensing strong emotions from the highlands\u2014guilt, grief, and resignation. Not from the natives. From the near-humanoids.",
         "options": [
           {
-            "label": "Data, assess their medical condition.",
+            "label": "Data, correlate the subspace harmonics and display the projection.",
             "crew_reply": "Lt. Commander Data Radiation exposure and chronic malnutrition. Without help, they won\u2019t last much longer.",
             "next": 2
           },
@@ -1095,7 +1095,7 @@
             "next": 2
           },
           {
-            "label": "Troi, assess emotional stability across the crew.",
+            "label": "Troi, focus on the alien vessel\u2019s command presence and report any instability.",
             "crew_reply": "Counselor Troi Acknowledged, Captain. Monitoring closely.",
             "next": 2
           }
@@ -1148,15 +1148,15 @@
         "line": "This is Mara Tallen, lineage of the USS Prospero. To any Federation vessel receiving this\u2014do not interfere. You may recover us, but leave the Velarans to their fate.",
         "options": [
           {
-            "label": "Picard: 'Mara, why would you ask that? You\u2019re condemning millions to die.'",
+            "label": "Worf, signal the Klingon vessel our thanks and terminate red alert.",
             "crew_reply": "Mara Tallen Every time we saved them, progress stopped. They no longer ask questions\u2014they wait for miracles. Don\u2019t make it worse."
           },
           {
-            "label": "Troi, assess her intent.",
+            "label": "Worf, signal the Klingon vessel our thanks and terminate red alert.",
             "crew_reply": "Counselor Troi She believes she\u2019s protecting them from dependence. But she\u2019s terrified of what comes next."
           },
           {
-            "label": "Tallen, continue your report.",
+            "label": "Worf, signal the Klingon vessel our thanks and terminate red alert.",
             "crew_reply": "Mara Tallen Acknowledged, Captain. Monitoring closely."
           }
         ]
@@ -1278,15 +1278,15 @@
         "line": "The Klingon captain transmits his final words: 'We die as warriors \u2014 our deeds remembered!' Their core is reaching overload.",
         "options": [
           {
-            "label": "Hold position and honor their passing.",
+            "label": "La Forge, stabilize the temporal drive field and set course for home.",
             "crew_reply": "Lt. Worf The Klingon ship fires one last volley into the void before erupting in light. The shockwave folds space around us \u2014 time fractures and reforms."
           },
           {
-            "label": "La Forge, redirect the energy surge into the filament. Execute now.",
+            "label": "La Forge, stabilize the temporal drive field and set course for home.",
             "crew_reply": "Commander La Forge Re-channeling the blast vector \u2014 the filament\u2019s reopening! The Enterprise is being pulled forward in time!"
           },
           {
-            "label": "Helm, evasive pattern delta-five \u2014 ride the wake.",
+            "label": "La Forge, stabilize the temporal drive field and set course for home.",
             "crew_reply": "Commander Riker The ship bucks against the distortion \u2014 then the stars realign. Chronometers re-synchronize to present day, Captain."
           }
         ]
@@ -1396,7 +1396,7 @@
             "next": 4
           },
           {
-            "label": "Data, Order Data to disable the grid remotely and simulate a natural failure.",
+            "label": "Order Data to disable the grid remotely and simulate a natural failure.",
             "crew_reply": "Lt. Commander Data Initiating neutrino pulse. Their sensors will read a simple overload. Power levels dropping safely.",
             "next": 4
           },
@@ -1412,15 +1412,15 @@
         "line": "The operation\u2019s complete, sir. The energy signature\u2019s gone. Elyndra III\u2019s atmosphere is stabilizing \u2014 but some of their sensors registered the event.",
         "options": [
           {
-            "label": "We\u2019ve saved them. Now we maintain orbit until their systems normalize.",
+            "label": "Troi, prepare the crew for debrief and resume standard ship operations.",
             "crew_reply": "Commander Riker Aye, Captain. Radiation levels dropping \u2014 they\u2019ll never know how close they came."
           },
           {
-            "label": "Stand by and continue silent monitoring.",
+            "label": "Troi, prepare the crew for debrief and resume standard ship operations.",
             "crew_reply": "Captain Picard Agreed. We stay off their scopes and out of their folklore."
           },
           {
-            "label": "Begin withdrawal. Helm, set course once local conditions stabilize.",
+            "label": "Troi, prepare the crew for debrief and resume standard ship operations.",
             "crew_reply": "Lt. Commander Data Plotting a departure vector that avoids additional gravitational disruption to their upper atmosphere, Captain."
           }
         ]
