@@ -1265,7 +1265,7 @@
         },
         {
           "label": "Worf, identify that vessel’s condition.",
-          "crew_reply": "Lt. Worf Their core is unstable. Life-signs show heavy radiation exposure. Their captain lives — barely — and broadcasts to 'the watchers of Sto’Vo’Kor.'",
+          "crew_reply": "Lt. Worf Their core is unstable. Life-signs show heavy radiation exposure. Their captain lives — barely — and broadcasts to 'the watchers of Sto’Vo’Kor.",
           "next": 1
         }
       ]
