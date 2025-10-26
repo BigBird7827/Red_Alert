@@ -569,10 +569,21 @@ const crewImages = {
   "Default": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Default.png"
 };
 
+// Normalizes crew names by removing titles/ranks so keys match crewImages
+function normalizeCrewName(name) {
+  if (!name) return "Default";
+  return String(name)
+    .replace(/^(Captain|Commander|Lt\.|Lieutenant|Doctor|Dr\.|Counselor|Counsellor)\s+/i, '')
+    .replace(/^Chief\s+O['’]?Brien$/i, "O'Brien") // keep canonical O'Brien
+    .trim();
+}
+
+
 function setPortrait(name) {
   const portrait = document.getElementById('crew-portrait-img');
   if (!portrait) return;
-  portrait.src = crewImages[name] || crewImages["Default"];
+  const normalized = normalizeCrewName(name);
+  portrait.src = crewImages[normalized] || crewImages["Default"];
 }
 async function loadScenarios(){
   try{
@@ -780,7 +791,8 @@ if (reflection.length > 0) {
   reflectionHTML = `
     <div id="reflection-block" style="margin-top:50px; text-align:left; display:flex; flex-direction:column; align-items:flex-start; gap:10px;">
       ${reflection.map(r => {
-        const imgSrc = crewImages[r.crew.replace("Commander ", "").replace("Captain ", "")] || crewImages["Default"];
+        const normalizedCrew = normalizeCrewName(r.crew);
+        const imgSrc = crewImages[normalizedCrew] || crewImages["Default"];
         return `
           <div style="display:flex; align-items:center; gap:10px;">
             <img src="${imgSrc}" alt="${r.crew}" style="width:50px; height:50px; border-radius:8px; box-shadow:0 0 8px rgba(255,215,120,0.5);" />
