@@ -290,7 +290,7 @@
     ]
   },
   {
-    "story_name": "Resonance",
+    "story_name": "Pathogen",
 	"starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
     "mission_description": "The Enterprise arrives at Veridian IV, where a subspace-reactive organism has infected the colony’s population. The pathogen adapts to every treatment and displays patterns of intelligence. Determine its origin, contain the outbreak, and decide whether the lifeform can or should be preserved.",
     "dialogue_tree": [
@@ -720,7 +720,7 @@
     ]
   },
   {
-    "story_name": "Reflections from the Gate",
+    "story_name": "The Gate",
 	"starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
     "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby — reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
     "dialogue_tree": [
@@ -1002,7 +1002,7 @@
     ]
 },
   {
-	"story_name": "Echoes",
+	"story_name": "Temporal Echo",
 	"starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
 	"mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
 	"dialogue_tree": [
@@ -1146,136 +1146,146 @@
   ]
 },
   {
-    "story_name": "Sky Born",
-	"starfleet_message": "Captain’s Log, Stardate 47466.2 — The Enterprise has entered orbit of Velara III, a pre-warp world roughly comparable to Earth’s mid-19th century. Industrialization, nation-states, and primitive aviation are emerging, but no warp capability exists. Long-range sensors have detected a small group of humanoid biosignatures whose biochemical profiles are nearly identical to Federation human norms. Traces of 23rd-century alloy and residual energy suggest they may be descendants of a lost Starfleet crew. Starfleet Command has ordered strict adherence to the Prime Directive.",
-    "mission_description": "Velara III faces a coming geological disaster that threatens millions of pre-warp inhabitants. Descendants of a lost 23rd-century science vessel have lived among them for generations, accelerating their progress and creating a mythology around the 'Sky Born.' The Enterprise must decide whether to act and save them or preserve the Prime Directive—even at the cost of countless lives.",
-    "dialogue_tree": [
-      {
-        "crew": "Commander Riker",
-        "line": "Captain, we’ve confirmed humanoid life readings in the northern highlands. Their genetic makeup is almost identical to ours, with only minor isotopic differences.",
-        "options": [
-          {
-            "label": "Data, analyze local culture and development stage.",
-            "crew_reply": "Lt. Commander Data Industrial age, approximately equivalent to Earth’s 1860s. Steam infrastructure and limited chemical refinement. No sign of warp theory or subspace technology.",
-            "next": 1
-          },
-          {
-            "label": "La Forge, check for any artificial energy sources.",
-            "crew_reply": "Commander La Forge There’s an energy field consistent with old Starfleet composites—radiation decay matches materials from the early 23rd century.",
-            "next": 1
-          },
-          {
-            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
-            "crew_reply": "Commander Riker Acknowledged, Captain",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Captain, I’m sensing strong emotions from the highlands—guilt, grief, and resignation. Not from the natives. From the near-humanoids.",
-        "options": [
-          {
-            "label": "Data, correlate the subspace harmonics and display the projection.",
-            "crew_reply": "Lt. Commander Data Radiation exposure and chronic malnutrition. Without help, they won’t last much longer.",
-            "next": 2
-          },
-          {
-            "label": "Data, search Starfleet archives for a possible match.",
-            "crew_reply": "Lt. Commander Data The readings correspond with the USS Prospero, declared lost in 2229. Its last entry reported containment failure near these coordinates.",
-            "next": 2
-          },
-          {
-            "label": "Troi, focus on the alien vessel’s command presence and report any instability.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Commander La Forge",
-        "line": "Captain, there’s something else. The Prospero’s descendants have altered local culture. The Velarans call them 'the Sky Born'—they’ve been teaching medicine and irrigation for generations.",
-        "options": [
-          {
-            "label": "Worf, remind us of the Prime Directive implications.",
-            "crew_reply": "Lt. Worf Direct interference with a pre-warp society is forbidden, Captain. Continued exposure may already constitute cultural contamination.",
-            "next": 3
-          },
-          {
-            "label": "Troi, what’s the emotional tone of the Velarans toward these Sky Born?",
-            "crew_reply": "Counselor Troi Reverence. Devotion. They see them as divine protectors.",
-            "next": 3
-          },
-          {
-            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
-            "crew_reply": "Commander La Forge Acknowledged, Captain",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Commander La Forge",
-        "line": "Captain, seismic scans show pressure building under the Velaran capital. It’s not volcanic—it’s plasma gas venting through tectonic fractures. When it ignites, the whole valley goes up.",
-        "options": [
-          {
-            "label": "Data, estimate casualties if the eruption occurs.",
-            "crew_reply": "Lt. Commander Data Over two million fatalities within the first hour. Secondary fires could destroy nearby settlements.",
-            "next": 4
-          },
-          {
-            "label": "Crusher, what’s our medical capacity for an event like that?",
-            "crew_reply": "Dr. Crusher It wouldn’t matter. We can’t expose ourselves to beam up thousands without rewriting their entire history.",
-            "next": 4
-          },
-          {
-            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
-            "crew_reply": "Commander La Forge Acknowledged, Captain",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Mara Tallen",
-        "line": "This is Mara Tallen, lineage of the USS Prospero. To any Federation vessel receiving this—do not interfere. You may recover us, but leave the Velarans to their fate.",
-        "options": [
-          {
-            "label": "Riker, record our encounter and confirm the Enterprise’s reintegration into present time.",
-            "crew_reply": "Commander Riker Chronometers synchronized. We’re back where we belong, Captain."
-          },
-          {
-            "label": "Data, verify no contamination of Klingon historical record.",
-            "crew_reply": "Lt. Commander Data Historical alignment preserved. No temporal anomalies detected."
-          },
-          {
-            "label": "Worf, transmit a silent honor code to commemorate the Klingon captain’s final battle.",
-            "crew_reply": "Lt. Worf Signal sent. His name will be sung among the stars, Captain."
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "The Enterprise covertly vented the plasma fields beneath the Velaran capital, preventing mass casualties without detection. The Prospero descendants were safely recovered. Velaran civilization continues, unaware of the intervention."
-      },
-      {
-        "result": "success",
-        "text": "Picard’s decision to act without revealing the Enterprise preserved both life and cultural integrity. Starfleet Command later classified the incident as a 'silent containment'—a Prime Directive exception performed without trace."
-      },
-      {
-        "result": "failure",
-        "text": "The phaser tunneling destabilized the gas pockets, igniting a visible eruption. The Velarans witnessed the phenomenon, solidifying their belief in divine Sky Born. Cultural contamination now permanent."
-      },
-      {
-        "result": "failure",
-        "text": "Transporter lock failed during extraction. The Prospero descendants perished in the quake, and the Velarans were left to interpret tremors as punishment from their gods."
-      },
-      {
-        "result": "failure",
-        "text": "Picard chose inaction under the Prime Directive. The plasma eruption destroyed the Velaran capital, killing millions. Starfleet Command commended adherence to regulation, but the decision haunted the crew."
-      }
-    ]
-  },
+  "story_name": "Sky Born",
+  "starfleet_message": "Captain’s Log, Stardate 47466.2 — The Enterprise has arrived at Velara III, a pre-warp world on the brink of industrial revolution. Reports indicate the presence of a small enclave whose physiology matches human DNA with near-perfect precision. Debris scans confirm traces of 23rd-century alloys—evidence that survivors of the lost USS Prospero may have lived among the locals for generations. Starfleet Command has instructed strict adherence to the Prime Directive.",
+  "mission_description": "Velara III faces a catastrophic tectonic venting event that could annihilate its largest city. Descendants of a lost Starfleet crew—known to the natives as the 'Sky Born'—have become mythic figures, secretly advancing Velaran society. The Enterprise must decide whether to intervene and expose the Federation’s existence or allow millions to perish in the name of noninterference.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander La Forge",
+      "line": "Captain, our scans show a settlement in the northern plateau emitting low-level Starfleet radiation. The decay rate suggests technology over a century old.",
+      "options": [
+        {
+          "label": "Data, identify the technological threshold of the native population.",
+          "crew_reply": "Lt. Commander Data: Comparable to Earth’s late 19th century, Captain. Coal-based energy, primitive metallurgy, and limited understanding of flight. No indication of subspace awareness.",
+          "next": 1
+        },
+        {
+          "label": "Worf, assess any defensive capabilities.",
+          "crew_reply": "Lt. Worf: None significant, Captain. Crude projectile weapons. Their militaries could not resist orbital intervention.",
+          "next": 1
+        },
+        {
+          "label": "Number One, coordinate with Stellar Cartography. Locate any residual Prospero signatures.",
+          "crew_reply": "Commander Riker: Aye, sir. Cross-referencing now. There’s a faint antimatter containment trace near the capital basin.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, I’m sensing deep conflict among the human descendants. They carry guilt, and fear of discovery.",
+      "options": [
+        {
+          "label": "Data, access Prospero’s final transmission.",
+          "crew_reply": "Lt. Commander Data: I have recovered log fragments, sir. ‘Containment breach. No rescue expected. We will adapt.’ Signed, Captain Alen Prospero.",
+          "next": 2
+        },
+        {
+          "label": "Crusher, could their genetic integrity survive centuries of isolation?",
+          "crew_reply": "Dr. Crusher: Yes Captain, but not without complications. I’m reading mutations consistent with radiation adaptation. They’ve evolved to blend in.",
+          "next": 2
+        },
+        {
+          "label": "Counselor, can you determine their intent?",
+          "crew_reply": "Counselor Troi: They wish to prevent us from intervening. They believe exposure would undo everything they’ve built.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, the descendants have been masquerading as prophets—using fragments of Starfleet tech to guide Velaran society toward industrialization.",
+      "options": [
+        {
+          "label": "Worf, your assessment of their conduct?",
+          "crew_reply": "Lt. Worf: Their intent seems to be survival sir, but their presence has altered Velaran destiny. Honor may have guided them, yet the Directive stands violated.",
+          "next": 3
+        },
+        {
+          "label": "Data, estimate the long-term cultural divergence caused by their influence.",
+          "crew_reply": "Lt. Commander Data: Projection indicates a deviation of 300 years in technological progress. The society’s belief structure is centered on the myth of celestial guardians.",
+          "next": 3
+        },
+        {
+          "label": "Riker, what’s your assessment?",
+          "crew_reply": "Commander Riker: It’s a mess, Captain. Either we save a civilization or we damn their history.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Commander La Forge",
+      "line": "Captain, seismic telemetry confirms plasma vents forming beneath the Velaran capital. When they breach the crust, ignition will wipe out the entire region.",
+      "options": [
+        {
+          "label": "Data, give me an estimate to eruption.",
+          "crew_reply": "Lt. Commander Data: Thirty-seven minutes until plasma destabilization reaches surface pressure thresholds.",
+          "next": 4
+        },
+        {
+          "label": "Doctor, you'd better prepare triage protocols in case we intervene.",
+          "crew_reply": "Dr. Crusher: Understood, Captain, but any overt action will expose us.",
+          "next": 4
+        },
+        {
+          "label": "La Forge, simulate an orbital venting sequence that could relieve pressure undetected.",
+          "crew_reply": "Commander La Forge: It’s possible, sir, but we'll need to make sure we approach it with pinpoint precision through the atmosphere without ionization trails.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Mara Tallen",
+      "line": "This is Mara Tallen of the Prospero line. To any Federation ship — Do not interfere. We accepted this world’s laws. It’s not ours to save.",
+      "options": [
+        {
+          "label": "Commander Riker, record transmission and log our tactical withdrawal.",
+          "crew_reply": "Commander Riker: Aye, Captain. The message will be preserved in Prospero’s honor."
+        },
+        {
+          "label": "Data, mask our orbital presence and commence silent venting sequence.",
+          "crew_reply": "Lt. Commander Data: Sequence initiated Captain. Plasma pressures stabilizing without visual trace."
+        },
+        {
+          "label": "Worf, signal a memorial beacon for those who chose exile.",
+          "crew_reply": "Lt. Worf: Beacon transmitted. Their sacrifice will endure. They are an honorable people."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Captain Picard",
+      "line": "Hard to believe they chose to stay behind. They became part of Velara’s story—perhaps they found peace in being remembered as legends rather than ghosts."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "The Prospero’s descendants found belonging where they were stranded. In the end, they no longer looked to the stars for purpose—they found it beneath them."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "Using a precision phaser array, the Enterprise dispersed the plasma vents beneath the Velaran capital. The event was mistaken for auroral lights—no evidence of interference remained. The Prospero descendants were quietly extracted for medical treatment."
+    },
+    {
+      "result": "success",
+      "text": "Picard authorized an invisible containment maneuver, preserving both life and history. Starfleet later commended the crew for executing a non-detectable planetary rescue under strict Prime Directive interpretation."
+    },
+    {
+      "result": "failure",
+      "text": "Orbital deflection failed. The plasma vents erupted, destroying the capital. Survivors deified the 'Sky Born,' forever altering Velaran religion and technological trajectory."
+    },
+    {
+      "result": "failure",
+      "text": "Attempted transporter extraction overloaded pattern buffers. The Prospero descendants perished, and the truth of their origin was lost to time."
+    },
+    {
+      "result": "failure",
+      "text": "Picard withheld intervention. The eruption consumed the Velaran capital, fulfilling the Prime Directive at the cost of two million lives."
+    }
+  ]
+},
   {
     "story_name": "Songs of Sto'Vo'Kor",
 	"starfleet_message": "Captain’s Log, Stardate 47632.4 — While surveying subspace fracture lines near the Khitomer Expanse, the Enterprise was struck by a concentrated tachyon shear and forced through an unstable temporal fold. We have emerged in what appears to be the mid-22nd century — over a century before the Federation-Klingon détente. Long-range sensors detect a heavily damaged Klingon D5-class battlecruiser adrift on minimal power. Its captain believes we are spirits from Sto’Vo’Kor and demands we witness his final battle. I must decide how to respond without altering history itself.",
