@@ -505,6 +505,33 @@ footer {
   gap: 20px;
   margin-top: 10px;
 }
+
+
+
+/* === story_name banner inside COMMUNIQUÉ (auto-width) === */
+.story-banner {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.0em;
+  font-weight: 700;
+  color: #FFD65C;
+  background: rgba(0,0,0,0.4);
+  border: 2px solid var(--gold);
+  padding: 4px 10px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+#communique { position: relative; }
+@media (max-width: 720px){
+  .story-banner {
+    font-size: 0.9em;
+    right: 5px;
+  }
+}
 </style>
 </head>
 <body>
@@ -630,6 +657,16 @@ function renderDialogueNode() {
   const dialog = document.getElementById("dialog");
   const options = document.getElementById("options");
   dialog.innerHTML = '<h2>' + node.crew.toUpperCase() + '</h2><p>' + node.line + '</p>';
+  const comm = document.getElementById('communique');
+  if (comm) {
+    let banner = comm.querySelector('.story-banner');
+    if (!banner) {
+      banner = document.createElement('div');
+      banner.className = 'story-banner';
+      comm.insertBefore(banner, comm.firstChild);
+    }
+    banner.textContent = (s.story_name ? 'Episode Name: ' + s.story_name : '');
+  }
   options.innerHTML = '';
 
   const medicalKeywords = [
