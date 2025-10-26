@@ -865,17 +865,17 @@
         "options": [
           {
             "label": "Data, analyze the dome’s energy source.",
-            "crew_reply": "Lt. Commander Data The containment field is powered by an underground fusion reactor, operating at minimal output for one hundred forty-seven years.",
+            "crew_reply": "Lt. Commander Data: The containment field is powered by an underground fusion reactor, Sir. It has been operating at minimal output for one hundred forty-seven years.",
             "next": 1
           },
           {
-            "label": "La Forge, confirm if it’s safe to transport inside.",
-            "crew_reply": "Commander La Forge Atmospheric conditions inside the dome are Earth-normal, Captain. Transporters will be accurate to within half a meter.",
+            "label": "Geordi, confirm if it’s safe to transport inside.",
+            "crew_reply": "Commander La Forge: Atmospheric conditions inside the dome are Earth-normal, Captain. Transporters will be accurate to within half a meter.",
             "next": 1
           },
           {
-            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
-            "crew_reply": "Commander Riker Acknowledged, Captain",
+            "label": "Number One, send an engineering team to stabilize critical systems.",
+            "crew_reply": "Commander Riker Acknowledged, Captain.",
             "next": 1
           }
         ]
@@ -885,39 +885,39 @@
         "line": "Captain, I’m sensing apprehension and reverence from within. Whoever they are, they believe this place is sacred.",
         "options": [
           {
-            "label": "Riker, lead an away team with Data and Data.",
-            "crew_reply": "Commander Riker Understood. We’ll maintain low posture—no phasers drawn.",
+            "label": "Number One, assemble an away team.",
+            "crew_reply": "Commander Riker: Geordi, Worf, you're with me.",
             "next": 2
           },
           {
-            "label": "Worf, have security on standby in case the inhabitants react violently.",
-            "crew_reply": "Lt. Worf Aye, Captain. Teams standing by for immediate beam-in.",
+            "label": "Mr. Worf, have a security detail on standby. I want us prepared for any hostile response.",
+            "crew_reply": "Lt. Worf: Aye, Captain. Teams standing by for immediate beam-in.",
             "next": 2
           },
           {
-            "label": "Troi, focus on the alien vessel’s command presence and report any instability.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain",
+            "label": "Counselor Troi, focus on the alien vessel’s command presence and report any instability.",
+            "crew_reply": "Counselor Troi: Acknowledged, Captain.",
             "next": 2
           }
         ]
       },
       {
         "crew": "Commander Riker",
-        "line": "Captain, we’ve made contact. The inhabitants are all children—none older than their mid-teens. They refer to themselves as the 'Heirs of the First Light.'",
+        "line": "Captain, we’ve made contact. The inhabitants are all children; none older than their mid-teens. They refer to themselves as the 'Heirs of the First Light.'",
         "options": [
           {
-            "label": "Troi, maintain empathic contact with the envoy and warn me of any aggression.",
-            "crew_reply": "Counselor Troi Fear mixed with awe. They think we’re the return of mythic ancestors.",
+            "label": "Counselor, are you sensing anything from the inhabitants?",
+            "crew_reply": "Counselor Troi: Yes, sir. I sense fear mixed with awe. They think we’re the return of mythic ancestors.",
             "next": 3
           },
           {
             "label": "Data, access the dome’s computer network discreetly.",
-            "crew_reply": "Lt. Commander Data Access granted. The environmental computer controls all functions, including population management.",
+            "crew_reply": "Lt. Commander Data: I have gained access. The environmental computer controls all functions, including population management.",
             "next": 3
           },
           {
-            "label": "Riker, manage bridge readiness and oversee all departmental reports.",
-            "crew_reply": "Commander Riker Acknowledged, Captain",
+            "label": "Commander Riker,you have the bridge. I'll be in my ready room.",
+            "crew_reply": "Commander Riker: Acknowledged, Captain",
             "next": 3
           }
         ]
@@ -927,39 +927,49 @@
         "line": "Captain, the system identifies itself as 'Central Guardian Unit 1.' It references the colonists as dependents under Directive 12: 'Preserve life. Prevent contamination.'",
         "options": [
           {
-            "label": "La Forge, determine if the directive can be overridden.",
-            "crew_reply": "Commander La Forge Maybe, but there’s a problem. The system’s failing logic core interprets us as contaminants. It’s sealing the dome.",
+            "label": "Geordi, are you able to override the directive?",
+            "crew_reply": "Commander La Forge: Maybe, but there’s a problem. The system’s failing logic core interprets us as contaminants. It’s sealing the dome.",
             "next": 4
           },
           {
-            "label": "Data, what happens if the dome’s power fails?",
-            "crew_reply": "Lt. Commander Data The children’s habitat would collapse. Temperature and pressure would drop below survivable levels within minutes.",
+            "label": "Data, if the dome's power fails, would the habitat collapse?",
+            "crew_reply": "Lt. Commander Data: Yes, sir. Temperature and pressure would drop below survivable levels within minutes.",
             "next": 4
           },
           {
             "label": "Data, isolate the radiation pattern and trace it to its origin.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain",
+            "crew_reply": "Lt. Commander Data:  Analysis complete, Captain. The emissions converge on a single origin; an artificial construct consistent with a reactor core",
             "next": 4
           }
         ]
       },
       {
         "crew": "Counselor Troi",
-        "line": "The oldest child, Thalen, believes the 'Voice of the Sky'—their computer—protects them from a poisonous world. He’s terrified of our interference.",
+        "line": "The oldest child, Thalen, believes the 'Voice of the Sky', their computer system, protects them from a poisonous world. He’s terrified of our interference.",
         "options": [
           {
-            "label": "Riker, coordinate evacuation and relocate the Calderis survivors to the surface.",
-            "crew_reply": "Commander Riker Evacuation complete, Captain. All survivors accounted for."
+            "label": "Number One, coordinate evacuation and relocate the Calderis survivors to the surface.",
+            "crew_reply": "Commander Riker: Evacuation complete, Captain. All survivors accounted for."
           },
           {
             "label": "La Forge, disable the Guardian’s remaining control nodes and stabilize the reactor core.",
-            "crew_reply": "Commander La Forge Nodes offline—core stable and cooling."
+            "crew_reply": "Commander La Forge: Nodes offline, Captain. The core is stable and cooling."
           },
           {
-            "label": "Troi, maintain contact with Thalen and ensure transition proceeds calmly.",
-            "crew_reply": "Counselor Troi The children are safe and cooperative, Captain."
+            "label": "Counselor Troi, maintain contact with Thalen and ensure the transition proceeds smoothly.",
+            "crew_reply": "Counselor Troi: The children are safe and cooperative, Captain."
           }
         ]
+      }
+    ],
+    "reflection": [
+      {
+        "crew": "Counselor Troi",
+        "line": "They were born into faith shaped by a machine, Captain. Yet even when their world was crumbling, they still believed it was protecting them."
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "Perhaps that faith is what kept them alive, Counselor. But survival without understanding is a fragile legacy — one the Federation must help them outgrow."
       }
     ],
     "debriefs": [
@@ -984,7 +994,7 @@
         "text": "The children refused to abandon their 'sacred home.' The away team was forced to withdraw before the system self-sealed. The distress beacon continues to broadcast across the sector."
       }
     ]
-  },
+},
   {
     "starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
     "mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
