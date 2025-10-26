@@ -716,135 +716,145 @@
   ]
 }
   {
-    "starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
-    "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby — reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
-    "dialogue_tree": [
-      {
-        "crew": "Commander Riker",
-        "line": "Captain, the archaeological team reports that the artifact beneath the ruins has activated. A standing energy field now surrounds the Gate structure.",
-        "options": [
-          {
-            "label": "Data, identify the composition and energy signature of the field.",
-            "crew_reply": "Lt. Commander Data The energy is photonic, modulated by an unknown quantum phase variance. It may be responding to neural activity.",
-            "next": 1
-          },
-          {
-            "label": "La Forge, confirm whether the field poses a danger to the excavation team.",
-            "crew_reply": "Commander La Forge Not yet, but readings are climbing. Whatever it’s doing, it’s building toward something.",
-            "next": 1
-          },
-          {
-            "label": "Riker, coordinate engineering and security to stabilize critical systems.",
-            "crew_reply": "Commander Riker Acknowledged, Captain",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the field intensity is now projecting visual forms — humanoid silhouettes resembling our own crew.",
-        "options": [
-          {
-            "label": "Troi, can you sense anything from these apparitions?",
-            "crew_reply": "Counselor Troi Confusion, awareness, and something else — recognition. They know us, or think they do.",
-            "next": 2
-          },
-          {
-            "label": "Worf, maintain a defensive posture and prepare for containment protocols.",
-            "crew_reply": "Lt. Worf Aye, Captain. Security teams standing by.",
-            "next": 2
-          },
-          {
-            "label": "Data, correlate the subspace harmonics and display the projection.",
-            "crew_reply": "Lt. Commander Data Acknowledged, Captain",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Counselor Troi",
-        "line": "Captain, each apparition mirrors one of us — emotionally and mentally, but inverted. Their sense of self feels fractured, as if drawn from memory rather than matter.",
-        "options": [
-          {
-            "label": "Data, analyze the photonic density of the projections.",
-            "crew_reply": "Lt. Commander Data They are composed of phased energy similar to transporter buffers — but encoded with neural patterns.",
-            "next": 3
-          },
-          {
-            "label": "Crusher, could this represent a form of cellular duplication?",
-            "crew_reply": "Dr. Crusher Unlikely. There’s no biological matrix — just light and thought.",
-            "next": 3
-          },
-          {
-            "label": "Troi, maintain empathic contact with the envoy and warn me of any aggression.",
-            "crew_reply": "Counselor Troi Acknowledged, Captain",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Worf",
-        "line": "One of the reflections — yours, Captain — has stepped through the barrier. It’s… solidifying.",
-        "options": [
-          {
-            "label": "Riker, coordinate with security to contain it without aggression.",
-            "crew_reply": "Commander Riker Aye. The reflection seems calm — even curious.",
-            "next": 4
-          },
-          {
-            "label": "Data, scan for differences between myself and the duplicate.",
-            "crew_reply": "Lt. Commander Data Physiologically identical. Neural signatures diverge — his memory path diverged decades ago.",
-            "next": 4
-          },
-          {
-            "label": "Worf, arm forward phasers and hold lock on the target until ordered.",
-            "crew_reply": "Lt. Worf Acknowledged, Captain",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "Captain, the duplicate claims to be you — but from a universe where the Federation fell to war with the Romulans. He says the Gate preserved his consciousness when his world died.",
-        "options": [
-          {
-            "label": "Riker, oversee shutdown of all containment fields around the Acheron Gate site.",
-            "crew_reply": "Commander Riker Site secure, Captain. Energy readings dropping to zero."
-          },
-          {
-            "label": "Data, record final phase variance of the Gate structure for Starfleet archives.",
-            "crew_reply": "Lt. Commander Data Variance logged. No further photonic activity detected."
-          },
-          {
-            "label": "Troi, check in with the archaeological team and assess their psychological condition.",
-            "crew_reply": "Counselor Troi They’re shaken but unharmed. Processing what they witnessed."
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "The duplicate chose to return to the Gate, ending his existence as the structure deactivated. His final words: 'We were the same, once.' Starfleet Science has classified the Acheron Gate as a non-replicable dimensional echo phenomenon."
-      },
-      {
-        "result": "success",
-        "text": "A stabilized energy field preserved the duplicate long enough for study before the Gate dissolved. Starfleet confirmed his genetic match to Captain Picard — from an alternate timeline."
-      },
-      {
-        "result": "failure",
-        "text": "The Gate collapsed unexpectedly, erasing all reflected entities and severely damaging the outpost. Starfleet sealed Acheron IV pending further investigation."
-      },
-      {
-        "result": "failure",
-        "text": "An attempt to preserve the duplicate’s pattern corrupted transporter buffers, forcing a full system purge. The entity disintegrated in a burst of coherent light."
-      },
-      {
-        "result": "failure",
-        "text": "Hostile mirror manifestations breached containment and attacked the crew. The Gate self-destructed moments later, leaving only residual energy traces in orbit."
-      }
-    ]
-  },
+  "starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
+  "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby — reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, the archaeological team reports that the artifact beneath the ruins has activated. A standing energy field now surrounds the Gate structure.",
+      "options": [
+        {
+          "label": "Data, identify the composition and energy signature of the field.",
+          "crew_reply": "Lt. Commander Data: The energy is photonic, Captain; modulated by an unknown quantum phase variance. It may be responding to neural activity.",
+          "next": 1
+        },
+        {
+          "label": "La Forge, confirm whether the field poses a danger to the excavation team.",
+          "crew_reply": "Commander La Forge: Not yet, sir. But readings are climbing. Whatever it’s doing, it’s building toward something.",
+          "next": 1
+        },
+        {
+          "label": "Commander Riker, assemble an engineering away team to stabilize critical systems.",
+          "crew_reply": "Commander Riker: Aye, sir. An away team is assembled in the transporter room. Transporting now.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the field intensity is now projecting visual forms; humanoid silhouettes resembling our own crew.",
+      "options": [
+        {
+          "label": "Counselor, can you sense anything from these apparitions?",
+          "crew_reply": "Counselor Troi: I'm sensing confusion, awareness, and something else, Captain; recognition. They know us, or think they do.",
+          "next": 2
+        },
+        {
+          "label": "Lt. Worf, raise shields and prepare for containment protocols.",
+          "crew_reply": "Lt. Worf: Shields are up and security teams are standing by, Captain.",
+          "next": 2
+        },
+        {
+          "label": "Commander Data, determine whether the energy field is transmitting or receiving.",
+          "crew_reply": "Lt. Commander Data: Scans indicate a bidirectional exchange, Captain. The structure is not merely generating power — it is communicating across subspace.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, each apparition mirrors one of us — emotionally and mentally, but inverted. Their sense of self feels fractured, as if drawn from memory rather than matter.",
+      "options": [
+        {
+          "label": "Data, analyze the photonic density of the projections.",
+          "crew_reply": "Lt. Commander Data: They are composed of phased energy similar to transporter buffers; but encoded with neural patterns.",
+          "next": 3
+        },
+        {
+          "label": "Doctor, could this represent a form of cellular duplication?",
+          "crew_reply": "Dr. Crusher: Unlikely, Captain. There’s no biological matrix, just light and thought.",
+          "next": 3
+        },
+        {
+          "label": "Counselor Troi, stay attuned to any emotional fluctuations from the entity. Inform me immediately of any signs of distress.",
+          "crew_reply": "Counselor Troi: Understood, Captain. Its presence feels... cautious, but not aggressive.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Worf",
+      "line": "One of the reflections — yours, Captain — has stepped through the barrier. It’s… solidifying.",
+      "options": [
+        {
+          "label": "Lt. Worf, can you contain the reflection without harming it?",
+          "crew_reply": "Lt. Worf: I'm containing the reflection in a level one force field, Captain. It won't be harmed.",
+          "next": 4
+        },
+        {
+          "label": "Counselor Troi, do you sense anything from the duplicate?",
+          "crew_reply": "Counselor Troi: Physiologically identical, Captain. But its neural patterns diverged long ago — this being remembers a different life.",
+          "next": 4
+        },
+        {
+          "label": "Counselor Troi, monitor the reflection’s emotional state and report any changes.",
+          "crew_reply": "Counselor Troi: Understood, Captain. Its focus is narrowing. It seems drawn to you, though it does not understand why.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, the duplicate claims to be you, but from a universe where the Federation fell to war with the Romulans. He says the Gate preserved his consciousness when his world died.",
+      "options": [
+        {
+          "label": "Riker, oversee shutdown of all containment fields around the Acheron Gate site.",
+          "crew_reply": "Commander Riker: Site secure, Captain. Energy readings dropping to zero."
+        },
+        {
+          "label": "Data, record final phase variance of the Gate structure for Starfleet archives.",
+          "crew_reply": "Lt. Commander Data: Variance logged, sir. No further photonic activity detected."
+        },
+        {
+          "label": "Counselor, check in with the archaeological team and assess their psychological condition.",
+          "crew_reply": "Counselor Troi: They’re shaken but unharmed, Captain."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Counselor Troi",
+      "line": "What we saw on Acheron IV wasn’t just a reflection, Captain. It was a memory made real — a fragment of you that refused to fade."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps we all leave echoes behind, Counselor. The question is whether we recognize them when they look back at us."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The duplicate chose to return to the Gate, ending his existence as the structure deactivated. His final words: 'We were the same, once.' Starfleet Science has classified the Acheron Gate as a non-replicable dimensional echo phenomenon."
+    },
+    {
+      "result": "success",
+      "text": "A stabilized energy field preserved the duplicate long enough for study before the Gate dissolved. Starfleet confirmed his genetic match to Captain Picard — from an alternate timeline."
+    },
+    {
+      "result": "failure",
+      "text": "The Gate collapsed unexpectedly, erasing all reflected entities and severely damaging the outpost. Starfleet sealed Acheron IV pending further investigation."
+    },
+    {
+      "result": "failure",
+      "text": "An attempt to preserve the duplicate’s pattern corrupted transporter buffers, forcing a full system purge. The entity disintegrated in a burst of coherent light."
+    },
+    {
+      "result": "failure",
+      "text": "Hostile mirror manifestations breached containment and attacked the crew. The Gate self-destructed moments later, leaving only residual energy traces in orbit."
+    }
+  ]
+},
   {
     "starfleet_message": "Captain’s Log, Stardate 47462.4 — The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions—and dozens of human life-signs within a sealed structure.",
     "mission_description": "The Enterprise discovers a surviving human enclave beneath a massive containment dome on Calderis IV. The inhabitants—children and adolescents—have lived for generations under the control of an autonomous environmental computer, worshiping its maintenance drones as divine beings. The crew must navigate faith, fear, and failing systems to free them before the dome collapses.",
