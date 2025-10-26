@@ -1390,139 +1390,130 @@
   ]
 },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47711.9 — While charting the decaying star at the edge of Sector 402, the Enterprise detected faint distress telemetry matching 22nd-century Starfleet coding. The signal emanates from Elyndra III — a pre-warp civilization whose atmosphere is collapsing under stellar radiation. Initial scans reveal the beacon originates from an ancient escape pod. The Prime Directive forbids interference, yet the device’s energy output appears to be accelerating the planet’s destruction. To act would violate law. To stand idle would condemn an entire species.",
-    "mission_description": "A centuries-old Starfleet escape pod has been integrated into Elyndran technology, destabilizing the planet’s atmosphere. Removing it will expose Starfleet to a pre-warp culture; leaving it ensures extinction. The captain must decide whether compassion outweighs the Prime Directive.",
-    "dialogue_tree": [
-      {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the Elyndran transmission matches a Starfleet distress code from the 22nd century. Source: a crashed escape pod located near one of their primary research settlements.",
-        "options": [
-          {
-            "label": "Data, confirm the device’s current integration with their infrastructure.",
-            "crew_reply": "Lt. Commander Data The Elyndrans appear to have adapted its power cell to augment their planetary energy grid. Its radiation output has risen exponentially over the past decade.",
-            "next": 1
-          },
-          {
-            "label": "La Forge, estimate how long before critical failure.",
-            "crew_reply": "Commander La Forge At current load, maybe three weeks before the magnetosphere collapses. After that — global extinction within days.",
-            "next": 1
-          },
-          {
-            "label": "Troi, any indication the population understands what’s happening?",
-            "crew_reply": "Counselor Troi I sense fear and denial, Captain. They know their world is dying but can’t comprehend why.",
-            "next": 1
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "Starfleet Command’s standing order is non-interference. Yet our own technology is the root cause of their destruction.",
-        "options": [
-          {
-            "label": "Data, could we disable the device remotely without alerting them?",
-            "crew_reply": "Lt. Commander Data Possible, sir — if we synchronize a low-band neutrino pulse with their local grid. Detection risk: thirty-eight percent.",
-            "next": 2
-          },
-          {
-            "label": "La Forge, can we beam it out quietly?",
-            "crew_reply": "Commander La Forge Transporters can lock onto the pod’s alloy, but the moment it vanishes their power network crashes. They’ll notice immediately.",
-            "next": 2
-          },
-          {
-            "label": "Crusher, is there any chance they survive naturally?",
-            "crew_reply": "Dr. Crusher None. Radiation exposure will sterilize the surface within the month.",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "crew": "Commander Riker",
-        "line": "So either we violate the Prime Directive, or we let eight billion people die. I know where my conscience sits.",
-        "options": [
-          {
-            "label": "Worf, your view?",
-            "crew_reply": "Lt. Worf The Directive is law, but honor demands we protect the innocent. A commander must act when law fails reason.",
-            "next": 3
-          },
-          {
-            "label": "Troi, moral evaluation.",
-            "crew_reply": "Counselor Troi The Directive was meant to prevent arrogance, not compassion. Doing nothing would be its worst misuse.",
-            "next": 3
-          },
-          {
-            "label": "La Forge, prepare a covert extraction plan.",
-            "crew_reply": "Commander La Forge Aye, Captain. I’ll recalibrate transporters for silent lock — no visible beam, minimal energy spike.",
-            "next": 3
-          }
-        ]
-      },
-      {
-        "crew": "Captain Picard",
-        "line": "If we act, we betray Starfleet’s highest law. If we don’t, we betray everything it stands for.",
-        "options": [
-          {
-            "label": "Authorize the covert beam-out. Full responsibility on my record.",
-            "crew_reply": "Commander Riker Understood, Captain. Transporters standing by. Energizing...",
-            "next": 4
-          },
-          {
-            "label": "Order Data to disable the grid remotely and simulate a natural failure.",
-            "crew_reply": "Lt. Commander Data Initiating neutrino pulse. Their sensors will read a simple overload. Power levels dropping safely.",
-            "next": 4
-          },
-          {
-            "label": "Delay action — attempt communication via subspace carrier wave.",
-            "crew_reply": "Counselor Troi They won’t comprehend the message, Captain. But… perhaps they’ll feel hope in the warning tone.",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Commander La Forge",
-        "line": "The operation’s complete, sir. The energy signature’s gone. Elyndra III’s atmosphere is stabilizing — but some of their sensors registered the event.",
-        "options": [
-          {
-            "label": "Riker, plot course for the nearest Starbase and prepare full temporal incident debrief.",
-            "crew_reply": "Commander Riker Course laid in, Captain. Engaging warp as soon as systems stabilize."
-          },
-          {
-            "label": "La Forge, verify warp field harmonics and purge any residual tachyon interference.",
-            "crew_reply": "Commander La Forge Warp field nominal. Temporal fold residue dissipating."
-          },
-          {
-            "label": "Data, archive the encounter record under Starfleet Historical Analysis.",
-            "crew_reply": "Lt. Commander Data Record sealed and transmitted, Captain. Timeline integrity confirmed."
-          }
-        ]
-      }
-    ],
-    "debriefs": [
-      {
-        "result": "success",
-        "text": "The covert extraction succeeded. Elyndra III’s atmosphere stabilized within hours. The civilization never identified the source of their ‘miracle,’ preserving their natural development while averting extinction."
-      },
-      {
-        "result": "success",
-        "text": "Data’s simulated grid overload erased all traces of Federation interference. The Prime Directive was technically broken — but the Elyndrans survived none the wiser. Starfleet Command quietly sealed the record."
-      },
-      {
-        "result": "success",
-        "text": "The Elyndrans detected a brief burst of subspace static but interpreted it as cosmic noise. Their world endures, and the Directive gains a new unwritten clause: compassion, judiciously applied."
-      },
-      {
-        "result": "failure",
-        "text": "The extraction was detected by Elyndran observers, who now worship the ‘Sky Sentinels’ that saved their world. Cultural contamination is irreversible; future contact is inevitable."
-      },
-      {
-        "result": "failure",
-        "text": "The remote pulse destabilized the pod prematurely. A chain reaction ignited atmospheric plasma, killing millions before the planet recovered. The Prime Directive remains intact — at a terrible price."
-      },
-      {
-        "result": "failure",
-        "text": "Transporter phase interference collapsed mid-transfer. The device exploded on-site, exposing Federation alloys. The surviving Elyndrans salvaged fragments, altering their scientific trajectory for centuries."
-      }
-    ]
-  },
+  "starfleet_message": "Captain’s Log, Stardate 47711.9 — While charting the decaying star at the edge of Sector 402, the Enterprise has detected a distress signal from Elyndra III, a pre-warp civilization exhibiting rapid atmospheric collapse. Long-range scans reveal traces of a Federation probe buried deep within their crust—one launched over a century ago and thought lost.",
+  "mission_description": "Investigate the source of the distress signal on Elyndra III. Determine how a lost Federation probe came to be integrated into the planet’s infrastructure and whether its malfunction is threatening the Elyndran biosphere.",
+  "dialogue_tree": [
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the Elyndran transmission matches a Starfleet distress code from the 22nd century. Source: a crashed escape pod located near one of their primary research settlements.",
+      "options": [
+        {
+          "label": "Data, confirm the device’s current integration with their infrastructure.",
+          "crew_reply": "Lt. Commander Data: The Elyndrans appear to have adapted its power cell to augment their planetary energy grid. Its radiation output has risen exponentially over the past decade.",
+          "next": 1
+        },
+        {
+          "label": "La Forge, estimate how long before critical failure.",
+          "crew_reply": "Commander La Forge: At current load, perhaps three weeks before the magnetosphere collapses. After that—global extinction within days.",
+          "next": 1
+        },
+        {
+          "label": "Troi, any indication the population understands what’s happening?",
+          "crew_reply": "Counselor Troi: I sense fear and denial, Captain. They know their world is dying but cannot comprehend why.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, we could beam down a covert away team to extract the probe core and stabilize the grid before the Elyndrans notice our interference.",
+      "options": [
+        {
+          "label": "La Forge, can we remote-link to the probe without transporter interference?",
+          "crew_reply": "Commander La Forge: Negative, sir. The radiation field will scatter any direct signal. Physical access is required.",
+          "next": 2
+        },
+        {
+          "label": "Worf, evaluate potential contamination risk if we deploy an away team.",
+          "crew_reply": "Lt. Worf: Extreme, Captain. Any visual contact could compromise their cultural integrity.",
+          "next": 2
+        },
+        {
+          "label": "Data, prepare an isolation algorithm to neutralize the probe remotely.",
+          "crew_reply": "Lt. Commander Data: Working, Captain. I will attempt to synchronize the probe’s decaying subroutines with a containment pulse.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Dr. Crusher",
+      "line": "Captain, the radiation levels from the probe are already causing neurological degradation among the Elyndrans’ population centers. Their DNA shows signs of adaptive mutation.",
+      "options": [
+        {
+          "label": "Crusher, develop a broad-spectrum antiviral countermeasure.",
+          "crew_reply": "Dr. Crusher: Acknowledged, Captain. It may slow cellular decay, but it won’t stop planetary collapse without power-core stabilization.",
+          "next": 3
+        },
+        {
+          "label": "Data, can the containment pulse double as a planetary dampening field?",
+          "crew_reply": "Lt. Commander Data: With modifications to the main deflector, yes. It would require full warp-field inversion to sustain.",
+          "next": 3
+        },
+        {
+          "label": "Riker, assemble an away team with La Forge and Worf. Proceed with minimal exposure.",
+          "crew_reply": "Commander Riker: Understood, Captain. We’ll keep our presence limited to the subterranean entry corridor.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, as the containment field stabilizes, I sense the collective consciousness of the Elyndrans turning outward—as if they’re aware of us, thanking us.",
+      "options": [
+        {
+          "label": "Picard, log this as a successful containment and cultural non-interference mission.",
+          "crew_reply": "Captain Picard: The Prime Directive remains intact, though just barely. Let us hope our unseen hand guides them toward recovery.",
+          "next": 4
+        },
+        {
+          "label": "La Forge, confirm containment field stability.",
+          "crew_reply": "Commander La Forge: Field holding steady, Captain. Energy flux down to point-oh-three percent.",
+          "next": 4
+        },
+        {
+          "label": "Data, record final telemetry for Starfleet Science Command.",
+          "crew_reply": "Lt. Commander Data: Telemetry archived, Captain. The Elyndran star system is returning to equilibrium.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "The Elyndrans will never know how close they came to extinction. Let us ensure the same mistake is never repeated.",
+      "options": [
+        {
+          "label": "End simulation.",
+          "crew_reply": "Simulation complete. All systems nominal.",
+          "next": 5
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Lt. Commander Data",
+      "line": "The Elyndrans’ adaptation of Federation technology demonstrates ingenuity born of desperation. It is a sobering reminder of the ripple effects of exploration."
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Compassion often demands action, even when morality urges restraint. The line between them can be razor-thin."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "In saving a civilization, we must never lose sight of what makes ours worth preserving."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Enterprise stabilized the Elyndran planetary grid and restored equilibrium without revealing its presence. Starfleet commends the crew’s precision and restraint."
+    },
+    {
+      "result": "failure",
+      "text": "The containment field collapsed under stress. The Elyndran biosphere was lost—an indelible scar on the Prime Directive."
+    }
+  ]
+},
   {
   "starfleet_message": "Captain’s Log, Stardate 47691.4 — En route to the Deneb sector, the Enterprise has detected an anomalous warp signature emanating from an uncharted M-class world. Sensor analysis confirms the civilization below is pre-warp. Yet their atmosphere now contains traces of warp plasma isotopes — the unmistakable residue of a dilithium reaction. Starfleet Science believes the planet may have observed a previous warp transit and attempted to recreate it.",
   "mission_description": "The crew must determine how a pre-warp civilization acquired knowledge of faster-than-light propulsion and whether their experiments threaten planetary stability. The society, divided between factions of 'The Ascended' who worship the sky-fire and 'The Engineers' who attempt to harness it, stands on the brink of civil war. When the Enterprise detects a subspace surge building within their upper atmosphere, Captain Picard must decide whether to intervene or let them learn the cost of imitation.",
