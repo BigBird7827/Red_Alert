@@ -554,6 +554,7 @@ footer {
 const REMOTE_JSON_URL='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
 let scenarios=[],currentScenario=0,currentNode=0,missionActive=false
 
+// Crew portrait map and controller
 const crewImages = {
   "Picard": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Picard.png",
   "Riker": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Riker.png",
@@ -564,7 +565,6 @@ const crewImages = {
   "Obrien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
   "Worf": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Worf.png",
   "La Forge": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/La%20Forge.png",
-  "Keller": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Major%20Aaron%20Keller.png",
   "Default": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Default.png"
 };
 
@@ -573,7 +573,6 @@ function setPortrait(name) {
   if (!portrait) return;
   portrait.src = crewImages[name] || crewImages["Default"];
 }
-
 async function loadScenarios(){
   try{
     const res = await fetch(REMOTE_JSON_URL, { cache: 'no-store' });
@@ -590,9 +589,7 @@ async function loadScenarios(){
   }
   displayScenario(0);
 }
-
 function fadeTransition(el,newHTML){el.innerHTML=newHTML}
-
 function displayScenario(index){
   setPortrait('Picard');
   currentScenario=index;currentNode=0;missionActive=false
@@ -614,6 +611,7 @@ function displayScenario(index){
   renderDialogueNode()
 }
 
+
 function renderDialogueNode() {
   const s = scenarios[currentScenario];
   const node = s.dialogue_tree[currentNode];
@@ -621,6 +619,21 @@ function renderDialogueNode() {
   const options = document.getElementById("options");
   dialog.innerHTML = '<h2>' + node.crew.toUpperCase() + '</h2><p>' + node.line + '</p>';
   options.innerHTML = '';
+
+  const medicalKeywords = [
+    "sickbay","medical","doctor","physician","nurse","casualty","casualties",
+    "wounded","injuries","injury","triage","treatment","care","heal","stabilize",
+    "biohazard","pathogen","infection","infected","quarantine","isolation",
+    "containment field in sickbay","decontamination","antidote","vaccine","cure",
+    "contagion","contamination","biological","life signs unstable"
+  ];
+  const nonMedicalExclusions = [
+    "physical structure","physical distortion","physical field","structural integrity",
+    "containment field","biomechanical","material composition","resonance","graviton",
+    "energy field","radiation","power field","hull breach","neutrino","quantum field",
+    "subspace field","magnetic field","feedback loop","analysis","diagnostic",
+    "cortical node","bio-signal","containment failure","power modulation"
+  ];
 
   node.options.forEach(opt => {
     const btn = document.createElement('button');
@@ -638,6 +651,12 @@ function renderDialogueNode() {
         if(dlg) dlg.classList.add('dialog-top');
         if(opts) opts.classList.add('options-top');
       }
+      if (opt.label.toLowerCase().includes('crusher')) {
+        const textToCheck = (opt.label + ' ' + opt.crew_reply).toLowerCase();
+        const hasMedical = medicalKeywords.some(k => textToCheck.includes(k));
+        const isExcluded = nonMedicalExclusions.some(e => textToCheck.includes(e));
+        if (!hasMedical || isExcluded) return;
+      }
 
       const allButtons = options.querySelectorAll('.dialogButton');
       allButtons.forEach(b => {
@@ -648,41 +667,90 @@ function renderDialogueNode() {
       reply.className = 'reply-wrapper';
       const replyText = document.createElement('div');
       replyText.innerHTML = '<strong>' + opt.crew_reply + '</strong>';
-      const imageContainer = document.createElement('div');
-      imageContainer.className = 'crew-image-container';
+      const imageContainer = document.createElement('div'); imageContainer.className = 'crew-image-container';
       const img = document.createElement('img');
       
-      const crewName = findCrewNameFromText(this.textContent);
-      setPortrait(crewImages[crewName]);
-
-      reply.appendChild(replyText);
-      reply.appendChild(imageContainer);
-      imageContainer.appendChild(img);
-      dialog.appendChild(reply);
-
-      if (opt.next !== undefined) {
-        currentNode = opt.next;
-        setTimeout(renderDialogueNode, 1200);
-      } else {
-        setTimeout(showDebrief, 1200);
-      }
-    };
-    options.appendChild(btn);
-  });
-}
-
+const crewImages = {
+  "Picard": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Picard.png",
+  "Riker": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Riker.png",
+  "Data": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Data.png",
+  "Troi": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Troi.png",
+  "Crusher": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Crusher.png",
+  "O'Brien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
+  "Obrien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
+  "Worf": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Worf.png",
+  "La Forge": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/La%20Forge.png",
+  "Keller": https://raw.githubusercontent.com/BigBird7827/Red_Alert//main/Crew%20Images/Major%20Aaron%20Keller.png
+  "Default": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Default.png"
+};
 
 function findCrewNameFromText(text) {
   const lower = text.toLowerCase();
-  if (lower.includes("picard")) return "Picard";
-  if (lower.includes("riker") || lower.includes("number one")) return "Riker";
-  if (lower.includes("data")) return "Data";
-  if (lower.includes("la forge") || lower.includes("geordi")) return "La Forge";
-  if (lower.includes("crusher") || lower.includes("beverly")) return "Crusher";
-  if (lower.includes("troi") || lower.includes("counselor")) return "Troi";
-  if (lower.includes("worf")) return "Worf";
-  if (lower.includes("keller") || lower.includes("major keller") || lower.includes("major aaron keller")) return "Keller";
-  if (lower.includes("o'brien") || lower.includes("obrien") || lower.includes("chief")) return "O'Brien";
+
+  if (
+    lower.includes("picard") ||
+    lower.includes("captain picard") ||
+    lower.startsWith("captain,")
+  ) return "Picard";
+
+  if (
+    lower.includes("riker") ||
+    lower.includes("number one") ||
+    lower.includes("commander riker")
+  ) return "Riker";
+
+  if (
+    lower.includes("data") ||
+    lower.includes("lt. commander data") ||
+    lower.includes("lieutenant commander data") ||
+    lower.includes("mr. data")
+  ) return "Data";
+
+  if (
+    lower.includes("la forge") ||
+    lower.includes("geordi") ||
+    lower.includes("lt. commander la forge") ||
+    lower.includes("lieutenant commander la forge") ||
+    lower.includes("commander la forge")
+  ) return "La Forge";
+
+  if (
+    lower.includes("crusher") ||
+    lower.includes("doctor crusher") ||
+    lower.includes("dr. crusher") ||
+    lower.includes("beverly") ||
+    lower.includes("doctor")
+  ) return "Crusher";
+
+  if (
+    lower.includes("troi") ||
+    lower.includes("counselor troi") ||
+    lower.includes("counselor") ||
+    lower.includes("counsellor")
+  ) return "Troi";
+
+  if (
+    lower.includes("worf") ||
+    lower.includes("mr. worf") ||
+    lower.includes("lt. worf") ||
+    lower.includes("lieutenant worf")
+  ) return "Worf";
+  
+  if {
+	lower.includes("keller") ||
+	lower.includes("major keller") ||
+	lower.includes("major") ||
+	lower.includes("aaron") ||
+) return "keller";
+
+  if (
+    lower.includes("o'brien") ||
+    lower.includes("obrien") ||
+    lower.includes("chief o'brien") ||
+    lower.includes("chief obrien") ||
+    lower.includes("chief")
+  ) return "O'Brien";
+
   return "Default";
 }
 
