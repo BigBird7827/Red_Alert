@@ -1099,7 +1099,7 @@
         },
         {
           "label": "Counselor, see that Major Keller is calm and prepared for transport.",
-          "crew_reply": "Counselor Troi: Yes, Captain. I’ll reassure him that the situation is under control. He won’t retain any impressions that could endanger the timeline.",
+          "crew_reply": "Troi: Yes, Captain. I’ll reassure him that the situation is under control. He won’t retain any impressions that could endanger the timeline.",
           "next": 5
         }
       ]
