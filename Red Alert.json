@@ -1,6 +1,7 @@
 [
   {
-    "starfleet_message": "Captain’s Log, Stardate 47457.2 — While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
+    "story_name": "Reflections of the Mind",
+	"starfleet_message": "Captain’s Log, Stardate 47457.2 — While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
     "mission_description": "While charting Andiron III, the Enterprise encounters a crystalline lattice emitting predictive gravimetric echoes that mirror the ship’s own systems. Investigate the phenomenon, determine if it represents an intelligence, and prevent resonance feedback from destabilizing the warp core.",
     "dialogue_tree": [
       {
@@ -144,7 +145,8 @@
     ]
   },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
+    "story_name": "Echos from the Neutral Zone",
+	"starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
     "mission_description": "Upon entering the Neutral Zone, the Enterprise discovers the phased remains of a long-lost Romulan-Klingon outpost trapped within a temporal distortion. Determine the nature of the anomaly, free any surviving consciousness, and avoid diplomatic escalation.",
     "dialogue_tree": [
       {
@@ -288,7 +290,8 @@
     ]
   },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
+    "story_name": "Resonance",
+	"starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
     "mission_description": "The Enterprise arrives at Veridian IV, where a subspace-reactive organism has infected the colony’s population. The pathogen adapts to every treatment and displays patterns of intelligence. Determine its origin, contain the outbreak, and decide whether the lifeform can or should be preserved.",
     "dialogue_tree": [
       {
@@ -432,7 +435,8 @@
     ]
   },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47459.3 — While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
+    "story_name": "Resonance",
+	"starfleet_message": "Captain’s Log, Stardate 47459.3 — While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
     "mission_description": "An experimental graviton-harvesting operation has triggered the birth of a micro-singularity. The phenomenon is expanding unpredictably, threatening both the mining convoy and nearby subspace lanes. Establish the source, stabilize the field, and decide whether the entity forming within can be reasoned with.",
     "dialogue_tree": [
       {
@@ -575,7 +579,7 @@
       }
     ]
   },
-  {
+  {"story_name": "Whispers",
     "starfleet_message": "Captain’s Log, Stardate 47460.1 — En route to Starbase 212 for resupply, the Enterprise has intercepted a faint subspace distress beacon of Federation origin. The signal is decades old, yet appears newly transmitted. We are diverting to investigate.",
     "mission_description": "The Enterprise locates the source of the mysterious beacon—an Oberth-class survey vessel, the USS Callisto, missing for over fifty years. The ship drifts intact, its hull pristine but devoid of any life signs. As the crew investigates, they uncover evidence that the Callisto is trapped within a quantum echo of itself, repeating its final moments in silence.",
     "dialogue_tree": [
@@ -716,7 +720,8 @@
     ]
   },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
+    "story_name": "Reflections from the Gate",
+	"starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
     "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby — reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
     "dialogue_tree": [
       {
@@ -856,7 +861,8 @@
     ]
   },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47462.4 — The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions—and dozens of human life-signs within a sealed structure.",
+    "story_name": "Sanctuary",
+	"starfleet_message": "Captain’s Log, Stardate 47462.4 — The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions—and dozens of human life-signs within a sealed structure.",
     "mission_description": "The Enterprise discovers a surviving human enclave beneath a massive containment dome on Calderis IV. The inhabitants—children and adolescents—have lived for generations under the control of an autonomous environmental computer, worshiping its maintenance drones as divine beings. The crew must navigate faith, fear, and failing systems to free them before the dome collapses.",
     "dialogue_tree": [
       {
@@ -996,9 +1002,10 @@
     ]
 },
   {
-  "starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
-  "mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
-  "dialogue_tree": [
+	"story_name": "Echoes",
+	"starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
+	"mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
+	"dialogue_tree": [
     {
       "crew": "Commander La Forge",
       "line": "Captain, the probe is definitely from the future. Likely 29th century. Its temporal matrix is leaking chroniton radiation into subspace, creating an echo that intersects 21st-century Earth.",
@@ -1139,7 +1146,8 @@
   ]
 },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47466.2 — The Enterprise has entered orbit of Velara III, a pre-warp world roughly comparable to Earth’s mid-19th century. Industrialization, nation-states, and primitive aviation are emerging, but no warp capability exists. Long-range sensors have detected a small group of humanoid biosignatures whose biochemical profiles are nearly identical to Federation human norms. Traces of 23rd-century alloy and residual energy suggest they may be descendants of a lost Starfleet crew. Starfleet Command has ordered strict adherence to the Prime Directive.",
+    "story_name": "Sky Born",
+	"starfleet_message": "Captain’s Log, Stardate 47466.2 — The Enterprise has entered orbit of Velara III, a pre-warp world roughly comparable to Earth’s mid-19th century. Industrialization, nation-states, and primitive aviation are emerging, but no warp capability exists. Long-range sensors have detected a small group of humanoid biosignatures whose biochemical profiles are nearly identical to Federation human norms. Traces of 23rd-century alloy and residual energy suggest they may be descendants of a lost Starfleet crew. Starfleet Command has ordered strict adherence to the Prime Directive.",
     "mission_description": "Velara III faces a coming geological disaster that threatens millions of pre-warp inhabitants. Descendants of a lost 23rd-century science vessel have lived among them for generations, accelerating their progress and creating a mythology around the 'Sky Born.' The Enterprise must decide whether to act and save them or preserve the Prime Directive—even at the cost of countless lives.",
     "dialogue_tree": [
       {
@@ -1269,7 +1277,8 @@
     ]
   },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47632.4 — While surveying subspace fracture lines near the Khitomer Expanse, the Enterprise was struck by a concentrated tachyon shear and forced through an unstable temporal fold. We have emerged in what appears to be the mid-22nd century — over a century before the Federation-Klingon détente. Long-range sensors detect a heavily damaged Klingon D5-class battlecruiser adrift on minimal power. Its captain believes we are spirits from Sto’Vo’Kor and demands we witness his final battle. I must decide how to respond without altering history itself.",
+    "story_name": "Songs of Sto'Vo'Kor",
+	"starfleet_message": "Captain’s Log, Stardate 47632.4 — While surveying subspace fracture lines near the Khitomer Expanse, the Enterprise was struck by a concentrated tachyon shear and forced through an unstable temporal fold. We have emerged in what appears to be the mid-22nd century — over a century before the Federation-Klingon détente. Long-range sensors detect a heavily damaged Klingon D5-class battlecruiser adrift on minimal power. Its captain believes we are spirits from Sto’Vo’Kor and demands we witness his final battle. I must decide how to respond without altering history itself.",
     "mission_description": "The Enterprise-D is thrown backward in time and encounters a mortally wounded 22nd-century Klingon warship. The crew must balance temporal non-interference against Klingon honor, stabilize the situation just long enough to escape, and prevent timeline contamination.",
     "dialogue_tree": [
       {
@@ -1413,7 +1422,8 @@
     ]
   },
   {
-    "starfleet_message": "Captain’s Log, Stardate 47711.9 — While charting the decaying star at the edge of Sector 402, the Enterprise has detected a distress signal from Elyndra III, a pre-warp civilization exhibiting rapid atmospheric collapse. Long-range scans reveal traces of a Federation probe buried deep within their crust—one launched over a century ago and thought lost.",
+    "story_name": "The Price",
+	"starfleet_message": "Captain’s Log, Stardate 47711.9 — While charting the decaying star at the edge of Sector 402, the Enterprise has detected a distress signal from Elyndra III, a pre-warp civilization exhibiting rapid atmospheric collapse. Long-range scans reveal traces of a Federation probe buried deep within their crust—one launched over a century ago and thought lost.",
     "mission_description": "Investigate the source of the distress signal on Elyndra III. Determine how a lost Federation probe came to be integrated into the planet’s infrastructure and whether its malfunction is threatening the Elyndran biosphere.",
     "dialogue_tree": [
       {
