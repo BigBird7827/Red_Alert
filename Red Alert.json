@@ -1399,9 +1399,8 @@
           "crew_reply": "Commander Riker: Aye, Captain. Helm responding. Speed increasing to warp six—course locked for Starbase 47.",
           "next": null
         }
-      ]
-    },
-    "reflection": [
+      ],
+      "reflection": [
       {
         "crew": "Lt. Worf",
         "line": "Their captain met death as a warrior should — unafraid, unyielding. His song will echo in Sto’Vo’Kor."
