@@ -1,0 +1,162 @@
+{
+  "story_name": "Ambush",
+  "starfleet_message": "While on a routine charting mission within the Briar Patch, the Enterprise-D detects a Federation distress signal emanating from deep inside a metreon-rich cloud. The signal is authentic in form and encryption, but unregistered to any known vessel. An investigation is ordered to determine the source.",
+  "mission_description": "Investigate the unregistered Federation distress signal within the Briar Patch and determine its true origin.",
+  "dialogue_tree": [
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the signal originates from a dense metreon field ahead. Sensor resolution is limited to thirty-five percent due to ionized interference.",
+      "options": [
+        {
+          "label": "Reduce speed to one-quarter impulse. Proceed with caution.",
+          "crew_reply": "Helm: Aye, sir. Adjusting course through the outer edge of the metreon concentration.",
+          "next": 1
+        },
+        {
+          "label": "Mr. La Forge, can we filter through the interference?",
+          "crew_reply": "La Forge: I can shift the harmonic phase to cut through the noise, Captain, but it’ll push the sensors close to overload.",
+          "next": 1
+        },
+        {
+          "label": "Mr. Worf, prepare a tactical scan and stand by shields.",
+          "crew_reply": "Worf: Aye, Captain. Defensive systems on standby.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, I’m reading a single vessel — freighter-class. The transponder keeps switching between Federation and civilian codes.",
+      "options": [
+        {
+          "label": "Could be a damaged ship. Maintain yellow alert.",
+          "crew_reply": "Riker: Aye, sir. Holding course.",
+          "next": 2
+        },
+        {
+          "label": "Data, confirm the source of the distress signal.",
+          "crew_reply": "Data: Confirmed, Captain. The signal originates from that vessel.",
+          "next": 2
+        },
+        {
+          "label": "Worf, analyze their weapons systems.",
+          "crew_reply": "Worf: Detecting multiple emitters. Configuration suggests modifications not consistent with Starfleet design.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander La Forge",
+      "line": "I’ve refined the scan, Captain. That ship isn’t Starfleet. It’s a Nausicaan raider — the distress beacon’s been spoofed.",
+      "options": [
+        {
+          "label": "Hail them. Let’s end this before someone gets hurt.",
+          "crew_reply": "Worf: No response, Captain. They’re powering weapons.",
+          "next": 3
+        },
+        {
+          "label": "Raise shields. Prepare to maneuver.",
+          "crew_reply": "Data: Shields up. Radiation eddies forming between us and the target.",
+          "next": 3
+        },
+        {
+          "label": "Divert power to the deflector and open a secure channel.",
+          "crew_reply": "La Forge: Channel open — but it’s unstable through this interference.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Worf",
+      "line": "Incoming fire! Plasma bursts from the Nausicaan vessel!",
+      "options": [
+        {
+          "label": "Return fire — target their weapons only.",
+          "crew_reply": "Worf: Firing phasers. Direct hit — their forward emitter array is disabled.",
+          "next": 4
+        },
+        {
+          "label": "Fire phaser. Target their propulsion systems.",
+          "crew_reply": "Lt. Worf: Firing phasers. Their propulsion systems are offline.",
+          "next": 4
+        },
+        {
+          "label": "Evasive pattern delta. Fire phasers.",
+          "crew_reply": "Worf: Firing phasers, Captain. Damage to their port nacelle.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Data",
+      "line": "The Nausicaan threat has been neutralized, Captain. They’ve suffered moderate damage and appear to be retreating.",
+      "options": [
+        {
+          "label": "This is Captain Jean-Luc Picard of the Enterprise. Do you require assistance?",
+          "crew_reply": "Nausicaan Commander: We will drift on our own terms. Keep your distance, Federation.",
+          "next": 5
+        },
+        {
+          "label": "Nausicaan vessel, you are damaged. We are prepared to assist.",
+          "crew_reply": "Nausicaan Commander: Your offer is weakness. We need nothing from Starfleet.",
+          "next": 5
+        },
+        {
+          "label": "We are initiating tractor beam to guide you out of the plasma field.",
+          "crew_reply": "Nausicaan Commander: Disengage at once! We won’t be towed like cargo.",
+          "next": 5
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "The Nausicaans are moving off, Captain. No further hostilities detected.",
+      "options": [
+        {
+          "label": "Stand down from red alert. Maintain position until they’ve cleared the area.",
+          "crew_reply": "Worf: Aye, sir. Returning to yellow alert."
+        },
+        {
+          "label": "Resume our original course, Mr. Data.",
+          "crew_reply": "Data: Course laid in, Captain. Engaging warp one."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Riker",
+      "line": "It’s hard to imagine anyone choosing pride over survival."
+    },
+    {
+      "crew": "Picard",
+      "line": "For the Nausicaans, pride is survival, Number One. It’s how they measure strength — even in defeat."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Nausicaans disengaged after sustaining damage. The Enterprise maintained defensive posture without unnecessary escalation. Starfleet Command commends the restraint shown under provocation."
+    },
+    {
+      "result": "success",
+      "text": "By offering aid despite their aggression, the crew demonstrated Federation principles of compassion and discipline. The Nausicaans declined, but the gesture was noted by Command as exemplary conduct."
+    },
+    {
+      "result": "success",
+      "text": "The encounter resulted in no casualties and minimal structural damage. The Briar Patch remains hazardous but partially charted for future navigation."
+    },
+    {
+      "result": "failure",
+      "text": "Return fire proved excessive, destroying the Nausicaan vessel and destabilizing the surrounding metreon field. Starfleet Command opens a review of engagement protocol in volatile regions."
+    },
+    {
+      "result": "failure",
+      "text": "Delay in responding allowed the plasma fires to spread, forcing emergency warp egress. The mission to chart the Briar Patch is suspended indefinitely."
+    },
+    {
+      "result": "failure",
+      "text": "In attempting to assist the Nausicaans, tractor beam harmonics destabilized their reactor, resulting in loss of life and partial damage to the Enterprise’s deflector array."
+    }
+  ]
+}
