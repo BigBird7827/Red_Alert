@@ -1,7 +1,7 @@
 [
   {
     "story_name": "Reflections of the Mind",
-	"starfleet_message": "Captain’s Log, Stardate 47457.2 — While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
+    "starfleet_message": "Captain’s Log, Stardate 47457.2 — While conducting a routine stellar survey of the Andiron System, the Enterprise has detected rhythmic gravimetric pulses emanating from Andiron III. The harmonics appear to mirror Starfleet warp signatures, suggesting an artificial or sentient origin. We are proceeding to investigate with caution.",
     "mission_description": "While charting Andiron III, the Enterprise encounters a crystalline lattice emitting predictive gravimetric echoes that mirror the ship’s own systems. Investigate the phenomenon, determine if it represents an intelligence, and prevent resonance feedback from destabilizing the warp core.",
     "dialogue_tree": [
       {
@@ -146,7 +146,7 @@
   },
   {
     "story_name": "Echos from the Neutral Zone",
-	"starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
+    "starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
     "mission_description": "Upon entering the Neutral Zone, the Enterprise discovers the phased remains of a long-lost Romulan-Klingon outpost trapped within a temporal distortion. Determine the nature of the anomaly, free any surviving consciousness, and avoid diplomatic escalation.",
     "dialogue_tree": [
       {
@@ -291,7 +291,7 @@
   },
   {
     "story_name": "Pathogen",
-	"starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
+    "starfleet_message": "Captain’s Log, Stardate 47458.7 — We have received a distress call from a Federation research outpost on Veridian IV. The colony reports a rapidly spreading infection that defies medical containment. Doctor Crusher believes the pathogen may exhibit subspace resonance—an unsettling indication that the disease itself could be alive.",
     "mission_description": "The Enterprise arrives at Veridian IV, where a subspace-reactive organism has infected the colony’s population. The pathogen adapts to every treatment and displays patterns of intelligence. Determine its origin, contain the outbreak, and decide whether the lifeform can or should be preserved.",
     "dialogue_tree": [
       {
@@ -436,7 +436,7 @@
   },
   {
     "story_name": "Resonance",
-	"starfleet_message": "Captain’s Log, Stardate 47459.3 — While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
+    "starfleet_message": "Captain’s Log, Stardate 47459.3 — While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
     "mission_description": "An experimental graviton-harvesting operation has triggered the birth of a micro-singularity. The phenomenon is expanding unpredictably, threatening both the mining convoy and nearby subspace lanes. Establish the source, stabilize the field, and decide whether the entity forming within can be reasoned with.",
     "dialogue_tree": [
       {
@@ -579,7 +579,8 @@
       }
     ]
   },
-  {"story_name": "Whispers",
+  {
+    "story_name": "Whispers",
     "starfleet_message": "Captain’s Log, Stardate 47460.1 — En route to Starbase 212 for resupply, the Enterprise has intercepted a faint subspace distress beacon of Federation origin. The signal is decades old, yet appears newly transmitted. We are diverting to investigate.",
     "mission_description": "The Enterprise locates the source of the mysterious beacon—an Oberth-class survey vessel, the USS Callisto, missing for over fifty years. The ship drifts intact, its hull pristine but devoid of any life signs. As the crew investigates, they uncover evidence that the Callisto is trapped within a quantum echo of itself, repeating its final moments in silence.",
     "dialogue_tree": [
@@ -721,7 +722,7 @@
   },
   {
     "story_name": "The Gate",
-	"starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
+    "starfleet_message": "Captain’s Log, Stardate 47461.7 — The Enterprise has arrived in orbit of Acheron IV to study recently uncovered ruins of an ancient civilization predating Vulcan spaceflight. Preliminary scans show a massive energy field surrounding a central structure — a phenomenon the archaeological team has named 'The Gate.'",
     "mission_description": "An ancient structure known as the Acheron Gate has been unearthed on Acheron IV. When activated, it projects alternate versions of those nearby — reflections of who they might have become. When one reflection refuses to vanish, the Enterprise must determine whether the phenomenon is technological, metaphysical, or something else entirely.",
     "dialogue_tree": [
       {
@@ -862,7 +863,7 @@
   },
   {
     "story_name": "Sanctuary",
-	"starfleet_message": "Captain’s Log, Stardate 47462.4 — The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions—and dozens of human life-signs within a sealed structure.",
+    "starfleet_message": "Captain’s Log, Stardate 47462.4 — The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions—and dozens of human life-signs within a sealed structure.",
     "mission_description": "The Enterprise discovers a surviving human enclave beneath a massive containment dome on Calderis IV. The inhabitants—children and adolescents—have lived for generations under the control of an autonomous environmental computer, worshiping its maintenance drones as divine beings. The crew must navigate faith, fear, and failing systems to free them before the dome collapses.",
     "dialogue_tree": [
       {
@@ -1000,290 +1001,438 @@
         "text": "The children refused to abandon their 'sacred home.' The away team was forced to withdraw before the system self-sealed. The distress beacon continues to broadcast across the sector."
       }
     ]
-},
+  },
   {
-	"story_name": "Temporal Echo",
-	"starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
-	"mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
-	"dialogue_tree": [
-    {
-      "crew": "Commander La Forge",
-      "line": "Captain, the probe is definitely from the future. Likely 29th century. Its temporal matrix is leaking chroniton radiation into subspace, creating an echo that intersects 21st-century Earth.",
-      "options": [
-        {
-          "label": "Data, can we isolate the echo’s frequency without destabilizing the probe?",
-          "crew_reply": "Lt. Commander Data: Possibly sir, but any interference could trigger a temporal feedback loop.",
-          "next": 1
-        },
-        {
-          "label": "Commander Riker, set up a Level-1 temporal containment field around the ship.",
-          "crew_reply": "Commander Riker: Understood. We’ll keep the anomaly at a safe distance, for now.",
-          "next": 1
-        },
-        {
-          "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
-          "crew_reply": "Commander La Forge: Acknowledged, Captain. Reroute complete. Power flow holding steady at 98 percent efficiency.",
-          "next": 1
-        }
-      ]
-    },
-    {
-      "crew": "Lt. Commander Data",
-      "line": "Captain, an object from the 21st century is approaching. It's an atmospheric fighter jet. Its trajectory intersects the probe’s distortion field.",
-      "options": [
-        {
-          "label": "Lt. Worf, engage a tractor beam to prevent a collision.",
-          "crew_reply": "Lt. Worf: Tractor beam locked on. The craft is disintegrating under temporal stress.",
-          "next": 2
-        },
-        {
-          "label": "La Forge, can we compensate for the distortion?",
-          "crew_reply": "Commander La Forge: I'm not sure Captain. Trying... the pilot’s ejecting; he’s caught in the field!",
-          "next": 2
-        },
-        {
-          "label": "Data, correlate the subspace harmonics and display the projection.",
-          "crew_reply": "Lt. Commander Data: Correlation complete, Captain. The subspace harmonics form a coherent pattern. Displaying on the main viewscreen.",
-          "next": 2
-        }
-      ]
-    },
-    {
-      "crew": "Dr. Crusher",
-      "line": "We’ve beamed the pilot aboard and moved him to sickbay. He's currently unconscious. And he's definitely human.",
-      "options": [
-        {
-          "label": "Counselor Troi, prepare to counsel him when he awakens. He’ll be frightened.",
-          "crew_reply": "Counselor Troi: Understood. He’ll need a calm explanation; and careful omissions.",
-          "next": 3
-        },
-        {
-          "label": "Data, can you identify the pilot?",
-          "crew_reply": "Lt. Commander Data: Yes sir. Records indicate Major Aaron Keller, United States Air Command, 2072.",
-          "next": 3
-        },
-        {
-          "label": "Data, analyze all sensor telemetry and confirm the energy signature.",
-          "crew_reply": "Lt. Commander Data: Sensor telemetry analysis complete, Captain. The energy signature is consistent with a phased-ionic resonance — artificial in origin.",
-          "next": 3
-        }
-      ]
-    },
-    {
-      "crew": "Major Keller",
-      "line": "Where am I? Who are you people? What happened to my aircraft?",
-      "options": [
-        {
-          "label": "Picard: 'You are safe aboard a scientific vessel. We mean you no harm.'",
-          "crew_reply": "Major Keller: Scientific? You don’t look like any country’s scientists I know.",
-          "next": 4
-        },
-        {
-          "label": "Troi: 'You were caught in an experimental energy field. Try to stay calm.'",
-          "crew_reply": "Major Keller: I’ve seen storms, ma’am. But none that ever put me into orbit.",
-          "next": 4
-        },
-        {
-          "label": "Data, run a standard assessment on his craft. Let’s see what condition it’s in.",
-          "crew_reply": "Lt. Commander Data: A brief survey, Captain. The aircraft appears intact, though its systems are… unusual by our standards.",
-          "next": 4
-        }
-      ]
-    },
-    {
-      "crew": "Lt. Commander Data",
-      "line": "Captain, the probe’s temporal matrix is destabilizing. Major Keller’s displacement from his own era is amplifying the distortion. If not corrected, the resulting cascade could collapse this segment of the timeline.",
-      "options": [
-        {
-          "label": "La Forge, prepare a controlled temporal inversion to return Major Keller to his proper century.",
-          "crew_reply": "Commander La Forge: Understood, Captain. Calculating a synchronized return trajectory using the probe’s remaining temporal energy. Ready on your command.",
-          "next": 5
-        },
-        {
-          "label": "Data, determine the precise point of Keller’s extraction and lock coordinates for temporal reintegration.",
-          "crew_reply": "Lt. Commander Data: Coordinates established, Captain. Temporal alignment within a 0.003-second margin. The return should be seamless.",
-          "next": 5
-        },
-        {
-          "label": "Counselor, see that Major Keller is calm and prepared for transport.",
-          "crew_reply": "Troi: Yes, Captain. I’ll reassure him that the situation is under control. He won’t retain any impressions that could endanger the timeline.",
-          "next": 5
-        }
-      ]
-    }
-  ],
-  "reflection": [
-    {
-      "crew": "Counselor Troi",
-      "line": "He seemed more at peace before transport, Captain. I think he simply needed to believe there was still order in the sky above him."
-    },
-    {
-      "crew": "Captain Picard",
-      "line": "Perhaps that belief is what kept humanity reaching for the stars, even in its darkest hours. In returning him home, we’ve preserved more than the timeline — we’ve preserved hope."
-    }
-  ],
-  "debriefs": [
-    {
-      "result": "success",
-      "text": "The Enterprise stabilized the 29th-century probe and returned Major Keller safely to his own time. No measurable temporal disruption was detected. His brief contact may become the seed of humanity’s renewed faith in the stars."
-    },
-    {
-      "result": "success",
-      "text": "Through precise coordination and restraint, the crew prevented a chronometric implosion that could have erased 21st-century Earth. Temporal Affairs commended the Enterprise for its adherence to non-interference under impossible conditions."
-    },
-    {
-      "result": "failure",
-      "text": "The probe’s collapse created a minor paradox. Major Keller’s craft vanished permanently, leaving only his flight recorder. His last transmission—'I saw the future'—became one of history’s unsolved mysteries."
-    },
-    {
-      "result": "failure",
-      "text": "The temporal field destabilized before the Enterprise could disengage. The ship escaped with damage, but the fate of Major Keller and 21st-century Earth remains uncertain in official records."
-    },
-    {
-      "result": "failure",
-      "text": "An attempt to neutralize the probe prematurely caused a local subspace implosion. The Enterprise was forced to flee the sector, unable to confirm the outcome on 21st-century Earth."
-    }
-  ]
-},
+    "story_name": "Temporal Echo",
+    "starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
+    "mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
+    "dialogue_tree": [
+      {
+        "crew": "Commander La Forge",
+        "line": "Captain, the probe is definitely from the future. Likely 29th century. Its temporal matrix is leaking chroniton radiation into subspace, creating an echo that intersects 21st-century Earth.",
+        "options": [
+          {
+            "label": "Data, can we isolate the echo’s frequency without destabilizing the probe?",
+            "crew_reply": "Lt. Commander Data: Possibly sir, but any interference could trigger a temporal feedback loop.",
+            "next": 1
+          },
+          {
+            "label": "Commander Riker, set up a Level-1 temporal containment field around the ship.",
+            "crew_reply": "Commander Riker: Understood. We’ll keep the anomaly at a safe distance, for now.",
+            "next": 1
+          },
+          {
+            "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
+            "crew_reply": "Commander La Forge: Acknowledged, Captain. Reroute complete. Power flow holding steady at 98 percent efficiency.",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Captain, an object from the 21st century is approaching. It's an atmospheric fighter jet. Its trajectory intersects the probe’s distortion field.",
+        "options": [
+          {
+            "label": "Lt. Worf, engage a tractor beam to prevent a collision.",
+            "crew_reply": "Lt. Worf: Tractor beam locked on. The craft is disintegrating under temporal stress.",
+            "next": 2
+          },
+          {
+            "label": "La Forge, can we compensate for the distortion?",
+            "crew_reply": "Commander La Forge: I'm not sure Captain. Trying... the pilot’s ejecting; he’s caught in the field!",
+            "next": 2
+          },
+          {
+            "label": "Data, correlate the subspace harmonics and display the projection.",
+            "crew_reply": "Lt. Commander Data: Correlation complete, Captain. The subspace harmonics form a coherent pattern. Displaying on the main viewscreen.",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Dr. Crusher",
+        "line": "We’ve beamed the pilot aboard and moved him to sickbay. He's currently unconscious. And he's definitely human.",
+        "options": [
+          {
+            "label": "Counselor Troi, prepare to counsel him when he awakens. He’ll be frightened.",
+            "crew_reply": "Counselor Troi: Understood. He’ll need a calm explanation; and careful omissions.",
+            "next": 3
+          },
+          {
+            "label": "Data, can you identify the pilot?",
+            "crew_reply": "Lt. Commander Data: Yes sir. Records indicate Major Aaron Keller, United States Air Command, 2072.",
+            "next": 3
+          },
+          {
+            "label": "Data, analyze all sensor telemetry and confirm the energy signature.",
+            "crew_reply": "Lt. Commander Data: Sensor telemetry analysis complete, Captain. The energy signature is consistent with a phased-ionic resonance — artificial in origin.",
+            "next": 3
+          }
+        ]
+      },
+      {
+        "crew": "Major Keller",
+        "line": "Where am I? Who are you people? What happened to my aircraft?",
+        "options": [
+          {
+            "label": "Picard: 'You are safe aboard a scientific vessel. We mean you no harm.'",
+            "crew_reply": "Major Keller: Scientific? You don’t look like any country’s scientists I know.",
+            "next": 4
+          },
+          {
+            "label": "Troi: 'You were caught in an experimental energy field. Try to stay calm.'",
+            "crew_reply": "Major Keller: I’ve seen storms, ma’am. But none that ever put me into orbit.",
+            "next": 4
+          },
+          {
+            "label": "Data, run a standard assessment on his craft. Let’s see what condition it’s in.",
+            "crew_reply": "Lt. Commander Data: A brief survey, Captain. The aircraft appears intact, though its systems are… unusual by our standards.",
+            "next": 4
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Captain, the probe’s temporal matrix is destabilizing. Major Keller’s displacement from his own era is amplifying the distortion. If not corrected, the resulting cascade could collapse this segment of the timeline.",
+        "options": [
+          {
+            "label": "La Forge, prepare a controlled temporal inversion to return Major Keller to his proper century.",
+            "crew_reply": "Commander La Forge: Understood, Captain. Calculating a synchronized return trajectory using the probe’s remaining temporal energy. Ready on your command.",
+            "next": 5
+          },
+          {
+            "label": "Data, determine the precise point of Keller’s extraction and lock coordinates for temporal reintegration.",
+            "crew_reply": "Lt. Commander Data: Coordinates established, Captain. Temporal alignment within a 0.003-second margin. The return should be seamless.",
+            "next": 5
+          },
+          {
+            "label": "Counselor, see that Major Keller is calm and prepared for transport.",
+            "crew_reply": "Troi: Yes, Captain. I’ll reassure him that the situation is under control. He won’t retain any impressions that could endanger the timeline.",
+            "next": 5
+          }
+        ]
+      }
+    ],
+    "reflection": [
+      {
+        "crew": "Counselor Troi",
+        "line": "He seemed more at peace before transport, Captain. I think he simply needed to believe there was still order in the sky above him."
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "Perhaps that belief is what kept humanity reaching for the stars, even in its darkest hours. In returning him home, we’ve preserved more than the timeline — we’ve preserved hope."
+      }
+    ],
+    "debriefs": [
+      {
+        "result": "success",
+        "text": "The Enterprise stabilized the 29th-century probe and returned Major Keller safely to his own time. No measurable temporal disruption was detected. His brief contact may become the seed of humanity’s renewed faith in the stars."
+      },
+      {
+        "result": "success",
+        "text": "Through precise coordination and restraint, the crew prevented a chronometric implosion that could have erased 21st-century Earth. Temporal Affairs commended the Enterprise for its adherence to non-interference under impossible conditions."
+      },
+      {
+        "result": "failure",
+        "text": "The probe’s collapse created a minor paradox. Major Keller’s craft vanished permanently, leaving only his flight recorder. His last transmission—'I saw the future'—became one of history’s unsolved mysteries."
+      },
+      {
+        "result": "failure",
+        "text": "The temporal field destabilized before the Enterprise could disengage. The ship escaped with damage, but the fate of Major Keller and 21st-century Earth remains uncertain in official records."
+      },
+      {
+        "result": "failure",
+        "text": "An attempt to neutralize the probe prematurely caused a local subspace implosion. The Enterprise was forced to flee the sector, unable to confirm the outcome on 21st-century Earth."
+      }
+    ]
+  },
   {
-  "story_name": "Sky Born",
-  "starfleet_message": "Captain’s Log, Stardate 47466.2 — The Enterprise has arrived at Velara III, a pre-warp world on the brink of industrial revolution. Reports indicate the presence of a small enclave whose physiology matches human DNA with near-perfect precision. Debris scans confirm traces of 23rd-century alloys—evidence that survivors of the lost USS Prospero may have lived among the locals for generations. Starfleet Command has instructed strict adherence to the Prime Directive.",
-  "mission_description": "Velara III faces a catastrophic tectonic venting event that could annihilate its largest city. Descendants of a lost Starfleet crew—known to the natives as the 'Sky Born'—have become mythic figures, secretly advancing Velaran society. The Enterprise must decide whether to intervene and expose the Federation’s existence or allow millions to perish in the name of noninterference.",
-  "dialogue_tree": [
-    {
-      "crew": "Commander La Forge",
-      "line": "Captain, our scans show a settlement in the northern plateau emitting low-level Starfleet radiation. The decay rate suggests technology over a century old.",
-      "options": [
-        {
-          "label": "Data, identify the technological threshold of the native population.",
-          "crew_reply": "Lt. Commander Data: Comparable to Earth’s late 19th century, Captain. Coal-based energy, primitive metallurgy, and limited understanding of flight. No indication of subspace awareness.",
-          "next": 1
-        },
-        {
-          "label": "Worf, assess any defensive capabilities.",
-          "crew_reply": "Lt. Worf: None significant, Captain. Crude projectile weapons. Their militaries could not resist orbital intervention.",
-          "next": 1
-        },
-        {
-          "label": "Number One, coordinate with Stellar Cartography. Locate any residual Prospero signatures.",
-          "crew_reply": "Commander Riker: Aye, sir. Cross-referencing now. There’s a faint antimatter containment trace near the capital basin.",
-          "next": 1
-        }
-      ]
-    },
-    {
-      "crew": "Counselor Troi",
-      "line": "Captain, I’m sensing deep conflict among the human descendants. They carry guilt, and fear of discovery.",
-      "options": [
-        {
-          "label": "Data, access Prospero’s final transmission.",
-          "crew_reply": "Lt. Commander Data: I have recovered log fragments, sir. ‘Containment breach. No rescue expected. We will adapt.’ Signed, Captain Alen Prospero.",
-          "next": 2
-        },
-        {
-          "label": "Crusher, could their genetic integrity survive centuries of isolation?",
-          "crew_reply": "Dr. Crusher: Yes Captain, but not without complications. I’m reading mutations consistent with radiation adaptation. They’ve evolved to blend in.",
-          "next": 2
-        },
-        {
-          "label": "Counselor, can you determine their intent?",
-          "crew_reply": "Counselor Troi: They wish to prevent us from intervening. They believe exposure would undo everything they’ve built.",
-          "next": 2
-        }
-      ]
-    },
-    {
-      "crew": "Commander Riker",
-      "line": "Captain, the descendants have been masquerading as prophets—using fragments of Starfleet tech to guide Velaran society toward industrialization.",
-      "options": [
-        {
-          "label": "Worf, your assessment of their conduct?",
-          "crew_reply": "Lt. Worf: Their intent seems to be survival sir, but their presence has altered Velaran destiny. Honor may have guided them, yet the Directive stands violated.",
-          "next": 3
-        },
-        {
-          "label": "Data, estimate the long-term cultural divergence caused by their influence.",
-          "crew_reply": "Lt. Commander Data: Projection indicates a deviation of 300 years in technological progress. The society’s belief structure is centered on the myth of celestial guardians.",
-          "next": 3
-        },
-        {
-          "label": "Riker, what’s your assessment?",
-          "crew_reply": "Commander Riker: It’s a mess, Captain. Either we save a civilization or we damn their history.",
-          "next": 3
-        }
-      ]
-    },
-    {
-      "crew": "Commander La Forge",
-      "line": "Captain, seismic telemetry confirms plasma vents forming beneath the Velaran capital. When they breach the crust, ignition will wipe out the entire region.",
-      "options": [
-        {
-          "label": "Data, give me an estimate to eruption.",
-          "crew_reply": "Lt. Commander Data: Thirty-seven minutes until plasma destabilization reaches surface pressure thresholds.",
-          "next": 4
-        },
-        {
-          "label": "Doctor, you'd better prepare triage protocols in case we intervene.",
-          "crew_reply": "Dr. Crusher: Understood, Captain, but any overt action will expose us.",
-          "next": 4
-        },
-        {
-          "label": "La Forge, simulate an orbital venting sequence that could relieve pressure undetected.",
-          "crew_reply": "Commander La Forge: It’s possible, sir, but we'll need to make sure we approach it with pinpoint precision through the atmosphere without ionization trails.",
-          "next": 4
-        }
-      ]
-    },
-    {
-      "crew": "Mara Tallen",
-      "line": "This is Mara Tallen of the Prospero line. To any Federation ship — Do not interfere. We accepted this world’s laws. It’s not ours to save.",
-      "options": [
-        {
-          "label": "Commander Riker, record transmission and log our tactical withdrawal.",
-          "crew_reply": "Commander Riker: Aye, Captain. The message will be preserved in Prospero’s honor."
-        },
-        {
-          "label": "Data, mask our orbital presence and commence silent venting sequence.",
-          "crew_reply": "Lt. Commander Data: Sequence initiated Captain. Plasma pressures stabilizing without visual trace."
-        },
-        {
-          "label": "Worf, signal a memorial beacon for those who chose exile.",
-          "crew_reply": "Lt. Worf: Beacon transmitted, Captain. Their sacrifice will endure. They are an honorable people."
-        }
-      ]
-    }
-  ],
-  "reflection": [
-    {
-      "crew": "Captain Picard",
-      "line": "Hard to believe they chose to stay behind. They became part of Velara’s story—perhaps they found peace in being remembered as legends rather than ghosts."
-    },
-    {
-      "crew": "Captain Picard",
-      "line": "The Prospero’s descendants found belonging where they were stranded. In the end, they no longer looked to the stars for purpose—they found it beneath them."
-    }
-  ],
-  "debriefs": [
-    {
-      "result": "success",
-      "text": "Using a precision phaser array, the Enterprise dispersed the plasma vents beneath the Velaran capital. The event was mistaken for auroral lights—no evidence of interference remained. The Prospero descendants were quietly extracted for medical treatment."
-    },
-    {
-      "result": "success",
-      "text": "Picard authorized an invisible containment maneuver, preserving both life and history. Starfleet later commended the crew for executing a non-detectable planetary rescue under strict Prime Directive interpretation."
-    },
-    {
-      "result": "failure",
-      "text": "Orbital deflection failed. The plasma vents erupted, destroying the capital. Survivors deified the 'Sky Born,' forever altering Velaran religion and technological trajectory."
-    },
-    {
-      "result": "failure",
-      "text": "Attempted transporter extraction overloaded pattern buffers. The Prospero descendants perished, and the truth of their origin was lost to time."
-    },
-    {
-      "result": "failure",
-      "text": "Picard withheld intervention. The eruption consumed the Velaran capital, fulfilling the Prime Directive at the cost of two million lives."
-    }
-  ]
-}
+    "story_name": "Sky Born",
+    "starfleet_message": "Captain’s Log, Stardate 47466.2 — The Enterprise has arrived at Velara III, a pre-warp world on the brink of industrial revolution. Reports indicate the presence of a small enclave whose physiology matches human DNA with near-perfect precision. Debris scans confirm traces of 23rd-century alloys—evidence that survivors of the lost USS Prospero may have lived among the locals for generations. Starfleet Command has instructed strict adherence to the Prime Directive.",
+    "mission_description": "Velara III faces a catastrophic tectonic venting event that could annihilate its largest city. Descendants of a lost Starfleet crew—known to the natives as the 'Sky Born'—have become mythic figures, secretly advancing Velaran society. The Enterprise must decide whether to intervene and expose the Federation’s existence or allow millions to perish in the name of noninterference.",
+    "dialogue_tree": [
+      {
+        "crew": "Commander La Forge",
+        "line": "Captain, our scans show a settlement in the northern plateau emitting low-level Starfleet radiation. The decay rate suggests technology over a century old.",
+        "options": [
+          {
+            "label": "Data, identify the technological threshold of the native population.",
+            "crew_reply": "Lt. Commander Data: Comparable to Earth’s late 19th century, Captain. Coal-based energy, primitive metallurgy, and limited understanding of flight. No indication of subspace awareness.",
+            "next": 1
+          },
+          {
+            "label": "Worf, assess any defensive capabilities.",
+            "crew_reply": "Lt. Worf: None significant, Captain. Crude projectile weapons. Their militaries could not resist orbital intervention.",
+            "next": 1
+          },
+          {
+            "label": "Number One, coordinate with Stellar Cartography. Locate any residual Prospero signatures.",
+            "crew_reply": "Commander Riker: Aye, sir. Cross-referencing now. There’s a faint antimatter containment trace near the capital basin.",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Counselor Troi",
+        "line": "Captain, I’m sensing deep conflict among the human descendants. They carry guilt, and fear of discovery.",
+        "options": [
+          {
+            "label": "Data, access Prospero’s final transmission.",
+            "crew_reply": "Lt. Commander Data: I have recovered log fragments, sir. ‘Containment breach. No rescue expected. We will adapt.’ Signed, Captain Alen Prospero.",
+            "next": 2
+          },
+          {
+            "label": "Crusher, could their genetic integrity survive centuries of isolation?",
+            "crew_reply": "Dr. Crusher: Yes Captain, but not without complications. I’m reading mutations consistent with radiation adaptation. They’ve evolved to blend in.",
+            "next": 2
+          },
+          {
+            "label": "Counselor, can you determine their intent?",
+            "crew_reply": "Counselor Troi: They wish to prevent us from intervening. They believe exposure would undo everything they’ve built.",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Commander Riker",
+        "line": "Captain, the descendants have been masquerading as prophets—using fragments of Starfleet tech to guide Velaran society toward industrialization.",
+        "options": [
+          {
+            "label": "Worf, your assessment of their conduct?",
+            "crew_reply": "Lt. Worf: Their intent seems to be survival sir, but their presence has altered Velaran destiny. Honor may have guided them, yet the Directive stands violated.",
+            "next": 3
+          },
+          {
+            "label": "Data, estimate the long-term cultural divergence caused by their influence.",
+            "crew_reply": "Lt. Commander Data: Projection indicates a deviation of 300 years in technological progress. The society’s belief structure is centered on the myth of celestial guardians.",
+            "next": 3
+          },
+          {
+            "label": "Riker, what’s your assessment?",
+            "crew_reply": "Commander Riker: It’s a mess, Captain. Either we save a civilization or we damn their history.",
+            "next": 3
+          }
+        ]
+      },
+      {
+        "crew": "Commander La Forge",
+        "line": "Captain, seismic telemetry confirms plasma vents forming beneath the Velaran capital. When they breach the crust, ignition will wipe out the entire region.",
+        "options": [
+          {
+            "label": "Data, give me an estimate to eruption.",
+            "crew_reply": "Lt. Commander Data: Thirty-seven minutes until plasma destabilization reaches surface pressure thresholds.",
+            "next": 4
+          },
+          {
+            "label": "Doctor, you'd better prepare triage protocols in case we intervene.",
+            "crew_reply": "Dr. Crusher: Understood, Captain, but any overt action will expose us.",
+            "next": 4
+          },
+          {
+            "label": "La Forge, simulate an orbital venting sequence that could relieve pressure undetected.",
+            "crew_reply": "Commander La Forge: It’s possible, sir, but we'll need to make sure we approach it with pinpoint precision through the atmosphere without ionization trails.",
+            "next": 4
+          }
+        ]
+      },
+      {
+        "crew": "Mara Tallen",
+        "line": "This is Mara Tallen of the Prospero line. To any Federation ship — Do not interfere. We accepted this world’s laws. It’s not ours to save.",
+        "options": [
+          {
+            "label": "Commander Riker, record transmission and log our tactical withdrawal.",
+            "crew_reply": "Commander Riker: Aye, Captain. The message will be preserved in Prospero’s honor."
+          },
+          {
+            "label": "Data, mask our orbital presence and commence silent venting sequence.",
+            "crew_reply": "Lt. Commander Data: Sequence initiated Captain. Plasma pressures stabilizing without visual trace."
+          },
+          {
+            "label": "Worf, signal a memorial beacon for those who chose exile.",
+            "crew_reply": "Lt. Worf: Beacon transmitted, Captain. Their sacrifice will endure. They are an honorable people."
+          }
+        ]
+      }
+    ],
+    "reflection": [
+      {
+        "crew": "Captain Picard",
+        "line": "Hard to believe they chose to stay behind. They became part of Velara’s story—perhaps they found peace in being remembered as legends rather than ghosts."
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "The Prospero’s descendants found belonging where they were stranded. In the end, they no longer looked to the stars for purpose—they found it beneath them."
+      }
+    ],
+    "debriefs": [
+      {
+        "result": "success",
+        "text": "Using a precision phaser array, the Enterprise dispersed the plasma vents beneath the Velaran capital. The event was mistaken for auroral lights—no evidence of interference remained. The Prospero descendants were quietly extracted for medical treatment."
+      },
+      {
+        "result": "success",
+        "text": "Picard authorized an invisible containment maneuver, preserving both life and history. Starfleet later commended the crew for executing a non-detectable planetary rescue under strict Prime Directive interpretation."
+      },
+      {
+        "result": "failure",
+        "text": "Orbital deflection failed. The plasma vents erupted, destroying the capital. Survivors deified the 'Sky Born,' forever altering Velaran religion and technological trajectory."
+      },
+      {
+        "result": "failure",
+        "text": "Attempted transporter extraction overloaded pattern buffers. The Prospero descendants perished, and the truth of their origin was lost to time."
+      },
+      {
+        "result": "failure",
+        "text": "Picard withheld intervention. The eruption consumed the Velaran capital, fulfilling the Prime Directive at the cost of two million lives."
+      }
+    ]
+  },
+  {
+    "story_name": "For Honor",
+    "starfleet_message": "Captain’s Log, Stardate 47692.4 — The Enterprise has intercepted a distress call from a drifting Klingon D7 battlecruiser near the border of unclaimed space. The transmission uses a ritual combat frequency Lieutenant Worf identifies as part of the Rite of the Last Cry — an ancient tradition that grants dying warriors an honorable death in battle. The Klingon commander demands recognition through combat. The ritual requires that they fire first, so that their souls may reach Sto’Vo’Kor rather than fall to Gre’thor.",
+    "mission_description": "Respond to the Klingon battlecruiser K’Tal’s request for a final battle. Honor their ritual while maintaining Starfleet principles. Picard must decide whether to allow the K’Tal to fire first and return fire, granting them an honorable death.",
+    "dialogue_tree": [
+      {
+        "crew": "Commander Riker",
+        "line": "Captain, that Klingon ship’s a wreck. Hull integrity’s collapsing, but I’m reading twelve survivors and one functioning disruptor bank.",
+        "options": [
+          {
+            "label": "Open a channel. Let’s hear them out.",
+            "crew_reply": "Riker: Channel open, sir. Visual unstable, audio clear.",
+            "next": 1
+          },
+          {
+            "label": "Shields to full, just in case their definition of ‘honor’ involves firing first.",
+            "crew_reply": "Riker: Aye, Captain. Shields raised.",
+            "next": 1
+          },
+          {
+            "label": "Worf, brief me on that combat frequency.",
+            "crew_reply": "Worf: It is ceremonial, Captain — reserved for final declarations of battle before death.",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Klingon Commander Korvak",
+        "line": "Federation vessel! We are the battlecruiser K’Tal. We have fought our last battle. Our core fails, our weapons fade, yet our spirits remain! We invoke the Rite of the Last Cry. Engage us — let Sto’Vo’Kor hear our names!",
+        "options": [
+          {
+            "label": "This is Captain Jean-Luc Picard of the Enterprise. Clarify your request.",
+            "crew_reply": "Korvak: We will fire upon you. You will answer. We will die in combat. To refuse us is to condemn our souls to Gre’thor.",
+            "next": 2
+          },
+          {
+            "label": "Your ship is finished, Commander. We can assist you.",
+            "crew_reply": "Korvak: To live without battle is worse than death. We refuse rescue.",
+            "next": 2
+          },
+          {
+            "label": "Lieutenant Worf, confirm this ritual is legitimate.",
+            "crew_reply": "Worf: It is, Captain. It demands a real exchange of fire — no simulation will suffice.",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Worf",
+        "line": "Captain, the Rite of the Last Cry requires truth in combat. They must strike first. If we answer that strike, they die as warriors. If we refuse, their spirits are lost.",
+        "options": [
+          {
+            "label": "Then we will let them strike first. Prepare to record all telemetry.",
+            "crew_reply": "Worf: Acknowledged. I will ensure the record reflects their first discharge.",
+            "next": 3
+          },
+          {
+            "label": "Could we feign combat? Fire harmlessly to simulate battle?",
+            "crew_reply": "Worf: No, Captain. That deception would void the ritual. It must be real.",
+            "next": 3
+          },
+          {
+            "label": "Do they fully understand our response will destroy them?",
+            "crew_reply": "Worf: They do — and they welcome it.",
+            "next": 3
+          }
+        ]
+      },
+      {
+        "crew": "Lt. Commander La Forge",
+        "line": "Captain, they’re charging their last disruptor array. Power readings climbing fast — the emitter’s going to overload after one shot.",
+        "options": [
+          {
+            "label": "Maintain shields. Take the hit when it comes.",
+            "crew_reply": "La Forge: Aye, sir. Shields steady — ready for impact.",
+            "next": 4
+          },
+          {
+            "label": "Mr. Data, log every photon fluctuation. The record must show they fired first.",
+            "crew_reply": "Data: Logging continuous telemetry. The exact moment of discharge will be documented.",
+            "next": 4
+          },
+          {
+            "label": "Troi, what are you sensing from their ship?",
+            "crew_reply": "Troi: Calm, acceptance… and pride. They are already saying goodbye.",
+            "next": 4
+          }
+        ]
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "Impact confirmed. The K’Tal has fired on the Enterprise. Their weapon is spent, their ship breaking apart. We will now return fire — and grant them the death they seek.",
+        "options": [
+          {
+            "label": "Mr. Worf, return fire — one spread, direct to reactor core.",
+            "crew_reply": "Worf: Photon torpedoes locked. Firing... The K’Tal is gone, Captain. Their end was clean. Their names will be remembered.",
+            "next": 5
+          },
+          {
+            "label": "Mr. Data, record the following: 'The Klingon battlecruiser K’Tal initiated hostile fire against the Enterprise. The Enterprise responded in self-defense.'",
+            "crew_reply": "Data: Logged and time-stamped for both Starfleet and Klingon transmission.",
+            "next": 5
+          },
+          {
+            "label": "All decks, stand down. Let the record show this was witnessed — not execution.",
+            "crew_reply": "Riker: Aye, Captain. Red alert cleared. The signal from the K’Tal has ceased.",
+            "next": 5
+          }
+        ]
+      }
+    ],
+    "reflection": [
+      {
+        "crew": "Lt. Worf",
+        "line": "They died as warriors, Captain. Their names will be sung on Qo’noS for generations."
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "Let us hope their courage outlasts the memory of our weapons fire, Mr. Worf. We gave them what they needed — and in doing so, perhaps understood them a little better."
+      }
+    ],
+    "debriefs": [
+      {
+        "result": "success",
+        "text": "The Klingon battlecruiser K’Tal discharged its final disruptor blast at the Enterprise, fulfilling the Rite of the Last Cry. The Enterprise’s return fire destroyed the vessel instantly, granting the crew a warrior’s death recognized by the Klingon High Council."
+      },
+      {
+        "result": "success",
+        "text": "Sensor telemetry confirmed that the K’Tal fired first. Worf transmitted the log and the names of the fallen to the Klingon High Council. The Council accepted their passage to Sto’Vo’Kor."
+      },
+      {
+        "result": "success",
+        "text": "Starfleet Command closed the report without censure, acknowledging the Enterprise acted within defensive protocol. Worf later noted, 'Their songs will be strong.'"
+      },
+      {
+        "result": "failure",
+        "text": "The Enterprise fired before the Klingons discharged weapons. The Klingon High Council condemned the act as dishonorable, and the crew of the K’Tal were denied entry to Sto’Vo’Kor."
+      },
+      {
+        "result": "failure",
+        "text": "The K’Tal’s warp core collapsed before they could fire. Without a recorded exchange of combat, their spirits were said to wander Gre’thor."
+      },
+      {
+        "result": "failure",
+        "text": "A Federation order to block or disable the Klingon disruptor prevented the ritual from completing. The crew’s final request went unanswered, and their honor was lost."
+      }
+    ]
+  }
 ]
