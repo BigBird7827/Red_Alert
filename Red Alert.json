@@ -1582,5 +1582,153 @@
         "text": "Starfleet launched an inquiry into the decision to act; the crew\u2019s conduct was subject to review, with the Prime Directive at the heart of the debate."
       }
     ]
+  },
+  {
+    "story_name": "The Veil of Perfection",
+    "starfleet_message": "Captain\u2019s Log, Stardate 47892.6 \u2014 Long-range Federation sensor nets near Sector 001 have detected faint quantum distortions matching Romulan cloaking patterns in the outer Sol System. The signals are intermittent, indistinct \u2014 more a whisper than a signature. The Enterprise has been dispatched to investigate and determine whether the Romulans are operating within Federation territory.",
+    "mission_description": "Investigate the unidentified cloaked anomaly detected near Neptune\u2019s orbit. Determine its origin and assess any potential threat to the Sol System.",
+    "dialogue_tree": [
+      {
+        "crew": "Lt. Commander Data",
+        "line": "Captain, we\u2019ve reached the coordinates relayed by Starfleet Command. The distortions are present, though weaker than reports suggested.",
+        "options": [
+          {
+            "label": "Romulan in origin?",
+            "crew_reply": "Lt. Commander Data: Possibly, but the frequency drift is irregular. The field adapts to our scans, as if learning from them.",
+            "next": 1
+          },
+          {
+            "label": "La Forge, confirm. Are we seeing a standard cloak?",
+            "crew_reply": "Lt. Commander La Forge: Negative, Captain. There\u2019s an additional layer beneath the cloak \u2014 something piggybacking on the Romulan signature, but too faint to resolve.",
+            "next": 1
+          },
+          {
+            "label": "Worf, your assessment?",
+            "crew_reply": "Lt. Worf: Captain, I suggest raising shields. Unknown energy signatures this close to Earth warrant caution.",
+            "next": 1
+          }
+        ]
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "Not yet, Mr. Worf. Let\u2019s find out who\u2019s hiding and determine if there\u2019s a threat first.",
+        "options": [
+          {
+            "label": "Magnify the source region.",
+            "crew_reply": "Commander Riker: There \u2014 a reflective pocket in the distortion field. Looks like a structure, but the shape keeps changing.",
+            "next": 2
+          },
+          {
+            "label": "Data, analyze the modulation pattern.",
+            "crew_reply": "Lt. Commander Data: There\u2019s no consistent geometry, Captain, yet the field cycles with deliberate rhythm. It\u2019s\u2026 responsive.",
+            "next": 2
+          },
+          {
+            "label": "La Forge, what are you detecting?",
+            "crew_reply": "Lt. Commander La Forge: I\u2019m detecting minute gravimetric ripples \u2014 self-correcting. It\u2019s adjusting to maintain concealment against our sensors.",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "crew": "Counselor Troi",
+        "line": "I don\u2019t sense intent, only precision. Whatever this is, it\u2019s aware of us.",
+        "options": [
+          {
+            "label": "Data, isolate the signal\u2019s source.",
+            "crew_reply": "Lt. Commander Data: Captain, the secondary layer just strengthened. Isolating signal components now\u2026 this isn\u2019t Romulan technology.",
+            "next": 3
+          },
+          {
+            "label": "Troi, can you identify what you\u2019re sensing?",
+            "crew_reply": "Counselor Troi: It\u2019s the Borg, Captain. I\u2019m sensing the Collective.",
+            "next": 3
+          },
+          {
+            "label": "La Forge, verify that reading.",
+            "crew_reply": "Lt. Commander La Forge: That explains why Starfleet couldn\u2019t identify it. They\u2019ve merged cloaking tech with Borg modulation \u2014 the perfect disguise.",
+            "next": 3
+          }
+        ]
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "Red alert \u2014 shields up.",
+        "options": [
+          {
+            "label": "Data, tactical analysis.",
+            "crew_reply": "Lt. Commander Data: A focused gravimetric pulse could collapse the cloak and overload its core. Destruction would be total.",
+            "next": 4
+          },
+          {
+            "label": "La Forge, what are the risks?",
+            "crew_reply": "Lt. Commander La Forge: The energy release could transmit a subspace echo strong enough for the Borg to receive it in the Delta Quadrant.",
+            "next": 4
+          },
+          {
+            "label": "Proceed with the pulse.",
+            "crew_reply": "Captain Picard: Fire the pulse, Mr. La Forge. The Borg may get a signal through, but at least for now we've ended their presence in our system.",
+            "next": 4
+          }
+        ]
+      },
+      {
+        "crew": "Commander Riker",
+        "line": "The construct\u2019s gone, sir. Completely vaporized. But there was a signal\u2014brief, just before detonation.",
+        "options": [
+          {
+            "label": "Data, confirm what it sent.",
+            "crew_reply": "Lt. Commander Data: Analysis complete. The burst encoded transwarp activation data \u2014 destination unknown.",
+            "next": 5
+          },
+          {
+            "label": "Troi, what did you sense?",
+            "crew_reply": "Counselor Troi: Captain, I felt it. A presence withdrawing. The Collective knows we were here.",
+            "next": 5
+          },
+          {
+            "label": "Final assessment, Number One.",
+            "crew_reply": "Captain Picard: Then we\u2019ve destroyed their eyes, but not their memory.",
+            "next": 5
+          }
+        ]
+      }
+    ],
+    "reflection": [
+      {
+        "crew": "Commander Riker",
+        "line": "Captain, if they can hide this close to Earth, we may already be surrounded."
+      },
+      {
+        "crew": "Captain Picard",
+        "line": "Then we find them, Number One. And next time, we won\u2019t wait for them to blink first."
+      }
+    ],
+    "debriefs": [
+      {
+        "result": "success",
+        "text": "The Enterprise destroyed the Borg observation construct concealed near Neptune before its signal could reach the Collective. Starfleet has increased defense patrols throughout the Sol perimeter. Recovered telemetry confirmed Borg hybridization of Romulan cloaking systems, marking a new tactical evolution. Picard\u2019s private log: 'We\u2019ve cut out the eye that watched us, but the gaze behind it remains. The Borg have learned patience \u2014 and we\u2019ve learned they were never far.'"
+      },
+      {
+        "result": "success",
+        "text": "Starfleet Command initiated a full-spectrum investigation across the Sol perimeter. The Borg array was destroyed before the Collective could analyze sensor feedback, halting their infiltration attempt."
+      },
+      {
+        "result": "success",
+        "text": "The Enterprise\u2019s actions prevented further Borg observation of Earth. Tactical review classifies the engagement as a contained incursion. No active signatures remain within the system."
+      },
+      {
+        "result": "failure",
+        "text": "The gravimetric pulse triggered the Borg construct\u2019s self-destruct, transmitting a verified data burst before annihilation. Starfleet detected faint transwarp corridor activity at the Federation frontier. Picard\u2019s log: 'The construct is gone, but not silent. Somewhere, they\u2019re listening again \u2014 and they now know how close we came.'"
+      },
+      {
+        "result": "failure",
+        "text": "Though the Borg construct was destroyed, sensor telemetry confirmed a three-second subspace transmission directed toward the Delta Quadrant. Starfleet fears it contained intelligence on Sol defenses."
+      },
+      {
+        "result": "failure",
+        "text": "The Borg observation post was eliminated, but at the cost of alerting the Collective. The security of Sol remains uncertain; the silence that follows may only be temporary."
+      }
+    ]
   }
 ]
