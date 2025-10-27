@@ -959,6 +959,139 @@ document.querySelectorAll('#lcars-buttons .lcars-btn').forEach(btn=>{const key=b
 })();
 </script>
 
+
+<script>
+(function(){
+  if (window.__sessionTourPersistInit) return; window.__sessionTourPersistInit = true;
+  const LSKEY = 'sessionTour.v1';
+  const STORE = location.protocol === 'file:' ? sessionStorage : localStorage;
+  let tour = [];
+  let pos = 0;
+  let finished = false;
+  function shuffle(a){
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+  function saveState(){
+    try { STORE.setItem(LSKEY, JSON.stringify({ tour, pos, finished })); } catch {}
+  }
+  function loadState(){
+    try {
+      const raw = STORE.getItem(LSKEY);
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      if (!obj || !Array.isArray(obj.tour) || typeof obj.pos !== 'number' || typeof obj.finished !== 'boolean') return null;
+      const n = Array.isArray(window.scenarios) ? window.scenarios.length : 0;
+      if (obj.tour.length !== n) return null;
+      return obj;
+    } catch { return null; }
+  }
+  function buildTour(){
+    const n = Array.isArray(window.scenarios) ? window.scenarios.length : 0;
+    tour = shuffle(Array.from({ length: n }, (_, i) => i));
+    pos = 0;
+    finished = false;
+    saveState();
+  }
+  function ensureTour(){
+    const state = loadState();
+    if (state) {
+      tour = state.tour.slice();
+      pos = Math.max(0, Math.min(state.pos, tour.length ? tour.length - 1 : 0));
+      finished = !!state.finished;
+    } else {
+      buildTour();
+    }
+  }
+  function showCurrent(){
+    if (finished || !tour.length) return;
+    const idx = tour[pos];
+    try {
+      if (typeof window.displayScenario === 'function') {
+        window.displayScenario(idx);
+        saveState();
+      } else {
+        console.warn('[Tour] displayScenario unavailable.');
+      }
+    } catch (e) {
+      console.error('[Tour] displayScenario failed; skipping.', e);
+      advance();
+    }
+  }
+  function advance(){
+    if (finished || !tour.length) return;
+    pos++;
+    if (pos >= tour.length) return finishTour();
+    saveState();
+    showCurrent();
+  }
+  function finishTour(){
+    finished = true;
+    saveState();
+    const overlay = document.createElement('div');
+    overlay.style.cssText = 'position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.6);z-index:99999;';
+    const card = document.createElement('div');
+    card.style.cssText = 'background:#0b0f1a;color:#ffd166;border:2px solid #ffd166;border-radius:16px;padding:16px 20px;max-width:520px;text-align:center;font-family:inherit;';
+    card.innerHTML = '<div style="font-weight:800;font-size:20px;margin-bottom:8px;">All scenarios shown</div><div style="opacity:.9">Session complete. Refresh to start a new session.</div>';
+    overlay.appendChild(card);
+    document.body.appendChild(overlay);
+  }
+  const _load = window.loadScenarios;
+  window.loadScenarios = async function(){
+    if (typeof _load === 'function') await _load();
+    ensureTour();
+    if (finished) finishTour(); else showCurrent();
+  };
+  const _restart = window.restart;
+  window.restart = function(){
+    if (!finished) advance();
+    try { if (typeof _restart === 'function') return _restart(); } catch {}
+  };
+})();
+</script>
+
+<script>
+(function(){
+  if (window.__sequentialTourInit) return; window.__sequentialTourInit = true;
+  let pos = 0;
+  let finished = false;
+  function show(idx){
+    if (!Array.isArray(window.scenarios) || !window.scenarios.length) return;
+    if (typeof window.displayScenario === 'function') {
+      try { window.displayScenario(idx); } catch(e){ console.error(e); }
+    }
+  }
+  function finish(){
+    finished = true;
+    const overlay = document.createElement('div');
+    overlay.style.cssText = 'position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.6);z-index:99999;';
+    const card = document.createElement('div');
+    card.style.cssText = 'background:#0b0f1a;color:#ffd166;border:2px solid #ffd166;border-radius:16px;padding:16px 20px;max-width:520px;text-align:center;font-family:inherit;';
+    card.innerHTML = '<div style="font-weight:800;font-size:20px;margin-bottom:8px;">All scenarios shown</div><div style="opacity:.9">Session complete.</div>';
+    overlay.appendChild(card);
+    document.body.appendChild(overlay);
+  }
+  const _load = window.loadScenarios;
+  window.loadScenarios = async function(){
+    if (typeof _load === 'function') await _load();
+    pos = 0;
+    finished = false;
+    show(pos);
+  };
+  const _restart = window.restart;
+  window.restart = function(){
+    if (finished) return;
+    pos++;
+    const n = Array.isArray(window.scenarios) ? window.scenarios.length : 0;
+    if (pos >= n) return finish();
+    show(pos);
+    try { if (typeof _restart === 'function') return _restart(); } catch {}
+  };
+})();
+</script>
 </body>
 </html>
 
