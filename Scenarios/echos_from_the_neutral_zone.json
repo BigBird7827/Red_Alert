@@ -1,0 +1,145 @@
+{
+  "story_name": "Echos from the Neutral Zone",
+  "starfleet_message": "Captain’s Log, Stardate 47458.0 — While patrolling the edge of the Romulan Neutral Zone, the Enterprise has intercepted a repeating Romulan distress call with no identifiable source. Long-range sensors reveal only faint energy echoes. We are moving to investigate, though the signal’s origin appears to exist outside normal space-time.",
+  "mission_description": "Upon entering the Neutral Zone, the Enterprise discovers the phased remains of a long-lost Romulan-Klingon outpost trapped within a temporal distortion. Determine the nature of the anomaly, free any surviving consciousness, and avoid diplomatic escalation.",
+  "dialogue_tree": [
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the distress signal originates from multiple phase-states of the same location. It appears to be a structure existing in fragmented time.",
+      "options": [
+        {
+          "label": "Geordi, can we synchronize our sensors to a stable frequency?",
+          "crew_reply": "Commander La Forge: Working on it, sir. The returns keep splitting—like echoes out of sync with reality.",
+          "next": 1
+        },
+        {
+          "label": "Worf, maintain defensive posture. The Romulans may interpret our presence as provocation.",
+          "crew_reply": "Lt. Worf: Aye, Captain. Shields up, weapons on standby.",
+          "next": 1
+        },
+        {
+          "label": "Counselor, do you sense that there's a sentience from the signal source?",
+          "crew_reply": "Counselor Troi: I sense confusion… fear repeating itself. It’s as if they relive the same moment endlessly.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Commander La Forge",
+      "line": "I’ve isolated the reflection field. It’s a derelict outpost—Romulan in design, but with Klingon technology integrated into its power matrix.",
+      "options": [
+        {
+          "label": "Data, estimate the station’s age.",
+          "crew_reply": "Lt. Commander Data: Yes, sir. Structural decay indicates at least four decades. The reactor core is still in flux.",
+          "next": 2
+        },
+        {
+          "label": "Data, can life exist in such conditions?",
+          "crew_reply": "Lt. Commander Data: Possibly, Captain, if temporally displaced. But what I am reading is not normal physiology, it is repetition.",
+          "next": 2
+        },
+        {
+          "label": "Commander La Forge, reroute auxiliary power and stabilize the plasma flow.",
+          "crew_reply": "Commander La Forge: Acknowledged, Captain. Rerouting auxiliary power.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Worf",
+      "line": "Captain, Klingon data buoys in the vicinity identify this sector as abandoned since the Tomed Incident. Entering further could violate treaty protocols.",
+      "options": [
+        {
+          "label": "Number One, open a secure channel to Romulan Command. Inform them we are responding to a distress signal.",
+          "crew_reply": "Commander Riker: Message sent, sir. No reply, but they’re listening.",
+          "next": 3
+        },
+        {
+          "label": "Lt. Worf, maintain position on our side of the boundary until we confirm the threat level.",
+          "crew_reply": "Lt. Worf: Holding steady at treaty limit, Captain.",
+          "next": 3
+        },
+        {
+          "label": "Mr. Worf, coordinate security teams and keep tactical sensors active.",
+          "crew_reply": "Lt. Worf: Acknowledged, Captain. Security teams are in place.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "The emotional field is growing stronger. They’re aware of us, pleading for release. The pain is constant, but trapped in time.",
+      "options": [
+        {
+          "label": "Mr. La Forge, prepare a phased away team transport. Match to their time signature.",
+          "crew_reply": "Commander La Forge: I can stabilize a corridor for about five minutes, sir. Beyond that, we risk temporal bleed.",
+          "next": 4
+        },
+        {
+          "label": "Doctor, standby medical containment in case something comes back with the team.",
+          "crew_reply": "Dr. Crusher: Containment fields are ready, sir. Biofilters set to adaptive mode.",
+          "next": 4
+        },
+        {
+          "label": "Counselor, monitor emotional patterns among the crew and alert me to distress.",
+          "crew_reply": "Counselor Troi: Acknowledged, Captain.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Away team reports the station phasing between states. Some sections look pristine, others centuries old. Logs alternate between Klingon and Romulan languages.",
+      "options": [
+        {
+          "label": "Commander Riker, log our actions and prepare a diplomatic summary for Starfleet Command.",
+          "crew_reply": "Commander Riker: Understood, Captain. The Romulan signal has ceased; records secured."
+        },
+        {
+          "label": "Lt. Commander La Forge, secure the warp core and conduct structural scans for temporal residue.",
+          "crew_reply": "Commander La Forge: Scans complete. No residual flux. Systems stable."
+        },
+        {
+          "label": "Counselor Troi, monitor the crew for any lingering temporal disorientation.",
+          "crew_reply": "Counselor Troi: Emotional stability returning to baseline, Captain."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Commander Riker",
+      "line": "We answered a distress call from across time itself. Hard to know if they ever realized they were saved."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps mercy needs no acknowledgment, Number One. Sometimes, it is enough that the echo of suffering finally fades."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "By coordinating precise harmonic inversion, the Enterprise released the trapped outpost and ended its four-decade time loop. Starfleet commended the crew for averting a potential Neutral Zone conflict."
+    },
+    {
+      "result": "success",
+      "text": "The crew responded to a distress call across time, offering mercy to those caught in an endless loop. The Neutral Zone remains silent, but the memory of the signal endures."
+    },
+    {
+      "result": "success",
+      "text": "Through restraint and compassion, the Enterprise resolved a lingering tragedy without sparking confrontation. Romulan Command later confirmed the outpost had been listed 'missing' for forty-three years."
+    },
+    {
+      "result": "failure",
+      "text": "An unstable deflector pulse ruptured the temporal field, scattering fragments of the outpost through subspace. Starfleet reprimanded the crew for unauthorized interference in the Neutral Zone."
+    },
+    {
+      "result": "failure",
+      "text": "A premature withdrawal left the anomaly intact. Weeks later, the same distress signal reappeared—unchanged, endlessly repeating."
+    },
+    {
+      "result": "failure",
+      "text": "Romulan forces arrived during the operation, misinterpreting the Enterprise’s actions as aggression. Diplomatic relations deteriorated sharply."
+    }
+  ]
+}

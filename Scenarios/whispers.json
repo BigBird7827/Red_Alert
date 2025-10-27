@@ -1,0 +1,141 @@
+{
+  "story_name": "Whispers",
+  "starfleet_message": "Captain’s Log, Stardate 47460.1 — En route to Starbase 212 for resupply, the Enterprise has intercepted a faint subspace distress beacon of Federation origin. The signal is decades old, yet appears newly transmitted. We are diverting to investigate.",
+  "mission_description": "The Enterprise locates the source of the mysterious beacon—an Oberth-class survey vessel, the USS Callisto, missing for over fifty years. The ship drifts intact, its hull pristine but devoid of any life signs. As the crew investigates, they uncover evidence that the Callisto is trapped within a quantum echo of itself, repeating its final moments in silence.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, the Callisto’s hull shows no sign of decay. Power signatures are active, but no life signs detected.",
+      "options": [
+        {
+          "label": "Data, verify the vessel’s registry and mission history.",
+          "crew_reply": "Lt. Commander Data: The Callisto disappeared in 2321 while mapping subspace filament activity. I have been unable to locate any further records, sir.",
+          "next": 1
+        },
+        {
+          "label": "Worf, maintain security posture and scan for traps or cloaked vessels.",
+          "crew_reply": "Lt. Worf: Aye, Captain. No hostiles detected within sensor range.",
+          "next": 1
+        },
+        {
+          "label": "Number One, coordinate engineering and security teams to stabilize the Callisto's critical systems.",
+          "crew_reply": "Commander Riker: Away teams have transported to the Callisto, Captain.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the ship’s systems are operational, but the internal chronometers read inconsistent temporal cycles. Different sections are existing in separate time frames.",
+      "options": [
+        {
+          "label": "La Forge, can we stabilize the temporal variance for boarding?",
+          "crew_reply": "Commander La Forge: Temporarily, sir. I can synchronize a transporter window for about three minutes; long enough for a survey.",
+          "next": 2
+        },
+        {
+          "label": "Doctor, ready medical teams for potential stasis recovery.",
+          "crew_reply": "Doctor Crusher: Yes, Captain. An away team is standing by with portable containment fields.",
+          "next": 2
+        },
+        {
+          "label": "Data, correlate the subspace harmonics and display the projection.",
+          "crew_reply": "Lt. Commander Data: Acknowledged, Captain. I am sending the results to the Science station.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, I’m sensing faint consciousness. Echoes of fear and confusion, but no living minds. It’s as though the crew is still there, but displaced.",
+      "options": [
+        {
+          "label": "Data, confirm if residual neural energy could persist in subspace.",
+          "crew_reply": "Lt. Commander Data: It is possible, sir. Temporal compression may have captured their neural patterns.",
+          "next": 3
+        },
+        {
+          "label": "La Forge, could the Callisto itself be the source of the beacon?",
+          "crew_reply": "Commander La Forge: Yes, sir. The signal’s origin aligns with the Callisto's main computer core.",
+          "next": 3
+        },
+        {
+          "label": "Counselor Troi, keep a steady empathic link with the envoy and alert me at once to any shift toward hostility.",
+          "crew_reply": "Counselor Troi: Acknowledged, Captain.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "The away team reports multiple decks phasing in and out of sync. They can hear voices on open comms; recordings repeating the crew’s last transmissions.",
+      "options": [
+        {
+          "label": "Doctor, confirm if these echoes could harm the team neurologically.",
+          "crew_reply": "Dr. Crusher: Mild disorientation only, Captain. So far, exposure is non-lethal. But long term exposure isn't recommended.",
+          "next": 4
+        },
+        {
+          "label": "Commander Data, attempt to interface with the Callisto’s main computer.",
+          "crew_reply": "Lt. Commander Data: We have access, Captin. Log fragment reads: 'We crossed the veil... it answered.'",
+          "next": 4
+        },
+        {
+          "label": "Commander Riker, coordinate engineering and security teams to stabilize the Callisto's critical systems.",
+          "crew_reply": "Commander Riker: Acknowledged, Captain. Away teams are standing by for transport.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "The beacon is maintaining the quantum echo, effectively keeping the ship trapped in temporal recursion.",
+      "options": [
+        {
+          "label": "Number One, ensure all away teams are recovered and the Callisto’s beacon is deactivated.",
+          "crew_reply": "Commander Riker: All teams have transported back to the Enterprise. The beacon’s gone dark, Captain."
+        },
+        {
+          "label": "Geordi, seal the temporal containment field and secure ship systems.",
+          "crew_reply": "Commander La Forge: Containment field sealed, sir. Temporal drift stable."
+        },
+        {
+          "label": "Data, forward the recovered data to Temporal Affairs for analysis.",
+          "crew_reply": "Lt. Commander Data: Transmission complete, Captain."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Counselor Troi",
+      "line": "I could still feel them, Captain. Fear, confusion… and then acceptance. It was as if, in their final moment, they understood what had happened."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps, Counselor, in some way, they found peace — knowing their discovery was finally seen, and their voices heard."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Enterprise released the USS Callisto from temporal recursion, allowing its trapped crew echoes to fade peacefully. Starfleet Science is reviewing sensor data for temporal mechanics insight."
+    },
+    {
+      "result": "success",
+      "text": "Through careful deflector modulation, the crew resolved a half-century-old disappearance and freed the Callisto from an endless loop. The mission stands as a reminder of exploration’s risks."
+    },
+    {
+      "result": "failure",
+      "text": "A miscalibrated deflector pulse destabilized the anomaly, causing the Callisto to collapse violently into subspace. No recoverable data remained."
+    },
+    {
+      "result": "failure",
+      "text": "Extended exposure to the echo field induced neurological disorientation among the away team. Starfleet Medical has begun extensive analysis into residual quantum imprinting."
+    },
+    {
+      "result": "failure",
+      "text": "A decision to withdraw early left the Callisto trapped. The haunting signal still broadcasts faintly across the sector—unchanged, timeless, unanswered."
+    }
+  ]
+}

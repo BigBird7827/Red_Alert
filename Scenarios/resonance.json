@@ -1,0 +1,145 @@
+{
+  "story_name": "Resonance",
+  "starfleet_message": "Captain’s Log, Stardate 47459.3 — While escorting a civilian mining convoy through the outer Beta Tauri sector, the Enterprise has detected an unstable gravimetric field forming into a micro-singularity. The phenomenon appears artificial, perhaps the unintended result of graviton extraction. We are preparing to render assistance to the stranded vessel Vallis Prime.",
+  "mission_description": "An experimental graviton-harvesting operation has triggered the birth of a micro-singularity. The phenomenon is expanding unpredictably, threatening both the mining convoy and nearby subspace lanes. Establish the source, stabilize the field, and decide whether the entity forming within can be reasoned with.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander La Forge",
+      "line": "Captain, sensors confirm a graviton storm centered around the Vallis Prime’s last known coordinates. There’s a massive energy surge—pattern matches an artificial singularity.",
+      "options": [
+        {
+          "label": "Data, verify the origin of the singularity.",
+          "crew_reply": "Lt. Commander Data: The event horizon exhibits quantum structuring consistent with directed graviton mining equipment.",
+          "next": 1
+        },
+        {
+          "label": "Worf, establish a defensive perimeter. The convoy may be in danger.",
+          "crew_reply": "Lt. Worf: Yes, sir. Weapons and shields ready.",
+          "next": 1
+        },
+        {
+          "label": "Troi, can you sense the Vallis Prime’s crew?",
+          "crew_reply": "Counselor Troi: Yes, Captain. I sense fear, followed by calm. It's as if their consciousnesses were suddenly… somewhere else.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the singularity is generating gravimetric flux that is destabilizing subspace. I recommend containment measures rather than continued observation.",
+      "options": [
+        {
+          "label": "La Forge, recommend containment options.",
+          "crew_reply": "Commander La Forge: We can attempt to anchor it with a graviton beam, but that risks destabilizing the deflector grid.",
+          "next": 2
+        },
+        {
+          "label": "Data, any sign of the Vallis Prime crew’s life readings?",
+          "crew_reply": "Lt. Commander Data: None in real space, sir. But faint neural signatures are embedded in the gravimetric field.",
+          "next": 2
+        },
+        {
+          "label": "Data, correlate the subspace harmonics and display the projection.",
+          "crew_reply": "Lt. Commander Data: Yes, sir. I am displaying it on the Science Station now.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, the consciousness I sensed isn’t just the Vallis Prime crew—it’s something else. A new awareness forming within the singularity.",
+      "options": [
+        {
+          "label": "Data, confirm signs of patterned intelligence in the graviton flux.",
+          "crew_reply": "Lt. Commander Data: Confirmed, Captain. The energy oscillations exhibit non-random rhythmic modulation.",
+          "next": 3
+        },
+        {
+          "label": "La Forge, can we communicate through harmonic resonance?",
+          "crew_reply": "Commander La Forge: Possibly. We’d need to use the deflector as a subspace modulator.",
+          "next": 3
+        },
+        {
+          "label": "Counselor, maintain contact with the envoy and warn me of any potential aggression.",
+          "crew_reply": "Counselor Troi: Acknowledged, Captain",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "The singularity is reacting to our presence. Energy output has risen by forty percent since arriving on station. It may be trying to communicate through graviton bursts.",
+      "options": [
+        {
+          "label": "La Forge, encode a simple harmonic pattern; an introduction.",
+          "crew_reply": "Commander La Forge: Pattern transmitted. The singularity is responding in kind.",
+          "next": 4
+        },
+        {
+          "label": "Worf, keep phasers on standby but hold fire unless the core destabilizes.",
+          "crew_reply": "Lt. Worf: Acknowledged, Captain. Tactical systems ready.",
+          "next": 4
+        },
+        {
+          "label": "Data, isolate the radiation pattern and trace it to its origin.",
+          "crew_reply": "Lt. Commander Data: Acknowledged, Captain. The radiation pattern originates within the singularity. The accretion wavefront exhibits self-modulating behavior, possibly an attempt at structured emission",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Dr. Crusher",
+      "line": "Captain, I’m detecting bio-neural signatures within the graviton field—traces of the Vallis Prime crew. They may be alive inside the anomaly.",
+      "options": [
+        {
+          "label": "Number One: confirm the convoy is at a safe distance and signal mission completion.",
+          "crew_reply": "Commander Riker: The convoy is clear and stable, Captain. All ships report green."
+        },
+        {
+          "label": "La Forge, initiate graviton dispersal sweep and restore power to deflector control.",
+          "crew_reply": "Commander La Forge: Dispersal complete, sir. Field collapse successful."
+        },
+        {
+          "label": "Data, compile all telemetry on the singularity’s harmonic pattern for Starfleet Science.",
+          "crew_reply": "Lt. Commander Data: Data transmission is underway. Graviton flux readings have been archived."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Commander La Forge",
+      "line": "We set out to contain a disaster, but instead we witnessed the birth of a new lifeform. I guess even a mining accident can give rise to creation."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Indeed, Geordi. Life seldom seeks our permission to exist. What matters is that, when it appears, we recognize it — and respond with respect, not fear."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Enterprise stabilized the graviton storm and rescued the Vallis Prime. The residual pulse was later confirmed to contain structured data—evidence of a newly born subspace intelligence."
+    },
+    {
+      "result": "success",
+      "text": "Through coordinated deflector harmonics, the crew contained a man-made singularity and prevented a disaster. Starfleet Science now studies the echo as a possible non-corporeal lifeform."
+    },
+    {
+      "result": "success",
+      "text": "Communication with the emergent being allowed the Vallis Prime to return safely. The singularity dissipated peacefully, leaving behind a repeating message—'We remember.'"
+    },
+    {
+      "result": "failure",
+      "text": "A premature containment pulse collapsed the singularity violently. The Vallis Prime was lost with all hands; Starfleet suspended graviton mining operations indefinitely."
+    },
+    {
+      "result": "failure",
+      "text": "The singularity consumed the Vallis Prime and destabilized nearby subspace lanes. Emergency warp shutdowns were ordered across the sector."
+    },
+    {
+      "result": "failure",
+      "text": "Attempts to destroy the singularity ruptured the deflector grid, causing widespread damage aboard the Enterprise. The entity’s fate remains unknown."
+    }
+  ]
+}

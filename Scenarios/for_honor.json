@@ -1,0 +1,148 @@
+{
+  "story_name": "For Honor",
+  "starfleet_message": "Captain’s Log, Stardate 47811.3 — The Enterprise has detected a derelict Klingon vessel drifting near the Typhon Expanse. Power is failing and life support minimal. The ship dates from the 22nd century, long before the Federation-Klingon Alliance. The crew appears to be alive, sustained by emergency systems, but barely. Their leader has transmitted an ancient Klingon battle code — a request for an honorable death.",
+  "mission_description": "Respond to the distress signal of a dying Klingon ship seeking an honorable end. The Enterprise must decide whether to intervene, to honor their request, or to preserve life against their wishes.",
+  "dialogue_tree": [
+    {
+      "crew": "Worf",
+      "line": "Captain, the Klingon transmission is genuine. The channel used is ancient — reserved for warriors who seek death in battle. They ask for recognition, not rescue.",
+      "options": [
+        {
+          "label": "Number One, hail the Klingon commander directly.",
+          "crew_reply": "Riker: Channel open. The Klingon ship’s captain identifies himself as K’Tor, son of Mavek. He says his crew will not die in the void like prey.",
+          "next": 1
+        },
+        {
+          "label": "Data, confirm their ship’s condition.",
+          "crew_reply": "Data: Warp containment failure is imminent. Core breach projected in eleven minutes.",
+          "next": 1
+        },
+        {
+          "label": "Worf, what is their expectation of us?",
+          "crew_reply": "Worf: They request that we fire upon them, Captain — so that they may die in combat and enter Sto'Vo'Kor with honor.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Riker",
+      "line": "If we grant their request, we destroy a defenseless vessel. If we refuse, they die anyway — but dishonored in their own eyes.",
+      "options": [
+        {
+          "label": "Picard: Request to speak with their captain personally.",
+          "crew_reply": "K’Tor: You are Picard of the Federation. You do not understand Klingon hearts. We have fought our last battle. Give us the death that was denied.",
+          "next": 2
+        },
+        {
+          "label": "Worf, what would you suggest in this situation?",
+          "crew_reply": "Worf: They wish to face their deaths as warriors. To deny them would be cruelty, Captain.",
+          "next": 2
+        },
+        {
+          "label": "Data, review Starfleet records. Is there a precedent for firing on an otherwise defenseless ship?",
+          "crew_reply": "Data: I've completed my review. There is no protocol for assisted destruction of an allied vessel, Captain.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Picard",
+      "line": "If we are to act, it must be in accordance with both Starfleet ethics and Klingon tradition.",
+      "options": [
+        {
+          "label": "Authorize tactical readiness but hold fire until fired upon.",
+          "crew_reply": "Worf: Acknowledged, Captain. I have informed them that only a gesture of battle will allow us to respond.",
+          "next": 3
+        },
+        {
+          "label": "Refuse the request. Offer medical aid and rescue.",
+          "crew_reply": "Crusher: Captain, they’re unlikely to accept our assistance. Sensors indicate power failure spreading throughout their life support.",
+          "next": 3
+        },
+        {
+          "label": "Lt. Worf, prepare a photon torpedo spread. Ensure maximum containment.",
+          "crew_reply": "La Forge: Targeting solution ready. Firing pattern configured for clean detonation.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Worf",
+      "line": "Captain, the Klingon vessel’s disruptor is charging. They're firing. Minimal damage to the starboard nacelle.",
+      "options": [
+        {
+          "label": "Very well, Mr. Worf. Return fire — a single, disciplined shot.",
+          "crew_reply": "Worf: Photon torpedo away. Direct impact to their forward hull. The Klingon vessel has been destroyed.",
+          "next": 4
+        },
+        {
+          "label": "Mr. Worf, fire.",
+          "crew_reply": "Worf: Firing Captain. The vessel’s containment field is collapsing. Warp core breach in progress... They’ve detonated, Captain. No survivors.",
+          "next": 4
+        },
+        {
+          "label": "Mr. Worf, target their forward hull.",
+          "crew_reply": "Worf: Hit confirmed on their forward hull Captain. Target destroyed.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Riker",
+      "line": "The Klingon vessel is gone, sir. Residual ion traces are all that remain. No transmissions, no debris of significance.",
+      "options": [
+        {
+          "label": "Worf, stand down red alert.",
+          "crew_reply": "Worf: Aye sir. Alert level one set.",
+          "next": 5
+        },
+        {
+          "label": "Data, lower shields. Set course to our previous position.",
+          "crew_reply": "Data: Yes sir. Course plotted and laid in.",
+          "next": 5
+        },
+        {
+          "label": "Mr. Data, inform Starfleet command of our situation. Return to our original course.",
+          "crew_reply": "Data: Understood, sir. Message sent. Course change confirmed.",
+          "next": 5
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Lt. Worf",
+      "line": "They faced death without fear, Captain. Sto'Vo'Kor will welcome them."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps, Mr. Worf. But assisted suicide isn't something I'm comfortable with."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Klingon vessel was destroyed in accordance with their final request. Starfleet acknowledged the act as a cultural accommodation under extraordinary circumstances."
+    },
+    {
+      "result": "success",
+      "text": "The crew of the derelict Klingon ship died with honor. Worf noted that the flames of Sto'Vo'Kor would burn brighter tonight."
+    },
+    {
+      "result": "success",
+      "text": "Starfleet Command received Picard’s report and quietly commended his discretion. The Klingon High Council sent no reply, but none was needed."
+    },
+    {
+      "result": "failure",
+      "text": "The Enterprise hesitated too long. The Klingon ship's warp core breached before engagement, leaving the crew to die without combat. Worf requested a moment of silence."
+    },
+    {
+      "result": "failure",
+      "text": "The Klingon vessel misfired and exploded prematurely. Their final transmission was one of rage, not peace."
+    },
+    {
+      "result": "failure",
+      "text": "Starfleet Command criticized the decision to engage. The Klingon Council demanded explanation; Worf declined to speak."
+    }
+  ]
+}

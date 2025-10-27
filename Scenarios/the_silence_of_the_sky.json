@@ -1,0 +1,148 @@
+{
+  "story_name": "The Silence of the Sky",
+  "starfleet_message": "Captain’s Log, Stardate 47826.4 — Long-range sensors have detected anomalous warp-harmonic emissions from Velis II, a Class-M world with early fusion-age technology and established orbital platforms. Scans indicate the source is a contained power core now installed in a secured research facility on the northern continent. Analysis shows the device is Romulan in origin — likely wreckage from a scout that crashed twenty-five years ago and was later recovered by surface teams. Velisian engineers have disassembled and reassembled the core into a planetary energy lattice. Their adaptations are unstable; continued operation threatens a catastrophic containment failure capable of destabilizing the atmosphere.",
+  "mission_description": "Locate the Velisian research complex housing the Romulan core, assess the containment risk, and neutralize the device discreetly—preserving life on Velis II while ensuring the Velisians never know of off-world intervention.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, the emissions are coming from a high-security complex—heavy shielding markers, dedicated orbital tugs. They’ve clearly recovered and relocated the device.",
+      "options": [
+        {
+          "label": "Data, verify origin and current configuration.",
+          "crew_reply": "Data: Confirmed. The matrix is Romulan; containment field harmonics match a mid-24th century singularity drive. The Velisians have incorporated the core into a distributed grid feeding their northern megacity.",
+          "next": 1
+        },
+        {
+          "label": "La Forge, how unstable is it?",
+          "crew_reply": "La Forge: Containment oscillations are growing. If they continue to ramp it, they’ll trigger a phase cascade—atmospheric ionization, global weather collapse.",
+          "next": 1
+        },
+        {
+          "label": "Worf, any signs of a third party?",
+          "crew_reply": "Worf: Negative, Captain. No off-world signatures detected. This is a local operation.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "There is exhilaration in their scientists and fear in their leaders. The facility’s staff believe they have solved an energy crisis; some factions wish to weaponize the core.",
+      "options": [
+        {
+          "label": "Options, Number One?",
+          "crew_reply": "Riker: A covert beam-out. Recover the core before they can use it further.",
+          "next": 2
+        },
+        {
+          "label": "La Forge, alternatives from orbit?",
+          "crew_reply": "La Forge: I can deliver a gravimetric inversion from the deflector to collapse the singularity safely, but it will cut power across the continent and be visible.",
+          "next": 2
+        },
+        {
+          "label": "Crusher, worst-case casualties?",
+          "crew_reply": "Crusher: If it breaches, immediate fatalities could number in the tens of millions with long-term atmospheric poisoning.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "The Prime Directive forbids cultural contamination—but their use of alien technology places this catastrophe squarely in our hands to mitigate. We will act, and we will not reveal ourselves.",
+      "options": [
+        {
+          "label": "Mask the gravimetric pulse beneath natural solar interference. Execute at maximum precision.",
+          "crew_reply": "La Forge: Understood. Routing the pulse through the sun’s limb to diffuse our signature.",
+          "next": 3
+        },
+        {
+          "label": "Riker, prepare a non-intrusive surveillance footprint. No rescue, no contact.",
+          "crew_reply": "Riker: Aye, Captain. We’ll be ghosts.",
+          "next": 3
+        },
+        {
+          "label": "Keep weapons cold. This is not a battle; it’s a rescue in silence.",
+          "crew_reply": "Worf: Silent and unseen, Captain.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander La Forge",
+      "line": "Pulse initialized. The core collapsed inward. The facility’s reactors tripped—continent-wide blackouts—but the cascade halted. No large-scale detonation registered.",
+      "options": [
+        {
+          "label": "Casualty and environmental status?",
+          "crew_reply": "Data: Preliminary: localized failures, infrastructure damage, but no catastrophic atmospheric ionization. Population impact limited and recoverable.",
+          "next": 4
+        },
+        {
+          "label": "Did they observe an external craft or anomalous signature?",
+          "crew_reply": "Worf: Negative. Public broadcasts label the event ‘The Silence of the Sky’—an omen or miracle, depending on the speaker.",
+          "next": 4
+        },
+        {
+          "label": "Seal the telemetry. Encrypt and classify at the highest level.",
+          "crew_reply": "Riker: Already secured, Captain.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Their leaders are already shaping the story. Some call it divine protection; others, a warning from the heavens. You’ve spared them—but you’ve also set their mythology in motion.",
+      "options": [
+        {
+          "label": "Then let their stories serve as lessons. The truth can wait until they’re ready to understand it.",
+          "crew_reply": "Troi: And when that day comes, they’ll wonder who listened to their silence.",
+          "next": 5
+        },
+        {
+          "label": "That, Counselor, is how history begins—quietly.",
+          "crew_reply": "Troi: Perhaps silence is the truest beginning, Captain.",
+          "next": 5
+        },
+        {
+          "label": "No further action required. Helm, set course away from Velis II, one-quarter impulse.",
+          "crew_reply": "Riker: Aye, sir. Course laid in. Leaving them to their miracle.",
+          "next": 5
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Counselor Troi",
+      "line": "They’ll never know how close they came to destruction, Captain."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Let that ignorance be their salvation, Counselor. Some lessons are best left untaught."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Enterprise neutralized the Romulan singularity core housed in the Velisian research complex without detection. Atmospheric destabilization was prevented; critical infrastructure was disabled but recoverable. Velis II remains unaware of extraterrestrial intervention."
+    },
+    {
+      "result": "success",
+      "text": "Starfleet Command classed the operation as an emergency exception; the crew received quiet commendations and a sealed report to Intelligence. No Romulan authorities were alerted; the incident did not provoke interstellar diplomatic consequences."
+    },
+    {
+      "result": "success",
+      "text": "Velis II will rebuild under the myth of the ‘Silence of the Sky.’ Starfleet considers the outcome the least disruptive possible end to a potential extinction event."
+    },
+    {
+      "result": "failure",
+      "text": "The gravimetric inversion misfired; the singularity breached and produced a hemispheric plasma surge. Casualties numbered in the tens of millions, and the northern continent suffered long-term ecological collapse."
+    },
+    {
+      "result": "failure",
+      "text": "The Velisians detected anomalous signatures and began covertly investigating; the risk of exposure and political fallout increased dramatically."
+    },
+    {
+      "result": "failure",
+      "text": "Starfleet launched an inquiry into the decision to act; the crew’s conduct was subject to review, with the Prime Directive at the heart of the debate."
+    }
+  ]
+}

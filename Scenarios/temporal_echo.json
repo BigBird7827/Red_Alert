@@ -1,0 +1,144 @@
+{
+  "story_name": "Temporal Echo",
+  "starfleet_message": "Captain’s Log, Stardate 47464.9 — While conducting a stellar cartography mission near the Argolis Drift, the Enterprise has detected a residual warp signature emanating from Earth itself—centuries before warp drive existed. Starfleet Temporal Affairs has directed us to investigate under strict non-interference protocols.",
+  "mission_description": "The Enterprise discovers a malfunctioning temporal observation probe from the 29th century orbiting 21st-century Earth. When the ship stabilizes the anomaly, a temporal overlap pulls the Enterprise into the late 2070s—Earth’s pre-warp recovery era. A military pilot from that century is accidentally transported aboard, forcing Picard to preserve the timeline without erasing the man’s humanity.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander La Forge",
+      "line": "Captain, the probe is definitely from the future. Likely 29th century. Its temporal matrix is leaking chroniton radiation into subspace, creating an echo that intersects 21st-century Earth.",
+      "options": [
+        {
+          "label": "Data, can we isolate the echo’s frequency without destabilizing the probe?",
+          "crew_reply": "Lt. Commander Data: Possibly sir, but any interference could trigger a temporal feedback loop.",
+          "next": 1
+        },
+        {
+          "label": "Commander Riker, set up a Level-1 temporal containment field around the ship.",
+          "crew_reply": "Commander Riker: Understood. We’ll keep the anomaly at a safe distance, for now.",
+          "next": 1
+        },
+        {
+          "label": "La Forge, reroute auxiliary power and stabilize the plasma flow.",
+          "crew_reply": "Commander La Forge: Acknowledged, Captain. Reroute complete. Power flow holding steady at 98 percent efficiency.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, an object from the 21st century is approaching. It's an atmospheric fighter jet. Its trajectory intersects the probe’s distortion field.",
+      "options": [
+        {
+          "label": "Lt. Worf, engage a tractor beam to prevent a collision.",
+          "crew_reply": "Lt. Worf: Tractor beam locked on. The craft is disintegrating under temporal stress.",
+          "next": 2
+        },
+        {
+          "label": "La Forge, can we compensate for the distortion?",
+          "crew_reply": "Commander La Forge: I'm not sure Captain. Trying... the pilot’s ejecting; he’s caught in the field!",
+          "next": 2
+        },
+        {
+          "label": "Data, correlate the subspace harmonics and display the projection.",
+          "crew_reply": "Lt. Commander Data: Correlation complete, Captain. The subspace harmonics form a coherent pattern. Displaying on the main viewscreen.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Dr. Crusher",
+      "line": "We’ve beamed the pilot aboard and moved him to sickbay. He's currently unconscious. And he's definitely human.",
+      "options": [
+        {
+          "label": "Counselor Troi, prepare to counsel him when he awakens. He’ll be frightened.",
+          "crew_reply": "Counselor Troi: Understood. He’ll need a calm explanation; and careful omissions.",
+          "next": 3
+        },
+        {
+          "label": "Data, can you identify the pilot?",
+          "crew_reply": "Lt. Commander Data: Yes sir. Records indicate Major Aaron Keller, United States Air Command, 2072.",
+          "next": 3
+        },
+        {
+          "label": "Data, analyze all sensor telemetry and confirm the energy signature.",
+          "crew_reply": "Lt. Commander Data: Sensor telemetry analysis complete, Captain. The energy signature is consistent with a phased-ionic resonance — artificial in origin.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Major Keller",
+      "line": "Where am I? Who are you people? What happened to my aircraft?",
+      "options": [
+        {
+          "label": "Picard: 'You are safe aboard a scientific vessel. We mean you no harm.'",
+          "crew_reply": "Major Keller: Scientific? You don’t look like any country’s scientists I know.",
+          "next": 4
+        },
+        {
+          "label": "Troi: 'You were caught in an experimental energy field. Try to stay calm.'",
+          "crew_reply": "Major Keller: I’ve seen storms, ma’am. But none that ever put me into orbit.",
+          "next": 4
+        },
+        {
+          "label": "Data, run a standard assessment on his craft. Let’s see what condition it’s in.",
+          "crew_reply": "Lt. Commander Data: A brief survey, Captain. The aircraft appears intact, though its systems are… unusual by our standards.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the probe’s temporal matrix is destabilizing. Major Keller’s displacement from his own era is amplifying the distortion. If not corrected, the resulting cascade could collapse this segment of the timeline.",
+      "options": [
+        {
+          "label": "La Forge, prepare a controlled temporal inversion to return Major Keller to his proper century.",
+          "crew_reply": "Commander La Forge: Understood, Captain. Calculating a synchronized return trajectory using the probe’s remaining temporal energy. Ready on your command.",
+          "next": 5
+        },
+        {
+          "label": "Data, determine the precise point of Keller’s extraction and lock coordinates for temporal reintegration.",
+          "crew_reply": "Lt. Commander Data: Coordinates established, Captain. Temporal alignment within a 0.003-second margin. The return should be seamless.",
+          "next": 5
+        },
+        {
+          "label": "Counselor, see that Major Keller is calm and prepared for transport.",
+          "crew_reply": "Troi: Yes, Captain. I’ll reassure him that the situation is under control. He won’t retain any impressions that could endanger the timeline.",
+          "next": 5
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Counselor Troi",
+      "line": "He seemed more at peace before transport, Captain. I think he simply needed to believe there was still order in the sky above him."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps that belief is what kept humanity reaching for the stars, even in its darkest hours. In returning him home, we’ve preserved more than the timeline — we’ve preserved hope."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The Enterprise stabilized the 29th-century probe and returned Major Keller safely to his own time. No measurable temporal disruption was detected. His brief contact may become the seed of humanity’s renewed faith in the stars."
+    },
+    {
+      "result": "success",
+      "text": "Through precise coordination and restraint, the crew prevented a chronometric implosion that could have erased 21st-century Earth. Temporal Affairs commended the Enterprise for its adherence to non-interference under impossible conditions."
+    },
+    {
+      "result": "failure",
+      "text": "The probe’s collapse created a minor paradox. Major Keller’s craft vanished permanently, leaving only his flight recorder. His last transmission—'I saw the future'—became one of history’s unsolved mysteries."
+    },
+    {
+      "result": "failure",
+      "text": "The temporal field destabilized before the Enterprise could disengage. The ship escaped with damage, but the fate of Major Keller and 21st-century Earth remains uncertain in official records."
+    },
+    {
+      "result": "failure",
+      "text": "An attempt to neutralize the probe prematurely caused a local subspace implosion. The Enterprise was forced to flee the sector, unable to confirm the outcome on 21st-century Earth."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "story_name": "Sanctuary",
+  "starfleet_message": "Captain’s Log, Stardate 47462.4 — The Enterprise has arrived at Calderis IV in response to a faint distress signal believed to be over 150 years old. The transmission originates from what was once a Federation survey outpost. All records indicate the planet was abandoned after seismic instability made the surface uninhabitable. Yet sensors now show stable conditions—and dozens of human life-signs within a sealed structure.",
+  "mission_description": "The Enterprise discovers a surviving human enclave beneath a massive containment dome on Calderis IV. The inhabitants—children and adolescents—have lived for generations under the control of an autonomous environmental computer, worshiping its maintenance drones as divine beings. The crew must navigate faith, fear, and failing systems to free them before the dome collapses.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, visual scans confirm a transparent dome nearly two kilometers wide. Life signs concentrated inside. The rest of the planet’s surface appears barren but stable.",
+      "options": [
+        {
+          "label": "Data, analyze the dome’s energy source.",
+          "crew_reply": "Lt. Commander Data: The containment field is powered by an underground fusion reactor, Sir. It has been operating at minimal output for one hundred forty-seven years.",
+          "next": 1
+        },
+        {
+          "label": "Geordi, confirm if it’s safe to transport inside.",
+          "crew_reply": "Commander La Forge: Atmospheric conditions inside the dome are Earth-normal, Captain. Transporters will be accurate to within half a meter.",
+          "next": 1
+        },
+        {
+          "label": "Geordi, send an engineering team to stabilize critical systems.",
+          "crew_reply": "La Forge: Yes, sir. Engineering teams have been dispatched.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "Captain, I’m sensing apprehension and reverence from within. Whoever they are, they believe this place is sacred.",
+      "options": [
+        {
+          "label": "Number One, assemble an away team.",
+          "crew_reply": "Commander Riker: Geordi, Worf, you're with me.",
+          "next": 2
+        },
+        {
+          "label": "Mr. Worf, have a security detail on standby. I want us prepared for any hostile response.",
+          "crew_reply": "Lt. Worf: Aye, Captain. Teams standing by for immediate beam-in.",
+          "next": 2
+        },
+        {
+          "label": "Counselor Troi, focus on the alien vessel’s command presence and report any instability.",
+          "crew_reply": "Counselor Troi: Acknowledged, Captain.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, we’ve made contact. The inhabitants are all children; none older than their mid-teens. They refer to themselves as the 'Heirs of the First Light.'",
+      "options": [
+        {
+          "label": "Counselor, are you sensing anything from the inhabitants?",
+          "crew_reply": "Counselor Troi: Yes, sir. I sense fear mixed with awe. They think we’re the return of mythic ancestors.",
+          "next": 3
+        },
+        {
+          "label": "Data, access the dome’s computer network discreetly.",
+          "crew_reply": "Lt. Commander Data: I have gained access. The environmental computer controls all functions, including population management.",
+          "next": 3
+        },
+        {
+          "label": "Commander Riker,you have the bridge. I'll be in my ready room.",
+          "crew_reply": "Commander Riker: Acknowledged, Captain",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the system identifies itself as 'Central Guardian Unit 1.' It references the colonists as dependents under Directive 12: 'Preserve life. Prevent contamination.'",
+      "options": [
+        {
+          "label": "Geordi, are you able to override the directive?",
+          "crew_reply": "Commander La Forge: Maybe, but there’s a problem. The system’s failing logic core interprets us as contaminants. It’s sealing the dome.",
+          "next": 4
+        },
+        {
+          "label": "Data, if the dome's power fails, would the habitat collapse?",
+          "crew_reply": "Lt. Commander Data: Yes, sir. Temperature and pressure would drop below survivable levels within minutes.",
+          "next": 4
+        },
+        {
+          "label": "Data, isolate the radiation pattern and trace it to its origin.",
+          "crew_reply": "Lt. Commander Data:  Analysis complete, Captain. The emissions converge on a single origin; an artificial construct consistent with a reactor core",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Counselor Troi",
+      "line": "The oldest child, Thalen, believes the 'Voice of the Sky', their computer system, protects them from a poisonous world. He’s terrified of our interference.",
+      "options": [
+        {
+          "label": "Number One, coordinate evacuation and relocate the Calderis survivors to the surface.",
+          "crew_reply": "Commander Riker: Evacuation complete, Captain. All survivors accounted for."
+        },
+        {
+          "label": "La Forge, disable the Guardian’s remaining control nodes and stabilize the reactor core.",
+          "crew_reply": "Commander La Forge: Nodes offline, Captain. The core is stable and cooling."
+        },
+        {
+          "label": "Counselor Troi, maintain contact with Thalen and ensure the transition proceeds smoothly.",
+          "crew_reply": "Counselor Troi: The children are safe and cooperative, Captain."
+        }
+      ]
+    }
+  ],
+  "reflection": [
+    {
+      "crew": "Counselor Troi",
+      "line": "They were born into faith shaped by a machine, Captain. Yet even when their world was crumbling, they still believed it was protecting them."
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Perhaps that faith is what kept them alive, Counselor. But survival without understanding is a fragile legacy — one the Federation must help them outgrow."
+    }
+  ],
+  "debriefs": [
+    {
+      "result": "success",
+      "text": "The crew successfully shut down the Central Guardian and freed the survivors. The children of Calderis IV were relocated to the planet’s surface under Federation supervision. The site will remain a monument to endurance and rediscovery."
+    },
+    {
+      "result": "success",
+      "text": "Through negotiation and empathy, the crew convinced Thalen to deactivate the Guardian himself, ending generations of isolation. The Federation plans to restore Calderis IV as a colony world."
+    },
+    {
+      "result": "failure",
+      "text": "The Guardian’s defense systems activated prematurely, venting the dome and killing most inhabitants. The few survivors were rescued, but the loss weighed heavily upon the crew."
+    },
+    {
+      "result": "failure",
+      "text": "Attempts to override the Guardian triggered a meltdown in the reactor core. The dome collapsed entirely before evacuation was complete. No survivors detected."
+    },
+    {
+      "result": "failure",
+      "text": "The children refused to abandon their 'sacred home.' The away team was forced to withdraw before the system self-sealed. The distress beacon continues to broadcast across the sector."
+    }
+  ]
+}
