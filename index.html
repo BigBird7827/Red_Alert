@@ -578,7 +578,8 @@ footer {
 </div>
 <footer>STARFLEET COMMAND | UNITED FEDERATION OF PLANETS</footer>
 <script>
-const REMOTE_JSON_URL='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red%20Alert.json'
+const MANIFEST_URL='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/Scenario%20Manifest.json';
+const RAW_BASE='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/'
 let scenarios=[],currentScenario=0,currentNode=0,missionActive=false
 
 // Crew portrait map and controller
@@ -614,16 +615,12 @@ function setPortrait(name) {
 }
 async function loadScenarios(){
   try{
-    const res = await fetch(REMOTE_JSON_URL, { cache: 'no-store' });
-    scenarios = await res.json();
-
-    for (let i = scenarios.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [scenarios[i], scenarios[j]] = [scenarios[j], scenarios[i]];
-    }
+    const files = await (await fetch(MANIFEST_URL, { cache: 'no-store' })).json();
+    const urls = files.map(f => (/^https?:\/\//i.test(f) ? f : RAW_BASE + String(f).replace(/^\/+/, '')));
+    const arr = await Promise.all(urls.map(u => fetch(u, { cache: 'no-store' }).then(r => r.json())));
+    scenarios = arr;
   } catch (e) {
-    document.getElementById('communique').innerHTML =
-      '<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>';
+    document.getElementById('communique').innerHTML = '<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>';
     return;
   }
   displayScenario(0);
