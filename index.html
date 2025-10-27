@@ -582,6 +582,7 @@ const MANIFEST_URL='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main
 const RAW_BASE='https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/'
 let scenarios=[],currentScenario=0,currentNode=0,missionActive=false
 
+// Crew portrait map and controller
 const crewImages = {
   "Picard": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Picard.png",
   "Riker": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Riker.png",
@@ -596,6 +597,7 @@ const crewImages = {
   "Default": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Default.png"
 };
 
+// Normalizes crew names by removing titles/ranks so keys match crewImages
 function normalizeCrewName(name) {
   if (!name) return "Default";
   return String(name)
@@ -714,6 +716,8 @@ function renderDialogueNode() {
       const imageContainer = document.createElement('div'); imageContainer.className = 'crew-image-container';
       const img = document.createElement('img');
       
+
+
 function findCrewNameFromText(text) {
   const lower = text.toLowerCase();
 
@@ -847,10 +851,8 @@ if (reflection.length > 0) {
   overlay.classList.add('active');
 }
 function restart(){
-  const portrait=document.getElementById('crew-portrait');
-  if(portrait)portrait.style.display='flex';
-  const next=currentScenario+1;
-  if(next<scenarios.length){displayScenario(next);}else{alert('All missions complete. Refresh to start over.');}}
+  const portrait = document.getElementById('crew-portrait');
+  if (portrait) portrait.style.display = 'flex';const next=(currentScenario+1)%scenarios.length;displayScenario(next)}
 loadScenarios()
 const systems={shields:{inactive:'Shields Inactive',active:'Shields Up',state:false},weapons:{inactive:'Weapons on Standby',active:'Weapons Systems Ready',state:false},comms:{inactive:'Comms Offline',active:'Hailing Frequencies Open',state:false},damage:{inactive:'Damage Control Idle',active:'Damage Control Teams Dispatched',state:false},computer:{inactive:'Main Computer Offline',active:'Main Computer Ready',state:false},shortscan:{inactive:'Short Range Scans Offline',active:'Short Range Scans Active',state:false},longscan:{inactive:'Long Range Scans Offline',active:'Long Range Scans Active',state:false},lifesupport:{inactive:'Life Support Optimal',active:'Life Support Compromised',state:false}}
 const statusPanel=document.getElementById('status-panel')
@@ -1040,12 +1042,7 @@ document.querySelectorAll('#lcars-buttons .lcars-btn').forEach(btn=>{const key=b
     ensureTour();
     if (finished) finishTour(); else showCurrent();
   };
-  const _restart = window.restart;
-  window.restart = function(){
-    if (!finished) advance();
-    try { if (typeof _restart === 'function') return _restart(); } catch {}
-  };
-})();
+  
 </script>
 
 <script>
@@ -1076,16 +1073,7 @@ document.querySelectorAll('#lcars-buttons .lcars-btn').forEach(btn=>{const key=b
     finished = false;
     show(pos);
   };
-  const _restart = window.restart;
-  window.restart = function(){
-    if (finished) return;
-    pos++;
-    const n = Array.isArray(window.scenarios) ? window.scenarios.length : 0;
-    if (pos >= n) return finish();
-    show(pos);
-    try { if (typeof _restart === 'function') return _restart(); } catch {}
-  };
-})();
+  
 </script>
 
 <script>
