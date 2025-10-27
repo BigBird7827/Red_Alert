@@ -1593,8 +1593,8 @@
         "line": "Captain, we\u2019ve reached the coordinates relayed by Starfleet Command. The distortions are present, though weaker than reports suggested.",
         "options": [
           {
-            "label": "Romulan in origin?",
-            "crew_reply": "Lt. Commander Data: Possibly, but the frequency drift is irregular. The field adapts to our scans, as if learning from them.",
+            "label": "Data, are the distortions Romulan in origin?",
+            "crew_reply": "Lt. Commander Data: Possibly sir, but the frequency drift is irregular. The field adapts to our scans, as if learning from them.",
             "next": 1
           },
           {
@@ -1603,7 +1603,7 @@
             "next": 1
           },
           {
-            "label": "Worf, your assessment?",
+            "label": "Worf, what's your assessment of the current threat level?",
             "crew_reply": "Lt. Worf: Captain, I suggest raising shields. Unknown energy signatures this close to Earth warrant caution.",
             "next": 1
           }
@@ -1611,21 +1611,21 @@
       },
       {
         "crew": "Captain Picard",
-        "line": "Not yet, Mr. Worf. Let\u2019s find out who\u2019s hiding and determine if there\u2019s a threat first.",
+        "line": "Not yet, Mr. Worf. Let\u2019s find out who\u2019s hiding and determine if there\u2019s a threat first. But be ready for anything.",
         "options": [
           {
-            "label": "Magnify the source region.",
+            "label": "Number ONe, Magnify the source region.",
             "crew_reply": "Commander Riker: There \u2014 a reflective pocket in the distortion field. Looks like a structure, but the shape keeps changing.",
             "next": 2
           },
           {
             "label": "Data, analyze the modulation pattern.",
-            "crew_reply": "Lt. Commander Data: There\u2019s no consistent geometry, Captain, yet the field cycles with deliberate rhythm. It\u2019s\u2026 responsive.",
+            "crew_reply": "Lt. Commander Data: There is no consistent geometry, Captain, yet the field cycles with deliberate rhythm. It is responsive.",
             "next": 2
           },
           {
-            "label": "La Forge, what are you detecting?",
-            "crew_reply": "Lt. Commander La Forge: I\u2019m detecting minute gravimetric ripples \u2014 self-correcting. It\u2019s adjusting to maintain concealment against our sensors.",
+            "label": "Geordi, find a way to light that object up. I want to see what's beneath that cloak.",
+            "crew_reply": "Lt. Commander La Forge: I'm sending an inverse tachyon pulse through the main deflector. It's adjusting to maintain concealment.",
             "next": 2
           }
         ]
@@ -1645,19 +1645,19 @@
             "next": 3
           },
           {
-            "label": "La Forge, verify that reading.",
-            "crew_reply": "Lt. Commander La Forge: That explains why Starfleet couldn\u2019t identify it. They\u2019ve merged cloaking tech with Borg modulation \u2014 the perfect disguise.",
+            "label": "La Forge, Have you learned anything else from the tachyon sweep?",
+            "crew_reply": "Lt. Commander La Forge: It certainly explains why the object was able to adapt to our pulse, Captain. I'm almost certain it's Borg.",
             "next": 3
           }
         ]
       },
       {
-        "crew": "Captain Picard",
-        "line": "Red alert \u2014 shields up.",
+        "crew": "Commander Riker",
+        "line": "Red Alert. Shields up. Helm, back us away from the object.",
         "options": [
           {
-            "label": "Data, tactical analysis.",
-            "crew_reply": "Lt. Commander Data: A focused gravimetric pulse could collapse the cloak and overload its core. Destruction would be total.",
+            "label": "Lt. Worf, tactical analysis.",
+            "crew_reply": "Worf: A focused gravimetric pulse would collapse the cloak and overload its core. Destruction would be total.",
             "next": 4
           },
           {
@@ -1666,7 +1666,7 @@
             "next": 4
           },
           {
-            "label": "Proceed with the pulse.",
+            "label": "I'll risk it. Proceed with the pulse.",
             "crew_reply": "Captain Picard: Fire the pulse, Mr. La Forge. The Borg may get a signal through, but at least for now we've ended their presence in our system.",
             "next": 4
           }
@@ -1674,7 +1674,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "The construct\u2019s gone, sir. Completely vaporized. But there was a signal\u2014brief, just before detonation.",
+        "line": "The construct\u2019s gone, sir. Completely vaporized. But they managed to get a brief signal burst out, just before detonation.",
         "options": [
           {
             "label": "Data, confirm what it sent.",
@@ -1682,13 +1682,13 @@
             "next": 5
           },
           {
-            "label": "Troi, what did you sense?",
-            "crew_reply": "Counselor Troi: Captain, I felt it. A presence withdrawing. The Collective knows we were here.",
+            "label": "Counselor, did you sense the intent of the transmission?",
+            "crew_reply": "Counselor Troi: I'm sorry Captain. All I could sense was a single word. Initiate.",
             "next": 5
           },
           {
-            "label": "Final assessment, Number One.",
-            "crew_reply": "Captain Picard: Then we\u2019ve destroyed their eyes, but not their memory.",
+            "label": "Tactical, stand down red alert. Helm, set course for home.",
+            "crew_reply": "Worf: Aye Captain, Alert level one set.",
             "next": 5
           }
         ]
@@ -1697,11 +1697,11 @@
     "reflection": [
       {
         "crew": "Commander Riker",
-        "line": "Captain, if they can hide this close to Earth, we may already be surrounded."
+        "line": "This is the second time they've been close to Earth. They didn't manage to do any damage at all this time."
       },
       {
         "crew": "Captain Picard",
-        "line": "Then we find them, Number One. And next time, we won\u2019t wait for them to blink first."
+        "line": "I don't think their intent was damage, Number One; this time. If I had to make a guess, I'd say they'll be back. Sooner rather than later, and with far more malevolent intent."
       }
     ],
     "debriefs": [
