@@ -1297,7 +1297,7 @@
         "line": "Captain, the Klingon transmission is genuine. The channel used is ancient \u2014 reserved for warriors who seek death in battle. They ask for recognition, not rescue.",
         "options": [
           {
-            "label": "Hail the Klingon commander directly.",
+            "label": "Number One, hail the Klingon commander directly.",
             "crew_reply": "Riker: Channel open. The Klingon ship\u2019s captain identifies himself as K\u2019Tor, son of Mavek. He says his crew will not die in the void like prey.",
             "next": 1
           },
@@ -1323,13 +1323,13 @@
             "next": 2
           },
           {
-            "label": "Worf, what would you advise?",
+            "label": "Worf, what would you suggest in this situation?",
             "crew_reply": "Worf: They wish to face their deaths as warriors. To deny them would be cruelty, Captain.",
             "next": 2
           },
           {
-            "label": "Data, Starfleet protocol on voluntary termination?",
-            "crew_reply": "Data: There is no precedent for assisted destruction of an allied vessel, Captain.",
+            "label": "Data, review Starfleet records. Is there a precedent for firing on an otherwise defenseless ship?",
+            "crew_reply": "Data: I've completed my review. There is no protocol for assisted destruction of an allied vessel, Captain.",
             "next": 2
           }
         ]
@@ -1345,58 +1345,58 @@
           },
           {
             "label": "Refuse the request. Offer medical aid and rescue.",
-            "crew_reply": "Crusher: Captain, they\u2019re unlikely to accept our assistance. Sensors indicate power failure spreading through life support.",
+            "crew_reply": "Crusher: Captain, they\u2019re unlikely to accept our assistance. Sensors indicate power failure spreading throughout their life support.",
             "next": 3
           },
           {
-            "label": "Prepare a photon torpedo spread. Ensure minimal debris remains.",
+            "label": "Lt. Worf, prepare a photon torpedo spread. Ensure maximum containment.",
             "crew_reply": "La Forge: Targeting solution ready. Firing pattern configured for clean detonation.",
             "next": 3
           }
         ]
       },
       {
-        "crew": "Worf",
-        "line": "Captain, the Klingon vessel is arming one disruptor \u2014 it\u2019s barely functional. They mean to strike first.",
-        "options": [
-          {
-            "label": "Return fire. One controlled burst.",
-            "crew_reply": "Worf: Firing, Captain. The Klingon ship has been destroyed. Sensors confirm all life signs lost.",
-            "next": 4
-          },
-          {
-            "label": "Hold position. Let them complete the ritual themselves.",
-            "crew_reply": "Data: Core breach occurring. The vessel has self-destructed. No survivors detected.",
-            "next": 4
-          },
-          {
-            "label": "Attempt to disable their weapons only.",
-            "crew_reply": "La Forge: Direct hit to weapons array. They are venting plasma, but they continue to charge their disruptor!",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Riker",
-        "line": "The Klingon ship is gone, sir. No debris field large enough for recovery. Transmission channels are silent.",
-        "options": [
-          {
-            "label": "Worf, final readings?",
-            "crew_reply": "Worf: Energy signature fading. They died as they wished \u2014 in battle.",
-            "next": 5
-          },
-          {
-            "label": "Data, confirm no survivors.",
-            "crew_reply": "Data: None detected, Captain. The detonation was complete.",
-            "next": 5
-          },
-          {
-            "label": "La Forge, secure the area. I want no trace of interference left.",
-            "crew_reply": "La Forge: Aye, sir. All sensor records encrypted.",
-            "next": 5
-          }
-        ]
-      }
+  "crew": "Worf",
+  "line": "Captain, the Klingon vessel’s disruptor is charging. They're firing. Minimal damage to the starboard nacelle.",
+  "options": [
+    {
+      "label": "Very well, Mr. Worf. Return fire — a single, disciplined shot.",
+      "crew_reply": "Worf: Photon torpedo away. Direct impact to their forward hull. The Klingon vessel has been destroyed.",
+      "next": 4
+    },
+    {
+      "label": "Mr. Worf, fire.",
+      "crew_reply": "Worf: Firing Captain. The vessel’s containment field is collapsing. Warp core breach in progress... They’ve detonated, Captain. No survivors.",
+      "next": 4
+    },
+    {
+      "label": "Mr. Worf, target their forward hull.",
+      "crew_reply": "Worf: Hit confirmed on their forward hull Captain. Target destroyed.",
+      "next": 4
+    }
+  ]
+},
+{
+  "crew": "Riker",
+  "line": "The Klingon vessel is gone, sir. Residual ion traces are all that remain. No transmissions, no debris of significance.",
+  "options": [
+    {
+      "label": "Worf, stand down red alert.",
+      "crew_reply": "Worf: Aye sir. Alert level one set.",
+      "next": 5
+    },
+    {
+      "label": "Data, lower shields. Set course to our previous position.",
+      "crew_reply": "Data: Yes sir. Course plotted and laid in.",
+      "next": 5
+    },
+    {
+      "label": "Mr. Data, inform Starfleet command of our situation. Return to our original course.",
+      "crew_reply": "Data: Understood, sir. Message sent. Course change confirmed.",
+      "next": 5
+    }
+  ]
+}
     ],
     "reflection": [
       {
@@ -1405,7 +1405,7 @@
       },
       {
         "crew": "Captain Picard",
-        "line": "Perhaps, Mr. Worf. But it is a hard thing \u2014 to grant the dying their wish for death, even in honor."
+        "line": "Perhaps, Mr. Worf. But assisted suicide isn't something I'm comfortable with."
       }
     ],
     "debriefs": [
