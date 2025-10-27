@@ -1248,7 +1248,7 @@
         },
         {
           "label": "Worf, signal a memorial beacon for those who chose exile.",
-          "crew_reply": "Lt. Worf: Beacon transmitted. Their sacrifice will endure. They are an honorable people."
+          "crew_reply": "Lt. Worf: Beacon transmitted, Captain. Their sacrifice will endure. They are an honorable people."
         }
       ]
     }
@@ -1297,12 +1297,12 @@
         "options": [
           {
             "label": "Data, confirm our position relative to known 22nd-century Klingon space.",
-            "crew_reply": "Lt. Commander Data We are within a disputed corridor later known as the Khitomer Expanse, Captain. In this era it is sovereign Klingon territory.",
+            "crew_reply": "Lt. Commander Data: We are within a disputed corridor later known as the Khitomer Expanse, Captain. In this era it is sovereign Klingon territory.",
             "next": 1
           },
           {
-            "label": "La Forge, analyze the temporal fold that brought us here.",
-            "crew_reply": "Commander La Forge It’s a collapsing tachyon filament. It pulled us through and sealed behind us — reopening it won’t be easy.",
+            "label": "La Forge: analyze the temporal fold that brought us here.",
+            "crew_reply": "Commander La Forge: It’s a collapsing tachyon filament. It pulled us through and sealed behind us. Reopening it won’t be easy.",
             "next": 1
           },
           {
@@ -1313,86 +1313,94 @@
         ]
       },
       {
-        "crew": "Commander Riker",
-        "line": "Captain, the Klingon ship is insisting on a response. Their commander demands that we acknowledge his last stand. He believes we’re not… alive.",
-        "options": [
-          {
-            "label": "On screen.",
-            "crew_reply": "Captain Picard This is Jean-Luc Picard of the Federation starship Enterprise. We recognize your courage. State your condition.",
-            "next": 2
-          },
-          {
-            "label": "Audio only. Reduce visual contact to limit contamination.",
-            "crew_reply": "Commander Riker Audio channel open. Klingon Captain: 'Specters! Witness our glory!'",
-            "next": 2
-          },
-          {
-            "label": "Hold position. Observe before responding.",
-            "crew_reply": "Lt. Worf Captain, to ignore a dying Klingon’s challenge is to deny him honor.",
-            "next": 2
-          }
-        ]
-      },
+   "crew": "Captain Picard",
+  "line": "It appears their transmission is not a plea for aid, but a declaration of honor. To respond improperly could distort Klingon tradition—and perhaps their history itself. Recommendations?",
+  "options": [
+    {
+      "label": "Worf, your insight. How should we answer this challenge?",
+      "crew_reply": "Lt. Worf: If we acknowledge their hail in kind, they will see it as respect. If we ignore it, dishonor. I suggest we respond with the rites they have invoked.",
+      "next": 3
+    },
+    {
+      "label": "La Forge, is there a way to open limited communication without revealing our identity?",
+      "crew_reply": "Commander La Forge: Possibly, Captain. I can mask our subspace signature and simulate a 22nd-century relay—short window, but it might hold.",
+      "next": 3
+    },
+    {
+      "label": "Troi, what do you sense from their intent?",
+      "crew_reply": "Counselor Troi: I sense resolve, Captain—acceptance of death, but also pride. They’re not asking for help; they’re asking to be witnessed.",
+      "next": 3
+    }
+  ]
+}
+  {
+  "crew": "Lt. Worf",
+  "line": "Captain, they’ve accepted their fate with honor. We should acknowledge them before the end. Requesting permission to open a channel.",
+  "options": [
+    {
+      "label": "Granted. Transmit the ancient call of honor on their frequency.",
+      "crew_reply": "Lt. Worf: Aye, Captain. Encoding the call now. They will know their courage was seen.",
+      "next": 3
+    },
+    {
+      "label": "Proceed, Mr. Worf. Use a low-power deflector pulse as our salute.",
+      "crew_reply": "Lt. Worf: Understood. A brief signal, Captain—symbolic only. They will recognize the gesture.",
+      "next": 3
+    },
+    {
+      "label": "Open the channel, Worf. Let them hear our respect.",
+      "crew_reply": "Lt. Worf: Channel open, Captain. The Klingons will know we honor them.",
+      "next": 3
+    }
+  ]
+},
       {
-        "crew": "Captain Picard",
-        "line": "We cannot intervene directly without changing Klingon history. Yet to abandon them entirely risks a paradox of cultural omission. Options?",
-        "options": [
-          {
-            "label": "Worf, suggest an honorable course.",
-            "crew_reply": "Lt. Worf If we stabilize their core long enough for one last volley, they die as warriors — not as victims.",
-            "next": 3
-          },
-          {
-            "label": "La Forge, can we reinforce their containment field remotely?",
-            "crew_reply": "Commander La Forge I can transfer power through their shields for maybe ninety seconds before our 24th-century signature imprints on their systems.",
-            "next": 3
-          },
-          {
-            "label": "Crusher, humanitarian alternatives?",
-            "crew_reply": "Dr. Crusher Their cells are saturated with theta radiation. Even if transported, they’d survive minutes — and know they were aboard an impossible ship.",
-            "next": 3
-          }
-        ]
-      },
+  "crew": "Lt. Commander Data",
+  "line": "Captain, the Klingon ship’s power levels are spiking—warp core breach imminent!",
+  "options": [
+    {
+      "label": "Back us off—one-quarter impulse!",
+      "crew_reply": "Lt. Commander Data: Aye, Captain. Reversing thrust—one-quarter impulse. Pulling us clear of the blast perimeter.",
+      "next": 5
+    },
+    {
+      "label": "Worf, raise shields!",
+      "crew_reply": "Lt. Worf: Shields up. Structural integrity fields at maximum. Brace for impact!",
+      "next": 5
+    },
+    {
+      "label": "Data, stabilize our position against the shockwave!",
+      "crew_reply": "Lt. Commander Data: Reinforcing structural integrity fields and compensating for shockwave dispersion.",
+      "next": 5
+    }
+  ]
+},
       {
-        "crew": "Lt. Commander Data",
-        "line": "Captain, the Klingon warp core will breach in seventy-eight seconds. The shockwave will destabilize the tachyon filament. If it collapses while we remain displaced, we may be stranded — or erased.",
-        "options": [
-          {
-            "label": "La Forge, initiate the remote power transfer — hold them together long enough to complete their last volley.",
-            "crew_reply": "Commander La Forge Channel open. Feeding energy into their core… containment stabilizing at minimal tolerance.",
-            "next": 4
-          },
-          {
-            "label": "Worf, open a channel and acknowledge their valor.",
-            "crew_reply": "Lt. Worf Channel open. 'Klingon commander, your courage is witnessed. Fight well.' He smiles through the static.",
-            "next": 4
-          },
-          {
-            "label": "Data, prepare to synchronize the detonation vector — we’ll ride the shockwave back.",
-            "crew_reply": "Lt. Commander Data Adjusting harmonic phase to our quantum signature. Probability of return: sixty-three percent.",
-            "next": 4
-          }
-        ]
-      },
-      {
-        "crew": "Lt. Worf",
-        "line": "The Klingon captain transmits his final words: 'We die as warriors — our deeds remembered!' Their core is reaching overload.",
-        "options": [
-          {
-            "label": "Riker, confirm atmospheric stabilization and disengage cloaking measures.",
-            "crew_reply": "Commander Riker Atmospheric readings normal. Our presence undetected, Captain."
-          },
-          {
-            "label": "La Forge, secure the transporter systems and isolate residual radiation traces.",
-            "crew_reply": "Commander La Forge Containment complete—grid balance restored."
-          },
-          {
-            "label": "Troi, monitor for emotional aftereffects among crew following the Prime Directive decision.",
-            "crew_reply": "Counselor Troi The crew remains contemplative but composed, Captain."
-          }
-        ]
-      }
+  "crew": "Captain Picard",
+  "line": "Starfleet reports possible Romulan activity near Starbase 47. We’re the closest vessel in range.",
+  "options": [
+    {
+      "label": "Data, bring us to warp six.",
+      "crew_reply": "Lt. Commander Data: Aye, Captain. Increasing to warp six. Estimated arrival in six hours, ten minutes.",
+      "next": null
+    },
+    {
+      "label": "Worf, have security teams placed on alert and review Romulan engagement protocols.",
+      "crew_reply": "Lt. Worf: Aye, Captain. Security teams notified and protocols under review.",
+      "next": null
+    },
+    {
+      "label": "La Forge, make whatever preparations you think necessary in case we run into company.",
+      "crew_reply": "Commander La Forge: Understood, Captain. (taps comm) La Forge to Engineering—run a level-four diagnostic on the warp core and power relays. Engineering reports all systems stable and diagnostic in progress.",
+      "next": null
+    },
+    {
+      "label": "Riker, bring us to warp six.",
+      "crew_reply": "Commander Riker: Aye, Captain. Helm responding. Speed increasing to warp six—course locked for Starbase 47.",
+      "next": null
+    }
+  ]
+}
     ],
     "reflection": [
       {
