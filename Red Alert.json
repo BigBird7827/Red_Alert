@@ -1395,13 +1395,12 @@
       "next": null
     },
     {
-      "label": "Riker, bring us to warp six.",
-      "crew_reply": "Commander Riker: Aye, Captain. Helm responding. Speed increasing to warp six—course locked for Starbase 47.",
-      "next": null
-    }
-  ]
-}
-    ],
+          "label": "Riker, bring us to warp six.",
+          "crew_reply": "Commander Riker: Aye, Captain. Helm responding. Speed increasing to warp six—course locked for Starbase 47.",
+          "next": null
+        }
+      ]
+    },
     "reflection": [
       {
         "crew": "Lt. Worf",
