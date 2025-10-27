@@ -1092,7 +1092,93 @@ document.querySelectorAll('#lcars-buttons .lcars-btn').forEach(btn=>{const key=b
   };
 })();
 </script>
+
+<script>
+// === EPISODE SELECTOR PANEL ===
+
+// Create LCARS Episodes button
+const sidebar = document.querySelector('.sidebar');
+if (sidebar) {
+  const episodesBtn = document.createElement('button');
+  episodesBtn.className = 'lcars-button episodes-btn';
+  episodesBtn.textContent = 'EPISODES';
+  sidebar.appendChild(episodesBtn);
+
+  // Create episode list container
+  const episodeList = document.createElement('div');
+  episodeList.className = 'episode-list hidden';
+  sidebar.appendChild(episodeList);
+
+  // Hide and show helper functions
+  function toggleSidebarButtons(hide) {
+    const buttons = sidebar.querySelectorAll('.lcars-button:not(.episodes-btn)');
+    buttons.forEach(btn => btn.style.display = hide ? 'none' : 'block');
+  }
+
+  // Populate episode list from scenarios
+  function populateEpisodeList() {
+    episodeList.innerHTML = '';
+    scenarios.forEach((s, index) => {
+      const epBtn = document.createElement('button');
+      epBtn.className = 'lcars-button episode-entry';
+      epBtn.textContent = s.story_name || 'Untitled Scenario ' + (index + 1);
+      epBtn.onclick = () => {
+        currentScenario = index;
+        displayScenario(currentScenario);
+        episodeList.classList.add('hidden');
+        toggleSidebarButtons(false);
+      };
+      episodeList.appendChild(epBtn);
+    });
+  }
+
+  // Handle Episodes button click
+  episodesBtn.onclick = () => {
+    const hidden = episodeList.classList.contains('hidden');
+    if (hidden) {
+      toggleSidebarButtons(true);
+      populateEpisodeList();
+      episodeList.classList.remove('hidden');
+    } else {
+      episodeList.classList.add('hidden');
+      toggleSidebarButtons(false);
+    }
+  };
+}
+
+// CSS styling for the episode list
+const style = document.createElement('style');
+style.textContent = `
+  .episode-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  .episode-list.hidden { display: none; }
+  .episode-entry {
+    background-color: #ff9966;
+    color: black;
+    text-align: left;
+    padding: 8px;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+  }
+  .episode-entry:hover {
+    background-color: #ffaa77;
+  }
+  .episodes-btn {
+    background-color: #cc6699;
+    margin-top: 15px;
+  }
+`;
+document.head.appendChild(style);
+</script>
 </body>
+
 </html>
 
 
