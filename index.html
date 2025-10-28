@@ -672,9 +672,7 @@ function setPortrait(name) {
   const normalized = normalizeCrewName(name);
   portrait.src = crewImages[normalized] || crewImages["Default"];
 }
-async function loadScenarios(){
-  try{
-    const files = await (await fetch('Red Alert_New.json', {cache:'no-store'})).json();
+)).json();
     const urls = files.map(f => (/^https?:\/\//i.test(f) ? f : RAW_BASE + String(f).replace(/^\/+/, '')));
     const arr = await Promise.all(urls.map(u => fetch(u, { cache: 'no-store' }).then(r => r.json())));
     scenarios = arr;
@@ -1366,7 +1364,7 @@ if(!window.__menu_patched__){
     }catch(e){}
 
     try{
-      var r = await fetch('Red Alert.json?v=2', {cache:'no-store'});
+      var r = await fetch('Red Alert.json', {cache:'no-store'});
       if (r.ok) {
         var j = await r.json();
         if (Array.isArray(j) && j.length) { window.scenarios = j; renderMenu(); return; }
@@ -1547,12 +1545,64 @@ if(!window.__menu_patched__){
   if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', bind); } else { bind(); }
   window.__setBanner = setBanner;
 })();
+
+// === BEGIN AUTO SCENARIO LOADER PATCH ===
+(async function initScenariosFromManifest() {
+  try {
+    const manifestUrl = "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/Scenario%20Manifest.json";
+    const rootUrl = "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/";
+    const manifestRes = await fetch(manifestUrl, { cache: "no-store" });
+    const manifestList = await manifestRes.json();
+
+    const loaded = [];
+    for (const relPath of manifestList) {
+      const fullUrl = rootUrl + relPath;
+      const r = await fetch(fullUrl, { cache: "no-store" });
+      if (!r.ok) continue;
+      try {
+        const scenarioJson = await r.json();
+        loaded.push(scenarioJson);
+      } catch (e) {
+        // skip bad json
+      }
+    }
+
+    window.scenarios = loaded;
+
+    if (typeof buildEpisodeMenu === "function") {
+      buildEpisodeMenu();
+    } else {
+      const list = document.getElementById('episode-list');
+      if (list) {
+        list.innerHTML = '';
+        window.scenarios.forEach((s, i) => {
+          const row = document.createElement('div');
+          row.className = 'menu-row';
+          row.innerHTML = `
+            <div class="t">${s.story_name || s.title || ('Episode ' + (i + 1))}</div>
+            <div class="m">${s.mission_description || ''}</div>
+          `;
+          row.addEventListener('click', () => {
+            document.getElementById('episode-menu').style.display = 'none';
+            if (typeof displayScenario === "function") {
+              displayScenario(i);
+            }
+          });
+          list.appendChild(row);
+        });
+        document.getElementById('episode-menu').style.display = 'flex';
+      }
+    }
+  } catch (err) {
+    alert("Unable to load mission data.");
+  }
+})();
+
 </script>
 
 </body>
 
 </html>
-
 
 
 
