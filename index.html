@@ -672,12 +672,17 @@ function setPortrait(name) {
   const normalized = normalizeCrewName(name);
   portrait.src = crewImages[normalized] || crewImages["Default"];
 }
-)).json();
-    const urls = files.map(f => (/^https?:\/\//i.test(f) ? f : RAW_BASE + String(f).replace(/^\/+/, '')));
-    const arr = await Promise.all(urls.map(u => fetch(u, { cache: 'no-store' }).then(r => r.json())));
-    scenarios = arr;
+async function loadScenarios() {
+  try {
+    const res = await fetch('./Red Alert.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+    const json = await res.json();
+    // Accept array or single scenario object
+    scenarios = Array.isArray(json) ? json : [json];
   } catch (e) {
-    document.getElementById('communique').innerHTML = '<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>';
+    const cm = document.getElementById('communique');
+    if (cm) cm.innerHTML = '<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data from <em>Red Alert.json</em>.</p>';
+    console.warn('Scenario load failed:', e);
     return;
   }
   displayScenario(0);
