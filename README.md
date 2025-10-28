@@ -45,7 +45,7 @@ The purpose of *Red Alert* is to provide a bridge simulation that feels authenti
 
 ## 🪐 License
 
-“Star Trek and all related marks, logos, characters, names, designs and underlying elements are the property of CBS Studios Inc. and/or Paramount Pictures Corporation (and their respective licensors). This fan creation is not endorsed by, sponsored by, or affiliated with CBS Studios Inc. or Paramount Pictures Corporation.”
+“Star Trek and all related marks, logos, characters, names, designs and underlying elements are the property of CBS Studios Inc. and/or Paramount Pictures Corporation (and their respective licensors). This fan creation is not endorsed by, sponsored by, or affiliated with CBS Studios Inc. or Paramount Pictures Corporation.” “Image of a Nausicaan © CBS Studios Inc., used here under fair use for a non-commercial fan project.”
 
 This work is licensed under a [Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
