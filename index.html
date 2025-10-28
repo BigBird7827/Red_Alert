@@ -1301,7 +1301,10 @@ if(!window.__menu_patched__){
           if(Array.isArray(manifest) && manifest.length){
             var base = (typeof RAW_BASE==='string') ? RAW_BASE : '';
             var urls = manifest.map(function(f){ return /^https?:\/\//i.test(f)?f:(base + String(f).replace(/^\/+/,'')); });
-            var arr = await Promise.all(urls.map(async function(u){ try{ var rr=await fetch(u,{cache:'no-store'}); if(rr.ok) return await rr.json(); }catch(e){} return null; }));
+            var arr = await Promise.all(urls.map(async function(u){ try{ var rr=await fetch(u,{cache:'no-store'}); if(rr.ok) {
+  try { return await rr.json(); }
+  catch(e) { console.error('JSON parse error in', u, e); }
+} }catch(e){} return null; }));
             window.scenarios = arr.filter(Boolean);
           }
         }
@@ -1385,7 +1388,10 @@ if(!window.__menu_patched__){
           if (isObjList){ window.scenarios = manifest; renderMenu(); return; }
           if (isFileList){
             var urls = manifest.map(function(f){ return /^https?:\/\//i.test(f) ? f : (RB + String(f).replace(/^\/+/,'')); });
-            var arr = await Promise.all(urls.map(async function(u){ try{ var rr=await fetch(u,{cache:'no-store'}); if(rr.ok) return await rr.json(); }catch(e){} return null; }));
+            var arr = await Promise.all(urls.map(async function(u){ try{ var rr=await fetch(u,{cache:'no-store'}); if(rr.ok) {
+  try { return await rr.json(); }
+  catch(e) { console.error('JSON parse error in', u, e); }
+} }catch(e){} return null; }));
             var eps = arr.filter(Boolean);
             if (eps.length){ window.scenarios = eps; renderMenu(); return; }
           }
