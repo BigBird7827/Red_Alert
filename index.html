@@ -1366,7 +1366,7 @@ if(!window.__menu_patched__){
     }catch(e){}
 
     try{
-      var r = await fetch('Red Alert.json', {cache:'no-store'});
+      var r = await fetch('Red Alert.json?v=2', {cache:'no-store'});
       if (r.ok) {
         var j = await r.json();
         if (Array.isArray(j) && j.length) { window.scenarios = j; renderMenu(); return; }
