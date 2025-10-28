@@ -505,6 +505,10 @@ footer {
   gap: 20px;
   margin-top: 10px;
 }
+
+
+
+/* === story_name banner inside COMMUNIQUÉ (auto-width) === */
 .story-banner {
   position: absolute;
   top: 10px;
@@ -585,9 +589,11 @@ const crewImages = {
   "Troi": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Troi.png",
   "Crusher": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Crusher.png",
   "O'Brien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
+  "Obrien": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Obrien.png",
   "Worf": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Worf.png",
   "La Forge": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/La%20Forge.png",
   "Keller": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Major%20Aaron%20Keller.png",
+  "Nausicaan": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Nausicaan.jpg",
   "Default": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Crew%20Images/Default.png"
 };
 
@@ -762,6 +768,11 @@ function findCrewNameFromText(text) {
     lower.includes("lt. worf") ||
     lower.includes("lieutenant worf")
   ) return "Worf";
+ 
+ if (
+	lower.includes("nausicaan") ||
+	lower.includes("nausicaans"))
+	return "Nausicaan";
   
    if (
     lower.includes("o'brien") ||
@@ -1156,7 +1167,6 @@ document.head.appendChild(style);
 </body>
 
 </html>
-
 
 
 
