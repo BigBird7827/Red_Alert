@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Reflections of the Mind",
+    "premise": "A telepathic signal begins influencing the crew’s dreams.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/reflections_of_the_mind.json"
+  },
+  {
+    "title": "Echos from the Neutral Zone",
+    "premise": "A derelict Romulan ship transmits a distress beacon decades old.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/echos_from_the_neutral_zone.json"
+  },
+  {
+    "title": "Pathogen",
+    "premise": "A bio-engineered virus spreads through the Enterprise at warp.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/pathogen.json"
+  },
+  {
+    "title": "Resonance",
+    "premise": "A subspace harmonic begins destabilizing the warp core.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/resonance.json"
+  },
+  {
+    "title": "Whispers",
+    "premise": "An uncharted nebula carries voices mimicking the crew.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/whispers.json"
+  },
+  {
+    "title": "The Gate",
+    "premise": "An ancient structure on Acheron IV opens portals to parallel realities.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/the_gate.json"
+  },
+  {
+    "title": "Sanctuary",
+    "premise": "A lost colony requests asylum from unknown pursuers.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/sanctuary.json"
+  },
+  {
+    "title": "Temporal Echo",
+    "premise": "The Enterprise begins reliving its own past missions in real time.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/temporal_echo.json"
+  },
+  {
+    "title": "Sky Born",
+    "premise": "An energy-based lifeform bonds with the ship’s deflector system.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/sky_born.json"
+  },
+  {
+    "title": "For Honor",
+    "premise": "A Klingon commander challenges Worf’s loyalty to Starfleet.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/for_honor.json"
+  },
+  {
+    "title": "The Silence of the Sky",
+    "premise": "A star system suddenly loses all electromagnetic emissions.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/the_silence_of_the_sky.json"
+  },
+  {
+    "title": "The Veil of Perfection",
+    "premise": "A utopian civilization hides a devastating secret beneath the surface.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/the_veil_of_perfection.json"
+  },
+  {
+    "title": "Ambush",
+    "premise": "A Nausicaan raiding party traps the Enterprise in an ion storm.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/ambush.json"
+  },
+  {
+    "title": "Signal at Solitude Point",
+    "premise": "A faint Starfleet distress call leads the Enterprise into a subspace rift.",
+    "file": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/Signal_at_Solitude_Point.json"
+  }
+]
