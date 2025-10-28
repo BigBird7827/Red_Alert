@@ -674,7 +674,7 @@ function setPortrait(name) {
 }
 async function loadScenarios(){
   try{
-    const files = await (await fetch(MANIFEST_URL, { cache: 'no-store' })).json();
+    const files = await (await fetch('Red Alert_New.json', {cache:'no-store'})).json();
     const urls = files.map(f => (/^https?:\/\//i.test(f) ? f : RAW_BASE + String(f).replace(/^\/+/, '')));
     const arr = await Promise.all(urls.map(u => fetch(u, { cache: 'no-store' }).then(r => r.json())));
     scenarios = arr;
@@ -1552,6 +1552,7 @@ if(!window.__menu_patched__){
 </body>
 
 </html>
+
 
 
 
