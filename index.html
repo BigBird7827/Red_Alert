@@ -1164,19 +1164,18 @@ document.getElementById('green-alert').addEventListener('click', () => {
     document.body.appendChild(overlay);
   }
   const _load = window.loadScenarios;
-  window.loadScenarios = async function(){
-    if (typeof _load === 'function') await _load();
-    pos = 0;
-    finished = false;
-    show(pos);
-  };
-  
+window.loadScenarios = async function(){
+  if (typeof _load === 'function') await _load();
+  pos = 0;
+  finished = false;
+  show(pos);
+};
+
+})();
 </script>
 
 <script>
-// === EPISODE SELECTOR PANEL ===
 
-// Create LCARS Episodes button
 const sidebar = document.querySelector('.sidebar');
 if (sidebar) {
   const episodesBtn = document.createElement('button');
@@ -1184,18 +1183,15 @@ if (sidebar) {
   episodesBtn.textContent = 'EPISODES';
   sidebar.appendChild(episodesBtn);
 
-  // Create episode list container
   const episodeList = document.createElement('div');
   episodeList.className = 'episode-list hidden';
   sidebar.appendChild(episodeList);
-
-  // Hide and show helper functions
+ 
   function toggleSidebarButtons(hide) {
     const buttons = sidebar.querySelectorAll('.lcars-button:not(.episodes-btn)');
     buttons.forEach(btn => btn.style.display = hide ? 'none' : 'block');
   }
 
-  // Populate episode list from scenarios
   function populateEpisodeList() {
     episodeList.innerHTML = '';
     scenarios.forEach((s, index) => {
@@ -1212,7 +1208,6 @@ if (sidebar) {
     });
   }
 
-  // Handle Episodes button click
   episodesBtn.onclick = () => {
     const hidden = episodeList.classList.contains('hidden');
     if (hidden) {
@@ -1226,7 +1221,6 @@ if (sidebar) {
   };
 }
 
-// CSS styling for the episode list
 const style = document.createElement('style');
 style.textContent = `
   .episode-list {
