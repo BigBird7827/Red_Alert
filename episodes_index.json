@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "order": [
+    "Tactical",
+    "Science / Anomaly",
+    "Engineering / Containment",
+    "Medical / Quarantine",
+    "Investigation / Salvage",
+    "Covert / Prime Directive",
+    "Recon / Counterintelligence",
+    "Temporal Integrity",
+    "Metaphysical / Ethics",
+    "Humanitarian / Rescue",
+    "Prime Directive Dilemma",
+    "Diplomacy / Ethics"
+  ],
+  "categories": {
+    "Ambush": "Tactical",
+    "Signal at Solitude Point": "Science / Anomaly",
+    "Resonance": "Engineering / Containment",
+    "Pathogen": "Medical / Quarantine",
+    "Whispers": "Investigation / Salvage",
+    "The Silence of the Sky": "Covert / Prime Directive",
+    "The Veil of Perfection": "Recon / Counterintelligence",
+    "Temporal Echo": "Temporal Integrity",
+    "The Gate": "Metaphysical / Ethics",
+    "Sanctuary": "Humanitarian / Rescue",
+    "Sky Born": "Prime Directive Dilemma",
+    "Echos from the Neutral Zone": "Temporal Integrity",
+    "For Honor": "Diplomacy / Ethics",
+    "Reflections of the Mind": "Science / Anomaly"
+  }
+}
