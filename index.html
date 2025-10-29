@@ -673,27 +673,28 @@ function setPortrait(name) {
   portrait.src = crewImages[normalized] || crewImages["Default"];
 }
 async function loadScenarios(){
-  async function fetchWithRetry(url, attempts = 3, delay = 500) {
-    for (let i = 0; i < attempts; i++) {
-      try {
-        const r = await fetch(url, { cache: 'no-store' });
-        if (r.ok) return await r.json();
-      } catch {}
-      if (i < attempts - 1) await new Promise(res => setTimeout(res, delay));
-    }
-    console.warn("Failed to load after retries:", url);
-    return null;
-  }
-
-  try {
+  try{
     const files = await (await fetch(MANIFEST_URL, { cache: 'no-store' })).json();
     const urls = files.map(f => (/^https?:\/\//i.test(f) ? f : RAW_BASE + String(f).replace(/^\/+/, '')));
-    const arr = await Promise.allSettled(urls.map(u => fetchWithRetry(u)));
-    scenarios = arr
-      .filter(x => x.status === "fulfilled" && x.value)
-      .map(x => x.value);
+    scenarios = [];
+
+    for (const url of urls) {
+      try {
+        const response = await fetch(url, { cache: 'no-store' });
+        if (response.ok) {
+          const data = await response.json();
+          scenarios.push(data);
+          console.log("Loaded:", url);
+        } else {
+          console.warn("Failed to load:", url, response.status);
+        }
+      } catch (err) {
+        console.warn("Error loading:", url, err);
+      }
+    }
   } catch (e) {
-    document.getElementById('communique').innerHTML = '<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>';
+    document.getElementById('communique').innerHTML =
+      '<h2>STARFLEET COMMUNIQUÉ</h2><p>Unable to load mission data.</p>';
     return;
   }
   displayScenario(0);
