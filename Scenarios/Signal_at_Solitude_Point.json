@@ -1,5 +1,5 @@
 {
-  "title": "Signal at Solitude Point",
+  "story_name": "Signal at Solitude Point",
   "starfleet_message": "Captain’s Log, Stardate 47681.4 — While charting the Solitude Nebula near the edge of the Beta Quadrant, the Enterprise has detected a repeating numerical code embedded within narrow-band subspace frequencies. The source lies deep within the nebular core, an area previously believed to be electromagnetically inert.",
   "mission_description": "Investigate the origin of the repeating numerical pattern within the Solitude Nebula and determine whether it represents a natural phenomenon or an artificial signal.",
   "dialogue_tree": [
