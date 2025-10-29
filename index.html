@@ -672,7 +672,9 @@ function setPortrait(name) {
   const normalized = normalizeCrewName(name);
   portrait.src = crewImages[normalized] || crewImages["Default"];
 }
-)).json();
+async function loadScenarios(){
+  try{
+    const files = await (await fetch(MANIFEST_URL, { cache: 'no-store' })).json();
     const urls = files.map(f => (/^https?:\/\//i.test(f) ? f : RAW_BASE + String(f).replace(/^\/+/, '')));
     const arr = await Promise.all(urls.map(u => fetch(u, { cache: 'no-store' }).then(r => r.json())));
     scenarios = arr;
@@ -959,6 +961,24 @@ function fxLifeSupport() {
 }
 const effectMap={shields:fxShields,weapons:fxWeapons,comms:fxComms,damage:fxDamage,computer:fxComputer,shortscan:fxShortScan,longscan:fxLongScan,lifesupport:fxLifeSupport}
 document.querySelectorAll('#lcars-buttons .lcars-btn').forEach(btn=>{const key=btn.dataset.key;btn.addEventListener('click',()=>{const sys=systems[key];if(sys){sys.state=!sys.state;updateStatusDisplay()}clearFx();const fx=effectMap[key];if(typeof fx==='function')fx()})})
+
+// === ALERT BUTTON COLOR CHANGE (override) ===
+function setBannerColor(color) {
+  const header = document.querySelector('body > header');
+  if (!header) return;
+  header.style.setProperty('background', color, 'important');
+}
+
+document.getElementById('red-alert').addEventListener('click', () => {
+  setBannerColor('linear-gradient(to right,#c00000,#4a0000)');
+});
+document.getElementById('yellow-alert').addEventListener('click', () => {
+  setBannerColor('linear-gradient(to right,#d1b200,#5c4b00)');
+});
+document.getElementById('green-alert').addEventListener('click', () => {
+  setBannerColor('linear-gradient(to right,#00a65a,#003d24)');
+});
+
 </script>
 
 <script>
@@ -1545,60 +1565,6 @@ if(!window.__menu_patched__){
   if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', bind); } else { bind(); }
   window.__setBanner = setBanner;
 })();
-
-// === BEGIN AUTO SCENARIO LOADER PATCH ===
-(async function initScenariosFromManifest() {
-  try {
-    const manifestUrl = "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Scenarios/Scenario%20Manifest.json";
-    const rootUrl = "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/";
-    const manifestRes = await fetch(manifestUrl, { cache: "no-store" });
-    const manifestList = await manifestRes.json();
-
-    const loaded = [];
-    for (const relPath of manifestList) {
-      const fullUrl = rootUrl + relPath;
-      const r = await fetch(fullUrl, { cache: "no-store" });
-      if (!r.ok) continue;
-      try {
-        const scenarioJson = await r.json();
-        loaded.push(scenarioJson);
-      } catch (e) {
-        // skip bad json
-      }
-    }
-
-    window.scenarios = loaded;
-
-    if (typeof buildEpisodeMenu === "function") {
-      buildEpisodeMenu();
-    } else {
-      const list = document.getElementById('episode-list');
-      if (list) {
-        list.innerHTML = '';
-        window.scenarios.forEach((s, i) => {
-          const row = document.createElement('div');
-          row.className = 'menu-row';
-          row.innerHTML = `
-            <div class="t">${s.story_name || s.title || ('Episode ' + (i + 1))}</div>
-            <div class="m">${s.mission_description || ''}</div>
-          `;
-          row.addEventListener('click', () => {
-            document.getElementById('episode-menu').style.display = 'none';
-            if (typeof displayScenario === "function") {
-              displayScenario(i);
-            }
-          });
-          list.appendChild(row);
-        });
-        document.getElementById('episode-menu').style.display = 'flex';
-      }
-    }
-  } catch (err) {
-    alert("Unable to load mission data.");
-  }
-})();
-// === END AUTO SCENARIO LOADER PATCH ===
-
 </script>
 
 </body>
