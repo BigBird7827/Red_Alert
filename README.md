@@ -8,7 +8,7 @@
 
 Players take the role of Captain Picard on the bridge of USS Enterprise-D. Each mission begins with a Captain's log, followed by a brief mission objective. As situations unfold, players make rapid tactical, diplomatic, or scientific decisions that affect the outcome of the mission.
 
-The simulator emphasizes chain-of-command interaction, situational awareness, and moral judgment under pressure. No two runs are exactly alike; each scenario contains multiple branches and outcomes, reflecting the unpredictability of command in deep space.
+The simulator emphasizes chain-of-command interaction, situational awareness, and moral judgment under pressure. There are currently 14 scenarios. Each scenario contains multiple branches and outcomes, reflecting the unpredictability of command in deep space.
 
 At the heart of the interface lies **LCARS (Library Computer Access/Retrieval System)** — Starfleet’s adaptive computer framework that governs every starship operation from helm control to food replication. The simulation’s layout, color logic, and workflow emulate LCARS’ minimalist, touch-driven design, creating an environment instantly recognizable to *Star Trek* officers and fans alike.
 
@@ -20,7 +20,7 @@ At the heart of the interface lies **LCARS (Library Computer Access/Retrieval Sy
 - **Dynamic Scenario System:** Storylines are driven by external JSON data, allowing for new missions, variable outcomes, and replayable exercises.  
 - **Command Decisions:** Choose from multiple dialogue and tactical options that shape your mission’s success—or failure.  
 - **Immersive Atmosphere:** Dialogue, alerts, and interface aesthetics capture the tone and pacing of classic *Star Trek* bridge operations.  
-- **Expanding Library:** Future revisions will introduce additional missions, departments, and shipboard challenges.  
+- **Expanding Library:** Future revisions will introduce additional missions, departments, and shipboard challenges. 
 
 ---
 
