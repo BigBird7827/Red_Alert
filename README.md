@@ -6,7 +6,7 @@
 
 ## 🚀 Overview
 
-Players take the role of Captain Picard on the bridge of USS Enterprise-D. Each mission begins with a directive from Starfleet and a short briefing. As situations unfold, players make rapid tactical, diplomatic, or scientific decisions that affect the outcome of the mission.
+Players take the role of Captain Picard on the bridge of USS Enterprise-D. Each mission begins with a Captain's log, followed by a brief mission objective. As situations unfold, players make rapid tactical, diplomatic, or scientific decisions that affect the outcome of the mission.
 
 The simulator emphasizes chain-of-command interaction, situational awareness, and moral judgment under pressure. No two runs are exactly alike; each scenario contains multiple branches and outcomes, reflecting the unpredictability of command in deep space.
 
