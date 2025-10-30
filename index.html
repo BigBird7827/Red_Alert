@@ -555,6 +555,11 @@ header, header.lcars {position:relative}
 #episode-list .menu-row .m{opacity:.95}
 header.lcars{position:relative}
 #episode-title{position:absolute;top:6px;left:50%;transform:translateX(-50%);font-weight:800;font-size:clamp(.95rem,1.6vw,1.25rem);color:var(--gold,#c9a23d);background:#000;border:2px solid var(--gold,#c9a23d);border-radius:10px;padding:2px 10px;white-space:nowrap;pointer-events:none}
+
+/* Injected: badge images inside tabs */
+#episode-tabs .lcars-tab .ico .badge-img{height:16px;width:auto;vertical-align:-2px;margin-right:6px;}
+#episode-tabs .lcars-tab .ico{display:inline-flex;align-items:center;margin-right:6px;}
+
 </style>
 
 <style id="menu-color-override">
@@ -582,6 +587,54 @@ header.lcars{position:relative}
 </style>
 
 <style id="alert-current"></style>
+
+<style id="six-badge-img-style">
+.mission-badge .badge-img{height:18px; width:auto; vertical-align:-3px; margin-right:6px; image-rendering:auto;}
+</style>
+
+<style id="badge-above-title-style">
+/* ===== Badges above story title (tabs keep their own badges) ===== */
+#episode-list .menu-row .t { position: relative; }
+#episode-list .menu-row .t .mission-badge{
+  display:block;
+  text-align:center;
+  margin: 4px 0 6px 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+/* Bigger, detailed image; responsive with clamp */
+#episode-list .menu-row .t .mission-badge .badge-img{
+  height: clamp(48px, 6vw, 80px);
+  width: auto;
+  margin: 0 auto 4px auto;
+  display: block;
+  image-rendering: auto;
+}
+/* Keep the small inline SVG fallback hidden when an image is present */
+#episode-list .menu-row .t .mission-badge svg{ display:none; }
+</style>
+
+<style id="cc-mission-type-gold">
+/* Gold color for the exact mission-type label under the badge */
+#episode-list .menu-row .t .mission-type { color: var(--gold) !important; }
+</style>
+
+
+<style id="cc-mission-type-gold-strong">
+/* Force the mission-type label (beneath the badge) to gold, removing sunken effects */
+#episode-menu #episode-list .menu-row .t .mission-type,
+#episode-menu #episode-list .menu-row .t .mission-type *,
+#episode-list .menu-row .t .mission-badge + .mission-type {
+  color: var(--gold) !important;
+  text-shadow: none !important;
+  -webkit-text-stroke: 0 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+</style>
+
 </head>
 <body>
 
@@ -1616,10 +1669,26 @@ if(!window.__menu_patched__){
       const el = document.createElement('div');
       el.className = 'lcars-tab';
       el.setAttribute('data-tab', name);
-      const spanIco = document.createElement('span'); spanIco.className='ico'; spanIco.textContent = (ICONS[name]||'');
+      const spanIco = document.createElement('span'); spanIco.className='ico'; spanIco.textContent = '';
+      // Use TAB2BADGE mapping to choose the badge image for this tab
+      try {
+        const mapped = (typeof TAB2BADGE !== 'undefined') ? TAB2BADGE[name] : undefined;
+        const imgUrl = (mapped && typeof SIXIMG !== 'undefined') ? SIXIMG[mapped] : undefined;
+        if (imgUrl) {
+          spanIco.innerHTML = '<img class="badge-img" src="'+imgUrl+'" alt="'+mapped+' badge" loading="lazy"/>';
+          el.setAttribute('title', name + ' — ' + mapped);
+        }
+      } catch(_) { /* ignore */ }
       const spanTxt = document.createElement('span'); spanTxt.textContent = name;
       el.appendChild(spanIco); el.appendChild(spanTxt);
-      el.addEventListener('click', () => { saveTab(name); applyFilters(); });
+      
+      // Injected: show department badge images on tabs when available
+      try {
+        if (typeof SIXIMG !== 'undefined' && SIXIMG[name]) {
+          spanIco.innerHTML = '<img class="badge-img" src="'+SIXIMG[name]+'" alt="'+name+' badge" loading="lazy"/>';
+        }
+      } catch(_){ /* ignore */ }
+el.addEventListener('click', () => { saveTab(name); applyFilters(); });
       tabsEl.appendChild(el);
     }
 
@@ -1712,6 +1781,167 @@ if(!window.__menu_patched__){
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
+})();
+</script>
+
+
+<script>
+(function(){'use strict';
+  const EP2VERBOSE = {"Ambush": "Tactical", "Signal at Solitude Point": "Science / Anomaly", "Resonance": "Engineering / Containment", "Pathogen": "Medical / Quarantine", "Whispers": "Investigation / Salvage", "The Silence of the Sky": "Covert / Prime Directive", "The Veil of Perfection": "Recon / Counterintelligence", "Temporal Echo": "Temporal Integrity", "The Gate": "Metaphysical / Ethics", "Sanctuary": "Humanitarian / Rescue", "Sky Born": "Prime Directive Dilemma", "Echos from the Neutral Zone": "Temporal Integrity", "For Honor": "Diplomacy / Ethics", "Reflections of the Mind": "Science / Anomaly"};
+  const V2SIX = {"Tactical": "Security", "Covert / Prime Directive": "Security", "Recon / Counterintelligence": "Security", "Science / Anomaly": "Science", "Temporal Integrity": "Science", "Engineering / Containment": "Engineering", "Investigation / Salvage": "Engineering", "Medical / Quarantine": "Medical", "Humanitarian / Rescue": "Medical", "Diplomacy / Ethics": "Diplomacy", "Metaphysical / Ethics": "Diplomacy", "Prime Directive Dilemma": "Command"};
+  const SIXICON = {"Command": "six-command", "Diplomacy": "six-diplomacy", "Engineering": "six-engineering", "Security": "six-security", "Science": "six-science", "Medical": "six-medical"};
+  // Injected: explicit image URLs for the six department badges
+  const SIXIMG = {
+    "Science": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Science.png",
+    "Medical": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Medical.png",
+    "Command": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Command.png",
+    "Diplomacy": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Diplomacy.png",
+    "Engineering": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Engineering.png",
+    "Security": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Security.png"
+  };
+  // Injected: explicit Tab -> Badge mapping
+  const TAB2BADGE = {
+    "Tactical": "Security",
+    "Science": "Science",
+    "Engineering": "Engineering",
+    "Medical": "Medical",
+    "Investigation": "Security",
+    "Covert": "Security",
+    "Recon": "Security",
+    "Temporal": "Science",
+    "Ethics": "Command",
+    "Humanitarian": "Medical",
+    "Prime Directive": "Diplomacy",
+    "Diplomacy": "Diplomacy"
+  };
+
+
+
+  function ensureOnce(){
+    if (!document.getElementById('six-badge-style')){
+      const s = document.createElement('style'); s.id='six-badge-style'; s.textContent = "\n.mission-badge{\n  display:inline-flex;align-items:center;gap:6px;\n  margin-left:8px;padding:2px 8px;border-radius:999px;\n  background:#F2C94C;color:#000;font-weight:800;line-height:1.1;\n  box-shadow:inset 0 0 0 1px rgba(0,0,0,.15),0 1px 0 rgba(255,255,255,.25);\n  text-shadow:0 1px 0 rgba(255,255,255,.35);letter-spacing:.2px;white-space:nowrap\n}\n.mission-badge .svg{width:14px;height:14px;display:inline-block}\n#episode-list .menu-row .t{font-weight:820}\n"; document.head.appendChild(s);
+    }
+    if (!document.getElementById('lcars-six-badge-sprite')){
+      const div = document.createElement('div'); div.innerHTML = "\n<svg id=\"lcars-six-badge-sprite\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:none\">\n  <symbol id=\"six-command\" viewBox=\"0 0 24 24\"><path d=\"M12 2l2.9 6.1 6.7.9-4.8 4.7 1.2 6.6L12 17.8 6 20.3l1.2-6.6L2.4 9l6.7-.9L12 2z\" fill=\"currentColor\"/></symbol>\n  <symbol id=\"six-diplomacy\" viewBox=\"0 0 24 24\"><path d=\"M4 18c6-4 10-8 16-12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M8 15c0 2-2 3-2 3M11 12c0 2-2 3-2 3M14 9c0 2-2 3-2 3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></symbol>\n  <symbol id=\"six-engineering\" viewBox=\"0 0 24 24\"><path d=\"M12 6a6 6 0 100 12 4 4 0 110-8 2 2 0 110 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></symbol>\n  <symbol id=\"six-security\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"2\" fill=\"currentColor\"/><path d=\"M12 2v4M12 18v4M2 12h4M18 12h4\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></symbol>\n  <symbol id=\"six-science\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"currentColor\"/><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></symbol>\n  <symbol id=\"six-medical\" viewBox=\"0 0 24 24\"><path d=\"M10 3h4v7h7v4h-7v7h-4v-7H3v-4h7V3z\" fill=\"currentColor\"/></symbol>\n</svg>\n"; document.body.appendChild(div.firstElementChild);
+    }
+  }
+
+  function cleanTitle(node){
+    const c = node.cloneNode(true);
+    const b = c.querySelector('.mission-badge'); if (b) b.remove();
+    return c.textContent.trim();
+  }
+
+  function badgeHTML(label){
+    const url = (typeof SIXIMG !== 'undefined') ? SIXIMG[label] : undefined;
+    if (url) {
+      return '<img class="badge-img" src="'+url+'" alt="'+label+' badge" loading="lazy" />'+label;
+    }
+    const id = SIXICON[label] || SIXICON['Command'];
+    return '<svg class="svg" aria-hidden="true"><use href="#'+id+'"></use></svg>'+label;
+  }
+
+  function applySixBadges(){
+    const list = document.getElementById('episode-list'); if (!list) return;
+    const rows = Array.from(list.querySelectorAll('.menu-row'));
+    rows.forEach(row => {
+      const t = row.querySelector('.t'); if (!t) return;
+      const title = cleanTitle(t);
+      const verbose = EP2VERBOSE[title];
+      if (!verbose) return;
+      const label = V2SIX[verbose]; if (!label) return;
+      let badge = t.querySelector('.mission-badge');
+      if (!badge){
+        badge = document.createElement('span');
+        badge.className = 'mission-badge';
+        t.insertBefore(badge, t.firstChild);
+      }
+      badge.innerHTML = badgeHTML(label);
+    });
+  }
+
+  function init(){
+    ensureOnce();
+    applySixBadges();
+    setTimeout(applySixBadges, 300);
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+
+
+<script id="cc-mission-type-mark">
+(function(){
+  function markMissionType(){
+    const tiles = document.querySelectorAll('#episode-list .menu-row .t');
+    tiles.forEach(t => {
+      const badge = t.querySelector('.mission-badge');
+      if (!badge) return;
+      // Find the first element *after* the badge; that's the mission-type label
+      let el = badge.nextSibling;
+      while (el && el.nodeType !== 1) el = el.nextSibling;
+      if (el && !el.classList.contains('mission-type')) el.classList.add('mission-type');
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', markMissionType);
+  else markMissionType();
+  // Run again after potential async menu renders
+  setTimeout(markMissionType, 300);
+  setTimeout(markMissionType, 1000);
+})();
+</script>
+
+
+<script id="cc-mission-type-wrap-fix">
+(function(){
+  function ensureGoldMissionType(){
+    const tiles = document.querySelectorAll('#episode-list .menu-row .t');
+    tiles.forEach(t => {
+      const badge = t.querySelector('.mission-badge');
+      if (!badge) return;
+
+      // Identify the node directly beneath the badge
+      let sib = badge.nextSibling;
+
+      // If it's whitespace/text, wrap it in <span class="mission-type">
+      if (sib && sib.nodeType === Node.TEXT_NODE){
+        const text = sib.textContent.trim();
+        if (text){
+          const span = document.createElement('span');
+          span.className = 'mission-type';
+          span.textContent = text;
+          t.insertBefore(span, sib);
+        }
+        t.removeChild(sib);
+        return;
+      }
+
+      // If it's an element, tag it (or its first text container) as mission-type
+      if (sib && sib.nodeType === Node.ELEMENT_NODE){
+        // If it's already a simple inline (SPAN/A/EM/STRONG), tag directly
+        const tag = sib.tagName;
+        if (!sib.classList.contains('mission-type') &&
+            (tag === 'SPAN' || tag === 'A' || tag === 'EM' || tag === 'STRONG' || tag === 'DIV')){
+          sib.classList.add('mission-type');
+        } else if (!sib.classList.contains('mission-type')) {
+          // Fallback: wrap its text
+          const span = document.createElement('span');
+          span.className = 'mission-type';
+          span.textContent = sib.textContent;
+          sib.replaceChildren(span);
+        }
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ensureGoldMissionType);
+  else ensureGoldMissionType();
+
+  // Re-run after potential async re-renders
+  setTimeout(ensureGoldMissionType, 300);
+  setTimeout(ensureGoldMissionType, 1000);
 })();
 </script>
 
