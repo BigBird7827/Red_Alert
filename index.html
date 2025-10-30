@@ -635,6 +635,24 @@ header.lcars{position:relative}
 }
 </style>
 
+<style id="cc-badge-label-enforce">
+  #episode-menu #episode-list .menu-row .t .mission-badge .mission-type {
+    color: var(--gold, #d4af37) !important;
+    -webkit-text-fill-color: var(--gold, #d4af37) !important;
+    -webkit-text-stroke: 0 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+    opacity: 1 !important;
+    display: block;
+    margin-top: 2px;
+    font-size: calc(1rem + 2pt) !important;
+    line-height: 1.15;
+  }
+</style>
+<style id="cc-badge-svg-visible">
+  #episode-list .menu-row .t .mission-badge svg { display: inline-block !important; }
+</style>
 </head>
 <body>
 
@@ -1835,7 +1853,7 @@ el.addEventListener('click', () => { saveTab(name); applyFilters(); });
   function badgeHTML(label){
     const url = (typeof SIXIMG !== 'undefined') ? SIXIMG[label] : undefined;
     if (url) {
-      return '<img class="badge-img" src="'+url+'" alt="'+label+' badge" loading="lazy" />'+label;
+      return '<img class="badge-img" src="'+url+'" alt="'+label+' badge" loading="lazy" />' + '<span class=\"mission-type\">'+label+'</span>';
     }
     const id = SIXICON[label] || SIXICON['Command'];
     return '<svg class="svg" aria-hidden="true"><use href="#'+id+'"></use></svg>'+label;
