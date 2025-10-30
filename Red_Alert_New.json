@@ -2047,7 +2047,7 @@
   },
   {
     "story_name": "Override Protocols",
-    "story_type": "Security/Tactical",
+    "story_type": "Security",
     "starfleet_message": "Captain’s Log, Stardate 47618.3 — The Enterprise has arrived at Outpost 12 in the Rigel system after a sudden communications blackout. The station, operated by Starfleet Tactical, serves as a forward training and analysis facility for advanced threat response. Initial scans show the station is intact but unresponsive. We are preparing a security and engineering away team to investigate.",
     "mission_description": "The Enterprise investigates the silence of Outpost 12, a tactical training outpost in the Rigel system. The station’s autonomous combat simulation has locked itself in a continuous, escalating scenario. The AI now treats all external contact—including the Enterprise—as part of its evolving wargame. The crew must disable the system without triggering full lockdown or risking loss of life.",
     "dialogue_tree": [
