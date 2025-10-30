@@ -2074,7 +2074,7 @@
       },
       {
         "crew": "Commander Riker",
-        "line": "We’ve got a narrow transporter window coming up—about three seconds of shield phase alignment every 42 seconds. Away team is ready.",
+        "line": "We’ve got a narrow transporter window coming up—about three seconds of shield phase alignment every 42 seconds. Orders, Captain?",
         "options": [
           {
             "label": "Number One, assemble an away team to transport to the station.",
