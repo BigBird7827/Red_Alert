@@ -142,7 +142,10 @@
         "result": "failure",
         "text": "A miscalculated counter-frequency merged the echo field with the ship’s warp harmonics, forcing emergency shutdown and temporary loss of warp capability."
       }
-    ]
+    ],
+    "id": "reflections-of-the-mind",
+    "tab": "Science",
+    "badge": "Science"
   },
   {
     "story_name": "Echos from the Neutral Zone",
@@ -287,7 +290,10 @@
         "result": "failure",
         "text": "Romulan forces arrived during the operation, misinterpreting the Enterprise’s actions as aggression. Diplomatic relations deteriorated sharply."
       }
-    ]
+    ],
+    "id": "echos-from-the-neutral-zone",
+    "tab": "Temporal",
+    "badge": "Temporal"
   },
   {
     "story_name": "Pathogen",
@@ -432,7 +438,10 @@
         "result": "failure",
         "text": "Security measures destroyed the crystal matrix before communication could be attempted. The organism died in silence, its nature forever uncertain."
       }
-    ]
+    ],
+    "id": "pathogen",
+    "tab": "Medical",
+    "badge": "Medical"
   },
   {
     "story_name": "Resonance",
@@ -577,7 +586,10 @@
         "result": "failure",
         "text": "Attempts to destroy the singularity ruptured the deflector grid, causing widespread damage aboard the Enterprise. The entity’s fate remains unknown."
       }
-    ]
+    ],
+    "id": "resonance",
+    "tab": "Engineering",
+    "badge": "Engineering"
   },
   {
     "story_name": "Whispers",
@@ -718,7 +730,10 @@
         "result": "failure",
         "text": "A decision to withdraw early left the Callisto trapped. The haunting signal still broadcasts faintly across the sector—unchanged, timeless, unanswered."
       }
-    ]
+    ],
+    "id": "whispers",
+    "tab": "Investigation",
+    "badge": "Investigation"
   },
   {
     "story_name": "The Gate",
@@ -859,7 +874,10 @@
         "result": "failure",
         "text": "Hostile mirror manifestations breached containment and attacked the crew. The Gate self-destructed moments later, leaving only residual energy traces in orbit."
       }
-    ]
+    ],
+    "id": "the-gate",
+    "tab": "Ethics",
+    "badge": "Ethics"
   },
   {
     "story_name": "Sanctuary",
@@ -1000,7 +1018,10 @@
         "result": "failure",
         "text": "The children refused to abandon their 'sacred home.' The away team was forced to withdraw before the system self-sealed. The distress beacon continues to broadcast across the sector."
       }
-    ]
+    ],
+    "id": "sanctuary",
+    "tab": "Humanitarian",
+    "badge": "Humanitarian"
   },
   {
     "story_name": "Temporal Echo",
@@ -1144,7 +1165,10 @@
         "result": "failure",
         "text": "An attempt to neutralize the probe prematurely caused a local subspace implosion. The Enterprise was forced to flee the sector, unable to confirm the outcome on 21st-century Earth."
       }
-    ]
+    ],
+    "id": "temporal-echo",
+    "tab": "Temporal",
+    "badge": "Temporal"
   },
   {
     "story_name": "Sky Born",
@@ -1285,7 +1309,10 @@
         "result": "failure",
         "text": "Picard withheld intervention. The eruption consumed the Velaran capital, fulfilling the Prime Directive at the cost of two million lives."
       }
-    ]
+    ],
+    "id": "sky-born",
+    "tab": "Prime Directive",
+    "badge": "Prime Directive"
   },
   {
     "story_name": "For Honor",
@@ -1433,7 +1460,10 @@
         "result": "failure",
         "text": "Starfleet Command criticized the decision to engage. The Klingon Council demanded explanation; Worf declined to speak."
       }
-    ]
+    ],
+    "id": "for-honor",
+    "tab": "Diplomacy",
+    "badge": "Diplomacy"
   },
   {
     "story_name": "The Silence of the Sky",
@@ -1581,7 +1611,10 @@
         "result": "failure",
         "text": "Starfleet launched an inquiry into the decision to act; the crew’s conduct was subject to review, with the Prime Directive at the heart of the debate."
       }
-    ]
+    ],
+    "id": "the-silence-of-the-sky",
+    "tab": "Covert",
+    "badge": "Covert"
   },
   {
     "story_name": "The Veil of Perfection",
@@ -1729,7 +1762,10 @@
         "result": "failure",
         "text": "The Borg observation post was eliminated, but at the cost of alerting the Collective. The security of Sol remains uncertain; the silence that follows may only be temporary."
       }
-    ]
+    ],
+    "id": "the-veil-of-perfection",
+    "tab": "Recon",
+    "badge": "Recon"
   },
   {
     "story_name": "Ambush",
@@ -1895,7 +1931,10 @@
         "result": "failure",
         "text": "In attempting to assist the Nausicaans, tractor beam harmonics destabilized their reactor, resulting in loss of life and partial damage to the Enterprise’s deflector array."
       }
-    ]
+    ],
+    "id": "ambush",
+    "tab": "Tactical",
+    "badge": "Tactical"
   },
   {
     "story_name": "Signal at Solitude Point",
@@ -2043,7 +2082,10 @@
         "result": "failure",
         "text": "Field resonance dissipated before full analysis. Cause attributed to premature shutdown under elevated plasma stress. Starfleet Science was unable to confirm classification of the phenomenon."
       }
-    ]
+    ],
+    "id": "signal-at-solitude-point",
+    "tab": "Science",
+    "badge": "Science"
   },
   {
     "story_name": "Override Protocols",
@@ -2217,6 +2259,9 @@
         "An attempt to inject a perfect scenario fails. The logic matrix fractures, and internal systems overload. Holodeck containment fails, and the station suffers structural collapse.",
         "The simulation halts temporarily, but the AI reboots. Starfleet places Outpost 12 under indefinite quarantine. No further contact is permitted until the AI can be safely extracted."
       ]
-    }
+    },
+    "id": "override-protocols",
+    "tab": "Tactical",
+    "badge": "Tactical"
   }
 ]
