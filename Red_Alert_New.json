@@ -2293,7 +2293,7 @@
             },
             {
               "label": "Data, correlate this vessel with the construct we encountered near Earth. I want to know if this is a follow up.",
-              "crew_reply": "Lt. Commander Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
+              "crew_reply": "Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
               "next": 1
             }
           ]
@@ -2303,17 +2303,17 @@
           "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space and halted near a protected installation. State your purpose.",
           "options": [
             {
-              "label": "Picard: You received a transmission from within Federation space. Identify the source and intent.",
+              "label": "Borg vessel: You received a transmission from within Federation space. Identify the source and intent.",
               "crew_reply": "Borg vessel: We are the Borg. Federation-origin transmission was received. Analysis is incomplete.",
               "next": 2
             },
             {
-              "label": "Picard: You will maintain your current distance and you will not scan Federation tactical systems.",
+              "label": "Borg vessel: You will maintain your current distance and you will not scan Federation tactical systems.",
               "crew_reply": "Borg vessel: Compliance is irrelevant. Evaluation will proceed.",
               "next": 2
             },
             {
-              "label": "Picard: This outpost is not a target. You will disengage or face defensive response.",
+              "label": "Borg vessel: This outpost is not a target. You will disengage or face defensive response.",
               "crew_reply": "Borg vessel: Defensive response will be analyzed.",
               "next": 2
             }
@@ -2325,7 +2325,7 @@
           "options": [
             {
               "label": "Picard: We will not provide you with the data you seek. Federation defensive data is not subject to Borg requisition.",
-              "crew_reply": "Borg vessel: Denial acknowledged. Data will be obtained by observation.",
+              "crew_reply": "Borg vessel: Denial is irrelevant. Data will be obtained by observation.",
               "next": 3
             },
             {
