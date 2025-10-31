@@ -696,96 +696,19 @@ header.lcars{position:relative}
 
 
 
-<style id="cc-tabs-align-title-final">
-  /* Lock title alignment without observers; stronger selector + !important */
-  #episode-tabs-wrap{ display:flex; align-items:center; justify-content:center; }
-  #episode-tabs-wrap #episode-section-title{
-    display:flex;
-    align-items:center;
-    line-height:1;
-    margin:0;
-    transform: translateY(-3px) !important;
-  }
-</style>
 
 
-<style id="cc-tab-colors">
-  /* Base look */
-  #episode-tabs .lcars-tab {
-    --tab-fg: #111;
-    --tab-bg: #e7e7e7;
-    --tab-bg-hover: #dcdcdc;
-    --tab-border: rgba(0,0,0,0.15);
-    color: var(--tab-fg);
-    background: var(--tab-bg);
-    border: 1px solid var(--tab-border);
-    border-radius: 999px;
-    padding: 6px 14px;
-    font-weight: 600;
-    letter-spacing: .02em;
-    transition: transform .05s ease, background-color .12s ease, box-shadow .12s ease;
-  }
-  #episode-tabs .lcars-tab:hover { background: var(--tab-bg-hover); transform: translateY(-1px); }
-  #episode-tabs .lcars-tab[data-active="1"] {
-    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.12), 0 0 0 2px rgba(255,255,255,0.2);
-    transform: none;
-  }
-  #episode-tabs .lcars-tab:focus-visible {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(255,255,255,0.6), 0 0 0 5px rgba(0,0,0,0.25);
-  }
 
-  /* Palette by label (primary colors + close variants) */
-  #episode-tabs .lcars-tab[data-tab="All"]{
-    --tab-fg: #1a1a1a; --tab-bg: #f0f0f0; --tab-bg-hover:#e6e6e6; --tab-border: rgba(0,0,0,0.15);
-  }
-  #episode-tabs .lcars-tab[data-tab="Tactical"]{
-    --tab-fg: #fff; --tab-bg:#c62828; --tab-bg-hover:#b71c1c; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Science"]{
-    --tab-fg:#fff; --tab-bg:#1565c0; --tab-bg-hover:#0d47a1; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Temporal"]{
-    --tab-fg:#fff; --tab-bg:#6a1b9a; --tab-bg-hover:#4a148c; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Engineering"]{
-    --tab-fg:#111; --tab-bg:#ffb300; --tab-bg-hover:#ffa000; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Medical"]{
-    --tab-fg:#fff; --tab-bg:#2e7d32; --tab-bg-hover:#1b5e20; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Diplomacy"]{
-    --tab-fg:#fff; --tab-bg:#00838f; --tab-bg-hover:#006064; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Ethics"]{
-    --tab-fg:#111; --tab-bg:#ffd54f; --tab-bg-hover:#ffca28; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Prime Directive"]{
-    --tab-fg:#111; --tab-bg:#fbc02d; --tab-bg-hover:#f9a825; --tab-border: rgba(0,0,0,0.25);
-  }
-  #episode-tabs .lcars-tab[data-tab="Humanitarian"]{
-    --tab-fg:#111; --tab-bg:#8bc34a; --tab-bg-hover:#7cb342; --tab-border: rgba(0,0,0,0.25);
-  }
-</style>
 
-<script id="cc-tab-colorize">
-(function(){
-  function tag() {
-    var btns = document.querySelectorAll('#episode-tabs .lcars-tab');
-    if (!btns.length) return;
-    btns.forEach(function(b){
-      var label = (b.textContent || '').trim();
-      if (label) b.setAttribute('data-tab', label);
-    });
-  }
-  // Try a few times in case JSON load/render is async; no infinite observers
-  if (document.readyState !== 'loading') tag();
-  document.addEventListener('DOMContentLoaded', tag);
-  setTimeout(tag, 300);
-  setTimeout(tag, 800);
-  setTimeout(tag, 1600);
-})();
-</script>
+
+
+
+
+<style id="cc-tabs-align-title-final">#episode-tabs-wrap{display:flex;align-items:center;justify-content:center}#episode-tabs-wrap #episode-section-title{display:flex;align-items:center;line-height:1;margin:0;transform:translateY(-3px)!important}</style>
+
+<style id="cc-tab-colors">#episode-tabs .lcars-tab{--tab-fg:#111;--tab-bg:#e7e7e7;--tab-bg-hover:#dcdcdc;--tab-border:rgba(0,0,0,.15);color:var(--tab-fg);background:var(--tab-bg);border:1px solid var(--tab-border);border-radius:999px;padding:6px 14px;font-weight:600;letter-spacing:.02em;transition:transform .05s ease,background-color .12s ease,box-shadow .12s ease}#episode-tabs .lcars-tab:hover{background:var(--tab-bg-hover);transform:translateY(-1px)}#episode-tabs .lcars-tab[data-active="1"]{box-shadow:inset 0 -2px 0 rgba(0,0,0,.12),0 0 0 2px rgba(255,255,255,.2);transform:none}#episode-tabs .lcars-tab:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(255,255,255,.6),0 0 0 5px rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="All"]{--tab-fg:#1a1a1a;--tab-bg:#f0f0f0;--tab-bg-hover:#e6e6e6;--tab-border:rgba(0,0,0,.15)}#episode-tabs .lcars-tab[data-tab="Tactical"]{--tab-fg:#fff;--tab-bg:#c62828;--tab-bg-hover:#b71c1c;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Science"]{--tab-fg:#fff;--tab-bg:#1565c0;--tab-bg-hover:#0d47a1;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Temporal"]{--tab-fg:#fff;--tab-bg:#6a1b9a;--tab-bg-hover:#4a148c;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Engineering"]{--tab-fg:#111;--tab-bg:#ffb300;--tab-bg-hover:#ffa000;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Medical"]{--tab-fg:#fff;--tab-bg:#2e7d32;--tab-bg-hover:#1b5e20;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Diplomacy"]{--tab-fg:#fff;--tab-bg:#00838f;--tab-bg-hover:#006064;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Ethics"]{--tab-fg:#111;--tab-bg:#ffd54f;--tab-bg-hover:#ffca28;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Prime Directive"]{--tab-fg:#111;--tab-bg:#fbc02d;--tab-bg-hover:#f9a825;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Humanitarian"]{--tab-fg:#111;--tab-bg:#8bc34a;--tab-bg-hover:#7cb342;--tab-border:rgba(0,0,0,.25)}</style>
+
+<script id="cc-tab-colorize">(function(){function t(){var e=document.querySelectorAll('#episode-tabs .lcars-tab');if(!e.length)return;e.forEach(function(e){var t=(e.textContent||'').trim();t&&e.setAttribute('data-tab',t)})}if('loading'!==document.readyState&&t(),document.addEventListener('DOMContentLoaded',t),setTimeout(t,300),setTimeout(t,800),setTimeout(t,1600),false){}})();</script>
 
 </head>
 <body>
@@ -2144,11 +2067,12 @@ el.addEventListener('click', () => { saveTab(name); applyFilters(); });
 
 
 
+
 <script id="cc-dynamic-singleword-tabs">
 (function(){'use strict';
   var JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red_Alert_New.json';
   var STORE_KEY = 'redalert_menu_visual_pack_v1';
-  var ORDER = ["All", "Tactical", "Science", "Temporal", "Engineering", "Medical", "Diplomacy", "Ethics", "Prime Directive", "Humanitarian"];
+  var ORDER = ['All','Tactical','Science','Temporal','Engineering','Medical','Diplomacy','Ethics','Prime Directive','Humanitarian'];
 
   function titleFromRow(row){var t=row.querySelector('.t'); if(!t) return ''; var c=t.cloneNode(true); var b=c.querySelector('.mission-badge'); if(b) b.remove(); return (c.textContent||'').trim();}
   function filterRows(currentTab, storyTabs){var rows=document.querySelectorAll('#episode-list .menu-row'); rows.forEach(function(row){var title=titleFromRow(row); var type=storyTabs[title]||''; var show=(currentTab==='All')||(type===currentTab); row.style.display=show?'':'none';});}
@@ -2167,11 +2091,12 @@ el.addEventListener('click', () => { saveTab(name); applyFilters(); });
       var tabsMap = (j && j.story_tabs && typeof j.story_tabs==='object') ? j.story_tabs : {};
 
       if(stories.length){
+        // Keep FULL story objects so dialog/mission page has mission_description & dialogue_tree
         window.scenarios = stories.map(function(s){
-          return {
-            story_name: String(s && s.story_name || ''),
-            starfleet_message: String(s && s.starfleet_message || '')
-          };
+          var c = {};
+          if (s && typeof s === 'object') { for (var k in s) c[k] = s[k]; }
+          c.story_name = String((s && s.story_name) || '');
+          return c;
         });
         if (typeof renderMenu==='function') try{ renderMenu(); }catch(_){ }
       } else if (names.length){
@@ -2200,6 +2125,7 @@ el.addEventListener('click', () => { saveTab(name); applyFilters(); });
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
 </script>
+
 
 </body>
 </html>
