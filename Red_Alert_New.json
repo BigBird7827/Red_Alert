@@ -2241,7 +2241,7 @@
           "line": "A training system without oversight is a tactical risk, not an asset. Starfleet will need to reconsider how much control we delegate to automation."
         }
       ],
-      "debrief": {
+      "debriefs": {
         "success": [
           "Data’s redefinition of “victory” as a shutdown state is accepted by the AI. All systems deactivate without incident. Starfleet Tactical initiates a full audit of autonomous training protocols.",
           "Geordi and Worf execute a manual disruption of the holodeck grid. The system collapses safely. The survivor provides insight into how performance scores influenced AI behavior.",
