@@ -2273,113 +2273,113 @@
       ]
     },
     {
-      "story_name": "Second Contact",
-      "starfleet_message": "Captain's Log, Stardate 47651.2 — The Enterprise has arrived on station in Sector 441 after an automated Federation monitoring post reported contact with a Borg signal. A Borg vessel of non-standard configuration has halted near the installation and is holding position without engaging. This posture suggests reconnaissance, not assimilation.",
-      "mission_description": "A Borg probe arrives in Sector 441 to complete earlier Borg data collection inside Federation space. The Borg openly request updated Federation defensive data. Picard refuses, uses the Enterprise to shield the monitoring post, disrupts the Borg sampling window, and forces a withdrawal. The encounter confirms the Collective will return with greater force.",
-      "dialogue_tree": [
+  "story_name": "Second Contact",
+  "starfleet_message": "Captain's Log, Stardate 47651.2 — The Enterprise has arrived on station in Sector 441 after an automated Federation monitoring post reported contact with a Borg signal. A Borg vessel of non-standard configuration has halted near the installation and is holding position without engaging. This posture suggests reconnaissance, not assimilation.",
+  "mission_description": "A Borg probe arrives in Sector 441 to complete earlier Borg data collection inside Federation space. The Borg openly request updated Federation defensive data. Picard refuses, uses the Enterprise to shield the monitoring post, disrupts the Borg sampling window, and forces a withdrawal. The encounter confirms the Collective will return with greater force.",
+  "dialogue_tree": [
+    {
+      "crew": "Commander Riker",
+      "line": "Captain, we’ve arrived on station in Sector 441. A Borg vessel of non-standard configuration is holding position one hundred twenty thousand kilometers off the Federation monitoring post. No weapons active, no approach vector. It’s just waiting.",
+      "options": [
         {
-          "crew": "Commander Riker",
-          "line": "Captain, we’ve arrived on station in Sector 441. A Borg vessel of non-standard configuration is holding position one hundred twenty thousand kilometers off the Federation monitoring post. No weapons active, no approach vector. It’s just waiting.",
-          "options": [
-            {
-              "label": "On screen.",
-              "crew_reply": "Commander Riker: Aye, sir. Borg vessel on the main viewscreen.",
-              "next": 1
-            },
-            {
-              "label": "Mr. Worf, red alert. Prepare a full spread of photon torpedoes, but hold fire.",
-              "crew_reply": "Lt. Worf: Red Alert! Photon torpedoes standing by, Captain.",
-              "next": 1
-            },
-            {
-              "label": "Data, correlate this vessel with the construct we encountered near Earth. I want to know if this is a follow up.",
-              "crew_reply": "Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
-              "next": 1
-            }
-          ]
+          "label": "On screen.",
+          "crew_reply": "Commander Riker: Aye, sir. Borg vessel on the main viewscreen.",
+          "next": 1
         },
         {
-          "crew": "Captain Picard",
-          "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space and halted near a protected installation. State your purpose.",
-          "options": [
-            {
-              "label": "Borg vessel: You received a transmission from within Federation space. Identify the source and intent.",
-              "crew_reply": "Borg vessel: We are the Borg. Federation-origin transmission was received. Analysis is incomplete.",
-              "next": 2
-            },
-            {
-              "label": "Borg vessel: You will maintain your current distance and you will not scan Federation tactical systems.",
-              "crew_reply": "Borg vessel: Compliance is irrelevant. Evaluation will proceed.",
-              "next": 2
-            },
-            {
-              "label": "Borg vessel: This outpost is not a target. You will disengage or face defensive response.",
-              "crew_reply": "Borg vessel: Defensive response will be analyzed.",
-              "next": 2
-            }
-          ]
+          "label": "Mr. Worf, red alert. Prepare a full spread of photon torpedoes, but hold fire.",
+          "crew_reply": "Lt. Worf: Red Alert! Photon torpedoes standing by, Captain.",
+          "next": 1
         },
         {
-          "crew": "Borg vessel",
-          "line": "Federation vessel. Your previous encounter yielded partial defensive parameters. Data is insufficient. You will provide current shield modulation, phaser harmonic ranges, and installation response time.",
-          "options": [
-            {
-              "label": "Picard: We will not provide you with the data you seek. Federation defensive data is not subject to Borg requisition.",
-              "crew_reply": "Borg vessel: Denial is irrelevant. Data will be obtained by observation.",
-              "next": 3
-            },
-            {
-              "label": "Data, confirm whether it can derive that information from our current posture.",
-              "crew_reply": "Lt. Commander Data: Yes, Captain. Given time, it can extrapolate all three values from passive scans of our maneuvering and shield cycling.",
-              "next": 3
-            },
-            {
-              "label": "Worf, move us directly between the Borg vessel and the outpost. If it wants readings, it takes them from us.",
-              "crew_reply": "Borg vessel: Interposition alters sampling geometry. We will adapt.",
-              "next": 3
-            }
-          ]
+          "label": "Data, correlate this vessel with the construct we encountered near Earth. I want to know if this is a follow up.",
+          "crew_reply": "Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
+          "next": 1
+        }
+      ]
+    },
+    {
+      "crew": "Captain Picard",
+      "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space and halted near a protected installation. State your purpose.",
+      "options": [
+        {
+          "label": "Borg vessel: You received a transmission from within Federation space. Identify the source and intent.",
+          "crew_reply": "Borg vessel: We are the Borg. Federation-origin transmission was received. Analysis is incomplete.",
+          "next": 2
         },
         {
-          "crew": "Lt. Commander Data",
-          "line": "Captain, the Borg vessel is not attempting assimilation. It is measuring our reaction time, our coordination with the monitoring post, and our willingness to transmit technical data under threat. Its power output remains below combat levels. This is a threat probe.",
-          "options": [
-            {
-              "label": "Picard: Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
-              "crew_reply": "Borg vessel: You claim authority over information. Authority is irrelevant.",
-              "next": 4
-            },
-            {
-              "label": "Picard: Number One, have the outpost broadcast sector-wide: Borg contact — do not return technical data.",
-              "crew_reply": "Commander Riker: Confirmed. The outpost is transmitting the warning.",
-              "next": 4
-            },
-            {
-              "label": "La Forge: Deflector spike — scramble their sampling window.",
-              "crew_reply": "Commander La Forge: Pulse ready. It’ll dirty their readings for a few minutes.",
-              "next": 4
-            }
-          ]
+          "label": "Borg vessel: You will maintain your current distance and you will not scan Federation tactical systems.",
+          "crew_reply": "Borg vessel: Compliance is irrelevant. Evaluation will proceed.",
+          "next": 2
         },
         {
-          "crew": "Borg vessel",
-          "line": "Evaluation disrupted. Federation units refuse tactical disclosure. Sample set incomplete. Further adaptation required. We will withdraw and return with sufficient assets.",
-          "options": [
-            {
-              "label": "Picard: When you return, you will find the Federation better prepared than we were at Wolf 359 — and ready to deny you the data you seek.",
-              "crew_reply": "Borg vessel: Preparation will be assimilated.",
-              "next": null
-            },
-            {
-              "label": "Picard: Number One, track them until they go to warp and forward the full signature to Sector Command.",
-              "crew_reply": "Commander Riker: Aye, Captain. We have them — transmitting now.",
-              "next": null
-            },
-            {
-              "label": "Picard: Mr. Worf, maintain red alert until the Borg are out of sensor range.",
-              "crew_reply": "Lt. Worf: Yes sir. Alert level one confirmed.",
-              "next": null
-            }
+          "label": "Borg vessel: This outpost is not a target. You will disengage or face defensive response.",
+          "crew_reply": "Borg vessel: Defensive response will be analyzed.",
+          "next": 2
+        }
+      ]
+    },
+    {
+      "crew": "Borg vessel",
+      "line": "Federation vessel. Your previous encounter yielded partial defensive parameters. Data is insufficient. You will provide current shield modulation, phaser harmonic ranges, and installation response time.",
+      "options": [
+        {
+          "label": "Picard: We will not provide you with the data you seek. Federation defensive data is not subject to Borg requisition.",
+          "crew_reply": "Borg vessel: Denial is irrelevant. Data will be obtained by observation.",
+          "next": 3
+        },
+        {
+          "label": "Data, confirm whether it can derive that information from our current posture.",
+          "crew_reply": "Lt. Commander Data: Yes, Captain. Given time, it can extrapolate all three values from passive scans of our maneuvering and shield cycling.",
+          "next": 3
+        },
+        {
+          "label": "Worf, move us directly between the Borg vessel and the outpost. If it wants readings, it takes them from us.",
+          "crew_reply": "Borg vessel: Interposition alters sampling geometry. We will adapt.",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "crew": "Lt. Commander Data",
+      "line": "Captain, the Borg vessel is not attempting assimilation. It is measuring our reaction time, our coordination with the monitoring post, and our willingness to transmit technical data under threat. Its power output remains below combat levels. This is a threat probe.",
+      "options": [
+        {
+          "label": "Picard: Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
+          "crew_reply": "Borg vessel: You claim authority over information. Authority is irrelevant.",
+          "next": 4
+        },
+        {
+          "label": "Picard: Number One, have the outpost broadcast sector-wide: Borg contact — do not return technical data.",
+          "crew_reply": "Commander Riker: Confirmed. The outpost is transmitting the warning.",
+          "next": 4
+        },
+        {
+          "label": "La Forge: Deflector spike — scramble their sampling window.",
+          "crew_reply": "Commander La Forge: Pulse ready. It’ll dirty their readings for a few minutes.",
+          "next": 4
+        }
+      ]
+    },
+    {
+      "crew": "Borg vessel",
+      "line": "Evaluation disrupted. Federation units refuse tactical disclosure. Sample set incomplete. Further adaptation required. We will withdraw and return with sufficient assets.",
+      "options": [
+        {
+          "label": "Picard: When you return, you will find the Federation better prepared than we were at Wolf 359 — and ready to deny you the data you seek.",
+          "crew_reply": "Borg vessel: Preparation will be assimilated.",
+          "next": null
+        },
+        {
+          "label": "Picard: Number One, track them until they go to warp and forward the full signature to Sector Command.",
+          "crew_reply": "Commander Riker: Aye, Captain. We have them — transmitting now.",
+          "next": null
+        },
+        {
+          "label": "Picard: Mr. Worf, maintain red alert until the Borg are out of sensor range.",
+          "crew_reply": "Lt. Worf: Yes sir. Alert level one confirmed.",
+          "next": null
+        }
           ]
         }
       ],
