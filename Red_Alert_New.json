@@ -2283,7 +2283,7 @@
           "options": [
             {
               "label": "On screen.",
-              "crew_reply": "Commander Riker: Aye, sir. Borg vessel on the main viewscreen.",
+              "crew_reply": "Borg vessel: Commander Riker: Aye, sir. Borg vessel on the main viewscreen.",
               "next": 1
             },
             {
@@ -2293,27 +2293,27 @@
             },
             {
               "label": "Data, correlate this vessel with the construct we encountered near Earth. I want to know if this is a follow up.",
-              "crew_reply": "Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
+              "crew_reply": "Borg vessel: Lt. Commander Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
               "next": 1
             }
           ]
         },
         {
           "crew": "Captain Picard",
-          "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space near a protected installation. State your purpose.",
+          "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space and halted near a protected installation. State your purpose.",
           "options": [
             {
-              "label": "Borg vessel, you received a transmission from within Federation space. Identify the source and intent.",
+              "label": "Picard: You received a transmission from within Federation space. Identify the source and intent.",
               "crew_reply": "Borg vessel: We are the Borg. Federation-origin transmission was received. Analysis is incomplete.",
               "next": 2
             },
             {
-              "label": "Borg vessel, you will maintain your current distance and you will not scan Federation tactical systems.",
+              "label": "Picard: You will maintain your current distance and you will not scan Federation tactical systems.",
               "crew_reply": "Borg vessel: Compliance is irrelevant. Evaluation will proceed.",
               "next": 2
             },
             {
-              "label": "Borg vessel, This outpost is not a target. You will disengage or face defensive response.",
+              "label": "Picard: This outpost is not a target. You will disengage or face defensive response.",
               "crew_reply": "Borg vessel: Defensive response will be analyzed.",
               "next": 2
             }
@@ -2325,16 +2325,16 @@
           "options": [
             {
               "label": "Picard: We will not provide you with the data you seek. Federation defensive data is not subject to Borg requisition.",
-              "crew_reply": "Borg vessel: Denial is irrelevant. Data will be obtained by observation.",
+              "crew_reply": "Borg vessel: Denial acknowledged. Data will be obtained by observation.",
               "next": 3
             },
             {
-              "label": "Data, confirm whether it can derive that information from our current posture.",
+              "label": "Picard: Data, confirm whether it can derive that information from our current posture.",
               "crew_reply": "Lt. Commander Data: Yes, Captain. Given time, it can extrapolate all three values from passive scans of our maneuvering and shield cycling.",
               "next": 3
             },
             {
-              "label": "Worf, move us directly between the Borg vessel and the outpost. If it wants readings, it takes them from us.",
+              "label": "Picard: Worf, move us directly between the Borg vessel and the outpost. If it wants readings, it takes them from us.",
               "crew_reply": "Borg vessel: Interposition alters sampling geometry. We will adapt.",
               "next": 3
             }
@@ -2345,7 +2345,7 @@
           "line": "Captain, the Borg vessel is not attempting assimilation. It is measuring our reaction time, our coordination with the monitoring post, and our willingness to transmit technical data under threat. Its power output remains below combat levels. This is a threat probe.",
           "options": [
             {
-              "label": "Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
+              "label": "Picard: Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
               "crew_reply": "Borg vessel: You claim authority over information. Authority is irrelevant.",
               "next": 4
             },
@@ -2355,7 +2355,7 @@
               "next": 4
             },
             {
-              "label": "La Forge: Deflector spike — scramble their sampling window.",
+              "label": "Picard: Deflector spike — scramble their sampling window.",
               "crew_reply": "Commander La Forge: Pulse ready. It’ll dirty their readings for a few minutes.",
               "next": 4
             }
