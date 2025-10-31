@@ -14,7 +14,8 @@
     "The Veil of Perfection",
     "Ambush",
     "Signal at Solitude Point",
-    "Override Protocols"
+    "Override Protocols",
+    "A Question of Profit"
   ],
   "story_tabs": {
     "Reflections of the Mind": "Science",
@@ -31,7 +32,8 @@
     "The Veil of Perfection": "Tactical",
     "Ambush": "Tactical",
     "Signal at Solitude Point": "Science",
-    "Override Protocols": "Tactical"
+    "Override Protocols": "Tactical",
+    "A Question of Profit": "Command"
   },
   "stories": [
     {
