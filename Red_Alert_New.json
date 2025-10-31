@@ -2268,5 +2268,60 @@
         }
       ]
     }
-  ]
+  ],
+  "_readme": {
+    "purpose": "Instructions for adding a new story. This block is ignored by the app and safe in production.",
+    "ADD_STORY_STEPS": [
+      "1) Append a full story object to 'stories'. At minimum include 'story_name' and 'starfleet_message'.",
+      "2) Add the SAME title to 'story_names'. This controls the order of buttons in the menu (insert where you want it to appear).",
+      "3) In 'story_tabs', map the SAME title to ONE tab: Tactical, Science, Temporal, Engineering, Medical, Diplomacy, Ethics, Prime Directive, or Humanitarian."
+    ],
+    "RULES": [
+      "• Titles must match EXACTLY across 'stories[*].story_name', 'story_names', and 'story_tabs' (same spelling/case/spaces).",
+      "• Do not add comments in JSON (// or /* */). Keep this '_readme' block as plain data.",
+      "• After pushing to GitHub, hard refresh the page (Ctrl/Cmd+Shift+R)."
+    ],
+    "EXAMPLE_minimal": {
+      "story_object": {
+        "story_name": "NEW TITLE",
+        "starfleet_message": "Captain’s Log, Stardate 47xxx.x — ...",
+        "mission_description": "Optional.",
+        "dialogue_tree": [],
+        "reflection": [],
+        "debriefs": [
+          {
+            "result": "success",
+            "text": "Optional."
+          },
+          {
+            "result": "failure",
+            "text": "Optional."
+          }
+        ]
+      },
+      "story_names_append": [
+        "NEW TITLE"
+      ],
+      "story_tabs_add": {
+        "NEW TITLE": "Tactical"
+      }
+    },
+    "TABS_ALLOWED": [
+      "Tactical",
+      "Science",
+      "Temporal",
+      "Engineering",
+      "Medical",
+      "Diplomacy",
+      "Ethics",
+      "Prime Directive",
+      "Humanitarian"
+    ],
+    "TROUBLESHOOTING": [
+      "• Button shows but Captain’s Log missing → ensure the story exists in 'stories' with a 'starfleet_message' string.",
+      "• Story not in any tab → check 'story_tabs[title]'; value must be one of the allowed tabs.",
+      "• Nothing loads → validate JSON (no trailing commas, all quotes are double, arrays/objects closed)."
+    ],
+    "last_updated": "2025-10-31T05:56:59Z"
+  }
 }
