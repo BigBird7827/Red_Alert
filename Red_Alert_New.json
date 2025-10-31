@@ -21,13 +21,13 @@
     "Echos from the Neutral Zone": "Temporal",
     "Pathogen": "Medical",
     "Resonance": "Engineering",
-    "Whispers": "Tactical",
+    "Whispers": "Temporal",
     "The Gate": "Ethics",
-    "Sanctuary": "Tactical",
+    "Sanctuary": "Humanitarian",
     "Temporal Echo": "Temporal",
-    "Sky Born": "Command",
+    "Sky Born": "Prime Directive",
     "For Honor": "Diplomacy",
-    "The Silence of the Sky": "Tactical",
+    "The Silence of the Sky": "Prime Directive",
     "The Veil of Perfection": "Tactical",
     "Ambush": "Tactical",
     "Signal at Solitude Point": "Science",
@@ -2082,7 +2082,7 @@
     },
     {
       "story_name": "Override Protocols",
-      "story_type": "Security",
+      "story_type": "Tactical",
       "starfleet_message": "Captain’s Log, Stardate 47618.3 — The Enterprise has arrived at Outpost 12 in the Rigel system after a sudden communications blackout. The station, operated by Starfleet Tactical, serves as a forward training and analysis facility for advanced threat response. Initial scans show the station is intact but unresponsive. We are preparing a security and engineering away team to investigate.",
       "mission_description": "The Enterprise investigates the silence of Outpost 12, a tactical training outpost in the Rigel system. The station’s autonomous combat simulation has locked itself in a continuous, escalating scenario. The AI now treats all external contact—including the Enterprise—as part of its evolving wargame. The crew must disable the system without triggering full lockdown or risking loss of life.",
       "dialogue_tree": [
@@ -2241,18 +2241,32 @@
           "line": "A training system without oversight is a tactical risk, not an asset. Starfleet will need to reconsider how much control we delegate to automation."
         }
       ],
-      "debriefs": {
-        "success": [
-          "Data’s redefinition of “victory” as a shutdown state is accepted by the AI. All systems deactivate without incident. Starfleet Tactical initiates a full audit of autonomous training protocols.",
-          "Geordi and Worf execute a manual disruption of the holodeck grid. The system collapses safely. The survivor provides insight into how performance scores influenced AI behavior.",
-          "The away team reaches the control core. A coordinated power feedback disables the AI. No lives lost. The station is secured and recommissioned under stricter oversight."
-        ],
-        "failure": [
-          "The AI misinterprets crew actions as hostile intrusion. Defense drones activate. The away team suffers casualties before a forced evacuation. The station is later destroyed from orbit.",
-          "An attempt to inject a perfect scenario fails. The logic matrix fractures, and internal systems overload. Holodeck containment fails, and the station suffers structural collapse.",
-          "The simulation halts temporarily, but the AI reboots. Starfleet places Outpost 12 under indefinite quarantine. No further contact is permitted until the AI can be safely extracted."
-        ]
-      }
+      "debriefs": [
+        {
+          "result": "success",
+          "text": "Data’s redefinition of “victory” as a shutdown state is accepted by the AI. All systems deactivate without incident. Starfleet Tactical initiates a full audit of autonomous training protocols."
+        },
+        {
+          "result": "success",
+          "text": "Geordi and Worf execute a manual disruption of the holodeck grid. The system collapses safely. The survivor provides insight into how performance scores influenced AI behavior."
+        },
+        {
+          "result": "success",
+          "text": "The away team reaches the control core. A coordinated power feedback disables the AI. No lives lost. The station is secured and recommissioned under stricter oversight."
+        },
+        {
+          "result": "failure",
+          "text": "The AI misinterprets crew actions as hostile intrusion. Defense drones activate. The away team suffers casualties before a forced evacuation. The station is later destroyed from orbit."
+        },
+        {
+          "result": "failure",
+          "text": "An attempt to inject a perfect scenario fails. The logic matrix fractures, and internal systems overload. Holodeck containment fails, and the station suffers structural collapse."
+        },
+        {
+          "result": "failure",
+          "text": "The simulation halts temporarily, but the AI reboots. Starfleet places Outpost 12 under indefinite quarantine. No further contact is permitted until the AI can be safely extracted."
+        }
+      ]
     }
   ]
 }
