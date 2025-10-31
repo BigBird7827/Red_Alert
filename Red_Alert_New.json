@@ -2303,17 +2303,17 @@
           "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space and halted near a protected installation. State your purpose.",
           "options": [
             {
-              "label": "Picard: You received a transmission from within Federation space. Identify the source and intent.",
+              "label": "Borg vessel, you received a transmission from within Federation space. Identify the source and intent.",
               "crew_reply": "Borg vessel: We are the Borg. Federation-origin transmission was received. Analysis is incomplete.",
               "next": 2
             },
             {
-              "label": "Picard: You will maintain your current distance and you will not scan Federation tactical systems.",
+              "label": "Borg vessel, you will maintain your current distance and you will not scan Federation tactical systems.",
               "crew_reply": "Borg vessel: Compliance is irrelevant. Evaluation will proceed.",
               "next": 2
             },
             {
-              "label": "Picard: This outpost is not a target. You will disengage or face defensive response.",
+              "label": "Borg vessel, this outpost is not a target. You will disengage or face defensive response.",
               "crew_reply": "Borg vessel: Defensive response will be analyzed.",
               "next": 2
             }
@@ -2324,7 +2324,7 @@
           "line": "Federation vessel. Your previous encounter yielded partial defensive parameters. Data is insufficient. You will provide current shield modulation, phaser harmonic ranges, and installation response time.",
           "options": [
             {
-              "label": "Picard: We will not provide you with the data you seek. Federation defensive data is not subject to Borg requisition.",
+              "label": "Borg vessel, we will not provide you with the data you seek. Federation defensive data is not subject to Borg requisition.",
               "crew_reply": "Borg vessel: Denial acknowledged. Data will be obtained by observation.",
               "next": 3
             },
@@ -2345,7 +2345,7 @@
           "line": "Captain, the Borg vessel is not attempting assimilation. It is measuring our reaction time, our coordination with the monitoring post, and our willingness to transmit technical data under threat. Its power output remains below combat levels. This is a threat probe.",
           "options": [
             {
-              "label": "Picard: Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
+              "label": "Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
               "crew_reply": "Borg vessel: You claim authority over information. Authority is irrelevant.",
               "next": 4
             },
@@ -2366,7 +2366,7 @@
           "line": "Evaluation disrupted. Federation units refuse tactical disclosure. Sample set incomplete. Further adaptation required. We will withdraw and return with sufficient assets.",
           "options": [
             {
-              "label": "Picard: When you return, you will find the Federation better prepared than we were at Wolf 359 — and ready to deny you the data you seek.",
+              "label": "Borg vessel, when you return, you will find the Federation better prepared than we were at Wolf 359 — and ready to deny you the data you seek.",
               "crew_reply": "Borg vessel: Preparation will be assimilated.",
               "next": null
             },
