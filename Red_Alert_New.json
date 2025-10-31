@@ -2303,17 +2303,17 @@
           "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space near a protected installation. State your purpose.",
           "options": [
             {
-              "label": "Picard: You received a transmission from within Federation space. Identify the source and intent.",
+              "label": "Borg vessel, you received a transmission from within Federation space. Identify the source and intent.",
               "crew_reply": "Borg vessel: We are the Borg. Federation-origin transmission was received. Analysis is incomplete.",
               "next": 2
             },
             {
-              "label": "Picard: You will maintain your current distance and you will not scan Federation tactical systems.",
+              "label": "Borg vessel, you will maintain your current distance and you will not scan Federation tactical systems.",
               "crew_reply": "Borg vessel: Compliance is irrelevant. Evaluation will proceed.",
               "next": 2
             },
             {
-              "label": "Picard: This outpost is not a target. You will disengage or face defensive response.",
+              "label": "Borg vessel, This outpost is not a target. You will disengage or face defensive response.",
               "crew_reply": "Borg vessel: Defensive response will be analyzed.",
               "next": 2
             }
@@ -2345,7 +2345,7 @@
           "line": "Captain, the Borg vessel is not attempting assimilation. It is measuring our reaction time, our coordination with the monitoring post, and our willingness to transmit technical data under threat. Its power output remains below combat levels. This is a threat probe.",
           "options": [
             {
-              "label": "Picard: Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
+              "label": "Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
               "crew_reply": "Borg vessel: You claim authority over information. Authority is irrelevant.",
               "next": 4
             },
