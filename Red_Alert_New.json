@@ -2371,12 +2371,12 @@
               "next": null
             },
             {
-              "label": "Picard: Number One, track them until they go to warp and forward the full signature to Sector Command.",
+              "label": "Number One, track them until they go to warp and forward the full signature to Sector Command.",
               "crew_reply": "Commander Riker: Aye, Captain. We have them — transmitting now.",
               "next": null
             },
             {
-              "label": "Picard: Mr. Worf, maintain red alert until the Borg are out of sensor range.",
+              "label": "Mr. Worf, maintain red alert until the Borg are out of sensor range.",
               "crew_reply": "Lt. Worf: Yes sir. Alert level one confirmed.",
               "next": null
             }
