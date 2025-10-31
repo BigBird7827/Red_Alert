@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  (function() {
+    const BASE = "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red_Alert_New.json";
+    const ts = Date.now().toString();
+    window.RED_ALERT_JSON_URL = BASE + "?v=" + ts;
+  })();
+</script>
+
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Red Alert - LCARS Bridge Simulator</title>
@@ -805,7 +813,7 @@ function setPortrait(name) {
 }
 async function loadScenarios(){
   try{
-    const response = await fetch("https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red_Alert_New.json", { cache: 'no-store' });
+    const response = await fetch(window.RED_ALERT_JSON_URL, { cache: "reload", headers: { "Cache-Control": "no-cache" } });
     window.scenarios = await response.json();
     console.log('Loaded all window.scenarios:', window.window.scenarios.length);
     renderMenu();
