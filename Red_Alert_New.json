@@ -15,7 +15,8 @@
     "Ambush",
     "Signal at Solitude Point",
     "Override Protocols",
-    "A Question of Profit"
+    "A Question of Profit",
+    "Second Contact"
   ],
   "story_tabs": {
     "Reflections of the Mind": "Science",
@@ -33,7 +34,8 @@
     "Ambush": "Tactical",
     "Signal at Solitude Point": "Science",
     "Override Protocols": "Tactical",
-    "A Question of Profit": "Command"
+    "A Question of Profit": "Command",
+    "Second Contact": "Tactical"
   },
   "stories": [
     {
@@ -2271,111 +2273,111 @@
       ]
     },
     {
-      "story_name": "A Question of Profit",
-      "starfleet_message": "Captain's Log, Stardate 47629.4 — Rallien Station, a small Federation logistics hub near a Ferengi trade lane, has been immobilized by a Ferengi Marauder claiming a commercial lien against the station's cargo. The claim appears to mix legitimate Ferengi fees with invented ones. We must free the station without triggering scrutiny from the Ferengi Commerce Authority.",
-      "mission_description": "A Ferengi DaiMon has seized a Federation station with a mostly fabricated lien and is holding it under tractor beam. The Enterprise must undermine the invalid fees, use the threat of FCA scrutiny as leverage, and still provide a face-saving exit so the Ferengi can withdraw without escalating.",
+      "story_name": "Second Contact",
+      "starfleet_message": "Captain's Log, Stardate 47651.2 — The Enterprise has arrived on station in Sector 441 after an automated Federation monitoring post reported contact with a Borg signal. A Borg vessel of non-standard configuration has halted near the installation and is holding position without engaging. This posture suggests reconnaissance, not assimilation.",
+      "mission_description": "A Borg probe arrives in Sector 441 to complete earlier Borg data collection inside Federation space. The Borg openly request updated Federation defensive data. Picard refuses, uses the Enterprise to shield the monitoring post, disrupts the Borg sampling window, and forces a withdrawal. The encounter confirms the Collective will return with greater force.",
       "dialogue_tree": [
         {
           "crew": "Commander Riker",
-          "line": "Captain, we've arrived at Rallien Station. The outpost is intact, but a Ferengi Marauder has a tractor beam locked on it. Station reports the Ferengi is claiming a 'commercial lien' and is refusing to release Federation cargo.",
+          "line": "Captain, we’ve arrived on station in Sector 441. A Borg vessel of non-standard configuration is holding position one hundred twenty thousand kilometers off the Federation monitoring post. No weapons active, no approach vector. It’s just waiting.",
           "options": [
             {
-              "label": "Data, open a channel to the Ferengi ship. Put him on the main viewscreen.",
-              "crew_reply": "Lt. Commander Data: Aye, sir. Opening a channel. Routing to main viewscreen.",
+              "label": "On screen.",
+              "crew_reply": "Commander Riker: Aye, sir. Borg vessel on the main viewscreen.",
               "next": 1
             },
             {
-              "label": "Mr. Worf, raise shields and open a channel. Let's make it clear the station is under Starfleet protection.",
-              "crew_reply": "Lt. Worf: Shields up and channel open, Captain.",
+              "label": "Mr. Worf, red alert. Prepare a full spread of photon torpedoes, but hold fire.",
+              "crew_reply": "Lt. Worf: Red Alert! Photon torpedoes standing by, Captain.",
               "next": 1
             },
             {
-              "label": "Data, start compiling Ferengi tariff schedules. I want to be ready when he lists his fees.",
-              "crew_reply": "Lt. Commander Data: Understood, Captain. Accessing Ferengi Commerce Authority schedules.",
+              "label": "Data, correlate this vessel with the construct we encountered near Earth. I want to know if this is a follow up.",
+              "crew_reply": "Lt. Commander Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
               "next": 1
             }
           ]
         },
         {
           "crew": "Captain Picard",
-          "line": "Ferengi vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You are detaining a Federation facility and its cargo. On what authority are you doing this?",
+          "line": "Borg vessel, this is Captain Jean-Luc Picard of the Federation starship Enterprise. You have entered Federation space and halted near a protected installation. State your purpose.",
           "options": [
             {
-              "label": "Picard: DaiMon Krug, identify yourself and state your claim.",
-              "crew_reply": "Ferengi DaiMon: I am DaiMon Krug, lawful master of this vessel.",
+              "label": "Picard: You received a transmission from within Federation space. Identify the source and intent.",
+              "crew_reply": "Borg vessel: We are the Borg. Federation-origin transmission was received. Analysis is incomplete.",
               "next": 2
             },
             {
-              "label": "Picard: DaiMon Krug, Rallien Station is under Starfleet guarantee.",
-              "crew_reply": "Ferengi DaiMon: Guarantees are meaningless without payment, human.",
+              "label": "Picard: You will maintain your current distance and you will not scan Federation tactical systems.",
+              "crew_reply": "Borg vessel: Compliance is irrelevant. Evaluation will proceed.",
               "next": 2
             },
             {
-              "label": "Picard: DaiMon Krug, your lien cannot supersede Federation authority in this sector.",
-              "crew_reply": "Ferengi DaiMon: Then prove your authority — pay the fees.",
+              "label": "Picard: This outpost is not a target. You will disengage or face defensive response.",
+              "crew_reply": "Borg vessel: Defensive response will be analyzed.",
               "next": 2
             }
           ]
         },
         {
-          "crew": "Ferengi DaiMon",
-          "line": "Federation vessel, Rallien Station is in default on docking surcharges, punitive late remittance, and an opportunity-protection fee. Until payment is made, all cargo on this station is seized as collateral.",
+          "crew": "Borg vessel",
+          "line": "Federation vessel. Your previous encounter yielded partial defensive parameters. Data is insufficient. You will provide current shield modulation, phaser harmonic ranges, and installation response time.",
           "options": [
             {
-              "label": "Picard: Your opportunity-protection fee is not recognized. Release the station.",
-              "crew_reply": "Ferengi DaiMon: Not recognized by you. Very recognized by me.",
+              "label": "Picard: We will not provide you with the data you seek. Federation defensive data is not subject to Borg requisition.",
+              "crew_reply": "Borg vessel: Denial acknowledged. Data will be obtained by observation.",
               "next": 3
             },
             {
-              "label": "Data, verify those three items against FCA schedules.",
-              "crew_reply": "Lt. Commander Data: Captain, only the first two exist, and only with proper pre-filing. His transmission logs show no such filing. The third does not exist.",
+              "label": "Data, confirm whether it can derive that information from our current posture.",
+              "crew_reply": "Lt. Commander Data: Yes, Captain. Given time, it can extrapolate all three values from passive scans of our maneuvering and shield cycling.",
               "next": 3
             },
             {
-              "label": "Counselor, is he bluffing or protecting his reputation.",
-              "crew_reply": "Counselor Troi: He wants to leave with something he can call profit. He does not want the FCA to see that claim.",
+              "label": "Worf, move us directly between the Borg vessel and the outpost. If it wants readings, it takes them from us.",
+              "crew_reply": "Borg vessel: Interposition alters sampling geometry. We will adapt.",
               "next": 3
             }
           ]
         },
         {
           "crew": "Lt. Commander Data",
-          "line": "Captain, I am detecting Ferengi Commerce Authority traffic within six light-years. A regional auditor is operating in this sector. Ferengi captains typically avoid FCA attention when their documentation is irregular.",
+          "line": "Captain, the Borg vessel is not attempting assimilation. It is measuring our reaction time, our coordination with the monitoring post, and our willingness to transmit technical data under threat. Its power output remains below combat levels. This is a threat probe.",
           "options": [
             {
-              "label": "Picard: DaiMon Krug, shall I forward your entire claim to the FCA for validation.",
-              "crew_reply": "Ferengi DaiMon: NO! The FCA tax profit — they do not protect it.",
+              "label": "Picard: Borg vessel, you will transmit all sensor records you have gathered and depart Federation space immediately.",
+              "crew_reply": "Borg vessel: You claim authority over information. Authority is irrelevant.",
               "next": 4
             },
             {
-              "label": "Riker, prepare an FCA-format contested claim notice. Let him see we can send it.",
-              "crew_reply": "Commander Riker: Ready, Captain. One transmission and he will assume the auditor has seen everything.",
+              "label": "Picard: Number One, have the outpost broadcast sector-wide: Borg contact — do not return technical data.",
+              "crew_reply": "Commander Riker: Confirmed. The outpost is transmitting the warning.",
               "next": 4
             },
             {
-              "label": "La Forge, match his tractor quietly so he knows we can hold longer.",
-              "crew_reply": "Commander La Forge: Counterfield engaged, Captain. His power output is dropping. He knows it.",
+              "label": "La Forge: Deflector spike — scramble their sampling window.",
+              "crew_reply": "Commander La Forge: Pulse ready. It’ll dirty their readings for a few minutes.",
               "next": 4
             }
           ]
         },
         {
-          "crew": "Commander Riker",
-          "line": "Captain, he's easing off the tractor, but he's insisting on leaving with something he can call profit. If he can't, he may still broadcast the lien.",
+          "crew": "Borg vessel",
+          "line": "Evaluation disrupted. Federation units refuse tactical disclosure. Sample set incomplete. Further adaptation required. We will withdraw and return with sufficient assets.",
           "options": [
             {
-              "label": "Authorize removal of damaged, low-value containers only. No mission cargo.",
-              "crew_reply": "Ferengi DaiMon: Even scraps can be written as profit. I accept.",
+              "label": "Picard: When you return, you will find the Federation better prepared than we were at Wolf 359 — and ready to deny you the data you seek.",
+              "crew_reply": "Borg vessel: Preparation will be assimilated.",
               "next": null
             },
             {
-              "label": "Offer him 30 days docking priority at Rallien. It costs us nothing.",
-              "crew_reply": "Ferengi DaiMon: Priority now, larger profit later. Acceptable.",
+              "label": "Picard: Number One, track them until they go to warp and forward the full signature to Sector Command.",
+              "crew_reply": "Commander Riker: Aye, Captain. We have them — transmitting now.",
               "next": null
             },
             {
-              "label": "Picard: DaiMon Krug, if you broadcast this lien, we will transmit your entire, unedited claim — including the invented fee — to the FCA auditor in sector. Starfleet trade will receive the same packet.",
-              "crew_reply": "Ferengi DaiMon: …You would hand my profit to the FCA? Very well, human. I will take your lesser offer.",
+              "label": "Picard: Mr. Worf, maintain red alert until the Borg are out of sensor range.",
+              "crew_reply": "Lt. Worf: Yes sir. Alert level one confirmed.",
               "next": null
             }
           ]
@@ -2384,37 +2386,37 @@
       "reflection": [
         {
           "crew": "Captain Picard",
-          "line": "Once he believed the FCA might see his claim, cooperation became the only profitable course."
+          "line": "When the Borg start telling you what they lack, they intend to return for it."
         },
         {
-          "crew": "Commander Riker",
-          "line": "Give a Ferengi one unchallenged fee and he'll invent three more."
+          "crew": "Lt. Worf",
+          "line": "Then we should meet them the same way — speaking less, preparing more."
         }
       ],
       "debriefs": [
         {
           "result": "success",
-          "text": "Threatening FCA scrutiny while offering a symbolic concession convinced the Ferengi DaiMon to release Rallien Station. Trade resumed within the hour."
+          "text": "By placing the Enterprise between the Borg vessel and the monitoring post, the crew forced the probe to sample the flagship instead of the weaker installation, denying it a clear read on Federation fixed defenses."
         },
         {
           "result": "success",
-          "text": "By preserving the Ferengi captain’s ability to claim a small profit, the Enterprise prevented escalation or a sector-wide complaint to the FCA."
+          "text": "The monitoring post’s sector-wide warning prevented other Starfleet assets from replying with technical data, keeping the Borg dataset incomplete."
         },
         {
           "result": "success",
-          "text": "Granting temporary docking priority cost Starfleet nothing and maintained access to Ferengi trade in the corridor."
+          "text": "A timed deflector pulse degraded the Borg probe’s sensor fidelity long enough for Starfleet to capture a complete warp signature for future threat indexing."
         },
         {
           "result": "failure",
-          "text": "Refusing any face-saving exit prompted the Ferengi to broadcast the incident to the FCA. An audit vessel impounded the station’s traffic records, delaying operations."
+          "text": "A junior operator at the monitoring post replied to the Borg probe with status telemetry before the lockdown was in place, giving the Collective partial response timings."
         },
         {
           "result": "failure",
-          "text": "A premature show of force allowed the Ferengi to claim Federation aggression, drawing in additional Ferengi vessels to verify the lien."
+          "text": "Enterprise did not fully occlude the monitoring post; the Borg were able to infer baseline shield modulation and local alert transition time."
         },
         {
           "result": "failure",
-          "text": "Station personnel attempted to break the tractor lock on their own and damaged cargo-handling systems. The Ferengi recorded the incident and sold it to a rival trading house."
+          "text": "The Borg probe was allowed to depart with its collected observations, which are expected to be integrated into a larger Borg assessment of Federation defensive posture in Sector 441."
         }
       ]
     }
