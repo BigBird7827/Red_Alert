@@ -2283,7 +2283,7 @@
           "options": [
             {
               "label": "On screen.",
-              "crew_reply": "Borg vessel: Commander Riker: Aye, sir. Borg vessel on the main viewscreen.",
+              "crew_reply": "Commander Riker: Aye, sir. Borg vessel on the main viewscreen.",
               "next": 1
             },
             {
@@ -2293,7 +2293,7 @@
             },
             {
               "label": "Data, correlate this vessel with the construct we encountered near Earth. I want to know if this is a follow up.",
-              "crew_reply": "Borg vessel: Lt. Commander Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
+              "crew_reply": "Lt. Commander Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
               "next": 1
             }
           ]
@@ -2329,12 +2329,12 @@
               "next": 3
             },
             {
-              "label": "Picard: Data, confirm whether it can derive that information from our current posture.",
+              "label": "Data, confirm whether it can derive that information from our current posture.",
               "crew_reply": "Lt. Commander Data: Yes, Captain. Given time, it can extrapolate all three values from passive scans of our maneuvering and shield cycling.",
               "next": 3
             },
             {
-              "label": "Picard: Worf, move us directly between the Borg vessel and the outpost. If it wants readings, it takes them from us.",
+              "label": "Worf, move us directly between the Borg vessel and the outpost. If it wants readings, it takes them from us.",
               "crew_reply": "Borg vessel: Interposition alters sampling geometry. We will adapt.",
               "next": 3
             }
@@ -2355,7 +2355,7 @@
               "next": 4
             },
             {
-              "label": "Picard: Deflector spike — scramble their sampling window.",
+              "label": "La Forge: Deflector spike — scramble their sampling window.",
               "crew_reply": "Commander La Forge: Pulse ready. It’ll dirty their readings for a few minutes.",
               "next": 4
             }
