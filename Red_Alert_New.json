@@ -2287,13 +2287,13 @@
               "next": 1
             },
             {
-              "label": "Mr. Worf, red alert. Prepare a full spread of photon torpedoes, but hold fire.",
+              "label": "Red alert. Word, prepare a full spread of photon torpedoes, but hold fire.",
               "crew_reply": "Lt. Worf: Red Alert! Photon torpedoes standing by, Captain.",
               "next": 1
             },
             {
               "label": "Data, correlate this vessel with the construct we encountered near Earth. I want to know if this is a follow up.",
-              "crew_reply": "Lt. Commander Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
+              "crew_reply": "Data: Signal geometry matches the previous Borg construct, Captain. This is likely a response unit.",
               "next": 1
             }
           ]
@@ -2350,12 +2350,12 @@
               "next": 4
             },
             {
-              "label": "Picard: Number One, have the outpost broadcast sector-wide: Borg contact — do not return technical data.",
+              "label": "Number One, have the outpost broadcast sector-wide: Borg contact — do not return technical data.",
               "crew_reply": "Commander Riker: Confirmed. The outpost is transmitting the warning.",
               "next": 4
             },
             {
-              "label": "La Forge: Deflector spike — scramble their sampling window.",
+              "label": "La Forge, Send a Deflector spike — scramble their sampling window.",
               "crew_reply": "Commander La Forge: Pulse ready. It’ll dirty their readings for a few minutes.",
               "next": 4
             }
