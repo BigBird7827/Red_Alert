@@ -696,6 +696,22 @@ header.lcars{position:relative}
   }
 </style>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style id="cc-tabs-align-title-final">#episode-tabs-wrap{display:flex;align-items:center;justify-content:center}#episode-tabs-wrap #episode-section-title{display:flex;align-items:center;line-height:1;margin:0;transform:translateY(-3px)!important}</style>
 
 <style id="cc-tab-colors">#episode-tabs .lcars-tab{--tab-fg:#111;--tab-bg:#e7e7e7;--tab-bg-hover:#dcdcdc;--tab-border:rgba(0,0,0,.15);color:var(--tab-fg);background:var(--tab-bg);border:1px solid var(--tab-border);border-radius:999px;padding:6px 14px;font-weight:600;letter-spacing:.02em;transition:transform .05s ease,background-color .12s ease,box-shadow .12s ease}#episode-tabs .lcars-tab:hover{background:var(--tab-bg-hover);transform:translateY(-1px)}#episode-tabs .lcars-tab[data-active="1"]{box-shadow:inset 0 -2px 0 rgba(0,0,0,.12),0 0 0 2px rgba(255,255,255,.2);transform:none}#episode-tabs .lcars-tab:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(255,255,255,.6),0 0 0 5px rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="All"]{--tab-fg:#1a1a1a;--tab-bg:#f0f0f0;--tab-bg-hover:#e6e6e6;--tab-border:rgba(0,0,0,.15)}#episode-tabs .lcars-tab[data-tab="Tactical"]{--tab-fg:#fff;--tab-bg:#c62828;--tab-bg-hover:#b71c1c;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Science"]{--tab-fg:#fff;--tab-bg:#1565c0;--tab-bg-hover:#0d47a1;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Temporal"]{--tab-fg:#fff;--tab-bg:#6a1b9a;--tab-bg-hover:#4a148c;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Engineering"]{--tab-fg:#111;--tab-bg:#ffb300;--tab-bg-hover:#ffa000;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Medical"]{--tab-fg:#fff;--tab-bg:#2e7d32;--tab-bg-hover:#1b5e20;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Diplomacy"]{--tab-fg:#fff;--tab-bg:#00838f;--tab-bg-hover:#006064;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Ethics"]{--tab-fg:#111;--tab-bg:#ffd54f;--tab-bg-hover:#ffca28;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Prime Directive"]{--tab-fg:#111;--tab-bg:#fbc02d;--tab-bg-hover:#f9a825;--tab-border:rgba(0,0,0,.25)}#episode-tabs .lcars-tab[data-tab="Humanitarian"]{--tab-fg:#111;--tab-bg:#8bc34a;--tab-bg-hover:#7cb342;--tab-border:rgba(0,0,0,.25)}</style>
@@ -812,6 +828,8 @@ async function loadScenarios(){
 }
 function fadeTransition(el,newHTML){el.innerHTML=newHTML}
 function displayScenario(index){
+  const portrait = document.getElementById('crew-portrait');
+  if (portrait) portrait.style.display = 'flex';
   setPortrait('Picard');
   currentScenario=index;currentNode=0;missionActive=false
   const dialog=document.getElementById('dialog')
@@ -905,7 +923,6 @@ function renderDialogueNode() {
 
 function findCrewNameFromText(text) {
   const lower = text.toLowerCase();
-
   if (lower.includes("borg vessel")) return "Borg";
 
   if (
@@ -956,13 +973,13 @@ function findCrewNameFromText(text) {
     lower.includes("lt. worf") ||
     lower.includes("lieutenant worf")
   ) return "Worf";
-
-  if (
-    lower.includes("nausicaan") ||
-    lower.includes("nausicaans")
-  ) return "Nausicaan";
-
-  if (
+ 
+ if (
+	lower.includes("nausicaan") ||
+	lower.includes("nausicaans"))
+	return "Nausicaan";
+  
+   if (
     lower.includes("o'brien") ||
     lower.includes("obrien") ||
     lower.includes("chief o'brien") ||
@@ -972,6 +989,7 @@ function findCrewNameFromText(text) {
 
   return "Default";
 }
+
 
       const crewName = findCrewNameFromText(this.textContent);
       setPortrait(crewName);
