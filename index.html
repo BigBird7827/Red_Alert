@@ -653,6 +653,140 @@ header.lcars{position:relative}
 <style id="cc-badge-svg-visible">
   #episode-list .menu-row .t .mission-badge svg { display: inline-block !important; }
 </style>
+
+<style id="cc-tabs-layout">
+  /* Center title + tabs on one row; tabs sit to the right with clear separation */
+  #episode-tabs-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* center the whole row */
+    flex-wrap: wrap;           /* wrap on narrow screens */
+    gap: 10px 24px;            /* row gap, col gap */
+    margin: 12px 0 16px;
+  }
+  #episode-section-title {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    line-height: 1.2;
+  }
+  #episode-tabs {
+    display: flex;
+    align-items: center;
+    gap: 8px;                  /* space between buttons */
+    margin-left: 8px;          /* small nudge to the right of the title */
+  }
+  #episode-tabs .lcars-tab[data-active="1"] {
+    /* keep existing theme; ensure active has no layout shift */
+    transform: none;
+  }
+  /* Mobile: stack title above tabs cleanly */
+  @media (max-width: 640px) {
+    #episode-tabs-wrap { flex-direction: column; gap: 6px; }
+    #episode-tabs { margin-left: 0; }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+<style id="cc-tabs-align-title-final">
+  /* Lock title alignment without observers; stronger selector + !important */
+  #episode-tabs-wrap{ display:flex; align-items:center; justify-content:center; }
+  #episode-tabs-wrap #episode-section-title{
+    display:flex;
+    align-items:center;
+    line-height:1;
+    margin:0;
+    transform: translateY(-3px) !important;
+  }
+</style>
+
+
+<style id="cc-tab-colors">
+  /* Base look */
+  #episode-tabs .lcars-tab {
+    --tab-fg: #111;
+    --tab-bg: #e7e7e7;
+    --tab-bg-hover: #dcdcdc;
+    --tab-border: rgba(0,0,0,0.15);
+    color: var(--tab-fg);
+    background: var(--tab-bg);
+    border: 1px solid var(--tab-border);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    transition: transform .05s ease, background-color .12s ease, box-shadow .12s ease;
+  }
+  #episode-tabs .lcars-tab:hover { background: var(--tab-bg-hover); transform: translateY(-1px); }
+  #episode-tabs .lcars-tab[data-active="1"] {
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.12), 0 0 0 2px rgba(255,255,255,0.2);
+    transform: none;
+  }
+  #episode-tabs .lcars-tab:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.6), 0 0 0 5px rgba(0,0,0,0.25);
+  }
+
+  /* Palette by label (primary colors + close variants) */
+  #episode-tabs .lcars-tab[data-tab="All"]{
+    --tab-fg: #1a1a1a; --tab-bg: #f0f0f0; --tab-bg-hover:#e6e6e6; --tab-border: rgba(0,0,0,0.15);
+  }
+  #episode-tabs .lcars-tab[data-tab="Tactical"]{
+    --tab-fg: #fff; --tab-bg:#c62828; --tab-bg-hover:#b71c1c; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Science"]{
+    --tab-fg:#fff; --tab-bg:#1565c0; --tab-bg-hover:#0d47a1; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Temporal"]{
+    --tab-fg:#fff; --tab-bg:#6a1b9a; --tab-bg-hover:#4a148c; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Engineering"]{
+    --tab-fg:#111; --tab-bg:#ffb300; --tab-bg-hover:#ffa000; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Medical"]{
+    --tab-fg:#fff; --tab-bg:#2e7d32; --tab-bg-hover:#1b5e20; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Diplomacy"]{
+    --tab-fg:#fff; --tab-bg:#00838f; --tab-bg-hover:#006064; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Ethics"]{
+    --tab-fg:#111; --tab-bg:#ffd54f; --tab-bg-hover:#ffca28; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Prime Directive"]{
+    --tab-fg:#111; --tab-bg:#fbc02d; --tab-bg-hover:#f9a825; --tab-border: rgba(0,0,0,0.25);
+  }
+  #episode-tabs .lcars-tab[data-tab="Humanitarian"]{
+    --tab-fg:#111; --tab-bg:#8bc34a; --tab-bg-hover:#7cb342; --tab-border: rgba(0,0,0,0.25);
+  }
+</style>
+
+<script id="cc-tab-colorize">
+(function(){
+  function tag() {
+    var btns = document.querySelectorAll('#episode-tabs .lcars-tab');
+    if (!btns.length) return;
+    btns.forEach(function(b){
+      var label = (b.textContent || '').trim();
+      if (label) b.setAttribute('data-tab', label);
+    });
+  }
+  // Try a few times in case JSON load/render is async; no infinite observers
+  if (document.readyState !== 'loading') tag();
+  document.addEventListener('DOMContentLoaded', tag);
+  setTimeout(tag, 300);
+  setTimeout(tag, 800);
+  setTimeout(tag, 1600);
+})();
+</script>
+
 </head>
 <body>
 
@@ -1890,82 +2024,182 @@ el.addEventListener('click', () => { saveTab(name); applyFilters(); });
 </script>
 
 
-<script id="cc-mission-type-mark">
+
+
+
+
+
+
+<!-- BEGIN: Badge Fallback (auto-classify) -->
+<script id="badge-fallback-autoclassify">
 (function(){
-  function markMissionType(){
-    const tiles = document.querySelectorAll('#episode-list .menu-row .t');
-    tiles.forEach(t => {
-      const badge = t.querySelector('.mission-badge');
-      if (!badge) return;
-      // Find the first element *after* the badge; that's the mission-type label
-      let el = badge.nextSibling;
-      while (el && el.nodeType !== 1) el = el.nextSibling;
-      if (el && !el.classList.contains('mission-type')) el.classList.add('mission-type');
+  'use strict';
+
+  var SIXIMG = (typeof window.SIXIMG !== 'undefined') ? window.SIXIMG : {
+    "Science": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Science.png",
+    "Medical": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Medical.png",
+    "Command": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Command.png",
+    "Diplomacy": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Diplomacy.png",
+    "Engineering": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Engineering.png",
+    "Security": "https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Badges/Security.png"
+  };
+
+  function badgeHTML(label){
+    var url = SIXIMG[label];
+    if (url){
+      return '<img class="badge-img" src="'+url+'" alt="'+label+' badge" loading="lazy"/>' +
+             '<span class="mission-type">'+label+'</span>';
+    }
+    return '<span class="mission-type">'+label+'</span>';
+  }
+
+  function scoreLabel(text){
+    var t = String(text || '').toLowerCase();
+    var score = {Medical:0, Diplomacy:0, Engineering:0, Science:0, Security:0};
+
+    function add(words, key, weight){
+      for (var i=0; i<words.length; i++){
+        if (t.indexOf(words[i]) !== -1) score[key] += (weight || 1);
+      }
+    }
+
+    add(['pathogen','virus','infection','sickbay','biofilter','medical','doctor','neural','genome','casualty','quarantine','inoculation','antidote'], 'Medical', 2);
+    add(['romulan','klingon','neutral zone','treaty','ambassador','diplomatic','asylum','negotiation','accord','protocol','prime directive'], 'Diplomacy', 2);
+    add(['warp','deflector','plasma','graviton','singularity','structural','containment','engineering','power grid','phase inverter','plasma conduit'], 'Engineering', 1.5);
+    add(['anomaly','subspace','temporal','resonance','quantum','echo','crystal','micro-singularity','signal','sensor','harmonic'], 'Science', 1.2);
+    add(['ambush','attack','threat','weapons','security','pirate','hostile','tactical','phaser','torpedo','intruder'], 'Security', 1);
+
+    var best = 'Command', bestScore = 0;
+    for (var k in score){ if (score[k] > bestScore){ bestScore = score[k]; best = k; } }
+    return bestScore > 0 ? best : 'Command';
+  }
+
+  function ensureBadges(){
+    var list = document.getElementById('episode-list'); if (!list) return;
+    var rows = list.querySelectorAll('.menu-row');
+    rows.forEach(function(row){
+      var t = row.querySelector('.t'); if (!t) return;
+      var title = (t.textContent || '').trim();
+      var msgEl = row.querySelector('.m');
+      var msg = msgEl ? (msgEl.textContent || '').trim() : '';
+      var badge = t.querySelector('.mission-badge');
+      if (!badge){
+        badge = document.createElement('span');
+        badge.className = 'mission-badge';
+        t.insertBefore(badge, t.firstChild);
+      }
+      if (!badge.innerHTML || /^\s*(?:&nbsp;)?\s*$/.test(badge.innerHTML)){
+        var label = scoreLabel(title + ' ' + msg);
+        badge.innerHTML = badgeHTML(label);
+      }
     });
   }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', markMissionType);
-  else markMissionType();
-  // Run again after potential async menu renders
-  setTimeout(markMissionType, 300);
-  setTimeout(markMissionType, 1000);
+
+  function patchRenders(){
+    if (typeof window.renderMenu === 'function' && !window.renderMenu.__badgeFallback){
+      var orig1 = window.renderMenu;
+      window.renderMenu = function(){
+        try { orig1.apply(this, arguments); }
+        finally { setTimeout(ensureBadges, 0); setTimeout(ensureBadges, 300); }
+      };
+      window.renderMenu.__badgeFallback = true;
+    }
+    if (typeof window.returnToMenu === 'function' && !window.returnToMenu.__badgeFallback){
+      var orig2 = window.returnToMenu;
+      window.returnToMenu = function(){
+        try { orig2.apply(this, arguments); }
+        finally { setTimeout(ensureBadges, 0); }
+      };
+      window.returnToMenu.__badgeFallback = true;
+    }
+  }
+
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', function(){
+      patchRenders(); ensureBadges(); setTimeout(ensureBadges, 300); setTimeout(ensureBadges, 1000);
+    });
+  } else {
+    patchRenders(); ensureBadges(); setTimeout(ensureBadges, 300); setTimeout(ensureBadges, 1000);
+  }
 })();
 </script>
+<!-- END: Badge Fallback (auto-classify) -->
 
 
-<script id="cc-mission-type-wrap-fix">
-(function(){
-  function ensureGoldMissionType(){
-    const tiles = document.querySelectorAll('#episode-list .menu-row .t');
-    tiles.forEach(t => {
-      const badge = t.querySelector('.mission-badge');
-      if (!badge) return;
 
-      // Identify the node directly beneath the badge
-      let sib = badge.nextSibling;
 
-      // If it's whitespace/text, wrap it in <span class="mission-type">
-      if (sib && sib.nodeType === Node.TEXT_NODE){
-        const text = sib.textContent.trim();
-        if (text){
-          const span = document.createElement('span');
-          span.className = 'mission-type';
-          span.textContent = text;
-          t.insertBefore(span, sib);
-        }
-        t.removeChild(sib);
-        return;
-      }
 
-      // If it's an element, tag it (or its first text container) as mission-type
-      if (sib && sib.nodeType === Node.ELEMENT_NODE){
-        // If it's already a simple inline (SPAN/A/EM/STRONG), tag directly
-        const tag = sib.tagName;
-        if (!sib.classList.contains('mission-type') &&
-            (tag === 'SPAN' || tag === 'A' || tag === 'EM' || tag === 'STRONG' || tag === 'DIV')){
-          sib.classList.add('mission-type');
-        } else if (!sib.classList.contains('mission-type')) {
-          // Fallback: wrap its text
-          const span = document.createElement('span');
-          span.className = 'mission-type';
-          span.textContent = sib.textContent;
-          sib.replaceChildren(span);
-        }
-      }
-    });
+
+
+<!-- Optional: for file:// testing only. Remove in production.
+<script type="application/json" id="embedded-red-alert-json">
+{ "story_names": ["Ambush","Override Protocols"], "story_tabs": { "Ambush":"Tactical","Override Protocols":"Security" } }
+</script>
+-->
+
+
+
+
+
+
+
+
+<script id="cc-dynamic-singleword-tabs">
+(function(){'use strict';
+  var JSON_URL = 'https://raw.githubusercontent.com/BigBird7827/Red_Alert/main/Red_Alert_New.json';
+  var STORE_KEY = 'redalert_menu_visual_pack_v1';
+  var ORDER = ["All", "Tactical", "Science", "Temporal", "Engineering", "Medical", "Diplomacy", "Ethics", "Prime Directive", "Humanitarian"];
+
+  function titleFromRow(row){var t=row.querySelector('.t'); if(!t) return ''; var c=t.cloneNode(true); var b=c.querySelector('.mission-badge'); if(b) b.remove(); return (c.textContent||'').trim();}
+  function filterRows(currentTab, storyTabs){var rows=document.querySelectorAll('#episode-list .menu-row'); rows.forEach(function(row){var title=titleFromRow(row); var type=storyTabs[title]||''; var show=(currentTab==='All')||(type===currentTab); row.style.display=show?'':'none';});}
+
+  function ensureTabsHost(){var list=document.getElementById('episode-list'); var parent=(list&&list.parentNode)||document.body; var wrap=document.getElementById('episode-tabs-wrap'); if(!wrap){ wrap=document.createElement('div'); wrap.id='episode-tabs-wrap'; var title=document.createElement('div'); title.id='episode-section-title'; wrap.appendChild(title); var tabs=document.createElement('div'); tabs.id='episode-tabs'; wrap.appendChild(tabs); if(list) parent.insertBefore(wrap, list); else parent.appendChild(wrap); } return { wrap:wrap, tabs:document.getElementById('episode-tabs'), title:document.getElementById('episode-section-title') }; }
+
+  function buildTabs(types, onPick){var host=ensureTabsHost(); var tabs=host.tabs;
+    function setActive(label){Array.prototype.forEach.call(tabs.children, function(b){var active=(b.textContent===label); if(active) b.setAttribute('data-active','1'); else b.removeAttribute('data-active');}); var sec=document.getElementById('episode-section-title'); if(sec) sec.textContent=(label==='All')?'':label; }
+    function makeBtn(label, active){var btn=document.createElement('button'); btn.type='button'; btn.className='lcars-tab'; btn.textContent=label; btn.addEventListener('click', function(){ try{sessionStorage.setItem(STORE_KEY,label);}catch(_){ } setActive(label); onPick(label); }); if(active) btn.setAttribute('data-active','1'); return btn; }
+    tabs.innerHTML=''; tabs.appendChild(makeBtn('All', true)); types.forEach(function(t){ tabs.appendChild(makeBtn(t,false)); }); setActive('All');
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ensureGoldMissionType);
-  else ensureGoldMissionType();
+  function boot(){fetch(JSON_URL, { cache:'no-store' }).then(function(r){ return r.ok ? r.json() : Promise.reject(new Error('HTTP '+r.status)); }).then(function(j){
+      var stories = (j && Array.isArray(j.stories)) ? j.stories : [];
+      var names   = Array.isArray(j && j.story_names) ? j.story_names : (stories.length ? stories.map(function(s){ return s && s.story_name; }).filter(Boolean) : []);
+      var tabsMap = (j && j.story_tabs && typeof j.story_tabs==='object') ? j.story_tabs : {};
 
-  // Re-run after potential async re-renders
-  setTimeout(ensureGoldMissionType, 300);
-  setTimeout(ensureGoldMissionType, 1000);
+      if(stories.length){
+        window.scenarios = stories.map(function(s){
+          return {
+            story_name: String(s && s.story_name || ''),
+            starfleet_message: String(s && s.starfleet_message || '')
+          };
+        });
+        if (typeof renderMenu==='function') try{ renderMenu(); }catch(_){ }
+      } else if (names.length){
+        window.scenarios = names.map(function(n){ return { story_name:String(n) }; });
+        if (typeof renderMenu==='function') try{ renderMenu(); }catch(_){ }
+      }
+
+      var present = new Set();
+      names.forEach(function(n){ var t=tabsMap[n]; if(t) present.add(t); });
+      if(!present.size){ Object.keys(tabsMap).forEach(function(k){ if(tabsMap[k]) present.add(tabsMap[k]); }); }
+
+      var types = ORDER.filter(function(t){ return present.has(t); });
+      Array.from(present).sort().forEach(function(t){ if (ORDER.indexOf(t) === -1) types.push(t); });
+
+      var current='All'; function pick(tab){ current=tab; filterRows(current, tabsMap); }
+      if(types.length) buildTabs(types, pick);
+
+      try{ if(typeof addBadges==='function') addBadges(); }catch(_){}
+      filterRows(current, tabsMap);
+
+      if (typeof renderMenu==='function' && !renderMenu.__ccDynJsonMap){ var o=renderMenu; window.renderMenu=function(){ try{ o.apply(this, arguments); } finally { filterRows(current, tabsMap); } }; renderMenu.__ccDynJsonMap = true; }
+    }).catch(function(e){
+      console.error('[cc-tabs] JSON load failed; leaving original UI untouched:', e);
+    }); }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
 </script>
 
 </body>
-
 </html>
-
-
-
