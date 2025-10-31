@@ -791,7 +791,8 @@ function normalizeCrewName(name) {
   if (!name) return "Default";
   return String(name)
     .replace(/^(Captain|Commander|Lt\.|Lieutenant|Doctor|Dr\.|Counselor|Counsellor)\s+/i, '')
-    .replace(/^Chief\s+O['’]?Brien$/i, "O'Brien") // keep canonical O'Brien
+    .replace(/^Borg\s+vessel$/i, "Borg")
+    .replace(/^Chief\s+O['’]?Brien$/i, "O'Brien")
     .trim();
 }
 
