@@ -16,7 +16,8 @@
     "Signal at Solitude Point",
     "Override Protocols",
     "A Question of Profit",
-    "Second Contact"
+    "Second Contact",
+    "Embrali"
   ],
   "story_tabs": {
     "Reflections of the Mind": "Science",
@@ -35,7 +36,8 @@
     "Signal at Solitude Point": "Science",
     "Override Protocols": "Tactical",
     "A Question of Profit": "Command",
-    "Second Contact": "Tactical"
+    "Second Contact": "Tactical",
+    "Embrali": "Humanitarian"
   },
   "stories": [
     {
@@ -2417,6 +2419,180 @@
         {
           "result": "failure",
           "text": "The Borg probe was allowed to depart with its collected observations, which are expected to be integrated into a larger Borg assessment of Federation defensive posture in Sector 441."
+        }
+      ]
+    },
+    {
+      "story_name": "Embrali",
+      "starfleet_message": "Captain’s Log, Stardate 47692.4 — Starfleet Command has forwarded a priority message from an extra-spatial intelligence identifying itself as Embrali. In the transmission, Embrali referenced our recorded encounter with the entity known as Nagilum and described himself as a “related consciousness” — not a duplicate, but another mind formed in adjacent subspace strata. Unlike Nagilum, Embrali is not hostile and has appealed to the Federation for help. The subspace pocket in which he exists is collapsing. If it fails completely, he will cease to exist. Starfleet has directed the Enterprise to establish contact and render assistance.",
+      "mission_description": "An extra-spatial intelligence calling itself Embrali has reported that the subspace pocket it inhabits is collapsing. If the pocket fails, Embrali will cease to exist. The Enterprise is ordered to establish contact and attempt in-situ stabilization of the pocket from inside the subspace stratum where Embrali resides. Operations conducted inside this layer may produce sensor and time-reference drift, partial suppression of shipboard fields, and unreliable transporter pattern locks; all personnel and systems working in-layer will require continuous monitoring and a secure subspace tether to the ship.",
+      "dialogue_tree": [
+        {
+          "crew": "Captain Picard",
+          "line": "Embrali, this is Captain Jean-Luc Picard of the Federation starship Enterprise. Starfleet has forwarded your request — we are here to assist and are prepared to enter your subspace layer.",
+          "options": [
+            {
+              "label": "You identified yourself as related to Nagilum. Explain that relationship.",
+              "crew_reply": "Embrali: Formed in adjacent folds. Similar awareness, different intent. I study continuance, not endings.",
+              "next": 1
+            },
+            {
+              "label": "Describe the nature of the collapse. How fast is your pocket failing?",
+              "crew_reply": "Embrali: Boundaries are thinning in waves. Each wave takes more of me. I cannot widen the walls from within. If the collapse continues, I will be consumed.",
+              "next": 1
+            },
+            {
+              "label": "We may have to work inside your strata. Can you limit the danger to my ship?",
+              "crew_reply": "Embrali: I can narrow turbulence around your form. Enter, and I will hold a path.",
+              "next": 1
+            }
+          ]
+        },
+        {
+          "crew": "Commander La Forge",
+          "line": "Captain, to reach Embrali’s layer we’ll have to project a narrow subspace corridor from our deflector and match his pocket’s current frequency. Once we’re inside, expect sensor drift and partial field compression. We can expect some pretty heavy turbulence inside, Captain.",
+          "options": [
+            {
+              "label": "Proceed with the corridor, Geordi.",
+              "crew_reply": "Commander La Forge: Aye, Captain. Forming a tight corridor now… we’ll have limited maneuvering room once we’re through.",
+              "next": 2
+            },
+            {
+              "label": "Data, tune our insertion path to Embrali’s pattern. Keep the corridor as stable as possible.",
+              "crew_reply": "Lt. Commander Data: Understood, Captain. I'll phase the corridor to Embrali’s signature and dampen any oscillations before we enter.",
+              "next": 2
+            },
+            {
+              "label": "La Forge, route real-time corridor stress to the bridge display.",
+              "crew_reply": "Commander La Forge: Done. You’ll see shear spikes as they hit us, Captain.",
+              "next": 2
+            }
+          ]
+        },
+        {
+          "crew": "Embrali",
+          "line": "I feel your vessel pressing through. Your corridor holds, but the current is cutting at its edges. My pocket continues to thin.",
+          "options": [
+            {
+              "label": "Picard: We are inside your layer now. Show us the weakest points.",
+              "crew_reply": "Embrali: The fractures spiral around me. I will mark the thinnest ring for your instruments.",
+              "next": 3
+            },
+            {
+              "label": "Data: Begin in-layer mapping. I need a live collapse profile.",
+              "crew_reply": "Lt. Commander Data: Mapping now, Captain. The pocket is losing cohesion asymmetrically — starboard of our entry vector is most at risk.",
+              "next": 3
+            },
+            {
+              "label": "La Forge: Embrali, I can brace the corridor, but I need you to reduce that shear.",
+              "crew_reply": "Embrali: I will narrow the current where you stand. Hold your field steady.",
+              "next": 3
+            }
+          ]
+        },
+        {
+          "crew": "Lt. Commander Data",
+          "line": "Captain, in-layer mapping is complete. Embrali’s pocket is losing cohesion along the ring he indicated. If uncorrected, the collapse front will reach his core in approximately three minutes.",
+          "options": [
+            {
+              "label": "Picard: Geordi, reinforce that ring in sequence. Keep our corridor stable.",
+              "crew_reply": "Commander La Forge: On it, Captain. I’ll sequence the reinforcement around the ring — expect a few spikes while it settles.",
+              "next": 4
+            },
+            {
+              "label": "Picard: Embrali, we may be able to offload part of your pattern into our corridor field to buy you some time.",
+              "crew_reply": "Embrali: This is acceptable. A borrowed room is better than erasure.",
+              "next": 4
+            },
+            {
+              "label": "Picard: Embrali, hold your boundary while we brace it from our side.",
+              "crew_reply": "Embrali: I will harden the rim. Do not delay. The current still eats.",
+              "next": 4
+            }
+          ]
+        },
+        {
+          "crew": "Commander La Forge",
+          "line": "Transfer is underway, Captain. We’ve got about twenty-three percent of Embrali’s pattern riding in our corridor field. The strata is pushing back — I’m seeing shear spikes along the forward edge.",
+          "options": [
+            {
+              "label": "Picard: Keep the corridor intact, Geordi. Embrali’s transfer takes priority.",
+              "crew_reply": "Commander La Forge: Aye, Captain. I’ll bleed power from secondary systems to hold the corridor.",
+              "next": 5
+            },
+            {
+              "label": "Data: Narrow the corridor to match Embrali’s current density. Minimize the shear.",
+              "crew_reply": "Lt. Commander Data: Adjusting now, Captain. This will reduce turbulence but tighten our maneuvering margin.",
+              "next": 5
+            },
+            {
+              "label": "Picard: Embrali, maintain your boundary. Do not expand against us.",
+              "crew_reply": "Embrali: I will remain within your hold. Maintain coherence and I will adjust my shape to your field.",
+              "next": 5
+            }
+          ]
+        },
+        {
+          "crew": "Captain Picard",
+          "line": "Embrali, we have completed transfer of your pattern into a stabilized Federation enclosure inside your subspace layer. The collapse has been neutralized — your existence is no longer at risk.",
+          "options": [
+            {
+              "label": "Embrali: I confirm stability. This enclosure holds. I have continuance.",
+              "crew_reply": "Lt. Commander Data: Confirmed, Captain — the enclosure is maintaining uniform field density.",
+              "next": null
+            },
+            {
+              "label": "Picard: Data, run a long-term stability projection on the enclosure.",
+              "crew_reply": "Lt. Commander Data: Projection complete, Captain. At current settings the enclosure will remain stable indefinitely, provided routine Federation monitoring is maintained. Embrali is transmitting a signal of appreciation.",
+              "next": null
+            },
+            {
+              "label": "Picard: Geordi, stand down the temporary corridor and set course for Starbase 12.",
+              "crew_reply": "Commander La Forge: Aye, Captain. Corridor is down — course plotted and laid in, sir.",
+              "next": null
+            },
+            {
+              "label": "Picard: Data, engage, warp factor 5.",
+              "crew_reply": "Lt. Commander Data: Warp 5 engaged, sir.",
+              "next": null
+            }
+          ]
+        }
+      ],
+      "reflection": [
+        {
+          "crew": "Lt. Commander Data",
+          "line": "We now have confirmed evidence of two extra-spatial intelligences resident in subspace folds: Nagilum and Embrali. Since both emerged from adjacent strata but demonstrated divergent behavior, it is reasonable to predict the existence of additional entities with differing intent."
+        },
+        {
+          "crew": "Captain Picard",
+          "line": "Indeed, Data. The last one experimented with our very lives. This one asked for help."
+        }
+      ],
+      "debriefs": [
+        {
+          "result": "success",
+          "text": "The Enterprise stabilized Embrali’s pocket by transferring his pattern into a Federation enclosure inside his subspace layer. The collapse was neutralized, and Embrali confirmed stability and continuance."
+        },
+        {
+          "result": "success",
+          "text": "Maintaining a narrow in-layer corridor, the crew mapped the thinnest ring Embrali marked and sequenced reinforcement around it while he hardened the boundary. Stabilization held."
+        },
+        {
+          "result": "success",
+          "text": "Coordinated action between Picard, Data, and La Forge enabled a temporary offload that bought the time needed to complete the enclosure. The Enterprise stood down the corridor and set course for Starbase 12."
+        },
+        {
+          "result": "failure",
+          "text": "Sequencing reinforcement around the marked ring while holding a minimum-width corridor constrained follow-on work. For future cases, consider distributed reinforcement passes before ring sequencing, or periodic corridor widening to restore maneuvering margin."
+        },
+        {
+          "result": "failure",
+          "text": "Narrowing the corridor to Embrali’s density and carrying a fraction of his pattern reduced shear but significantly reduced maneuvering margin. A staged narrowing or time-boxed partial offload during shear spikes may offer a better trade."
+        },
+        {
+          "result": "failure",
+          "text": "Concurrent rim hardening by Embrali and Enterprise bracing left forward-edge shear spikes elevated. Alternating bracing with targeted damping or brief corridor widening may more effectively suppress spikes."
         }
       ]
     }
