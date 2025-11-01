@@ -926,6 +926,7 @@ function renderDialogueNode() {
 function findCrewNameFromText(text) {
   const lower = text.toLowerCase();
   if (lower.includes("borg vessel")) return "Borg";
+  if (lower.includes("embrali")) return "Embrali";
 
   if (
     lower.includes("picard") ||
@@ -2145,5 +2146,4 @@ el.addEventListener('click', () => { saveTab(name); applyFilters(); });
 
 </body>
 </html>
-
 
